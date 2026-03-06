@@ -1,13 +1,13 @@
 """
-Macro Sentinel - Report Generator v2
-수집된 데이터 → 규칙 기반 스코어 계산 → Gemini로 텍스트 분석 → report.json 저장
+Macro Sentinel - Report Generator v3
+google-genai 패키지 사용 (google.generativeai 대체)
 """
 
 import os
 import re
 import json
 import datetime
-import google.generativeai as genai
+from google import genai
 
 # ─────────────────────────────────────────
 # 설정
@@ -17,7 +17,7 @@ DATA_PATH   = "data/market_data.json"
 REPORT_PATH = "data/report.json"
 TODAY = datetime.date.today().isoformat()
 
-genai.configure(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 # ─────────────────────────────────────────
 # 규칙 기반 스코어 계산
@@ -39,11 +39,11 @@ def calc_scores(d):
     dxy   = d["fx"]["dxy"]["close"]
     tips  = d["rates"]["tips10y"]["value"]
 
-    scores["vix"]      = score(vix, [(18, "green"), (25, "yellow"), (999, "red")])
-    scores["hy_spread"]= score(hy,  [(4.0, "green"), (5.5, "yellow"), (999, "red")])
-    scores["rates"]    = score(us10y, [(4.2, "green"), (4.7, "yellow"), (999, "red")])
-    scores["dxy"]      = score(dxy, [(102, "green"), (106, "yellow"), (999, "red")])
-    scores["tips"]     = score(tips, [(1.5, "green"), (2.2, "yellow"), (999, "red")])
+    scores["vix"]       = score(vix,   [(18, "green"), (25, "yellow"), (999, "red")])
+    scores["hy_spread"] = score(hy,    [(4.0, "green"), (5.5, "yellow"), (999, "red")])
+    scores["rates"]     = score(us10y, [(4.2, "green"), (4.7, "yellow"), (999, "red")])
+    scores["dxy"]       = score(dxy,   [(102, "green"), (106, "yellow"), (999, "red")])
+    scores["tips"]      = score(tips,  [(1.5, "green"), (2.2, "yellow"), (999, "red")])
 
     if s2s10 is None:
         scores["curve"] = "gray"
@@ -100,15 +100,17 @@ WTI Oil: {d['commodities']['wti']['close']}
 Gold: {d['commodities']['gold']['close']}
 종합 판정: {scores['verdict']}
 
-아래 JSON만 출력하세요. 다른 텍스트 없이 JSON만:
+아래 JSON만 출력하세요. 마크다운 없이 JSON만:
 
 {{"section0_summary":"시장 좌표 요약 2-3줄","section1_fed":"Fed 금리 유동성 분석 3줄","section2_flow":"달러 자금흐름 분석 2줄","section3_sector":"섹터 로테이션 판독 2줄","section4_risk":"주요 리스크 2줄","bull_case":"강세 논거 2가지","bear_case":"약세 논거 2가지","verdict_reason":"최종 판정 근거 2줄","entry_triggers":["트리거1","트리거2","트리거3"],"key_events":[{{"date":"날짜","event":"이벤트","impact":"영향"}},{{"date":"날짜","event":"이벤트","impact":"영향"}}]}}"""
 
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash-exp")
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt
+        )
         text = response.text.strip()
-        print(f"Gemini 원본 응답 앞 300자: {text[:300]}")
+        print(f"Gemini 응답 앞 300자: {text[:300]}")
 
         # JSON 펜스 제거
         text = re.sub(r"^```json\s*", "", text)
@@ -120,7 +122,7 @@ Gold: {d['commodities']['gold']['close']}
 
     except json.JSONDecodeError as e:
         print(f"JSON 파싱 오류: {e}")
-        print(f"파싱 실패한 텍스트: {text[:500]}")
+        print(f"실패 텍스트: {text[:500]}")
         return _fallback()
     except Exception as e:
         print(f"Gemini 오류: {e}")
