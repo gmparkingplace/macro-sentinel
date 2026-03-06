@@ -37,7 +37,7 @@ jobs:
       # 5. 리포트 생성 실행
       - name: Generate report
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/generate_report.py
 
       # 6. 결과 파일을 저장소에 커밋 & 푸시
