@@ -26,7 +26,7 @@ jobs:
       # 3. 패키지 설치
       - name: Install dependencies
         run: |
-          pip install yfinance requests google-generativeai
+          pip install yfinance requests google-genai
 
       # 4. 데이터 수집 실행
       - name: Fetch market data
