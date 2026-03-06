@@ -1,23 +1,23 @@
 """
-Macro Sentinel - Report Generator v3
-google-genai 패키지 사용 (google.generativeai 대체)
+Macro Sentinel - Report Generator v4
+Groq API 사용 (Gemini 대체)
 """
 
 import os
 import re
 import json
 import datetime
-from google import genai
+from groq import Groq
 
 # ─────────────────────────────────────────
 # 설정
 # ─────────────────────────────────────────
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-DATA_PATH   = "data/market_data.json"
-REPORT_PATH = "data/report.json"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+DATA_PATH    = "data/market_data.json"
+REPORT_PATH  = "data/report.json"
 TODAY = datetime.date.today().isoformat()
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = Groq(api_key=GROQ_API_KEY)
 
 # ─────────────────────────────────────────
 # 규칙 기반 스코어 계산
@@ -79,9 +79,9 @@ def calc_scores(d):
     return scores
 
 # ─────────────────────────────────────────
-# Gemini 텍스트 분석
+# Groq 텍스트 분석
 # ─────────────────────────────────────────
-def gemini_analysis(d, scores):
+def groq_analysis(d, scores):
     prompt = f"""당신은 매크로 투자 분석가입니다. 아래 시장 데이터를 바탕으로 한국어로 분석하세요.
 
 오늘 날짜: {TODAY}
@@ -100,17 +100,28 @@ WTI Oil: {d['commodities']['wti']['close']}
 Gold: {d['commodities']['gold']['close']}
 종합 판정: {scores['verdict']}
 
-아래 JSON만 출력하세요. 마크다운 없이 JSON만:
+반드시 아래 JSON 형식만 출력하세요. 마크다운 코드블록 없이 순수 JSON만:
 
 {{"section0_summary":"시장 좌표 요약 2-3줄","section1_fed":"Fed 금리 유동성 분석 3줄","section2_flow":"달러 자금흐름 분석 2줄","section3_sector":"섹터 로테이션 판독 2줄","section4_risk":"주요 리스크 2줄","bull_case":"강세 논거 2가지","bear_case":"약세 논거 2가지","verdict_reason":"최종 판정 근거 2줄","entry_triggers":["트리거1","트리거2","트리거3"],"key_events":[{{"date":"날짜","event":"이벤트","impact":"영향"}},{{"date":"날짜","event":"이벤트","impact":"영향"}}]}}"""
 
     try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=prompt
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "당신은 매크로 투자 분석가입니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0.3,
+            max_tokens=1500,
         )
-        text = response.text.strip()
-        print(f"Gemini 응답 앞 300자: {text[:300]}")
+        text = response.choices[0].message.content.strip()
+        print(f"Groq 응답 앞 300자: {text[:300]}")
 
         # JSON 펜스 제거
         text = re.sub(r"^```json\s*", "", text)
@@ -125,7 +136,7 @@ Gold: {d['commodities']['gold']['close']}
         print(f"실패 텍스트: {text[:500]}")
         return _fallback()
     except Exception as e:
-        print(f"Gemini 오류: {e}")
+        print(f"Groq 오류: {e}")
         return _fallback()
 
 def _fallback():
@@ -151,8 +162,8 @@ def generate():
     scores = calc_scores(d)
     print(f"종합 판정: {scores['verdict']}")
 
-    print("Gemini 분석 중...")
-    analysis = gemini_analysis(d, scores)
+    print("Groq 분석 중...")
+    analysis = groq_analysis(d, scores)
 
     report = {
         "date": TODAY,
