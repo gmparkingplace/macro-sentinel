@@ -265,7 +265,7 @@ export default function Home() {
 
           {/* 시장 심리 */}
           <AccordionCard icon="🧠" title="시장 심리" score={scores.sentiment}
-            summary={`Fear & Greed: ${d.sentiment.fear_greed.score ?? "—"} (${d.sentiment.fear_greed.rating ?? "—"})`}>
+            summary={`Fear & Greed: ${d.sentiment?.fear_greed?.score ?? "—"} (${d.sentiment?.fear_greed?.rating ?? "—"})`}>
             <FearGreedGauge score={d.sentiment.fear_greed.score} rating={d.sentiment.fear_greed.rating} />
           </AccordionCard>
 
