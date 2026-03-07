@@ -83,28 +83,15 @@ def yf_sector_4w(ticker):
         return {"close": None, "change_pct": None, "change_4w": None, "pct_52w": None}
 
 def fetch_fear_greed():
-    """Alternative Fear & Greed via VIX + HY spread 계산"""
+    """CNN Fear & Greed Index"""
     try:
-        # VIX 기반 자체 계산 (CNN API 대체)
-        vix = yf.Ticker("^VIX").history(period="5d")["Close"].iloc[-1]
-        hy  = fred("BAMLH0A0HYM2")["value"]
-
-        # VIX 점수 (낮을수록 탐욕)
-        vix_score = max(0, min(100, 100 - (vix - 10) * 3))
-
-        # HY 스프레드 점수 (낮을수록 탐욕)
-        hy_score = max(0, min(100, 100 - (hy - 2) * 15)) if hy else 50
-
-        score = round((vix_score * 0.6 + hy_score * 0.4), 1)
-
-        if score >= 75:   rating = "Extreme Greed"
-        elif score >= 55: rating = "Greed"
-        elif score >= 45: rating = "Neutral"
-        elif score >= 25: rating = "Fear"
-        else:             rating = "Extreme Fear"
-
-        print(f"Fear & Greed (자체계산): {score} ({rating})")
-        return {"score": score, "rating": rating}
+        url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+        headers = {"User-Agent": "Mozilla/5.0"}
+        r = requests.get(url, headers=headers, timeout=10)
+        data = r.json()
+        score = data["fear_and_greed"]["score"]
+        rating = data["fear_and_greed"]["rating"]
+        return {"score": round(float(score), 1), "rating": rating}
     except Exception as e:
         print(f"Fear & Greed 오류: {e}")
         return {"score": None, "rating": None}
