@@ -52,10 +52,10 @@
   },
   "fx": {
     "dxy": {
-      "close": 98.86,
+      "close": 98.99,
       "prev_close": 99.32,
-      "change_pct": -0.46,
-      "pct_52w": 36.3
+      "change_pct": -0.33,
+      "pct_52w": 37.7
     },
     "usdkrw": {
       "close": 1479.51,
@@ -78,16 +78,16 @@
   },
   "commodities": {
     "wti": {
-      "close": 91.27,
+      "close": 90.9,
       "prev_close": 81.01,
-      "change_pct": 12.67,
-      "pct_52w": 96.4
+      "change_pct": 12.21,
+      "pct_52w": 95.5
     },
     "gold": {
-      "close": 5181.3,
+      "close": 5146.1,
       "prev_close": 5065.3,
-      "change_pct": 2.29,
-      "pct_52w": 85.0
+      "change_pct": 1.6,
+      "pct_52w": 83.7
     }
   },
   "liquidity": {
