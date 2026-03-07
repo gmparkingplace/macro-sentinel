@@ -237,6 +237,16 @@ def groq_analysis(d, scores):
     if scores.get("override_reason"):
         override_block = "\n⚠️ 하드 오버라이드 발동: " + ", ".join(scores["override_reason"]) + "\n"
 
+    # FX 방향 Python에서 미리 계산 (Groq 해석 오류 방지)
+    krw_chg = d['fx']['usdkrw']['change_pct']
+    dxy_chg = d['fx']['dxy']['change_pct']
+    jpy_chg = d['fx']['usdjpy']['change_pct']
+    eur_chg = d['fx']['eurusd']['change_pct']
+    krw_dir = f"원화약세·달러강세 (USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화강세·달러약세 (USD/KRW {krw_chg:.2f}%)"
+    dxy_dir = f"달러강세 (DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러약세 (DXY {dxy_chg:.2f}%)"
+    jpy_dir = f"엔화약세 (USD/JPY +{jpy_chg:.2f}%)" if jpy_chg > 0 else f"엔화강세 (USD/JPY {jpy_chg:.2f}%)"
+    eur_dir = f"유로강세 (EUR/USD +{eur_chg:.2f}%)" if eur_chg > 0 else f"유로약세 (EUR/USD {eur_chg:.2f}%)"
+
     prompt = f"""당신은 월스트리트 수석 매크로 전략가입니다. 아래 실시간 뉴스와 시장 데이터를 함께 분석하세요.
 
 ━━━ 실시간 뉴스 헤드라인 ({TODAY}) ━━━
@@ -260,14 +270,14 @@ def groq_analysis(d, scores):
 - 실업률: {d['macro']['unemployment']['value']}%
 - GDP 성장률: {d['macro']['gdp_growth']['value']}%
 
-[달러 & 환율] ※ USD/KRW 상승 = 달러 강세 = 원화 약세
-- DXY: {d['fx']['dxy']['close']} ({d['fx']['dxy']['change_pct']:+.2f}%) → DXY 상승=달러강세, 하락=달러약세
-- USD/KRW: {d['fx']['usdkrw']['close']} ({d['fx']['usdkrw']['change_pct']:+.2f}%) → USD/KRW 상승=달러강세=원화약세, 하락=달러약세=원화강세. 절대로 USD/KRW 상승을 원화강세로 해석하지 말것.
-- USD/JPY: {d['fx']['usdjpy']['close']} ({d['fx']['usdjpy']['change_pct']:+.2f}%) → 수치 상승=엔화약세
-- EUR/USD: {d['fx']['eurusd']['close']} ({d['fx']['eurusd']['change_pct']:+.2f}%) → 수치 상승=유로강세
+[달러 & 환율] ※ 아래 방향은 Python이 계산한 확정값. 반드시 이 방향 그대로 section2_flow에 사용할 것.
+- 달러: {dxy_dir}
+- 원화: {krw_dir}
+- 엔화: {jpy_dir}
+- 유로: {eur_dir}
 
 [원자재]
-- WTI: ${d['commodities']['wti']['close']} | Gold: ${d['commodities']['gold']['close']}
+- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%) | Gold: ${d['commodities']['gold']['close']} ({d['commodities']['gold']['change_pct']:+.2f}%)
 
 [섹터 로테이션]
 {sector_lines}
@@ -285,9 +295,10 @@ VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} 
 ━━━ 분석 지시 ━━━
 - 뉴스 헤드라인 맥락을 반드시 분석에 반영하세요
 - 오버라이드가 발동된 이유를 verdict_reason에 명확히 서술하세요
+- [달러 & 환율] 섹션의 방향값을 그대로 사용하세요. 절대 반대로 해석하지 마세요.
 - 순수 JSON만 출력 (마크다운 없이):
 
-{{"section0_summary":"현재 시장 좌표 3줄 (뉴스 맥락 + 수치 포함)","section1_fed":"Fed·금리 분석 4줄","section2_flow":"달러·자금흐름 3줄","section3_sector":"섹터 로테이션 3줄 (4주 누적 기준)","section4_risk":"지정학·정책 리스크 3줄 (뉴스 반영)","bull_case":"강세 논거 2가지 (수치 포함)","bear_case":"약세 논거 2가지 (수치 + 뉴스 맥락 포함)","verdict_reason":"판정 {scores['verdict']} 이유 2줄 (오버라이드 발동 시 그 이유 명시)","scenario_bull":"강세 시나리오와 트리거","scenario_base":"기본 시나리오","scenario_bear":"약세 시나리오와 트리거","entry_triggers":["진입 트리거 1 (수치 포함)","진입 트리거 2","진입 트리거 3"],"key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}}]}}"""
+{{"section0_summary":"현재 시장 좌표 3줄 (뉴스 맥락 + 수치 포함)","section1_fed":"Fed·금리 분석 4줄","section2_flow":"달러·자금흐름 3줄 (반드시 위에서 계산된 {dxy_dir}, {krw_dir} 방향 그대로 사용)","section3_sector":"섹터 로테이션 3줄 (4주 누적 기준)","section4_risk":"지정학·정책 리스크 3줄 (뉴스 반영)","bull_case":"강세 논거 2가지 (수치 포함)","bear_case":"약세 논거 2가지 (수치 + 뉴스 맥락 포함)","verdict_reason":"판정 {scores['verdict']} 이유 2줄 (오버라이드 발동 시 그 이유 명시)","scenario_bull":"강세 시나리오와 트리거","scenario_base":"기본 시나리오","scenario_bear":"약세 시나리오와 트리거","entry_triggers":["진입 트리거 1 (수치 포함)","진입 트리거 2","진입 트리거 3"],"key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}}]}}"""
 
     try:
         response = client.chat.completions.create(
@@ -318,7 +329,6 @@ VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} 
     except Exception as e:
         print(f"Groq 오류: {e}")
         return _fallback()
-
 
 def _fallback():
     return {
