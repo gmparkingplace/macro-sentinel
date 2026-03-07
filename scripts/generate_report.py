@@ -310,11 +310,16 @@ def groq_analysis(d, scores):
         text = response.choices[0].message.content.strip()
         print(f"Groq 응답 앞 200자: {text[:200]}")
 
-        text = re.sub(r"^```json\s*", "", text)
-        text = re.sub(r"^```\s*",     "", text)
-        text = re.sub(r"\s*```$",     "", text)
-        text = re.sub(r"```",         "", text)
+        # 백틱 전체 제거
+        text = re.sub(r"```json", "", text)
+        text = re.sub(r"```",     "", text)
         text = text.strip()
+
+        # JSON 시작점 찾기
+        start = text.find("{")
+        end   = text.rfind("}") + 1
+        if start != -1 and end > start:
+            text = text[start:end]
 
         return json.loads(text)
         # FX 해석 강제 교정 — Groq 출력 무시하고 Python 계산값으로 덮어쓰기
