@@ -42,7 +42,7 @@ jobs:
           git fetch origin main
           git checkout origin/main -- data/
           git add data/market_data.json data/report.json
-          git commit -m "📊 Daily report: $(date +'%Y-%m-%d')" --allow-empty
+          git commit -m "📊 Daily report: $(date +'%Y-%m-%d %H:%M')" --allow-empty
           git push origin HEAD:main
       - name: Trigger Vercel redeploy
         env:
