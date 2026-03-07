@@ -99,7 +99,7 @@ def calc_scores(d):
 
     # ── Fear & Greed ──────────────────────
     if fg is not None:
-        scores["sentiment"] = "green" if fg < 35 else ("yellow" if fg < 55 else "red")
+        scores["sentiment"] = "red" if fg < 35 else ("yellow" if fg < 55 else "green")
     else:
         scores["sentiment"] = "gray"
 
