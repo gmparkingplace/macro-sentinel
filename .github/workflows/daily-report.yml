@@ -40,8 +40,8 @@ jobs:
           git config --global user.name "macro-sentinel-bot"
           git config --global user.email "bot@macro-sentinel"
           git fetch origin main
-          git reset --soft origin/main
-          git add data/
+          git checkout origin/main -- data/
+          git add data/market_data.json data/report.json
           git diff --staged --quiet && echo "변경 없음" && exit 0
           git commit -m "📊 Daily report: $(date +'%Y-%m-%d')"
           git push origin HEAD:main
