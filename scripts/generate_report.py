@@ -295,11 +295,11 @@ VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} 
             messages=[
                 {
                     "role": "system",
-                    "content": "당신은 매크로 투자 전략가입니다. 뉴스 맥락과 시장 데이터를 종합 분석합니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요. 모든 분석은 한국어로 작성하세요."
+                    "content": "당신은 매크로 투자 전략가입니다. 뉴스 맥락과 시장 데이터를 종합 분석합니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요. 모든 분석은 한국어로 작성하세요. 중요: USD/KRW 수치 상승은 반드시 원화약세로 해석하고, 절대로 원화강세라고 쓰지 마세요."
                 },
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.25,
+            temperature=0.5,
             max_tokens=2500,
         )
         text = response.choices[0].message.content.strip()
