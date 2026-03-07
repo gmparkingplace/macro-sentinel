@@ -54,7 +54,7 @@ const chgStr   = (v: number | null) => v == null ? "—" : `${v >= 0 ? "+" : ""}
 // ── Fear & Greed 게이지 ────────────────────────────────
 function FearGreedGauge({ score, rating }: { score: number | null; rating: string | null }) {
   if (score == null) return <div style={{ color: "#aaa", fontSize: 12 }}>데이터 없음</div>;
-  const color = score < 25 ? "#c0392b" : score < 45 ? "#e67e22" : score < 55 ? "#b07800" : score < 75 ? "#0a8f5c" : "#0a8f5c";
+  const color = score < 25 ? "#c0392b" : score < 45 ? "#e67e22" : score < 55 ? "#b07800" : score < 75 ? "#0a8f5c" : "#27ae60";
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
