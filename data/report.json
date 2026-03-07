@@ -1,300 +1,237 @@
-"""
-Macro Sentinel - Report Generator FINAL
-하드 오버라이드 + 뉴스 주입 + 스태그플레이션 감지
-"""
-
-import os
-import re
-import json
-import datetime
-from groq import Groq
-
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-DATA_PATH   = "data/market_data.json"
-REPORT_PATH = "data/report.json"
-TODAY = datetime.date.today().isoformat()
-
-client = Groq(api_key=GROQ_API_KEY)
-
-
-def calc_scores(d):
-    s = {}
-
-    vix      = d["indices"]["vix"]["close"]
-    s2s10    = d["spreads"]["us2s10s"]["value"]
-    hy       = d["spreads"]["hy_spread"]["value"]
-    us10y    = d["rates"]["us10y"]["value"]
-    dxy      = d["fx"]["dxy"]["close"]
-    tips     = d["rates"]["tips10y"]["value"]
-    unemp    = d["macro"]["unemployment"]["value"]
-    gdp      = d["macro"]["gdp_growth"]["value"]
-    wti      = d["commodities"]["wti"]["close"]
-    gold     = d["commodities"]["gold"]["close"]
-    gold_chg = d["commodities"]["gold"]["change_pct"]
-    fg       = d["sentiment"]["fear_greed"]["score"]
-
-    # VIX
-    if vix is None:          s["vix"] = "gray"
-    elif vix < 16:           s["vix"] = "green"
-    elif vix < 22:           s["vix"] = "yellow"
-    else:                    s["vix"] = "red"
-    print(f"  VIX={vix} -> {s['vix']}")
-
-    # HY 크레딧 스프레드
-    if hy is None:           s["hy_spread"] = "gray"
-    elif hy < 3.5:           s["hy_spread"] = "green"
-    elif hy < 5.0:           s["hy_spread"] = "yellow"
-    else:                    s["hy_spread"] = "red"
-    print(f"  HY={hy} -> {s['hy_spread']}")
-
-    # 10Y 금리
-    if us10y is None:        s["rates"] = "gray"
-    elif us10y < 4.0:        s["rates"] = "green"
-    elif us10y < 4.5:        s["rates"] = "yellow"
-    else:                    s["rates"] = "red"
-    print(f"  10Y={us10y} -> {s['rates']}")
-
-    # DXY
-    if dxy is None:          s["dxy"] = "gray"
-    elif dxy < 101:          s["dxy"] = "green"
-    elif dxy < 104:          s["dxy"] = "yellow"
-    else:                    s["dxy"] = "red"
-    print(f"  DXY={dxy} -> {s['dxy']}")
-
-    # TIPS
-    if tips is None:         s["tips"] = "gray"
-    elif tips < 1.2:         s["tips"] = "green"
-    elif tips < 2.0:         s["tips"] = "yellow"
-    else:                    s["tips"] = "red"
-    print(f"  TIPS={tips} -> {s['tips']}")
-
-    # 금리 곡선
-    if s2s10 is None:        s["curve"] = "gray"
-    elif s2s10 > 0.2:        s["curve"] = "green"
-    elif s2s10 > -0.1:       s["curve"] = "yellow"
-    else:                    s["curve"] = "red"
-    print(f"  2s10s={s2s10} -> {s['curve']}")
-
-    # 섹터 4주 누적
-    tech_4w = d["sectors"].get("tech", {}).get("change_4w")
-    fin_4w  = d["sectors"].get("financials", {}).get("change_4w")
-    if tech_4w is not None and fin_4w is not None:
-        avg_4w = (tech_4w + fin_4w) / 2
-        if avg_4w > 3:       s["sector"] = "green"
-        elif avg_4w > -1:    s["sector"] = "yellow"
-        else:                s["sector"] = "red"
-    else:
-        avg_4w = None
-        s["sector"] = "gray"
-    print(f"  섹터4w={avg_4w} -> {s['sector']}")
-
-    # Fear & Greed
-    if fg is None:           s["sentiment"] = "gray"
-    elif fg < 35:            s["sentiment"] = "green"
-    elif fg < 55:            s["sentiment"] = "yellow"
-    else:                    s["sentiment"] = "red"
-    print(f"  F&G={fg} -> {s['sentiment']}")
-
-    # 실업률
-    if unemp is None:        s["unemployment"] = "gray"
-    elif unemp < 4.2:        s["unemployment"] = "green"
-    elif unemp < 5.0:        s["unemployment"] = "yellow"
-    else:                    s["unemployment"] = "red"
-    print(f"  실업률={unemp} -> {s['unemployment']}")
-
-    # 유가 WTI
-    if wti is None:          s["oil"] = "gray"
-    elif wti < 75:           s["oil"] = "green"
-    elif wti < 85:           s["oil"] = "yellow"
-    else:                    s["oil"] = "red"
-    print(f"  WTI={wti} -> {s['oil']}")
-
-    # GDP
-    if gdp is None:          s["gdp"] = "gray"
-    elif gdp > 2.0:          s["gdp"] = "green"
-    elif gdp > 0:            s["gdp"] = "yellow"
-    else:                    s["gdp"] = "red"
-    print(f"  GDP={gdp} -> {s['gdp']}")
-
-    # Gold 안전자산 신호
-    if gold is None:         s["gold_signal"] = "gray"
-    elif gold > 4000 and (gold_chg or 0) > 0:
-                             s["gold_signal"] = "red"
-    elif gold > 3000:        s["gold_signal"] = "yellow"
-    else:                    s["gold_signal"] = "green"
-    print(f"  Gold={gold}({gold_chg}%) -> {s['gold_signal']}")
-
-    # ── 가중 점수 계산 ──
-    cw   = {"green": 2, "yellow": 1, "red": 0, "gray": 1}
-    core = {"vix", "hy_spread", "rates", "curve", "oil"}
-    skip = {"verdict", "overall", "stagflation_risk",
-            "ratio", "override_reason", "gold_signal"}
-
-    total = 0
-    max_t = 0
-    for k, v in s.items():
-        if k in skip:
-            continue
-        w      = 2 if k in core else 1
-        total += cw.get(v, 1) * w
-        max_t += 2 * w
-
-    ratio = round(total / max_t, 3) if max_t > 0 else 0
-    print(f"  ratio(오버라이드전)={ratio}")
-
-    # ── 스태그플레이션 감지 ──
-    stagflation = bool(
-        wti   is not None and wti   > 85 and
-        unemp is not None and unemp > 4.3
-    )
-    if stagflation:
-        print(f"  !! 스태그플레이션: WTI={wti}, 실업률={unemp}%")
-
-    # ── 하드 오버라이드 ──
-    hard_avoid = False
-    hard_wait  = False
-    reasons    = []
-
-    if vix is not None and vix >= 28:
-        hard_avoid = True
-        reasons.append(f"VIX {vix:.1f} >= 28")
-
-    if wti is not None and wti >= 90:
-        hard_avoid = True
-        reasons.append(f"WTI ${wti:.1f} >= $90")
-
-    if stagflation:
-        hard_avoid = True
-        reasons.append(f"스태그플레이션(WTI={wti}, 실업률={unemp}%)")
-
-    if not hard_avoid:
-        if vix is not None and vix >= 24:
-            hard_wait = True
-            reasons.append(f"VIX {vix:.1f} >= 24")
-        if s.get("gold_signal") == "red":
-            hard_wait = True
-            reasons.append(f"Gold 극단위험회피 ${gold:.0f}")
-
-    if reasons:
-        print(f"  !! 오버라이드 발동: {reasons}")
-
-    # ── 최종 판정 ──
-    if hard_avoid:
-        s["overall"] = "red"
-        verdict = "AVOID"
-    elif hard_wait or ratio < 0.65:
-        s["overall"] = "yellow"
-        verdict = "WAIT"
-    else:
-        s["overall"] = "green"
-        verdict = "NOW"
-
-    s["verdict"]          = verdict
-    s["stagflation_risk"] = stagflation
-    s["override_reason"]  = reasons
-    s["ratio"]            = ratio
-
-    print(f"  => 최종 판정: {verdict}")
-    return s
-
-
-def groq_analysis(d, s):
-    sector_lines = ""
-    for name, v in d["sectors"].items():
-        c1 = f"{v.get('change_pct'):+.2f}%" if v.get("change_pct") is not None else "N/A"
-        c4 = f"{v.get('change_4w'):+.2f}%"  if v.get("change_4w")  is not None else "N/A"
-        sector_lines += f"  - {name.upper()}: 1d {c1} / 4w {c4}\n"
-
-    fg = d["sentiment"].get("fear_greed", {})
-    fg_str = (f"{fg['score']} ({fg['rating']})"
-              if fg.get("score") is not None else "VIX기반 계산중")
-
-    news = d.get("news", [])
-    news_block = "\n".join(f"  - {h}" for h in news) if news else "  - 수집실패"
-
-    warn = ""
-    if s.get("stagflation_risk"):
-        warn += f"\n!! STAGFLATION: WTI=${d['commodities']['wti']['close']}, 실업률={d['macro']['unemployment']['value']}%\n"
-    if s.get("override_reason"):
-        warn += f"!! 오버라이드: {', '.join(s['override_reason'])}\n"
-
-    prompt = f"""당신은 월스트리트 수석 매크로 전략가입니다.
-뉴스와 데이터를 함께 분석하여 JSON만 반환하세요.
-
-[뉴스 {TODAY}]
-{news_block}
-{warn}
-[시장데이터]
-S&P500:{d['indices']['sp500']['close']}({d['indices']['sp500']['change_pct']:+.2f}%) Nasdaq:{d['indices']['nasdaq100']['close']}({d['indices']['nasdaq100']['change_pct']:+.2f}%) Russell:{d['indices']['russell']['close']}({d['indices']['russell']['change_pct']:+.2f}%) VIX:{d['indices']['vix']['close']}
-2Y:{d['rates']['us2y']['value']}% 10Y:{d['rates']['us10y']['value']}% 2s10s:{d['spreads']['us2s10s']['value']}% TIPS:{d['rates']['tips10y']['value']}% HY:{d['spreads']['hy_spread']['value']}%
-CoreCPI:{d['macro']['core_cpi']['value']} 실업률:{d['macro']['unemployment']['value']}% GDP:{d['macro']['gdp_growth']['value']}%
-WTI:${d['commodities']['wti']['close']} Gold:${d['commodities']['gold']['close']} DXY:{d['fx']['dxy']['close']} USDKRW:{d['fx']['usdkrw']['close']}
-{sector_lines}
-Fear&Greed:{fg_str}
-스코어: VIX:{s['vix']} HY:{s['hy_spread']} 금리:{s['rates']} 곡선:{s['curve']} DXY:{s['dxy']} TIPS:{s['tips']} 섹터:{s['sector']} 심리:{s['sentiment']} 고용:{s['unemployment']} 유가:{s['oil']} GDP:{s['gdp']} Gold:{s['gold_signal']}
-판정:{s['verdict']} ratio:{s['ratio']}
-
-[지시]
-- 뉴스 맥락 반드시 반영
-- 오버라이드 이유를 verdict_reason에 명시
-- JSON만 출력 (```없이):
-
-{{"section0_summary":"시장좌표 3줄(뉴스+수치)","section1_fed":"Fed금리 4줄","section2_flow":"달러자금흐름 3줄","section3_sector":"섹터로테이션 3줄","section4_risk":"지정학정책리스크 3줄","bull_case":"강세논거 2가지(수치포함)","bear_case":"약세논거 2가지(수치+뉴스)","verdict_reason":"판정{s['verdict']} 이유 2줄(오버라이드이유명시)","scenario_bull":"강세시나리오+트리거","scenario_base":"기본시나리오","scenario_bear":"약세시나리오+트리거","entry_triggers":["트리거1(수치포함)","트리거2","트리거3"],"key_events":[{{"date":"YYYY-MM-DD","event":"이벤트","impact":"영향"}},{{"date":"YYYY-MM-DD","event":"이벤트","impact":"영향"}},{{"date":"YYYY-MM-DD","event":"이벤트","impact":"영향"}}]}}"""
-
-    try:
-        res = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[
-                {"role": "system", "content": "매크로 전략가. JSON만 출력. 한국어."},
-                {"role": "user",   "content": prompt}
-            ],
-            temperature=0.25,
-            max_tokens=2500,
-        )
-        text = res.choices[0].message.content.strip()
-        print(f"Groq 앞150자: {text[:150]}")
-
-        text = re.sub(r"^```json\s*", "", text)
-        text = re.sub(r"^```\s*",     "", text)
-        text = re.sub(r"\s*```$",     "", text)
-        text = text.strip()
-
-        return json.loads(text)
-
-    except Exception as e:
-        print(f"Groq 오류: {e}")
-        return {
-            "section0_summary":"분석실패","section1_fed":"-","section2_flow":"-",
-            "section3_sector":"-","section4_risk":"-","bull_case":"-","bear_case":"-",
-            "verdict_reason":"AI분석실패","scenario_bull":"-","scenario_base":"-",
-            "scenario_bear":"-","entry_triggers":[],"key_events":[]
-        }
-
-
-def generate():
-    print(f"\n{'='*50}\n[{TODAY}] 리포트 생성\n{'='*50}")
-
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
-        d = json.load(f)
-
-    print("\n[STEP1] 스코어")
-    scores = calc_scores(d)
-
-    print("\n[STEP2] Groq 분석")
-    analysis = groq_analysis(d, scores)
-
-    report = {"date": TODAY, "data": d,
-              "scores": scores, "analysis": analysis,
-              "verdict": scores["verdict"]}
-
-    os.makedirs("data", exist_ok=True)
-    with open(REPORT_PATH, "w", encoding="utf-8") as f:
-        json.dump(report, f, ensure_ascii=False, indent=2)
-
-    print(f"\n{'='*50}")
-    print(f"완료: {scores['verdict']} | override={scores['override_reason']}")
-    print(f"{'='*50}\n")
-
-
-if __name__ == "__main__":
-    generate()
+{
+  "date": "2026-03-07",
+  "data": {
+    "date": "2026-03-07",
+    "indices": {
+      "sp500": {
+        "close": 6740.02,
+        "prev_close": 6830.71,
+        "change_pct": -1.33,
+        "pct_52w": 87.9
+      },
+      "nasdaq100": {
+        "close": 24643.02,
+        "prev_close": 25020.41,
+        "change_pct": -1.51,
+        "pct_52w": 84.0
+      },
+      "russell": {
+        "close": 2525.3,
+        "prev_close": 2585.57,
+        "change_pct": -2.33,
+        "pct_52w": 79.1
+      },
+      "vix": {
+        "close": 29.49,
+        "prev_close": 23.75,
+        "change_pct": 24.17,
+        "pct_52w": 34.5
+      }
+    },
+    "rates": {
+      "us2y": {
+        "value": 3.57,
+        "date": "2026-03-05"
+      },
+      "us10y": {
+        "value": 4.13,
+        "date": "2026-03-05"
+      },
+      "tips10y": {
+        "value": 1.82,
+        "date": "2026-03-05"
+      }
+    },
+    "spreads": {
+      "us2s10s": {
+        "value": 0.59,
+        "date": "2026-03-06"
+      },
+      "hy_spread": {
+        "value": 3.0,
+        "date": "2026-03-05"
+      }
+    },
+    "fx": {
+      "dxy": {
+        "close": 98.99,
+        "prev_close": 99.32,
+        "change_pct": -0.33,
+        "pct_52w": 37.7
+      },
+      "usdkrw": {
+        "close": 1479.51,
+        "prev_close": 1460.75,
+        "change_pct": 1.28,
+        "pct_52w": 85.5
+      },
+      "usdjpy": {
+        "close": 157.53,
+        "prev_close": 156.98,
+        "change_pct": 0.35,
+        "pct_52w": 90.2
+      },
+      "eurusd": {
+        "close": 1.16,
+        "prev_close": 1.16,
+        "change_pct": 0.0,
+        "pct_52w": 66.9
+      }
+    },
+    "commodities": {
+      "wti": {
+        "close": 90.9,
+        "prev_close": 81.01,
+        "change_pct": 12.21,
+        "pct_52w": 95.5
+      },
+      "gold": {
+        "close": 5146.1,
+        "prev_close": 5065.3,
+        "change_pct": 1.6,
+        "pct_52w": 83.7
+      }
+    },
+    "liquidity": {
+      "fed_bs": {
+        "value": 6628894.0,
+        "date": "2026-03-04"
+      },
+      "rrp": {
+        "value": 1.512,
+        "date": "2026-03-06"
+      },
+      "m2": {
+        "value": 22442.1,
+        "date": "2026-01-01"
+      }
+    },
+    "sectors": {
+      "tech": {
+        "close": 137.29,
+        "change_pct": -2.06,
+        "change_4w": -4.23,
+        "pct_52w": 76.9
+      },
+      "financials": {
+        "close": 50.57,
+        "change_pct": -1.29,
+        "change_4w": -6.25,
+        "pct_52w": 59.6
+      },
+      "energy": {
+        "close": 56.57,
+        "change_pct": 0.16,
+        "change_4w": 5.46,
+        "pct_52w": 93.9
+      },
+      "utilities": {
+        "close": 46.74,
+        "change_pct": -0.34,
+        "change_4w": 7.5,
+        "pct_52w": 91.9
+      },
+      "healthcare": {
+        "close": 152.7,
+        "change_pct": -0.79,
+        "change_4w": -2.32,
+        "pct_52w": 77.4
+      },
+      "consumer_disc": {
+        "close": 114.44,
+        "change_pct": -1.81,
+        "change_4w": -2.65,
+        "pct_52w": 72.9
+      },
+      "industrials": {
+        "close": 169.94,
+        "change_pct": -1.23,
+        "change_4w": -2.16,
+        "pct_52w": 86.2
+      },
+      "materials": {
+        "close": 49.86,
+        "change_pct": -1.91,
+        "change_4w": -4.45,
+        "pct_52w": 76.4
+      }
+    },
+    "macro": {
+      "cpi_yoy": {
+        "value": 326.588,
+        "date": "2026-01-01"
+      },
+      "core_cpi": {
+        "value": 332.793,
+        "date": "2026-01-01"
+      },
+      "unemployment": {
+        "value": 4.4,
+        "date": "2026-02-01"
+      },
+      "pce": {
+        "value": 128.605,
+        "date": "2025-12-01"
+      },
+      "gdp_growth": {
+        "value": 1.4,
+        "date": "2025-10-01"
+      }
+    },
+    "sentiment": {
+      "fear_greed": {
+        "score": null,
+        "rating": null
+      }
+    }
+  },
+  "scores": {
+    "vix": "red",
+    "hy_spread": "green",
+    "rates": "green",
+    "dxy": "green",
+    "tips": "yellow",
+    "curve": "green",
+    "sector": "red",
+    "sentiment": "gray",
+    "unemployment": "green",
+    "overall": "green",
+    "verdict": "NOW"
+  },
+  "analysis": {
+    "section0_summary": "현재 시장은 약세 국면에 있으며, S&P 500은 6740.02로 하락하고 있습니다. VIX가 상승하고 있습니다. 현재 시장은 불안정한 상태입니다.",
+    "section1_fed": "Fed 금리 유동성 분석: 현재 통화정책 스탠스는 긴축적입니다. 금리곡선은 부정적입니다. 실질금리가 밸류에이션에 미치는 영향은 크게 작용하고 있습니다. 이는 시장의 불안정성을 높이고 있습니다.",
+    "section2_flow": "달러 자금흐름: DXY는 하락하고 있습니다. 이는 글로벌 자금이 미국을 떠나고 있습니다. 이는 미국 경제에 부정적인 영향을 미칠 수 있습니다.",
+    "section3_sector": "섹터 로테이션: 4주 누적 기준으로 ENERGY와 UTILITIES 섹터가 강세입니다. 반면에 FINANCIALS와 MATERIALS 섹터는 약세입니다. 이는 Risk-Off 신호입니다.",
+    "section4_risk": "주요 리스크: 인플레이션과 금리 상승이 시장에 미치는 영향입니다. 또한 글로벌 경제의 불안정성도 주요 리스크입니다. 이러한 리스크가 현실화되면 시장은 하락할 수 있습니다.",
+    "bull_case": "강세 논거 2가지: 첫째, 경제 성장률이 개선될 경우입니다. 둘째, 금리 상승이 둔화될 경우입니다. 이러한 경우에 시장은 상승할 수 있습니다.",
+    "bear_case": "약세 논거 2가지: 첫째, 인플레이션이 상승할 경우입니다. 둘째, 글로벌 경제의 불안정성이 높아질 경우입니다. 이러한 경우에 시장은 하락할 수 있습니다.",
+    "verdict_reason": "판정 근거: NOW 판정의 핵심 이유는 시장의 불안정성과 주요 리스크입니다. 이러한 리스크가 현실화되면 시장은 하락할 수 있습니다.",
+    "scenario_bull": "강세 시나리오: 경제 성장률이 개선되고 금리 상승이 둔화되면 시장은 상승할 수 있습니다. 트리거는 GDP 성장률의 개선입니다.",
+    "scenario_base": "기본 시나리오: 현재 흐름이 지속될 때 예상되는 시장 방향은 하락입니다. 이는 시장의 불안정성과 주요 리스크로 인해 발생합니다.",
+    "scenario_bear": "약세 시나리오: 인플레이션이 상승하고 글로벌 경제의 불안정성이 높아지면 시장은 하락할 수 있습니다. 트리거는 인플레이션의 상승입니다.",
+    "entry_triggers": [
+      "S&P 500이 6500을 돌파할 경우",
+      "VIX가 30을 상회할 경우",
+      "금리곡선이 더 부정적으로 변할 경우"
+    ],
+    "key_events": [
+      {
+        "date": "2026-03-15",
+        "event": "FOMC 회의",
+        "impact": "금리 결정에 따라 시장 영향을 미칠 수 있습니다."
+      },
+      {
+        "date": "2026-04-01",
+        "event": "employment 보고서",
+        "impact": "고용 시장의 상태를 반영하여 시장 영향을 미칠 수 있습니다."
+      },
+      {
+        "date": "2026-05-01",
+        "event": "GDP 성장률 발표",
+        "impact": "경제 성장률에 따라 시장 영향을 미칠 수 있습니다."
+      }
+    ]
+  },
+  "verdict": "NOW"
+}
