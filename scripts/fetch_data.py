@@ -166,7 +166,9 @@ def fetch_all():
 
     # ── Fear & Greed ──────────────────────
     print("Fear & Greed 수집 중...")
-    data["sentiment"]["fear_greed"] = fetch_fear_greed()
+    vix_val = data["indices"]["vix"]["close"]
+    hy_val  = data["spreads"]["hy_spread"]["value"]
+    data["sentiment"]["fear_greed"] = fetch_fear_greed(vix_val, hy_val)
 
     # ── 저장 ──────────────────────────────
     os.makedirs("data", exist_ok=True)
