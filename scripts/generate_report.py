@@ -316,6 +316,23 @@ def groq_analysis(d, scores):
         text = text.strip()
 
         return json.loads(text)
+        # FX 해석 강제 교정 — Groq 출력 무시하고 Python 계산값으로 덮어쓰기
+        try:
+            parsed = json.loads(text)
+            krw_chg = d['fx']['usdkrw']['change_pct']
+            dxy_chg = d['fx']['dxy']['change_pct']
+            krw_dir = f"원화약세(USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화강세(USD/KRW {krw_chg:.2f}%)"
+            dxy_dir = f"달러약세(DXY {dxy_chg:.2f}%)" if dxy_chg < 0 else f"달러강세(DXY +{dxy_chg:.2f}%)"
+            parsed["section2_flow"] = (
+                f"현재 환율: {dxy_dir}, {krw_dir}. "
+                f"USD/KRW {d['fx']['usdkrw']['close']:.0f}원으로 "
+                f"{'원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다' if krw_chg > 0 else '원화 강세로 수출 기업 실적에 부담'}. "
+                f"DXY {d['fx']['dxy']['close']:.2f}로 "
+                f"{'달러 약세는 이머징 자금 유입에 긍정적' if dxy_chg < 0 else '달러 강세는 이머징 자금 유출 압력'}."
+            )
+            return parsed
+        except:
+            pass
 
     except json.JSONDecodeError as e:
         print(f"JSON 파싱 오류: {e}")
