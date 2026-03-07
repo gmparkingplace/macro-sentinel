@@ -226,12 +226,12 @@ export default function Home() {
           {/* 매크로 경제 */}
           <AccordionCard icon="📈" title="매크로 경제" score={scores.unemployment}
             summary={`실업률 ${fmt(d.macro.unemployment.value)}%  ·  Core CPI ${fmt(d.macro.core_cpi.value)}`}>
-            <Row label="Core CPI"  value={fmt(d.macro.core_cpi.value)}      color={d.macro.core_cpi.value != null && d.macro.core_cpi.value > 3.5 ? "#ff4560" : "#00ff9d"} />
-            <Row label="PCE"       value={fmt(d.macro.pce.value)} />
-            <Row label="실업률"    value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
-            <Row label="GDP 성장률" value={`${fmt(d.macro.gdp_growth.value)}%`} color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#00ff9d" : "#ff4560"} />
-            <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
-            <Row label="RRP 잔액"  value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
+            <Row label="Core CPI"  value={fmt(d.macro?.core_cpi?.value ?? null)}      color={(d.macro?.core_cpi?.value ?? 0) > 3.5 ? "#ff4560" : "#00ff9d"} />
+            <Row label="PCE"       value={fmt(d.macro?.pce?.value ?? null)} />
+            <Row label="실업률"    value={`${fmt(d.macro?.unemployment?.value ?? null)}%`} color={scoreColor[scores.unemployment ?? "gray"]} />
+            <Row label="GDP 성장률" value={`${fmt(d.macro?.gdp_growth?.value ?? null)}%`} color={(d.macro?.gdp_growth?.value ?? 0) > 0 ? "#00ff9d" : "#ff4560"} />
+            <Row label="Fed 대차대조표" value={d.liquidity?.fed_bs?.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
+            <Row label="RRP 잔액"  value={d.liquidity?.rrp?.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
           </AccordionCard>
 
           {/* 환율 & 원자재 */}
@@ -248,7 +248,7 @@ export default function Home() {
 
           {/* 섹터 로테이션 */}
           <AccordionCard icon="🔄" title="섹터 로테이션" score={scores.sector}
-            summary={`Tech 4주 ${chgStr(d.sectors.tech?.change_4w)}  ·  Fin 4주 ${chgStr(d.sectors.financials?.change_4w)}`}>
+            summary={`Tech 4주 ${chgStr(d.sectors?.tech?.change_4w ?? null)}  ·  Fin 4주 ${chgStr(d.sectors?.financials?.change_4w ?? null)}`}>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 4, marginBottom: 12 }}>
               <div style={{ fontSize: 9, color: "#444", textAlign: "right", paddingRight: 8 }}>1일</div>
               <div style={{ fontSize: 9, color: "#444" }}>4주 누적</div>
