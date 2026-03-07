@@ -313,6 +313,7 @@ def groq_analysis(d, scores):
         text = re.sub(r"^```json\s*", "", text)
         text = re.sub(r"^```\s*",     "", text)
         text = re.sub(r"\s*```$",     "", text)
+        text = re.sub(r"```",         "", text)
         text = text.strip()
 
         return json.loads(text)
