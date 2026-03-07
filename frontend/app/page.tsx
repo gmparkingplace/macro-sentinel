@@ -9,6 +9,9 @@ interface Scores {
   vix: string; curve: string; hy_spread: string; rates: string;
   dxy: string; tips: string; sector: string; sentiment: string;
   unemployment: string; overall: string; verdict: string;
+  oil?: string; gdp?: string; gold_signal?: string;
+  stagflation_risk?: boolean; override_reason?: string[];
+  ratio?: number;
 }
 interface Analysis {
   section0_summary: string; section1_fed: string;
@@ -185,18 +188,32 @@ export default function Home() {
             <div style={{ fontSize: 11, color: "#555", lineHeight: 1.8, maxWidth: 360 }}>{analysis.verdict_reason}</div>
           </div>
         </div>
+       {/* 오버라이드 발동 이유 */}
+        {scores.override_reason && scores.override_reason.length > 0 && (
+          <div style={{
+            padding: "10px 16px", marginBottom: 16,
+            background: "rgba(255,69,96,0.06)",
+            border: "1px solid rgba(255,69,96,0.2)",
+            borderRadius: 8, fontSize: 11, color: "#ff4560"
+          }}>
+            ⚠️ 하드 오버라이드 발동: {scores.override_reason.join(" · ")}
+          </div>
+        )}
 
         {/* 스코어 배지 */}
         <div style={{ display: "flex", gap: 5, marginBottom: 16, flexWrap: "wrap" }}>
-          <ScoreBadge label="VIX"     score={scores.vix} />
-          <ScoreBadge label="금리곡선" score={scores.curve} />
-          <ScoreBadge label="HY스프레드" score={scores.hy_spread} />
-          <ScoreBadge label="금리수준" score={scores.rates} />
-          <ScoreBadge label="달러"    score={scores.dxy} />
-          <ScoreBadge label="실질금리" score={scores.tips} />
-          <ScoreBadge label="섹터"    score={scores.sector} />
-          <ScoreBadge label="심리"    score={scores.sentiment} />
-          <ScoreBadge label="고용"    score={scores.unemployment} />
+          <ScoreBadge label="VIX"      score={scores.vix      ?? "gray"} />
+          <ScoreBadge label="금리곡선"  score={scores.curve    ?? "gray"} />
+          <ScoreBadge label="HY스프레드" score={scores.hy_spread ?? "gray"} />
+          <ScoreBadge label="금리수준"  score={scores.rates    ?? "gray"} />
+          <ScoreBadge label="달러"      score={scores.dxy      ?? "gray"} />
+          <ScoreBadge label="실질금리"  score={scores.tips     ?? "gray"} />
+          <ScoreBadge label="섹터"      score={scores.sector   ?? "gray"} />
+          <ScoreBadge label="심리"      score={scores.sentiment ?? "gray"} />
+          <ScoreBadge label="고용"      score={scores.unemployment ?? "gray"} />
+          <ScoreBadge label="유가"      score={scores.oil       ?? "gray"} />
+          <ScoreBadge label="GDP"       score={scores.gdp       ?? "gray"} />
+          <ScoreBadge label="금(Gold)"  score={scores.gold_signal ?? "gray"} />
         </div>
 
         {/* 아코디언 카드들 */}
