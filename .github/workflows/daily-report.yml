@@ -34,14 +34,9 @@ jobs:
         run: python scripts/generate_report.py
 
       - name: Commit and push report
-        run: |
-          git config --global user.name "macro-sentinel-bot"
-          git config --global user.email "bot@macro-sentinel"
-          git add data/
-          git diff --staged --quiet && echo "변경 없음" && exit 0
-          git commit -m "📊 Daily report: $(date +'%Y-%m-%d')"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push && break
-            echo "재시도 $i..."
-            sleep 5
-          done
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 Daily report: ${{ env.REPORT_DATE }}"
+          file_pattern: "data/*"
+          commit_user_name: macro-sentinel-bot
+          commit_user_email: bot@macro-sentinel
