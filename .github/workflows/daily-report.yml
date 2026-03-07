@@ -36,9 +36,12 @@ jobs:
         run: python scripts/generate_report.py
 
       - name: Commit and push report
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "📊 Daily report: ${{ github.run_id }}"
-          file_pattern: "data/*"
-          commit_user_name: macro-sentinel-bot
-          commit_user_email: bot@macro-sentinel
+        run: |
+          git config --global user.name "macro-sentinel-bot"
+          git config --global user.email "bot@macro-sentinel"
+          git fetch origin main
+          git reset --soft origin/main
+          git add data/
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "📊 Daily report: $(date +'%Y-%m-%d')"
+          git push origin HEAD:main
