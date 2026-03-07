@@ -12,6 +12,10 @@ concurrency:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
+
+    env:
+      REPORT_DATE: ${{ github.run_started_at }}
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,7 +25,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install yfinance requests groq
+      - name: Install dependencies
+        run: pip install yfinance requests groq
 
       - name: Fetch market data
         env:
