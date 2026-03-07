@@ -84,19 +84,28 @@ def yf_sector_4w(ticker):
 
 def fetch_fear_greed(vix_value, hy_value):
     try:
-        vix_score = max(0, min(100, int((30 - vix_value) / 30 * 100))) if vix_value else 50
-        hy_score  = max(0, min(100, int((6 - hy_value)  / 6  * 100))) if hy_value  else 50
+        # None 또는 잘못된 타입 방어를 위해 명시적 float 형변환 추가
+        vix = float(vix_value) if vix_value is not None else 20.0
+        hy = float(hy_value) if hy_value is not None else 4.0
+
+        vix_score = max(0, min(100, int((30 - vix) / 30 * 100)))
+        hy_score  = max(0, min(100, int((6 - hy)  / 6  * 100)))
+        
         score = int(vix_score * 0.6 + hy_score * 0.4)
+        
         if score >= 75: rating = "Extreme Greed"
         elif score >= 55: rating = "Greed"
         elif score >= 45: rating = "Neutral"
         elif score >= 25: rating = "Fear"
         else: rating = "Extreme Fear"
+        
         print(f"Fear & Greed 계산 완료: {score} ({rating})")
         return {"score": score, "rating": rating}
+        
     except Exception as e:
-        print(f"Fear & Greed 오류: {e}")
-        return {"score": None, "rating": None}
+        print(f"Fear & Greed 연산 오류: {e}")
+        # 오류 발생 시 null 대신 중립(Neutral) 기본값 반환하여 프론트엔드 에러 방지
+        return {"score": 50, "rating": "Neutral"}
 
 # ─────────────────────────────────────────
 # 메인 수집 로직
