@@ -82,16 +82,18 @@ def yf_sector_4w(ticker):
         print(f"섹터 4주 오류 ({ticker}): {e}")
         return {"close": None, "change_pct": None, "change_4w": None, "pct_52w": None}
 
-def fetch_fear_greed():
-    """CNN Fear & Greed Index"""
+def fetch_fear_greed(vix_value, hy_value):
     try:
-        url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=headers, timeout=10)
-        data = r.json()
-        score = data["fear_and_greed"]["score"]
-        rating = data["fear_and_greed"]["rating"]
-        return {"score": round(float(score), 1), "rating": rating}
+        vix_score = max(0, min(100, int((30 - vix_value) / 30 * 100))) if vix_value else 50
+        hy_score  = max(0, min(100, int((6 - hy_value)  / 6  * 100))) if hy_value  else 50
+        score = int(vix_score * 0.6 + hy_score * 0.4)
+        if score >= 75: rating = "Extreme Greed"
+        elif score >= 55: rating = "Greed"
+        elif score >= 45: rating = "Neutral"
+        elif score >= 25: rating = "Fear"
+        else: rating = "Extreme Fear"
+        print(f"Fear & Greed 계산 완료: {score} ({rating})")
+        return {"score": score, "rating": rating}
     except Exception as e:
         print(f"Fear & Greed 오류: {e}")
         return {"score": None, "rating": None}
