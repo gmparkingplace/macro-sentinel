@@ -136,6 +136,20 @@ def calc_scores(d):
     else:
         scores["gdp"] = "gray"
 
+    # ── Gold 리스크 오프 신호 (신규) ──────
+    gold = d["commodities"]["gold"]["close"]
+    gold_chg = d["commodities"]["gold"]["change_pct"]
+    if gold is not None:
+        # Gold $3500 이상 + 상승 중 = 극단적 위험회피
+        if gold > 4000 and (gold_chg or 0) > 0:
+            scores["gold_signal"] = "red"
+        elif gold > 3000:
+            scores["gold_signal"] = "yellow"
+        else:
+            scores["gold_signal"] = "green"
+    else:
+        scores["gold_signal"] = "gray"
+
     # ── 종합 판정 ─────────────────────────
     color_weight = {"green": 2, "yellow": 1, "red": 0, "gray": 1}
 
@@ -144,28 +158,63 @@ def calc_scores(d):
     total = 0
     max_total = 0
     for k, v in scores.items():
+        if k in ("verdict", "overall", "stagflation_risk", "ratio"):
+            continue
         w = 2 if k in core else 1
-        total    += color_weight[v] * w
-        max_total += 2 * w  # 최대값
+        total    += color_weight.get(v, 1) * w
+        max_total += 2 * w
 
     ratio = total / max_total if max_total > 0 else 0
 
-    # 스태그플레이션 리스크 발생 시 강제 AVOID
-    if stagflation_risk:
-        ratio = min(ratio, 0.38)
+    # ── 하드 오버라이드 (어떤 점수든 강제 덮어씀) ──
+    hard_avoid = False
+    hard_wait  = False
+    override_reason = []
 
-    if ratio >= 0.65:
-        scores["overall"] = "green"
-        verdict = "NOW"
-    elif ratio >= 0.40:
-        scores["overall"] = "yellow"
-        verdict = "WAIT"
-    else:
+    # VIX 28 이상 → 무조건 AVOID
+    if vix is not None and vix >= 28:
+        hard_avoid = True
+        override_reason.append(f"VIX {vix:.1f} ≥ 28")
+
+    # WTI $90 이상 → 무조건 AVOID
+    if wti is not None and wti >= 90:
+        hard_avoid = True
+        override_reason.append(f"WTI ${wti:.1f} ≥ $90")
+
+    # 스태그플레이션 → AVOID
+    if stagflation_risk:
+        hard_avoid = True
+        override_reason.append(f"스태그플레이션(WTI>{wti}, 실업률>{unemp}%)")
+
+    # VIX 24 이상 → 최소 WAIT
+    if vix is not None and vix >= 24:
+        hard_wait = True
+        override_reason.append(f"VIX {vix:.1f} ≥ 24")
+
+    # Gold 극단적 상승 → 최소 WAIT
+    if scores.get("gold_signal") == "red":
+        hard_wait = True
+        override_reason.append(f"Gold 극단 위험회피(${gold:.0f})")
+
+    if override_reason:
+        print(f"⚠️ 오버라이드 발동: {', '.join(override_reason)}")
+
+    # 최종 판정
+    if hard_avoid:
         scores["overall"] = "red"
         verdict = "AVOID"
+    elif hard_wait or ratio < 0.65:
+        scores["overall"] = "yellow"
+        verdict = "WAIT"
+        if ratio >= 0.65:  # 점수는 높지만 hard_wait 걸림
+            ratio = 0.60
+    else:
+        scores["overall"] = "green"
+        verdict = "NOW"
 
     scores["verdict"] = verdict
     scores["stagflation_risk"] = stagflation_risk
+    scores["override_reason"] = override_reason
     scores["ratio"] = round(ratio, 3)
 
     print(f"스코어 ratio: {ratio:.3f} → {verdict}")
