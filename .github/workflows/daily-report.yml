@@ -13,9 +13,6 @@ jobs:
   generate-report:
     runs-on: ubuntu-latest
 
-    env:
-      REPORT_DATE: ${{ github.run_started_at }}
-
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,7 +38,7 @@ jobs:
       - name: Commit and push report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📊 Daily report: ${{ env.REPORT_DATE }}"
+          commit_message: "📊 Daily report: ${{ github.run_id }}"
           file_pattern: "data/*"
           commit_user_name: macro-sentinel-bot
           commit_user_email: bot@macro-sentinel
