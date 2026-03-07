@@ -237,15 +237,12 @@ def groq_analysis(d, scores):
     if scores.get("override_reason"):
         override_block = "\n⚠️ 하드 오버라이드 발동: " + ", ".join(scores["override_reason"]) + "\n"
 
-    # FX 방향 Python에서 미리 계산 (Groq 해석 오류 방지)
+    # 환율 방향 텍스트를 LLM이 오해할 수 없도록 더 명확하게 고정
     krw_chg = d['fx']['usdkrw']['change_pct']
     dxy_chg = d['fx']['dxy']['change_pct']
-    jpy_chg = d['fx']['usdjpy']['change_pct']
-    eur_chg = d['fx']['eurusd']['change_pct']
-    krw_dir = f"원화약세·달러강세 (USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화강세·달러약세 (USD/KRW {krw_chg:.2f}%)"
-    dxy_dir = f"달러강세 (DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러약세 (DXY {dxy_chg:.2f}%)"
-    jpy_dir = f"엔화약세 (USD/JPY +{jpy_chg:.2f}%)" if jpy_chg > 0 else f"엔화강세 (USD/JPY {jpy_chg:.2f}%)"
-    eur_dir = f"유로강세 (EUR/USD +{eur_chg:.2f}%)" if eur_chg > 0 else f"유로약세 (EUR/USD {eur_chg:.2f}%)"
+    
+    krw_dir = f"원화 약세(달러 대비 가치 하락, USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화 강세(달러 대비 가치 상승, USD/KRW {krw_chg:.2f}%)"
+    dxy_dir = f"달러 강세(DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러 약세(DXY {dxy_chg:.2f}%)"
 
     prompt = f"""당신은 월스트리트 수석 매크로 전략가입니다. 아래 실시간 뉴스와 시장 데이터를 함께 분석하세요.
 
@@ -253,52 +250,49 @@ def groq_analysis(d, scores):
 {news_block}
 {stag_warning}{override_block}
 ━━━ 시장 데이터 ━━━
-
 [지수]
-- S&P 500: {d['indices']['sp500']['close']} ({d['indices']['sp500']['change_pct']:+.2f}%) | 52주 위치: {d['indices']['sp500']['pct_52w']}%
-- Nasdaq 100: {d['indices']['nasdaq100']['close']} ({d['indices']['nasdaq100']['change_pct']:+.2f}%)
-- Russell 2000: {d['indices']['russell']['close']} ({d['indices']['russell']['change_pct']:+.2f}%)
-- VIX: {d['indices']['vix']['close']}
+- S&P 500: {d['indices']['sp500']['close']} | VIX: {d['indices']['vix']['close']}
 
 [금리 & 스프레드]
-- 2Y: {d['rates']['us2y']['value']}% | 10Y: {d['rates']['us10y']['value']}% | 2s10s: {d['spreads']['us2s10s']['value']}%
-- TIPS 실질금리: {d['rates']['tips10y']['value']}%
-- HY 크레딧 스프레드: {d['spreads']['hy_spread']['value']}%
+- 10Y: {d['rates']['us10y']['value']}% | HY 크레딧 스프레드: {d['spreads']['hy_spread']['value']}%
 
 [매크로 경제]
-- Core CPI: {d['macro']['core_cpi']['value']} (기준일: {d['macro']['core_cpi']['date']})
-- 실업률: {d['macro']['unemployment']['value']}%
-- GDP 성장률: {d['macro']['gdp_growth']['value']}%
+- 실업률: {d['macro']['unemployment']['value']}% | GDP 성장률: {d['macro']['gdp_growth']['value']}%
 
-[달러 & 환율] ※ 아래 방향은 Python이 계산한 확정값. 반드시 이 방향 그대로 section2_flow에 사용할 것.
+[달러 & 환율] ※ 중요: 아래 문구를 분석에 그대로 복사해서 사용할 것. 임의로 해석을 바꾸지 마세요.
 - 달러: {dxy_dir}
 - 원화: {krw_dir}
-- 엔화: {jpy_dir}
-- 유로: {eur_dir}
 
 [원자재]
-- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%) | Gold: ${d['commodities']['gold']['close']} ({d['commodities']['gold']['change_pct']:+.2f}%)
+- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%) 
+- Gold: ${d['commodities']['gold']['close']} ({d['commodities']['gold']['change_pct']:+.2f}%)
 
-[섹터 로테이션]
-{sector_lines}
 [시장 심리]
 - Fear & Greed: {fg_str}
 
-[유동성]
-- Fed 대차대조표: ${d['liquidity']['fed_bs']['value']:,.0f}M
-- RRP 잔액: ${d['liquidity']['rrp']['value']}B
-
 [스코어카드]
-VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} | 금리:{scores['rates']} | DXY:{scores['dxy']} | TIPS:{scores['tips']} | 섹터:{scores['sector']} | 심리:{scores['sentiment']} | 고용:{scores['unemployment']} | 유가:{scores['oil']} | GDP:{scores['gdp']} | Gold:{scores['gold_signal']}
 종합판정: {scores['verdict']} (ratio: {scores['ratio']})
 
 ━━━ 분석 지시 ━━━
-- 뉴스 헤드라인 맥락을 반드시 분석에 반영하세요
-- 오버라이드가 발동된 이유를 verdict_reason에 명확히 서술하세요
-- [달러 & 환율] 섹션의 방향값을 그대로 사용하세요. 절대 반대로 해석하지 마세요.
-- 순수 JSON만 출력 (마크다운 없이):
+- 순수 JSON만 출력하세요 (마크다운 불포함).
+- 반드시 아래 제공된 JSON 키(Key)를 모두 포함해야 합니다.
 
-{{"section0_summary":"현재 시장 좌표 3줄 (뉴스 맥락 + 수치 포함)","section1_fed":"Fed·금리 분석 4줄","section2_flow":"달러·자금흐름 3줄 (반드시 위에서 계산된 {dxy_dir}, {krw_dir} 방향 그대로 사용)","section3_sector":"섹터 로테이션 3줄 (4주 누적 기준)","section4_risk":"지정학·정책 리스크 3줄 (뉴스 반영)","bull_case":"강세 논거 2가지 (수치 포함)","bear_case":"약세 논거 2가지 (수치 + 뉴스 맥락 포함)","verdict_reason":"판정 {scores['verdict']} 이유 2줄 (오버라이드 발동 시 그 이유 명시)","scenario_bull":"강세 시나리오와 트리거","scenario_base":"기본 시나리오","scenario_bear":"약세 시나리오와 트리거","entry_triggers":["진입 트리거 1 (수치 포함)","진입 트리거 2","진입 트리거 3"],"key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}},{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 시장 영향"}}]}}"""
+{{
+  "section0_summary":"현재 시장 좌표 3줄 (뉴스 맥락 + 수치 포함)",
+  "section1_fed":"Fed·금리 분석 4줄",
+  "section2_flow":"달러·자금흐름 3줄 (반드시 '{krw_dir}' 문구를 그대로 포함할 것)",
+  "section3_sector":"섹터 로테이션 3줄",
+  "section4_risk":"지정학·정책 리스크 3줄",
+  "section5_commodities":"원자재(WTI, Gold) 동향 및 스태그플레이션 리스크 분석 3줄",
+  "bull_case":"강세 논거 2가지",
+  "bear_case":"약세 논거 2가지",
+  "verdict_reason":"판정 {scores['verdict']} 이유 2줄",
+  "scenario_bull":"강세 시나리오",
+  "scenario_base":"기본 시나리오",
+  "scenario_bear":"약세 시나리오",
+  "entry_triggers":["진입 트리거 1", "진입 트리거 2", "진입 트리거 3"],
+  "key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 영향"}}]
+}}"""
 
     try:
         response = client.chat.completions.create(
@@ -306,11 +300,11 @@ VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} 
             messages=[
                 {
                     "role": "system",
-                    "content": "당신은 매크로 투자 전략가입니다. 뉴스 맥락과 시장 데이터를 종합 분석합니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요. 모든 분석은 한국어로 작성하세요. 중요: USD/KRW 수치 상승은 반드시 원화약세로 해석하고, 절대로 원화강세라고 쓰지 마세요."
+                    "content": "당신은 매크로 투자 전략가입니다. 오직 JSON 형식만 출력합니다. USD/KRW 상승은 원화 약세, 하락은 원화 강세입니다. 제공된 데이터를 반대로 해석하는 행위를 엄격히 금지합니다."
                 },
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.5,
+            temperature=0.3, # 환각 방지를 위해 온도를 약간 낮춤
             max_tokens=2500,
         )
         text = response.choices[0].message.content.strip()
@@ -324,7 +318,7 @@ VIX:{scores['vix']} | 금리곡선:{scores['curve']} | HY:{scores['hy_spread']} 
         return json.loads(text)
 
     except json.JSONDecodeError as e:
-        print(f"JSON 파싱 오류: {e}\n원문: {text[:500]}")
+        print(f"JSON 파싱 오류: {e}")
         return _fallback()
     except Exception as e:
         print(f"Groq 오류: {e}")
