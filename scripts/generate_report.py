@@ -260,9 +260,11 @@ def groq_analysis(d, scores):
 - 실업률: {d['macro']['unemployment']['value']}%
 - GDP 성장률: {d['macro']['gdp_growth']['value']}%
 
-[달러 & 환율]
-- DXY: {d['fx']['dxy']['close']} ({d['fx']['dxy']['change_pct']:+.2f}%)
-- USD/KRW: {d['fx']['usdkrw']['close']}
+[달러 & 환율] ※ USD/KRW 상승 = 달러 강세 = 원화 약세
+- DXY: {d['fx']['dxy']['close']} ({d['fx']['dxy']['change_pct']:+.2f}%) → DXY 상승=달러강세, 하락=달러약세
+- USD/KRW: {d['fx']['usdkrw']['close']} ({d['fx']['usdkrw']['change_pct']:+.2f}%) → 수치 상승=원화약세, 하락=원화강세
+- USD/JPY: {d['fx']['usdjpy']['close']} ({d['fx']['usdjpy']['change_pct']:+.2f}%) → 수치 상승=엔화약세
+- EUR/USD: {d['fx']['eurusd']['close']} ({d['fx']['eurusd']['change_pct']:+.2f}%) → 수치 상승=유로강세
 
 [원자재]
 - WTI: ${d['commodities']['wti']['close']} | Gold: ${d['commodities']['gold']['close']}
