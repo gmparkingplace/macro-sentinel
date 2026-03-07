@@ -1,23 +1,17 @@
 import { NextResponse } from "next/server";
+import { readFileSync } from "fs";
+import { join } from "path";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export async function GET() {
   try {
-    const ts = Date.now();
-    const url = `https://raw.githubusercontent.com/gmparkingplace/macro-sentinel/main/data/report.json?t=${ts}`;
-    const res = await fetch(url, { 
-      cache: "no-store",
-      headers: { "Cache-Control": "no-cache, no-store, must-revalidate" }
-    });
-    if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
-    const data = await res.json();
+    const filePath = join(process.cwd(), "..", "data", "report.json");
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
     return NextResponse.json(data, {
-      headers: {
-        "Cache-Control": "no-store, no-cache, must-revalidate",
-        "Pragma": "no-cache"
-      }
+      headers: { "Cache-Control": "no-store" }
     });
   } catch (e) {
     console.error(e);
