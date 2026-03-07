@@ -252,7 +252,7 @@ export default function Home() {
           </AccordionCard>
 
           {/* 환율 & 원자재 */}
-          <AccordionCard icon="🌍" title="환율 · 원자재" score={scores.oil ?? "gray"}
+          <AccordionCard icon="🌍" title="환율 · 원자재" score={scores.dxy}
             summary={`DXY ${fmt(d.fx.dxy.close)}  ·  KRW ${fmt(d.fx.usdkrw.close, 0)}  ·  Gold $${fmt(d.commodities.gold.close, 0)}`}>
             <Row label="DXY"     value={`${fmt(d.fx.dxy.close)} (${chgStr(d.fx.dxy.change_pct)})`}       color={chgColor(d.fx.dxy.change_pct ? -d.fx.dxy.change_pct : null)} />
             <Row label="USD/KRW" value={`${fmt(d.fx.usdkrw.close, 0)} (${chgStr(d.fx.usdkrw.change_pct)})`} />
