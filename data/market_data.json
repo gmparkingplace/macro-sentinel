@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07",
+  "date": "2026-03-08",
   "indices": {
     "sp500": {
       "close": 6740.02,
@@ -58,10 +58,10 @@
       "pct_52w": 37.7
     },
     "usdkrw": {
-      "close": 1479.51,
-      "prev_close": 1460.75,
-      "change_pct": 1.28,
-      "pct_52w": 85.5
+      "close": 1482.6,
+      "prev_close": 1479.51,
+      "change_pct": 0.21,
+      "pct_52w": 87.1
     },
     "usdjpy": {
       "close": 157.53,
