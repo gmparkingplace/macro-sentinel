@@ -1,93 +1,93 @@
 {
-  "date": "2026-03-09",
+  "date": "2026-03-10",
   "indices": {
     "sp500": {
-      "close": 6795.99,
-      "prev_close": 6740.02,
-      "change_pct": 0.83,
-      "pct_52w": 90.5
+      "close": 6781.48,
+      "prev_close": 6795.99,
+      "change_pct": -0.21,
+      "pct_52w": 89.8
     },
     "nasdaq100": {
-      "close": 24967.25,
-      "prev_close": 24643.02,
-      "change_pct": 1.32,
-      "pct_52w": 87.4
+      "close": 24956.47,
+      "prev_close": 24967.25,
+      "change_pct": -0.04,
+      "pct_52w": 87.3
     },
     "russell": {
-      "close": 2553.67,
-      "prev_close": 2525.3,
-      "change_pct": 1.12,
-      "pct_52w": 81.9
+      "close": 2548.08,
+      "prev_close": 2553.67,
+      "change_pct": -0.22,
+      "pct_52w": 81.3
     },
     "vix": {
-      "close": 25.5,
-      "prev_close": 29.49,
-      "change_pct": -13.53,
-      "pct_52w": 25.9
+      "close": 24.93,
+      "prev_close": 25.5,
+      "change_pct": -2.24,
+      "pct_52w": 24.7
     }
   },
   "rates": {
     "us2y": {
       "value": 3.56,
-      "date": "2026-03-06"
+      "date": "2026-03-09"
     },
     "us10y": {
-      "value": 4.15,
-      "date": "2026-03-06"
+      "value": 4.12,
+      "date": "2026-03-09"
     },
     "tips10y": {
-      "value": 1.8,
-      "date": "2026-03-06"
+      "value": 1.78,
+      "date": "2026-03-09"
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.56,
-      "date": "2026-03-09"
+      "value": 0.58,
+      "date": "2026-03-10"
     },
     "hy_spread": {
-      "value": 3.13,
-      "date": "2026-03-06"
+      "value": 3.19,
+      "date": "2026-03-09"
     }
   },
   "fx": {
     "dxy": {
-      "close": 98.73,
-      "prev_close": 98.99,
-      "change_pct": -0.26,
-      "pct_52w": 34.8
+      "close": 98.91,
+      "prev_close": 99.18,
+      "change_pct": -0.27,
+      "pct_52w": 36.8
     },
     "usdkrw": {
-      "close": 1465.92,
-      "prev_close": 1479.51,
-      "change_pct": -0.92,
-      "pct_52w": 78.1
+      "close": 1473.8,
+      "prev_close": 1483.89,
+      "change_pct": -0.68,
+      "pct_52w": 82.3
     },
     "usdjpy": {
-      "close": 157.8,
-      "prev_close": 157.53,
-      "change_pct": 0.17,
-      "pct_52w": 91.6
+      "close": 158.14,
+      "prev_close": 158.43,
+      "change_pct": -0.18,
+      "pct_52w": 93.4
     },
     "eurusd": {
       "close": 1.16,
-      "prev_close": 1.16,
-      "change_pct": 0.0,
+      "prev_close": 1.15,
+      "change_pct": 0.87,
       "pct_52w": 66.9
     }
   },
   "commodities": {
     "wti": {
-      "close": 88.09,
-      "prev_close": 90.9,
-      "change_pct": -3.09,
-      "pct_52w": 88.0
+      "close": 86.06,
+      "prev_close": 94.77,
+      "change_pct": -9.19,
+      "pct_52w": 48.2
     },
     "gold": {
-      "close": 5161.4,
-      "prev_close": 5146.1,
-      "change_pct": 0.3,
-      "pct_52w": 84.3
+      "close": 5198.3,
+      "prev_close": 5091.5,
+      "change_pct": 2.1,
+      "pct_52w": 85.7
     }
   },
   "liquidity": {
@@ -96,8 +96,8 @@
       "date": "2026-03-04"
     },
     "rrp": {
-      "value": 0.332,
-      "date": "2026-03-09"
+      "value": 0.278,
+      "date": "2026-03-10"
     },
     "m2": {
       "value": 22442.1,
@@ -107,51 +107,51 @@
   "sectors": {
     "tech": {
       "close": 139.76,
-      "change_pct": 1.8,
-      "change_4w": -1.96,
+      "change_pct": 0.0,
+      "change_4w": -2.25,
       "pct_52w": 80.6
     },
     "financials": {
-      "close": 50.33,
-      "change_pct": -0.47,
-      "change_4w": -6.01,
-      "pct_52w": 58.0
+      "close": 50.06,
+      "change_pct": -0.54,
+      "change_4w": -5.08,
+      "pct_52w": 56.2
     },
     "energy": {
-      "close": 56.32,
-      "change_pct": -0.44,
-      "change_4w": 5.11,
-      "pct_52w": 92.8
+      "close": 55.6,
+      "change_pct": -1.28,
+      "change_4w": 1.13,
+      "pct_52w": 89.4
     },
     "utilities": {
-      "close": 46.85,
-      "change_pct": 0.24,
-      "change_4w": 6.0,
-      "pct_52w": 92.7
+      "close": 46.56,
+      "change_pct": -0.62,
+      "change_4w": 4.42,
+      "pct_52w": 90.5
     },
     "healthcare": {
-      "close": 154.26,
-      "change_pct": 1.02,
-      "change_4w": -0.69,
-      "pct_52w": 81.9
+      "close": 153.15,
+      "change_pct": -0.72,
+      "change_4w": -1.98,
+      "pct_52w": 78.7
     },
     "consumer_disc": {
-      "close": 114.59,
-      "change_pct": 0.13,
-      "change_4w": -3.16,
-      "pct_52w": 73.3
+      "close": 114.44,
+      "change_pct": -0.13,
+      "change_4w": -2.82,
+      "pct_52w": 72.9
     },
     "industrials": {
-      "close": 170.94,
-      "change_pct": 0.59,
-      "change_4w": -1.71,
-      "pct_52w": 87.6
+      "close": 170.02,
+      "change_pct": -0.54,
+      "change_4w": -2.76,
+      "pct_52w": 86.3
     },
     "materials": {
-      "close": 49.99,
-      "change_pct": 0.26,
-      "change_4w": -5.52,
-      "pct_52w": 77.1
+      "close": 49.88,
+      "change_pct": -0.22,
+      "change_4w": -6.98,
+      "pct_52w": 76.5
     }
   },
   "macro": {
@@ -178,7 +178,7 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 27,
+      "score": 28,
       "rating": "Fear"
     }
   }
