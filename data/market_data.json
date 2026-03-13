@@ -58,15 +58,15 @@
       "pct_52w": null
     },
     "usdkrw": {
-      "close": 1489.58,
+      "close": 1489.78,
       "prev_close": 1475.34,
-      "change_pct": 0.97,
-      "pct_52w": 90.9
+      "change_pct": 0.98,
+      "pct_52w": 91.0
     },
     "usdjpy": {
-      "close": 159.44,
+      "close": 159.45,
       "prev_close": 159.07,
-      "change_pct": 0.23,
+      "change_pct": 0.24,
       "pct_52w": 98.8
     },
     "eurusd": {
@@ -78,16 +78,16 @@
   },
   "commodities": {
     "wti": {
-      "close": 95.76,
+      "close": 95.8,
       "prev_close": 95.73,
-      "change_pct": 0.03,
-      "pct_52w": 63.2
+      "change_pct": 0.07,
+      "pct_52w": 63.3
     },
     "gold": {
-      "close": 5108.0,
+      "close": 5105.8,
       "prev_close": 5115.8,
-      "change_pct": -0.15,
-      "pct_52w": 82.0
+      "change_pct": -0.2,
+      "pct_52w": 81.9
     }
   },
   "liquidity": {
