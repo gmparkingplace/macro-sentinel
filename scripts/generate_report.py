@@ -1,6 +1,6 @@
 """
-Macro Sentinel - Report Generator v7
-Skew Index + VIX×Skew 조합 신호 + FX 강제 교정 + 죽은 코드 제거
+Macro Sentinel - Report Generator v8
+Skew Index + VIX×Skew 조합 신호 + FX 강제 교정 + 경제 캘린더 주입 + 히스토리 누적
 """
 
 import os
@@ -248,6 +248,13 @@ def groq_analysis(d, scores):
     news       = d.get("news", [])
     news_block = "\n".join(f"  - {h}" for h in news) if news else "  - 수집 실패"
 
+    # 경제 캘린더 블록 — Python 하드코딩 데이터 사용
+    calendar  = d.get("calendar", [])
+    cal_block = "\n".join(
+        f"  - {ev['date']} | {ev['event']}"
+        for ev in calendar
+    ) if calendar else "  - 없음"
+
     stag_warning = ""
     if scores.get("stagflation_risk"):
         stag_warning = "\n⚠️ STAGFLATION ALERT: WTI > $85 + 실업률 > 4.3% 동시 발생.\n"
@@ -293,6 +300,9 @@ def groq_analysis(d, scores):
 
 [스코어카드]
 종합판정: {scores['verdict']} (ratio: {scores['ratio']})
+
+━━━ 향후 주요 경제 일정 ━━━
+{cal_block}
 
 ━━━ 분석 지시 ━━━
 - 순수 JSON만 출력하세요 (마크다운 불포함).
@@ -351,6 +361,12 @@ def groq_analysis(d, scores):
             f"{'달러 약세는 이머징 자금 유입에 긍정적' if dxy_chg < 0 else '달러 강세는 이머징 자금 유출 압력'}."
         )
 
+        # key_events를 Python 캘린더로 강제 교체 (Groq 임의 생성 방지)
+        parsed["key_events"] = [
+            {"date": ev["date"], "event": ev["event"], "impact": _event_impact(ev["category"])}
+            for ev in calendar
+        ]
+
         return parsed
 
     except json.JSONDecodeError as e:
@@ -359,6 +375,15 @@ def groq_analysis(d, scores):
     except Exception as e:
         print(f"Groq 오류: {e}")
         return _fallback()
+
+def _event_impact(category: str) -> str:
+    return {
+        "fed":  "금리 결정 및 향후 통화정책 경로에 직접 영향",
+        "cpi":  "인플레이션 추세 확인 → Fed 정책 기대 변화",
+        "pce":  "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향",
+        "jobs": "고용 강도 확인 → 경기 연착륙 여부 판단",
+        "gdp":  "경제 성장률 확인 → 스태그플레이션 리스크 평가",
+    }.get(category, "시장 변동성 주의")
 
 def _fallback():
     return {
@@ -402,6 +427,13 @@ def generate():
         json.dump(report, f, ensure_ascii=False, indent=2)
 
     print(f"✅ 리포트 저장 완료 → 판정: {scores['verdict']}")
+
+    # 히스토리 누적
+    try:
+        from fetch_data import update_history
+        update_history(d, scores)
+    except Exception as e:
+        print(f"히스토리 업데이트 건너뜀: {e}")
 
 
 if __name__ == "__main__":
