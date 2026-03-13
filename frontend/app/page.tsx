@@ -36,6 +36,9 @@ interface Analysis {
   entry_triggers: string[];
   key_events: { date: string; event: string; impact: string }[];
 }
+interface NewsItem {
+  title: string; url: string; source: string; published: string;
+}
 interface Report {
   date: string;
   data: {
@@ -51,6 +54,7 @@ interface Report {
       fear_greed: { score: number | null; rating: string | null };
       skew?: SkewData;
     };
+    news?: NewsItem[];
   };
   scores:   Scores;
   analysis: Analysis;
@@ -538,6 +542,38 @@ export default function Home() {
             summary={`최근 ${Math.min(history.length, 30)}일 누적`}>
             <HistoryChart history={history} />
           </AccordionCard>
+
+          {/* 뉴스 헤드라인 */}
+          {report.data.news && report.data.news.length > 0 && (
+            <AccordionCard icon="📰" title="시장 헤드라인"
+              summary={`${report.data.news[0].source} 외 ${report.data.news.length - 1}건`}>
+              {report.data.news.map((item, i) => (
+                <a
+                  key={i}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 2,
+                    padding: "10px 0",
+                    borderBottom: "1px solid #f4f4f4",
+                    textDecoration: "none",
+                    color: "inherit",
+                  }}
+                >
+                  <div style={{ fontSize: 12, color: "#1a1a1a", fontWeight: 500, lineHeight: 1.5 }}>
+                    {item.title}
+                  </div>
+                  <div style={{ fontSize: 10, color: "#aaa" }}>
+                    {item.source}
+                    {item.published ? ` · ${item.published.slice(0, 16)}` : ""}
+                  </div>
+                </a>
+              ))}
+            </AccordionCard>
+          )}
         </div>
 
         {/* 푸터 */}
