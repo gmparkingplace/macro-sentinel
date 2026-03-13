@@ -1,6 +1,6 @@
 """
-Macro Sentinel - Report Generator v6
-뉴스 주입 + 강화된 가중치 + 하드 오버라이드 + 스태그플레이션 감지
+Macro Sentinel - Report Generator v7
+Skew Index + VIX×Skew 조합 신호 + FX 강제 교정 + 죽은 코드 제거
 """
 
 import os
@@ -30,18 +30,20 @@ def score_label(value, thresholds):
 def calc_scores(d):
     scores = {}
 
-    vix   = d["indices"]["vix"]["close"]
-    s2s10 = d["spreads"]["us2s10s"]["value"]
-    hy    = d["spreads"]["hy_spread"]["value"]
-    us10y = d["rates"]["us10y"]["value"]
-    dxy   = d["fx"]["dxy"]["close"]
-    tips  = d["rates"]["tips10y"]["value"]
-    unemp = d["macro"]["unemployment"]["value"]
-    gdp   = d["macro"]["gdp_growth"]["value"]
-    wti   = d["commodities"]["wti"]["close"]
-    gold  = d["commodities"]["gold"]["close"]
+    vix      = d["indices"]["vix"]["close"]
+    s2s10    = d["spreads"]["us2s10s"]["value"]
+    hy       = d["spreads"]["hy_spread"]["value"]
+    us10y    = d["rates"]["us10y"]["value"]
+    dxy      = d["fx"]["dxy"]["close"]
+    tips     = d["rates"]["tips10y"]["value"]
+    unemp    = d["macro"]["unemployment"]["value"]
+    gdp      = d["macro"]["gdp_growth"]["value"]
+    wti      = d["commodities"]["wti"]["close"]
+    gold     = d["commodities"]["gold"]["close"]
     gold_chg = d["commodities"]["gold"]["change_pct"]
-    fg    = d["sentiment"]["fear_greed"]["score"]
+    fg       = d["sentiment"]["fear_greed"]["score"]
+    skew_data = d["sentiment"].get("skew", {})
+    skew_val  = skew_data.get("close")
 
     # ── VIX ──────────────────────────────
     scores["vix"] = score_label(vix, [
@@ -103,6 +105,25 @@ def calc_scores(d):
     else:
         scores["sentiment"] = "gray"
 
+    # ── Skew 단독 신호 ────────────────────
+    if skew_val is not None:
+        if skew_val >= 150:   scores["skew"] = "red"
+        elif skew_val >= 130: scores["skew"] = "yellow"
+        else:                 scores["skew"] = "green"
+    else:
+        scores["skew"] = "gray"
+
+    # ── VIX × Skew 조합 신호 ──────────────
+    combo = skew_data.get("combo_signal")
+    if combo == "red":
+        scores["combo"] = "red"
+    elif combo in ("orange", "yellow"):
+        scores["combo"] = "yellow"
+    elif combo == "green":
+        scores["combo"] = "green"
+    else:
+        scores["combo"] = "gray"
+
     # ── 실업률 ───────────────────────────
     if unemp is not None:
         scores["unemployment"] = "green" if unemp < 4.2 else ("yellow" if unemp < 5.0 else "red")
@@ -143,7 +164,7 @@ def calc_scores(d):
     color_weight = {"green": 2, "yellow": 1, "red": 0, "gray": 1}
     core = ["vix", "hy_spread", "rates", "curve", "oil"]
     skip = {"verdict", "overall", "stagflation_risk", "ratio",
-            "override_reason", "gold_signal"}
+            "override_reason", "gold_signal", "combo"}
 
     total = 0
     max_total = 0
@@ -161,27 +182,28 @@ def calc_scores(d):
     hard_wait  = False
     override_reason = []
 
-    # VIX 28 이상 → 무조건 AVOID
     if vix is not None and vix >= 28:
         hard_avoid = True
         override_reason.append(f"VIX {vix:.1f} >= 28")
 
-    # WTI $90 이상 → 무조건 AVOID
     if wti is not None and wti >= 90:
         hard_avoid = True
         override_reason.append(f"WTI ${wti:.1f} >= $90")
 
-    # 스태그플레이션 → AVOID
     if stagflation_risk:
         hard_avoid = True
         override_reason.append(f"스태그플레이션(WTI>{wti}, 실업률>{unemp}%)")
 
-    # VIX 24 이상 → 최소 WAIT
+    # VIX 낮음 + Skew 높음 → 숨겨진 경고 → WAIT 강제
+    if skew_val is not None and vix is not None:
+        if vix < 22 and skew_val >= 130:
+            hard_wait = True
+            override_reason.append(f"숨겨진경고: VIX {vix:.1f}(낮음)+Skew {skew_val:.0f}(높음)")
+
     if vix is not None and 24 <= vix < 28:
         hard_wait = True
         override_reason.append(f"VIX {vix:.1f} >= 24")
 
-    # Gold 극단 위험회피 → 최소 WAIT
     if scores.get("gold_signal") == "red":
         hard_wait = True
         override_reason.append(f"Gold 극단 위험회피 ${gold:.0f}")
@@ -215,16 +237,13 @@ def calc_scores(d):
 # Groq 분석
 # ─────────────────────────────────────────
 def groq_analysis(d, scores):
-    sector_lines = ""
-    for name, v in d["sectors"].items():
-        chg_1d = v.get("change_pct")
-        chg_4w = v.get("change_4w")
-        c1 = f"{chg_1d:+.2f}%" if chg_1d is not None else "N/A"
-        c4 = f"{chg_4w:+.2f}%" if chg_4w is not None else "N/A"
-        sector_lines += f"  - {name.upper()}: 1일 {c1} / 4주 {c4}\n"
+    fg       = d["sentiment"].get("fear_greed", {})
+    fg_str   = f"{fg.get('score')} ({fg.get('rating')})" if fg.get("score") is not None else "계산 실패"
 
-    fg     = d["sentiment"].get("fear_greed", {})
-    fg_str = f"{fg.get('score')} ({fg.get('rating')})" if fg.get("score") is not None else "계산 실패"
+    skew_data  = d["sentiment"].get("skew", {})
+    skew_val   = skew_data.get("close")
+    skew_label = skew_data.get("combo_label", "데이터 없음")
+    skew_str   = f"{skew_val:.0f} / 조합 신호: {skew_label}" if skew_val is not None else "데이터 없음"
 
     news       = d.get("news", [])
     news_block = "\n".join(f"  - {h}" for h in news) if news else "  - 수집 실패"
@@ -237,10 +256,9 @@ def groq_analysis(d, scores):
     if scores.get("override_reason"):
         override_block = "\n⚠️ 하드 오버라이드 발동: " + ", ".join(scores["override_reason"]) + "\n"
 
-    # 환율 방향 텍스트를 LLM이 오해할 수 없도록 더 명확하게 고정
+    # FX 방향 Python 계산 (Groq에 맡기지 않음)
     krw_chg = d['fx']['usdkrw']['change_pct']
     dxy_chg = d['fx']['dxy']['change_pct']
-    
     krw_dir = f"원화 약세(달러 대비 가치 하락, USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화 강세(달러 대비 가치 상승, USD/KRW {krw_chg:.2f}%)"
     dxy_dir = f"달러 강세(DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러 약세(DXY {dxy_chg:.2f}%)"
 
@@ -264,11 +282,14 @@ def groq_analysis(d, scores):
 - 원화: {krw_dir}
 
 [원자재]
-- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%) 
+- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%)
 - Gold: ${d['commodities']['gold']['close']} ({d['commodities']['gold']['change_pct']:+.2f}%)
 
 [시장 심리]
 - Fear & Greed: {fg_str}
+- CBOE Skew Index: {skew_str}
+  ※ Skew 해석: 130 미만=정상, 130~150=꼬리리스크 경고, 150 이상=블랙스완 대비 급증
+  ※ VIX 낮음+Skew 높음 조합은 표면상 조용하지만 내부적으로 대형 하락을 대비하는 가장 위험한 역설 구간
 
 [스코어카드]
 종합판정: {scores['verdict']} (ratio: {scores['ratio']})
@@ -284,6 +305,7 @@ def groq_analysis(d, scores):
   "section3_sector":"섹터 로테이션 3줄",
   "section4_risk":"지정학·정책 리스크 3줄",
   "section5_commodities":"원자재(WTI, Gold) 동향 및 스태그플레이션 리스크 분석 3줄",
+  "section6_skew":"VIX×Skew 조합 신호 해석 2줄 (현재 조합: {skew_label})",
   "bull_case":"강세 논거 2가지",
   "bear_case":"약세 논거 2가지",
   "verdict_reason":"판정 {scores['verdict']} 이유 2줄",
@@ -304,41 +326,32 @@ def groq_analysis(d, scores):
                 },
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.3, # 환각 방지를 위해 온도를 약간 낮춤
-            max_tokens=2500,
+            temperature=0.3,
+            max_tokens=2800,
         )
         text = response.choices[0].message.content.strip()
         print(f"Groq 응답 앞 200자: {text[:200]}")
 
-        # 백틱 전체 제거
+        # 백틱 전체 제거 후 JSON 추출
         text = re.sub(r"```json", "", text)
         text = re.sub(r"```",     "", text)
         text = text.strip()
-
-        # JSON 시작점 찾기
         start = text.find("{")
         end   = text.rfind("}") + 1
         if start != -1 and end > start:
             text = text[start:end]
 
-        return json.loads(text)
-        # FX 해석 강제 교정 — Groq 출력 무시하고 Python 계산값으로 덮어쓰기
-        try:
-            parsed = json.loads(text)
-            krw_chg = d['fx']['usdkrw']['change_pct']
-            dxy_chg = d['fx']['dxy']['change_pct']
-            krw_dir = f"원화약세(USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화강세(USD/KRW {krw_chg:.2f}%)"
-            dxy_dir = f"달러약세(DXY {dxy_chg:.2f}%)" if dxy_chg < 0 else f"달러강세(DXY +{dxy_chg:.2f}%)"
-            parsed["section2_flow"] = (
-                f"현재 환율: {dxy_dir}, {krw_dir}. "
-                f"USD/KRW {d['fx']['usdkrw']['close']:.0f}원으로 "
-                f"{'원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다' if krw_chg > 0 else '원화 강세로 수출 기업 실적에 부담'}. "
-                f"DXY {d['fx']['dxy']['close']:.2f}로 "
-                f"{'달러 약세는 이머징 자금 유입에 긍정적' if dxy_chg < 0 else '달러 강세는 이머징 자금 유출 압력'}."
-            )
-            return parsed
-        except:
-            pass
+        parsed = json.loads(text)
+
+        # FX 해석 강제 교정 — Groq 출력을 Python 계산값으로 덮어쓰기
+        parsed["section2_flow"] = (
+            f"{dxy_dir}. {krw_dir}. "
+            f"USD/KRW {d['fx']['usdkrw']['close']:.0f}원으로 "
+            f"{'원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다' if krw_chg > 0 else '원화 강세로 수출 기업 실적에 부담'}. "
+            f"{'달러 약세는 이머징 자금 유입에 긍정적' if dxy_chg < 0 else '달러 강세는 이머징 자금 유출 압력'}."
+        )
+
+        return parsed
 
     except json.JSONDecodeError as e:
         print(f"JSON 파싱 오류: {e}")
@@ -352,6 +365,7 @@ def _fallback():
         "section0_summary": "분석 생성 실패",
         "section1_fed": "-", "section2_flow": "-",
         "section3_sector": "-", "section4_risk": "-",
+        "section5_commodities": "-", "section6_skew": "-",
         "bull_case": "-", "bear_case": "-",
         "verdict_reason": "AI 분석 실패",
         "scenario_bull": "-", "scenario_base": "-", "scenario_bear": "-",
