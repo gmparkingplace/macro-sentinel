@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12",
+  "date": "2026-03-13",
   "indices": {
     "sp500": {
       "close": 6672.62,
@@ -52,42 +52,42 @@
   },
   "fx": {
     "dxy": {
-      "close": 99.74,
+      "close": 99.77,
       "prev_close": 99.23,
-      "change_pct": 0.51,
-      "pct_52w": 45.9
+      "change_pct": 0.54,
+      "pct_52w": 46.2
     },
     "usdkrw": {
-      "close": 1488.78,
-      "prev_close": 1472.78,
-      "change_pct": 1.09,
-      "pct_52w": 90.5
+      "close": 1490.47,
+      "prev_close": 1475.34,
+      "change_pct": 1.03,
+      "pct_52w": 91.4
     },
     "usdjpy": {
-      "close": 159.33,
-      "prev_close": 158.11,
-      "change_pct": 0.77,
-      "pct_52w": 99.4
+      "close": 159.4,
+      "prev_close": 159.07,
+      "change_pct": 0.21,
+      "pct_52w": 99.8
     },
     "eurusd": {
       "close": 1.15,
-      "prev_close": 1.16,
-      "change_pct": -0.86,
+      "prev_close": 1.15,
+      "change_pct": 0.0,
       "pct_52w": 59.1
     }
   },
   "commodities": {
     "wti": {
-      "close": 96.81,
+      "close": 95.85,
       "prev_close": 87.25,
-      "change_pct": 10.96,
-      "pct_52w": 64.9
+      "change_pct": 9.86,
+      "pct_52w": 63.4
     },
     "gold": {
-      "close": 5097.2,
+      "close": 5114.9,
       "prev_close": 5167.4,
-      "change_pct": -1.36,
-      "pct_52w": 81.7
+      "change_pct": -1.02,
+      "pct_52w": 82.4
     }
   },
   "liquidity": {
@@ -180,6 +180,13 @@
     "fear_greed": {
       "score": 24,
       "rating": "Extreme Fear"
+    },
+    "skew": {
+      "close": 139.94,
+      "change_pct": -8.2,
+      "signal": "yellow",
+      "combo_signal": "red",
+      "combo_label": "총체적위기(VIX↑+Skew↑)"
     }
   }
 }
