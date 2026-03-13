@@ -264,8 +264,8 @@ def groq_analysis(d, scores):
         override_block = "\n⚠️ 하드 오버라이드 발동: " + ", ".join(scores["override_reason"]) + "\n"
 
     # FX 방향 Python 계산 (Groq에 맡기지 않음)
-    krw_chg = d['fx']['usdkrw']['change_pct']
-    dxy_chg = d['fx']['dxy']['change_pct']
+    krw_chg = d['fx']['usdkrw']['change_pct'] or 0.0
+    dxy_chg = d['fx']['dxy']['change_pct'] or 0.0
     krw_dir = f"원화 약세(달러 대비 가치 하락, USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화 강세(달러 대비 가치 상승, USD/KRW {krw_chg:.2f}%)"
     dxy_dir = f"달러 강세(DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러 약세(DXY {dxy_chg:.2f}%)"
 
