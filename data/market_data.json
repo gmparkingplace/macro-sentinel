@@ -20,10 +20,10 @@
       "pct_52w": 75.4
     },
     "vix": {
-      "close": 28.43,
+      "close": 26.05,
       "prev_close": 27.29,
-      "change_pct": 4.18,
-      "pct_52w": 32.2
+      "change_pct": -4.54,
+      "pct_52w": 27.1
     }
   },
   "rates": {
@@ -58,36 +58,36 @@
       "pct_52w": null
     },
     "usdkrw": {
-      "close": 1496.88,
+      "close": 1494.88,
       "prev_close": 1475.34,
-      "change_pct": 1.46,
-      "pct_52w": 94.9
+      "change_pct": 1.32,
+      "pct_52w": 93.8
     },
     "usdjpy": {
-      "close": 159.43,
+      "close": 159.4,
       "prev_close": 159.07,
-      "change_pct": 0.23,
-      "pct_52w": 98.7
+      "change_pct": 0.21,
+      "pct_52w": 98.6
     },
     "eurusd": {
-      "close": 1.14,
+      "close": 1.15,
       "prev_close": 1.15,
-      "change_pct": -0.87,
-      "pct_52w": 51.3
+      "change_pct": 0.0,
+      "pct_52w": 59.1
     }
   },
   "commodities": {
     "wti": {
-      "close": 96.18,
+      "close": 94.46,
       "prev_close": 95.73,
-      "change_pct": 0.47,
-      "pct_52w": 63.9
+      "change_pct": -1.33,
+      "pct_52w": 61.2
     },
     "gold": {
-      "close": 5080.6,
+      "close": 5099.0,
       "prev_close": 5115.8,
-      "change_pct": -0.69,
-      "pct_52w": 80.9
+      "change_pct": -0.33,
+      "pct_52w": 81.6
     }
   },
   "liquidity": {
@@ -178,8 +178,8 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 22,
-      "rating": "Extreme Fear"
+      "score": 27,
+      "rating": "Fear"
     },
     "skew": {
       "close": 139.94,
@@ -223,6 +223,20 @@
   ],
   "news": [
     {
+      "title": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic",
+      "url": "https://www.marketwatch.com/story/brent-oil-futures-climb-above-100-on-continued-disruption-to-strait-of-hormuz-traffic-764be61b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 13 Mar 2026 10:59:00 GMT",
+      "title_ko": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic"
+    },
+    {
+      "title": "Why a 1980s conflict may be the best market analog for the current Iran situation",
+      "url": "https://www.marketwatch.com/story/why-a-1980s-conflict-may-be-the-best-market-analog-for-the-current-iran-situation-4e0d404a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 13 Mar 2026 10:40:00 GMT",
+      "title_ko": "Why a 1980s conflict may be the best market analog for the current Iran situation"
+    },
+    {
       "title": "Shoppers seeking a tariff refund from retailers are likely out of luck",
       "url": "https://www.marketwatch.com/story/shoppers-seeking-a-tariff-refund-from-retailers-are-likely-out-of-luck-5aacf5f4?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -237,11 +251,11 @@
       "title_ko": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer."
     },
     {
-      "title": "The S&P 500 just broke a major support. Another 10% decline is likely.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 12 Mar 2026 22:40:00 GMT",
-      "title_ko": "The S&P 500 just broke a major support. Another 10% decline is likely."
+      "title": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war",
+      "url": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
+      "source": "CNBC",
+      "published": "Fri, 13 Mar 2026 10:55:23 GMT",
+      "title_ko": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war"
     },
     {
       "title": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices",
@@ -258,20 +272,6 @@
       "title_ko": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets"
     },
     {
-      "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
-      "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
-      "source": "CNBC",
-      "published": "Thu, 12 Mar 2026 20:41:02 GMT",
-      "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
-    },
-    {
-      "title": "Tesla's China sales climb in the first two months of 2026 while BYD numbers drop",
-      "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html",
-      "source": "CNBC",
-      "published": "Fri, 13 Mar 2026 07:02:05 GMT",
-      "title_ko": "Tesla's China sales climb in the first two months of 2026 while BYD numbers drop"
-    },
-    {
       "title": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News",
       "url": "https://www.cnbc.com/2026/03/12/iran-war-us-navy-strait-of-hormuz-oil-bessent.html",
       "source": "CNBC",
@@ -279,11 +279,11 @@
       "title_ko": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News"
     },
     {
-      "title": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East",
-      "url": "https://www.cnbc.com/2026/03/13/asia-pacific-markets-today-nikkei-225-kospi-hang-seng-csi300.html",
+      "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
+      "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
       "source": "CNBC",
-      "published": "Fri, 13 Mar 2026 07:30:06 GMT",
-      "title_ko": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East"
+      "published": "Thu, 12 Mar 2026 20:41:02 GMT",
+      "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
     },
     {
       "title": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks",
@@ -293,6 +293,13 @@
       "title_ko": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks"
     },
     {
+      "title": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says",
+      "url": "https://www.cnbc.com/2026/03/12/iran-war-fed.html",
+      "source": "CNBC",
+      "published": "Thu, 12 Mar 2026 20:01:12 GMT",
+      "title_ko": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says"
+    },
+    {
       "title": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs",
       "url": "https://www.cnbc.com/2026/03/12/trump-trade-tariffs-tax-rebates-martin-heinrich-2026-elections.html",
       "source": "CNBC",
@@ -300,11 +307,11 @@
       "title_ko": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs"
     },
     {
-      "title": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed",
-      "url": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html",
+      "title": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues",
+      "url": "https://www.cnbc.com/2026/03/12/fed-kevin-warsh-trump-thom-tillis-senate.html",
       "source": "CNBC",
-      "published": "Thu, 12 Mar 2026 19:42:49 GMT",
-      "title_ko": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed"
+      "published": "Thu, 12 Mar 2026 19:33:38 GMT",
+      "title_ko": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues"
     }
   ]
 }

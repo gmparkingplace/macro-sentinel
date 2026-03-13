@@ -22,10 +22,10 @@
         "pct_52w": 75.4
       },
       "vix": {
-        "close": 28.43,
+        "close": 26.05,
         "prev_close": 27.29,
-        "change_pct": 4.18,
-        "pct_52w": 32.2
+        "change_pct": -4.54,
+        "pct_52w": 27.1
       }
     },
     "rates": {
@@ -60,36 +60,36 @@
         "pct_52w": null
       },
       "usdkrw": {
-        "close": 1496.88,
+        "close": 1494.88,
         "prev_close": 1475.34,
-        "change_pct": 1.46,
-        "pct_52w": 94.9
+        "change_pct": 1.32,
+        "pct_52w": 93.8
       },
       "usdjpy": {
-        "close": 159.43,
+        "close": 159.4,
         "prev_close": 159.07,
-        "change_pct": 0.23,
-        "pct_52w": 98.7
+        "change_pct": 0.21,
+        "pct_52w": 98.6
       },
       "eurusd": {
-        "close": 1.14,
+        "close": 1.15,
         "prev_close": 1.15,
-        "change_pct": -0.87,
-        "pct_52w": 51.3
+        "change_pct": 0.0,
+        "pct_52w": 59.1
       }
     },
     "commodities": {
       "wti": {
-        "close": 96.18,
+        "close": 94.46,
         "prev_close": 95.73,
-        "change_pct": 0.47,
-        "pct_52w": 63.9
+        "change_pct": -1.33,
+        "pct_52w": 61.2
       },
       "gold": {
-        "close": 5080.6,
+        "close": 5099.0,
         "prev_close": 5115.8,
-        "change_pct": -0.69,
-        "pct_52w": 80.9
+        "change_pct": -0.33,
+        "pct_52w": 81.6
       }
     },
     "liquidity": {
@@ -180,8 +180,8 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 22,
-        "rating": "Extreme Fear"
+        "score": 27,
+        "rating": "Fear"
       },
       "skew": {
         "close": 139.94,
@@ -225,6 +225,20 @@
     ],
     "news": [
       {
+        "title": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic",
+        "url": "https://www.marketwatch.com/story/brent-oil-futures-climb-above-100-on-continued-disruption-to-strait-of-hormuz-traffic-764be61b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 13 Mar 2026 10:59:00 GMT",
+        "title_ko": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic"
+      },
+      {
+        "title": "Why a 1980s conflict may be the best market analog for the current Iran situation",
+        "url": "https://www.marketwatch.com/story/why-a-1980s-conflict-may-be-the-best-market-analog-for-the-current-iran-situation-4e0d404a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 13 Mar 2026 10:40:00 GMT",
+        "title_ko": "Why a 1980s conflict may be the best market analog for the current Iran situation"
+      },
+      {
         "title": "Shoppers seeking a tariff refund from retailers are likely out of luck",
         "url": "https://www.marketwatch.com/story/shoppers-seeking-a-tariff-refund-from-retailers-are-likely-out-of-luck-5aacf5f4?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -239,11 +253,11 @@
         "title_ko": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer."
       },
       {
-        "title": "The S&P 500 just broke a major support. Another 10% decline is likely.",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:40:00 GMT",
-        "title_ko": "The S&P 500 just broke a major support. Another 10% decline is likely."
+        "title": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war",
+        "url": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 10:55:23 GMT",
+        "title_ko": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war"
       },
       {
         "title": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices",
@@ -260,20 +274,6 @@
         "title_ko": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets"
       },
       {
-        "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
-        "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:41:02 GMT",
-        "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
-      },
-      {
-        "title": "Tesla's China sales climb in the first two months of 2026 while BYD numbers drop",
-        "url": "https://www.cnbc.com/2026/03/13/teslas-china-sales-climb-in-the-first-two-months-of-2026-while-byd-numbers-drop.html",
-        "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 07:02:05 GMT",
-        "title_ko": "Tesla's China sales climb in the first two months of 2026 while BYD numbers drop"
-      },
-      {
         "title": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News",
         "url": "https://www.cnbc.com/2026/03/12/iran-war-us-navy-strait-of-hormuz-oil-bessent.html",
         "source": "CNBC",
@@ -281,11 +281,11 @@
         "title_ko": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News"
       },
       {
-        "title": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East",
-        "url": "https://www.cnbc.com/2026/03/13/asia-pacific-markets-today-nikkei-225-kospi-hang-seng-csi300.html",
+        "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
+        "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 07:30:06 GMT",
-        "title_ko": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East"
+        "published": "Thu, 12 Mar 2026 20:41:02 GMT",
+        "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
       },
       {
         "title": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks",
@@ -295,6 +295,13 @@
         "title_ko": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks"
       },
       {
+        "title": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says",
+        "url": "https://www.cnbc.com/2026/03/12/iran-war-fed.html",
+        "source": "CNBC",
+        "published": "Thu, 12 Mar 2026 20:01:12 GMT",
+        "title_ko": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says"
+      },
+      {
         "title": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs",
         "url": "https://www.cnbc.com/2026/03/12/trump-trade-tariffs-tax-rebates-martin-heinrich-2026-elections.html",
         "source": "CNBC",
@@ -302,11 +309,11 @@
         "title_ko": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs"
       },
       {
-        "title": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed",
-        "url": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html",
+        "title": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues",
+        "url": "https://www.cnbc.com/2026/03/12/fed-kevin-warsh-trump-thom-tillis-senate.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 19:42:49 GMT",
-        "title_ko": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed"
+        "published": "Thu, 12 Mar 2026 19:33:38 GMT",
+        "title_ko": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues"
       }
     ]
   },
@@ -330,30 +337,30 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "VIX 28.4 >= 28",
-      "WTI $96.2 >= $90",
-      "스태그플레이션(WTI>96.18, 실업률>4.4%)"
+      "WTI $94.5 >= $90",
+      "스태그플레이션(WTI>94.46, 실업률>4.4%)",
+      "VIX 26.1 >= 24"
     ],
     "ratio": 0.441
   },
   "analysis": {
-    "section0_summary": "현재 시장은 고유가와 높은 실업률로 인해 스태그플레이션 경고가 발동된 상태입니다. WTI는 $96.18로 상승하고 있으며, 실업률은 4.4%입니다. 이러한 상황은 시장의 불안정성을 높이고 있습니다.",
-    "section1_fed": "Fed는 금리 인상을 계속할 것으로 예상됩니다. 최근의 시장 상황과 스태그플레이션 경고는 금리 인상의 필요성을 강조하고 있습니다. 그러나 높은 실업률과 경기 침체 우려로 인해 금리 인상 속도는 느려질 수 있습니다. Fed의 다음 금리 결정은 2026-03-18에 예정되어 있습니다.",
-    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.46%). USD/KRW 1497원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
-    "section3_sector": "에너지 섹터는 고유가로 인해 상승하고 있습니다. 그러나 경기 침체 우려로 인해 소비자 지출이 감소할 수 있습니다. 기술 섹터는 최근의 시장 상황으로 인해 하락하고 있습니다. 이러한 섹터 로테이션은 시장의 불안정성을 높이고 있습니다.",
-    "section4_risk": "지정학적 리스크는 최근의 이란 전쟁으로 인해 높아지고 있습니다. 이에 따른 원자재 가격 상승과 시장의 불안정성이 높아지고 있습니다. 또한, 트럼프의 tarif 정책으로 인해 글로벌 경제에 부정적인 영향을 미칠 수 있습니다.",
-    "section5_commodities": "WTI는 $96.18로 상승하고 있으며, Gold는 $5080.6로 하락하고 있습니다. 이러한 원자재 가격 동향은 스태그플레이션 리스크를 높이고 있습니다. 고유가와 높은 실업률은 경기 침체 우려를 높이고 있습니다.",
-    "section6_skew": "VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 시장의 불안정성이 높아지고 있으며, 블랙스완 이벤트의 가능성이 높아지고 있습니다.",
-    "bull_case": "강세 논거는 다음과 같습니다. 1) 기술 섹터의 회복 가능성, 2) 에너지 섹터의 고유가로 인한 수익성 개선",
-    "bear_case": "약세 논거는 다음과 같습니다. 1) 스태그플레이션 리스크, 2) 지정학적 리스크와 경기 침체 우려",
-    "verdict_reason": "판정 AVOID 이유는 다음과 같습니다. 1) 시장의 불안정성이 높아지고 있으며, 2) 스태그플레이션 리스크와 지정학적 리스크가 높아지고 있습니다.",
-    "scenario_bull": "강세 시나리오는 다음과 같습니다. 기술 섹터의 회복과 에너지 섹터의 고유가로 인한 수익성 개선이 시장의 강세를 이끌어갈 수 있습니다.",
-    "scenario_base": "기본 시나리오는 다음과 같습니다. 시장은 현재의 불안정성을 유지할 수 있습니다. 스태그플레이션 리스크와 지정학적 리스크가 높아지고 있지만, 기술 섹터의 회복과 에너지 섹터의 고유가로 인한 수익성 개선이 시장의 강세를 이끌어갈 수 있습니다.",
-    "scenario_bear": "약세 시나리오는 다음과 같습니다. 스태그플레이션 리스크와 지정학적 리스크가 높아져 시장의 약세를 이끌어갈 수 있습니다. 경기 침체 우려와 원자재 가격 상승이 시장의 약세를 가속할 수 있습니다.",
+    "section0_summary": "현재 시장은 높은 원자재 가격과 금리 상승으로 인해 불안정한 상황에 처해 있습니다. Brent 유가는 100달러 이상으로 상승하였고, WTI는 94.46달러로 하락하였습니다. 이러한 상황은 스태그플레이션의 가능성을 높이고 있습니다.",
+    "section1_fed": "Fed는 금리 인상을 계속할 것으로 예상됩니다. 현재 실업률은 4.4%로 높아져서 인플레이션 압력을 가중시키고 있습니다. 따라서 금리 인상은 경제 성장률을 제한할 수 있습니다. 또한, Fed의 금리 결정은 시장의 방향을 결정할 중요한 요소입니다. 금리 인상은 달러를 강화할 수 있습니다. 그러나 현재의 시장 상황은 금리 인상을 예상하고 있습니다.",
+    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.32%). USD/KRW 1495원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
+    "section3_sector": "에너지 섹터는 높은 원자재 가격으로 인해 강세를 보일 수 있습니다. 그러나, 소비자 물가지수가 상승하면 소비자 지출이 감소하여 소비자 섹터가 약세를 보일 수 있습니다. 기술 섹터는 경제 성장률에 민감하여 약세를 보일 수 있습니다.",
+    "section4_risk": "지정학적 리스크는 높은 원자재 가격과 금리 상승을 가중시키는 요인입니다. 특히, 이란과의 갈등은 원유 수출을 제한하여 원자재 가격을 상승시키는 요인으로 작용할 수 있습니다. 또한, 통상 전쟁은 글로벌 경제 성장률을 저하하는 요인으로 작용할 수 있습니다.",
+    "section5_commodities": "WTI는 94.46달러로 하락하였지만, 여전히 높은 수준입니다. 이는 스태그플레이션의 가능성을 높이고 있습니다. 또한, 금은 5099.0달러로 하락하였지만, 여전히 안전자산으로의 수요가 높을 수 있습니다.",
+    "section6_skew": "VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 시장의 불안정성을 가중시키는 요인으로 작용할 수 있습니다. 특히, VIX의 상승은 시장의 변동성을 높이는 요인으로 작용할 수 있습니다.",
+    "bull_case": "강세 논거는 다음과 같습니다. 첫째, 경제 성장률이 회복될 수 있습니다. 둘째, 원자재 가격이 하락할 수 있습니다.",
+    "bear_case": "약세 논거는 다음과 같습니다. 첫째, 스태그플레이션이 발생할 수 있습니다. 둘째, 금리 인상이 경제 성장률을 제한할 수 있습니다.",
+    "verdict_reason": "판정 AVOID 이유는 다음과 같습니다. 첫째, 시장의 불안정성이 높습니다. 둘째, 스태그플레이션의 가능성이 높습니다.",
+    "scenario_bull": "강세 시나리오는 다음과 같습니다. 경제 성장률이 회복되고, 원자재 가격이 하락하면 시장은 강세를 보일 수 있습니다.",
+    "scenario_base": "기본 시나리오는 다음과 같습니다. 경제 성장률이 안정되고, 원자재 가격이 안정되면 시장은 안정될 수 있습니다.",
+    "scenario_bear": "약세 시나리오는 다음과 같습니다. 스태그플레이션이 발생하고, 금리 인상이 경제 성장률을 제한하면 시장은 약세를 보일 수 있습니다.",
     "entry_triggers": [
-      "WTI가 $100을 돌파할 경우",
-      "실업률이 4.5%를 상회할 경우",
-      "VIX가 30을 상회할 경우"
+      "WTI가 90달러 아래로 하락할 때",
+      "VIX가 20 아래로 하락할 때",
+      "실업률이 4% 아래로 하락할 때"
     ],
     "key_events": [
       {
