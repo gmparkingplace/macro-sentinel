@@ -23,7 +23,7 @@
       "close": 27.29,
       "prev_close": 24.23,
       "change_pct": 12.63,
-      "pct_52w": 29.8
+      "pct_52w": 45.4
     }
   },
   "rates": {
@@ -52,22 +52,22 @@
   },
   "fx": {
     "dxy": {
-      "close": 99.77,
-      "prev_close": 99.23,
-      "change_pct": 0.54,
-      "pct_52w": 46.2
+      "close": null,
+      "prev_close": null,
+      "change_pct": null,
+      "pct_52w": null
     },
     "usdkrw": {
-      "close": 1490.47,
+      "close": 1489.58,
       "prev_close": 1475.34,
-      "change_pct": 1.03,
-      "pct_52w": 91.4
+      "change_pct": 0.97,
+      "pct_52w": 90.9
     },
     "usdjpy": {
-      "close": 159.4,
+      "close": 159.44,
       "prev_close": 159.07,
-      "change_pct": 0.21,
-      "pct_52w": 99.8
+      "change_pct": 0.23,
+      "pct_52w": 98.8
     },
     "eurusd": {
       "close": 1.15,
@@ -78,16 +78,16 @@
   },
   "commodities": {
     "wti": {
-      "close": 95.85,
-      "prev_close": 87.25,
-      "change_pct": 9.86,
-      "pct_52w": 63.4
+      "close": 95.76,
+      "prev_close": 95.73,
+      "change_pct": 0.03,
+      "pct_52w": 63.2
     },
     "gold": {
-      "close": 5114.9,
-      "prev_close": 5167.4,
-      "change_pct": -1.02,
-      "pct_52w": 82.4
+      "close": 5108.0,
+      "prev_close": 5115.8,
+      "change_pct": -0.15,
+      "pct_52w": 82.0
     }
   },
   "liquidity": {
@@ -188,5 +188,37 @@
       "combo_signal": "red",
       "combo_label": "총체적위기(VIX↑+Skew↑)"
     }
-  }
+  },
+  "calendar": [
+    {
+      "date": "2026-03-18",
+      "event": "FOMC 금리 결정",
+      "category": "fed",
+      "impact": "high"
+    },
+    {
+      "date": "2026-03-19",
+      "event": "FOMC 기자회견",
+      "category": "fed",
+      "impact": "high"
+    },
+    {
+      "date": "2026-03-27",
+      "event": "PCE 발표 (2월)",
+      "category": "pce",
+      "impact": "high"
+    },
+    {
+      "date": "2026-04-03",
+      "event": "고용보고서 (3월)",
+      "category": "jobs",
+      "impact": "high"
+    },
+    {
+      "date": "2026-04-10",
+      "event": "CPI 발표 (3월)",
+      "category": "cpi",
+      "impact": "high"
+    }
+  ]
 }
