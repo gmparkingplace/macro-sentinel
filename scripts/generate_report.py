@@ -16,9 +16,73 @@ TODAY = datetime.date.today().isoformat()
 
 client = Groq(api_key=GROQ_API_KEY)
 
-# ─────────────────────────────────────────
-# 스코어 계산
-# ─────────────────────────────────────────
+def load_vix_history():
+    """
+    history.json에서 VIX 배열 반환 (날짜순, 최근 14일)
+    데이터 부족 시 빈 리스트 반환 → 로직 자동 스킵
+    """
+    try:
+        if not os.path.exists("data/history.json"):
+            return []
+        with open("data/history.json", "r", encoding="utf-8") as f:
+            history = json.load(f)
+        vix_list = [h["vix"] for h in history[-14:] if h.get("vix") is not None]
+        return vix_list
+    except Exception as e:
+        print(f"히스토리 VIX 로드 오류: {e}")
+        return []
+
+def calc_contrarian_signal(vix_now, fg_now, vix_history):
+    """
+    역발상 매수 신호 감지
+    조건: Fear & Greed 극단 공포(≤15) + VIX 고점 대비 하락 중
+
+    반환:
+      "strong"  - 강한 역발상 신호 (WAIT 판정 시 별도 표시)
+      "weak"    - 약한 신호 (참고용)
+      None      - 신호 없음 또는 데이터 부족
+    """
+    # 히스토리 5일 이상 있어야 의미 있음
+    if len(vix_history) < 5:
+        print(f"역발상 신호: 히스토리 부족 ({len(vix_history)}일) → 스킵")
+        return None
+
+    if vix_now is None or fg_now is None:
+        return None
+
+    # Fear & Greed 극단 공포 구간
+    extreme_fear = fg_now <= 15
+
+    # VIX 5일 이동평균
+    vix_5d   = sum(vix_history[-5:]) / 5
+    # VIX 최근 14일 고점
+    vix_peak = max(vix_history)
+    # 고점 대비 현재 VIX 하락률
+    vix_drop_from_peak = (vix_peak - vix_now) / vix_peak * 100 if vix_peak > 0 else 0
+    # 최근 3일 연속 하락 여부
+    vix_3d_declining = (
+        len(vix_history) >= 3 and
+        vix_history[-3] > vix_history[-2] > vix_history[-1]
+    )
+
+    print(f"역발상 분석: FG={fg_now}, VIX={vix_now:.1f}, "
+          f"5일평균={vix_5d:.1f}, 고점={vix_peak:.1f}, "
+          f"고점대비하락={vix_drop_from_peak:.1f}%, 3일연속하락={vix_3d_declining}")
+
+    # 강한 신호: 극단 공포 + VIX 고점 대비 10% 이상 하락 + 3일 연속 하락
+    if extreme_fear and vix_drop_from_peak >= 10 and vix_3d_declining:
+        print("⚡ 역발상 신호: STRONG (극단공포 + VIX 꺾임 확인)")
+        return "strong"
+
+    # 약한 신호: 극단 공포 + VIX 고점 대비 5% 이상 하락
+    if extreme_fear and vix_drop_from_peak >= 5:
+        print("⚡ 역발상 신호: WEAK (극단공포 + VIX 하락 시작)")
+        return "weak"
+
+    return None
+
+
+
 def score_label(value, thresholds):
     if value is None:
         return "gray"
@@ -160,11 +224,16 @@ def calc_scores(d):
             stagflation_risk = True
             print(f"⚠️ 스태그플레이션 리스크 감지: WTI={wti}, 실업률={unemp}%")
 
+    # ── 역발상 신호 감지 ──────────────────
+    vix_history        = load_vix_history()
+    contrarian_signal  = calc_contrarian_signal(vix, fg, vix_history)
+    scores["contrarian_signal"] = contrarian_signal  # None / "weak" / "strong"
+
     # ── 가중 점수 계산 ────────────────────
     color_weight = {"green": 2, "yellow": 1, "red": 0, "gray": 1}
     core = ["vix", "hy_spread", "rates", "curve", "oil"]
     skip = {"verdict", "overall", "stagflation_risk", "ratio",
-            "override_reason", "gold_signal", "combo"}
+            "override_reason", "gold_signal", "combo", "contrarian_signal"}
 
     total = 0
     max_total = 0
@@ -213,8 +282,15 @@ def calc_scores(d):
 
     # ── 최종 판정 ─────────────────────────
     if hard_avoid:
-        scores["overall"] = "red"
-        verdict = "AVOID"
+        # 역발상 강한 신호 시 AVOID → WAIT 완화 (단, 스태그플레이션/WTI는 유지)
+        if contrarian_signal == "strong" and not stagflation_risk and (wti is None or wti < 90):
+            scores["overall"] = "yellow"
+            verdict = "WAIT"
+            override_reason.append("⚡ 역발상 신호(극단공포+VIX꺾임): AVOID→WAIT 완화")
+            print("⚡ 역발상 신호로 AVOID → WAIT 완화")
+        else:
+            scores["overall"] = "red"
+            verdict = "AVOID"
     elif hard_wait or ratio < 0.65:
         scores["overall"] = "yellow"
         verdict = "WAIT"
@@ -264,8 +340,8 @@ def groq_analysis(d, scores):
         override_block = "\n⚠️ 하드 오버라이드 발동: " + ", ".join(scores["override_reason"]) + "\n"
 
     # FX 방향 Python 계산 (Groq에 맡기지 않음)
-    krw_chg = d['fx']['usdkrw']['change_pct'] or 0.0
-    dxy_chg = d['fx']['dxy']['change_pct'] or 0.0
+    krw_chg = d['fx']['usdkrw']['change_pct']
+    dxy_chg = d['fx']['dxy']['change_pct']
     krw_dir = f"원화 약세(달러 대비 가치 하락, USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화 강세(달러 대비 가치 상승, USD/KRW {krw_chg:.2f}%)"
     dxy_dir = f"달러 강세(DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러 약세(DXY {dxy_chg:.2f}%)"
 
