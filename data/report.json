@@ -4,52 +4,52 @@
     "date": "2026-03-13",
     "indices": {
       "sp500": {
-        "close": 6672.62,
-        "prev_close": 6775.8,
-        "change_pct": -1.52,
-        "pct_52w": 84.8
-      },
-      "nasdaq100": {
-        "close": 24533.58,
-        "prev_close": 24965.01,
-        "change_pct": -1.73,
+        "close": 6632.19,
+        "prev_close": 6672.62,
+        "change_pct": -0.61,
         "pct_52w": 82.9
       },
+      "nasdaq100": {
+        "close": 24380.73,
+        "prev_close": 24533.58,
+        "change_pct": -0.62,
+        "pct_52w": 81.3
+      },
       "russell": {
-        "close": 2488.99,
-        "prev_close": 2542.9,
-        "change_pct": -2.12,
-        "pct_52w": 75.4
+        "close": 2480.05,
+        "prev_close": 2488.99,
+        "change_pct": -0.36,
+        "pct_52w": 74.5
       },
       "vix": {
-        "close": 26.05,
+        "close": 27.19,
         "prev_close": 27.29,
-        "change_pct": -4.54,
-        "pct_52w": 27.1
+        "change_pct": -0.37,
+        "pct_52w": 29.5
       }
     },
     "rates": {
       "us2y": {
-        "value": 3.64,
-        "date": "2026-03-11"
+        "value": 3.76,
+        "date": "2026-03-12"
       },
       "us10y": {
-        "value": 4.21,
-        "date": "2026-03-11"
+        "value": 4.27,
+        "date": "2026-03-12"
       },
       "tips10y": {
-        "value": 1.85,
-        "date": "2026-03-11"
+        "value": 1.89,
+        "date": "2026-03-12"
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.51,
-        "date": "2026-03-12"
+        "value": 0.55,
+        "date": "2026-03-13"
       },
       "hy_spread": {
-        "value": 3.09,
-        "date": "2026-03-11"
+        "value": 3.17,
+        "date": "2026-03-12"
       }
     },
     "fx": {
@@ -60,36 +60,36 @@
         "pct_52w": null
       },
       "usdkrw": {
-        "close": 1494.88,
+        "close": 1497.53,
         "prev_close": 1475.34,
-        "change_pct": 1.32,
-        "pct_52w": 93.8
+        "change_pct": 1.5,
+        "pct_52w": 95.3
       },
       "usdjpy": {
-        "close": 159.4,
-        "prev_close": 159.07,
-        "change_pct": 0.21,
-        "pct_52w": 98.6
+        "close": 159.72,
+        "prev_close": 159.21,
+        "change_pct": 0.32,
+        "pct_52w": 99.9
       },
       "eurusd": {
-        "close": 1.15,
+        "close": 1.14,
         "prev_close": 1.15,
-        "change_pct": 0.0,
-        "pct_52w": 59.1
+        "change_pct": -0.87,
+        "pct_52w": 51.3
       }
     },
     "commodities": {
       "wti": {
-        "close": 94.46,
+        "close": 99.31,
         "prev_close": 95.73,
-        "change_pct": -1.33,
-        "pct_52w": 61.2
+        "change_pct": 3.74,
+        "pct_52w": 68.7
       },
       "gold": {
-        "close": 5099.0,
+        "close": 5023.1,
         "prev_close": 5115.8,
-        "change_pct": -0.33,
-        "pct_52w": 81.6
+        "change_pct": -1.81,
+        "pct_52w": 78.8
       }
     },
     "liquidity": {
@@ -98,8 +98,8 @@
         "date": "2026-03-11"
       },
       "rrp": {
-        "value": 0.137,
-        "date": "2026-03-12"
+        "value": 0.427,
+        "date": "2026-03-13"
       },
       "m2": {
         "value": 22442.1,
@@ -108,52 +108,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 137.84,
-        "change_pct": -1.84,
-        "change_4w": -1.23,
-        "pct_52w": 77.7
+        "close": 136.8,
+        "change_pct": -0.75,
+        "change_4w": -1.92,
+        "pct_52w": 76.1
       },
       "financials": {
-        "close": 48.83,
-        "change_pct": -1.63,
-        "change_4w": -5.46,
-        "pct_52w": 47.8
+        "close": 48.89,
+        "change_pct": 0.12,
+        "change_4w": -6.34,
+        "pct_52w": 48.2
       },
       "energy": {
-        "close": 57.51,
-        "change_pct": 0.93,
-        "change_4w": 5.81,
-        "pct_52w": 96.8
+        "close": 57.7,
+        "change_pct": 0.33,
+        "change_4w": 7.35,
+        "pct_52w": 97.6
       },
       "utilities": {
-        "close": 46.5,
-        "change_pct": 0.71,
-        "change_4w": 0.0,
-        "pct_52w": 90.0
+        "close": 46.96,
+        "change_pct": 0.99,
+        "change_4w": 1.25,
+        "pct_52w": 93.6
       },
       "healthcare": {
-        "close": 150.16,
-        "change_pct": -1.76,
-        "change_4w": -4.76,
-        "pct_52w": 70.2
+        "close": 149.79,
+        "change_pct": -0.25,
+        "change_4w": -4.82,
+        "pct_52w": 69.1
       },
       "consumer_disc": {
-        "close": 111.52,
-        "change_pct": -2.3,
-        "change_4w": -4.01,
-        "pct_52w": 65.4
+        "close": 110.86,
+        "change_pct": -0.59,
+        "change_4w": -4.46,
+        "pct_52w": 63.7
       },
       "industrials": {
-        "close": 165.24,
-        "change_pct": -2.51,
-        "change_4w": -5.13,
-        "pct_52w": 79.2
+        "close": 164.65,
+        "change_pct": -0.36,
+        "change_4w": -5.96,
+        "pct_52w": 78.4
       },
       "materials": {
-        "close": 49.68,
-        "change_pct": -0.32,
-        "change_4w": -6.81,
-        "pct_52w": 75.4
+        "close": 49.19,
+        "change_pct": -0.99,
+        "change_4w": -6.66,
+        "pct_52w": 72.7
       }
     },
     "macro": {
@@ -170,22 +170,22 @@
         "date": "2026-02-01"
       },
       "pce": {
-        "value": 128.605,
-        "date": "2025-12-01"
+        "value": 128.969,
+        "date": "2026-01-01"
       },
       "gdp_growth": {
-        "value": 1.4,
+        "value": 0.7,
         "date": "2025-10-01"
       }
     },
     "sentiment": {
       "fear_greed": {
-        "score": 27,
-        "rating": "Fear"
+        "score": 24,
+        "rating": "Extreme Fear"
       },
       "skew": {
-        "close": 139.94,
-        "change_pct": -8.2,
+        "close": 137.76,
+        "change_pct": -1.56,
         "signal": "yellow",
         "combo_signal": "red",
         "combo_label": "총체적위기(VIX↑+Skew↑)"
@@ -225,95 +225,95 @@
     ],
     "news": [
       {
-        "title": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic",
-        "url": "https://www.marketwatch.com/story/brent-oil-futures-climb-above-100-on-continued-disruption-to-strait-of-hormuz-traffic-764be61b?mod=mw_rss_topstories",
+        "title": "Warren Buffett’s sage advice about fear and greed is a trap in this market",
+        "url": "https://www.marketwatch.com/story/warren-buffetts-sage-advice-about-fear-and-greed-is-a-trap-in-this-market-8d2d69c4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 13 Mar 2026 10:59:00 GMT",
-        "title_ko": "Brent oil futures climb above $100 on continued disruption to Strait of Hormuz traffic"
+        "published": "Fri, 13 Mar 2026 21:08:00 GMT",
+        "title_ko": "Warren Buffett’s sage advice about fear and greed is a trap in this market"
       },
       {
-        "title": "Why a 1980s conflict may be the best market analog for the current Iran situation",
-        "url": "https://www.marketwatch.com/story/why-a-1980s-conflict-may-be-the-best-market-analog-for-the-current-iran-situation-4e0d404a?mod=mw_rss_topstories",
+        "title": "Kevin Warsh’s Fed confirmation faces new delay, key senator says. Here’s why.",
+        "url": "https://www.marketwatch.com/story/kevin-warshs-fed-confirmation-faces-new-delay-key-senator-says-heres-why-3ffdfa39?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 13 Mar 2026 10:40:00 GMT",
-        "title_ko": "Why a 1980s conflict may be the best market analog for the current Iran situation"
+        "published": "Fri, 13 Mar 2026 20:42:00 GMT",
+        "title_ko": "Kevin Warsh’s Fed confirmation faces new delay, key senator says. Here’s why."
       },
       {
-        "title": "Shoppers seeking a tariff refund from retailers are likely out of luck",
-        "url": "https://www.marketwatch.com/story/shoppers-seeking-a-tariff-refund-from-retailers-are-likely-out-of-luck-5aacf5f4?mod=mw_rss_topstories",
+        "title": "Think Russian oil will calm the Iran conflict’s supply panic? Here’s what the math reveals.",
+        "url": "https://www.marketwatch.com/story/think-russian-oil-will-calm-the-iran-conflicts-supply-panic-heres-what-the-math-reveals-e392c4be?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:59:00 GMT",
-        "title_ko": "Shoppers seeking a tariff refund from retailers are likely out of luck"
+        "published": "Fri, 13 Mar 2026 20:20:00 GMT",
+        "title_ko": "Think Russian oil will calm the Iran conflict’s supply panic? Here’s what the math reveals."
       },
       {
-        "title": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer.",
-        "url": "https://www.marketwatch.com/story/trump-is-scrambling-to-quell-the-rise-of-100-oil-but-the-market-keeps-circling-one-answer-bf9abf20?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:50:00 GMT",
-        "title_ko": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer."
+        "title": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure",
+        "url": "https://www.cnbc.com/2026/03/13/trump-says-us-obliterated-military-targets-on-irans-kharg-island-but-didnt-wipe-out-oil-infrastructure.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 23:28:00 GMT",
+        "title_ko": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure"
       },
       {
-        "title": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war",
+        "title": "Mortgage rates surge to highest since September, hitting spring housing market",
+        "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 22:35:59 GMT",
+        "title_ko": "Mortgage rates surge to highest since September, hitting spring housing market"
+      },
+      {
+        "title": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe",
+        "url": "https://www.cnbc.com/2026/03/13/fed-jerome-powell-investigation-trump-pirro-doj.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 21:56:37 GMT",
+        "title_ko": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe"
+      },
+      {
+        "title": "Analysis: The U.S. is running out of ways to get oil prices down. It is up to the military.",
+        "url": "https://www.cnbc.com/2026/03/13/trump-iran-oil-prices-military-strait-of-hormuz.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 17:01:07 GMT",
+        "title_ko": "Analysis: The U.S. is running out of ways to get oil prices down. It is up to the military."
+      },
+      {
+        "title": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts",
+        "url": "https://www.cnbc.com/2026/03/13/iran-war-oil-trump-drilling.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 17:44:54 GMT",
+        "title_ko": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts"
+      },
+      {
+        "title": "Did tariff dividend checks just become more likely? Economists weigh in",
+        "url": "https://www.cnbc.com/2026/03/13/tariff-dividend-checks-a-new-bill-could-create-a-tax-rebate-program.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 18:31:24 GMT",
+        "title_ko": "Did tariff dividend checks just become more likely? Economists weigh in"
+      },
+      {
+        "title": "AI agents could easily send college grad unemployment over 30%, ServiceNow CEO says",
+        "url": "https://www.cnbc.com/2026/03/13/software-ai-agents-college-graduate-unemployment.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Mar 2026 20:14:16 GMT",
+        "title_ko": "AI agents could easily send college grad unemployment over 30%, ServiceNow CEO says"
+      },
+      {
+        "title": "Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war",
         "url": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 10:55:23 GMT",
-        "title_ko": "Oil holds above $100 as Trump says America ‘has ammunition and plenty of time’ to fight Iran war"
+        "published": "Fri, 13 Mar 2026 19:04:07 GMT",
+        "title_ko": "Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war"
       },
       {
-        "title": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices",
-        "url": "https://www.cnbc.com/2026/03/13/us-section-301-probe-trade-trump-labor-practices.html",
+        "title": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%",
+        "url": "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 06:25:01 GMT",
-        "title_ko": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices"
+        "published": "Fri, 13 Mar 2026 16:47:25 GMT",
+        "title_ko": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%"
       },
       {
-        "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
-        "url": "https://www.cnbc.com/2026/03/13/bessent-us-allows-purchase-russian-oil-stranded-sea-energy-markets.html",
+        "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+        "url": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 04:49:41 GMT",
-        "title_ko": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets"
-      },
-      {
-        "title": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News",
-        "url": "https://www.cnbc.com/2026/03/12/iran-war-us-navy-strait-of-hormuz-oil-bessent.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:28:45 GMT",
-        "title_ko": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News"
-      },
-      {
-        "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
-        "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:41:02 GMT",
-        "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
-      },
-      {
-        "title": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks",
-        "url": "https://www.cnbc.com/2026/03/12/jim-cramer-dont-let-iran-war-induced-market-volatility-scare-you-out-of-stocks.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 23:23:55 GMT",
-        "title_ko": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks"
-      },
-      {
-        "title": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says",
-        "url": "https://www.cnbc.com/2026/03/12/iran-war-fed.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:01:12 GMT",
-        "title_ko": "As Iran war heightens affordability issues, don't expect the Fed to 'ride in and save the day,' analyst says"
-      },
-      {
-        "title": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs",
-        "url": "https://www.cnbc.com/2026/03/12/trump-trade-tariffs-tax-rebates-martin-heinrich-2026-elections.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 17:37:48 GMT",
-        "title_ko": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs"
-      },
-      {
-        "title": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues",
-        "url": "https://www.cnbc.com/2026/03/12/fed-kevin-warsh-trump-thom-tillis-senate.html",
-        "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 19:33:38 GMT",
-        "title_ko": "Fed chair pick Kevin Warsh meets with more senators as Thom Tillis blockade continues"
+        "published": "Fri, 13 Mar 2026 18:32:12 GMT",
+        "title_ko": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says"
       }
     ]
   },
@@ -337,30 +337,30 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "WTI $94.5 >= $90",
-      "스태그플레이션(WTI>94.46, 실업률>4.4%)",
-      "VIX 26.1 >= 24"
+      "WTI $99.3 >= $90",
+      "스태그플레이션(WTI>99.31, 실업률>4.4%)",
+      "VIX 27.2 >= 24"
     ],
     "ratio": 0.441
   },
   "analysis": {
-    "section0_summary": "현재 시장은 높은 원자재 가격과 금리 상승으로 인해 불안정한 상황에 처해 있습니다. Brent 유가는 100달러 이상으로 상승하였고, WTI는 94.46달러로 하락하였습니다. 이러한 상황은 스태그플레이션의 가능성을 높이고 있습니다.",
-    "section1_fed": "Fed는 금리 인상을 계속할 것으로 예상됩니다. 현재 실업률은 4.4%로 높아져서 인플레이션 압력을 가중시키고 있습니다. 따라서 금리 인상은 경제 성장률을 제한할 수 있습니다. 또한, Fed의 금리 결정은 시장의 방향을 결정할 중요한 요소입니다. 금리 인상은 달러를 강화할 수 있습니다. 그러나 현재의 시장 상황은 금리 인상을 예상하고 있습니다.",
-    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.32%). USD/KRW 1495원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
-    "section3_sector": "에너지 섹터는 높은 원자재 가격으로 인해 강세를 보일 수 있습니다. 그러나, 소비자 물가지수가 상승하면 소비자 지출이 감소하여 소비자 섹터가 약세를 보일 수 있습니다. 기술 섹터는 경제 성장률에 민감하여 약세를 보일 수 있습니다.",
-    "section4_risk": "지정학적 리스크는 높은 원자재 가격과 금리 상승을 가중시키는 요인입니다. 특히, 이란과의 갈등은 원유 수출을 제한하여 원자재 가격을 상승시키는 요인으로 작용할 수 있습니다. 또한, 통상 전쟁은 글로벌 경제 성장률을 저하하는 요인으로 작용할 수 있습니다.",
-    "section5_commodities": "WTI는 94.46달러로 하락하였지만, 여전히 높은 수준입니다. 이는 스태그플레이션의 가능성을 높이고 있습니다. 또한, 금은 5099.0달러로 하락하였지만, 여전히 안전자산으로의 수요가 높을 수 있습니다.",
-    "section6_skew": "VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 시장의 불안정성을 가중시키는 요인으로 작용할 수 있습니다. 특히, VIX의 상승은 시장의 변동성을 높이는 요인으로 작용할 수 있습니다.",
-    "bull_case": "강세 논거는 다음과 같습니다. 첫째, 경제 성장률이 회복될 수 있습니다. 둘째, 원자재 가격이 하락할 수 있습니다.",
-    "bear_case": "약세 논거는 다음과 같습니다. 첫째, 스태그플레이션이 발생할 수 있습니다. 둘째, 금리 인상이 경제 성장률을 제한할 수 있습니다.",
-    "verdict_reason": "판정 AVOID 이유는 다음과 같습니다. 첫째, 시장의 불안정성이 높습니다. 둘째, 스태그플레이션의 가능성이 높습니다.",
-    "scenario_bull": "강세 시나리오는 다음과 같습니다. 경제 성장률이 회복되고, 원자재 가격이 하락하면 시장은 강세를 보일 수 있습니다.",
-    "scenario_base": "기본 시나리오는 다음과 같습니다. 경제 성장률이 안정되고, 원자재 가격이 안정되면 시장은 안정될 수 있습니다.",
-    "scenario_bear": "약세 시나리오는 다음과 같습니다. 스태그플레이션이 발생하고, 금리 인상이 경제 성장률을 제한하면 시장은 약세를 보일 수 있습니다.",
+    "section0_summary": "현재 시장은 높은 불안정성과 스태그플레이션 우려로 특징지어지며, WTI가 99.31달러로 상승하고 실업률이 4.4%로 높아졌습니다. 이러한 상황은 시장의 불안정성을 가중시키고 있습니다. 또한, VIX와 Skew 지수가 높아져서 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다.",
+    "section1_fed": "따라서, Fed의 금리 결정은 시장의 방향을 결정할 중요한 요소입니다. 투자자들은 금리 결정에 주목해야 합니다.",
+    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.50%). USD/KRW 1498원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
+    "section3_sector": "소비자 섹터는 높은 물가와 낮은 소비자 지출로 인해 약세를 보이고 있습니다. 이는 소비자 섹터의 수익성을 낮출 수 있습니다.",
+    "section4_risk": "경제 리스크는 높은 불안정성과 스태그플레이션 우려로 특징지어지며, 경제 성장률이 둔화되고 있습니다. 이는 시장의 불안정성을 가중시킬 수 있습니다.",
+    "section5_commodities": "스태그플레이션 리스크는 높은 원자재 가격과 낮은 경제 성장률로 특징지어지며, 이는 시장의 불안정성을 가중시킬 수 있습니다.",
+    "section6_skew": "이러한 상황은 투자자들이 안전자산으로의 자금 흐름을 고려할 수 있습니다. 이는 주식 시장에 부정적인 영향을 줄 수 있습니다.",
+    "bull_case": "기술 섹터의 약세는 높은 금리와 안전자산으로의 자금 흐름으로 인해 수익성을 낮출 수 있습니다.",
+    "bear_case": "Fed의 금리 결정은 시장의 방향을 결정할 중요한 요소입니다. 높은 금리는 경제 성장률을 둔화시킬 수 있습니다.",
+    "verdict_reason": "또한, VIX와 Skew 지수가 높아져서 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 투자자들이 안전자산으로의 자금 흐름을 고려할 수 있습니다.",
+    "scenario_bull": "에너지 섹터의 강세와 높은 원자재 가격이 지속되면, 시장은 강세를 보일 수 있습니다.",
+    "scenario_base": "현재 시장 상황은 높은 불안정성과 스태그플레이션 우려로 특징지어지며, 이는 시장의 불안정성을 가중시킬 수 있습니다.",
+    "scenario_bear": "高い 원자재 가격과 낮은 경제 성장률이 지속되면, 시장은 약세를 보일 수 있습니다.",
     "entry_triggers": [
-      "WTI가 90달러 아래로 하락할 때",
-      "VIX가 20 아래로 하락할 때",
-      "실업률이 4% 아래로 하락할 때"
+      "WTI가 100달러를 돌파할 때",
+      "실업률이 4.5%를 돌파할 때",
+      "VIX가 30을 돌파할 때"
     ],
     "key_events": [
       {
