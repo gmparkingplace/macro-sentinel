@@ -2,6 +2,14 @@
 import { useEffect, useState } from "react";
 
 // ── 타입 ──────────────────────────────────────────────
+interface HistoryEntry {
+  date: string; verdict: string;
+  vix: number | null; sp500: number | null; fg_score: number | null;
+  skew: number | null; hy_spread: number | null; us10y: number | null;
+  wti: number | null; ratio: number | null;
+}
+
+// ── 타입 ──────────────────────────────────────────────
 interface IndexData { close: number | null; change_pct: number | null; pct_52w: number | null; }
 interface SectorData { close: number | null; change_pct: number | null; change_4w: number | null; pct_52w: number | null; }
 interface FredData  { value: number | null; date: string | null; }
@@ -59,6 +67,94 @@ const fmt = (v: number | null, dec = 2) =>
   v == null ? "—" : v.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec });
 const chgColor = (v: number | null) => v == null ? "#999" : v >= 0 ? "#0a8f5c" : "#c0392b";
 const chgStr   = (v: number | null) => v == null ? "—" : `${v >= 0 ? "+" : ""}${fmt(v)}%`;
+
+// ── 히스토리 차트 ─────────────────────────────────────
+const verdictDot: Record<string, string> = { NOW: "#0a8f5c", WAIT: "#b07800", AVOID: "#c0392b" };
+
+function HistoryChart({ history }: { history: HistoryEntry[] }) {
+  if (history.length === 0) return (
+    <div style={{ color: "#aaa", fontSize: 12, textAlign: "center", padding: "20px 0" }}>
+      히스토리 데이터 없음 — 내일부터 누적됩니다
+    </div>
+  );
+
+  const recent = history.slice(-30);
+  const sp500s  = recent.map(h => h.sp500).filter(v => v != null) as number[];
+  const sp500Min = Math.min(...sp500s) * 0.998;
+  const sp500Max = Math.max(...sp500s) * 1.002;
+  const chartH = 80;
+  const chartW = 100; // viewBox %
+
+  const toY = (v: number) =>
+    chartH - ((v - sp500Min) / (sp500Max - sp500Min)) * chartH;
+
+  const points = recent
+    .map((h, i) => {
+      if (h.sp500 == null) return null;
+      const x = (i / (recent.length - 1)) * 100;
+      const y = toY(h.sp500);
+      return `${x},${y}`;
+    })
+    .filter(Boolean)
+    .join(" ");
+
+  return (
+    <div>
+      {/* S&P 500 라인 차트 */}
+      <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", marginBottom: 6 }}>
+        S&P 500 추이 (최근 {recent.length}일)
+      </div>
+      <svg viewBox={`0 0 100 ${chartH}`} style={{ width: "100%", height: 80, display: "block" }} preserveAspectRatio="none">
+        <polyline
+          points={points}
+          fill="none"
+          stroke="#0a8f5c"
+          strokeWidth="1.5"
+          vectorEffect="non-scaling-stroke"
+        />
+      </svg>
+
+      {/* 판정 히스토리 도트 */}
+      <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", margin: "12px 0 6px" }}>
+        일별 판정 히스토리
+      </div>
+      <div style={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
+        {recent.map((h, i) => (
+          <div key={i} title={`${h.date}\n${h.verdict}\nVIX: ${h.vix ?? "—"}\nS&P: ${h.sp500 ?? "—"}`}
+            style={{
+              width: 14, height: 14, borderRadius: "50%",
+              background: verdictDot[h.verdict] ?? "#aaa",
+              cursor: "default", flexShrink: 0,
+            }}
+          />
+        ))}
+      </div>
+      <div style={{ display: "flex", gap: 12, marginTop: 8, fontSize: 10, color: "#aaa" }}>
+        <span>🟢 NOW</span><span>🟡 WAIT</span><span>🔴 AVOID</span>
+        <span style={{ marginLeft: "auto" }}>최신 →</span>
+      </div>
+
+      {/* VIX 추이 */}
+      <div style={{ marginTop: 14 }}>
+        <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", marginBottom: 6 }}>
+          VIX 추이
+        </div>
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 2, height: 40 }}>
+          {recent.map((h, i) => {
+            const v = h.vix ?? 20;
+            const barH = Math.min((v / 40) * 100, 100);
+            const color = v >= 28 ? "#c0392b" : v >= 22 ? "#e67e22" : "#0a8f5c";
+            return (
+              <div key={i} title={`${h.date}: VIX ${h.vix ?? "—"}`}
+                style={{ flex: 1, height: `${barH}%`, background: color, borderRadius: "2px 2px 0 0", minWidth: 2 }}
+              />
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 // ── Fear & Greed 게이지 ────────────────────────────────
 function FearGreedGauge({ score, rating }: { score: number | null; rating: string | null }) {
@@ -228,9 +324,11 @@ function ScoreBadge({ label, score }: { label: string; score: string }) {
 export default function Home() {
   const [report, setReport] = useState<Report | null>(null);
   const [loading, setLoading] = useState(true);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
 
   useEffect(() => {
     fetch("/api/report").then(r => r.json()).then(d => { setReport(d); setLoading(false); }).catch(() => setLoading(false));
+    fetch("/api/history").then(r => r.json()).then(d => { if (Array.isArray(d)) setHistory(d); }).catch(() => {});
   }, []);
 
   if (loading) return (
@@ -434,6 +532,12 @@ export default function Home() {
               ))}
             </AccordionCard>
           )}
+
+          {/* 히스토리 */}
+          <AccordionCard icon="📉" title="판정 히스토리"
+            summary={`최근 ${Math.min(history.length, 30)}일 누적`}>
+            <HistoryChart history={history} />
+          </AccordionCard>
         </div>
 
         {/* 푸터 */}
