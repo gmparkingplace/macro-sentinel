@@ -5,18 +5,24 @@ import { useEffect, useState } from "react";
 interface IndexData { close: number | null; change_pct: number | null; pct_52w: number | null; }
 interface SectorData { close: number | null; change_pct: number | null; change_4w: number | null; pct_52w: number | null; }
 interface FredData  { value: number | null; date: string | null; }
+interface SkewData  {
+  close: number | null; change_pct: number | null;
+  signal: string | null; combo_signal: string | null; combo_label: string | null;
+}
 interface Scores {
   vix: string; curve: string; hy_spread: string; rates: string;
   dxy: string; tips: string; sector: string; sentiment: string;
   unemployment: string; overall: string; verdict: string;
   oil?: string; gdp?: string; gold_signal?: string;
+  skew?: string; combo?: string;
   stagflation_risk?: boolean; override_reason?: string[];
   ratio?: number;
 }
 interface Analysis {
   section0_summary: string; section1_fed: string;
   section2_flow: string;    section3_sector: string;
-  section4_risk: string;    bull_case: string;
+  section4_risk: string;    section5_commodities?: string;
+  section6_skew?: string;   bull_case: string;
   bear_case: string;        verdict_reason: string;
   scenario_bull: string;    scenario_base: string; scenario_bear: string;
   entry_triggers: string[];
@@ -33,7 +39,10 @@ interface Report {
     sectors: Record<string, SectorData>;
     liquidity: { fed_bs: FredData; rrp: FredData };
     macro: { cpi_yoy: FredData; core_cpi: FredData; unemployment: FredData; pce: FredData; gdp_growth: FredData };
-    sentiment: { fear_greed: { score: number | null; rating: string | null } };
+    sentiment: {
+      fear_greed: { score: number | null; rating: string | null };
+      skew?: SkewData;
+    };
   };
   scores:   Scores;
   analysis: Analysis;
@@ -44,8 +53,8 @@ interface Report {
 const verdictColor: Record<string, string> = { NOW: "#0a8f5c", WAIT: "#b07800", AVOID: "#c0392b" };
 const verdictBg:    Record<string, string> = { NOW: "#eafaf3", WAIT: "#fffbe6", AVOID: "#fdf0ef" };
 const verdictLabel: Record<string, string> = { NOW: "지금 진입 가능", WAIT: "트리거 대기", AVOID: "진입 금지" };
-const scoreColor:   Record<string, string> = { green: "#0a8f5c", yellow: "#b07800", red: "#c0392b", gray: "#aaa" };
-const scoreEmoji:   Record<string, string> = { green: "🟢", yellow: "🟡", red: "🔴", gray: "⚫" };
+const scoreColor:   Record<string, string> = { green: "#0a8f5c", yellow: "#b07800", red: "#c0392b", orange: "#e67e22", gray: "#aaa" };
+const scoreEmoji:   Record<string, string> = { green: "🟢", yellow: "🟡", red: "🔴", orange: "🟠", gray: "⚫" };
 const fmt = (v: number | null, dec = 2) =>
   v == null ? "—" : v.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec });
 const chgColor = (v: number | null) => v == null ? "#999" : v >= 0 ? "#0a8f5c" : "#c0392b";
@@ -69,6 +78,71 @@ function FearGreedGauge({ score, rating }: { score: number | null; rating: strin
         <span style={{ fontSize: 28, fontWeight: 700, color }}>{score}</span>
         <span style={{ fontSize: 12, color: "#777", marginLeft: 8 }}>{rating}</span>
       </div>
+    </div>
+  );
+}
+
+// ── Skew 게이지 ───────────────────────────────────────
+function SkewGauge({ skew }: { skew: SkewData | undefined }) {
+  if (!skew || skew.close == null) return (
+    <div style={{ color: "#aaa", fontSize: 12, textAlign: "center", padding: "8px 0" }}>Skew 데이터 없음</div>
+  );
+
+  const val = skew.close;
+  // Skew는 보통 100~170 범위. 100=최소, 170=최대로 정규화
+  const pct = Math.min(Math.max((val - 100) / 70 * 100, 0), 100);
+  const color = val >= 150 ? "#c0392b" : val >= 130 ? "#e67e22" : "#0a8f5c";
+
+  const comboColorMap: Record<string, string> = {
+    red: "#c0392b", orange: "#e67e22", yellow: "#b07800", green: "#0a8f5c"
+  };
+  const comboBgMap: Record<string, string> = {
+    red: "#fdf0ef", orange: "#fff5ee", yellow: "#fffbe6", green: "#eafaf3"
+  };
+  const comboColor = comboColorMap[skew.combo_signal ?? "gray"] ?? "#aaa";
+  const comboBg    = comboBgMap[skew.combo_signal ?? "gray"] ?? "#f8f8f8";
+
+  return (
+    <div style={{ marginTop: 16 }}>
+      <div style={{ fontSize: 11, color: "#999", marginBottom: 8, letterSpacing: "0.05em" }}>CBOE SKEW INDEX</div>
+      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
+        <span style={{ fontSize: 11, color: "#999" }}>안정 (100)</span>
+        <span style={{ fontSize: 11, color: "#999" }}>위험 (170+)</span>
+      </div>
+      <div style={{ height: 8, background: "#e8e8e8", borderRadius: 4, position: "relative" }}>
+        <div style={{ width: "100%", height: "100%", background: "linear-gradient(to right, #0a8f5c, #e67e22, #c0392b)", borderRadius: 4, opacity: 0.3, position: "absolute" }} />
+        <div style={{ position: "absolute", left: `${pct}%`, transform: "translateX(-50%)", width: 14, height: 14, background: color, borderRadius: "50%", top: -3, border: "2px solid white", boxShadow: "0 1px 4px rgba(0,0,0,0.2)", transition: "left 0.5s" }} />
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 10 }}>
+        <div>
+          <span style={{ fontSize: 28, fontWeight: 700, color }}>{val.toFixed(0)}</span>
+          <span style={{ fontSize: 11, color: "#aaa", marginLeft: 8 }}>
+            {val >= 150 ? "위험" : val >= 130 ? "경고" : "정상"}
+            {skew.change_pct != null && ` (${chgStr(skew.change_pct)})`}
+          </span>
+        </div>
+      </div>
+
+      {/* VIX × Skew 조합 신호 */}
+      {skew.combo_label && (
+        <div style={{
+          marginTop: 12, padding: "10px 14px",
+          background: comboBg, border: `1px solid ${comboColor}44`,
+          borderLeft: `3px solid ${comboColor}`,
+          borderRadius: 8
+        }}>
+          <div style={{ fontSize: 10, color: comboColor, fontWeight: 700, marginBottom: 4 }}>
+            VIX × Skew 조합 신호
+          </div>
+          <div style={{ fontSize: 12, color: "#444", fontWeight: 600 }}>{skew.combo_label}</div>
+          <div style={{ fontSize: 11, color: "#888", marginTop: 4, lineHeight: 1.6 }}>
+            {skew.combo_signal === "red"    && "단기 변동성 + 꼬리 리스크 동시 급등. 총체적 위기 경고."}
+            {skew.combo_signal === "orange" && "표면은 조용하지만 내부에서 대형 하락 대비 중. 가장 위험한 역설 구간."}
+            {skew.combo_signal === "yellow" && "단기 패닉이지만 꼬리 리스크는 낮음. 회복 가능성 있음."}
+            {skew.combo_signal === "green"  && "VIX와 Skew 모두 안정. 진입 환경 우호적."}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -107,7 +181,7 @@ function AccordionCard({ icon, title, summary, score, children }: {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          {score && <span style={{ fontSize: 16 }}>{scoreEmoji[score]}</span>}
+          {score && <span style={{ fontSize: 16 }}>{scoreEmoji[score] ?? "⚫"}</span>}
           <span style={{ color: "#bbb", fontSize: 11, display: "inline-block", transform: open ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▼</span>
         </div>
       </div>
@@ -141,10 +215,10 @@ function ScoreBadge({ label, score }: { label: string; score: string }) {
   return (
     <div style={{
       display: "flex", flexDirection: "column", alignItems: "center",
-      background: "#fafafa", border: `1px solid ${scoreColor[score]}44`,
+      background: "#fafafa", border: `1px solid ${scoreColor[score] ?? "#aaa"}44`,
       borderRadius: 8, padding: "10px 8px", flex: 1, minWidth: 52,
     }}>
-      <span style={{ fontSize: 16 }}>{scoreEmoji[score]}</span>
+      <span style={{ fontSize: 16 }}>{scoreEmoji[score] ?? "⚫"}</span>
       <span style={{ fontSize: 9, color: "#999", marginTop: 4, textAlign: "center", letterSpacing: "0.03em" }}>{label}</span>
     </div>
   );
@@ -173,6 +247,7 @@ export default function Home() {
   const { data: d, scores, analysis, verdict, date } = report;
   const vc  = verdictColor[verdict];
   const vbg = verdictBg[verdict];
+  const skewData = d.sentiment.skew;
 
   return (
     <div style={{ background: "#f5f5f5", minHeight: "100vh", color: "#1a1a1a", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>
@@ -200,12 +275,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 오버라이드 발동 이유 */}
+        {/* 오버라이드 배너 */}
         {scores.override_reason && scores.override_reason.length > 0 && (
           <div style={{
             padding: "10px 16px", marginBottom: 16,
-            background: "#fdf0ef",
-            border: "1px solid #f5c6c2",
+            background: "#fdf0ef", border: "1px solid #f5c6c2",
             borderRadius: 8, fontSize: 11, color: "#c0392b", lineHeight: 1.7
           }}>
             ⚠️ 하드 오버라이드 발동: {scores.override_reason.join(" · ")}
@@ -214,17 +288,19 @@ export default function Home() {
 
         {/* 스코어 배지 */}
         <div style={{ display: "flex", gap: 5, marginBottom: 16, flexWrap: "wrap" }}>
-          <ScoreBadge label="VIX"       score={scores.vix        ?? "gray"} />
-          <ScoreBadge label="금리곡선"   score={scores.curve      ?? "gray"} />
-          <ScoreBadge label="HY스프레드" score={scores.hy_spread  ?? "gray"} />
-          <ScoreBadge label="금리수준"   score={scores.rates      ?? "gray"} />
-          <ScoreBadge label="달러"       score={scores.dxy        ?? "gray"} />
-          <ScoreBadge label="실질금리"   score={scores.tips       ?? "gray"} />
-          <ScoreBadge label="섹터"       score={scores.sector     ?? "gray"} />
-          <ScoreBadge label="심리"       score={scores.sentiment  ?? "gray"} />
+          <ScoreBadge label="VIX"       score={scores.vix         ?? "gray"} />
+          <ScoreBadge label="금리곡선"   score={scores.curve       ?? "gray"} />
+          <ScoreBadge label="HY스프레드" score={scores.hy_spread   ?? "gray"} />
+          <ScoreBadge label="금리수준"   score={scores.rates       ?? "gray"} />
+          <ScoreBadge label="달러"       score={scores.dxy         ?? "gray"} />
+          <ScoreBadge label="실질금리"   score={scores.tips        ?? "gray"} />
+          <ScoreBadge label="섹터"       score={scores.sector      ?? "gray"} />
+          <ScoreBadge label="심리"       score={scores.sentiment   ?? "gray"} />
+          <ScoreBadge label="Skew"       score={scores.skew        ?? "gray"} />
+          <ScoreBadge label="VIX×Skew"   score={scores.combo       ?? "gray"} />
           <ScoreBadge label="고용"       score={scores.unemployment ?? "gray"} />
-          <ScoreBadge label="유가"       score={scores.oil        ?? "gray"} />
-          <ScoreBadge label="GDP"        score={scores.gdp        ?? "gray"} />
+          <ScoreBadge label="유가"       score={scores.oil         ?? "gray"} />
+          <ScoreBadge label="GDP"        score={scores.gdp         ?? "gray"} />
           <ScoreBadge label="금(Gold)"   score={scores.gold_signal ?? "gray"} />
         </div>
 
@@ -234,9 +310,9 @@ export default function Home() {
           {/* 주요 지수 */}
           <AccordionCard icon="📊" title="주요 지수" score={scores.vix}
             summary={`S&P ${fmt(d.indices.sp500.close, 0)} ${chgStr(d.indices.sp500.change_pct)}  ·  VIX ${fmt(d.indices.vix.close)}`}>
-            <Row label="S&P 500"      value={`${fmt(d.indices.sp500.close, 0)} (${chgStr(d.indices.sp500.change_pct)})`}       color={chgColor(d.indices.sp500.change_pct)}    bar={d.indices.sp500.pct_52w ?? undefined} />
+            <Row label="S&P 500"      value={`${fmt(d.indices.sp500.close, 0)} (${chgStr(d.indices.sp500.change_pct)})`}        color={chgColor(d.indices.sp500.change_pct)}    bar={d.indices.sp500.pct_52w ?? undefined} />
             <Row label="Nasdaq 100"   value={`${fmt(d.indices.nasdaq100.close, 0)} (${chgStr(d.indices.nasdaq100.change_pct)})`} color={chgColor(d.indices.nasdaq100.change_pct)} bar={d.indices.nasdaq100.pct_52w ?? undefined} />
-            <Row label="Russell 2000" value={`${fmt(d.indices.russell.close, 0)} (${chgStr(d.indices.russell.change_pct)})`}   color={chgColor(d.indices.russell.change_pct)}  bar={d.indices.russell.pct_52w ?? undefined} />
+            <Row label="Russell 2000" value={`${fmt(d.indices.russell.close, 0)} (${chgStr(d.indices.russell.change_pct)})`}    color={chgColor(d.indices.russell.change_pct)}  bar={d.indices.russell.pct_52w ?? undefined} />
             <Row label="VIX"          value={fmt(d.indices.vix.close)} color={scoreColor[scores.vix]} />
             <div style={{ marginTop: 10, fontSize: 10, color: "#bbb" }}>막대: 52주 내 위치</div>
           </AccordionCard>
@@ -245,10 +321,10 @@ export default function Home() {
           <AccordionCard icon="💵" title="금리 · 스프레드" score={scores.rates}
             summary={`10Y ${fmt(d.rates.us10y.value)}%  ·  2s10s ${fmt(d.spreads.us2s10s.value)}%  ·  HY ${fmt(d.spreads.hy_spread.value)}%`}>
             <Row label="2Y 국채"            value={`${fmt(d.rates.us2y.value)}%`} />
-            <Row label="10Y 국채"           value={`${fmt(d.rates.us10y.value)}%`}         color={scoreColor[scores.rates]} />
-            <Row label="TIPS 실질금리"      value={`${fmt(d.rates.tips10y.value)}%`}       color={scoreColor[scores.tips]} />
-            <Row label="2s10s 스프레드"     value={`${fmt(d.spreads.us2s10s.value)}%`}     color={d.spreads.us2s10s.value != null && d.spreads.us2s10s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
-            <Row label="HY 크레딧 스프레드" value={`${fmt(d.spreads.hy_spread.value)}%`}   color={scoreColor[scores.hy_spread]} />
+            <Row label="10Y 국채"           value={`${fmt(d.rates.us10y.value)}%`}        color={scoreColor[scores.rates]} />
+            <Row label="TIPS 실질금리"      value={`${fmt(d.rates.tips10y.value)}%`}      color={scoreColor[scores.tips]} />
+            <Row label="2s10s 스프레드"     value={`${fmt(d.spreads.us2s10s.value)}%`}    color={d.spreads.us2s10s.value != null && d.spreads.us2s10s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
+            <Row label="HY 크레딧 스프레드" value={`${fmt(d.spreads.hy_spread.value)}%`}  color={scoreColor[scores.hy_spread]} />
             <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section1_fed}</div>
           </AccordionCard>
 
@@ -258,7 +334,7 @@ export default function Home() {
             <Row label="Core CPI"       value={fmt(d.macro.core_cpi.value)}       color={d.macro.core_cpi.value != null && d.macro.core_cpi.value > 3.5 ? "#c0392b" : "#0a8f5c"} />
             <Row label="PCE"            value={fmt(d.macro.pce.value)} />
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
-            <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}  color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
+            <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
             <Row label="RRP 잔액"       value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
           </AccordionCard>
@@ -270,7 +346,7 @@ export default function Home() {
             <Row label="USD/KRW" value={`${fmt(d.fx.usdkrw.close, 0)} (${chgStr(d.fx.usdkrw.change_pct)})`} color={chgColor(d.fx.usdkrw.change_pct)} />
             <Row label="USD/JPY" value={`${fmt(d.fx.usdjpy.close)} (${chgStr(d.fx.usdjpy.change_pct)})`} />
             <Row label="EUR/USD" value={`${fmt(d.fx.eurusd.close)} (${chgStr(d.fx.eurusd.change_pct)})`} />
-            <Row label="WTI Oil" value={`$${fmt(d.commodities.wti.close)} (${chgStr(d.commodities.wti.change_pct)})`}   color={chgColor(d.commodities.wti.change_pct)} />
+            <Row label="WTI Oil" value={`$${fmt(d.commodities.wti.close)} (${chgStr(d.commodities.wti.change_pct)})`}    color={chgColor(d.commodities.wti.change_pct)} />
             <Row label="Gold"    value={`$${fmt(d.commodities.gold.close, 0)} (${chgStr(d.commodities.gold.change_pct)})`} color={chgColor(d.commodities.gold.change_pct)} />
             <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section2_flow}</div>
           </AccordionCard>
@@ -295,14 +371,19 @@ export default function Home() {
 
           {/* 시장 심리 */}
           <AccordionCard icon="🧠" title="시장 심리" score={scores.sentiment}
-            summary={`Fear & Greed: ${d.sentiment.fear_greed.score ?? "—"} (${d.sentiment.fear_greed.rating ?? "—"})`}>
+            summary={`Fear & Greed: ${d.sentiment.fear_greed.score ?? "—"} · Skew: ${skewData?.close?.toFixed(0) ?? "—"}`}>
             <FearGreedGauge score={d.sentiment.fear_greed.score} rating={d.sentiment.fear_greed.rating} />
+            <SkewGauge skew={skewData} />
+            {analysis.section6_skew && (
+              <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>
+                {analysis.section6_skew}
+              </div>
+            )}
           </AccordionCard>
 
           {/* AI 분석 */}
           <AccordionCard icon="🤖" title="AI 매크로 분석"
             summary={analysis.section0_summary.slice(0, 55) + "..."}>
-            {/* 시나리오 */}
             <div style={{ marginBottom: 14 }}>
               <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.1em", marginBottom: 8 }}>시나리오 분석</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -311,7 +392,6 @@ export default function Home() {
                 <ScenarioCard label="🐻 약세 시나리오" color="#c0392b" bg="#fdf0ef" text={analysis.scenario_bear} />
               </div>
             </div>
-            {/* Bull / Bear */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, marginBottom: 14 }}>
               <div style={{ padding: "12px 14px", background: "#eafaf3", border: "1px solid #a8dfc9", borderRadius: 8 }}>
                 <div style={{ fontSize: 10, color: "#0a8f5c", fontWeight: 700, marginBottom: 6 }}>✅ BULL</div>
@@ -322,12 +402,10 @@ export default function Home() {
                 <div style={{ fontSize: 11, color: "#444", lineHeight: 1.7 }}>{analysis.bear_case}</div>
               </div>
             </div>
-            {/* 리스크 */}
             <div style={{ padding: "10px 14px", background: "#fffbe6", border: "1px solid #ffe082", borderRadius: 8, marginBottom: 14 }}>
               <div style={{ fontSize: 10, color: "#b07800", fontWeight: 700, marginBottom: 6 }}>⚠️ 리스크</div>
               <div style={{ fontSize: 11, color: "#444", lineHeight: 1.7 }}>{analysis.section4_risk}</div>
             </div>
-            {/* 진입 트리거 */}
             {analysis.entry_triggers?.length > 0 && (
               <div>
                 <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.1em", marginBottom: 8 }}>진입 트리거 조건</div>
