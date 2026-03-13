@@ -255,9 +255,71 @@ def fetch_skew(vix_value):
         return {"close": None, "change_pct": None, "signal": None,
                 "combo_signal": None, "combo_label": None}
 
-# ─────────────────────────────────────────
-# 메인 수집 로직
-# ─────────────────────────────────────────
+def fetch_news():
+    """
+    Reuters + MarketWatch RSS에서 헤드라인 + URL 수집
+    반환: [{"title": "...", "url": "...", "source": "...", "published": "..."}, ...]
+    """
+    import xml.etree.ElementTree as ET
+
+    feeds = [
+        {"name": "Reuters",      "url": "https://feeds.reuters.com/reuters/businessNews"},
+        {"name": "Reuters Mkts", "url": "https://feeds.reuters.com/reuters/UKmarkets"},
+        {"name": "MarketWatch",  "url": "https://feeds.marketwatch.com/marketwatch/topstories"},
+        {"name": "CNBC",         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"},
+    ]
+
+    KEYWORDS = [
+        "fed", "rate", "inflation", "cpi", "gdp", "recession", "market",
+        "stocks", "nasdaq", "s&p", "treasury", "yield", "dollar", "oil",
+        "tariff", "trade", "china", "economy", "jobs", "unemployment",
+        "금리", "인플레", "경기", "주식", "시장"
+    ]
+
+    results = []
+    seen_titles = set()
+
+    for feed in feeds:
+        try:
+            r = requests.get(feed["url"], timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+            root = ET.fromstring(r.content)
+            items = root.findall(".//item")
+            for item in items[:20]:
+                title = (item.findtext("title") or "").strip()
+                url   = (item.findtext("link") or "").strip()
+                pub   = (item.findtext("pubDate") or "").strip()
+
+                if not title or not url:
+                    continue
+                if title in seen_titles:
+                    continue
+
+                # 매크로 관련 키워드 필터
+                title_lower = title.lower()
+                if not any(kw in title_lower for kw in KEYWORDS):
+                    continue
+
+                seen_titles.add(title)
+                results.append({
+                    "title":     title,
+                    "url":       url,
+                    "source":    feed["name"],
+                    "published": pub,
+                })
+
+                if len(results) >= 20:
+                    break
+        except Exception as e:
+            print(f"뉴스 RSS 오류 ({feed['name']}): {e}")
+
+        if len(results) >= 20:
+            break
+
+    print(f"뉴스 수집 완료: {len(results)}건")
+    return results[:15]  # 최대 15개
+
+
+
 def fetch_all():
     print(f"[{TODAY}] 데이터 수집 시작...")
     data = {
@@ -265,7 +327,7 @@ def fetch_all():
         "indices": {}, "rates": {}, "spreads": {},
         "fx": {}, "commodities": {}, "liquidity": {},
         "sectors": {}, "macro": {}, "sentiment": {},
-        "calendar": []
+        "calendar": [], "news": []
     }
 
     print("지수 수집 중...")
@@ -325,6 +387,9 @@ def fetch_all():
     print("경제 캘린더 생성 중...")
     data["calendar"] = get_upcoming_events(days_ahead=42)
     print(f"  향후 42일 이내 이벤트: {len(data['calendar'])}개")
+
+    print("뉴스 헤드라인 수집 중...")
+    data["news"] = fetch_news()
 
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
