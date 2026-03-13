@@ -60,16 +60,16 @@
         "pct_52w": null
       },
       "usdkrw": {
-        "close": 1489.94,
+        "close": 1488.78,
         "prev_close": 1475.34,
-        "change_pct": 0.99,
-        "pct_52w": 91.1
+        "change_pct": 0.91,
+        "pct_52w": 90.5
       },
       "usdjpy": {
-        "close": 159.37,
+        "close": 159.33,
         "prev_close": 159.07,
-        "change_pct": 0.19,
-        "pct_52w": 98.4
+        "change_pct": 0.16,
+        "pct_52w": 98.2
       },
       "eurusd": {
         "close": 1.15,
@@ -80,15 +80,15 @@
     },
     "commodities": {
       "wti": {
-        "close": 95.57,
+        "close": 95.54,
         "prev_close": 95.73,
-        "change_pct": -0.17,
+        "change_pct": -0.2,
         "pct_52w": 62.9
       },
       "gold": {
-        "close": 5112.5,
+        "close": 5112.0,
         "prev_close": 5115.8,
-        "change_pct": -0.06,
+        "change_pct": -0.07,
         "pct_52w": 82.1
       }
     },
@@ -228,67 +228,78 @@
         "title": "Shoppers seeking a tariff refund from retailers are likely out of luck",
         "url": "https://www.marketwatch.com/story/shoppers-seeking-a-tariff-refund-from-retailers-are-likely-out-of-luck-5aacf5f4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:59:00 GMT"
+        "published": "Thu, 12 Mar 2026 22:59:00 GMT",
+        "title_ko": "Shoppers seeking a tariff refund from retailers are likely out of luck"
       },
       {
         "title": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer.",
         "url": "https://www.marketwatch.com/story/trump-is-scrambling-to-quell-the-rise-of-100-oil-but-the-market-keeps-circling-one-answer-bf9abf20?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:50:00 GMT"
+        "published": "Thu, 12 Mar 2026 22:50:00 GMT",
+        "title_ko": "Trump is scrambling to quell the rise of $100 oil. But the market keeps circling one answer."
       },
       {
         "title": "The S&P 500 just broke a major support. Another 10% decline is likely.",
         "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Mar 2026 22:40:00 GMT"
+        "published": "Thu, 12 Mar 2026 22:40:00 GMT",
+        "title_ko": "The S&P 500 just broke a major support. Another 10% decline is likely."
       },
       {
         "title": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices",
         "url": "https://www.cnbc.com/2026/03/13/us-section-301-probe-trade-trump-labor-practices.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 04:06:37 GMT"
+        "published": "Fri, 13 Mar 2026 04:06:37 GMT",
+        "title_ko": "U.S. launches fresh Section 301 probes into 60 economies over forced-labor trade practices"
       },
       {
         "title": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets",
         "url": "https://www.cnbc.com/2026/03/13/bessent-us-allows-purchase-russian-oil-stranded-sea-energy-markets.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 04:49:41 GMT"
+        "published": "Fri, 13 Mar 2026 04:49:41 GMT",
+        "title_ko": "U.S. allows temporary purchases of Russian oil already at sea to stabilize energy markets"
       },
       {
         "title": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
         "url": "https://www.cnbc.com/2026/03/12/markets-hopes-for-fed-interest-rate-cuts-are-rapidly-fading-away.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:41:02 GMT"
+        "published": "Thu, 12 Mar 2026 20:41:02 GMT",
+        "title_ko": "Markets' hopes for Fed interest rate cuts are rapidly fading away"
       },
       {
         "title": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News",
         "url": "https://www.cnbc.com/2026/03/12/iran-war-us-navy-strait-of-hormuz-oil-bessent.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 20:28:45 GMT"
+        "published": "Thu, 12 Mar 2026 20:28:45 GMT",
+        "title_ko": "Iran War: U.S. Navy will escort oil tankers through Strait of Hormuz when 'militarily possible,' Bessent tells Sky News"
       },
       {
         "title": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East",
         "url": "https://www.cnbc.com/2026/03/13/asia-pacific-markets-today-nikkei-225-kospi-hang-seng-csi300.html",
         "source": "CNBC",
-        "published": "Fri, 13 Mar 2026 02:46:26 GMT"
+        "published": "Fri, 13 Mar 2026 02:46:26 GMT",
+        "title_ko": "Asia-Pacific markets tumble as investors brace for a prolonged war in Middle East"
       },
       {
         "title": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks",
         "url": "https://www.cnbc.com/2026/03/12/jim-cramer-dont-let-iran-war-induced-market-volatility-scare-you-out-of-stocks.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 23:23:55 GMT"
+        "published": "Thu, 12 Mar 2026 23:23:55 GMT",
+        "title_ko": "Jim Cramer: Don't let Iran war-induced market volatility scare you out of stocks"
       },
       {
         "title": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs",
         "url": "https://www.cnbc.com/2026/03/12/trump-trade-tariffs-tax-rebates-martin-heinrich-2026-elections.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 17:37:48 GMT"
+        "published": "Thu, 12 Mar 2026 17:37:48 GMT",
+        "title_ko": "Trump tariffs: Martin Heinrich bill would give families tax rebate for higher import costs"
       },
       {
         "title": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed",
         "url": "https://www.cnbc.com/2026/03/12/oil-prices-jump-iea-record-reserve-release-markets-doubt-relief.html",
         "source": "CNBC",
-        "published": "Thu, 12 Mar 2026 19:42:49 GMT"
+        "published": "Thu, 12 Mar 2026 19:42:49 GMT",
+        "title_ko": "Brent oil closes at $100 after Iran's new supreme leader says Strait of Hormuz must remain closed"
       }
     ]
   },
@@ -311,30 +322,30 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "WTI $95.6 >= $90",
-      "스태그플레이션(WTI>95.57, 실업률>4.4%)",
+      "WTI $95.5 >= $90",
+      "스태그플레이션(WTI>95.54, 실업률>4.4%)",
       "VIX 27.3 >= 24"
     ],
     "ratio": 0.441
   },
   "analysis": {
-    "section0_summary": "현재 시장은 하락세를 보이고 있으며, S&P 500 지수가 주요 지지선을 깨뜨렸고, WTI 가격이 $95.57로 상승하여 스태그플레이션 경고가 발동되었습니다. 또한, 달러 약세와 원화 약세(달러 대비 가치 하락, USD/KRW +0.99%)가 나타나고 있습니다.",
-    "section1_fed": "Fed는 금리 인상을 고려하고 있으며, 현재 금리 수준은 4.21%입니다. 그러나, 시장은 금리 인상의 가능성을 낮게 평가하고 있습니다. Fed의 금리 결정은 2026-03-18에 예정되어 있습니다. 금리 인상이 이루어진다면, 시장에 미치는 영향이 클 것입니다.",
-    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +0.99%). USD/KRW 1490원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
-    "section3_sector": "현재 섹터 로테이션은 방어적 섹터로 이동하고 있습니다. 이는 투자자들이 위험 자산에 대한 투자를 줄이고 안전한 자산으로 이동하는 것으로 보입니다. 특히, 의료와 소비재 섹터가 강세를 보이고 있습니다.",
-    "section4_risk": "지정학적 리스크가 높아지고 있으며, 이란과 미국의 갈등이 높아져서 원유 가격이 상승하고 있습니다. 또한, 미국의 무역 정책이 변동할 수 있어 수출 기업들에게 불확실성이 증가하고 있습니다.",
-    "section5_commodities": "WTI 가격이 $95.57로 상승하여 스태그플레이션 경고가 발동되었습니다. 이는 경제 성장에 부정적인 영향을 미칠 수 있습니다. 또한, 금 가격이 $5112.5로 상승하여 안전 자산으로의 투자가 증가하고 있습니다.",
-    "section6_skew": "현재 VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 시장에 대한 불안감이 높아져서 투자자들이 대규모 하락을 대비하는 것으로 보입니다.",
-    "bull_case": "강세 논거는 다음과 같습니다. 첫째, Fed의 금리 인상이 이루어지지 않을 경우, 시장에 대한 불안감이 줄어들 수 있습니다. 둘째, 수출 기업들의 수익성이 개선될 수 있습니다.",
-    "bear_case": "약세 논거는 다음과 같습니다. 첫째, 지정학적 리스크가 높아져서 원유 가격이 상승할 수 있습니다. 둘째, 스태그플레이션 경고가 발동되어 경제 성장에 부정적인 영향을 미칠 수 있습니다.",
-    "verdict_reason": "판정 AVOID 이유는 다음과 같습니다. 첫째, 시장에 대한 불안감이 높아져서 투자자들이 대규모 하락을 대비하는 것으로 보입니다. 둘째, 스태그플레이션 경고가 발동되어 경제 성장에 부정적인 영향을 미칠 수 있습니다.",
-    "scenario_bull": "강세 시나리오는 다음과 같습니다. Fed의 금리 인상이 이루어지지 않고, 수출 기업들의 수익성이 개선됩니다.",
-    "scenario_base": "기본 시나리오는 다음과 같습니다. 시장에 대한 불안감이 높아져서 투자자들이 대규모 하락을 대비하는 것으로 보입니다.",
-    "scenario_bear": "약세 시나리오는 다음과 같습니다. 지정학적 리스크가 높아져서 원유 가격이 상승하고, 스태그플레이션 경고가 발동되어 경제 성장에 부정적인 영향을 미칩니다.",
+    "section0_summary": "현재 시장은 스태그플레이션 경고와 함께 달러 약세와 원화 약세(달러 대비 가치 하락, USD/KRW +0.91%)를 보이고 있습니다. S&P 500 지수가 주요 지원을 깨뜨리며 10% 하락할 가능성이 높아졌습니다. Brent 유가는 100달러를 돌파했습니다.",
+    "section1_fed": "Fed는 금리 인상을 계속할 것으로 예상됩니다. 현재 시장은 금리 인상의 가능성을 높게 평가하고 있습니다. 이는 스태그플레이션 경고와 함께 시장의 불안정성을 높이고 있습니다. 금리 인상은 경기 둔화로 이어질 수 있습니다. 따라서 금리 결정은 시장의 방향을 결정할 중요한 변수입니다.",
+    "section2_flow": "달러 약세(DXY 0.00%). 원화 약세(달러 대비 가치 하락, USD/KRW +0.91%). USD/KRW 1489원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
+    "section3_sector": "에너지 섹터는 유가 상승으로 인해 강세를 보이고 있습니다. 금속 섹터는 글로벌 경기 둔화로 인해 약세를 보이고 있습니다. 기술 섹터는 시장의 불안정성으로 인해 변동성이 커지고 있습니다.",
+    "section4_risk": "지정학적 리스크는 시장의 불안정성을 높이고 있습니다. 이란과 미국의 관계는 유가에 영향을 미치고 있습니다. 미국의 보호무역주의 정책은 글로벌 무역에 부정적인 영향을 미칠 수 있습니다. 이러한 리스크는 시장의 방향을 결정할 중요한 변수입니다.",
+    "section5_commodities": "WTI 유가는 95달러를 돌파했습니다. 이는 스태그플레이션 경고와 함께 시장의 불안정성을 높이고 있습니다. Gold 가격은 안정적인 수준을 유지하고 있습니다. 그러나 유가 상승은 인플레이션을 유발할 수 있습니다.",
+    "section6_skew": "VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다. 이는 시장의 불안정성이 매우 높아졌음을 의미합니다. 이러한 조합은 블랙스완 이벤트의 가능성을 높이고 있습니다.",
+    "bull_case": "강세 논거는 금리 인상의 가능성이 높아져서 경기가 둔화할 수 있다는 점입니다. 또한 유가 상승은 에너지 섹터의 강세를 유발할 수 있습니다.",
+    "bear_case": "약세 논거는 스태그플레이션 경고와 함께 시장의 불안정성이 높아졌다는 점입니다. 또한 글로벌 경기 둔화는 수출 경쟁력을 약화시킬 수 있습니다.",
+    "verdict_reason": "판정 AVOID 이유는 시장의 불안정성이 매우 높아졌으며 스태그플레이션 경고가 발생했기 때문입니다. 또한 VIX와 Skew의 조합은 총체적위기(VIX↑+Skew↑)를 나타내고 있습니다.",
+    "scenario_bull": "강세 시나리오는 금리 인상이 경기 둔화로 이어지는 경우입니다. 또한 유가 상승이 에너지 섹터의 강세를 유발하는 경우입니다.",
+    "scenario_base": "기본 시나리오는 스태그플레이션 경고와 함께 시장의 불안정성이 높아지는 경우입니다. 이는 금리 인상과 유가 상승이 경기에 미치는 영향에 따라 달라질 수 있습니다.",
+    "scenario_bear": "약세 시나리오는 글로벌 경기 둔화와 함께 수출 경쟁력이 약화되는 경우입니다. 또한 유가 상승이 인플레이션을 유발하는 경우입니다.",
     "entry_triggers": [
-      "WTI 가격이 $90 아래로 하락",
-      "S&P 500 지수가 6500선으로 상승",
-      "Fed의 금리 인상이 이루어지지 않음"
+      "금리 인상",
+      "유가 상승",
+      "VIX와 Skew의 조합"
     ],
     "key_events": [
       {
