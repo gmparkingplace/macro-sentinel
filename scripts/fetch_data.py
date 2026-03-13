@@ -315,8 +315,43 @@ def fetch_news():
         if len(results) >= 20:
             break
 
-    print(f"뉴스 수집 완료: {len(results)}건")
-    return results[:15]  # 최대 15개
+    print(f"뉴스 수집 완료: {len(results)}건 → 제목 번역 중...")
+
+    # Groq으로 제목 일괄 번역
+    try:
+        from groq import Groq
+        groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        titles_en = [r["title"] for r in results[:15]]
+        titles_block = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles_en))
+        resp = groq_client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": "You are a financial news translator. Translate each English headline to natural Korean. Return ONLY a numbered list in the same order, one line per headline. No extra text."},
+                {"role": "user",   "content": titles_block}
+            ],
+            temperature=0.1,
+            max_tokens=800,
+        )
+        lines = resp.choices[0].message.content.strip().split("\n")
+        for i, line in enumerate(lines):
+            if i >= len(results):
+                break
+            # "1. 번역문" 형태에서 번역문만 추출
+            translated = line.strip()
+            if translated and translated[0].isdigit():
+                translated = translated.split(".", 1)[-1].strip()
+            if translated:
+                results[i]["title_ko"] = translated
+    except Exception as e:
+        print(f"번역 오류: {e}")
+
+    # title_ko 없으면 원문 그대로
+    for r in results:
+        if "title_ko" not in r:
+            r["title_ko"] = r["title"]
+
+    print(f"번역 완료")
+    return results[:15]
 
 
 
