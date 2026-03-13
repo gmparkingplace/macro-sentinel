@@ -1,6 +1,6 @@
 """
-Macro Sentinel - Data Fetcher v3
-FRED API + yfinance + Fear & Greed + CBOE Skew Index
+Macro Sentinel - Data Fetcher v4
+FRED API + yfinance + Fear & Greed + CBOE Skew + 경제 캘린더 + 히스토리 누적
 """
 
 import os
@@ -10,9 +10,137 @@ import yfinance as yf
 import requests
 
 FRED_API_KEY = os.environ.get("FRED_API_KEY")
-TODAY = datetime.date.today().isoformat()
-OUTPUT_PATH = "data/market_data.json"
+TODAY        = datetime.date.today().isoformat()
+OUTPUT_PATH  = "data/market_data.json"
+HISTORY_PATH = "data/history.json"
 
+# ─────────────────────────────────────────
+# 경제 캘린더 (2026년 하드코딩 + 자동 필터)
+# ─────────────────────────────────────────
+ECONOMIC_CALENDAR = [
+    # ── FOMC (2026) ──────────────────────
+    {"date": "2026-01-28", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-01-29", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-03-18", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-03-19", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-05-06", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-05-07", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-06-17", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-06-18", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-07-29", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-07-30", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-09-16", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-09-17", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-11-04", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-11-05", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+    {"date": "2026-12-16", "event": "FOMC 금리 결정",       "category": "fed",    "impact": "high"},
+    {"date": "2026-12-17", "event": "FOMC 기자회견",         "category": "fed",    "impact": "high"},
+
+    # ── CPI (2026, 매월 중순) ─────────────
+    {"date": "2026-01-14", "event": "CPI 발표 (12월)",      "category": "cpi",    "impact": "high"},
+    {"date": "2026-02-11", "event": "CPI 발표 (1월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-03-11", "event": "CPI 발표 (2월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-04-10", "event": "CPI 발표 (3월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-05-13", "event": "CPI 발표 (4월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-06-10", "event": "CPI 발표 (5월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-07-14", "event": "CPI 발표 (6월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-08-12", "event": "CPI 발표 (7월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-09-11", "event": "CPI 발표 (8월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-10-13", "event": "CPI 발표 (9월)",       "category": "cpi",    "impact": "high"},
+    {"date": "2026-11-12", "event": "CPI 발표 (10월)",      "category": "cpi",    "impact": "high"},
+    {"date": "2026-12-10", "event": "CPI 발표 (11월)",      "category": "cpi",    "impact": "high"},
+
+    # ── PCE (매월 말) ─────────────────────
+    {"date": "2026-01-30", "event": "PCE 발표 (12월)",      "category": "pce",    "impact": "high"},
+    {"date": "2026-02-27", "event": "PCE 발표 (1월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-03-27", "event": "PCE 발표 (2월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-04-30", "event": "PCE 발표 (3월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-05-29", "event": "PCE 발표 (4월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-06-26", "event": "PCE 발표 (5월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-07-31", "event": "PCE 발표 (6월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-08-28", "event": "PCE 발표 (7월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-09-25", "event": "PCE 발표 (8월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-10-30", "event": "PCE 발표 (9월)",       "category": "pce",    "impact": "high"},
+    {"date": "2026-11-25", "event": "PCE 발표 (10월)",      "category": "pce",    "impact": "high"},
+    {"date": "2026-12-23", "event": "PCE 발표 (11월)",      "category": "pce",    "impact": "high"},
+
+    # ── 고용보고서 (매월 첫째 금요일) ──────
+    {"date": "2026-01-09", "event": "고용보고서 (12월)",    "category": "jobs",   "impact": "high"},
+    {"date": "2026-02-06", "event": "고용보고서 (1월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-03-06", "event": "고용보고서 (2월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-04-03", "event": "고용보고서 (3월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-05-08", "event": "고용보고서 (4월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-06-05", "event": "고용보고서 (5월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-07-10", "event": "고용보고서 (6월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-08-07", "event": "고용보고서 (7월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-09-04", "event": "고용보고서 (8월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-10-02", "event": "고용보고서 (9월)",     "category": "jobs",   "impact": "high"},
+    {"date": "2026-11-06", "event": "고용보고서 (10월)",    "category": "jobs",   "impact": "high"},
+    {"date": "2026-12-04", "event": "고용보고서 (11월)",    "category": "jobs",   "impact": "high"},
+
+    # ── GDP (분기별) ──────────────────────
+    {"date": "2026-01-30", "event": "GDP 속보치 (Q4 2025)", "category": "gdp",    "impact": "high"},
+    {"date": "2026-04-29", "event": "GDP 속보치 (Q1 2026)", "category": "gdp",    "impact": "high"},
+    {"date": "2026-07-30", "event": "GDP 속보치 (Q2 2026)", "category": "gdp",    "impact": "high"},
+    {"date": "2026-10-29", "event": "GDP 속보치 (Q3 2026)", "category": "gdp",    "impact": "high"},
+]
+
+def get_upcoming_events(days_ahead=42):
+    """오늘부터 days_ahead일 이내 예정 이벤트 반환 (최대 10개)"""
+    today = datetime.date.today()
+    cutoff = today + datetime.timedelta(days=days_ahead)
+    upcoming = []
+    for ev in ECONOMIC_CALENDAR:
+        ev_date = datetime.date.fromisoformat(ev["date"])
+        if today <= ev_date <= cutoff:
+            upcoming.append(ev)
+    upcoming.sort(key=lambda x: x["date"])
+    return upcoming[:10]
+
+# ─────────────────────────────────────────
+# 히스토리 누적
+# ─────────────────────────────────────────
+def update_history(data, scores):
+    """history.json에 오늘 스냅샷을 추가 (최근 60일 유지)"""
+    try:
+        if os.path.exists(HISTORY_PATH):
+            with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        else:
+            history = []
+
+        # 오늘 날짜가 이미 있으면 업데이트, 없으면 추가
+        snapshot = {
+            "date":      TODAY,
+            "verdict":   scores.get("verdict", "WAIT"),
+            "vix":       data["indices"]["vix"]["close"],
+            "sp500":     data["indices"]["sp500"]["close"],
+            "fg_score":  data["sentiment"]["fear_greed"]["score"],
+            "skew":      data["sentiment"].get("skew", {}).get("close"),
+            "hy_spread": data["spreads"]["hy_spread"]["value"],
+            "us10y":     data["rates"]["us10y"]["value"],
+            "wti":       data["commodities"]["wti"]["close"],
+            "ratio":     scores.get("ratio"),
+        }
+
+        # 같은 날짜 항목 제거 후 추가
+        history = [h for h in history if h["date"] != TODAY]
+        history.append(snapshot)
+
+        # 날짜순 정렬 후 최근 60일만 유지
+        history.sort(key=lambda x: x["date"])
+        history = history[-60:]
+
+        with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+
+        print(f"✅ 히스토리 업데이트 완료: {len(history)}일치 누적")
+    except Exception as e:
+        print(f"히스토리 업데이트 오류: {e}")
+
+# ─────────────────────────────────────────
+# 기존 함수들
+# ─────────────────────────────────────────
 def fred(series_id):
     url = "https://api.stlouisfed.org/fred/series/observations"
     params = {
@@ -95,12 +223,6 @@ def fetch_fear_greed(vix_value, hy_value):
         return {"score": 50, "rating": "Neutral"}
 
 def fetch_skew(vix_value):
-    """
-    CBOE Skew Index (^SKEW) 수집
-    - 꼬리 리스크(블랙스완) 대비 수준 측정
-    - 100 이하: 정상 / 100~130: 주의 / 130~150: 경고 / 150 이상: 위험
-    - VIX × Skew 조합 신호 함께 계산
-    """
     try:
         t = yf.Ticker("^SKEW")
         hist = t.history(period="5d")
@@ -108,42 +230,26 @@ def fetch_skew(vix_value):
             print("Skew 데이터 없음")
             return {"close": None, "change_pct": None, "signal": None,
                     "combo_signal": None, "combo_label": None}
-
         close = round(float(hist["Close"].iloc[-1]), 2)
         prev  = round(float(hist["Close"].iloc[-2]), 2) if len(hist) >= 2 else close
         chg   = round((close - prev) / prev * 100, 2)
-
-        # Skew 단독 신호
         if close >= 150:   signal = "red"
         elif close >= 130: signal = "yellow"
         else:              signal = "green"
-
-        # VIX x Skew 조합 신호
         vix = float(vix_value) if vix_value is not None else 20.0
         vix_high  = vix >= 22
         skew_high = close >= 130
-
         if vix_high and skew_high:
-            combo_signal = "red"
-            combo_label  = "총체적위기(VIX↑+Skew↑)"
+            combo_signal = "red";    combo_label = "총체적위기(VIX↑+Skew↑)"
         elif not vix_high and skew_high:
-            combo_signal = "orange"
-            combo_label  = "숨겨진경고(VIX↓+Skew↑)"
+            combo_signal = "orange"; combo_label = "숨겨진경고(VIX↓+Skew↑)"
         elif vix_high and not skew_high:
-            combo_signal = "yellow"
-            combo_label  = "단기패닉(VIX↑+Skew↓)"
+            combo_signal = "yellow"; combo_label = "단기패닉(VIX↑+Skew↓)"
         else:
-            combo_signal = "green"
-            combo_label  = "안정(VIX↓+Skew↓)"
-
+            combo_signal = "green";  combo_label = "안정(VIX↓+Skew↓)"
         print(f"Skew 수집 완료: {close} (신호: {signal}, 조합: {combo_label})")
-        return {
-            "close": close,
-            "change_pct": chg,
-            "signal": signal,
-            "combo_signal": combo_signal,
-            "combo_label": combo_label
-        }
+        return {"close": close, "change_pct": chg, "signal": signal,
+                "combo_signal": combo_signal, "combo_label": combo_label}
     except Exception as e:
         print(f"Skew 오류: {e}")
         return {"close": None, "change_pct": None, "signal": None,
@@ -158,7 +264,8 @@ def fetch_all():
         "date": TODAY,
         "indices": {}, "rates": {}, "spreads": {},
         "fx": {}, "commodities": {}, "liquidity": {},
-        "sectors": {}, "macro": {}, "sentiment": {}
+        "sectors": {}, "macro": {}, "sentiment": {},
+        "calendar": []
     }
 
     print("지수 수집 중...")
@@ -215,12 +322,27 @@ def fetch_all():
     print("Skew Index 수집 중...")
     data["sentiment"]["skew"] = fetch_skew(vix_val)
 
+    print("경제 캘린더 생성 중...")
+    data["calendar"] = get_upcoming_events(days_ahead=42)
+    print(f"  향후 42일 이내 이벤트: {len(data['calendar'])}개")
+
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
     print(f"✅ 데이터 저장 완료: {OUTPUT_PATH}")
+
     return data
+
+def update_history_from_report():
+    """generate_report.py 실행 후 호출 — report.json에서 스코어 읽어 히스토리 업데이트"""
+    try:
+        with open("data/market_data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        with open("data/report.json", "r", encoding="utf-8") as f:
+            report = json.load(f)
+        update_history(data, report.get("scores", {}))
+    except Exception as e:
+        print(f"히스토리 업데이트 실패: {e}")
 
 if __name__ == "__main__":
     fetch_all()
