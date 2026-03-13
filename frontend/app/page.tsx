@@ -25,6 +25,7 @@ interface Scores {
   skew?: string; combo?: string;
   stagflation_risk?: boolean; override_reason?: string[];
   ratio?: number;
+  contrarian_signal?: string | null;
 }
 interface Analysis {
   section0_summary: string; section1_fed: string;
@@ -385,6 +386,23 @@ export default function Home() {
             borderRadius: 8, fontSize: 11, color: "#c0392b", lineHeight: 1.7
           }}>
             ⚠️ 하드 오버라이드 발동: {scores.override_reason.join(" · ")}
+          </div>
+        )}
+
+        {/* 역발상 신호 배너 */}
+        {scores.contrarian_signal && (
+          <div style={{
+            padding: "10px 16px", marginBottom: 16,
+            background: scores.contrarian_signal === "strong" ? "#fff8e1" : "#f3f8ff",
+            border: `1px solid ${scores.contrarian_signal === "strong" ? "#ffe082" : "#b3d4f5"}`,
+            borderRadius: 8, fontSize: 11, lineHeight: 1.7,
+            color: scores.contrarian_signal === "strong" ? "#b07800" : "#1565c0",
+          }}>
+            ⚡ 역발상 신호 감지 ({scores.contrarian_signal === "strong" ? "강함" : "약함"}):
+            극단적 공포 + VIX 고점 대비 하락 중 —
+            {scores.contrarian_signal === "strong"
+              ? " 중기 바닥권 진입 가능성. 단, 매크로 리스크 해소 확인 후 진입 검토."
+              : " VIX 하락 초기 단계. 추가 확인 필요."}
           </div>
         )}
 
