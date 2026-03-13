@@ -37,7 +37,7 @@ interface Analysis {
   key_events: { date: string; event: string; impact: string }[];
 }
 interface NewsItem {
-  title: string; url: string; source: string; published: string;
+  title: string; title_ko?: string; url: string; source: string; published: string;
 }
 interface Report {
   date: string;
@@ -564,7 +564,7 @@ export default function Home() {
                   }}
                 >
                   <div style={{ fontSize: 12, color: "#1a1a1a", fontWeight: 500, lineHeight: 1.5 }}>
-                    {item.title}
+                    {item.title_ko ?? item.title}
                   </div>
                   <div style={{ fontSize: 10, color: "#aaa" }}>
                     {item.source}
