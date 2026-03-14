@@ -398,7 +398,9 @@ def fetch_all():
 
     print("스프레드 수집 중...")
     data["spreads"]["us2s10s"]   = fred("T10Y2Y")
+    data["spreads"]["us5s30s"]   = fred("T30Y5Y")      # 5s30s 장단기 스프레드
     data["spreads"]["hy_spread"] = fred("BAMLH0A0HYM2")
+    data["spreads"]["fra_ois"]   = fred("OBFR")        # SOFR (달러 유동성 대리 지표)
 
     print("유동성 수집 중...")
     data["liquidity"]["fed_bs"] = fred("WALCL")
@@ -411,8 +413,8 @@ def fetch_all():
     data["macro"]["unemployment"] = fred("UNRATE")
     data["macro"]["pce"]          = fred("PCEPI")
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
-    data["macro"]["ism_mfg"]      = fred("MSPMI")     # S&P Global 제조업 PMI
-    data["macro"]["ism_svc"]      = fred("SVPMI")     # S&P Global 서비스업 PMI
+    data["macro"]["ism_mfg"]      = fred("UMCSENT")   # 미시간대 소비자신뢰지수
+    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S")  # OECD 소비자신뢰지수 (보조)
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
