@@ -28,6 +28,7 @@ jobs:
       - name: Fetch market data
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/fetch_data.py
 
       - name: Generate report
