@@ -45,7 +45,7 @@ interface Report {
   data: {
     indices: { sp500: IndexData; nasdaq100: IndexData; russell: IndexData; vix: IndexData };
     rates:   { us2y: FredData; us10y: FredData; tips10y: FredData };
-    spreads: { us2s10s: FredData; hy_spread: FredData };
+    spreads: { us2s10s: FredData; us5s30s?: FredData; hy_spread: FredData; fra_ois?: FredData };
     fx:      { dxy: FredData & { change_pct?: number | null }; usdkrw: IndexData; usdjpy: IndexData; eurusd: IndexData };
     commodities: { wti: IndexData; gold: IndexData; copper?: IndexData };
     sectors: Record<string, SectorData>;
@@ -423,8 +423,8 @@ export default function Home() {
           <ScoreBadge label="GDP"        score={scores.gdp         ?? "gray"} />
           <ScoreBadge label="금(Gold)"   score={scores.gold_signal ?? "gray"} />
           <ScoreBadge label="구리"       score={scores.copper      ?? "gray"} />
-          <ScoreBadge label="제조PMI"    score={scores.ism_mfg     ?? "gray"} />
-          <ScoreBadge label="서비스PMI"  score={scores.ism_svc     ?? "gray"} />
+          <ScoreBadge label="소비자신뢰"  score={scores.ism_mfg     ?? "gray"} />
+          <ScoreBadge label="OECD신뢰"   score={scores.ism_svc     ?? "gray"} />
         </div>
 
         {/* 아코디언 카드들 */}
@@ -447,7 +447,13 @@ export default function Home() {
             <Row label="10Y 국채"           value={`${fmt(d.rates.us10y.value)}%`}        color={scoreColor[scores.rates]} />
             <Row label="TIPS 실질금리"      value={`${fmt(d.rates.tips10y.value)}%`}      color={scoreColor[scores.tips]} />
             <Row label="2s10s 스프레드"     value={`${fmt(d.spreads.us2s10s.value)}%`}    color={d.spreads.us2s10s.value != null && d.spreads.us2s10s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
+            {d.spreads.us5s30s?.value != null && (
+              <Row label="5s30s 스프레드" value={`${fmt(d.spreads.us5s30s.value)}%`} color={d.spreads.us5s30s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
+            )}
             <Row label="HY 크레딧 스프레드" value={`${fmt(d.spreads.hy_spread.value)}%`}  color={scoreColor[scores.hy_spread]} />
+            {d.spreads.fra_ois?.value != null && (
+              <Row label="SOFR (달러 유동성)" value={`${fmt(d.spreads.fra_ois.value)}%`} />
+            )}
             <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section1_fed}</div>
           </AccordionCard>
 
@@ -459,10 +465,10 @@ export default function Home() {
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             {d.macro.ism_mfg?.value != null && (
-              <Row label="제조업 PMI"  value={fmt(d.macro.ism_mfg.value)} color={d.macro.ism_mfg.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+              <Row label="소비자신뢰지수 (미시간대)" value={fmt(d.macro.ism_mfg.value)} color={d.macro.ism_mfg.value >= 80 ? "#0a8f5c" : d.macro.ism_mfg.value >= 60 ? "#b07800" : "#c0392b"} />
             )}
             {d.macro.ism_svc?.value != null && (
-              <Row label="서비스업 PMI" value={fmt(d.macro.ism_svc.value)} color={d.macro.ism_svc.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+              <Row label="소비자신뢰 (OECD)" value={fmt(d.macro.ism_svc.value)} color={d.macro.ism_svc.value >= 100 ? "#0a8f5c" : "#c0392b"} />
             )}
             <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
             <Row label="RRP 잔액"       value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
