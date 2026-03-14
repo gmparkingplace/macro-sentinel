@@ -171,7 +171,32 @@ def fred(series_id):
         print(f"FRED 오류 ({series_id}): {e}")
     return {"value": None, "date": None, "change_pct": None, "prev_value": None}
 
-def yf_price(ticker):
+def fred_yoy(series_id):
+    """FRED 지수값 13개 가져와서 전년비(YoY%) 직접 계산"""
+    url = "https://api.stlouisfed.org/fred/series/observations"
+    params = {
+        "series_id": series_id,
+        "api_key": FRED_API_KEY,
+        "file_type": "json",
+        "sort_order": "desc",
+        "limit": 14,
+    }
+    try:
+        r = requests.get(url, params=params, timeout=10)
+        obs = r.json().get("observations", [])
+        valid = [o for o in obs if o["value"] != "."]
+        if len(valid) < 13:
+            return {"value": None, "date": None, "change_pct": None}
+        latest  = float(valid[0]["value"])
+        year_ago = float(valid[12]["value"])
+        yoy = round((latest - year_ago) / year_ago * 100, 2)
+        print(f"YoY 계산 ({series_id}): {latest:.3f} vs {year_ago:.3f} = {yoy}%")
+        return {"value": yoy, "date": valid[0]["date"], "change_pct": None}
+    except Exception as e:
+        print(f"FRED YoY 오류 ({series_id}): {e}")
+    return {"value": None, "date": None, "change_pct": None}
+
+
     try:
         t = yf.Ticker(ticker)
         hist = t.history(period="5d")
@@ -356,19 +381,20 @@ def fetch_news():
     except Exception as e:
         print(f"번역 오류: {e}")
 
-    # title_ko 없으면 원문 그대로, 한자 포함 시 원문으로 대체
+    # title_ko 없으면 원문 그대로, 한자/일본어 포함 시 원문으로 대체
     for r in results:
         if "title_ko" not in r or not r["title_ko"]:
             r["title_ko"] = r["title"]
         else:
-            # 한자(CJK 통합 한자) 포함 여부 확인 → 포함 시 원문으로 대체
-            import unicodedata
-            has_kanji = any(
-                unicodedata.category(c) == 'Lo' and '\u4e00' <= c <= '\u9fff'
+            # 한자(4E00-9FFF), 히라가나(3040-309F), 카타카나(30A0-30FF) 포함 시 원문 대체
+            has_cjk = any(
+                '\u4e00' <= c <= '\u9fff' or  # 한자
+                '\u3040' <= c <= '\u309f' or  # 히라가나
+                '\u30a0' <= c <= '\u30ff'     # 카타카나
                 for c in r["title_ko"]
             )
-            if has_kanji:
-                print(f"한자 감지, 원문으로 대체: {r['title_ko'][:30]}...")
+            if has_cjk:
+                print(f"CJK 문자 감지, 원문으로 대체: {r['title_ko'][:30]}...")
                 r["title_ko"] = r["title"]
 
     print(f"번역 완료")
@@ -418,13 +444,13 @@ def fetch_all():
     data["liquidity"]["m2"]     = fred("M2SL")
 
     print("매크로 지표 수집 중...")
-    data["macro"]["cpi_yoy"]      = fred("CPALTT01USM657N")  # CPI 전년비 % (OECD/FRED)
-    data["macro"]["core_cpi"]     = fred("CPGRLE01USM657N")  # Core CPI 전년비 %
+    data["macro"]["cpi_yoy"]      = fred_yoy("CPIAUCSL")    # CPI 전년비 % (직접 계산)
+    data["macro"]["core_cpi"]     = fred_yoy("CPILFESL")    # Core CPI 전년비 %
     data["macro"]["unemployment"] = fred("UNRATE")
-    data["macro"]["pce"]          = fred("PCEPI")            # PCE 지수 (YoY는 별도 계산)
+    data["macro"]["pce"]          = fred_yoy("PCEPI")       # PCE 전년비 %
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
-    data["macro"]["ism_mfg"]      = fred("UMCSENT")          # 미시간대 소비자신뢰지수
-    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S")  # OECD 소비자신뢰지수
+    data["macro"]["ism_mfg"]      = fred("UMCSENT")         # 미시간대 소비자신뢰지수
+    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S") # OECD 소비자신뢰지수
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
