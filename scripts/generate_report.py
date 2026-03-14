@@ -425,15 +425,11 @@ def groq_analysis(d, scores):
         try:
             parsed = json.loads(text)
         except json.JSONDecodeError as e1:
-            print(f"1차 파싱 실패: {e1} → 제어문자 제거 후 재시도")
-            text_clean = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
-            text_clean = re.sub(r'(?<!\\)"(?=[^:,\{\}\[\]\n])', '\\"', text_clean)
-            try:
-                parsed = json.loads(text_clean)
-                print("2차 파싱 성공")
-            except json.JSONDecodeError as e2:
-                print(f"2차 파싱도 실패: {e2}")
-                raise e2
+            print(f"1차 파싱 실패: {e1} → 키별 개별 추출 시도")
+            parsed = _extract_by_key(text)
+            if not parsed:
+                print("키별 추출도 실패")
+                raise e1
 
         # FX 강제 교정
         parsed["section2_flow"] = (
@@ -457,6 +453,43 @@ def groq_analysis(d, scores):
     except Exception as e:
         print(f"Groq 오류: {e}")
         return _fallback()
+
+
+def _extract_by_key(text: str) -> dict:
+    """
+    JSON 파싱 실패 시 정규식으로 키별 값 개별 추출
+    문자열 값만 추출 (배열 키는 별도 처리)
+    """
+    STRING_KEYS = [
+        "section0_summary", "section1_fed", "section2_flow", "section3_sector",
+        "section4_risk", "section5_commodities", "section6_skew", "section_macro",
+        "bull_case", "bear_case", "verdict_reason",
+        "scenario_bull", "scenario_base", "scenario_bear",
+    ]
+    result = {}
+    for key in STRING_KEYS:
+        # "key":"값" 패턴 추출 (줄바꿈 포함)
+        pattern = rf'"{key}"\s*:\s*"((?:[^"\\]|\\.)*)"|"{key}"\s*:\s*"([\s\S]*?)(?=",\s*"|"\s*\}})'
+        m = re.search(rf'"{key}"\s*:\s*"((?:[^"\\]|\\.)*)"', text)
+        if m:
+            result[key] = m.group(1).replace('\\"', '"').replace('\\n', '\n')
+        else:
+            result[key] = "-"
+
+    # entry_triggers 배열 추출
+    m = re.search(r'"entry_triggers"\s*:\s*\[([\s\S]*?)\]', text)
+    if m:
+        items = re.findall(r'"((?:[^"\\]|\\.)*)"', m.group(1))
+        result["entry_triggers"] = [i.replace('\\"', '"') for i in items] if items else []
+    else:
+        result["entry_triggers"] = []
+
+    # key_events는 Python 캘린더로 덮어쓰므로 빈값
+    result["key_events"] = []
+
+    found = sum(1 for v in result.values() if v and v != "-" and v != [])
+    print(f"키별 추출 완료: {found}/{len(STRING_KEYS)}개 성공")
+    return result if found >= 5 else {}
 
 
 def _event_impact(category: str) -> str:
