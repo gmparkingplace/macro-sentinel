@@ -411,8 +411,8 @@ def fetch_all():
     data["macro"]["unemployment"] = fred("UNRATE")
     data["macro"]["pce"]          = fred("PCEPI")
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
-    data["macro"]["ism_mfg"]      = fred("NAPM")       # ISM 제조업 PMI
-    data["macro"]["ism_svc"]      = fred("NMFSL")      # ISM 서비스업 PMI
+    data["macro"]["ism_mfg"]      = fred("MSPMI")     # S&P Global 제조업 PMI
+    data["macro"]["ism_svc"]      = fred("SVPMI")     # S&P Global 서비스업 PMI
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
