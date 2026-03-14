@@ -461,9 +461,9 @@ export default function Home() {
           {/* 매크로 경제 */}
           <AccordionCard icon="📈" title="매크로 경제" score={scores.unemployment}
             summary={`실업률 ${fmt(d.macro.unemployment.value)}%  ·  CPI ${fmt(d.macro.cpi_yoy.value)}%  ·  Core CPI ${fmt(d.macro.core_cpi.value)}%`}>
-            <Row label="CPI (전년비)"      value={d.macro.cpi_yoy.value != null ? `${fmt(d.macro.cpi_yoy.value)}%` : "—"}   color={d.macro.cpi_yoy.value != null ? d.macro.cpi_yoy.value > 3.5 ? "#c0392b" : d.macro.cpi_yoy.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
-            <Row label="Core CPI (전년비)" value={d.macro.core_cpi.value != null ? `${fmt(d.macro.core_cpi.value)}%` : "—"} color={d.macro.core_cpi.value != null ? d.macro.core_cpi.value > 3.5 ? "#c0392b" : d.macro.core_cpi.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
-            <Row label="PCE (전년비)"      value={d.macro.pce.value != null ? `${fmt(d.macro.pce.value)}%` : "—"} color={d.macro.pce.value != null ? d.macro.pce.value > 3.5 ? "#c0392b" : d.macro.pce.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
+            <Row label="CPI"      value={d.macro.cpi_yoy.value != null ? `${fmt(d.macro.cpi_yoy.value)}%` : "—"}   color={d.macro.cpi_yoy.value != null ? d.macro.cpi_yoy.value > 3.5 ? "#c0392b" : d.macro.cpi_yoy.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
+            <Row label="Core CPI" value={d.macro.core_cpi.value != null ? `${fmt(d.macro.core_cpi.value)}%` : "—"} color={d.macro.core_cpi.value != null ? d.macro.core_cpi.value > 3.5 ? "#c0392b" : d.macro.core_cpi.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
+            <Row label="PCE"      value={d.macro.pce.value != null ? `${fmt(d.macro.pce.value)}%` : "—"} color={d.macro.pce.value != null ? d.macro.pce.value > 3.5 ? "#c0392b" : d.macro.pce.value > 2.0 ? "#b07800" : "#0a8f5c" : undefined} />
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             {d.macro.ism_mfg?.value != null && (
