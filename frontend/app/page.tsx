@@ -463,7 +463,7 @@ export default function Home() {
             summary={`실업률 ${fmt(d.macro.unemployment.value)}%  ·  CPI ${fmt(d.macro.cpi_yoy.value)}%  ·  Core CPI ${fmt(d.macro.core_cpi.value)}%`}>
             <Row label="CPI YoY"       value={d.macro.cpi_yoy.value != null ? `${fmt(d.macro.cpi_yoy.value)}%` : "—"}   color={d.macro.cpi_yoy.value != null && d.macro.cpi_yoy.value > 3.5 ? "#c0392b" : "#0a8f5c"} />
             <Row label="Core CPI YoY"  value={d.macro.core_cpi.value != null ? `${fmt(d.macro.core_cpi.value)}%` : "—"} color={d.macro.core_cpi.value != null && d.macro.core_cpi.value > 3.5 ? "#c0392b" : "#0a8f5c"} />
-            <Row label="PCE (전월비)"   value={d.macro.pce.change_pct != null ? `${d.macro.pce.change_pct > 0 ? "+" : ""}${fmt(d.macro.pce.change_pct)}%` : "—"} />
+            <Row label="PCE YoY"       value={d.macro.pce.value != null ? `${fmt(d.macro.pce.value)}%` : "—"} />
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             {d.macro.ism_mfg?.value != null && (
