@@ -140,6 +140,24 @@ function HistoryChart({ history }: { history: HistoryEntry[] }) {
             })}
           </div>
         </div>
+        {/* VIX 상태 코멘트 */}
+        {recent.length > 0 && recent[recent.length - 1].vix != null && (() => {
+          const latestVix = recent[recent.length - 1].vix!;
+          const color = latestVix >= 28 ? "#c0392b" : latestVix >= 22 ? "#e67e22" : "#0a8f5c";
+          const bg    = latestVix >= 28 ? "#fdf0ef" : latestVix >= 22 ? "#fff5ee" : "#eafaf3";
+          const comment = latestVix >= 35
+            ? `VIX ${latestVix.toFixed(1)} — 극단적 공포 구간. 시장 패닉 진행 중. 역발상 진입 검토 시작.`
+            : latestVix >= 28
+            ? `VIX ${latestVix.toFixed(1)} — 하드 오버라이드 발동 구간. 변동성 위험 수준.`
+            : latestVix >= 22
+            ? `VIX ${latestVix.toFixed(1)} — 경계 구간. 시장 불안정. WAIT 조건.`
+            : `VIX ${latestVix.toFixed(1)} — 안정 구간. 진입 환경 우호적.`;
+          return (
+            <div style={{ marginTop: 10, padding: "10px 14px", background: bg, border: `1px solid ${color}33`, borderRadius: 8, fontSize: 11, color, lineHeight: 1.6 }}>
+              {comment}
+            </div>
+          );
+        })()}
       </div>
     </div>
   );
