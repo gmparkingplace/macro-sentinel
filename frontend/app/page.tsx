@@ -449,7 +449,7 @@ export default function Home() {
             <Row label="TIPS 실질금리"      value={`${fmt(d.rates.tips10y.value)}%`}      color={scoreColor[scores.tips]} />
             <Row label="2s10s 스프레드"     value={`${fmt(d.spreads.us2s10s.value)}%`}    color={d.spreads.us2s10s.value != null && d.spreads.us2s10s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
             {d.spreads.us5s30s?.value != null && (
-              <Row label="5s30s 스프레드" value={`${fmt(d.spreads.us5s30s.value)}%`} color={d.spreads.us5s30s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
+              <Row label="5s20s 스프레드" value={`${fmt(d.spreads.us5s30s.value)}%`} color={d.spreads.us5s30s.value >= 0 ? "#0a8f5c" : "#c0392b"} />
             )}
             <Row label="HY 크레딧 스프레드" value={`${fmt(d.spreads.hy_spread.value)}%`}  color={scoreColor[scores.hy_spread]} />
             {d.spreads.fra_ois?.value != null && (
@@ -463,7 +463,7 @@ export default function Home() {
             summary={`실업률 ${fmt(d.macro.unemployment.value)}%  ·  CPI ${fmt(d.macro.cpi_yoy.value)}%  ·  Core CPI ${fmt(d.macro.core_cpi.value)}%`}>
             <Row label="CPI YoY"       value={d.macro.cpi_yoy.value != null ? `${fmt(d.macro.cpi_yoy.value)}%` : "—"}   color={d.macro.cpi_yoy.value != null && d.macro.cpi_yoy.value > 3.5 ? "#c0392b" : "#0a8f5c"} />
             <Row label="Core CPI YoY"  value={d.macro.core_cpi.value != null ? `${fmt(d.macro.core_cpi.value)}%` : "—"} color={d.macro.core_cpi.value != null && d.macro.core_cpi.value > 3.5 ? "#c0392b" : "#0a8f5c"} />
-            <Row label="PCE YoY"       value={d.macro.pce.value != null ? `${fmt(d.macro.pce.value)}%` : "—"} />
+            <Row label="PCE (전월비)"   value={d.macro.pce.change_pct != null ? `${d.macro.pce.change_pct > 0 ? "+" : ""}${fmt(d.macro.pce.change_pct)}%` : "—"} />
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             {d.macro.ism_mfg?.value != null && (
