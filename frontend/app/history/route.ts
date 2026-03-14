@@ -13,7 +13,8 @@ export async function GET() {
     return NextResponse.json(data, {
       headers: { "Cache-Control": "no-store" }
     });
-  } catch {
-    return NextResponse.json([], { status: 200 });
+  } catch (e) {
+    console.error("history.json 로드 실패:", e);
+    return NextResponse.json({ error: String(e) }, { status: 500 });
   }
 }
