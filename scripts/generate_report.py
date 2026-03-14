@@ -424,20 +424,20 @@ def groq_analysis(d, scores):
 - 반드시 아래 제공된 JSON 키(Key)를 모두 포함해야 합니다.
 
 {{
-  "section0_summary":"현재 시장 좌표 3줄 (뉴스 맥락 + 수치 포함)",
-  "section1_fed":"Fed·금리 분석 4줄",
-  "section2_flow":"달러·자금흐름 3줄 (반드시 '{krw_dir}' 문구를 그대로 포함할 것)",
-  "section3_sector":"섹터 로테이션 3줄",
-  "section4_risk":"지정학·정책 리스크 3줄",
-  "section5_commodities":"원자재(WTI, Gold) 동향 및 스태그플레이션 리스크 분석 3줄",
-  "section6_skew":"VIX×Skew 조합 신호 해석 2줄 (현재 조합: {skew_label})",
-  "bull_case":"강세 논거 2가지",
-  "bear_case":"약세 논거 2가지",
-  "verdict_reason":"판정 {scores['verdict']} 이유 2줄",
-  "scenario_bull":"강세 시나리오",
-  "scenario_base":"기본 시나리오",
-  "scenario_bear":"약세 시나리오",
-  "entry_triggers":["진입 트리거 1", "진입 트리거 2", "진입 트리거 3"],
+  "section0_summary":"현재 시장 좌표를 5줄 이상으로 상세히 서술. 주요 지수 수치, 뉴스 맥락, 매크로 환경 포함.",
+  "section1_fed":"Fed·금리 분석을 5줄 이상으로 상세히. FOMC 스탠스, 금리 곡선, 실질금리, 유동성 환경 포함.",
+  "section2_flow":"달러·자금흐름 분석 4줄 이상. 반드시 '{krw_dir}' 문구를 그대로 포함할 것.",
+  "section3_sector":"섹터 로테이션 분석 5줄 이상. Risk-On/Off 판독, 강세/약세 섹터 구체적으로 서술.",
+  "section4_risk":"지정학·정책 리스크 5줄 이상. 현재 활성 리스크, 시장 반영도, 꼬리 리스크 포함.",
+  "section5_commodities":"원자재(WTI, Gold, Copper) 동향 및 스태그플레이션 리스크 분석 4줄 이상.",
+  "section6_skew":"VIX×Skew 조합 신호 해석 3줄 이상 (현재 조합: {skew_label}). 꼬리 리스크 함의 포함.",
+  "bull_case":"강세 논거 3가지를 각각 2줄 이상으로 구체적으로 서술.",
+  "bear_case":"약세 논거 3가지를 각각 2줄 이상으로 구체적으로 서술.",
+  "verdict_reason":"판정 {scores['verdict']} 이유를 3줄 이상으로 구체적으로. 핵심 근거 수치 포함.",
+  "scenario_bull":"강세 시나리오를 2줄 이상으로. 발생 조건과 목표 수준 포함.",
+  "scenario_base":"기본 시나리오를 2줄 이상으로. 현재 경로와 예상 전개 포함.",
+  "scenario_bear":"약세 시나리오를 2줄 이상으로. 트리거 조건과 하방 리스크 포함.",
+  "entry_triggers":["진입 트리거 조건 1 (구체적 수치 포함)", "진입 트리거 조건 2 (구체적 수치 포함)", "진입 트리거 조건 3 (구체적 수치 포함)"],
   "key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 영향"}}]
 }}"""
 
@@ -452,7 +452,7 @@ def groq_analysis(d, scores):
                 {"role": "user", "content": prompt}
             ],
             temperature=0.3,
-            max_tokens=4000,
+            max_tokens=6000,
         )
         text = response.choices[0].message.content.strip()
         print(f"Groq 응답 앞 200자: {text[:200]}")
