@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13",
+  "date": "2026-03-14",
   "indices": {
     "sp500": {
       "close": 6632.19,
@@ -29,33 +29,43 @@
   "rates": {
     "us2y": {
       "value": 3.76,
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "change_pct": 3.3,
+      "prev_value": 3.64
     },
     "us10y": {
       "value": 4.27,
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "change_pct": 1.43,
+      "prev_value": 4.21
     },
     "tips10y": {
       "value": 1.89,
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "change_pct": 2.16,
+      "prev_value": 1.85
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.55,
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "change_pct": 7.84,
+      "prev_value": 0.51
     },
     "hy_spread": {
       "value": 3.17,
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "change_pct": 2.59,
+      "prev_value": 3.09
     }
   },
   "fx": {
     "dxy": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "value": 119.491,
+      "date": "2026-03-06",
+      "change_pct": -0.06,
+      "prev_value": 119.5683
     },
     "usdkrw": {
       "close": 1497.53,
@@ -93,15 +103,21 @@
   "liquidity": {
     "fed_bs": {
       "value": 6646344.0,
-      "date": "2026-03-11"
+      "date": "2026-03-11",
+      "change_pct": 0.26,
+      "prev_value": 6628894.0
     },
     "rrp": {
       "value": 0.427,
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "change_pct": 211.68,
+      "prev_value": 0.137
     },
     "m2": {
       "value": 22442.1,
-      "date": "2026-01-01"
+      "date": "2026-01-01",
+      "change_pct": 0.34,
+      "prev_value": 22366.2
     }
   },
   "sectors": {
@@ -157,23 +173,33 @@
   "macro": {
     "cpi_yoy": {
       "value": 327.46,
-      "date": "2026-02-01"
+      "date": "2026-02-01",
+      "change_pct": 0.27,
+      "prev_value": 326.588
     },
     "core_cpi": {
       "value": 333.512,
-      "date": "2026-02-01"
+      "date": "2026-02-01",
+      "change_pct": 0.22,
+      "prev_value": 332.793
     },
     "unemployment": {
       "value": 4.4,
-      "date": "2026-02-01"
+      "date": "2026-02-01",
+      "change_pct": 2.33,
+      "prev_value": 4.3
     },
     "pce": {
       "value": 128.969,
-      "date": "2026-01-01"
+      "date": "2026-01-01",
+      "change_pct": 0.28,
+      "prev_value": 128.615
     },
     "gdp_growth": {
       "value": 0.7,
-      "date": "2025-10-01"
+      "date": "2025-10-01",
+      "change_pct": -84.09,
+      "prev_value": 4.4
     }
   },
   "sentiment": {
@@ -247,15 +273,8 @@
       "title": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure",
       "url": "https://www.cnbc.com/2026/03/13/trump-says-us-obliterated-military-targets-on-irans-kharg-island-but-didnt-wipe-out-oil-infrastructure.html",
       "source": "CNBC",
-      "published": "Fri, 13 Mar 2026 23:28:00 GMT",
+      "published": "Sat, 14 Mar 2026 00:46:40 GMT",
       "title_ko": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure"
-    },
-    {
-      "title": "Mortgage rates surge to highest since September, hitting spring housing market",
-      "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
-      "source": "CNBC",
-      "published": "Fri, 13 Mar 2026 22:35:59 GMT",
-      "title_ko": "Mortgage rates surge to highest since September, hitting spring housing market"
     },
     {
       "title": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe",
@@ -272,11 +291,11 @@
       "title_ko": "Analysis: The U.S. is running out of ways to get oil prices down. It is up to the military."
     },
     {
-      "title": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts",
-      "url": "https://www.cnbc.com/2026/03/13/iran-war-oil-trump-drilling.html",
+      "title": "Mortgage rates surge to highest since September, hitting spring housing market",
+      "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
       "source": "CNBC",
-      "published": "Fri, 13 Mar 2026 17:44:54 GMT",
-      "title_ko": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts"
+      "published": "Fri, 13 Mar 2026 22:35:59 GMT",
+      "title_ko": "Mortgage rates surge to highest since September, hitting spring housing market"
     },
     {
       "title": "Did tariff dividend checks just become more likely? Economists weigh in",
@@ -284,6 +303,13 @@
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 18:31:24 GMT",
       "title_ko": "Did tariff dividend checks just become more likely? Economists weigh in"
+    },
+    {
+      "title": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts",
+      "url": "https://www.cnbc.com/2026/03/13/iran-war-oil-trump-drilling.html",
+      "source": "CNBC",
+      "published": "Fri, 13 Mar 2026 17:44:54 GMT",
+      "title_ko": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts"
     },
     {
       "title": "AI agents could easily send college grad unemployment over 30%, ServiceNow CEO says",
