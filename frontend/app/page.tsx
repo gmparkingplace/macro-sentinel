@@ -31,7 +31,8 @@ interface Analysis {
   section0_summary: string; section1_fed: string;
   section2_flow: string;    section3_sector: string;
   section4_risk: string;    section5_commodities?: string;
-  section6_skew?: string;   bull_case: string;
+  section6_skew?: string;   section_macro?: string;
+  bull_case: string;
   bear_case: string;        verdict_reason: string;
   scenario_bull: string;    scenario_base: string; scenario_bear: string;
   entry_triggers: string[];
@@ -474,6 +475,9 @@ export default function Home() {
             )}
             <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
             <Row label="RRP 잔액"       value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
+            {analysis.section_macro && (
+              <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section_macro}</div>
+            )}
           </AccordionCard>
 
           {/* 환율 & 원자재 */}
@@ -489,6 +493,9 @@ export default function Home() {
               <Row label="Copper" value={`$${fmt(d.commodities.copper.close)} (${chgStr(d.commodities.copper.change_pct)})`} color={chgColor(d.commodities.copper.change_pct)} />
             )}
             <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section2_flow}</div>
+            {analysis.section5_commodities && (
+              <div style={{ marginTop: 8, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section5_commodities}</div>
+            )}
           </AccordionCard>
 
           {/* 섹터 로테이션 */}
