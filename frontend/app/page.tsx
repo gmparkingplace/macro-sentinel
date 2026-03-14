@@ -377,16 +377,15 @@ export default function Home() {
         {scores.contrarian_signal && (
           <div style={{
             padding: "10px 16px", marginBottom: 16,
-            background: scores.contrarian_signal === "strong" ? "#fff8e1" : "#f3f8ff",
-            border: `1px solid ${scores.contrarian_signal === "strong" ? "#ffe082" : "#b3d4f5"}`,
+            background: scores.contrarian_signal === "strong" ? "#fff8e1" : scores.contrarian_signal === "intraday" ? "#f3f0ff" : "#f3f8ff",
+            border: `1px solid ${scores.contrarian_signal === "strong" ? "#ffe082" : scores.contrarian_signal === "intraday" ? "#d1c4e9" : "#b3d4f5"}`,
             borderRadius: 8, fontSize: 11, lineHeight: 1.7,
-            color: scores.contrarian_signal === "strong" ? "#b07800" : "#1565c0",
+            color: scores.contrarian_signal === "strong" ? "#b07800" : scores.contrarian_signal === "intraday" ? "#6a1b9a" : "#1565c0",
           }}>
-            ⚡ 역발상 신호 감지 ({scores.contrarian_signal === "strong" ? "강함" : "약함"}):
-            극단적 공포 + VIX 고점 대비 하락 중 —
-            {scores.contrarian_signal === "strong"
-              ? " 중기 바닥권 진입 가능성. 단, 매크로 리스크 해소 확인 후 진입 검토."
-              : " VIX 하락 초기 단계. 추가 확인 필요."}
+            ⚡ 역발상 신호 감지 ({scores.contrarian_signal === "strong" ? "강함" : scores.contrarian_signal === "intraday" ? "당일 참고용" : "약함"}):
+            {scores.contrarian_signal === "strong" && " 극단적 공포 + VIX 고점 대비 하락 확인 — 중기 바닥권 진입 가능성. 단, 매크로 리스크 해소 확인 후 진입 검토."}
+            {scores.contrarian_signal === "weak" && " 극단적 공포 + VIX 하락 초기 단계 — 추가 확인 필요."}
+            {scores.contrarian_signal === "intraday" && " 극단적 공포(F&G ≤15) + VIX 패닉 구간 내 당일 하락 감지 — 히스토리 누적 전 참고용. 신뢰도 낮음. 며칠간 VIX 하락 지속 시 신호 강화."}
           </div>
         )}
 
