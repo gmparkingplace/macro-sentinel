@@ -393,7 +393,7 @@ def groq_analysis(d, scores):
 
 [매크로 경제]
 - 실업률: {d['macro']['unemployment']['value']}% | GDP 성장률: {d['macro']['gdp_growth']['value']}%
-- ISM 제조업 PMI: {ism_mfg} | ISM 서비스업 PMI: {ism_svc} (50 기준선: 이상=확장, 이하=수축)
+- S&P Global 제조업 PMI: {ism_mfg} | S&P Global 서비스업 PMI: {ism_svc} (50 기준선: 이상=확장, 이하=수축)
 - 구리: ${copper} ({f'+{copper_chg:.2f}%' if copper_chg and copper_chg > 0 else f'{copper_chg:.2f}%' if copper_chg else '—'}) ← 경기 선행 지표
 
 [달러 & 환율] ※ 중요: 아래 문구를 분석에 그대로 복사해서 사용할 것. 임의로 해석을 바꾸지 마세요.
