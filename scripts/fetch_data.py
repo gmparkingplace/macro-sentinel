@@ -153,12 +153,23 @@ def fred(series_id):
     try:
         r = requests.get(url, params=params, timeout=10)
         obs = r.json().get("observations", [])
-        for o in obs:
-            if o["value"] != ".":
-                return {"value": float(o["value"]), "date": o["date"]}
+        valid = [o for o in obs if o["value"] != "."]
+        if not valid:
+            return {"value": None, "date": None}
+        latest = valid[0]
+        result = {"value": float(latest["value"]), "date": latest["date"]}
+        # change_pct 계산 (전일 대비)
+        if len(valid) >= 2:
+            prev = float(valid[1]["value"])
+            result["change_pct"] = round((result["value"] - prev) / prev * 100, 2) if prev != 0 else None
+            result["prev_value"] = prev
+        else:
+            result["change_pct"] = None
+            result["prev_value"] = None
+        return result
     except Exception as e:
         print(f"FRED 오류 ({series_id}): {e}")
-    return {"value": None, "date": None}
+    return {"value": None, "date": None, "change_pct": None, "prev_value": None}
 
 def yf_price(ticker):
     try:
@@ -402,7 +413,7 @@ def fetch_all():
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
 
     print("환율 수집 중...")
-    data["fx"]["dxy"]    = yf_price("DX-Y.NYB")
+    data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
     data["fx"]["usdkrw"] = yf_price("KRW=X")
     data["fx"]["usdjpy"] = yf_price("JPY=X")
     data["fx"]["eurusd"] = yf_price("EURUSD=X")
