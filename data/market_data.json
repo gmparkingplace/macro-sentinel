@@ -2,28 +2,28 @@
   "date": "2026-03-14",
   "indices": {
     "sp500": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 6632.19,
+      "prev_close": 6672.62,
+      "change_pct": -0.61,
+      "pct_52w": 82.9
     },
     "nasdaq100": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 24380.73,
+      "prev_close": 24533.58,
+      "change_pct": -0.62,
+      "pct_52w": 81.3
     },
     "russell": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 2480.05,
+      "prev_close": 2488.99,
+      "change_pct": -0.36,
+      "pct_52w": 74.5
     },
     "vix": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 27.19,
+      "prev_close": 27.29,
+      "change_pct": -0.37,
+      "pct_52w": 29.5
     }
   },
   "rates": {
@@ -78,42 +78,42 @@
       "prev_value": 119.5683
     },
     "usdkrw": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 1497.53,
+      "prev_close": 1470.58,
+      "change_pct": 1.83,
+      "pct_52w": 95.3
     },
     "usdjpy": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 159.72,
+      "prev_close": 159.21,
+      "change_pct": 0.32,
+      "pct_52w": 100.0
     },
     "eurusd": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 1.14,
+      "prev_close": 1.15,
+      "change_pct": -0.87,
+      "pct_52w": 51.3
     }
   },
   "commodities": {
     "wti": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 98.71,
+      "prev_close": 95.73,
+      "change_pct": 3.11,
+      "pct_52w": 67.8
     },
     "gold": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 5061.7,
+      "prev_close": 5115.8,
+      "change_pct": -1.06,
+      "pct_52w": 80.1
     },
     "copper": {
-      "close": null,
-      "prev_close": null,
-      "change_pct": null,
-      "pct_52w": null
+      "close": 5.76,
+      "prev_close": 5.82,
+      "change_pct": -1.03,
+      "pct_52w": 69.0
     }
   },
   "liquidity": {
@@ -229,15 +229,15 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 38,
-      "rating": "Fear"
+      "score": 24,
+      "rating": "Extreme Fear"
     },
     "skew": {
       "close": 137.76,
       "change_pct": -1.56,
       "signal": "yellow",
-      "combo_signal": "orange",
-      "combo_label": "숨겨진경고(VIX↓+Skew↑)"
+      "combo_signal": "red",
+      "combo_label": "총체적위기(VIX↑+Skew↑)"
     }
   },
   "calendar": [
@@ -278,91 +278,91 @@
       "url": "https://www.marketwatch.com/story/warren-buffetts-sage-advice-about-fear-and-greed-is-a-trap-in-this-market-8d2d69c4?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Fri, 13 Mar 2026 21:08:00 GMT",
-      "title_ko": "Warren Buffett’s sage advice about fear and greed is a trap in this market"
+      "title_ko": "워런 버핏의 두려움과 탐욕에 대한 지혜로운 조언이 이 시장에서 함정인 이유"
     },
     {
       "title": "Kevin Warsh’s Fed confirmation faces new delay, key senator says. Here’s why.",
       "url": "https://www.marketwatch.com/story/kevin-warshs-fed-confirmation-faces-new-delay-key-senator-says-heres-why-3ffdfa39?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Fri, 13 Mar 2026 20:42:00 GMT",
-      "title_ko": "케빈 워시의 연방준비제도 이사 승인에 새로운 지연이 발생했다고 주요 상원 의원이 말했다. 이유는 다음과 같다."
+      "title_ko": "케빈 워시의 연방준비제도 이사 승인 지연에 대한 새로운 이유가 나타났다고 주요 상원의원이 밝혔다"
     },
     {
       "title": "Think Russian oil will calm the Iran conflict’s supply panic? Here’s what the math reveals.",
       "url": "https://www.marketwatch.com/story/think-russian-oil-will-calm-the-iran-conflicts-supply-panic-heres-what-the-math-reveals-e392c4be?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Fri, 13 Mar 2026 20:20:00 GMT",
-      "title_ko": "러시아의 원유가 이란 분쟁의 공급 패닉을 진정시킬 것이라고 생각하는가? 수학이 무엇을 밝히는지 보라."
+      "title_ko": "러시아의 원유가 이란 분쟁의 공급 위기를 진정시킬 것이라고 생각하는가? 수학적 계산 결과는 무엇인가"
     },
     {
       "title": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure",
       "url": "https://www.cnbc.com/2026/03/13/trump-says-us-obliterated-military-targets-on-irans-kharg-island-but-didnt-wipe-out-oil-infrastructure.html",
       "source": "CNBC",
       "published": "Sat, 14 Mar 2026 00:46:40 GMT",
-      "title_ko": "트럼프는 미국이 이란의 하르크 섬의 군사 목표를 '파괴했다'고 말했지만 원유 시설은 '파괴하지 않았다'고 말했다."
+      "title_ko": "트럼프는 미국이 이란의 하르크 섬의 군사 목표를 파괴했지만 원유 시설은 파괴하지 않았다고 말했다"
     },
     {
       "title": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe",
       "url": "https://www.cnbc.com/2026/03/13/fed-jerome-powell-investigation-trump-pirro-doj.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 21:56:37 GMT",
-      "title_ko": "법무부, 파월 형사 수사에서 연방준비제도 소환장 차단 판결에 대해 항소할 것"
+      "title_ko": "법무부, 파월 형사 조사에서 연방준비제도 소환에 대한 판사의 결정에 항소할 것"
     },
     {
       "title": "Analysis: The U.S. is running out of ways to get oil prices down. It is up to the military.",
       "url": "https://www.cnbc.com/2026/03/13/trump-iran-oil-prices-military-strait-of-hormuz.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 17:01:07 GMT",
-      "title_ko": "분석: 미국은 원유 가격을 내리기 위한 방법이 떨어지고 있다. 이제는 군대가 나서야 한다."
+      "title_ko": "분석: 미국은 원유 가격을 내리기 위한 방법이 떨어지고 있다. 이제는 군대의 차례다"
     },
     {
       "title": "Mortgage rates surge to highest since September, hitting spring housing market",
       "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 22:35:59 GMT",
-      "title_ko": "모기지 금리, 9월 이후 최고치로 상승해 봄 집값 시장을 타격"
+      "title_ko": "모기지 금리, 9월 이후 최고치로 상승하여 봄 주택 시장에 영향을 미치고 있다"
     },
     {
       "title": "Did tariff dividend checks just become more likely? Economists weigh in",
       "url": "https://www.cnbc.com/2026/03/13/tariff-dividend-checks-a-new-bill-could-create-a-tax-rebate-program.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 18:31:24 GMT",
-      "title_ko": "관세 배당금 수표가 더 가능해졌는가? 경제학자들은 의견을 나눈다"
+      "title_ko": "관세 배당금 수표가 더 가능해졌는가? 경제학자들의 의견"
     },
     {
       "title": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts",
       "url": "https://www.cnbc.com/2026/03/13/iran-war-oil-trump-drilling.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 17:44:54 GMT",
-      "title_ko": "Trump can't 'drill, baby, drill' his way out of this Iran-inspired oil crisis: Experts"
+      "title_ko": "트럼프는 이란으로 인한 원유 위기를 통해 원유를 더 많이 생산해서 해결할 수 없다: 전문가들의 의견"
     },
     {
       "title": "AI agents could easily send college grad unemployment over 30%, ServiceNow CEO says",
       "url": "https://www.cnbc.com/2026/03/13/software-ai-agents-college-graduate-unemployment.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 20:14:16 GMT",
-      "title_ko": "인공지능 에이전트가 대학교 졸업자 실업률을 쉽게 30% 이상으로 올릴 수 있다고 서비스나우 최고경영자는 말했다"
+      "title_ko": "인공지능 에이전트가 대학 졸업자의 실업률을 쉽게 30% 이상으로 올릴 수 있다고 서비스나우의 최고경영자가 말했다"
     },
     {
       "title": "Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war",
       "url": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 19:04:07 GMT",
-      "title_ko": "원유 가격, 미국의 가격 하락 조치와 상관없이 이란 전쟁 중 두 번째 날 100달러 이상으로 마감"
+      "title_ko": "원유 가격, 이란 전쟁 동안 미국의 가격 인하 조치에도 불구하고 2일 연속 100달러 이상으로 마감"
     },
     {
       "title": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%",
       "url": "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 16:47:25 GMT",
-      "title_ko": "4분기 국내총생산은 0.7% 성장으로 수정되었고, 1월 핵심 인플레이션은 3.1%였다."
+      "title_ko": "4분기 국내총생산은 0.7%로 하향 조정되었고, 1월 핵심 인플레이션은 3.1%였다"
     },
     {
       "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
       "url": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
       "source": "CNBC",
       "published": "Fri, 13 Mar 2026 18:32:12 GMT",
-      "title_ko": "트럼프의 관세: 회사에 환급되는 금액이 보너스와 임금 인상으로 노동자에게 돌아가야 한다고 그리어는 말했다"
+      "title_ko": "트럼프의 관세: 회사에 대한 환불은 보너스와 임금 인상으로 노동자에게 돌아가야 한다고 그리어는 말했다"
     }
   ]
 }

@@ -1,14 +1,14 @@
 [
   {
     "date": "2026-03-14",
-    "verdict": "WAIT",
-    "vix": null,
-    "sp500": null,
-    "fg_score": 38,
+    "verdict": "AVOID",
+    "vix": 27.19,
+    "sp500": 6632.19,
+    "fg_score": 24,
     "skew": 137.76,
     "hy_spread": 3.17,
     "us10y": 4.27,
-    "wti": null,
-    "ratio": 0.525
+    "wti": 98.71,
+    "ratio": 0.4
   }
 ]
