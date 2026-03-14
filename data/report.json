@@ -276,88 +276,102 @@
     ],
     "news": [
       {
+        "title": "This MarketWatch portfolio of hated stocks is crushing the stock market in 2026",
+        "url": "https://www.marketwatch.com/story/this-marketwatch-portfolio-of-hated-stocks-is-crushing-the-stock-market-in-2026-2e4b7dc9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Sat, 14 Mar 2026 18:03:00 GMT",
+        "title_ko": "이 마켓워치의 싫어하는 주식 포트폴리오가 2026년에 주식 시장에서 압도적으로 이기고 있다"
+      },
+      {
+        "title": "Why oil probably won’t go to $150 a barrel",
+        "url": "https://www.marketwatch.com/story/why-oil-probably-wont-go-to-150-a-barrel-0c5ecfa5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Sat, 14 Mar 2026 18:02:00 GMT",
+        "title_ko": "왜 오일 가격이 아마 1배럴에 150달러까지 가지 않을까"
+      },
+      {
+        "title": "The truth behind 401(k) withdrawal numbers: People aren’t being reckless — they’re desperate",
+        "url": "https://www.marketwatch.com/story/the-truth-behind-401-k-withdrawal-numbers-people-arent-being-reckless-theyre-desperate-85645e70?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Sat, 14 Mar 2026 18:01:00 GMT",
+        "title_ko": "401k 인출 숫자 뒤에 있는 진실은 사람들이 무모한 것이 아니라 절실하다는 것이다"
+      },
+      {
         "title": "This ‘uncanny’ S&P 500 chart suggests a bubble is bursting — and not just because of Iran",
         "url": "https://www.marketwatch.com/story/this-uncanny-s-p-500-chart-suggests-a-bubble-is-bursting-and-not-just-because-of-iran-77d45514?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Sat, 14 Mar 2026 17:30:00 GMT",
-        "title_ko": "이 기이한 S&P 500 차트는 버블이 터진다는 것을 시사하고 있는데 이란 때문에만이 아니라는 것을 보여준다"
+        "title_ko": "This ‘uncanny’ S&P 500 chart suggests a bubble is bursting — and not just because of Iran"
       },
       {
         "title": "It was unthinkable a couple of weeks ago, but could the next move by the Fed be a rate hike?",
         "url": "https://www.marketwatch.com/story/it-was-unthinkable-a-couple-of-weeks-ago-but-could-the-next-move-by-the-fed-be-a-rate-hike-dc5e1edb?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Sat, 14 Mar 2026 17:03:00 GMT",
-        "title_ko": "몇 주 전에는 생각할 수 없는 일이었지만 연방준비제도이사회가 다음에 취할 조치가 금리 인상일 수 있을까"
-      },
-      {
-        "title": "The S&P 500 just broke a major support. Another 10% decline is likely.",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Sat, 14 Mar 2026 16:17:00 GMT",
-        "title_ko": "S&P 500은 주요 지지선을 깨트렸다. 또 10퍼센트가량의 하락이 예상된다"
+        "title_ko": "몇 주 전에는 생각할 수 없는 것이었지만, 연준의 다음 조치는 금리 인상일 수 있다"
       },
       {
         "title": "The biggest release of emergency oil stockpiles in history was announced. Why crude may keep rising",
         "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 13:07:11 GMT",
-        "title_ko": "역사상 가장 큰 비상 유류 보유량의 공개가 발표되었다. 왜 원유 가격이 계속 오를 수 있는지"
+        "title_ko": "역사상 가장 큰 비상 오일 저장량의 공개가 발표되었다. 왜 원유 가격이 계속 상승할 수 있는지"
       },
       {
         "title": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure",
         "url": "https://www.cnbc.com/2026/03/13/trump-says-us-obliterated-military-targets-on-irans-kharg-island-but-didnt-wipe-out-oil-infrastructure.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 15:00:43 GMT",
-        "title_ko": "트럼프는 미국이 이란의 하르그 섬의 군사 시설을 완전히 파괴했지만 유류 시설은 파괴하지 않았다고 말했다"
+        "title_ko": "트럼프는 미국이 이란의 하르그 섬의 군사 목표를 ‘파괴했다’고 말했지만 ‘오일 인프라를 파괴하지는 않았다’"
       },
       {
         "title": "Bitcoin beat the S&P 500, Nasdaq Composite and gold since the start of the Iran war",
         "url": "https://www.cnbc.com/2026/03/14/bitcoin-outperforms-sp-500-nasdaq-gold-since-the-start-of-iran-war.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 15:00:01 GMT",
-        "title_ko": "비트코인은 이란 전쟁이 시작된 이후 S&P 500, 나스닥 지수, 금을 제치고 상승했다"
+        "title_ko": "비트코인이 이란 전쟁이 시작된 이후로 S&P 500, 나스닥 컴포지트, 금을 제치고 최고의 성과를 냈다"
       },
       {
         "title": "Analysis: The U.S. is running out of ways to get oil prices down. It is up to the military.",
         "url": "https://www.cnbc.com/2026/03/13/trump-iran-oil-prices-military-strait-of-hormuz.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 17:01:07 GMT",
-        "title_ko": "분석: 미국은 원유 가격을 내리기 위한 방법이 다 떨어가고 있다. 이제는 군사적인 수단을 동원할 때가 되었다"
+        "title_ko": "분석: 미국은 오일 가격을 내리기 위한 방법이 떨어지고 있다. 이제는 군대에게 달렸다"
       },
       {
         "title": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe",
         "url": "https://www.cnbc.com/2026/03/13/fed-jerome-powell-investigation-trump-pirro-doj.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 21:56:37 GMT",
-        "title_ko": "법무부는 파월에 대한 형사 조사에서 연방준비제도에 대한 소환장을 차단한 판결에 대해 항소할 예정이다"
+        "title_ko": "법무부가 파월 형사 조사에서 연준 소환장 차단 판결에 대해 항소할 것"
       },
       {
         "title": "Kalshi co-founder Luana Lopes Lara on the biggest prediction markets risks she has ever taken",
         "url": "https://www.cnbc.com/2026/03/14/kalshi-prediction-markets-bet-luana-lopes-lara.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 14:42:44 GMT",
-        "title_ko": "칼시의 공동 창립자 루아나 로페스 라라는 자신이 취한 가장 큰 예측 시장 위험에 대해 이야기했다"
+        "title_ko": "칼시의 공동 창립자 루아나 로페스 라라가 가장 큰 예측 시장 위험에 대해 이야기했다"
       },
       {
         "title": "Did tariff dividend checks just become more likely? Economists weigh in",
         "url": "https://www.cnbc.com/2026/03/13/tariff-dividend-checks-a-new-bill-could-create-a-tax-rebate-program.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 18:31:24 GMT",
-        "title_ko": "관세 배당금 수표가 더 가능해졌는가? 경제학자들은 의견을 나눴다"
+        "title_ko": "관세 배당금 수표가 더 가능해졌는가? 경제학자들이 의견을 나눈다"
       },
       {
         "title": "Week in review: How we navigated the Iran war-driven surge in oil that slammed stocks",
         "url": "https://www.cnbc.com/2026/03/14/week-in-review-how-we-navigated-the-iran-war-driven-surge-in-oil-that-slammed-stocks.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 16:11:53 GMT",
-        "title_ko": "주간 리뷰: 우리는 어떻게 이란 전쟁으로 인한 원유 가격 상승과 주식 시장의 급등을 헤쳐나갔는가"
+        "title_ko": "주간 리뷰: 우리는 어떻게 이란 전쟁으로 인한 오일 가격 상승과 주식 시장에 영향을 미쳤는지"
       },
       {
         "title": "Mortgage rates surge to highest since September, hitting spring housing market",
         "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 22:35:59 GMT",
-        "title_ko": "모기지 금리는 9월 이후 최고치로 상승하여 봄 집값 시장을 타격했다"
+        "title_ko": "모기지 금리가 9월 이후 최고치로 상승해 봄 집값 시장에 영향을 미치고 있다"
       }
     ]
   },
@@ -391,51 +405,22 @@
     "ratio": 0.4
   },
   "analysis": {
-    "section0_summary": "S&P 500이 6632로 주요 지지선을 이탈하며 추가 10% 하락 가능성이 제기되고 있다. VIX 27.2, WTI $98.7, 실업률 4.4%로 스태그플레이션 하드 오버라이드가 발동됐다. 이란 전쟁과 긴급 유류 방출 소식이 교차하는 가운데 비트코인만 S&P·나스닥·금을 제쳤다. 모기지 금리 7개월 최고로 봄 성수기 주택시장이 얼어붙고 있고, 소비자신뢰지수는 56.4로 급락해 경기 침체 우려가 확산 중이다. Fear & Greed 24 극단적 공포 구간에서 총체적 위기 신호가 활성화됐다.",
-    "section1_fed": "금리 선물은 몇 주 만에 Fed의 다음 행보로 금리 인상 시나리오를 30% 반영하고 있다. 10Y 4.27%, 2s10s 0.55bp로 수익률 곡선이 스티프닝되며 인플레이션 재점화 우려를 반영한다. 실질금리(10Y TIPS)는 1.5%p 안팎으로 확대돼 유동성이 급속히 건조되고 있고, SOFR 3.64%에 하이일드 스프레드 3.17%로 기업 자금조달 비용이 2년 만에 최고다. FOMC가 3월 18일 추가 금리 인하를 연기하거나 점도표 상 2026년 인상 전망을 재차 부각시킬 경우 달러 유동성 축소 압력이 본격화될 전망이다.",
-    "section2_flow": "달러 약세(DXY -0.06%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.62%). USD/KRW 1494원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 약세는 이머징 자금 유입에 긍정적.",
-    "section3_sector": "에너지 섹터만 WTI 급등으로 6% 넘게 뛴 반면, 성장주 중심의 IT·반도체는 S&P 대비 4%p underperform 하며 조정을 주도하고 있다. 금리 민감주인 부동산·유틸리티는 모기지 금리 7% 돌파로 2020년 이후 최대 하락폭을 기록했다. 소비재는 원가 상승과 실질소득 감소로 스태그플레이션 복합불황이 확산돼 약세가 가팔라지고 있다. Value 대 Growth 로테이션은 단기 과열 구간이며, 방위적 섹터(헬스케어·식품)도 VIX 급등에도 불구하고 3% 넘게 하락해 전면 Risk-Off 진행 중이다.",
-    "section4_risk": "이란의 하르그 섬 군사시설 타격 이후 호르무즈 해상 봉쇄 가능성이 커져 원유 공급 20% 차질 리스크가 부각된다. IEA 역대 최대 비상 방출(1억 배럴)에도 WTI $100 돌파로 정책 임계치 초과다. 트럼프 행정부가 관세배당 수표 재추진을 검토하면서 중국 보복 관세 리스크와 재정 적자 확대가 동시에 고조되고 있다. Fed 독립성 침해 우려(파월 법무부 소환장 항소)가 금리 프리미엄 15bp 상승으로 이어졌으며, 3월 18일 FOMC 기자회견에서 정치적 입김 논쟁이 재점화될 경우 변동성이 확대될 전망이다.",
-    "section5_commodities": "WTI는 $98.71로 3.1% 급등하며 2014년 이후 최고치를 경신했고, 옵션 스커트가 90%로 급등해 추가 $105 테스트가 시장共識다. 구리 $5.76(-1%) 하락은 중국 수요 둔화와 글로벌 재고 증가로 경기 침체 선행지표 역할을 확인했다. 금 $5061(-1%)는 실질금리 상승과 달러 캐리 감소로 단기 조정을 받고 있으나, 스태그플레이션 시나리오가 확정될 경우 $5500 재상회 가능성이 높다.",
-    "section6_skew": "VIX 27.2와 CBOE Skew 138 조합은 총체적위기(VIX↑+Skew↑) 구간으로, 지난 10년간 이 신호 발생 후 S&P 500이 3개월 내 평균 -8.3% 하락했다. Skew 130~150 꼬리리스크 경고대에 머물며 150 이상 블랙스완 대비 급증 구간 진입 임계치 12pt 앞두고 있다. 옵션 매도 헤지 규모가 역대 최고 수준으로, 기관들이 하락 보험에 올인하면서 레버리지 ETF 강제 청산 가능성이 커졌다.",
-    "bull_case": "1) 이란 전쟁이 4월 초 휴전에 돌입하면서 WTI가 $80 이하로 안정되고, 글로벌 공급망 정상화로 인플레이션 기대가 둔화될 경우 실질금리 하락과 함께 S&P 500이 7200선(현재 대비 +8.5%)으로 반등할 수 있다. 2) Fed가 3월 FOMC에서 점도표 상 2026년 금리 인상 전망을 제거하고 양적 긴축 중단을 시사하면 금리 민감주 중심으로 10% 급등 랠리가 나타날 여지가 있다. 3) 미국 하원이 추가 재정 지출 합의에 실패해 국채 공급이 축소되고 10Y 금리가 3.8% 이하로 내려가면 부동산·성장주가 V자 반전, S&P 7500 목표 구간이 열릴 수 있다.",
-    "bear_case": "1) 호르무즈 해협 봉쇅으로 WTI가 $120를 넘어서고 미국 휘발유 평균가 $5를 돌파하면 소비 위축이 본격화돼 S&P 500이 6000선(하방 -9.5%)으로 급락할 수 있다. 2) Fed가 물가 압력에 밀려 5월 예정보다 앞당긴 금리 인상(25bp)을 단행하면 주식 리스크 프리미엄이 300bp 확대, S&P 5500 대 하락폭이 시현된다. 3) 미중 관세전이 재점화돼 중국이 희토류·바이오제약 수출 제재에 나설 경우 글로벌 공급망 2차 충격이 발생, 글로벌 제조업 PMI가 45 붕괴와 함께 S&P가 5000선까지 추가 25% 조정받을 수 있다.",
-    "verdict_reason": "종합판정 AVOID는 VIX 27.2·Skew 138의 총체적위기 신호, WTI $98.7·실업률 4.4% 스태그플레이션 하드 오버라이드, Fear & Greed 24 극단적 공포가 동시에 작용해 리스크 보상이 최악이기 때문이다. S&P 6632는 주요 지지선 붕괴 후 추가 10% 하락 기대감이 형성돼 기술적 모멘텀까지 약세로 돌아섰다. 3월 18일 FOMC 금리 결정·기자회견, 3월 27일 PCE, 4월 3일 고용보고서 등 고변동성 이벤트가 잇따라 남아 있어 현 시점에서 매수 타이밍이 아니다.",
-    "scenario_bull": "이란 휴전·공급 정상화로 WTI가 $80 이하로 안정(현재 대비 -19%), VIX 20 이하 완화, Fear & Greed 50 회복 시 S&P 7200(+8.5%) 목표로 급반등 랠리가 전개된다. 금리 민감주·성장주 중심으로 2주 내 7% 급등 후 4월 고용호조로 7500선 테스트 가능.",
-    "scenario_base": "전쟁 장기화에도 불구하고 호르무즈 봉쇄는 피하고 WTI $95~105 박스권을 유지한다. Fed는 3월 FOMC에서 연준 금리 동결, 점도표 상 인상 시그널은 제거하며 실업률 4.5%까지 허용한다. S&P는 6400~6800 구간에서 4월 고용보고서 발표 전까지 박스권 횡보, 변동성은 VIX 25~30로 상단 제한된다.",
-    "scenario_bear": "호르무즈 해협 봉쇅·IEA 방출 실패로 WTI $120 돌파, 미국 휘발유 $5 폭등 시 봄 소비가 급감한다. Fed가 5월 긴급 금리 인상(25bp)에 나서면 2s10s 스티프닝이 100bp 확대, S&P는 6000선(-9.5%) 첫 지지 후 4월 중 5500까지 추가 하락할 수 있다.",
-    "entry_triggers": [
-      "VIX 22 이하 3일간 지속(현재 27.2→달성률 0%)",
-      "WTI 3일 평균 $90 이하(현재 98.7→달성률 0%)",
-      "Fear & Greed 35 이상 회복(현재 24→달성률 0%)"
-    ],
-    "key_events": [
-      {
-        "date": "2026-03-18",
-        "event": "FOMC 금리 결정",
-        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
-      },
-      {
-        "date": "2026-03-19",
-        "event": "FOMC 기자회견",
-        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
-      },
-      {
-        "date": "2026-03-27",
-        "event": "PCE 발표 (2월)",
-        "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
-      },
-      {
-        "date": "2026-04-03",
-        "event": "고용보고서 (3월)",
-        "impact": "고용 강도 확인 → 경기 연착륙 여부 판단"
-      },
-      {
-        "date": "2026-04-10",
-        "event": "CPI 발표 (3월)",
-        "impact": "인플레이션 추세 확인 → Fed 정책 기대 변화"
-      }
-    ]
+    "section0_summary": "분석 생성 실패",
+    "section1_fed": "-",
+    "section2_flow": "-",
+    "section3_sector": "-",
+    "section4_risk": "-",
+    "section5_commodities": "-",
+    "section6_skew": "-",
+    "section_macro": "-",
+    "bull_case": "-",
+    "bear_case": "-",
+    "verdict_reason": "AI 분석 실패",
+    "scenario_bull": "-",
+    "scenario_base": "-",
+    "scenario_bear": "-",
+    "entry_triggers": [],
+    "key_events": []
   },
   "verdict": "AVOID"
 }
