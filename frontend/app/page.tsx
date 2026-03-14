@@ -46,7 +46,7 @@ interface Report {
     indices: { sp500: IndexData; nasdaq100: IndexData; russell: IndexData; vix: IndexData };
     rates:   { us2y: FredData; us10y: FredData; tips10y: FredData };
     spreads: { us2s10s: FredData; hy_spread: FredData };
-    fx:      { dxy: IndexData; usdkrw: IndexData; usdjpy: IndexData; eurusd: IndexData };
+    fx:      { dxy: FredData & { change_pct?: number | null }; usdkrw: IndexData; usdjpy: IndexData; eurusd: IndexData };
     commodities: { wti: IndexData; gold: IndexData };
     sectors: Record<string, SectorData>;
     liquidity: { fed_bs: FredData; rrp: FredData };
@@ -461,8 +461,8 @@ export default function Home() {
 
           {/* 환율 & 원자재 */}
           <AccordionCard icon="🌍" title="환율 · 원자재" score={scores.oil ?? "gray"}
-            summary={`DXY ${fmt(d.fx.dxy.close)}  ·  KRW ${fmt(d.fx.usdkrw.close, 0)}  ·  Gold $${fmt(d.commodities.gold.close, 0)}`}>
-            <Row label="DXY"     value={`${fmt(d.fx.dxy.close)} (${chgStr(d.fx.dxy.change_pct)})`}           color={chgColor(d.fx.dxy.change_pct ? -d.fx.dxy.change_pct : null)} />
+            summary={`DXY ${fmt(d.fx.dxy.value)}  ·  KRW ${fmt(d.fx.usdkrw.close, 0)}  ·  Gold $${fmt(d.commodities.gold.close, 0)}`}>
+            <Row label="DXY"     value={`${fmt(d.fx.dxy.value)} (${chgStr(d.fx.dxy.change_pct ?? null)})`} color={chgColor(d.fx.dxy.change_pct ? -d.fx.dxy.change_pct : null)} />
             <Row label="USD/KRW" value={`${fmt(d.fx.usdkrw.close, 0)} (${chgStr(d.fx.usdkrw.change_pct)})`} color={chgColor(d.fx.usdkrw.change_pct)} />
             <Row label="USD/JPY" value={`${fmt(d.fx.usdjpy.close)} (${chgStr(d.fx.usdjpy.change_pct)})`} />
             <Row label="EUR/USD" value={`${fmt(d.fx.eurusd.close)} (${chgStr(d.fx.eurusd.change_pct)})`} />
