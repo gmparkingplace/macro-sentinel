@@ -350,6 +350,11 @@ def groq_analysis(d, scores):
     skew_label = skew_data.get("combo_label", "데이터 없음")
     skew_str   = f"{skew_val:.0f} / 조합 신호: {skew_label}" if skew_val is not None else "데이터 없음"
 
+    ism_mfg    = d["macro"].get("ism_mfg", {}).get("value")
+    ism_svc    = d["macro"].get("ism_svc", {}).get("value")
+    copper     = d["commodities"].get("copper", {}).get("close")
+    copper_chg = d["commodities"].get("copper", {}).get("change_pct")
+
     news       = d.get("news", [])
     news_block = "\n".join(f"  - {h}" for h in news) if news else "  - 수집 실패"
 
