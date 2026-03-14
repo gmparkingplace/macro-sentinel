@@ -473,7 +473,7 @@ def groq_analysis(d, scores):
 
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="moonshotai/kimi-k2-instruct",
             messages=[
                 {
                     "role": "system",
@@ -481,7 +481,7 @@ def groq_analysis(d, scores):
                 },
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.3,
+            temperature=0.6,
             max_tokens=6000,
         )
         text = response.choices[0].message.content.strip()
