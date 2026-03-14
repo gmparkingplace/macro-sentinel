@@ -12,7 +12,7 @@ interface HistoryEntry {
 // ── 타입 ──────────────────────────────────────────────
 interface IndexData { close: number | null; change_pct: number | null; pct_52w: number | null; }
 interface SectorData { close: number | null; change_pct: number | null; change_4w: number | null; pct_52w: number | null; }
-interface FredData  { value: number | null; date: string | null; }
+interface FredData  { value: number | null; date: string | null; change_pct?: number | null; prev_value?: number | null; }
 interface SkewData  {
   close: number | null; change_pct: number | null;
   signal: string | null; combo_signal: string | null; combo_label: string | null;
