@@ -121,7 +121,7 @@ function HistoryChart({ history }: { history: HistoryEntry[] }) {
           VIX 추이
         </div>
         <div style={{ overflowX: "auto" }}>
-          <div style={{ display: "flex", alignItems: "flex-end", gap: 4, height: 80, minWidth: "max-content" }}>
+          <div style={{ display: "flex", alignItems: "flex-end", gap: 4, height: 80 }}>
             {recent.map((h, i) => {
               const v = h.vix ?? 20;
               const barH = Math.min((v / 45) * 100, 100);
