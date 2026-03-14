@@ -105,9 +105,13 @@ def calc_scores(d):
     wti      = d["commodities"]["wti"]["close"]
     gold     = d["commodities"]["gold"]["close"]
     gold_chg = d["commodities"]["gold"]["change_pct"]
+    copper   = d["commodities"].get("copper", {}).get("close")
+    copper_chg = d["commodities"].get("copper", {}).get("change_pct")
     fg       = d["sentiment"]["fear_greed"]["score"]
     skew_data = d["sentiment"].get("skew", {})
     skew_val  = skew_data.get("close")
+    ism_mfg  = d["macro"].get("ism_mfg", {}).get("value")
+    ism_svc  = d["macro"].get("ism_svc", {}).get("value")
 
     # ── VIX ──────────────────────────────
     scores["vix"] = score_label(vix, [
@@ -217,7 +221,32 @@ def calc_scores(d):
     else:
         scores["gold_signal"] = "gray"
 
-    # ── 스태그플레이션 감지 ───────────────
+    # ── 구리 (경기 선행) ──────────────────
+    if copper_chg is not None:
+        scores["copper"] = score_label(copper_chg, [
+            (-3,  "red"),
+            (-1,  "yellow"),
+            (1,   "yellow"),
+            (999, "green"),
+        ])
+    else:
+        scores["copper"] = "gray"
+
+    # ── ISM 제조업 PMI ────────────────────
+    scores["ism_mfg"] = score_label(ism_mfg, [
+        (45,  "red"),
+        (50,  "yellow"),
+        (55,  "green"),
+        (999, "green"),
+    ])
+
+    # ── ISM 서비스업 PMI ──────────────────
+    scores["ism_svc"] = score_label(ism_svc, [
+        (45,  "red"),
+        (50,  "yellow"),
+        (55,  "green"),
+        (999, "green"),
+    ])
     stagflation_risk = False
     if wti is not None and unemp is not None:
         if wti > 85 and unemp > 4.3:
@@ -359,6 +388,8 @@ def groq_analysis(d, scores):
 
 [매크로 경제]
 - 실업률: {d['macro']['unemployment']['value']}% | GDP 성장률: {d['macro']['gdp_growth']['value']}%
+- ISM 제조업 PMI: {ism_mfg} | ISM 서비스업 PMI: {ism_svc} (50 기준선: 이상=확장, 이하=수축)
+- 구리: ${copper} ({f'+{copper_chg:.2f}%' if copper_chg and copper_chg > 0 else f'{copper_chg:.2f}%' if copper_chg else '—'}) ← 경기 선행 지표
 
 [달러 & 환율] ※ 중요: 아래 문구를 분석에 그대로 복사해서 사용할 것. 임의로 해석을 바꾸지 마세요.
 - 달러: {dxy_dir}
