@@ -82,6 +82,26 @@ def calc_contrarian_signal(vix_now, fg_now, vix_history):
     return None
 
 
+def calc_contrarian_signal_intraday(vix_now, vix_chg, fg_now):
+    """
+    히스토리 없이 당일 데이터만으로 역발상 신호 감지 (참고용)
+    조건: Fear & Greed 극단 공포(≤15) + VIX 패닉 구간(25~40) + 당일 VIX 하락
+    신뢰도 낮음 → "intraday" 등급으로 별도 표시
+    """
+    if vix_now is None or fg_now is None or vix_chg is None:
+        return None
+
+    extreme_fear   = fg_now <= 15
+    vix_in_range   = 25 <= vix_now <= 40   # 패닉 구간 (너무 높으면 아직 진행 중)
+    vix_declining  = vix_chg < -1.0        # 당일 1% 이상 하락
+
+    if extreme_fear and vix_in_range and vix_declining:
+        print(f"⚡ 당일 역발상 신호: FG={fg_now}, VIX={vix_now:.1f}({vix_chg:+.1f}%)")
+        return "intraday"
+
+    return None
+
+
 
 def score_label(value, thresholds):
     if value is None:
@@ -256,7 +276,13 @@ def calc_scores(d):
     # ── 역발상 신호 감지 ──────────────────
     vix_history        = load_vix_history()
     contrarian_signal  = calc_contrarian_signal(vix, fg, vix_history)
-    scores["contrarian_signal"] = contrarian_signal  # None / "weak" / "strong"
+
+    # 히스토리 부족 시 당일 데이터로 보완
+    if contrarian_signal is None:
+        vix_chg = d["indices"]["vix"]["change_pct"]
+        contrarian_signal = calc_contrarian_signal_intraday(vix, vix_chg, fg)
+
+    scores["contrarian_signal"] = contrarian_signal
 
     # ── 가중 점수 계산 ────────────────────
     color_weight = {"green": 2, "yellow": 1, "red": 0, "gray": 1}
