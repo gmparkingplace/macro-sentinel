@@ -40,7 +40,7 @@ jobs:
           git config --global user.name "macro-sentinel-bot"
           git config --global user.email "bot@macro-sentinel"
           git fetch origin main
-          git add data/market_data.json data/report.json
+          git add data/market_data.json data/report.json data/history.json
           git commit -m "📊 Daily report: $(date +'%Y-%m-%d %H:%M')" --allow-empty
           git push origin HEAD:main
       - name: Trigger Vercel redeploy
