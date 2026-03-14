@@ -411,6 +411,8 @@ def fetch_all():
     data["macro"]["unemployment"] = fred("UNRATE")
     data["macro"]["pce"]          = fred("PCEPI")
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
+    data["macro"]["ism_mfg"]      = fred("NAPM")       # ISM 제조업 PMI
+    data["macro"]["ism_svc"]      = fred("NMFSL")      # ISM 서비스업 PMI
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
@@ -419,8 +421,9 @@ def fetch_all():
     data["fx"]["eurusd"] = yf_price("EURUSD=X")
 
     print("원자재 수집 중...")
-    data["commodities"]["wti"]  = yf_price("CL=F")
-    data["commodities"]["gold"] = yf_price("GC=F")
+    data["commodities"]["wti"]    = yf_price("CL=F")
+    data["commodities"]["gold"]   = yf_price("GC=F")
+    data["commodities"]["copper"] = yf_price("HG=F")  # 구리 (경기 선행)
 
     print("Fear & Greed 수집 중...")
     vix_val = data["indices"]["vix"]["close"]
