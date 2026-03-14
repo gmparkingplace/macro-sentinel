@@ -197,9 +197,8 @@ def fred_yoy(series_id):
     return {"value": None, "date": None, "change_pct": None}
 
 
+def yf_price(ticker):
     try:
-        t = yf.Ticker(ticker)
-        hist = t.history(period="5d")
         if hist.empty:
             return {"close": None, "prev_close": None, "change_pct": None, "pct_52w": None}
         close = round(float(hist["Close"].iloc[-1]), 2)
