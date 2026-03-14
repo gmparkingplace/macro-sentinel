@@ -98,6 +98,12 @@
       "prev_close": 5115.8,
       "change_pct": -1.81,
       "pct_52w": 78.8
+    },
+    "copper": {
+      "close": 5.68,
+      "prev_close": 5.82,
+      "change_pct": -2.41,
+      "pct_52w": 65.6
     }
   },
   "liquidity": {
@@ -200,6 +206,14 @@
       "date": "2025-10-01",
       "change_pct": -84.09,
       "prev_value": 4.4
+    },
+    "ism_mfg": {
+      "value": null,
+      "date": null
+    },
+    "ism_svc": {
+      "value": null,
+      "date": null
     }
   },
   "sentiment": {
