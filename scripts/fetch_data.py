@@ -337,7 +337,7 @@ def fetch_news():
         resp = groq_client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[
-                {"role": "system", "content": "You are a financial news translator. Translate each English headline to natural Korean. Return ONLY a numbered list in the same order, one line per headline. No extra text."},
+                {"role": "system", "content": "You are a financial news translator. Translate each English headline to natural Korean. Return ONLY a numbered list in the same order, one line per headline. No extra text. CRITICAL: Never use Chinese characters (漢字) or Japanese characters. Use only pure Korean (한글) and Arabic numerals."},
                 {"role": "user",   "content": titles_block}
             ],
             temperature=0.1,
@@ -398,7 +398,7 @@ def fetch_all():
 
     print("스프레드 수집 중...")
     data["spreads"]["us2s10s"]   = fred("T10Y2Y")
-    data["spreads"]["us5s30s"]   = fred("T30Y5Y")      # 5s30s 장단기 스프레드
+    data["spreads"]["us5s30s"]   = fred("T20Y5Y")      # 5s20y 장단기 스프레드 (5s30s 대체)
     data["spreads"]["hy_spread"] = fred("BAMLH0A0HYM2")
     data["spreads"]["fra_ois"]   = fred("OBFR")        # SOFR (달러 유동성 대리 지표)
 
@@ -408,13 +408,13 @@ def fetch_all():
     data["liquidity"]["m2"]     = fred("M2SL")
 
     print("매크로 지표 수집 중...")
-    data["macro"]["cpi_yoy"]      = fred("CPIAUCSL_PC1")   # CPI 전년비 %
-    data["macro"]["core_cpi"]     = fred("CPILFESL_PC1")   # Core CPI 전년비 %
+    data["macro"]["cpi_yoy"]      = fred("CPALTT01USM657N")  # CPI 전년비 % (OECD/FRED)
+    data["macro"]["core_cpi"]     = fred("CPGRLE01USM657N")  # Core CPI 전년비 %
     data["macro"]["unemployment"] = fred("UNRATE")
-    data["macro"]["pce"]          = fred("PCEPI_PC1")      # PCE 전년비 %
+    data["macro"]["pce"]          = fred("PCEPI")            # PCE 지수 (YoY는 별도 계산)
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
-    data["macro"]["ism_mfg"]      = fred("UMCSENT")        # 미시간대 소비자신뢰지수
-    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S") # OECD 소비자신뢰지수
+    data["macro"]["ism_mfg"]      = fred("UMCSENT")          # 미시간대 소비자신뢰지수
+    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S")  # OECD 소비자신뢰지수
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
