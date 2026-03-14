@@ -430,8 +430,8 @@ def groq_analysis(d, scores):
 - 원화: {krw_dir}
 
 [원자재]
-- WTI: ${d['commodities']['wti']['close']} ({d['commodities']['wti']['change_pct']:+.2f}%)
-- Gold: ${d['commodities']['gold']['close']} ({d['commodities']['gold']['change_pct']:+.2f}%)
+- WTI: ${d['commodities']['wti']['close']} ({f"+{d['commodities']['wti']['change_pct']:.2f}%" if d['commodities']['wti']['change_pct'] is not None else "—"})
+- Gold: ${d['commodities']['gold']['close']} ({f"+{d['commodities']['gold']['change_pct']:.2f}%" if d['commodities']['gold']['change_pct'] and d['commodities']['gold']['change_pct'] > 0 else f"{d['commodities']['gold']['change_pct']:.2f}%" if d['commodities']['gold']['change_pct'] is not None else "—"})
 
 [시장 심리]
 - Fear & Greed: {fg_str}
