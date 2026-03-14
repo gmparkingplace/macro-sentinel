@@ -98,7 +98,7 @@ def calc_scores(d):
     s2s10    = d["spreads"]["us2s10s"]["value"]
     hy       = d["spreads"]["hy_spread"]["value"]
     us10y    = d["rates"]["us10y"]["value"]
-    dxy      = d["fx"]["dxy"]["close"]
+    dxy      = d["fx"]["dxy"].get("value") or d["fx"]["dxy"].get("close")
     tips     = d["rates"]["tips10y"]["value"]
     unemp    = d["macro"]["unemployment"]["value"]
     gdp      = d["macro"]["gdp_growth"]["value"]
@@ -341,7 +341,7 @@ def groq_analysis(d, scores):
 
     # FX 방향 Python 계산 (Groq에 맡기지 않음)
     krw_chg = d['fx']['usdkrw']['change_pct'] or 0.0
-    dxy_chg = d['fx']['dxy']['change_pct'] or 0.0
+    dxy_chg = d['fx']['dxy'].get('change_pct') or 0.0
     krw_dir = f"원화 약세(달러 대비 가치 하락, USD/KRW +{krw_chg:.2f}%)" if krw_chg > 0 else f"원화 강세(달러 대비 가치 상승, USD/KRW {krw_chg:.2f}%)"
     dxy_dir = f"달러 강세(DXY +{dxy_chg:.2f}%)" if dxy_chg > 0 else f"달러 약세(DXY {dxy_chg:.2f}%)"
 
