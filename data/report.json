@@ -4,28 +4,28 @@
     "date": "2026-03-14",
     "indices": {
       "sp500": {
-        "close": 6632.19,
-        "prev_close": 6672.62,
-        "change_pct": -0.61,
-        "pct_52w": 82.9
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "nasdaq100": {
-        "close": 24380.73,
-        "prev_close": 24533.58,
-        "change_pct": -0.62,
-        "pct_52w": 81.3
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "russell": {
-        "close": 2480.05,
-        "prev_close": 2488.99,
-        "change_pct": -0.36,
-        "pct_52w": 74.5
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "vix": {
-        "close": 27.19,
-        "prev_close": 27.29,
-        "change_pct": -0.37,
-        "pct_52w": 29.5
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       }
     },
     "rates": {
@@ -80,42 +80,42 @@
         "prev_value": 119.5683
       },
       "usdkrw": {
-        "close": 1497.53,
-        "prev_close": 1470.58,
-        "change_pct": 1.83,
-        "pct_52w": 95.3
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "usdjpy": {
-        "close": 159.72,
-        "prev_close": 159.21,
-        "change_pct": 0.32,
-        "pct_52w": 99.9
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "eurusd": {
-        "close": 1.14,
-        "prev_close": 1.15,
-        "change_pct": -0.87,
-        "pct_52w": 51.3
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       }
     },
     "commodities": {
       "wti": {
-        "close": 98.71,
-        "prev_close": 95.73,
-        "change_pct": 3.11,
-        "pct_52w": 67.8
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "gold": {
-        "close": 5061.7,
-        "prev_close": 5115.8,
-        "change_pct": -1.06,
-        "pct_52w": 80.1
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       },
       "copper": {
-        "close": 5.76,
-        "prev_close": 5.82,
-        "change_pct": -1.03,
-        "pct_52w": 69.0
+        "close": null,
+        "prev_close": null,
+        "change_pct": null,
+        "pct_52w": null
       }
     },
     "liquidity": {
@@ -190,16 +190,14 @@
     },
     "macro": {
       "cpi_yoy": {
-        "value": 0.646416993742063,
-        "date": "2024-03-01",
-        "change_pct": 4.43,
-        "prev_value": 0.618967177555072
+        "value": 2.66,
+        "date": "2026-02-01",
+        "change_pct": null
       },
       "core_cpi": {
-        "value": 0.0965963428175137,
-        "date": "2023-12-01",
-        "change_pct": 33.09,
-        "prev_value": 0.0725801271758038
+        "value": 2.73,
+        "date": "2026-02-01",
+        "change_pct": null
       },
       "unemployment": {
         "value": 4.4,
@@ -208,10 +206,9 @@
         "prev_value": 4.3
       },
       "pce": {
-        "value": 128.969,
+        "value": 2.83,
         "date": "2026-01-01",
-        "change_pct": 0.28,
-        "prev_value": 128.615
+        "change_pct": null
       },
       "gdp_growth": {
         "value": 0.7,
@@ -234,15 +231,15 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 24,
-        "rating": "Extreme Fear"
+        "score": 38,
+        "rating": "Fear"
       },
       "skew": {
         "close": 137.76,
         "change_pct": -1.56,
         "signal": "yellow",
-        "combo_signal": "red",
-        "combo_label": "총체적위기(VIX↑+Skew↑)"
+        "combo_signal": "orange",
+        "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
@@ -283,7 +280,7 @@
         "url": "https://www.marketwatch.com/story/warren-buffetts-sage-advice-about-fear-and-greed-is-a-trap-in-this-market-8d2d69c4?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Fri, 13 Mar 2026 21:08:00 GMT",
-        "title_ko": "워런 버핏의 두려움과 탐욕에 대한 지혜로운 조언이 이 시장에서 함정인 이유"
+        "title_ko": "Warren Buffett’s sage advice about fear and greed is a trap in this market"
       },
       {
         "title": "Kevin Warsh’s Fed confirmation faces new delay, key senator says. Here’s why.",
@@ -297,14 +294,14 @@
         "url": "https://www.marketwatch.com/story/think-russian-oil-will-calm-the-iran-conflicts-supply-panic-heres-what-the-math-reveals-e392c4be?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Fri, 13 Mar 2026 20:20:00 GMT",
-        "title_ko": "러시아의 원유가 이란 분쟁의 공급 패ニック을 진정시킬 것이라고 생각하는가? 수학이 무엇을 밝히는가"
+        "title_ko": "러시아의 원유가 이란 분쟁의 공급 패닉을 진정시킬 것이라고 생각하는가? 수학이 무엇을 밝히는지 보라."
       },
       {
         "title": "Trump says U.S. 'obliterated' military targets on Iran's Kharg Island but didn't 'wipe out' oil infrastructure",
         "url": "https://www.cnbc.com/2026/03/13/trump-says-us-obliterated-military-targets-on-irans-kharg-island-but-didnt-wipe-out-oil-infrastructure.html",
         "source": "CNBC",
         "published": "Sat, 14 Mar 2026 00:46:40 GMT",
-        "title_ko": "트럼프는 미국이 이란의 하르크 섬의 군사 목표를 '파괴했다'고 말했지만 원유 시설은 '파괴하지 않았다'고 말했다"
+        "title_ko": "트럼프는 미국이 이란의 하르크 섬의 군사 목표를 '파괴했다'고 말했지만 원유 시설은 '파괴하지 않았다'고 말했다."
       },
       {
         "title": "DOJ to appeal judge's decision to block Fed subpoenas in Powell criminal probe",
@@ -318,14 +315,14 @@
         "url": "https://www.cnbc.com/2026/03/13/trump-iran-oil-prices-military-strait-of-hormuz.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 17:01:07 GMT",
-        "title_ko": "분석: 미국은 원유 가격을 내리기 위한 방법이 떨어지고 있다. 군대가 해결해야 한다."
+        "title_ko": "분석: 미국은 원유 가격을 내리기 위한 방법이 떨어지고 있다. 이제는 군대가 나서야 한다."
       },
       {
         "title": "Mortgage rates surge to highest since September, hitting spring housing market",
         "url": "https://www.cnbc.com/2026/03/13/mortgage-rates-7-month-high.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 22:35:59 GMT",
-        "title_ko": "모기지 금리, 9월 이후 최고치로 상승해 봄 집시장에 영향을 미치고 있다"
+        "title_ko": "모기지 금리, 9월 이후 최고치로 상승해 봄 집값 시장을 타격"
       },
       {
         "title": "Did tariff dividend checks just become more likely? Economists weigh in",
@@ -346,106 +343,72 @@
         "url": "https://www.cnbc.com/2026/03/13/software-ai-agents-college-graduate-unemployment.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 20:14:16 GMT",
-        "title_ko": "인공지능 에이전트가 대학 졸업자 실업률을 쉽게 30% 이상으로 올릴 수 있다고 서비스나우 최고경영자는 말했다"
+        "title_ko": "인공지능 에이전트가 대학교 졸업자 실업률을 쉽게 30% 이상으로 올릴 수 있다고 서비스나우 최고경영자는 말했다"
       },
       {
         "title": "Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war",
         "url": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 19:04:07 GMT",
-        "title_ko": "원유 가격, 이란 전쟁 동안 가격을 낮추기 위한 미국의 조치에도 불구하고 2일 연속 100달러 이상으로 마감"
+        "title_ko": "원유 가격, 미국의 가격 하락 조치와 상관없이 이란 전쟁 중 두 번째 날 100달러 이상으로 마감"
       },
       {
         "title": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%",
         "url": "https://www.cnbc.com/2026/03/13/fourth-quarter-gdp-revised-down-to-just-0point7percent-growth-january-core-inflation-was-3point1percent.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 16:47:25 GMT",
-        "title_ko": "4분기 GDP, 0.7% 성장으로 하향 조정되었고 1월 핵심 인플레이션은 3.1%였다"
+        "title_ko": "4분기 국내총생산은 0.7% 성장으로 수정되었고, 1월 핵심 인플레이션은 3.1%였다."
       },
       {
         "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
         "url": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
         "source": "CNBC",
         "published": "Fri, 13 Mar 2026 18:32:12 GMT",
-        "title_ko": "트럼프의 관세: 회사에 환급되는 금액이 보너스나 임금 인상으로 노동자에게 돌아가야 한다, 기어는 말했다"
+        "title_ko": "트럼프의 관세: 회사에 환급되는 금액이 보너스와 임금 인상으로 노동자에게 돌아가야 한다고 그리어는 말했다"
       }
     ]
   },
   "scores": {
-    "vix": "red",
+    "vix": "gray",
     "hy_spread": "green",
     "rates": "yellow",
     "dxy": "red",
     "tips": "yellow",
     "curve": "green",
     "sector": "red",
-    "sentiment": "red",
+    "sentiment": "yellow",
     "skew": "yellow",
-    "combo": "red",
+    "combo": "yellow",
     "unemployment": "yellow",
-    "oil": "red",
+    "oil": "gray",
     "gdp": "yellow",
-    "gold_signal": "yellow",
-    "copper": "yellow",
+    "gold_signal": "gray",
+    "copper": "gray",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
-    "overall": "red",
-    "verdict": "AVOID",
-    "stagflation_risk": true,
-    "override_reason": [
-      "WTI $98.7 >= $90",
-      "스태그플레이션(WTI>98.71, 실업률>4.4%)",
-      "VIX 27.2 >= 24"
-    ],
-    "ratio": 0.4
+    "overall": "yellow",
+    "verdict": "WAIT",
+    "stagflation_risk": false,
+    "override_reason": [],
+    "ratio": 0.525
   },
   "analysis": {
-    "section0_summary": "현재 시장은 높은 불안정성과 불확실성을 보이고 있습니다. S&P 500 지수가 6632.19로 유지되고 있으며, VIX는 27.19로 상승했습니다. 이는 시장의 불안정성과 투자자의 위험 회피 성향을 나타냅니다. 또한, WTI 원유 가격은 $98.71로 상승하여 스태그플레이션의 우려를 높이고 있습니다. 실업률은 4.4%로 높아져서 경기 회복의 불확실성을 더해줍니다.",
-    "section1_fed": "Fed의 금리 결정은 향후 시장의 방향을 결정할 중요한 요소입니다. 현재 10Y 금리는 4.27%로 유지되고 있으며, HY 크레딧 스프레드는 3.17%로 높아져서 금리 상승의 압력을 나타냅니다. 또한, 2s10s는 0.55bp로 좁아져서 장기 금리 하락의 가능성을 시사합니다. 이러한 금리 환경은 경기 회복의 불확실성을 더해줍니다.",
-    "section2_flow": "달러 약세(DXY -0.06%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.83%). USD/KRW 1498원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 약세는 이머징 자금 유입에 긍정적.",
-    "section3_sector": "Risk-On/Off 판독은 현재 위험 자산에 대한 투자자의 선호도를 나타냅니다. 강세 섹터는 기술과 의료 섹터로 나타나고 있으며, 약세 섹터는 금융과 에너지 섹터로 나타나고 있습니다. 이러한 섹터 로테이션은 경기 회복의 불확실성을 더해줍니다.",
-    "section4_risk": "지정학적 리스크는 현재 시장의 불확실성을 높이고 있습니다. 이란과 미국의 갈등은 원유 가격을 상승시키고 있으며, 스태그플레이션의 우려를 높이고 있습니다. 또한, 중국의 경제 성장 둔화는 글로벌 경제 성장의 불확실성을 더해줍니다.",
-    "section5_commodities": "WTI 원유 가격은 $98.71로 상승하여 스태그플레이션의 우려를 높이고 있습니다. 구리 가격은 $5.76로 하락하여 경기 회복의 불확실성을 더해줍니다. 이러한 원자재 가격의 동향은 경기 회복의 불확실성을 더해줍니다.",
-    "section6_skew": "VIX×Skew 조합 신호는 현재 총체적위기(VIX↑+Skew↑)를 나타냅니다. 이는 시장의 불안정성과 투자자의 위험 회피 성향을 나타냅니다. 이러한 조합은 꼬리 리스크를 함의하며, 시장의 불안정성을 더해줍니다.",
-    "bull_case": "강세 논거는 다음과 같습니다. 첫째, 기술 섹터의 성장은 계속될 수 있습니다. 둘째, 의료 섹터의 성장은 계속될 수 있습니다. 셋째, 금리 하락은 경기 회복을 도와줄 수 있습니다.",
-    "bear_case": "약세 논거는 다음과 같습니다. 첫째, 스태그플레이션의 우려는 경기 회복의 불확실성을 더해줍니다. 둘째, 원유 가격의 상승은 경기 회복의 불확실성을 더해줍니다. 셋째, 중국의 경제 성장 둔화는 글로벌 경제 성장의 불확실성을 더해줍니다.",
-    "verdict_reason": "판정 AVOID 이유는 다음과 같습니다. 첫째, 시장의 불안정성과 투자자의 위험 회피 성향이 높습니다. 둘째, 스태그플레이션의 우려가 높습니다. 셋째, 원유 가격의 상승은 경기 회복의 불확실성을 더해줍니다.",
-    "scenario_bull": "강세 시나리오는 다음과 같습니다. VIX가 20 이하로 하락하고, WTI가 $80 이하로 하락하면, S&P 500은 7000까지 상승할 수 있습니다.",
-    "scenario_base": "기본 시나리오는 다음과 같습니다. 현재 추세가 지속되면, S&P 500은 6500에서 6800 사이에서 유지될 수 있습니다.",
-    "scenario_bear": "약세 시나리오는 다음과 같습니다. VIX가 30 이상으로 상승하고, WTI가 $100 이상으로 상승하면, S&P 500은 6000까지 하락할 수 있습니다.",
-    "entry_triggers": [
-      "VIX가 20 이하로 하락하면, 진입을 고려할 수 있습니다.",
-      "WTI가 $80 이하로 하락하면, 진입을 고려할 수 있습니다.",
-      "F&G가 30 이상으로 회복하면, 진입을 고려할 수 있습니다."
-    ],
-    "key_events": [
-      {
-        "date": "2026-03-18",
-        "event": "FOMC 금리 결정",
-        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
-      },
-      {
-        "date": "2026-03-19",
-        "event": "FOMC 기자회견",
-        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
-      },
-      {
-        "date": "2026-03-27",
-        "event": "PCE 발표 (2월)",
-        "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
-      },
-      {
-        "date": "2026-04-03",
-        "event": "고용보고서 (3월)",
-        "impact": "고용 강도 확인 → 경기 연착륙 여부 판단"
-      },
-      {
-        "date": "2026-04-10",
-        "event": "CPI 발표 (3월)",
-        "impact": "인플레이션 추세 확인 → Fed 정책 기대 변화"
-      }
-    ]
+    "section0_summary": "분석 생성 실패",
+    "section1_fed": "-",
+    "section2_flow": "-",
+    "section3_sector": "-",
+    "section4_risk": "-",
+    "section5_commodities": "-",
+    "section6_skew": "-",
+    "bull_case": "-",
+    "bear_case": "-",
+    "verdict_reason": "AI 분석 실패",
+    "scenario_bull": "-",
+    "scenario_base": "-",
+    "scenario_bear": "-",
+    "entry_triggers": [],
+    "key_events": []
   },
-  "verdict": "AVOID"
+  "verdict": "WAIT"
 }
