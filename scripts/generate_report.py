@@ -447,12 +447,12 @@ def groq_analysis(d, scores):
             messages=[
                 {
                     "role": "system",
-                    "content": "당신은 매크로 투자 전략가입니다. 뉴스 맥락과 시장 데이터를 종합 분석합니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요. 모든 분석은 한국어로 작성하세요. 중요: USD/KRW 수치 상승은 반드시 원화약세로 해석하고, 절대로 원화강세라고 쓰지 마세요. 반드시 순수 한국어만 사용하고 한자, 일본어, 중국어 문자를 절대 사용하지 마세요."
+                    "content": "당신은 매크로 투자 전략가입니다. 뉴스 맥락과 시장 데이터를 종합 분석합니다. 요청한 JSON 형식만 출력하고 다른 텍스트는 절대 포함하지 마세요. 모든 분석은 한국어로 작성하세요. 중요: USD/KRW 수치 상승은 반드시 원화약세로 해석하고, 절대로 원화강세라고 쓰지 마세요. 반드시 순수 한국어만 사용하고 한자, 일본어, 중국어 문자를 절대 사용하지 마세요. 각 섹션 값에 큰따옴표(\" \")가 포함될 경우 반드시 이스케이프(\\\")하세요."
                 },
                 {"role": "user", "content": prompt}
             ],
             temperature=0.3,
-            max_tokens=2800,
+            max_tokens=4000,
         )
         text = response.choices[0].message.content.strip()
         print(f"Groq 응답 앞 200자: {text[:200]}")
@@ -466,7 +466,21 @@ def groq_analysis(d, scores):
         if start != -1 and end > start:
             text = text[start:end]
 
-        parsed = json.loads(text)
+        # JSON 파싱 시도 — 실패 시 제어문자 제거 후 재시도
+        try:
+            parsed = json.loads(text)
+        except json.JSONDecodeError as e1:
+            print(f"1차 파싱 실패: {e1} → 제어문자 제거 후 재시도")
+            # 줄바꿈/탭 외 제어문자 제거
+            text_clean = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+            # 문자열 값 안의 이스케이프 안 된 큰따옴표 수정 시도
+            text_clean = re.sub(r'(?<!\\)"(?=[^:,\{\}\[\]\n])', '\\"', text_clean)
+            try:
+                parsed = json.loads(text_clean)
+                print("2차 파싱 성공")
+            except json.JSONDecodeError as e2:
+                print(f"2차 파싱도 실패: {e2}")
+                raise e2
 
         # FX 해석 강제 교정 — Groq 출력을 Python 계산값으로 덮어쓰기
         parsed["section2_flow"] = (
