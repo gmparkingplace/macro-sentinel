@@ -53,11 +53,21 @@
       "change_pct": 7.84,
       "prev_value": 0.51
     },
+    "us5s30s": {
+      "value": null,
+      "date": null
+    },
     "hy_spread": {
       "value": 3.17,
       "date": "2026-03-12",
       "change_pct": 2.59,
       "prev_value": 3.09
+    },
+    "fra_ois": {
+      "value": 3.64,
+      "date": "2026-03-12",
+      "change_pct": 0.0,
+      "prev_value": 3.64
     }
   },
   "fx": {
@@ -208,12 +218,16 @@
       "prev_value": 4.4
     },
     "ism_mfg": {
-      "value": null,
-      "date": null
+      "value": 56.4,
+      "date": "2026-01-01",
+      "change_pct": 6.62,
+      "prev_value": 52.9
     },
     "ism_svc": {
-      "value": null,
-      "date": null
+      "value": 98.91297,
+      "date": "2024-01-01",
+      "change_pct": 0.82,
+      "prev_value": 98.1097
     }
   },
   "sentiment": {
