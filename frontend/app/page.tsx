@@ -423,8 +423,8 @@ export default function Home() {
           <ScoreBadge label="GDP"        score={scores.gdp         ?? "gray"} />
           <ScoreBadge label="금(Gold)"   score={scores.gold_signal ?? "gray"} />
           <ScoreBadge label="구리"       score={scores.copper      ?? "gray"} />
-          <ScoreBadge label="ISM제조"    score={scores.ism_mfg     ?? "gray"} />
-          <ScoreBadge label="ISM서비스"  score={scores.ism_svc     ?? "gray"} />
+          <ScoreBadge label="제조PMI"    score={scores.ism_mfg     ?? "gray"} />
+          <ScoreBadge label="서비스PMI"  score={scores.ism_svc     ?? "gray"} />
         </div>
 
         {/* 아코디언 카드들 */}
@@ -459,10 +459,10 @@ export default function Home() {
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
             {d.macro.ism_mfg?.value != null && (
-              <Row label="ISM 제조업 PMI"  value={fmt(d.macro.ism_mfg.value)} color={d.macro.ism_mfg.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+              <Row label="제조업 PMI"  value={fmt(d.macro.ism_mfg.value)} color={d.macro.ism_mfg.value >= 50 ? "#0a8f5c" : "#c0392b"} />
             )}
             {d.macro.ism_svc?.value != null && (
-              <Row label="ISM 서비스업 PMI" value={fmt(d.macro.ism_svc.value)} color={d.macro.ism_svc.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+              <Row label="서비스업 PMI" value={fmt(d.macro.ism_svc.value)} color={d.macro.ism_svc.value >= 50 ? "#0a8f5c" : "#c0392b"} />
             )}
             <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
             <Row label="RRP 잔액"       value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
