@@ -387,14 +387,14 @@ def groq_analysis(d, scores):
   "section4_risk":"지정학·정책 리스크 5줄 이상. 현재 활성 리스크, 시장 반영도, 꼬리 리스크 포함.",
   "section5_commodities":"원자재(WTI, Gold, Copper) 동향 및 스태그플레이션 리스크 분석 4줄 이상.",
   "section6_skew":"VIX×Skew 조합 신호 해석 3줄 이상 (현재 조합: {skew_label}). 꼬리 리스크 함의 포함.",
-  "section_macro":"[섹션7 - 매크로 경제 종합] CPI {cpi}%, Core CPI {core_cpi}%, PCE {pce}% 기반 인플레이션 추세 분석. 고용(실업률 {d['macro']['unemployment']['value']}%), GDP({d['macro']['gdp_growth']['value']}%), 소비자신뢰({ism_mfg})를 종합한 경기 사이클 위치 판단 3줄 이상. 스태그플레이션 리스크 여부 명시.",
+  "section_macro":"[섹션7 - 매크로 경제 종합] 인플레이션 추세(CPI/Core CPI/PCE), 고용 상황, GDP 성장률, 소비자신뢰지수를 종합한 경기 사이클 위치 판단 3줄 이상. 스태그플레이션 리스크 여부 명시.",
   "bull_case":"강세 논거 3가지를 각각 2줄 이상으로 구체적으로 서술.",
   "bear_case":"약세 논거 3가지를 각각 2줄 이상으로 구체적으로 서술.",
   "verdict_reason":"판정 {scores['verdict']} 이유를 3줄 이상으로. 핵심 근거 수치 포함.",
   "scenario_bull":"강세 시나리오 2줄 이상. 발생 조건(VIX XX 이하, WTI $XX 이하 등)과 S&P 500 목표 수준 포함.",
   "scenario_base":"기본 시나리오 2줄 이상. 현재 추세 지속 시 향후 4주 예상 경로.",
   "scenario_bear":"약세 시나리오 2줄 이상. 강세/기본과 다른 리스크 트리거와 하방 목표 수준 포함.",
-  "entry_triggers":["진입 트리거 1: 현재 판정이 AVOID/WAIT일 경우 완화 조건 (구체적 수치 포함, 현재 달성 여부 명시)","진입 트리거 2: 두 번째 완화 조건","진입 트리거 3: 세 번째 완화 조건 또는 NOW일 경우 무효화 조건"],
+  "entry_triggers":["진입 트리거 1: 현재 판정 완화 조건 (구체적 수치 포함)","진입 트리거 2: 두 번째 완화 조건 (구체적 수치 포함)","진입 트리거 3: 세 번째 완화 조건 (구체적 수치 포함)"],
   "key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 영향"}}]
 }}"""
 
