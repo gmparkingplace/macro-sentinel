@@ -110,8 +110,10 @@ def calc_scores(d):
     fg       = d["sentiment"]["fear_greed"]["score"]
     skew_data = d["sentiment"].get("skew", {})
     skew_val  = skew_data.get("close")
-    ism_mfg  = d["macro"].get("ism_mfg", {}).get("value")
-    ism_svc  = d["macro"].get("ism_svc", {}).get("value")
+    ism_mfg  = d["macro"].get("ism_mfg", {}).get("value")   # 미시간대 소비자신뢰지수
+    ism_svc  = d["macro"].get("ism_svc", {}).get("value")   # OECD 소비자신뢰지수
+    s5s30s   = d["spreads"].get("us5s30s", {}).get("value")
+    fra_ois  = d["spreads"].get("fra_ois", {}).get("value")
 
     # ── VIX ──────────────────────────────
     scores["vix"] = score_label(vix, [
@@ -232,19 +234,17 @@ def calc_scores(d):
     else:
         scores["copper"] = "gray"
 
-    # ── ISM 제조업 PMI ────────────────────
+    # ── 소비자신뢰지수 (미시간대, 기준 ~80) ─
     scores["ism_mfg"] = score_label(ism_mfg, [
-        (45,  "red"),
-        (50,  "yellow"),
-        (55,  "green"),
+        (60,  "red"),
+        (75,  "yellow"),
         (999, "green"),
     ])
 
-    # ── ISM 서비스업 PMI ──────────────────
+    # ── OECD 소비자신뢰 (100 기준선) ──────
     scores["ism_svc"] = score_label(ism_svc, [
-        (45,  "red"),
-        (50,  "yellow"),
-        (55,  "green"),
+        (97,  "red"),
+        (99,  "yellow"),
         (999, "green"),
     ])
     stagflation_risk = False
@@ -390,10 +390,11 @@ def groq_analysis(d, scores):
 
 [금리 & 스프레드]
 - 10Y: {d['rates']['us10y']['value']}% | HY 크레딧 스프레드: {d['spreads']['hy_spread']['value']}%
+- 2s10s: {d['spreads']['us2s10s']['value']}bp | 5s30s: {s5s30s}bp | SOFR: {fra_ois}%
 
 [매크로 경제]
 - 실업률: {d['macro']['unemployment']['value']}% | GDP 성장률: {d['macro']['gdp_growth']['value']}%
-- S&P Global 제조업 PMI: {ism_mfg} | S&P Global 서비스업 PMI: {ism_svc} (50 기준선: 이상=확장, 이하=수축)
+- 미시간대 소비자신뢰지수: {ism_mfg} | OECD 소비자신뢰: {ism_svc}
 - 구리: ${copper} ({f'+{copper_chg:.2f}%' if copper_chg and copper_chg > 0 else f'{copper_chg:.2f}%' if copper_chg else '—'}) ← 경기 선행 지표
 
 [달러 & 환율] ※ 중요: 아래 문구를 분석에 그대로 복사해서 사용할 것. 임의로 해석을 바꾸지 마세요.
