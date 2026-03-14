@@ -356,10 +356,20 @@ def fetch_news():
     except Exception as e:
         print(f"번역 오류: {e}")
 
-    # title_ko 없으면 원문 그대로
+    # title_ko 없으면 원문 그대로, 한자 포함 시 원문으로 대체
     for r in results:
-        if "title_ko" not in r:
+        if "title_ko" not in r or not r["title_ko"]:
             r["title_ko"] = r["title"]
+        else:
+            # 한자(CJK 통합 한자) 포함 여부 확인 → 포함 시 원문으로 대체
+            import unicodedata
+            has_kanji = any(
+                unicodedata.category(c) == 'Lo' and '\u4e00' <= c <= '\u9fff'
+                for c in r["title_ko"]
+            )
+            if has_kanji:
+                print(f"한자 감지, 원문으로 대체: {r['title_ko'][:30]}...")
+                r["title_ko"] = r["title"]
 
     print(f"번역 완료")
     return results[:15]
