@@ -354,6 +354,8 @@ def groq_analysis(d, scores):
     ism_svc    = d["macro"].get("ism_svc", {}).get("value")
     copper     = d["commodities"].get("copper", {}).get("close")
     copper_chg = d["commodities"].get("copper", {}).get("change_pct")
+    s5s30s     = d["spreads"].get("us5s30s", {}).get("value")
+    fra_ois    = d["spreads"].get("fra_ois", {}).get("value")
 
     news       = d.get("news", [])
     news_block = "\n".join(f"  - {h}" for h in news) if news else "  - 수집 실패"
