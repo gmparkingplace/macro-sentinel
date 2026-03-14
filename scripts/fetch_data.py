@@ -408,13 +408,13 @@ def fetch_all():
     data["liquidity"]["m2"]     = fred("M2SL")
 
     print("매크로 지표 수집 중...")
-    data["macro"]["cpi_yoy"]      = fred("CPIAUCSL")
-    data["macro"]["core_cpi"]     = fred("CPILFESL")
+    data["macro"]["cpi_yoy"]      = fred("CPIAUCSL_PC1")   # CPI 전년비 %
+    data["macro"]["core_cpi"]     = fred("CPILFESL_PC1")   # Core CPI 전년비 %
     data["macro"]["unemployment"] = fred("UNRATE")
-    data["macro"]["pce"]          = fred("PCEPI")
+    data["macro"]["pce"]          = fred("PCEPI_PC1")      # PCE 전년비 %
     data["macro"]["gdp_growth"]   = fred("A191RL1Q225SBEA")
-    data["macro"]["ism_mfg"]      = fred("UMCSENT")   # 미시간대 소비자신뢰지수
-    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S")  # OECD 소비자신뢰지수 (보조)
+    data["macro"]["ism_mfg"]      = fred("UMCSENT")        # 미시간대 소비자신뢰지수
+    data["macro"]["ism_svc"]      = fred("CSCICP03USM665S") # OECD 소비자신뢰지수
 
     print("환율 수집 중...")
     data["fx"]["dxy"]    = fred("DTWEXBGS")  # Trade Weighted USD Index (FRED)
