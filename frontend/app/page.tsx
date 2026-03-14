@@ -22,7 +22,7 @@ interface Scores {
   dxy: string; tips: string; sector: string; sentiment: string;
   unemployment: string; overall: string; verdict: string;
   oil?: string; gdp?: string; gold_signal?: string;
-  skew?: string; combo?: string;
+  skew?: string; combo?: string; copper?: string; ism_mfg?: string; ism_svc?: string;
   stagflation_risk?: boolean; override_reason?: string[];
   ratio?: number;
   contrarian_signal?: string | null;
@@ -47,10 +47,10 @@ interface Report {
     rates:   { us2y: FredData; us10y: FredData; tips10y: FredData };
     spreads: { us2s10s: FredData; hy_spread: FredData };
     fx:      { dxy: FredData & { change_pct?: number | null }; usdkrw: IndexData; usdjpy: IndexData; eurusd: IndexData };
-    commodities: { wti: IndexData; gold: IndexData };
+    commodities: { wti: IndexData; gold: IndexData; copper?: IndexData };
     sectors: Record<string, SectorData>;
     liquidity: { fed_bs: FredData; rrp: FredData };
-    macro: { cpi_yoy: FredData; core_cpi: FredData; unemployment: FredData; pce: FredData; gdp_growth: FredData };
+    macro: { cpi_yoy: FredData; core_cpi: FredData; unemployment: FredData; pce: FredData; gdp_growth: FredData; ism_mfg?: FredData; ism_svc?: FredData };
     sentiment: {
       fear_greed: { score: number | null; rating: string | null };
       skew?: SkewData;
@@ -422,6 +422,9 @@ export default function Home() {
           <ScoreBadge label="유가"       score={scores.oil         ?? "gray"} />
           <ScoreBadge label="GDP"        score={scores.gdp         ?? "gray"} />
           <ScoreBadge label="금(Gold)"   score={scores.gold_signal ?? "gray"} />
+          <ScoreBadge label="구리"       score={scores.copper      ?? "gray"} />
+          <ScoreBadge label="ISM제조"    score={scores.ism_mfg     ?? "gray"} />
+          <ScoreBadge label="ISM서비스"  score={scores.ism_svc     ?? "gray"} />
         </div>
 
         {/* 아코디언 카드들 */}
@@ -455,6 +458,12 @@ export default function Home() {
             <Row label="PCE"            value={fmt(d.macro.pce.value)} />
             <Row label="실업률"         value={`${fmt(d.macro.unemployment.value)}%`} color={scoreColor[scores.unemployment]} />
             <Row label="GDP 성장률"     value={`${fmt(d.macro.gdp_growth.value)}%`}   color={d.macro.gdp_growth.value != null && d.macro.gdp_growth.value > 0 ? "#0a8f5c" : "#c0392b"} />
+            {d.macro.ism_mfg?.value != null && (
+              <Row label="ISM 제조업 PMI"  value={fmt(d.macro.ism_mfg.value)} color={d.macro.ism_mfg.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+            )}
+            {d.macro.ism_svc?.value != null && (
+              <Row label="ISM 서비스업 PMI" value={fmt(d.macro.ism_svc.value)} color={d.macro.ism_svc.value >= 50 ? "#0a8f5c" : "#c0392b"} />
+            )}
             <Row label="Fed 대차대조표" value={d.liquidity.fed_bs.value ? `$${(d.liquidity.fed_bs.value / 1000000).toFixed(2)}T` : "—"} />
             <Row label="RRP 잔액"       value={d.liquidity.rrp.value ? `$${fmt(d.liquidity.rrp.value)}B` : "—"} />
           </AccordionCard>
@@ -468,6 +477,9 @@ export default function Home() {
             <Row label="EUR/USD" value={`${fmt(d.fx.eurusd.close)} (${chgStr(d.fx.eurusd.change_pct)})`} />
             <Row label="WTI Oil" value={`$${fmt(d.commodities.wti.close)} (${chgStr(d.commodities.wti.change_pct)})`}    color={chgColor(d.commodities.wti.change_pct)} />
             <Row label="Gold"    value={`$${fmt(d.commodities.gold.close, 0)} (${chgStr(d.commodities.gold.change_pct)})`} color={chgColor(d.commodities.gold.change_pct)} />
+            {d.commodities.copper?.close != null && (
+              <Row label="Copper" value={`$${fmt(d.commodities.copper.close)} (${chgStr(d.commodities.copper.change_pct)})`} color={chgColor(d.commodities.copper.change_pct)} />
+            )}
             <div style={{ marginTop: 12, padding: "10px 14px", background: "#f8f8f8", border: "1px solid #eee", borderRadius: 8, fontSize: 12, color: "#555", lineHeight: 1.8 }}>{analysis.section2_flow}</div>
           </AccordionCard>
 
