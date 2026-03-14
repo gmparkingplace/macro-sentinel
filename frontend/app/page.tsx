@@ -84,41 +84,9 @@ function HistoryChart({ history }: { history: HistoryEntry[] }) {
   );
 
   const recent = history.slice(-30);
-  const sp500s  = recent.map(h => h.sp500).filter(v => v != null) as number[];
-  const sp500Min = Math.min(...sp500s) * 0.998;
-  const sp500Max = Math.max(...sp500s) * 1.002;
-  const chartH = 80;
-  const chartW = 100; // viewBox %
-
-  const toY = (v: number) =>
-    chartH - ((v - sp500Min) / (sp500Max - sp500Min)) * chartH;
-
-  const points = recent
-    .map((h, i) => {
-      if (h.sp500 == null) return null;
-      const x = (i / (recent.length - 1)) * 100;
-      const y = toY(h.sp500);
-      return `${x},${y}`;
-    })
-    .filter(Boolean)
-    .join(" ");
 
   return (
     <div>
-      {/* S&P 500 라인 차트 */}
-      <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", marginBottom: 6 }}>
-        S&P 500 추이 (최근 {recent.length}일)
-      </div>
-      <svg viewBox={`0 0 100 ${chartH}`} style={{ width: "100%", height: 80, display: "block" }} preserveAspectRatio="none">
-        <polyline
-          points={points}
-          fill="none"
-          stroke="#0a8f5c"
-          strokeWidth="1.5"
-          vectorEffect="non-scaling-stroke"
-        />
-      </svg>
-
       {/* 판정 히스토리 도트 */}
       <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", margin: "12px 0 6px" }}>
         일별 판정 히스토리
