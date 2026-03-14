@@ -125,13 +125,19 @@ function HistoryChart({ history }: { history: HistoryEntry[] }) {
       </div>
       <div style={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
         {recent.map((h, i) => (
-          <div key={i} title={`${h.date}\n${h.verdict}\nVIX: ${h.vix ?? "—"}\nS&P: ${h.sp500 ?? "—"}`}
-            style={{
-              width: 14, height: 14, borderRadius: "50%",
-              background: verdictDot[h.verdict] ?? "#aaa",
-              cursor: "default", flexShrink: 0,
-            }}
-          />
+          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
+            <div
+              title={`${h.date}\n${h.verdict}\nVIX: ${h.vix ?? "—"}\nS&P: ${h.sp500 ?? "—"}`}
+              style={{
+                width: 14, height: 14, borderRadius: "50%",
+                background: verdictDot[h.verdict] ?? "#aaa",
+                cursor: "default", flexShrink: 0,
+              }}
+            />
+            <div style={{ fontSize: 8, color: "#bbb", writingMode: "vertical-rl", transform: "rotate(180deg)", lineHeight: 1 }}>
+              {h.date.slice(5)}
+            </div>
+          </div>
         ))}
       </div>
       <div style={{ display: "flex", gap: 12, marginTop: 8, fontSize: 10, color: "#aaa" }}>
@@ -144,15 +150,21 @@ function HistoryChart({ history }: { history: HistoryEntry[] }) {
         <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.05em", marginBottom: 6 }}>
           VIX 추이
         </div>
-        <div style={{ display: "flex", alignItems: "flex-end", gap: 2, height: 40 }}>
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 2, height: 80 }}>
           {recent.map((h, i) => {
             const v = h.vix ?? 20;
-            const barH = Math.min((v / 40) * 100, 100);
+            const barH = Math.min((v / 45) * 100, 100);
             const color = v >= 28 ? "#c0392b" : v >= 22 ? "#e67e22" : "#0a8f5c";
             return (
-              <div key={i} title={`${h.date}: VIX ${h.vix ?? "—"}`}
-                style={{ flex: 1, height: `${barH}%`, background: color, borderRadius: "2px 2px 0 0", minWidth: 2 }}
-              />
+              <div key={i} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", height: "100%" }}>
+                <div style={{ fontSize: 7, color: color, fontWeight: 600, marginBottom: 2, lineHeight: 1 }}>
+                  {h.vix?.toFixed(0) ?? ""}
+                </div>
+                <div
+                  title={`${h.date}: VIX ${h.vix ?? "—"}`}
+                  style={{ width: "100%", height: `${barH}%`, background: color, borderRadius: "2px 2px 0 0", minWidth: 2 }}
+                />
+              </div>
             );
           })}
         </div>
