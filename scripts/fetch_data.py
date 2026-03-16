@@ -200,7 +200,7 @@ def fred_yoy(series_id):
 def yf_price(ticker):
     try:
         t = yf.Ticker(ticker)
-        hist = t.history(period="5d")
+        hist = t.history(period="2d")
         if hist.empty:
             return {"close": None, "prev_close": None, "change_pct": None, "pct_52w": None}
         close = round(float(hist["Close"].iloc[-1]), 2)
@@ -262,7 +262,7 @@ def fetch_fear_greed(vix_value, hy_value):
 def fetch_skew(vix_value):
     try:
         t = yf.Ticker("^SKEW")
-        hist = t.history(period="5d")
+        hist = t.history(period="2d")
         if hist.empty:
             print("Skew 데이터 없음")
             return {"close": None, "change_pct": None, "signal": None,
