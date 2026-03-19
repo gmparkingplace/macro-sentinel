@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-19",
   "data": {
-    "date": "2026-03-18",
+    "date": "2026-03-19",
     "indices": {
       "sp500": {
         "close": 6624.7,
@@ -80,16 +80,16 @@
         "prev_value": 119.8227
       },
       "usdkrw": {
-        "close": 1506.63,
-        "prev_close": 1488.91,
-        "change_pct": 1.19,
-        "pct_52w": 99.2
+        "close": 1499.38,
+        "prev_close": 1484.87,
+        "change_pct": 0.98,
+        "pct_52w": 95.3
       },
       "usdjpy": {
-        "close": 159.77,
-        "prev_close": 159.1,
-        "change_pct": 0.42,
-        "pct_52w": 99.6
+        "close": 159.7,
+        "prev_close": 158.89,
+        "change_pct": 0.51,
+        "pct_52w": 99.3
       },
       "eurusd": {
         "close": 1.15,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 98.5,
+        "close": 98.29,
         "prev_close": 96.21,
-        "change_pct": 2.38,
-        "pct_52w": 67.5
+        "change_pct": 2.16,
+        "pct_52w": 67.1
       },
       "gold": {
-        "close": 4834.9,
+        "close": 4837.5,
         "prev_close": 5001.0,
-        "change_pct": -3.32,
-        "pct_52w": 71.5
+        "change_pct": -3.27,
+        "pct_52w": 71.6
       },
       "copper": {
-        "close": 5.5,
+        "close": 5.53,
         "prev_close": 5.73,
-        "change_pct": -4.01,
-        "pct_52w": 58.2
+        "change_pct": -3.49,
+        "pct_52w": 59.4
       }
     },
     "liquidity": {
@@ -244,12 +244,6 @@
     },
     "calendar": [
       {
-        "date": "2026-03-18",
-        "event": "FOMC 금리 결정",
-        "category": "fed",
-        "impact": "high"
-      },
-      {
         "date": "2026-03-19",
         "event": "FOMC 기자회견",
         "category": "fed",
@@ -278,6 +272,12 @@
         "event": "GDP 속보치 (Q1 2026)",
         "category": "gdp",
         "impact": "high"
+      },
+      {
+        "date": "2026-04-30",
+        "event": "PCE 발표 (3월)",
+        "category": "pce",
+        "impact": "high"
       }
     ],
     "news": [
@@ -293,14 +293,14 @@
         "url": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Wed, 18 Mar 2026 22:25:00 GMT",
-        "title_ko": "파월이 연준에서 계속 머무를 것이라는 자신의 가장 분명한 발언을 한다"
+        "title_ko": "파월이 연준에서 잔류하는 것에 대해 가장 분명한 발언을 한다"
       },
       {
         "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
         "url": "https://www.marketwatch.com/story/u-s-stocks-have-reached-a-critical-line-in-the-sand-why-the-next-move-could-be-a-10-drop-c9451111?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Wed, 18 Mar 2026 22:13:00 GMT",
-        "title_ko": "미국 주식이 중요한 선에 도달했다는 것을 알게 되면 다음 움직임이 10% 하락할 수 있다"
+        "title_ko": "미국 주식이 중요한 선에 도달했다. 다음 움직임이 10% 하락할 수 있는 이유"
       },
       {
         "title": "Dow falls nearly 800 points after Powell makes one thing clear: There’s no rush to rescue the market",
@@ -310,32 +310,53 @@
         "title_ko": "파월이 시장을 구해줄 급이 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
       },
       {
-        "title": "Powell warns of ‘new inflation’ from the Iran conflict as gas prices jump 30%",
-        "url": "https://www.marketwatch.com/story/powell-warns-of-new-inflation-from-the-iran-conflict-as-gas-prices-jump-30-ca445981?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Wed, 18 Mar 2026 21:41:00 GMT",
-        "title_ko": "파월이 이란 분쟁으로 인한 새로운 인플레이션을 경고하며 가스 가격이 30% 상승했다"
+        "title": "Fed holds interest rates steady — here’s what that means for consumers",
+        "url": "https://www.cnbc.com/2026/03/18/fed-march-rate-decision.html",
+        "source": "CNBC",
+        "published": "Wed, 18 Mar 2026 19:17:27 GMT",
+        "title_ko": "연준이 금리을 유지했다 — 소비자에게 이것이 의미하는 바"
+      },
+      {
+        "title": "Oil jumps 4% as Iranian retaliatory strikes on Qatar’s key energy facility stoke supply worries",
+        "url": "https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html",
+        "source": "CNBC",
+        "published": "Thu, 19 Mar 2026 00:55:52 GMT",
+        "title_ko": "이란의 قطر의 주요 에너지 시설에 대한 보복 공격으로 공급 우려가 고조하면서 원유 가격이 4% 상승했다"
+      },
+      {
+        "title": "Asia markets track Wall Street losses as Iran war fuels energy worries; BOJ rate decision on deck",
+        "url": "https://www.cnbc.com/2026/03/19/asia-markets-live-boj-nikkei-kospi-hang-seng.html",
+        "source": "CNBC",
+        "published": "Thu, 19 Mar 2026 00:26:17 GMT",
+        "title_ko": "아시아 시장은 월 스트리트의 손실을 따라가며 이란 전쟁이 에너지 우려를 고조시키고 있다. 일본은행 금리 결정이 예정되어 있다"
       },
       {
         "title": "Trump waives Jones Act shipping rules for 60 days to steady oil market",
         "url": "https://www.cnbc.com/2026/03/18/trump-jones-act-oil-iran-war.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 19:26:16 GMT",
-        "title_ko": "트럼프가 유조선 규칙을 60일간 면제하여 유가 안정을 도모한다"
+        "title_ko": "트럼프가 원유 시장 안정을 위해 60일 동안 존스 법 조항을 면제했다"
       },
       {
         "title": "Here are the five key takeaways from this week's Fed meeting",
         "url": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 21:20:19 GMT",
-        "title_ko": "이번 주 연준 회의의 다섯 가지 주요 내용을 살펴본다"
+        "title_ko": "이번 주 연준 회의의 다섯 가지 주요 내용"
       },
       {
         "title": "Vice President Vance to meet with oil industry as White House plans more actions to address fuel prices",
         "url": "https://www.cnbc.com/2026/03/18/vance-oil-industry-gas-prices-iran-war.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 20:11:57 GMT",
-        "title_ko": "Vice President Vance to meet with oil industry as White House plans more actions to address fuel prices"
+        "title_ko": "부통령 밴스는 원유 가격을 해결하기 위한 추가 조치를 계획하는 백악관과 원유 산업계와 회동한다"
+      },
+      {
+        "title": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
+        "url": "https://www.cnbc.com/2026/03/18/powell-says-he-will-stay-on-as-head-of-the-fed-until-warsh-is-confirmed.html",
+        "source": "CNBC",
+        "published": "Wed, 18 Mar 2026 20:09:36 GMT",
+        "title_ko": "파월이 워시가 확정될 때까지 연준의 수장으로 남을 것이라고 말했다"
       },
       {
         "title": "How China is getting everyone on OpenClaw, from gearheads to grandmas",
@@ -345,46 +366,25 @@
         "title_ko": "중국이 기어헤드부터 할머니까지 모두 오픈클로에 참여하도록 하는 방법"
       },
       {
-        "title": "Oil prices top $107 after Iran threatens oil facilities in Saudi Arabia, UAE and Qatar",
-        "url": "https://www.cnbc.com/2026/03/18/oil-prices-brent-wti-uae-energy-attacks-us-crude-inventories-hormuz.html",
+        "title": "Jim Cramer says you can still find stocks to buy on tough days in the market",
+        "url": "https://www.cnbc.com/2026/03/18/jim-cramer-you-can-still-find-stocks-to-buy-on-tough-days-in-the-market.html",
         "source": "CNBC",
-        "published": "Wed, 18 Mar 2026 18:55:06 GMT",
-        "title_ko": "이란이 사우디아라비아, 아랍에미리트, 카타르의 유정 시설을 위협하며 유가가 107달러를 돌파했다"
+        "published": "Wed, 18 Mar 2026 22:58:34 GMT",
+        "title_ko": "짐 크라머는 시장의 어려운 날에도 주식을 사는 방법이 있다고 말했다"
       },
       {
         "title": "Fed still expects to cut rates once this year despite spiking oil prices",
         "url": "https://www.cnbc.com/2026/03/18/dot-plot-fed-still-expects-to-cut-rates-once-this-year-despite-spiking-oil-prices-.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 18:59:40 GMT",
-        "title_ko": "Fed still expects to cut rates once this year despite spiking oil prices"
+        "title_ko": "원유 가격이 급등하는 데에도 불구하고 연준은 금리를 한 번 인하할 것으로 예상한다"
       },
       {
-        "title": "Fed holds interest rates steady — here’s what that means for consumers",
-        "url": "https://www.cnbc.com/2026/03/18/fed-march-rate-decision.html",
+        "title": "Inflation dominates Powell's remarks, pressures stocks. Plus, big earnings tonight",
+        "url": "https://www.cnbc.com/2026/03/18/inflation-dominates-powells-remarks-pressures-stocks-plus-big-earnings-tonight.html",
         "source": "CNBC",
-        "published": "Wed, 18 Mar 2026 19:17:27 GMT",
-        "title_ko": "연준이 금리 유지한 것은 소비자에게 어떤 의미인지 살펴본다"
-      },
-      {
-        "title": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
-        "url": "https://www.cnbc.com/2026/03/18/powell-says-he-will-stay-on-as-head-of-the-fed-until-warsh-is-confirmed.html",
-        "source": "CNBC",
-        "published": "Wed, 18 Mar 2026 20:09:36 GMT",
-        "title_ko": "파월이 워시가 확정될 때까지 연준 수장으로 남을 것이라고 말했다"
-      },
-      {
-        "title": "Jim Cramer says you can still find stocks to buy on tough days in the market",
-        "url": "https://www.cnbc.com/2026/03/18/jim-cramer-you-can-still-find-stocks-to-buy-on-tough-days-in-the-market.html",
-        "source": "CNBC",
-        "published": "Wed, 18 Mar 2026 22:58:34 GMT",
-        "title_ko": "짐 크레이머는 시장의 어려운 날에도 주식을 사는 방법이 있다고 말했다"
-      },
-      {
-        "title": "As Americans struggle with rising costs, many states’ unemployment benefits fall short, analysis finds",
-        "url": "https://www.cnbc.com/2026/03/18/state-unemployment-benefits.html",
-        "source": "CNBC",
-        "published": "Wed, 18 Mar 2026 16:49:49 GMT",
-        "title_ko": "미국인들이 물가 상승으로 어려움을 겪고 있는 가운데 많은 주의 실업 수당이 부족하다는 분석이 나왔다"
+        "published": "Wed, 18 Mar 2026 19:25:46 GMT",
+        "title_ko": "인플레이션이 파월의 발언을 지배하며 주식을 압박한다. 또한 오늘 밤 큰 실적이 나온다"
       }
     ]
   },
@@ -411,38 +411,29 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "WTI $98.5 >= $90",
-      "스태그플레이션(WTI>98.5, 실업률>4.4%)",
+      "WTI $98.3 >= $90",
+      "스태그플레이션(WTI>98.29, 실업률>4.4%)",
       "VIX 25.1 >= 24"
     ],
     "ratio": 0.375
   },
   "analysis": {
-    "section0_summary": "S&P 500이 6624.7로 장중 급락하며 50일 이평선 아래로 내려앉았다. VIX 25.09, WTI 98.5달러, 실업률 4.4%로 스태그플레이션 하드 오버라이드가 발동된 상황이다. 파월 의장이 금리 동결을 시사하고 이란발 유가 충격을 경고하면서 다우는 800포인트 급락했다. 달러 강세와 원화 약세가 동시에 나타나며 글로벌 달러 자금회수가 본격화됐다. 소비자 신뢰지수 56.4로 2008년 이후 최저 수준을 기록해 경기 침체 공포가 확산 중이다.",
-    "section1_fed": "연준은 FOMC에서 금리를 연 3.5~3.75%로 동결하고 올해 한 차례 인하만 기대한다고 밝혔다. 실질금리(TIPS) 1.83%로 긴축 구간에 머물며 2s10s 스프레드는 0.5bp로 완전 평탄화됐다. 파월이 워시 후보 확정 전까지 연준 수장직을 유지하겠다고 못 박으면서 시장은 추가 긴축 가능성에 다시 긴장하고 있다. SOFR 3.64%로 유동성은 계속 빠지고 있으며 하이일드 스프레드 322bp로 크레딧 스트레스가 눈덩이처럼 커지고 있다.",
-    "section2_flow": "달러 강세(DXY +0.61%). 원화 약세(달러 대비 가치 하락, USD/KRW +1.19%). USD/KRW 1507원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
-    "section3_sector": "스태그플레이션 시그널이 강화되며 에너지 섹터만 유일하게 상승하고 나머지는 전면 하락했다. 방산·우주·원자력이 지정학 리스크로 4% 급등했으며 소비재·IT·금융은 3% 넘게 폭락했다. 성장주 대 가치주 스프레드가 2년 만에 최저로 좁혀지며 디스카운트율 상승이 성장주 밸류에이션을 짓누르고 있다. 실물 자산(인프라,리츠)이 유가 상승 수혜로 주목받고 있으나 높은 실질금리가 부담으로 작용 중이다.",
-    "section4_risk": "이란이 사우디·UAE·카타르 유정 시설을 위협하면서 WTI가 107달러를 넘어섰고 가스 가격은 30% 급등했다. 트럼프 행정부가 유조선 규칙 60일 면제로 유가 안정을 시도 중이나 공급 충격 우려는 여전하다. 부채한도 정치 협상이 4월 예산 시한으로 다가오며 재정 리스크가 겹쳐있다. 파월이 시장 구제 불가 입장을 분명히 하면서 Fed 풋 제거라는 새로운 꼬리 리스크가 부상했다.",
-    "section5_commodities": "WTI 98.5달러(+2.4%)로 90달러 스태그플레이션 트리거를 넘어섰고 골드는 4834.9달러(-3.3%)로 차익실현에 하락했다. 구리 5.5달러(-4%) 급락은 글로벌 경기 둔화를 선반영한 것이다. 유가 30% 급등이 CPI 2.66%를 3% 후반으로 밀어올릴 가능성이 커졌으며 실업률 4.4%와 조합된 스태그플레이션 시나리오가 현실화되고 있다.",
-    "section6_skew": "-",
-    "section_macro": "CPI 2.66%, Core CPI 2.73%, PCE 2.83%로 인플레이션은 연준 목표 2%를 상회하고 있으며 유가 급등으로 재점화될 위험이 크다. 실업률 4.4%로 고용 시장이 냉각되고 GDP 성장률 0.7%로 둔화가 확연하다. 미시간 소비자신뢰 56.4는 17년 만에 최저로 스태그플레이션 국면에 진입했다고 판단된다.",
+    "section0_summary": "S&P 500은 6624.7로 전일 대비 급락하며 800포인트가 넘는 다우지수 하락을 동반했다. VIX는 25.09로 급등해 공포심이 확산되고 있으며, 이란의 에너지 시설 보복 공격으로 WTI 유가는 98.29달러까지 치솟았다. 실업률 4.4%와 WTI 98.29달러가 동시에 발생하면서 스태그플레이션 레드라인이 활성화됐다. 연준은 금리를 동결했고 파월 의장은 시장에 대한 구원 의지가 없음을 분명히 했다. 달러는 DXY +0.61% 강세, 원화는 USD/KRW +0.98%로 원화약세가 확대됐다.",
+    "section1_fed": "연준은 물가 목표 2% 대비 코어 PCE 2.83%에도 불구하고 금리를 동결하고 향후 한 차례 인하만 시사했다. 실질 금리(TIPS)는 1.83%로 양호하나 유가 급등이 인플레이션 기대를 재점화시킬 가능성이 크다. 금리 곡선은 2s10s가 0.5bp로 완전히 평탄화돼 경기 침체 시그널이 강화됐다. SOFR 3.64%로 단기 금리는 안정적이나 파월의 hawkish 메시지로 유동성 기대가 급락했다. Fed의 고민은 인플레이션 재점화 vs 경기 둔화 속도로, 금리 인하 시점이 연기될 공산이 크다.",
+    "section2_flow": "달러 강세(DXY +0.61%). 원화 약세(달러 대비 가치 하락, USD/KRW +0.98%). USD/KRW 1499원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력.",
+    "section3_sector": "에너지 섹터는 WTI 4% 급등에 따라 유일한 강세를 보이며 상위 3개 섹터 중 하나다. 반도체·AI 관련 기술주는 루멘텀의 낙폭 확대로 랠리가 꺾였고 성장주는 금리 상승 부담에 약세. 소비재·산업주는 원가 상승과 소비 둔화 우려로 약세, 금융주는 금리 곡선 평탄화로 수익성 악화. 유틸리티·헬스케어는 방어주로 선회하는 자금이 유입되나 전체 Risk-Off 분위기 속에서도 상승 제한적이다.",
+    "section4_risk": "이란-이스라엘 간 에너지 시설 보복으로 WTI가 98달러를 넘어서면서 1970년대식 오일 쇼크 가능성이 재부각됐다. 트럼프 행정부는 존스법 60일 유예로 물가 안정 의지를 드러냈으나 공급 차질 우려는 여전하다. 연준의 hawkish 스탠스는 정책 실기 오류로 경기 침체를 심화시킬 수 있다. 중국은 OpenAI 금지 조치로 기술 냉전이 격화되며 글로벌 공급망 재편 리스크가 커지고 있다. VIX 25, Skew 137로 꼬리 리스크가 커지고 있어 블랙스완 헤지 수요가 급증 중이다.",
+    "section5_commodities": "WTI는 $98.29로 2.16% 급등하며 스태그플레이션 하드 트리거인 $90를 크게 웃돌고 있다. 골드는 $4837.5로 3.27% 급락해 안전자산 회피 매물이 출회됐으나, 인플레이션 헤지 수요는 여전히 유효하다. 구리는 $5.53로 3.49% 하락하며 중국 경기 둔화와 글로벌 성장 둔화 우려를 반영한다. 유가 급등이 CPI 재상승을 촉발할 경우 연준의 hawkish 기조가 더욱 강화돼 스태그플레이션 악순환이 우려된다.",
+    "section6_skew": "현재 VIX 25.09, Skew 137로 '총체적위기(VIX↑+Skew↑)' 신호가 활성화됐다. Skew 130~150 구간은 꼬리리스크 경고로, 개인·기관 모두 블랙스완 대비 헤지 비용이 급등하고 있다. VIX가 20대 중반임에도 Skew가 130 이상인 역설 구간은 하방 베타가 축적되는 단계로, 조정 폭이 커질 수 있다.",
+    "section_macro": "CPI 2.66%, Core CPI 2.73%, PCE 2.83%로 인플레이션은 연준 목표 대비 여전히 고점에 머물고 있다. 실업률 4.4%로 고용 시장이 냉각되고 있으나 GDP 성장률 0.7%에 머물러 경기 침체 국면에 진입했다. 미시간 소비자신뢰지수 56.4는 기준선 80을 크게 하회로 소비 위축이 본격화됐다. 유가·원자재 상승과 경기 둔화가 동시에 진행돼 스태그플레이션 리스크가 현실화됐다.",
     "bull_case": "-",
     "bear_case": "-",
-    "verdict_reason": "-",
+    "verdict_reason": "종합판정 AVOID는 스태그플레이션 하드 트리거(WTI 98.29≥90, 실업률 4.4%≥4.4%)가 동시에 작동했기 때문이다. VIX 25.09와 Skew 137로 꼬리 리스크가 확대되는 가운데 금리 곡선 평탄화(2s10s 0.5bp)가 경기 침체 가능성을 높이고 있다. 소비자신뢰지수 56.4는 기준선 대비 30% 이상 하락해 내수 위축이 본격화된 상황이다.",
     "scenario_bull": "-",
     "scenario_base": "-",
     "scenario_bear": "-",
-    "entry_triggers": [
-      "진입 트리거 1: VIX 22 이하 & WTI 85달러 이하 & 실업률 4.2% 이하 동시 달성",
-      "진입 트리거 2: 2s10s 스프레드 30bp 이상 스티프닝 & 하이일드 스프레드 280bp 이하 축소",
-      "진입 트리거 3: 미시간 소비자신뢰 70 이상 회복 & 구리 6.2달러 이상 상승"
-    ],
+    "entry_triggers": [],
     "key_events": [
-      {
-        "date": "2026-03-18",
-        "event": "FOMC 금리 결정",
-        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
-      },
       {
         "date": "2026-03-19",
         "event": "FOMC 기자회견",
@@ -467,6 +458,11 @@
         "date": "2026-04-29",
         "event": "GDP 속보치 (Q1 2026)",
         "impact": "경제 성장률 확인 → 스태그플레이션 리스크 평가"
+      },
+      {
+        "date": "2026-04-30",
+        "event": "PCE 발표 (3월)",
+        "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
       }
     ]
   },
