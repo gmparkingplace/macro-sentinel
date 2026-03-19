@@ -380,14 +380,14 @@ def groq_analysis(d, scores):
 순수 JSON만 출력하세요. 마크다운 없이. 모든 키를 포함하세요.
 
 {{
-  "section1_fed":"Fed·금리·유동성 분석 5줄. FOMC 스탠스, 금리 곡선, 실질금리, 유동성 환경 포함.",
-  "section3_sector":"섹터 로테이션·Risk-On/Off 판독 5줄. 강세/약세 섹터 구체적으로 서술.",
-  "section5_commodities":"원자재(WTI, Gold, Copper) 동향 및 스태그플레이션 리스크 4줄.",
-  "section6_skew":"VIX×Skew 조합 신호 해석 3줄 (현재 조합: {skew_label}). 꼬리 리스크 함의 포함.",
-  "section_macro":"인플레이션(CPI/PCE), 고용, GDP, 소비자신뢰 종합 경기 사이클 판단 4줄. 스태그플레이션 여부 명시.",
-  "section4_risk":"지정학·정책 리스크 5줄. 현재 활성 리스크, 시장 반영도, 꼬리 리스크 포함.",
-  "verdict_reason":"판정 {scores['verdict']} 이유 3줄. 핵심 수치 포함.",
-  "entry_triggers":["진입 트리거 1: 완화 조건 (구체적 수치 포함)","진입 트리거 2: 완화 조건 (구체적 수치 포함)","진입 트리거 3: 완화 조건 (구체적 수치 포함)"],
+  "section1_fed":"Fed·금리·유동성 분석을 7줄 이상으로 상세히. FOMC 스탠스, 금리 곡선, 실질금리, 유동성 환경, CME FedWatch 기대 포함.",
+  "section3_sector":"섹터 로테이션·Risk-On/Off 판독 7줄 이상. 강세/약세 섹터 4주 누적 기준으로 구체적 서술. 자금 흐름 방향 포함.",
+  "section5_commodities":"원자재(WTI, Gold, Copper) 동향 및 스태그플레이션 리스크 5줄 이상. 각 원자재별 방향성과 매크로 함의 포함.",
+  "section6_skew":"VIX×Skew 조합 신호 해석 4줄 이상 (현재 조합: {skew_label}). 꼬리 리스크 함의와 시장 내재 위험 수준 포함.",
+  "section_macro":"인플레이션(CPI/PCE), 고용, GDP, 소비자신뢰 종합 경기 사이클 판단 5줄 이상. 현재 경기 국면, 스태그플레이션 리스크 여부, Fed 대응 여력 포함.",
+  "section4_risk":"지정학·정책 리스크 6줄 이상. 현재 활성 리스크, 시장 반영도, 꼬리 리스크 시나리오 포함.",
+  "verdict_reason":"판정 {scores['verdict']} 이유 3줄 이상. 핵심 수치 포함.",
+  "entry_triggers":["진입 트리거 1: 완화 조건 구체적 수치와 현재 달성 여부","진입 트리거 2: 완화 조건 구체적 수치와 현재 달성 여부","진입 트리거 3: 완화 조건 구체적 수치와 현재 달성 여부"],
   "key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 영향"}}]
 }}"""
 
