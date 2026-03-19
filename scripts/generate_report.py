@@ -380,9 +380,14 @@ def groq_analysis(d, scores):
 순수 JSON만 출력하세요. 마크다운 없이. 모든 키를 포함하세요.
 
 {{
-  "section4_risk":"지정학·정책 리스크 5줄 이상. 현재 활성 리스크, 시장 반영도, 꼬리 리스크 포함.",
-  "verdict_reason":"판정 {scores['verdict']} 이유를 2줄로. 핵심 근거 수치 포함.",
-  "entry_triggers":["진입 트리거 1: 현재 판정 완화 조건 (구체적 수치 포함)","진입 트리거 2: 두 번째 완화 조건 (구체적 수치 포함)","진입 트리거 3: 세 번째 완화 조건 (구체적 수치 포함)"],
+  "section1_fed":"Fed·금리·유동성 분석 3줄.",
+  "section3_sector":"섹터 로테이션·Risk-On/Off 판독 3줄.",
+  "section5_commodities":"원자재(WTI, Gold, Copper) 및 스태그플레이션 리스크 2줄.",
+  "section6_skew":"VIX×Skew 조합 신호 해석 2줄 (현재 조합: {skew_label}).",
+  "section_macro":"인플레이션(CPI/PCE), 고용, GDP, 소비자신뢰 종합 경기 사이클 판단 3줄. 스태그플레이션 여부 명시.",
+  "section4_risk":"지정학·정책 리스크 4줄. 현재 활성 리스크, 꼬리 리스크 포함.",
+  "verdict_reason":"판정 {scores['verdict']} 이유 2줄. 핵심 수치 포함.",
+  "entry_triggers":["진입 트리거 1: 완화 조건 (구체적 수치)","진입 트리거 2: 완화 조건 (구체적 수치)","진입 트리거 3: 완화 조건 (구체적 수치)"],
   "key_events":[{{"date":"YYYY-MM-DD","event":"이벤트명","impact":"예상 영향"}}]
 }}"""
 
