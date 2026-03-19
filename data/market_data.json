@@ -78,16 +78,16 @@
       "prev_value": 119.8227
     },
     "usdkrw": {
-      "close": 1498.51,
+      "close": 1498.38,
       "prev_close": 1484.87,
-      "change_pct": 0.92,
-      "pct_52w": 94.9
+      "change_pct": 0.91,
+      "pct_52w": 94.8
     },
     "usdjpy": {
-      "close": 159.59,
+      "close": 159.62,
       "prev_close": 158.89,
-      "change_pct": 0.44,
-      "pct_52w": 98.7
+      "change_pct": 0.46,
+      "pct_52w": 98.9
     },
     "eurusd": {
       "close": 1.15,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 97.86,
+      "close": 98.12,
       "prev_close": 96.21,
-      "change_pct": 1.71,
-      "pct_52w": 66.5
+      "change_pct": 1.99,
+      "pct_52w": 66.9
     },
     "gold": {
-      "close": 4842.7,
+      "close": 4845.4,
       "prev_close": 5001.0,
-      "change_pct": -3.17,
-      "pct_52w": 71.8
+      "change_pct": -3.11,
+      "pct_52w": 71.9
     },
     "copper": {
-      "close": 5.52,
+      "close": 5.53,
       "prev_close": 5.73,
-      "change_pct": -3.66,
-      "pct_52w": 59.0
+      "change_pct": -3.49,
+      "pct_52w": 59.4
     }
   },
   "liquidity": {
@@ -291,7 +291,7 @@
       "url": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Wed, 18 Mar 2026 22:25:00 GMT",
-      "title_ko": "파월이 연준에서 남아 있을 것이라는 가장 분명한 발언을 했다"
+      "title_ko": "파월이 연준에서 머무르는 것에 대해 가장 분명한 발언을 한다"
     },
     {
       "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
@@ -305,35 +305,35 @@
       "url": "https://www.marketwatch.com/story/dow-falls-nearly-800-points-after-powell-makes-one-thing-clear-theres-no-rush-to-rescue-the-market-b55a723a?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Wed, 18 Mar 2026 21:46:00 GMT",
-      "title_ko": "파월이 시장을 구할 필요는 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
+      "title_ko": "파월이 시장을 구해줄 급이 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
     },
     {
       "title": "Fed holds interest rates steady — here’s what that means for consumers",
       "url": "https://www.cnbc.com/2026/03/18/fed-march-rate-decision.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 19:17:27 GMT",
-      "title_ko": "연준이 금리을 유지했다 — 소비자에게 이것이 의미하는 바"
+      "title_ko": "연준이 금리을 안정적으로 유지한다 — 소비자에게 이것이 의미하는 바"
     },
     {
       "title": "Oil jumps 4% as Iranian retaliatory strikes on Qatar’s key energy facility stoke supply worries",
       "url": "https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html",
       "source": "CNBC",
       "published": "Thu, 19 Mar 2026 01:35:54 GMT",
-      "title_ko": "이란의 قطر의 주요 에너지 시설에 대한 보복 공격으로 공급 우려가 고조하면서 원유가 4% 상승했다"
+      "title_ko": "이란의 قطر의 주요 에너지 시설에 대한 보복 공격으로 공급 우려가 고조하면서 원유 가격이 4% 상승했다"
     },
     {
       "title": "Asia markets track Wall Street losses as Iran war fuels energy worries; BOJ rate decision on deck",
       "url": "https://www.cnbc.com/2026/03/19/asia-markets-live-boj-nikkei-kospi-hang-seng.html",
       "source": "CNBC",
       "published": "Thu, 19 Mar 2026 00:26:17 GMT",
-      "title_ko": "이란 전쟁이 에너지 우려를 고조시키면서 아시아 시장은 월스트리트의 손실을 따랐고, 일본은행의 금리 결정이 예정되어 있다"
+      "title_ko": "아시아 시장은 이란 전쟁으로 에너지 우려가 고조하면서 월스트리트의 손실을 따랐다. 일본은행의 금리 결정이 예정되어 있다"
     },
     {
       "title": "Trump waives Jones Act shipping rules for 60 days to steady oil market",
       "url": "https://www.cnbc.com/2026/03/18/trump-jones-act-oil-iran-war.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 19:26:16 GMT",
-      "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스법 해운 규정을 면제했다"
+      "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스법 해운 규칙을 면제했다"
     },
     {
       "title": "Here are the five key takeaways from this week's Fed meeting",
@@ -361,7 +361,7 @@
       "url": "https://www.cnbc.com/2026/03/18/china-openclaw-baidu-tencent-ai.html",
       "source": "CNBC",
       "published": "Thu, 19 Mar 2026 01:34:39 GMT",
-      "title_ko": "중국이 기어헤드부터 할머니까지 모두 오픈클로에 참여하도록 하는 방법"
+      "title_ko": "중국이 기어헤드부터 할머니까지 모든 사람을 오픈클로에 참여시키는 방법"
     },
     {
       "title": "Jim Cramer says you can still find stocks to buy on tough days in the market",
@@ -375,14 +375,14 @@
       "url": "https://www.cnbc.com/2026/03/18/dot-plot-fed-still-expects-to-cut-rates-once-this-year-despite-spiking-oil-prices-.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 18:59:40 GMT",
-      "title_ko": "원유 가격이 급등하는 데에도 불구하고 연준은 금리를 한 번 인하할 것으로 예상한다"
+      "title_ko": "연준은 원유 가격이 급등하는 데에도 불구하고 금리를 한 번은 인하할 것이라고 예상한다"
     },
     {
       "title": "Inflation dominates Powell's remarks, pressures stocks. Plus, big earnings tonight",
       "url": "https://www.cnbc.com/2026/03/18/inflation-dominates-powells-remarks-pressures-stocks-plus-big-earnings-tonight.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 19:25:46 GMT",
-      "title_ko": "인플레이션이 파월의 발언을 지배하며 주식을 압박한다. 그리고 오늘 밤 큰 실적이 나온다"
+      "title_ko": "인플레이션이 파월의 발언을 지배하며 주식을 압박한다. 또한 오늘 밤 큰 실적이 나온다"
     }
   ]
 }
