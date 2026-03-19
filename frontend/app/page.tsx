@@ -32,11 +32,12 @@ interface Analysis {
   section2_flow: string;    section3_sector: string;
   section4_risk: string;    section5_commodities?: string;
   section6_skew?: string;   section_macro?: string;
-  bull_case: string;
-  bear_case: string;        verdict_reason: string;
-  scenario_bull: string;    scenario_base: string; scenario_bear: string;
+  verdict_reason: string;
   entry_triggers: string[];
   key_events: { date: string; event: string; impact: string }[];
+  // 하위 호환
+  bull_case?: string; bear_case?: string;
+  scenario_bull?: string; scenario_base?: string; scenario_bear?: string;
 }
 interface NewsItem {
   title: string; title_ko?: string; url: string; source: string; published: string;
@@ -529,29 +530,11 @@ export default function Home() {
           </AccordionCard>
 
           {/* AI 분석 */}
-          <AccordionCard icon="🤖" title="AI 매크로 분석"
-            summary={analysis.section0_summary.slice(0, 55) + "..."}>
-            <div style={{ marginBottom: 14 }}>
-              <div style={{ fontSize: 10, color: "#bbb", letterSpacing: "0.1em", marginBottom: 8 }}>시나리오 분석</div>
-              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                <ScenarioCard label="🐂 강세 시나리오" color="#0a8f5c" bg="#eafaf3" text={analysis.scenario_bull} />
-                <ScenarioCard label="➡️ 기본 시나리오" color="#b07800" bg="#fffbe6" text={analysis.scenario_base} />
-                <ScenarioCard label="🐻 약세 시나리오" color="#c0392b" bg="#fdf0ef" text={analysis.scenario_bear} />
-              </div>
-            </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, marginBottom: 14 }}>
-              <div style={{ padding: "12px 14px", background: "#eafaf3", border: "1px solid #a8dfc9", borderRadius: 8 }}>
-                <div style={{ fontSize: 10, color: "#0a8f5c", fontWeight: 700, marginBottom: 6 }}>✅ BULL</div>
-                <div style={{ fontSize: 11, color: "#444", lineHeight: 1.7 }}>{analysis.bull_case}</div>
-              </div>
-              <div style={{ padding: "12px 14px", background: "#fdf0ef", border: "1px solid #f5c6c2", borderRadius: 8 }}>
-                <div style={{ fontSize: 10, color: "#c0392b", fontWeight: 700, marginBottom: 6 }}>❌ BEAR</div>
-                <div style={{ fontSize: 11, color: "#444", lineHeight: 1.7 }}>{analysis.bear_case}</div>
-              </div>
-            </div>
+          <AccordionCard icon="⚠️" title="리스크 · 진입 트리거"
+            summary={analysis.section4_risk?.slice(0, 55) + "..."}>
             <div style={{ padding: "10px 14px", background: "#fffbe6", border: "1px solid #ffe082", borderRadius: 8, marginBottom: 14 }}>
-              <div style={{ fontSize: 10, color: "#b07800", fontWeight: 700, marginBottom: 6 }}>⚠️ 리스크</div>
-              <div style={{ fontSize: 11, color: "#444", lineHeight: 1.7 }}>{analysis.section4_risk}</div>
+              <div style={{ fontSize: 10, color: "#b07800", fontWeight: 700, marginBottom: 6 }}>⚠️ 지정학 · 정책 리스크</div>
+              <div style={{ fontSize: 12, color: "#444", lineHeight: 1.8 }}>{analysis.section4_risk}</div>
             </div>
             {analysis.entry_triggers?.length > 0 && (
               <div>
