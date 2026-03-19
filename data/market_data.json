@@ -78,16 +78,16 @@
       "prev_value": 119.8227
     },
     "usdkrw": {
-      "close": 1499.38,
+      "close": 1484.87,
       "prev_close": 1484.87,
-      "change_pct": 0.98,
-      "pct_52w": 95.3
+      "change_pct": 0.0,
+      "pct_52w": 87.5
     },
     "usdjpy": {
-      "close": 159.7,
+      "close": 159.67,
       "prev_close": 158.89,
-      "change_pct": 0.51,
-      "pct_52w": 99.3
+      "change_pct": 0.49,
+      "pct_52w": 99.1
     },
     "eurusd": {
       "close": 1.15,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 98.29,
+      "close": 97.77,
       "prev_close": 96.21,
-      "change_pct": 2.16,
-      "pct_52w": 67.1
+      "change_pct": 1.62,
+      "pct_52w": 66.3
     },
     "gold": {
-      "close": 4837.5,
+      "close": 4839.1,
       "prev_close": 5001.0,
-      "change_pct": -3.27,
-      "pct_52w": 71.6
+      "change_pct": -3.24,
+      "pct_52w": 71.7
     },
     "copper": {
-      "close": 5.53,
+      "close": 5.51,
       "prev_close": 5.73,
-      "change_pct": -3.49,
-      "pct_52w": 59.4
+      "change_pct": -3.84,
+      "pct_52w": 58.6
     }
   },
   "liquidity": {
@@ -291,7 +291,7 @@
       "url": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Wed, 18 Mar 2026 22:25:00 GMT",
-      "title_ko": "파월이 연준에서 잔류하는 것에 대해 가장 분명한 발언을 한다"
+      "title_ko": "파월이 연준에서 머무르는 것에 대해 가장 분명한 발언을 한다"
     },
     {
       "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
@@ -318,7 +318,7 @@
       "title": "Oil jumps 4% as Iranian retaliatory strikes on Qatar’s key energy facility stoke supply worries",
       "url": "https://www.cnbc.com/2026/03/19/oil-jumps-iran-strikes-qatar-lng-facility-supply-worries.html",
       "source": "CNBC",
-      "published": "Thu, 19 Mar 2026 00:55:52 GMT",
+      "published": "Thu, 19 Mar 2026 01:18:45 GMT",
       "title_ko": "이란의 قطر의 주요 에너지 시설에 대한 보복 공격으로 공급 우려가 고조하면서 원유 가격이 4% 상승했다"
     },
     {
@@ -326,14 +326,14 @@
       "url": "https://www.cnbc.com/2026/03/19/asia-markets-live-boj-nikkei-kospi-hang-seng.html",
       "source": "CNBC",
       "published": "Thu, 19 Mar 2026 00:26:17 GMT",
-      "title_ko": "아시아 시장은 월 스트리트의 손실을 따라가며 이란 전쟁이 에너지 우려를 고조시키고 있다. 일본은행 금리 결정이 예정되어 있다"
+      "title_ko": "아시아 시장은 이란 전쟁으로 에너지 우려가 고조하면서 월스트리트의 손실을 따랐다. 일본은행의 금리 결정이 예정되어 있다"
     },
     {
       "title": "Trump waives Jones Act shipping rules for 60 days to steady oil market",
       "url": "https://www.cnbc.com/2026/03/18/trump-jones-act-oil-iran-war.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 19:26:16 GMT",
-      "title_ko": "트럼프가 원유 시장 안정을 위해 60일 동안 존스 법 조항을 면제했다"
+      "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스법 해운 규정을 면제했다"
     },
     {
       "title": "Here are the five key takeaways from this week's Fed meeting",
@@ -361,7 +361,7 @@
       "url": "https://www.cnbc.com/2026/03/18/china-openclaw-baidu-tencent-ai.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 21:36:12 GMT",
-      "title_ko": "중국이 기어헤드부터 할머니까지 모두 오픈클로에 참여하도록 하는 방법"
+      "title_ko": "중국이 기어헤드부터 할머니까지 모든 사람을 오픈클로에 참여시키는 방법"
     },
     {
       "title": "Jim Cramer says you can still find stocks to buy on tough days in the market",
@@ -375,7 +375,7 @@
       "url": "https://www.cnbc.com/2026/03/18/dot-plot-fed-still-expects-to-cut-rates-once-this-year-despite-spiking-oil-prices-.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 18:59:40 GMT",
-      "title_ko": "원유 가격이 급등하는 데에도 불구하고 연준은 금리를 한 번 인하할 것으로 예상한다"
+      "title_ko": "Fed still expects to cut rates once this year despite spiking oil prices"
     },
     {
       "title": "Inflation dominates Powell's remarks, pressures stocks. Plus, big earnings tonight",
