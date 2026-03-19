@@ -80,16 +80,16 @@
         "prev_value": 119.8227
       },
       "usdkrw": {
-        "close": 1484.87,
+        "close": 1498.98,
         "prev_close": 1484.87,
-        "change_pct": 0.0,
-        "pct_52w": 87.5
+        "change_pct": 0.95,
+        "pct_52w": 95.1
       },
       "usdjpy": {
-        "close": 159.67,
+        "close": 159.6,
         "prev_close": 158.89,
-        "change_pct": 0.49,
-        "pct_52w": 99.1
+        "change_pct": 0.45,
+        "pct_52w": 98.8
       },
       "eurusd": {
         "close": 1.15,
@@ -100,16 +100,16 @@
     },
     "commodities": {
       "wti": {
-        "close": 97.77,
+        "close": 97.96,
         "prev_close": 96.21,
-        "change_pct": 1.62,
-        "pct_52w": 66.3
+        "change_pct": 1.82,
+        "pct_52w": 66.6
       },
       "gold": {
-        "close": 4839.1,
+        "close": 4838.0,
         "prev_close": 5001.0,
-        "change_pct": -3.24,
-        "pct_52w": 71.7
+        "change_pct": -3.26,
+        "pct_52w": 71.6
       },
       "copper": {
         "close": 5.51,
@@ -293,7 +293,7 @@
         "url": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Wed, 18 Mar 2026 22:25:00 GMT",
-        "title_ko": "파월이 연준에서 머무르는 것에 대해 가장 분명한 발언을 한다"
+        "title_ko": "파월이 연준에서 남아 있을 것이라는 가장 분명한 발언을 했다"
       },
       {
         "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
@@ -307,7 +307,7 @@
         "url": "https://www.marketwatch.com/story/dow-falls-nearly-800-points-after-powell-makes-one-thing-clear-theres-no-rush-to-rescue-the-market-b55a723a?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "Wed, 18 Mar 2026 21:46:00 GMT",
-        "title_ko": "파월이 시장을 구해줄 급이 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
+        "title_ko": "파월이 시장을 구할 필요는 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
       },
       {
         "title": "Fed holds interest rates steady — here’s what that means for consumers",
@@ -328,14 +328,14 @@
         "url": "https://www.cnbc.com/2026/03/19/asia-markets-live-boj-nikkei-kospi-hang-seng.html",
         "source": "CNBC",
         "published": "Thu, 19 Mar 2026 00:26:17 GMT",
-        "title_ko": "아시아 시장은 이란 전쟁으로 에너지 우려가 고조하면서 월스트리트의 손실을 따랐다. 일본은행의 금리 결정이 예정되어 있다"
+        "title_ko": "아시아 시장은 월 스트리트의 손실을 따르며 이란 전쟁이 에너지 우려를 고조시키고 있다. 일본은행 금리 결정이 예정되어 있다"
       },
       {
         "title": "Trump waives Jones Act shipping rules for 60 days to steady oil market",
         "url": "https://www.cnbc.com/2026/03/18/trump-jones-act-oil-iran-war.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 19:26:16 GMT",
-        "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스법 해운 규정을 면제했다"
+        "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스 법 조항을 면제했다"
       },
       {
         "title": "Here are the five key takeaways from this week's Fed meeting",
@@ -349,14 +349,14 @@
         "url": "https://www.cnbc.com/2026/03/18/vance-oil-industry-gas-prices-iran-war.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 20:11:57 GMT",
-        "title_ko": "부통령 밴스는 원유 가격을 해결하기 위한 추가 조치를 계획하는 백악관과 원유 산업계와 회동한다"
+        "title_ko": "부통령 밴스는 원유 가격을 해결하기 위한 추가 조치를 계획하는 백악관과 원유 산업계와 회동할 것"
       },
       {
         "title": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
         "url": "https://www.cnbc.com/2026/03/18/powell-says-he-will-stay-on-as-head-of-the-fed-until-warsh-is-confirmed.html",
         "source": "CNBC",
         "published": "Wed, 18 Mar 2026 20:09:36 GMT",
-        "title_ko": "파월이 워시가 확정될 때까지 연준의 수장으로 남을 것이라고 말했다"
+        "title_ko": "파월이 워시가 확정될 때까지 연준의 수장으로 남아 있을 것이라고 말했다"
       },
       {
         "title": "How China is getting everyone on OpenClaw, from gearheads to grandmas",
@@ -411,19 +411,24 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "WTI $97.8 >= $90",
-      "스태그플레이션(WTI>97.77, 실업률>4.4%)",
+      "WTI $98.0 >= $90",
+      "스태그플레이션(WTI>97.96, 실업률>4.4%)",
       "VIX 25.1 >= 24"
     ],
     "ratio": 0.375
   },
   "analysis": {
-    "section4_risk": "이란이 카타르 주요 에너지 시설을 공격하면서 원유 공급 차질 우려가 즉시 반영돼 WTI가 4% 급등해 97.77달러까지 치솟았다. 트럼프 행정부가 60일간 존스법을 면제했지만, 전방위 물류 병목과 호르믹스 우회 항로로 증가선 운임은 2분기까지 지속될 전망이다. 연준이 금리를 동결하고 올해 한 차례 인하만 전망하면서 유가 급등에 따른 인플레이션 압력이 실업률 4.4%와 함께 스태그플레이션 국면을 공식화했다. VIX 25.09·SKEW 137으로 꼬리 리스크가 확대된 가운데 일본은행 금리 결정, 4월 초 PCE·고용보고서까지 하이프로파일 이벤트가 남아 있어 변동성 급증 가능성이 높다. 중동 전쟁 확산 시 WTI 110달러, 글로벌 유가 폭등·달러 강세·원화 약세로 이어질 블랙스완 시나리오가 15% 이상 반영돼 있다.",
-    "verdict_reason": "WTI 97.77달러·실업률 4.4%로 스태그플레이션 하드 오버라이드가 활성화됐고, VIX 25.09·SKEW 137로 총체적 위기 신호가 확인됐다.",
+    "section1_fed": "파월이 연준 수장 연임을 확언하며 정책 일관성을 약속했으나 급등한 원유가에도 올해 한차례 인하 전망을 유지해 긴축 옵션을 사실상 제거했다. FOMC는 금리 동결에 실업률 4.4%·WTI 98달러라는 스태그플레이션 조합을 마주했지만 추가 긴축은 하지 않겠다고 못박아 실질금리가 떨어지고 달러 강세를 유도했다. 시장은 ‘하이패션’(고물가+고금리) 장기화에 따른 수익률 곡선 스티프닝(2s10s 0.5bp)과 함께 유동성 할인율 상승 리스크에 직면했다.",
+    "section3_sector": "스태그플레이션 하드 오버라이드(WTI>97.96·실업>4.4%) 발동으로 에너지·유틸리티만 초강세, 나머지 성장·민감주는 일제 매도세. VIX 25·구리 -3.8%가 동시에 나타나 경기방어(스테이플·헬스케어)와 현금 비중 확대로 로테이션 급속 확산. 레버리지 ETF·성장주는 금리 인하 불확실성과 실질금리 상승으로 추가 조정 가능성이 커졌다.",
+    "section5_commodities": "WTI 98달러 돌파로 4% 급등, 금은 4838→3.3% 하락해 실물 인플레이션 헤지 효과 약화, 구리 5.51달러 -3.8%로 경기침체 우려 확산. 에너지·금속 동시발 약세는 스태그플레이션의 전형적 패턴으로 원가 상승이 소비·투자를 억제하는 악순환 진입 우려.",
+    "section6_skew": "VIX 25.1·Skew 137 동반 상승이 ‘총체적위기’ 신호: 변동성 확대와 동시에 꼬리 리스크 프리미엄이 급등해 블랙스완 헤지 수요 증가. VIX가 20대 중반에 머물지만 Skew 130~150 구간은 ‘낮은 변동성+높은 비대칭’으로 역설적 리스크 최대화 구간.",
+    "section_macro": "CPI 2.66%·PCE 2.83%로 연준 목표 2% 대비 고착, 실업률 4.4%·GDP 0.7%로 고용 완화·성장 둔화 동시 발생해 스태그플레이션 진입 명백. 미시간 소비자신뢰 56.4(기준 80) 붕괴는 내수 소비 위축으로 이어질 가능성 높고, OECD 지수 98.9(기준 100) 하회로 글로벌 동조화 침체 우려 확산.",
+    "section4_risk": "이란 보복 공격으로 원유시설 피해 우려에 WTI 4% 급등, 트럼프 60일 존스법 면제로 증산은 제한적이며 백악관·업계 회동에서 추가 조치 시사. 파월이 ‘시장 구조’ 개입 거부 연설 후 다우 800포인트 하락, 정책 뒷받침 불확실성이 시스템 리스크로 확대. 아시아 증시 급락·엔화 금융급등으로 글로벌 연쇌 마진콜 가능성, VIX 25·달러 강세·원화약세(USD/KRW +0.95%)로 신흥국 자금 유출 꼬리 리스크 증가.",
+    "verdict_reason": "하드 오버라이드(스태그플레이션) 조건 충족(WTI 97.96·실업 4.4%)과 VIX 25.1·Skew 137 총체적위기로 조정 확대 가능성. 금리 인하 기대 축소·실질금리 상승·소비자신뢰 붕괴가 동시에 나타나 밸류에이션 압박이临시적 저점보다 10% 추가 하락 여지를 제공.",
     "entry_triggers": [
-      "진입 트리거 1: 현재 판정 완화 조건 (WTI 90달러 이하·VIX 20 이하·실업률 4.2% 이하)",
-      "진입 트리거 2: 두 번째 완화 조건 (Core PCE 2.5% 이하·S&P 500 200일 이평선 1.5% 내 회복)",
-      "진입 트리거 3: 세 번째 완화 조건 (FOMC 도큐먼트 내 금리 인하 언급·중동 긴장 완화·DXY 102 이하)"
+      "진입 트리거 1: WTI ≤ 85달러 AND 실업률 ≤ 4.1% 동시 달성",
+      "진입 트리거 2: VIX ≤ 20 AND Skew ≤ 130 AND S&P 500 200일 이평선 대비 -15%",
+      "진입 트리거 3: 연준 긴급 조치(금리 인하 50bp OR 양적완화 재개) 발표"
     ],
     "key_events": [
       {
@@ -457,7 +462,7 @@
         "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
       }
     ],
-    "section2_flow": "달러 강세(DXY +0.61%). 원화 강세(달러 대비 가치 상승, USD/KRW 0.00%). USD/KRW 1485원으로 원화 강세로 수출 기업 실적에 부담. 달러 강세는 이머징 자금 유출 압력."
+    "section2_flow": "달러 강세(DXY +0.61%). 원화 약세(달러 대비 가치 하락, USD/KRW +0.95%). USD/KRW 1499원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력."
   },
   "verdict": "AVOID"
 }

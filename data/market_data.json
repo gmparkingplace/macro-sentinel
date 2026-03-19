@@ -78,16 +78,16 @@
       "prev_value": 119.8227
     },
     "usdkrw": {
-      "close": 1484.87,
+      "close": 1498.98,
       "prev_close": 1484.87,
-      "change_pct": 0.0,
-      "pct_52w": 87.5
+      "change_pct": 0.95,
+      "pct_52w": 95.1
     },
     "usdjpy": {
-      "close": 159.67,
+      "close": 159.6,
       "prev_close": 158.89,
-      "change_pct": 0.49,
-      "pct_52w": 99.1
+      "change_pct": 0.45,
+      "pct_52w": 98.8
     },
     "eurusd": {
       "close": 1.15,
@@ -98,16 +98,16 @@
   },
   "commodities": {
     "wti": {
-      "close": 97.77,
+      "close": 97.96,
       "prev_close": 96.21,
-      "change_pct": 1.62,
-      "pct_52w": 66.3
+      "change_pct": 1.82,
+      "pct_52w": 66.6
     },
     "gold": {
-      "close": 4839.1,
+      "close": 4838.0,
       "prev_close": 5001.0,
-      "change_pct": -3.24,
-      "pct_52w": 71.7
+      "change_pct": -3.26,
+      "pct_52w": 71.6
     },
     "copper": {
       "close": 5.51,
@@ -291,7 +291,7 @@
       "url": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Wed, 18 Mar 2026 22:25:00 GMT",
-      "title_ko": "파월이 연준에서 머무르는 것에 대해 가장 분명한 발언을 한다"
+      "title_ko": "파월이 연준에서 남아 있을 것이라는 가장 분명한 발언을 했다"
     },
     {
       "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
@@ -305,7 +305,7 @@
       "url": "https://www.marketwatch.com/story/dow-falls-nearly-800-points-after-powell-makes-one-thing-clear-theres-no-rush-to-rescue-the-market-b55a723a?mod=mw_rss_topstories",
       "source": "MarketWatch",
       "published": "Wed, 18 Mar 2026 21:46:00 GMT",
-      "title_ko": "파월이 시장을 구해줄 급이 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
+      "title_ko": "파월이 시장을 구할 필요는 없다는 것을 분명히 한 후 다우 지수가 거의 800점 하락했다"
     },
     {
       "title": "Fed holds interest rates steady — here’s what that means for consumers",
@@ -326,14 +326,14 @@
       "url": "https://www.cnbc.com/2026/03/19/asia-markets-live-boj-nikkei-kospi-hang-seng.html",
       "source": "CNBC",
       "published": "Thu, 19 Mar 2026 00:26:17 GMT",
-      "title_ko": "아시아 시장은 이란 전쟁으로 에너지 우려가 고조하면서 월스트리트의 손실을 따랐다. 일본은행의 금리 결정이 예정되어 있다"
+      "title_ko": "아시아 시장은 월 스트리트의 손실을 따르며 이란 전쟁이 에너지 우려를 고조시키고 있다. 일본은행 금리 결정이 예정되어 있다"
     },
     {
       "title": "Trump waives Jones Act shipping rules for 60 days to steady oil market",
       "url": "https://www.cnbc.com/2026/03/18/trump-jones-act-oil-iran-war.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 19:26:16 GMT",
-      "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스법 해운 규정을 면제했다"
+      "title_ko": "트럼프가 원유 시장 안정을 위해 60일간 존스 법 조항을 면제했다"
     },
     {
       "title": "Here are the five key takeaways from this week's Fed meeting",
@@ -347,14 +347,14 @@
       "url": "https://www.cnbc.com/2026/03/18/vance-oil-industry-gas-prices-iran-war.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 20:11:57 GMT",
-      "title_ko": "부통령 밴스는 원유 가격을 해결하기 위한 추가 조치를 계획하는 백악관과 원유 산업계와 회동한다"
+      "title_ko": "부통령 밴스는 원유 가격을 해결하기 위한 추가 조치를 계획하는 백악관과 원유 산업계와 회동할 것"
     },
     {
       "title": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
       "url": "https://www.cnbc.com/2026/03/18/powell-says-he-will-stay-on-as-head-of-the-fed-until-warsh-is-confirmed.html",
       "source": "CNBC",
       "published": "Wed, 18 Mar 2026 20:09:36 GMT",
-      "title_ko": "파월이 워시가 확정될 때까지 연준의 수장으로 남을 것이라고 말했다"
+      "title_ko": "파월이 워시가 확정될 때까지 연준의 수장으로 남아 있을 것이라고 말했다"
     },
     {
       "title": "How China is getting everyone on OpenClaw, from gearheads to grandmas",
