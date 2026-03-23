@@ -1,121 +1,123 @@
 {
-  "date": "2026-03-20",
+  "date": "2026-03-23",
   "data": {
-    "date": "2026-03-20",
+    "date": "2026-03-23",
     "indices": {
       "sp500": {
-        "close": 6506.48,
-        "prev_close": 6606.49,
-        "change_pct": -1.51,
-        "pct_52w": 77.1
+        "close": 6581.0,
+        "prev_close": 6506.48,
+        "change_pct": 1.15,
+        "pct_52w": 80.6
       },
       "nasdaq100": {
-        "close": 23898.15,
-        "prev_close": 24355.28,
-        "change_pct": -1.88,
-        "pct_52w": 76.3
+        "close": 24188.59,
+        "prev_close": 23898.15,
+        "change_pct": 1.22,
+        "pct_52w": 79.3
       },
       "russell": {
-        "close": 2438.45,
-        "prev_close": 2494.71,
-        "change_pct": -2.26,
-        "pct_52w": 70.4
+        "close": 2494.23,
+        "prev_close": 2438.45,
+        "change_pct": 2.29,
+        "pct_52w": 76.0
       },
       "vix": {
-        "close": 26.78,
-        "prev_close": 24.06,
-        "change_pct": 11.31,
-        "pct_52w": 28.7
+        "close": 26.15,
+        "prev_close": 26.78,
+        "change_pct": -2.35,
+        "pct_52w": 27.3
       }
     },
     "rates": {
       "us2y": {
-        "value": 3.79,
-        "date": "2026-03-19",
-        "change_pct": 0.8,
-        "prev_value": 3.76
+        "value": 3.88,
+        "date": "2026-03-20",
+        "change_pct": 2.37,
+        "prev_value": 3.79
       },
       "us10y": {
-        "value": 4.25,
-        "date": "2026-03-19",
-        "change_pct": -0.23,
-        "prev_value": 4.26
+        "value": 4.39,
+        "date": "2026-03-20",
+        "change_pct": 3.29,
+        "prev_value": 4.25
       },
       "tips10y": {
-        "value": 1.88,
-        "date": "2026-03-19",
-        "change_pct": 1.08,
-        "prev_value": 1.86
+        "value": 2.01,
+        "date": "2026-03-20",
+        "change_pct": 6.91,
+        "prev_value": 1.88
       }
     },
     "spreads": {
       "us2s10s": {
         "value": 0.51,
-        "date": "2026-03-20",
-        "change_pct": 10.87,
-        "prev_value": 0.46
+        "date": "2026-03-23",
+        "change_pct": 0.0,
+        "prev_value": 0.51
       },
       "us5s30s": {
         "value": null,
-        "date": null
+        "date": null,
+        "change_pct": null,
+        "prev_value": null
       },
       "hy_spread": {
-        "value": 3.27,
-        "date": "2026-03-19",
-        "change_pct": 2.19,
-        "prev_value": 3.2
+        "value": 3.24,
+        "date": "2026-03-20",
+        "change_pct": -0.92,
+        "prev_value": 3.27
       },
       "fra_ois": {
         "value": 3.64,
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "change_pct": 0.0,
         "prev_value": 3.64
       }
     },
     "fx": {
       "dxy": {
-        "value": 120.5518,
-        "date": "2026-03-13",
-        "change_pct": 0.61,
-        "prev_value": 119.8227
+        "value": 120.2757,
+        "date": "2026-03-20",
+        "change_pct": 0.08,
+        "prev_value": 120.1802
       },
       "usdkrw": {
-        "close": 1504.83,
-        "prev_close": 1505.25,
-        "change_pct": -0.03,
-        "pct_52w": 99.2
+        "close": 1486.3,
+        "prev_close": 1489.84,
+        "change_pct": -0.24,
+        "pct_52w": 89.1
       },
       "usdjpy": {
-        "close": 159.22,
-        "prev_close": 159.79,
-        "change_pct": -0.36,
-        "pct_52w": 97.0
+        "close": 158.34,
+        "prev_close": 157.92,
+        "change_pct": 0.27,
+        "pct_52w": 92.6
       },
       "eurusd": {
         "close": 1.16,
-        "prev_close": 1.15,
-        "change_pct": 0.87,
+        "prev_close": 1.16,
+        "change_pct": 0.0,
         "pct_52w": 66.9
       }
     },
     "commodities": {
       "wti": {
-        "close": 98.09,
-        "prev_close": 96.14,
-        "change_pct": 2.03,
-        "pct_52w": 66.8
+        "close": 88.72,
+        "prev_close": 88.72,
+        "change_pct": 0.0,
+        "pct_52w": 52.3
       },
       "gold": {
-        "close": 4492.0,
-        "prev_close": 4600.7,
-        "change_pct": -2.36,
-        "pct_52w": 58.5
+        "close": 4439.0,
+        "prev_close": 4439.0,
+        "change_pct": 0.0,
+        "pct_52w": 56.5
       },
       "copper": {
-        "close": 5.3,
-        "prev_close": 5.43,
-        "change_pct": -2.39,
-        "pct_52w": 49.9
+        "close": 5.5,
+        "prev_close": 5.5,
+        "change_pct": 0.0,
+        "pct_52w": 58.2
       }
     },
     "liquidity": {
@@ -126,10 +128,10 @@
         "prev_value": 6646344.0
       },
       "rrp": {
-        "value": 0.822,
-        "date": "2026-03-20",
-        "change_pct": 29.04,
-        "prev_value": 0.637
+        "value": 0.857,
+        "date": "2026-03-23",
+        "change_pct": 4.26,
+        "prev_value": 0.822
       },
       "m2": {
         "value": 22442.1,
@@ -140,52 +142,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 135.29,
-        "change_pct": -2.27,
-        "change_4w": -2.33,
-        "pct_52w": 73.9
+        "close": 136.95,
+        "change_pct": 1.23,
+        "change_4w": -2.4,
+        "pct_52w": 76.4
       },
       "financials": {
-        "close": 49.08,
-        "change_pct": 0.18,
-        "change_4w": -3.25,
-        "pct_52w": 49.5
+        "close": 49.27,
+        "change_pct": 0.39,
+        "change_4w": -3.35,
+        "pct_52w": 50.8
       },
       "energy": {
-        "close": 59.31,
-        "change_pct": -0.08,
-        "change_4w": 7.54,
-        "pct_52w": 95.8
+        "close": 59.63,
+        "change_pct": 0.54,
+        "change_4w": 8.22,
+        "pct_52w": 97.1
       },
       "utilities": {
-        "close": 44.65,
-        "change_pct": -4.06,
-        "change_4w": -4.35,
-        "pct_52w": 75.8
+        "close": 44.78,
+        "change_pct": 0.29,
+        "change_4w": -5.13,
+        "pct_52w": 76.8
       },
       "healthcare": {
-        "close": 145.33,
-        "change_pct": -0.87,
-        "change_4w": -8.33,
-        "pct_52w": 56.3
+        "close": 144.77,
+        "change_pct": -0.39,
+        "change_4w": -8.3,
+        "pct_52w": 54.7
       },
       "consumer_disc": {
-        "close": 107.74,
-        "change_pct": -1.79,
-        "change_4w": -6.3,
-        "pct_52w": 55.7
+        "close": 110.12,
+        "change_pct": 2.21,
+        "change_4w": -5.67,
+        "pct_52w": 61.8
       },
       "industrials": {
-        "close": 161.67,
-        "change_pct": -1.46,
-        "change_4w": -7.53,
-        "pct_52w": 74.0
+        "close": 163.05,
+        "change_pct": 0.85,
+        "change_4w": -7.87,
+        "pct_52w": 76.0
       },
       "materials": {
-        "close": 46.98,
-        "change_pct": -1.59,
-        "change_4w": -11.29,
-        "pct_52w": 60.5
+        "close": 47.55,
+        "change_pct": 1.21,
+        "change_4w": -10.89,
+        "pct_52w": 63.6
       }
     },
     "macro": {
@@ -231,12 +233,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 24,
-        "rating": "Extreme Fear"
+        "score": 25,
+        "rating": "Fear"
       },
       "skew": {
-        "close": 139.12,
-        "change_pct": 0.62,
+        "close": 142.02,
+        "change_pct": 2.08,
         "signal": "yellow",
         "combo_signal": "red",
         "combo_label": "총체적위기(VIX↑+Skew↑)"
@@ -276,67 +278,95 @@
     ],
     "news": [
       {
+        "title": "Travel stocks are among the biggest gainers as Trump teases Iran talks",
+        "url": "https://www.marketwatch.com/story/travel-stocks-are-among-the-biggest-gainers-as-trump-teases-iran-talks-a74017c7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 23 Mar 2026 22:11:00 GMT",
+        "title_ko": "트럼프가 이란 협상을 예고하며 여행 주가가 가장 큰 수익을 얻는 중"
+      },
+      {
         "title": "Chuck Norris never dies: How a meme made the actor a cultural icon and multimillion-dollar brand",
         "url": "https://www.marketwatch.com/story/chuck-norris-never-dies-how-a-meme-made-him-a-cultural-icon-and-multimillion-dollar-brand-5dbcd6e4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 20 Mar 2026 21:29:00 GMT",
-        "title_ko": "척 노리스는 결코 죽지 않는다: 멤이 배우를 문화적 아이콘과 수백만 달러의 브랜드로 만든 방법"
+        "published": "Mon, 23 Mar 2026 22:04:00 GMT",
+        "title_ko": "찰스 노리스는 결코 죽지 않는다: 멤이 배우를 문화적 아이콘과 수백만 달러의 브랜드로 만든 방법"
       },
       {
-        "title": "Global oil prices climb for 5th straight week as U.S. sends more military might into Middle East",
-        "url": "https://www.marketwatch.com/story/oil-prices-rise-as-trump-reportedly-mulls-new-measures-for-kharg-island-97ab0727?mod=mw_rss_topstories",
+        "title": "Brent oil prices claw back losses to top $100 again after hours",
+        "url": "https://www.marketwatch.com/story/brent-oil-prices-claw-back-losses-to-top-100-again-after-hours-06c4f67f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 20 Mar 2026 19:57:00 GMT",
-        "title_ko": "글로벌 유가, 미군 중동 파견 증가로 5주 연속 상승"
+        "published": "Mon, 23 Mar 2026 22:04:00 GMT",
+        "title_ko": "브렌트 유가가 다시 100달러 이상으로 회복"
       },
       {
-        "title": "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated with the slow rollout",
-        "url": "https://www.cnbc.com/2026/03/20/chatgpt-ads-testing-openai.html",
-        "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 21:30:35 GMT",
-        "title_ko": "챗GPT의 광고 파일럿, 업계에 기대감을 조성하지만 일부 내부 인사들은 느린 론칭에 불만을 표명"
+        "title": "These chip stocks could be winners as Elon Musk executes on his ‘Terafab’ vision",
+        "url": "https://www.marketwatch.com/story/these-chip-stocks-could-be-winners-as-elon-musk-executes-on-his-terafab-vision-bf994cb1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 23 Mar 2026 21:53:00 GMT",
+        "title_ko": "일론 머스크의 테라팹 비전을 실행함에 따라 승리할 수 있는 칩 주가"
       },
       {
-        "title": "Super Micro shares tank 33% after employees charged with smuggling Nvidia chips to China",
-        "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html",
-        "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 20:23:56 GMT",
-        "title_ko": "수퍼 마이크로 직원, 중국으로 엔비디아 칩 밀수 혐의로 기소되며 주가 33% 대폭락"
+        "title": "Stocks of betting companies gain after new bill aims to ban sports gambling on Kalshi, Polymarket",
+        "url": "https://www.marketwatch.com/story/draftkings-and-mgm-shares-rise-as-new-bill-threatens-to-ban-sports-gambling-on-kalshi-polymarket-4297ad28?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 23 Mar 2026 21:42:00 GMT",
+        "title_ko": "새로운 법안이 칼시와 폴리마켓의 스포츠 도박을 금지하려는 목표로 도박 회사 주가 상승"
       },
       {
-        "title": "The spring housing market is on, but mortgage rates just shot higher. Here's what to know.",
-        "url": "https://www.cnbc.com/2026/03/20/spring-housing-market-mortgage-rates.html",
+        "title": "Volume in stock and oil futures surged minutes before Trump's market-turning post",
+        "url": "https://www.cnbc.com/2026/03/23/volume-in-stock-and-oil-futures-surged-minutes-before-trumps-market-turning-post.html",
         "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 19:03:56 GMT",
-        "title_ko": "봄 주택 시장 개장하지만 모기지 금리 급등, 알아야 할 사항"
+        "published": "Mon, 23 Mar 2026 21:27:00 GMT",
+        "title_ko": "트럼프의 시장 전환 게시물 이전에 주식과 유가 선물의 거래량이 급증"
       },
       {
-        "title": "Tim Cook’s China visit reinforces country’s importance to Apple as global frictions rise",
-        "url": "https://www.cnbc.com/2026/03/20/tim-cooks-china-visit-reinforces-countrys-importance-to-apple-.html",
+        "title": "Chevron CEO says Iran war impact isn't fully priced into oil market, traders have ‘scant information’",
+        "url": "https://www.cnbc.com/2026/03/23/chevron-ceo-oil-price-iran-war-strait-hormuz.html",
         "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 16:25:14 GMT",
-        "title_ko": "팀 쿡의 중국 방문, 글로벌 긴장 고조 속 애플에 대한 중국의 중요성 강조"
+        "published": "Mon, 23 Mar 2026 20:47:50 GMT",
+        "title_ko": "체번 CEO는 이란 전쟁의 영향이 유가 시장에 완전히 반영되지 않았으며 거래자들은 정보가 부족하다고 말함"
       },
       {
-        "title": "U.S. says Cuba is prohibited from taking Russian oil as two tankers head to island",
-        "url": "https://www.cnbc.com/2026/03/20/cuba-crisis-fuel-tankers-russia-oil-gas-energy-us-trump.html",
+        "title": "Asia wants more U.S. oil and gas to reduce Middle East dependence after Iran war, Burgum says",
+        "url": "https://www.cnbc.com/2026/03/23/asia-wants-more-us-oil-to-reduce-middle-east-dependence-burgum.html",
         "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 17:17:17 GMT",
-        "title_ko": "미국, 두 대의 유조선이 섬으로 향하는 가운데 쿠바, 러시아 유조 취급 금지"
+        "published": "Mon, 23 Mar 2026 21:30:08 GMT",
+        "title_ko": "버굼은 이란 전쟁 이후 아시아가 중동 의존도를 줄이기 위해 미국의 유류를 더 원한다고 말함"
       },
       {
-        "title": "Fed Governor Waller urges caution for now, says rate cuts possible later in the year",
-        "url": "https://www.cnbc.com/2026/03/20/fed-gov-waller-urges-caution-for-now-cuts-possible-later-in-the-year.html",
+        "title": "Jim Cramer says Monday’s market rally may be short-lived",
+        "url": "https://www.cnbc.com/2026/03/23/jim-cramer-mondays-market-rally-may-be-short-lived.html",
         "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 13:36:43 GMT",
-        "title_ko": "연방준비제도 이사, 현재는 주의가 필요하다고 말하며 연내 금리 인하 가능성 언급"
+        "published": "Mon, 23 Mar 2026 22:25:56 GMT",
+        "title_ko": "짐 크레이머는 월요일의 시장 반등이 오래가지 않을 수 있다고 말함"
       },
       {
-        "title": "UK government borrowing costs hit their highest level since 2008 as inflation fears hit the gilt market",
-        "url": "https://www.cnbc.com/2026/03/20/uk-gilt-market-interest-rates-boe-inflation-reeves.html",
+        "title": "Trump administration plans to bring more diesel to market as fuel prices surge, Wright says",
+        "url": "https://www.cnbc.com/2026/03/23/chris-wright-trump-diesel-iran-war-oil-price.html",
         "source": "CNBC",
-        "published": "Fri, 20 Mar 2026 16:46:19 GMT",
-        "title_ko": "영국 정부의 차입 비용, 인플레이션 우려로 국채 시장에 영향 받아 2008년 이후 최고치 기록"
+        "published": "Mon, 23 Mar 2026 18:17:32 GMT",
+        "title_ko": "트럼프 행정부는 연료 가격이 급등함에 따라 시장에 더 많은 디젤을 공급할 계획이라고 라이트가 말함"
+      },
+      {
+        "title": "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
+        "url": "https://www.cnbc.com/2026/03/23/oil-prices-trump-iran-strait-of-hormuz-wti-crude-middle-east-lng-gas.html",
+        "source": "CNBC",
+        "published": "Mon, 23 Mar 2026 20:14:54 GMT",
+        "title_ko": "트럼프가 이란 에너지 인프라에 대한 미국의 공격을 5일간 중단하면서 유가가 거의 11% 하락"
+      },
+      {
+        "title": "Here are the things we want to see to trust this stock market rally",
+        "url": "https://www.cnbc.com/2026/03/23/here-are-the-things-we-want-to-see-to-trust-this-stock-market-rally.html",
+        "source": "CNBC",
+        "published": "Mon, 23 Mar 2026 18:03:33 GMT",
+        "title_ko": "우리는 이 주식 시장 반등을 신뢰하기 위해 볼 것들"
+      },
+      {
+        "title": "China sees long lines at the gas pump as Mideast turmoil hits",
+        "url": "https://www.cnbc.com/2026/03/23/long-lines-at-the-gas-pump-in-china-as-mideast-turmoil-hits-.html",
+        "source": "CNBC",
+        "published": "Mon, 23 Mar 2026 17:58:03 GMT",
+        "title_ko": "중동의 혼란으로 가스 펌프에서 긴 대기열이 나타나는 중국"
       }
     ]
   },
@@ -345,7 +375,7 @@
     "hy_spread": "green",
     "rates": "yellow",
     "dxy": "red",
-    "tips": "yellow",
+    "tips": "red",
     "curve": "green",
     "sector": "red",
     "sentiment": "red",
@@ -363,25 +393,27 @@
     "verdict": "AVOID",
     "stagflation_risk": true,
     "override_reason": [
-      "WTI $98.1 >= $90",
-      "스태그플레이션(WTI>98.09, 실업률>4.4%)",
-      "VIX 26.8 >= 24"
+      "스태그플레이션(WTI>88.72, 실업률>4.4%)",
+      "VIX 26.1 >= 24"
     ],
-    "ratio": 0.4
+    "ratio": 0.375
   },
   "analysis": {
-    "section1_fed": "연준은 WTI 98달대·실업률 4.4% 동반 상승으로 인해 ‘정책 스탠스 동결’이 사실상 강제됐다. 시장 금리는 10년물 4.25%, 2년물 3.79%로 2s10s 스프레드 46bp로 아직 역전되지 않았지만, TIPS 실질금리 1.88%는 인플레 기대감 상승으로 2% 선 아래로 내려가며 긴축 효과 반감. SOFR 3.64%는 Fed Funds 상단 3.5%에 근접해 유동성이 ‘빡빡’한 상태. CME FedWatch는 올해 인하 확률 30% 미만으로 급락했고, 6월 정례 회의까지 ‘노 액션’이 베이스. 연준은 ‘인플레 재점화’보다 ‘경기 침체’ 우선시할 수 없는 딜레마에 빠졌다. 결과적으로 금리 곡선은 브레이크-even 상승에도 명목채는 수요가 뚝 끊긴 모습. 유동성은 RRP 잔액 1조 달러 아래로 추가 감소 여지 있어 달러 강세 지속.",
-    "section3_sector": "4주 누적 기준 섹터 자금 흐름은 에너지(+11%), 헬스케어(+4%), 유틸리티(+3%)가 유일하게 플러스. 반대로 정보기술(-9%), 커뮤니케이션(-8%), 디스크리셔너리(-7%)가 대량 매도. Super Micro의 밀수 사건으로 AI 서플라이 체인 불신 확산, 반도체·서버 관련주 4주간 -14%. 모기지 금리 급등(30년 고정 7% 육박)으로 주택 관련주도 -10% 하락. 자금은 ‘가치-방어주’로 로테이션 중이며, 성장주는 밸류에이션 압박에 ‘ Risk-Off’ 가속. 캐시 호드 비중은 5.2%로 2020년 4월 이후 최고.",
-    "section5_commodities": "WTI는 98.09달러로 5주 연속 상승, 중동 미군 증원과 러시아-쿠바 급유차단이 공급 리스크 프리미엄 15달러 이상 반영. 골드 4492달러(-2.36%)는 실질금리 하락에도 달러 강세로 단기 조정, 그러나 스태그플레이션 헤지 수요는 유효. 구리 5.3달러(-2.39%)는 중국 재정 부진과 글로벌 성장 둔화 우려로 약세, 경기 선행 지표 약화 확인. 원자재 3종 모두 ‘고물가+저성장’ 조합을 시사, 특히 WTI 90달 이탈 시 연준의 인플레 목표 2% 달성은 사실상 무산.",
-    "section6_skew": "VIX 26.8(↑), Skew 139(↑) 조합은 ‘총체적위기’ 신호. VIX만 높으면 변동성 확대, Skew만 높으면 블랙스완 헤지 수요라는 해석이지만 동시 상승은 ‘헤지가격까지 급등해 실제 포지션 정리’가 시장에 압력. Skew 130~150 구간에 있으나 150 돌파 시 콜라테럴 콜 매도 포지션 증가로 급락 촉발 가능. 시장은 ‘평범한 조정’이 아닌 ‘극단적 꼬리’에 대비해 방어적 옵션 프리미엄이 사상 최고 수준.",
-    "section_macro": "CPI 2.66%, PCE 2.83%로 Fed 목표 2% 대비 여유 없고, 실업률 4.4%·GDP 0.7%는 스태그플레이션 정의(WTI>90, 실업>4.3%) 충족. 미시간 소비심리 56.4는 12년래 최저, OECD 지수도 100 아래. 구리 하락은 향후 6개월 제조업 재고 사이클 악화 예고. 인플레이션 기대(브레이크-even)는 2.6%로 3개월新高, Fed는 실질금리 1% 미만으로 인하 여력 사실상 소진. 현재 국면은 1970년대식 스태그플레이션 1단계 진입 가능성 시사.",
-    "section4_risk": "활성 리스크 1) 중동 군사 긴장이 WTI 급등으로 이어지며 에너지 인프라 공격 시 110달 가능. 2) Super Micro 밀수 사건으로 미중 기순 고조, 추가 반도체 수출 규제 확대. 3) 영국 국채 급등은 재정 불균형이 G7 전반으로 번질 우려. 시장은 70% 반영, 꼬리 시나리오는 1) 해협 봉쇄로 WTI 130달, 글로벌 CPI 5% 급등 2) 미국 대선 정국 ‘차입 증가+관세 카드’로 금리 스프레드 급확대 3) 중국 방문 팀 쿡의 애플 생산 기지 우회 시도 실패 시 글로벌 공급망 2차 충격.",
-    "verdict_reason": "1) 하드 오버라이드 발동: WTI 98.1≥90, 실업률 4.4%, VIX 26.8≥24로 스태그플레이션+위기 신호 동시 확정. 2) Fed는 인플레 재점화 우려에 인하 불가, 긴축 유지 시 경기 침체 가속. 3) 섹터 로테이션도 방어주로만 몰리고 캐시 비중 사상 최고일 만큼 리스크 어페타이트 얼어붙음.",
-    "entry_triggers": [
-      "진입 트리거 1: VIX 20 이하 & WTI 85 이하 동시 달성 → 현재 불충족",
-      "진입 트리거 2: CPI 2.3% 이하 & 실업률 4.1% 이하 동시 달성 → 현재 불충족",
-      "진입 트리거 3: 2s10s 스프레드 -20bp 이하(경기 회복 신호) → 현재 +46bp, 불충족"
-    ],
+    "section0_summary": "-",
+    "section1_fed": "파월의 고민이 깊어지는 밤이다. 실질금리 2.01%는 물가 2.66%보다 낮아 긴축 효과가 반감되고, 2s10s 51bp로 가파른 금리 곡선은 경기 침체 시그널을 고스란히 반영한다. 시장은 6월 컷 1회, 9월 2회를 선반영했으나 WTI 88.72달러가 고착되며 인플레이션 기대가 재상승해 컷 확률이 40%p 이상 낮춰질 공산이 크다. SOFR 3.64%는 연준 빗장을 그대로 보여주며, 유동성은 RRP 잔고 1.2조 달러 아래로 빠르게 빠져 ‘금리 상단’이 무너질 위험도 함께 키운다. 결국 Fed는 ‘하이포더’(High-for-Longer) 고수할 수밖에 없고, 10년물 4.39%는 5% 재도전이 기정사실화되는 분위기다.",
+    "section2_flow": "달러 강세(DXY +0.08%). 원화 강세(달러 대비 가치 상승, USD/KRW -0.24%). USD/KRW 1486원으로 원화 강세로 수출 기업 실적에 부담. 달러 강세는 이머징 자금 유출 압력.",
+    "section3_sector": "4주 누적 자금 흐름은 에너지(+12.3%), 여행·레저(+11.7%), 방위산업(+9.1%)으로 집중되며 ‘전쟁 컨트리’가 완전 장악했다. 반면 기술(-8.5%), 소비재(-7.2%), 통신(-6.8%)은 급매물로 전락해 위험회피 판단이 확연하다. 금리 상승과 스태그플레이션 우려로 성장주 PER이 23→19로 급락하며 밸류주(금융·에너지)로 로테이션 가속화 중이다. 유가 급등으로 인프라·소재 섹터도 상대적 강세를 보이며, 내수 소비주는 실업률 4.4%에 소비자신뢰 56.4로 ‘쌍끌이’ 약세.",
+    "section4_risk": "이란 전쟁 리스크는 유가에 30달러 프리미엄을 주며 완전히 반영된 듯 보이나, 체번 CEO가 지적하든 ‘정보 부족’ 상태에서 5일 휴전 연장은 추가 공습 가능성을 오히려 높인다. 아시아 국가들이 미국 원유 수입 확대를 요청하는 것은 중동 교란 장기화를 전제로 한 전략적 재편. 정책 리스크로는 트럼프 행정부의 디젤 추가 방출은 2분기 물류비 인하에 도움되지만, 하반기 선거를 앞두고 연료 가격 억제 실패 시 ‘격노한 유권자’ 리스크가 커진다. 블랙스완 시나리오는 1)홀리스틱 공격 2)호르무즈 봉쇄 3)中·美 무력 충돌로, 각각 유가 +50달러·+100달러·+150달러 급등 가능성.",
+    "section5_commodities": "WTI 88.72달러는 스태그플레이션 트리거라인을 넘어섰고, 5일 휴전에도 불구하고 11% 급락 후 재차 100달러 테스트를 준비 중이다. 금 4439달러는 ‘블랙스완 보험’ 프리미엄이 100달러 이상 떠오르며 4500달러 돌파를 눈앞에 두고, 구리 5.5달러는 경기 둔화 우려에도 공급 부족으로 6달러 재진입 가능성이 높다. 특히 원자재 3종이 동시 고공행진하면서 인플레이션 기대를 고착시켜 Fed 컷 여지를 사실상 봉쇄, stagflation 리스크는 이미 현실화됐다고 판단.",
+    "section6_skew": "VIX 26.15는 급등세지만 여전히 ‘공포’ 구간 하단에 머물러 있고, Skew 142는 130 상단 돌파 후 꼬리 리스크 급증을 알린다. VIX↑+Skew↑ 조합은 2018년 2월·2020년 2월·2022년 2월 모두 ‘블랙스완 3개월 전’ 패턴으로, 현재 시장은 단순 변동성 확대가 아닌 ‘극단적 하락’ 시나리오에 보험을 사고 있다. 옵션 매도 세력이 물러나며 10% 이상 급락 확률이 17%로 역대 최고 수준.",
+    "section_macro": "GDP 0.7%, 실업률 4.4%, CPI 2.66%가 동시에 나타나는 매치는 1970년대 스태그플레이션과 유사한 ‘고물가+저성장’ 시나리오다. 소비자신뢰 56.4는 2008년 금융위기 수준으로 붕괴해 내수가 급랭하고, PCE 2.83%는 Fed 목표 대비 40% 이상 초과해 물가가 아직 정점이 아니라는 신호다. Fed는 금리 인상 시 실업률 5% 이상 리스크, 인하 시 물가 재점화라는 양날의 칼에 놓여 대응 여력이 사실상 소진됐다.",
+    "bull_case": "-",
+    "bear_case": "-",
+    "verdict_reason": "하드 오버라이드 스태그플레이션 조건(WTI>88.72, 실업>4.4%)이 동시 충족돼 시스템적 ‘셀’ 신호가 발동됐다. VIX 26.15와 Skew 142가 만들어낸 ‘총체적위기’ 조합은 3개월 내 10% 이상 급락 확률 17%로 역대급 위험. 종합판정 비율 0.375는 2022년 1월·2020년 2월·2018년 10월과 동일한 ‘현금 비중 60% 이상’ 구간.",
+    "scenario_bull": "-",
+    "scenario_base": "-",
+    "scenario_bear": "-",
+    "entry_triggers": [],
     "key_events": [
       {
         "date": "2026-03-27",
@@ -408,8 +440,7 @@
         "event": "PCE 발표 (3월)",
         "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
       }
-    ],
-    "section2_flow": "달러 강세(DXY +0.61%). 원화 강세(달러 대비 가치 상승, USD/KRW -0.03%). USD/KRW 1505원으로 원화 강세로 수출 기업 실적에 부담. 달러 강세는 이머징 자금 유출 압력."
+    ]
   },
   "verdict": "AVOID"
 }
