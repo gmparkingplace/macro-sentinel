@@ -1,57 +1,57 @@
 {
-  "date": "2026-03-24",
+  "date": "2026-03-25",
   "indices": {
     "sp500": {
-      "close": 6556.37,
-      "prev_close": 6581.0,
-      "change_pct": -0.37,
-      "pct_52w": 79.4
+      "close": 6591.9,
+      "prev_close": 6556.37,
+      "change_pct": 0.54,
+      "pct_52w": 81.1
     },
     "nasdaq100": {
-      "close": 24002.45,
-      "prev_close": 24188.59,
-      "change_pct": -0.77,
-      "pct_52w": 77.4
+      "close": 24162.98,
+      "prev_close": 24002.45,
+      "change_pct": 0.67,
+      "pct_52w": 79.1
     },
     "russell": {
-      "close": 2505.44,
-      "prev_close": 2494.23,
-      "change_pct": 0.45,
-      "pct_52w": 77.1
+      "close": 2536.38,
+      "prev_close": 2505.44,
+      "change_pct": 1.23,
+      "pct_52w": 80.2
     },
     "vix": {
-      "close": 26.95,
-      "prev_close": 26.15,
-      "change_pct": 3.06,
-      "pct_52w": 29.0
+      "close": 25.33,
+      "prev_close": 26.95,
+      "change_pct": -6.01,
+      "pct_52w": 25.6
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.83,
-      "date": "2026-03-23",
-      "change_pct": -1.29,
-      "prev_value": 3.88
+      "value": 3.9,
+      "date": "2026-03-24",
+      "change_pct": 1.83,
+      "prev_value": 3.83
     },
     "us10y": {
-      "value": 4.34,
-      "date": "2026-03-23",
-      "change_pct": -1.14,
-      "prev_value": 4.39
+      "value": 4.39,
+      "date": "2026-03-24",
+      "change_pct": 1.15,
+      "prev_value": 4.34
     },
     "tips10y": {
-      "value": 2.01,
-      "date": "2026-03-23",
-      "change_pct": 0.0,
+      "value": 2.06,
+      "date": "2026-03-24",
+      "change_pct": 2.49,
       "prev_value": 2.01
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.49,
-      "date": "2026-03-24",
-      "change_pct": -3.92,
-      "prev_value": 0.51
+      "date": "2026-03-25",
+      "change_pct": 0.0,
+      "prev_value": 0.49
     },
     "us5s30s": {
       "value": null,
@@ -59,13 +59,13 @@
     },
     "hy_spread": {
       "value": 3.19,
-      "date": "2026-03-23",
-      "change_pct": -1.54,
-      "prev_value": 3.24
+      "date": "2026-03-24",
+      "change_pct": 0.0,
+      "prev_value": 3.19
     },
     "fra_ois": {
       "value": 3.64,
-      "date": "2026-03-23",
+      "date": "2026-03-24",
       "change_pct": 0.0,
       "prev_value": 3.64
     }
@@ -78,16 +78,16 @@
       "prev_value": 120.1802
     },
     "usdkrw": {
-      "close": 1498.34,
-      "prev_close": 1504.21,
-      "change_pct": -0.39,
-      "pct_52w": 90.1
+      "close": 1501.99,
+      "prev_close": 1485.36,
+      "change_pct": 1.12,
+      "pct_52w": 91.9
     },
     "usdjpy": {
-      "close": 158.71,
-      "prev_close": 159.23,
-      "change_pct": -0.33,
-      "pct_52w": 94.4
+      "close": 158.72,
+      "prev_close": 158.48,
+      "change_pct": 0.15,
+      "pct_52w": 94.5
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 88.68,
-      "prev_close": 88.13,
-      "change_pct": 0.62,
-      "pct_52w": 52.2
+      "close": 91.06,
+      "prev_close": 92.35,
+      "change_pct": -1.4,
+      "pct_52w": 55.9
     },
     "gold": {
-      "close": 4501.1,
-      "prev_close": 4404.1,
-      "change_pct": 2.2,
+      "close": 4500.0,
+      "prev_close": 4399.3,
+      "change_pct": 2.29,
       "pct_52w": 58.8
     },
     "copper": {
-      "close": 5.53,
-      "prev_close": 5.44,
-      "change_pct": 1.65,
-      "pct_52w": 59.4
+      "close": 5.51,
+      "prev_close": 5.42,
+      "change_pct": 1.66,
+      "pct_52w": 58.6
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6646344.0
     },
     "rrp": {
-      "value": 1.123,
-      "date": "2026-03-24",
-      "change_pct": 31.04,
-      "prev_value": 0.857
+      "value": 0.777,
+      "date": "2026-03-25",
+      "change_pct": -30.81,
+      "prev_value": 1.123
     },
     "m2": {
       "value": 22667.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 136.15,
-      "change_pct": -0.58,
-      "change_4w": -4.8,
-      "pct_52w": 75.2
+      "close": 136.76,
+      "change_pct": 0.45,
+      "change_4w": -3.01,
+      "pct_52w": 76.1
     },
     "financials": {
-      "close": 49.28,
-      "change_pct": 0.02,
-      "change_4w": -4.99,
-      "pct_52w": 50.9
+      "close": 49.34,
+      "change_pct": 0.12,
+      "change_4w": -6.02,
+      "pct_52w": 51.3
     },
     "energy": {
-      "close": 60.84,
-      "change_pct": 2.03,
-      "change_4w": 10.88,
-      "pct_52w": 97.5
+      "close": 60.57,
+      "change_pct": -0.44,
+      "change_4w": 10.75,
+      "pct_52w": 96.5
     },
     "utilities": {
-      "close": 45.09,
-      "change_pct": 0.69,
-      "change_4w": -4.79,
-      "pct_52w": 79.2
+      "close": 45.25,
+      "change_pct": 0.35,
+      "change_4w": -3.42,
+      "pct_52w": 82.9
     },
     "healthcare": {
-      "close": 144.79,
-      "change_pct": 0.01,
-      "change_4w": -8.26,
-      "pct_52w": 54.8
-    },
-    "consumer_disc": {
-      "close": 109.68,
-      "change_pct": -0.4,
-      "change_4w": -6.33,
+      "close": 146.24,
+      "change_pct": 1.0,
+      "change_4w": -6.72,
       "pct_52w": 60.7
     },
+    "consumer_disc": {
+      "close": 110.73,
+      "change_pct": 0.96,
+      "change_4w": -5.21,
+      "pct_52w": 63.4
+    },
     "industrials": {
-      "close": 164.0,
-      "change_pct": 0.58,
-      "change_4w": -6.61,
-      "pct_52w": 77.4
+      "close": 165.1,
+      "change_pct": 0.67,
+      "change_4w": -6.3,
+      "pct_52w": 79.7
     },
     "materials": {
-      "close": 48.45,
-      "change_pct": 1.89,
-      "change_4w": -8.69,
-      "pct_52w": 68.6
+      "close": 49.41,
+      "change_pct": 1.98,
+      "change_4w": -6.37,
+      "pct_52w": 75.1
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 24,
-      "rating": "Extreme Fear"
+      "score": 27,
+      "rating": "Fear"
     },
     "skew": {
-      "close": 142.63,
-      "change_pct": 0.43,
+      "close": 140.88,
+      "change_pct": -1.23,
       "signal": "yellow",
       "combo_signal": "red",
       "combo_label": "총체적위기(VIX↑+Skew↑)"
@@ -270,78 +270,84 @@
       "event": "PCE 발표 (3월)",
       "category": "pce",
       "impact": "high"
+    },
+    {
+      "date": "2026-05-06",
+      "event": "FOMC 금리 결정",
+      "category": "fed",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "Oil prices fall, stock futures climb on reports U.S. has proposed a cease-fire to Iran",
-      "url": "https://www.marketwatch.com/story/oil-prices-fall-stock-futures-climb-on-reports-u-s-has-proposed-a-cease-fire-to-iran-c6594893?mod=mw_rss_topstories",
+      "title": "Super Micro, Dell and HPE have been red-hot stocks this week. What’s behind the big moves.",
+      "url": "https://www.marketwatch.com/story/super-micro-dell-and-hpe-have-been-red-hot-stocks-this-week-whats-behind-the-big-moves-9fc8acc7?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 22:55:00 GMT",
-      "title_ko": "원유 가격이 하락하고 미국이 이란에 정전을 제안했다는 보도에 주식 선물이 상승했다"
+      "published": "Wed, 25 Mar 2026 21:02:00 GMT",
+      "title_ko": "슈퍼 마이크로, 델, HPE 주가가 이번 주에 급등하고 있습니다. 큰 움직임의 배경은 무엇일까요."
     },
     {
-      "title": "A bad Treasury auction is offering a glimpse into the anxiety on Wall Street over the Iran war",
-      "url": "https://www.marketwatch.com/story/a-bad-treasury-auction-is-offering-a-glimpse-into-the-anxiety-on-wall-street-over-the-iran-war-fd17f7a6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 22:19:00 GMT",
-      "title_ko": "부적절한 국채 매각이 이란 전쟁에 대한 월 스트리트의 불안을 보여주고 있다"
-    },
-    {
-      "title": "Software stocks fall as fear of AI disruption is back in full force",
-      "url": "https://www.marketwatch.com/story/software-stocks-fall-as-fear-of-ai-disruption-is-back-in-full-force-c5cdf640?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 22:09:00 GMT",
-      "title_ko": "인공지능 혼란의 두려움이 다시 완전한 힘을 얻으면서 소프트웨어 주가가 하락했다"
-    },
-    {
-      "title": "3 signals tied to severe market drops are all flashing now",
-      "url": "https://www.marketwatch.com/story/history-shows-investors-are-right-to-worry-about-2026-being-a-bad-year-for-u-s-stocks-2d82d09b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 21:59:00 GMT",
-      "title_ko": "심각한 시장 하락과 관련된 3개의 신호가 모두 현재 점등되고 있다"
-    },
-    {
-      "title": "Iran is testing a selective Strait of Hormuz strategy that could deliver another shock to oil markets",
-      "url": "https://www.marketwatch.com/story/iran-is-testing-a-selective-strait-of-hormuz-strategy-that-could-deliver-another-shock-to-oil-markets-fd739b63?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 21:35:00 GMT",
-      "title_ko": "이란은 오일 시장에 또 다른 충격을 줄 수 있는 호르무즈 해협의 선택적 전략을 테스트하고 있다"
-    },
-    {
-      "title": "U.S. stocks are looking cheap for the first time in a year",
-      "url": "https://www.marketwatch.com/story/u-s-stocks-are-looking-cheap-for-the-first-time-in-a-year-f4226f65?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 21:18:00 GMT",
-      "title_ko": "미국 주식이 1년 만에 처음으로 저렴해 보인다"
-    },
-    {
-      "title": "Pentagon reportedly plans to deploy 3,000 troops to the Middle East, lifting oil prices by nearly 5%",
-      "url": "https://www.marketwatch.com/story/oil-rises-as-saudi-arabia-and-uae-reportedly-weigh-joining-iran-war-d1236604?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Mar 2026 20:25:00 GMT",
-      "title_ko": "미국 국방부가 중동에 3,000명의 군대를 배치할 계획으로 오일 가격이 거의 5% 상승했다"
-    },
-    {
-      "title": "Watch Venezuela opposition leader María Corina Machado address oil and gas executives in Houston",
-      "url": "https://www.cnbc.com/2026/03/24/venezuela-oil-machado-maduro-trump.html",
+      "title": "How the Iran war could crush the U.S. housing recovery, and it's not just about mortgage rates",
+      "url": "https://www.cnbc.com/2026/03/25/heres-how-the-iran-war-is-already-hitting-the-us-housing-market.html",
       "source": "CNBC",
-      "published": "Tue, 24 Mar 2026 22:06:22 GMT",
-      "title_ko": "Watch Venezuela opposition leader María Corina Machado address oil and gas executives in Houston"
+      "published": "Wed, 25 Mar 2026 19:34:25 GMT",
+      "title_ko": "이란 전쟁이 미국 주택 시장을 어떻게 망칠 수 있는지, 그리고 그것은 단지 모기지 금리에 관한 것이 아닙니다."
     },
     {
-      "title": "Kuwait says Strait of Hormuz closure is beyond catastrophic, will trigger domino effect across global economy",
-      "url": "https://www.cnbc.com/2026/03/24/iran-war-oil-strait-hormuz-kuwait-gulf.html",
+      "title": "U.S. Postal Service seeks 8% fuel surcharge for package deliveries as Iran war raises oil prices",
+      "url": "https://www.cnbc.com/2026/03/25/us-postal-fuel-surcharge-package-deliveries-iran-oil.html",
       "source": "CNBC",
-      "published": "Tue, 24 Mar 2026 20:24:42 GMT",
-      "title_ko": "쿠웨이트는 호르무즈 해협의 폐쇄가 비참한 것을 넘어서며 세계 경제 전반에 도미노 효과를 일으킬 것이라고 말했다"
+      "published": "Wed, 25 Mar 2026 21:57:14 GMT",
+      "title_ko": "미국 우정청, 이란 전쟁으로 인한 유가 상승으로 패키지 배송에 8%의 연료 추가금을 청구합니다."
     },
     {
-      "title": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
-      "url": "https://www.cnbc.com/2026/03/24/united-airlines-premium-seats.html",
+      "title": "White House says Trump will meet Xi in China in May",
+      "url": "https://www.cnbc.com/2026/03/25/trump-xi-beijing-china-summit.html",
       "source": "CNBC",
-      "published": "Tue, 24 Mar 2026 19:37:44 GMT",
-      "title_ko": "유나이티드 항공이 새로운 레이아웃으로 더 큰 프리미엄 객실을 만들기 위해 더 많은 이코노미 좌석을 없앴다"
+      "published": "Wed, 25 Mar 2026 18:24:19 GMT",
+      "title_ko": "백악관, 트럼프가 5월에 중국에서 시진핑을 만날 것이라고 밝혔습니다."
+    },
+    {
+      "title": "Space stocks rally on reports of SpaceX's imminent IPO filing",
+      "url": "https://www.cnbc.com/2026/03/25/space-stocks-.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 20:08:40 GMT",
+      "title_ko": "Space stocks rally on reports of SpaceX's imminent IPO filing"
+    },
+    {
+      "title": "Meta cutting several hundred jobs across Reality Labs, Facebook and other departments",
+      "url": "https://www.cnbc.com/2026/03/25/meta-layoffs-reality-labs-facebook.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 17:12:13 GMT",
+      "title_ko": "메타, 리얼리티 랩스, 페이스북, 기타 부서에서 수백 명의 직원을 감원합니다."
+    },
+    {
+      "title": "It’s not just oil and gas. The Strait of Hormuz blockage is rattling another vital commodity",
+      "url": "https://www.cnbc.com/2026/03/25/fertilizer-price-iran-war-food-security-inflation-urea-potash-nitrogen-farmers.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 14:42:46 GMT",
+      "title_ko": "유전과 가스뿐만이 아닙니다. 호르무즈 해협의 폐쇄가 또 다른 중요한 물품에 영향을 미치고 있습니다."
+    },
+    {
+      "title": "As March Madness unfolds, NY Fed highlights sports betting toll on consumer credit health",
+      "url": "https://www.cnbc.com/2026/03/25/sports-betting-credit-health-ny-fed.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 17:57:01 GMT",
+      "title_ko": "3월 매드니스 대회가 진행되는 동안 뉴욕 연방 준비은행은 스포츠 도박이 소비자 신용 건강에 미치는 영향을 강조합니다."
+    },
+    {
+      "title": "The research firm whose AI paper knocked the whole stock market is out with another big call",
+      "url": "https://www.cnbc.com/2026/03/25/the-firm-whose-ai-paper-knocked-the-whole-market-is-out-with-another-big-call.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 16:49:06 GMT",
+      "title_ko": "전체 주식시장을 흔든 인공지능 논문으로 유명한 연구기관이 또 다른 큰 예측을 내놓았습니다."
+    },
+    {
+      "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
+      "url": "https://www.cnbc.com/2026/03/25/recession-odds-climb-on-wall-street-as-economy-shows-cracks-beneath-the-surface.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Mar 2026 13:22:06 GMT",
+      "title_ko": "경제의 표면 아래에 금이 가고 있는 것으로 나타남에 따라 월 스트리트의 경기 침체 가능성이 높아지고 있습니다."
     }
   ]
 }
