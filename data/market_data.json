@@ -1,119 +1,119 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-30",
   "indices": {
     "sp500": {
-      "close": 6368.85,
-      "prev_close": 6477.16,
-      "change_pct": -1.67,
-      "pct_52w": 70.8
+      "close": 6343.72,
+      "prev_close": 6368.85,
+      "change_pct": -0.39,
+      "pct_52w": 69.6
     },
     "nasdaq100": {
-      "close": 23132.77,
-      "prev_close": 23586.99,
-      "change_pct": -1.93,
-      "pct_52w": 68.4
+      "close": 22953.38,
+      "prev_close": 23132.77,
+      "change_pct": -0.78,
+      "pct_52w": 66.5
     },
     "russell": {
-      "close": 2449.7,
-      "prev_close": 2493.32,
-      "change_pct": -1.75,
-      "pct_52w": 71.5
+      "close": 2414.01,
+      "prev_close": 2449.7,
+      "change_pct": -1.46,
+      "pct_52w": 68.0
     },
     "vix": {
-      "close": 31.05,
-      "prev_close": 27.44,
-      "change_pct": 13.16,
-      "pct_52w": 37.8
+      "close": 30.61,
+      "prev_close": 31.05,
+      "change_pct": -1.42,
+      "pct_52w": 36.9
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.96,
-      "date": "2026-03-26",
-      "change_pct": 3.13,
-      "prev_value": 3.84
+      "value": 3.88,
+      "date": "2026-03-27",
+      "change_pct": -2.02,
+      "prev_value": 3.96
     },
     "us10y": {
-      "value": 4.42,
-      "date": "2026-03-26",
-      "change_pct": 2.08,
-      "prev_value": 4.33
+      "value": 4.44,
+      "date": "2026-03-27",
+      "change_pct": 0.45,
+      "prev_value": 4.42
     },
     "tips10y": {
-      "value": 2.08,
-      "date": "2026-03-26",
-      "change_pct": 2.97,
-      "prev_value": 2.02
+      "value": 2.13,
+      "date": "2026-03-27",
+      "change_pct": 2.4,
+      "prev_value": 2.08
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.56,
-      "date": "2026-03-27",
-      "change_pct": 21.74,
-      "prev_value": 0.46
+      "value": 0.53,
+      "date": "2026-03-30",
+      "change_pct": -5.36,
+      "prev_value": 0.56
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.21,
-      "date": "2026-03-26",
-      "change_pct": 1.26,
-      "prev_value": 3.17
+      "value": 3.42,
+      "date": "2026-03-27",
+      "change_pct": 6.54,
+      "prev_value": 3.21
     },
     "fra_ois": {
       "value": 3.64,
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "change_pct": 0.0,
       "prev_value": 3.64
     }
   },
   "fx": {
     "dxy": {
-      "value": 120.2757,
-      "date": "2026-03-20",
-      "change_pct": 0.08,
-      "prev_value": 120.1802
+      "value": 120.8851,
+      "date": "2026-03-27",
+      "change_pct": 0.41,
+      "prev_value": 120.389
     },
     "usdkrw": {
-      "close": 1508.06,
-      "prev_close": 1500.97,
-      "change_pct": 0.47,
-      "pct_52w": 95.0
+      "close": 1507.02,
+      "prev_close": 1507.02,
+      "change_pct": 0.0,
+      "pct_52w": 92.7
     },
     "usdjpy": {
-      "close": 160.29,
-      "prev_close": 159.38,
-      "change_pct": 0.57,
-      "pct_52w": 99.4
+      "close": 159.83,
+      "prev_close": 160.23,
+      "change_pct": -0.25,
+      "pct_52w": 98.0
     },
     "eurusd": {
       "close": 1.15,
-      "prev_close": 1.16,
-      "change_pct": -0.86,
-      "pct_52w": 59.1
+      "prev_close": 1.15,
+      "change_pct": 0.0,
+      "pct_52w": 57.9
     }
   },
   "commodities": {
     "wti": {
-      "close": 101.18,
-      "prev_close": 94.48,
-      "change_pct": 7.09,
-      "pct_52w": 71.6
+      "close": 106.08,
+      "prev_close": 106.08,
+      "change_pct": 0.0,
+      "pct_52w": 79.2
     },
     "gold": {
-      "close": 4521.3,
-      "prev_close": 4375.5,
-      "change_pct": 3.33,
-      "pct_52w": 59.6
+      "close": 4533.2,
+      "prev_close": 4533.2,
+      "change_pct": 0.0,
+      "pct_52w": 60.1
     },
     "copper": {
-      "close": 5.46,
-      "prev_close": 5.45,
-      "change_pct": 0.18,
-      "pct_52w": 56.5
+      "close": 5.48,
+      "prev_close": 5.48,
+      "change_pct": 0.0,
+      "pct_52w": 57.3
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6655939.0
     },
     "rrp": {
-      "value": 0.992,
-      "date": "2026-03-27",
-      "change_pct": 12.09,
-      "prev_value": 0.885
+      "value": 0.752,
+      "date": "2026-03-30",
+      "change_pct": -24.19,
+      "prev_value": 0.992
     },
     "m2": {
       "value": 22667.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 129.92,
-      "change_pct": -1.95,
-      "change_4w": -6.78,
-      "pct_52w": 66.1
+      "close": 127.5,
+      "change_pct": -1.86,
+      "change_4w": -8.63,
+      "pct_52w": 62.2
     },
     "financials": {
-      "close": 47.81,
-      "change_pct": -2.53,
-      "change_4w": -6.33,
-      "pct_52w": 42.6
+      "close": 48.36,
+      "change_pct": 1.15,
+      "change_4w": -5.73,
+      "pct_52w": 44.6
     },
     "energy": {
-      "close": 62.56,
-      "change_pct": 1.69,
-      "change_4w": 10.39,
-      "pct_52w": 99.1
+      "close": 61.96,
+      "change_pct": -0.96,
+      "change_4w": 8.63,
+      "pct_52w": 94.5
     },
     "utilities": {
-      "close": 45.59,
-      "change_pct": 0.57,
-      "change_4w": -3.08,
-      "pct_52w": 85.5
+      "close": 45.92,
+      "change_pct": 0.72,
+      "change_4w": -3.06,
+      "pct_52w": 85.6
     },
     "healthcare": {
-      "close": 143.26,
-      "change_pct": -1.7,
-      "change_4w": -9.26,
-      "pct_52w": 52.1
+      "close": 143.82,
+      "change_pct": 0.39,
+      "change_4w": -9.28,
+      "pct_52w": 52.0
     },
     "consumer_disc": {
-      "close": 105.68,
-      "change_pct": -2.89,
-      "change_4w": -8.26,
-      "pct_52w": 50.9
+      "close": 105.66,
+      "change_pct": -0.02,
+      "change_4w": -8.46,
+      "pct_52w": 50.3
     },
     "industrials": {
-      "close": 159.2,
-      "change_pct": -1.28,
-      "change_4w": -10.76,
-      "pct_52w": 71.0
+      "close": 156.61,
+      "change_pct": -1.63,
+      "change_4w": -12.46,
+      "pct_52w": 66.5
     },
     "materials": {
-      "close": 48.91,
-      "change_pct": -0.37,
-      "change_4w": -7.73,
-      "pct_52w": 72.3
+      "close": 49.09,
+      "change_pct": 0.37,
+      "change_4w": -7.81,
+      "pct_52w": 72.1
     }
   },
   "macro": {
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 18,
+      "score": 17,
       "rating": "Extreme Fear"
     },
     "skew": {
-      "close": 139.0,
-      "change_pct": -3.47,
+      "close": 142.23,
+      "change_pct": 2.32,
       "signal": "yellow",
       "combo_signal": "red",
       "combo_label": "총체적위기(VIX↑+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-03-27",
-      "event": "PCE 발표 (2월)",
-      "category": "pce",
-      "impact": "high"
-    },
     {
       "date": "2026-04-03",
       "event": "고용보고서 (3월)",
@@ -292,81 +286,109 @@
   ],
   "news": [
     {
-      "title": "Is Trump losing his grip on the stock market? Sustained declines suggest the president’s influence has waned.",
-      "url": "https://www.marketwatch.com/story/is-trump-losing-his-grip-on-the-market-sustained-stock-declines-suggest-the-presidents-influence-has-waned-02bc5938?mod=mw_rss_topstories",
+      "title": "Strategy skips a week of bitcoin purchases for the first time this year",
+      "url": "https://www.marketwatch.com/story/strategy-skips-a-week-of-bitcoin-purchases-for-the-first-time-this-year-81ba10ec?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 27 Mar 2026 23:18:00 GMT",
-      "title_ko": "트럼프가 주식 시장의 지배력을 잃고 있는가? 지속적인 하락은 대통령의 영향력이 약해졌음을 시사한다."
+      "published": "Mon, 30 Mar 2026 23:33:00 GMT",
+      "title_ko": "올해 처음으로 비트코인 구매를 일주일간 건너뛰는 전략"
     },
     {
-      "title": "More than half of the S&P 500 industry sectors are in correction territory. How much longer until the index itself succumbs?",
-      "url": "https://www.marketwatch.com/story/more-than-half-of-the-s-p-500-industry-sectors-are-in-correction-territory-how-much-longer-until-the-index-itself-succumbs-d649a87a?mod=mw_rss_topstories",
+      "title": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-are-faring-worse-than-during-past-geopolitical-shocks-and-theres-plenty-of-room-for-them-to-fall-further-30a17285?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 27 Mar 2026 21:46:00 GMT",
-      "title_ko": "S&P 500 산업 부문의 절반 이상이 수정 영역에 있다. 지수 자체가 무너지기까지 얼마나 더 걸릴까?"
+      "published": "Mon, 30 Mar 2026 20:59:00 GMT",
+      "title_ko": "미국 주식은 과거 지구정치적 충격보다 더 나쁨 — 주식이 더 떨어질 여지가 충분함"
     },
     {
-      "title": "These 16 stocks are a short seller’s dream — likely losers no matter what the market does",
-      "url": "https://www.marketwatch.com/story/these-16-stocks-are-a-short-sellers-dream-likely-losers-no-matter-what-the-market-does-feead011?mod=mw_rss_topstories",
+      "title": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys",
+      "url": "https://www.marketwatch.com/story/this-is-a-reason-the-middle-easts-major-oil-producing-countries-have-been-selling-their-u-s-treasurys-e5df841c?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 27 Mar 2026 21:31:00 GMT",
-      "title_ko": "이 16개 주가는 단기매매자의 꿈과 같은 주식이다 — 시장 상황과 상관없이 아마도 패배할 주식이다"
+      "published": "Mon, 30 Mar 2026 20:05:00 GMT",
+      "title_ko": "중동의 주요 유정국들이 미국 국채를 매도하는 이유"
     },
     {
-      "title": "Tech stocks suffer worst week in nearly a year, driven down by war worries, Meta legal woes",
-      "url": "https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html",
-      "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 22:06:33 GMT",
-      "title_ko": "기술 주가는 거의 1년 만에 최악의 주간을 보냈다. 전쟁 우려와 메타의 법적 문제로 가격이 떨어졌다."
+      "title": "A more than 50% rise in oil prices over the past month may be more than just a ‘short-lived shock’",
+      "url": "https://www.marketwatch.com/story/oil-prices-head-towards-highest-close-in-four-years-as-iran-conflict-shows-no-sign-of-ending-af9a093c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 30 Mar 2026 19:28:00 GMT",
+      "title_ko": "지난 한 달 동안 유가가 50% 이상 상승한 것은 단기적인 충격일 수도 있음"
     },
     {
-      "title": "Cybersecurity stocks fall on report Anthropic is testing a powerful new model",
-      "url": "https://www.cnbc.com/2026/03/27/anthropic-cybersecurity-stocks-ai-mythos.html",
-      "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 20:04:22 GMT",
-      "title_ko": "사이버 보안 주가는 앤트로픽이 강력한 새로운 모델을 테스트하고 있다는 보고로 하락했다."
+      "title": "Nasdaq paves the way for SpaceX and OpenAI to quickly join a premier index after IPOs",
+      "url": "https://www.marketwatch.com/story/nasdaq-paves-the-way-for-spacex-and-openai-to-quickly-join-a-premier-index-after-ipos-07e06614?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 30 Mar 2026 19:18:00 GMT",
+      "title_ko": "나스닥, 스페이스X와 오픈AI가 상장 후 빠르게 주요 지수를 구성할 수 있도록 길을 열어줌"
     },
     {
-      "title": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy",
-      "url": "https://www.cnbc.com/2026/03/27/sony-playstation-5-ps5-price-rise.html",
-      "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 14:08:46 GMT",
-      "title_ko": "소니는 글로벌 경제의 '압력'을 이유로 PS5 가격을 최대 150달러 인상했다."
+      "title": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA",
+      "url": "https://www.marketwatch.com/story/these-stocks-are-the-place-to-be-if-you-want-serious-ai-growth-says-bofa-35df5562?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 30 Mar 2026 19:08:00 GMT",
+      "title_ko": "보아에 따르면 이 주식들은 심각한 인공지능 성장을 원한다면 있어야 할 곳"
     },
     {
-      "title": "Oil prices close at highest level since 2022 as Iran negotiations fail to ease supply fears",
-      "url": "https://www.cnbc.com/2026/03/27/oil-price-wti-brent-crude-trump-strait-hormuz-tensions-iran-ships.html",
+      "title": "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
       "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 19:12:52 GMT",
-      "title_ko": "이란과의 협상이 공급 우려를 완화하지 못하면서 원유 가격이 2022년 이후 최고 수준으로 마감했다."
+      "published": "Mon, 30 Mar 2026 20:02:10 GMT",
+      "title_ko": "브렌트 유가, 월간 최고치 기록할 것으로 예상, WTI는 2022년 이후 처음으로 100달러 이상 마감"
     },
     {
-      "title": "Iran war wipes out $100 billion from luxury stocks",
-      "url": "https://www.cnbc.com/2026/03/27/iran-war-wipes-out-100-billion-from-luxury-stocks.html",
+      "title": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+      "url": "https://www.cnbc.com/2026/03/30/china-suppliers-warn-higher-us-prices-hormuz-closure.html",
       "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 14:01:07 GMT",
-      "title_ko": "이란 전쟁으로 고급 주식에서 1천억 달러가 증발했다."
+      "published": "Mon, 30 Mar 2026 20:19:38 GMT",
+      "title_ko": "호르무즈 해협 폐쇄로 미국인들에게 더 높은 가격을 부과할 것이라는 중국 공급업체의 경고"
     },
     {
-      "title": "Why investors should resist the easiest course of action in a difficult market",
-      "url": "https://www.cnbc.com/2026/03/27/why-investors-should-resist-the-easiest-course-in-a-difficult-market.html",
+      "title": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks",
+      "url": "https://www.cnbc.com/2026/03/30/bill-ackman-says-its-one-of-the-best-times-in-a-long-time-to-buy-quality-stocks.html",
       "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 17:01:48 GMT",
-      "title_ko": "어려운 시장에서 투자자는 가장 쉬운 행동을 취하지 말아야 한다."
+      "published": "Mon, 30 Mar 2026 15:46:33 GMT",
+      "title_ko": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks"
     },
     {
-      "title": "Strategy is accelerating its crypto purchases as rivals sit on the sidelines",
-      "url": "https://www.cnbc.com/2026/03/27/strategy-is-accelerating-its-crypto-purchases-as-rivals-sit-on-the-sidelines.html",
+      "title": "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+      "url": "https://www.cnbc.com/2026/03/30/powell-sees-inflation-outlook-in-check-no-wider-crisis-yet-in-private-credit.html",
       "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 20:15:59 GMT",
-      "title_ko": "전략은 라이벌들이 관전하는 동안 암호화폐 구매를 가속화하고 있다."
+      "published": "Mon, 30 Mar 2026 19:34:25 GMT",
+      "title_ko": "파월, 인플레이션 전망은 안정적, 유가 충격으로 금리 인상을 할 필요 없음"
     },
     {
-      "title": "Italy investigates Sephora and Benefit over skincare marketing to children",
-      "url": "https://www.cnbc.com/2026/03/27/sephora-benefit-investigation-skincare-marketing-children-tween-italy.html",
+      "title": "Micron stock sinks 10%, further cratering in post-earnings sell-off",
+      "url": "https://www.cnbc.com/2026/03/30/micron-stock-earnings-sell-off-memory-shortage.html",
       "source": "CNBC",
-      "published": "Fri, 27 Mar 2026 15:58:45 GMT",
-      "title_ko": "이탈리아는 아동에게 스킨케어 마케팅을 한 세포라와 베네피트를 조사하고 있다."
+      "published": "Mon, 30 Mar 2026 21:06:26 GMT",
+      "title_ko": "마이크론 주식, 10% 하락, 실적 발표 후 매도 물결이 더욱 심화"
+    },
+    {
+      "title": "This is what really causes recessions, a former top Trump White House economist says",
+      "url": "https://www.cnbc.com/2026/03/30/recession-economy-trump-white-house-economist.html",
+      "source": "CNBC",
+      "published": "Mon, 30 Mar 2026 16:57:35 GMT",
+      "title_ko": "This is what really causes recessions, a former top Trump White House economist says"
+    },
+    {
+      "title": "NFL asks prediction market operators to refrain from 'objectionable bets'",
+      "url": "https://www.cnbc.com/2026/03/30/nfl-asks-prediction-markets-to-refrain-from-objectionable-bets.html",
+      "source": "CNBC",
+      "published": "Mon, 30 Mar 2026 17:58:25 GMT",
+      "title_ko": "NFL, 예측 시장 운영업체에 '반대되는 도박'을 자제해 줄 것을 요청"
+    },
+    {
+      "title": "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
+      "url": "https://www.cnbc.com/2026/03/30/iran-attacks-aluminum-producers-shockwaves-market-metals.html",
+      "source": "CNBC",
+      "published": "Mon, 30 Mar 2026 14:40:19 GMT",
+      "title_ko": "이란의 알루미늄 생산업체 공격, 금속 시장에 '충격파'를 보내고 있음"
+    },
+    {
+      "title": "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
+      "url": "https://www.cnbc.com/2026/03/30/trump-iran-oil-middle-east-war-israel-us-kuwait-attack-.html",
+      "source": "CNBC",
+      "published": "Mon, 30 Mar 2026 13:07:30 GMT",
+      "title_ko": "트럼프, 이란의 유정을 차지하고 싶어함, 테헤란은 쿠웨이트의 물과 발전 시설을 표적로 공격"
     }
   ]
 }
