@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-02",
+  "date": "2026-04-03",
   "indices": {
     "sp500": {
       "close": 6582.69,
@@ -21,36 +21,36 @@
     },
     "vix": {
       "close": 23.87,
-      "prev_close": 24.54,
-      "change_pct": -2.73,
+      "prev_close": 23.87,
+      "change_pct": 0.0,
       "pct_52w": 22.4
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.81,
-      "date": "2026-04-01",
-      "change_pct": 0.53,
-      "prev_value": 3.79
+      "value": 3.79,
+      "date": "2026-04-02",
+      "change_pct": -0.52,
+      "prev_value": 3.81
     },
     "us10y": {
-      "value": 4.33,
-      "date": "2026-04-01",
-      "change_pct": 0.7,
-      "prev_value": 4.3
+      "value": 4.31,
+      "date": "2026-04-02",
+      "change_pct": -0.46,
+      "prev_value": 4.33
     },
     "tips10y": {
-      "value": 2.02,
-      "date": "2026-04-01",
-      "change_pct": 1.0,
-      "prev_value": 2.0
+      "value": 1.97,
+      "date": "2026-04-02",
+      "change_pct": -2.48,
+      "prev_value": 2.02
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.52,
-      "date": "2026-04-02",
-      "change_pct": 0.0,
+      "value": 0.51,
+      "date": "2026-04-03",
+      "change_pct": -1.92,
       "prev_value": 0.52
     },
     "us5s30s": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 3.16,
-      "date": "2026-04-01",
-      "change_pct": -3.66,
-      "prev_value": 3.28
+      "value": 3.17,
+      "date": "2026-04-02",
+      "change_pct": 0.32,
+      "prev_value": 3.16
     },
     "fra_ois": {
       "value": 3.64,
-      "date": "2026-04-01",
+      "date": "2026-04-02",
       "change_pct": 0.0,
       "prev_value": 3.64
     }
@@ -78,16 +78,16 @@
       "prev_value": 120.389
     },
     "usdkrw": {
-      "close": 1512.09,
-      "prev_close": 1512.09,
-      "change_pct": 0.0,
-      "pct_52w": 88.5
+      "close": 1510.54,
+      "prev_close": 1509.22,
+      "change_pct": 0.09,
+      "pct_52w": 87.7
     },
     "usdjpy": {
-      "close": 159.49,
+      "close": 159.63,
       "prev_close": 158.69,
-      "change_pct": 0.5,
-      "pct_52w": 96.4
+      "change_pct": 0.59,
+      "pct_52w": 97.0
     },
     "eurusd": {
       "close": 1.15,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 112.06,
+      "close": 111.54,
       "prev_close": 100.12,
-      "change_pct": 11.93,
-      "pct_52w": 88.5
+      "change_pct": 11.41,
+      "pct_52w": 87.7
     },
     "gold": {
-      "close": 4702.7,
+      "close": 4651.5,
       "prev_close": 4783.2,
-      "change_pct": -1.68,
-      "pct_52w": 66.5
+      "change_pct": -2.75,
+      "pct_52w": 64.5
     },
     "copper": {
-      "close": 5.68,
+      "close": 5.56,
       "prev_close": 5.62,
-      "change_pct": 1.07,
-      "pct_52w": 65.6
+      "change_pct": -1.07,
+      "pct_52w": 60.7
     }
   },
   "liquidity": {
@@ -198,10 +198,10 @@
       "change_pct": null
     },
     "unemployment": {
-      "value": 4.4,
-      "date": "2026-02-01",
-      "change_pct": 2.33,
-      "prev_value": 4.3
+      "value": 4.3,
+      "date": "2026-03-01",
+      "change_pct": -2.27,
+      "prev_value": 4.4
     },
     "pce": {
       "value": 2.83,
@@ -292,53 +292,81 @@
   ],
   "news": [
     {
-      "title": "Gold’s bull run faces hurdles but finish line is not necessarily in view, according to UBS strategist",
-      "url": "https://www.marketwatch.com/story/golds-bull-run-could-be-nearing-its-finish-line-says-ubs-strategist-0f2d94f8?mod=mw_rss_topstories",
+      "title": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 02 Apr 2026 23:32:00 GMT",
-      "title_ko": "금값 상승세에 장애물이 있지만 골라인은 아직 보이지 않는다"
+      "published": "Fri, 03 Apr 2026 21:20:00 GMT",
+      "title_ko": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?"
     },
     {
-      "title": "These charts show the cracks in the stock market are widening",
-      "url": "https://www.marketwatch.com/story/these-charts-show-the-cracks-in-the-stock-market-are-widening-9ee6a281?mod=mw_rss_topstories",
+      "title": "‘I’d like to be a superhost’: Is it unethical to use AI in my Airbnb photos to market my property?",
+      "url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 02 Apr 2026 21:43:00 GMT",
-      "title_ko": "주식시장의 균열이 넓어지는 그래프"
+      "published": "Fri, 03 Apr 2026 20:18:00 GMT",
+      "title_ko": "‘슈퍼호스트가 되고 싶습니다’: 에어비앤비 사진에 인공지능을 사용하여 부동산을 마케팅하는 것이 비윤리적인가요?"
     },
     {
-      "title": "The March jobs report will be released on Friday. Here's what to expect",
-      "url": "https://www.cnbc.com/2026/04/02/the-march-jobs-report-will-be-released-on-friday-heres-what-to-expect.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Apr 2026 20:04:41 GMT",
-      "title_ko": "금요일에 발표되는 3월 고용 보고서에 대한 예상"
+      "title": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it.",
+      "url": "https://www.marketwatch.com/story/buyers-finally-have-leverage-in-the-housing-market-here-are-3-smart-ways-to-use-it-49abcfa3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 03 Apr 2026 19:34:00 GMT",
+      "title_ko": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it."
     },
     {
-      "title": "CFTC sues Arizona, Connecticut, Illinois over prediction market regulation",
-      "url": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Apr 2026 20:24:20 GMT",
-      "title_ko": "미래 거래위원회, 예측 시장 규제와 관련해 애리조나, 코네티컷, 일리노이 주를 고소"
+      "title": "In today’s job market, it’s more ‘show me a desk’ than ‘show me the money’",
+      "url": "https://www.marketwatch.com/story/in-todays-job-market-its-more-show-me-a-desk-than-show-me-the-money-3b66754e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 03 Apr 2026 19:18:00 GMT",
+      "title_ko": "-> 구매자가 주택시장에서 우위를 점했습니다. 여기에는 3가지 좋은 방법이 있습니다."
     },
     {
-      "title": "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
-      "url": "https://www.cnbc.com/2026/04/02/trump-pharmaceutical-tariffs-100percent.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Apr 2026 21:11:48 GMT",
-      "title_ko": "트럼프 행정부, 일부 수입 의약품에 최대 100% 관세 부과, 많은 회사들은 면제"
+      "title": "Jobs data, Iran war add to inflation fears for retirees",
+      "url": "https://www.marketwatch.com/story/jobs-data-iran-war-add-to-inflation-fears-for-retirees-20175428?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 03 Apr 2026 18:54:00 GMT",
+      "title_ko": "오늘날의 직장시장에서는 ‘내게 책상을 보여줘’가 ‘내게 돈을 보여줘’보다 더 중요합니다"
     },
     {
-      "title": "Market volatility poses a serious risk for new retirees. Here’s how to prepare",
-      "url": "https://www.cnbc.com/2026/04/02/market-volatility-retirement-sequence-of-returns-risk.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Apr 2026 18:55:06 GMT",
-      "title_ko": "시장 변동성이 신임 은퇴자에게 심각한 위험을 초래한다. 준비하는 방법"
+      "title": "These little-known chip stocks could be winners as SpaceX and Amazon make big satellite pushes",
+      "url": "https://www.marketwatch.com/story/these-little-known-chip-stocks-could-be-winners-as-spacex-and-amazon-make-big-satellite-pushes-361000a3?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 03 Apr 2026 18:33:00 GMT",
+      "title_ko": "고용 데이터와 이란 전쟁이 은퇴자들의 인플레이션 우려를 더합니다"
     },
     {
-      "title": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-      "url": "https://www.cnbc.com/2026/04/02/oil-prices-today-wti-brent-trump-speech-iran-war-.html",
+      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
+      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
       "source": "CNBC",
-      "published": "Thu, 02 Apr 2026 18:56:19 GMT",
-      "title_ko": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation"
+      "published": "Fri, 03 Apr 2026 13:35:34 GMT",
+      "title_ko": "스페이스X와 아마존이 큰 인공위성 사업을 추진함에 따라 이 작은 알려지지 않은 칩 주가가 승리할 수 있습니다"
+    },
+    {
+      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
+      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Apr 2026 11:30:01 GMT",
+      "title_ko": "3월 미국 고용은 17만8천명으로 예상보다 많았고 실업률은 4.3%"
+    },
+    {
+      "title": "'Chasing vibes' — OpenAI's M&A strategy gets more confusing with TBPN purchase",
+      "url": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Apr 2026 22:13:34 GMT",
+      "title_ko": "트럼프 관세의 여파: 일부 산업은 1년 후에도 여전히 영향을 받고 있습니다"
+    },
+    {
+      "title": "These master's degrees lead to fast-growing, in-demand jobs—but offer low ROI",
+      "url": "https://www.cnbc.com/2026/04/03/masters-degrees-low-roi.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Apr 2026 13:00:01 GMT",
+      "title_ko": "‘바이브를 쫓는 것’ — 오픈AI의 인수전략은 TBPN 매입으로 더 복잡해집니다"
+    },
+    {
+      "title": "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening",
+      "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Apr 2026 07:39:47 GMT",
+      "title_ko": "이 석사 학위는 빠르게 성장하고 수요가 많은 직업으로 이어지지만 ROI가 낮습니다"
     }
   ]
 }

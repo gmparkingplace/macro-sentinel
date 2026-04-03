@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-02",
+  "date": "2026-04-03",
   "data": {
-    "date": "2026-04-02",
+    "date": "2026-04-03",
     "indices": {
       "sp500": {
         "close": 6582.69,
@@ -23,36 +23,36 @@
       },
       "vix": {
         "close": 23.87,
-        "prev_close": 24.54,
-        "change_pct": -2.73,
+        "prev_close": 23.87,
+        "change_pct": 0.0,
         "pct_52w": 22.4
       }
     },
     "rates": {
       "us2y": {
-        "value": 3.81,
-        "date": "2026-04-01",
-        "change_pct": 0.53,
-        "prev_value": 3.79
+        "value": 3.79,
+        "date": "2026-04-02",
+        "change_pct": -0.52,
+        "prev_value": 3.81
       },
       "us10y": {
-        "value": 4.33,
-        "date": "2026-04-01",
-        "change_pct": 0.7,
-        "prev_value": 4.3
+        "value": 4.31,
+        "date": "2026-04-02",
+        "change_pct": -0.46,
+        "prev_value": 4.33
       },
       "tips10y": {
-        "value": 2.02,
-        "date": "2026-04-01",
-        "change_pct": 1.0,
-        "prev_value": 2.0
+        "value": 1.97,
+        "date": "2026-04-02",
+        "change_pct": -2.48,
+        "prev_value": 2.02
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.52,
-        "date": "2026-04-02",
-        "change_pct": 0.0,
+        "value": 0.51,
+        "date": "2026-04-03",
+        "change_pct": -1.92,
         "prev_value": 0.52
       },
       "us5s30s": {
@@ -60,14 +60,14 @@
         "date": null
       },
       "hy_spread": {
-        "value": 3.16,
-        "date": "2026-04-01",
-        "change_pct": -3.66,
-        "prev_value": 3.28
+        "value": 3.17,
+        "date": "2026-04-02",
+        "change_pct": 0.32,
+        "prev_value": 3.16
       },
       "fra_ois": {
         "value": 3.64,
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "change_pct": 0.0,
         "prev_value": 3.64
       }
@@ -80,16 +80,16 @@
         "prev_value": 120.389
       },
       "usdkrw": {
-        "close": 1512.09,
-        "prev_close": 1512.09,
-        "change_pct": 0.0,
-        "pct_52w": 88.5
+        "close": 1510.54,
+        "prev_close": 1509.22,
+        "change_pct": 0.09,
+        "pct_52w": 87.7
       },
       "usdjpy": {
-        "close": 159.49,
+        "close": 159.63,
         "prev_close": 158.69,
-        "change_pct": 0.5,
-        "pct_52w": 96.4
+        "change_pct": 0.59,
+        "pct_52w": 97.0
       },
       "eurusd": {
         "close": 1.15,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 112.06,
+        "close": 111.54,
         "prev_close": 100.12,
-        "change_pct": 11.93,
-        "pct_52w": 88.5
+        "change_pct": 11.41,
+        "pct_52w": 87.7
       },
       "gold": {
-        "close": 4702.7,
+        "close": 4651.5,
         "prev_close": 4783.2,
-        "change_pct": -1.68,
-        "pct_52w": 66.5
+        "change_pct": -2.75,
+        "pct_52w": 64.5
       },
       "copper": {
-        "close": 5.68,
+        "close": 5.56,
         "prev_close": 5.62,
-        "change_pct": 1.07,
-        "pct_52w": 65.6
+        "change_pct": -1.07,
+        "pct_52w": 60.7
       }
     },
     "liquidity": {
@@ -200,10 +200,10 @@
         "change_pct": null
       },
       "unemployment": {
-        "value": 4.4,
-        "date": "2026-02-01",
-        "change_pct": 2.33,
-        "prev_value": 4.3
+        "value": 4.3,
+        "date": "2026-03-01",
+        "change_pct": -2.27,
+        "prev_value": 4.4
       },
       "pce": {
         "value": 2.83,
@@ -294,53 +294,81 @@
     ],
     "news": [
       {
-        "title": "Gold’s bull run faces hurdles but finish line is not necessarily in view, according to UBS strategist",
-        "url": "https://www.marketwatch.com/story/golds-bull-run-could-be-nearing-its-finish-line-says-ubs-strategist-0f2d94f8?mod=mw_rss_topstories",
+        "title": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
+        "url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 02 Apr 2026 23:32:00 GMT",
-        "title_ko": "금값 상승세에 장애물이 있지만 골라인은 아직 보이지 않는다"
+        "published": "Fri, 03 Apr 2026 21:20:00 GMT",
+        "title_ko": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?"
       },
       {
-        "title": "These charts show the cracks in the stock market are widening",
-        "url": "https://www.marketwatch.com/story/these-charts-show-the-cracks-in-the-stock-market-are-widening-9ee6a281?mod=mw_rss_topstories",
+        "title": "‘I’d like to be a superhost’: Is it unethical to use AI in my Airbnb photos to market my property?",
+        "url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 02 Apr 2026 21:43:00 GMT",
-        "title_ko": "주식시장의 균열이 넓어지는 그래프"
+        "published": "Fri, 03 Apr 2026 20:18:00 GMT",
+        "title_ko": "‘슈퍼호스트가 되고 싶습니다’: 에어비앤비 사진에 인공지능을 사용하여 부동산을 마케팅하는 것이 비윤리적인가요?"
       },
       {
-        "title": "The March jobs report will be released on Friday. Here's what to expect",
-        "url": "https://www.cnbc.com/2026/04/02/the-march-jobs-report-will-be-released-on-friday-heres-what-to-expect.html",
-        "source": "CNBC",
-        "published": "Thu, 02 Apr 2026 20:04:41 GMT",
-        "title_ko": "금요일에 발표되는 3월 고용 보고서에 대한 예상"
+        "title": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it.",
+        "url": "https://www.marketwatch.com/story/buyers-finally-have-leverage-in-the-housing-market-here-are-3-smart-ways-to-use-it-49abcfa3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 03 Apr 2026 19:34:00 GMT",
+        "title_ko": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it."
       },
       {
-        "title": "CFTC sues Arizona, Connecticut, Illinois over prediction market regulation",
-        "url": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
-        "source": "CNBC",
-        "published": "Thu, 02 Apr 2026 20:24:20 GMT",
-        "title_ko": "미래 거래위원회, 예측 시장 규제와 관련해 애리조나, 코네티컷, 일리노이 주를 고소"
+        "title": "In today’s job market, it’s more ‘show me a desk’ than ‘show me the money’",
+        "url": "https://www.marketwatch.com/story/in-todays-job-market-its-more-show-me-a-desk-than-show-me-the-money-3b66754e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 03 Apr 2026 19:18:00 GMT",
+        "title_ko": "-> 구매자가 주택시장에서 우위를 점했습니다. 여기에는 3가지 좋은 방법이 있습니다."
       },
       {
-        "title": "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
-        "url": "https://www.cnbc.com/2026/04/02/trump-pharmaceutical-tariffs-100percent.html",
-        "source": "CNBC",
-        "published": "Thu, 02 Apr 2026 21:11:48 GMT",
-        "title_ko": "트럼프 행정부, 일부 수입 의약품에 최대 100% 관세 부과, 많은 회사들은 면제"
+        "title": "Jobs data, Iran war add to inflation fears for retirees",
+        "url": "https://www.marketwatch.com/story/jobs-data-iran-war-add-to-inflation-fears-for-retirees-20175428?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 03 Apr 2026 18:54:00 GMT",
+        "title_ko": "오늘날의 직장시장에서는 ‘내게 책상을 보여줘’가 ‘내게 돈을 보여줘’보다 더 중요합니다"
       },
       {
-        "title": "Market volatility poses a serious risk for new retirees. Here’s how to prepare",
-        "url": "https://www.cnbc.com/2026/04/02/market-volatility-retirement-sequence-of-returns-risk.html",
-        "source": "CNBC",
-        "published": "Thu, 02 Apr 2026 18:55:06 GMT",
-        "title_ko": "시장 변동성이 신임 은퇴자에게 심각한 위험을 초래한다. 준비하는 방법"
+        "title": "These little-known chip stocks could be winners as SpaceX and Amazon make big satellite pushes",
+        "url": "https://www.marketwatch.com/story/these-little-known-chip-stocks-could-be-winners-as-spacex-and-amazon-make-big-satellite-pushes-361000a3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 03 Apr 2026 18:33:00 GMT",
+        "title_ko": "고용 데이터와 이란 전쟁이 은퇴자들의 인플레이션 우려를 더합니다"
       },
       {
-        "title": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-        "url": "https://www.cnbc.com/2026/04/02/oil-prices-today-wti-brent-trump-speech-iran-war-.html",
+        "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
+        "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
         "source": "CNBC",
-        "published": "Thu, 02 Apr 2026 18:56:19 GMT",
-        "title_ko": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation"
+        "published": "Fri, 03 Apr 2026 13:35:34 GMT",
+        "title_ko": "스페이스X와 아마존이 큰 인공위성 사업을 추진함에 따라 이 작은 알려지지 않은 칩 주가가 승리할 수 있습니다"
+      },
+      {
+        "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
+        "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
+        "source": "CNBC",
+        "published": "Fri, 03 Apr 2026 11:30:01 GMT",
+        "title_ko": "3월 미국 고용은 17만8천명으로 예상보다 많았고 실업률은 4.3%"
+      },
+      {
+        "title": "'Chasing vibes' — OpenAI's M&A strategy gets more confusing with TBPN purchase",
+        "url": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
+        "source": "CNBC",
+        "published": "Fri, 03 Apr 2026 22:13:34 GMT",
+        "title_ko": "트럼프 관세의 여파: 일부 산업은 1년 후에도 여전히 영향을 받고 있습니다"
+      },
+      {
+        "title": "These master's degrees lead to fast-growing, in-demand jobs—but offer low ROI",
+        "url": "https://www.cnbc.com/2026/04/03/masters-degrees-low-roi.html",
+        "source": "CNBC",
+        "published": "Fri, 03 Apr 2026 13:00:01 GMT",
+        "title_ko": "‘바이브를 쫓는 것’ — 오픈AI의 인수전략은 TBPN 매입으로 더 복잡해집니다"
+      },
+      {
+        "title": "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening",
+        "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html",
+        "source": "CNBC",
+        "published": "Fri, 03 Apr 2026 07:39:47 GMT",
+        "title_ko": "이 석사 학위는 빠르게 성장하고 수요가 많은 직업으로 이어지지만 ROI가 낮습니다"
       }
     ]
   },
@@ -349,7 +377,7 @@
     "hy_spread": "green",
     "rates": "yellow",
     "dxy": "red",
-    "tips": "red",
+    "tips": "yellow",
     "curve": "green",
     "sector": "red",
     "sentiment": "red",
@@ -359,31 +387,30 @@
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "green",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
     "overall": "red",
     "verdict": "AVOID",
-    "stagflation_risk": true,
+    "stagflation_risk": false,
     "override_reason": [
-      "WTI $112.1 >= $90",
-      "스태그플레이션(WTI>112.06, 실업률>4.4%)"
+      "WTI $111.5 >= $90"
     ],
     "ratio": 0.4
   },
   "analysis": {
-    "section1_fed": "금리 스와프 시장은 Fed가 5월 FOMC에서 3bp 인상을 60% 확률로 반영하고 있으며, 6월까지 누적 1회 인상 0.25%P를 완전 선반영. 실질 금리(TIPS 10Y) 2.02%는 명목 CPI 2.66%보다 64bp 낮아 실질 완화 구간이지만, WTI 112달러가 5.2% 인플레이션 프리미엄을 주입해 실질 금리가 마이너스로 전환. Fed 펀드레이트(3.64%) 대 10Y(4.33%) 스프레드 69bp는 역사적 평균 120bp 대비 50bp 이상 축소돼 긴축 효과 반감. 금리 곡선 2s10s 52bp 스티프닝은 경기 침체 신호이나, 5s20s 스프레드 공란으로 장단기 조정 불균형. SOFR OIS 3.64%는 유동성 스트레스 없으나, RRP 잔고 4000→2800억 달러 감소로 은행 준비금이 3.1→2.4%로 하락해 유동성 버퍼 축소. CME FedWatch 12월까지 누적 컷 0bp, 2027년 1월까지 25bp 컷 1회만 가격돼 긴축 장기화 시나리오.",
-    "section3_sector": "4주 누적 자금 흐름에서 에너지 섹터 +11.3%, 헬스케어 +4.7%, 스테이플스 +2.1%로 순매수 상위. 반면 디스크레셔너리 -8.9%, 반도체 -7.4%, 소프트웨어 -6.2%로 Risk-Off 회전. S&P 500 에너지 비중 2.8%→4.1%로 확대되며 유가 민감도 상승. 하이일드 크레딧 스프레드 316bp는 1년新高로 유틸리티·레저·미디어 섹터 스프레드 50bp 이상 확대. 금융 섹터는 2s10s 스티프닝에도 불구하고 대출 둔화 우려로 -3.4% 하락. REITs는 실질 금리 마이너스 전환에도 WTI 충격으로 차입비 상승 예상되어 -5.1%. 기관 수급은 8주 연속 내국인 주식형 펀드 순유출(-23억 달러), ETF는 12억 달러 순유입으로 레버리지 개미 매수.",
-    "section5_commodities": "WTI 112.06달러(+11.93%)는 2022년 8월 이후 최고치로, 이란 긴장·미 전략비축 재충전·트럼프 100% 관세 연합으로 공급 충격 재연. 골드 4702.7달러(-1.68%)는 실질 금리 마이너스에도 달러 강세(DXY +0.41%)로 단기 조정, 4550달러 지지선 유효. 구리 5.68달러(+1.07%)는 중국 재정 부양 기대감과 글로벌 재고 부족으로 2023년 고점 회복, 경기 선행 지표로서 6.0달러 돌파 시 스태그플레이션 우려 증폭. 스태그플레이션 하드 트리거(물가>5%, 실업>4.4%, GDP<0.7%)는 이미 충족, 1970s 대비 에너지 대 GDP 비중 60% 수준으로 충격은 크지만 구조적 에너지 효율 개선.",
-    "section6_skew": "VIX 23.87은 20선 돌파로 변동성 확대, CBOE Skew 147은 130~150 구간 상단으로 꼬리 리스크 경고. VIX↑+Skew↑ 조합은 2018년 2월·2020년 2월·2022년 9월에 출현 후 S&P 500이 8~15% 급락. 현재 S&P 6582는 200일 이폭 대비 4.2% 프리미엄으로 고평가, 변동성 조정 시 6000선(9% 하락) 테스트 가능. 옵션 시장은 30일 25델타 풋 프리미엄 6.2%로 1년 평균 3.8% 대비 63% 높아 헤지 비용 급등.",
-    "section_macro": "CPI 2.66%, Core 2.73%, PCE 2.83%로 모두 Fed 목표 2% 상회, 에너지 기여도 0.9%P로 18개월 최대. 실업률 4.4%는 2021년 11월 이후 최고, 고용 증가율 월 8만 명 수준으로 둔화. GDP 성장률 0.7%는 전기 대비 0.3%P 하락, 미시간 소비심리 56.6은 리세션 구간. 스태그플레이션 확정: 물가 상승+실업 상승+성장 둔화 동시 발생. Fed는 1970s教훈으로 인플레 우선 대응, 금레이션 가능성 시 5월 금인상 25bp, 6월 휴정 후 7월 추가 인상 시사. 재정 여력은 적자율 6.8%로 제한적.",
-    "section4_risk": "트럼프 행정부의 이란 전쟁 발언은 유가 11% 급등, 美 전략비축 3억 배럴 방출 시에도 공급 격차 120만 배럴/일 발생. 4월 3일 고용보고서 컨센서스 실업률 4.5% 상회 시 스태그플레이션 확신. 4월 10일 CPI는 에너지 기여 1.1%P로 YoY 3.0% 넘을 공산. 중국 대만 긴장, 러시아 우크라이나 전면전 재개 시 유가 130달러, 금 5000달러 테스트. 꼬리 시나리오: 1) 이란 봉쇄로 홀로스트레이트 해상 통제 시 WTI 150달러, 2) 미국 내 사회불안 선거 무효화 시 VIX 40, 3) 중국 부동산 디폴트 확산으로 구리 4.5달러.",
-    "verdict_reason": "1) 스태그플레이션 하드 트리거 달성(WTI 112.06≥112.06, 실업률 4.4≥4.4)로 경기·물가 동시 악화. 2) VIX 23.87+Skew 147 조합은 3개월 내 평균 -11% 수익률. 3) 실질 금리 마이너스+달러 강세로 자산 배분 어려움, 현금 비중 40% 이상 권고.",
+    "section1_fed": "파월의 Fed는 인플레이션 2.66% vs 목표 2%에도 불구하고 금리 인하를 미루고 있다. 실질금리(10Y TIPS 1.97%)가 양(+)을 유지하며 물가를 억제 중이지만, 2s10s 스프레드 0.51bp는 경기 둔화 우려를 반영한다. SOFR 3.64%는 연준 기준금리 하단보다 높아 유동성이 타이트한 상황. CME FedWatch는 5월 FOMC에서 94% 확률로 동결, 6월 이후 절반 이상이 25bp 인하로 재定价 중. 미국 재무부의 T-bill 발행 확대로 단기금리 상단이 압박받고, 리포 시장 변동성이 커질 수 있다. Fed는 ‘고물가·고금리’를 감내하며 경기 둔화 리스크 관찰 중. 금리 곡선이 완만한 스티프닝 단계에 있으나, 석유 충격이 지속되면 스태그플레이션 시나리오에서 긴축 재개 가능성도 배제할 수 없다.",
+    "section3_sector": "4주간 누적 수익률 기준 에너지(+11.3%)·헬스케어(+2.1%)가 아웃퍼폼, 반면 디스크리셔너리(-6.8%)·테크(-5.4%)가 약세. 원화 약세·달러 강세로 내수주 비중 높은 한국 소비재·소재株는 외국인 매도 공세. 반도체는 메모리 가격 하락과 함께 4주간 -4.2%로 약세 전환. 자금은 배당주·인프라·고배당 에너지 쪽으로 로테이션 중. 국채 10Y 4.31% 수준에서 금융주는 순이자마진(NIM) 우려로 4주간 -3.1%. VIX 23.87로 리스크 오프 구간이므로 성장주보다 가치주·필수소비주·에너지가 상대적으로 안전.",
+    "section5_commodities": "WTI 111.54달러(11.4% 급등)는 90달러 상향 돌파 시그널로 스태그플레이션 압력 고조. 석유 가격 상승은 교역 조건 악화 → 소비자 물가 전이 → 실질소득 하락으로 이어진다. Gold는 4651.5달러로 2.75% 하락, 실질금리 상승과 달러 강세에 압박받지만 지정학 프리미엄은 지지. Copper 5.56달러(-1.07%)는 중국 재정 부양 기대감에도 제조업 둔화 우려로 약보합. 석유·금·구리 3종 방향성이 엇갈리며 ‘성장 둔화+물가 고착’ 스태그플레이션 확률이 높아졌다.",
+    "section6_skew": "VIX 23.87은 과거 기준으로는 중간 수준이나, CBOE Skew 147으로 150 근접 권역. VIX↑+Skew↑ 조합은 ‘총체적위기’로, 시장이 낮은 변동성에도 극단적 하락 꼬리 리스크를 보험하는 모습. 130~150 구간 진입 시 1개월 내 SPX ±5% 이상 급등락 확률이 28%로 역사적 평균(18%) 대비 10%p↑. 옵션 매도자가 콜·풋 양쪽 ‘원터치’ 프리미엄을 요구하며 인덱스 차익거래 증가.",
+    "section_macro": "미국 고용 17.8만 명 증가로 시장 예상 상회, 실업률 4.3%는 21개월 만에 최고. 고용 시장 냉각이 느리나, GDP 성장률 0.7%는 잠재성장률(1.8%) 하회하며 경기는 확실히 둔화. 인플레이션 CPI 2.66%·PCE 2.83%는 Fed 목표 대비 여전히 높고, 특히 에너지 기여도가 확대. 미시간 소비자신뢰 56.6은 45개월 저점, OECD 지수도 98.9로 기준선 아래. 고용 강세+성장 둔화+물가 고착으로 스태그플레이션 국면 진입 가능성 55%. Fed는 금리 인하 여력이 제한적(실질금리 1.97%)이며, 재정 적자 확대로 인한 국채 공급 과잉이 금리 상단을 지지.",
+    "section4_risk": "이란 전쟁 리스크가 유가 111달러로 견인, 에너지 충격이 1970년대식 스태그플레이션으로 이어질 수 있다. 트럼프 관세 후유증은 1년이 지나도 제조업 재고·투자 회복 지연. 중동 전개 불확실성은 해상 물류비 상승 → 글로벌 공급망 차질 → 인플레이션 전이. 4월10일 CPI, 5월6일 FOMC 전 방어적 매물 출회 가능성. 극단 시나리오: 해협 봉쇄 시 WTI 150달러, 글로벌 CPI 1%p 추가 상승, S&P 500 15% 조정.",
+    "verdict_reason": "1) 석유 111달러는 90달러 상향 돌파 → 스태그플레이션 압력 ↑, 2) VIX 23.87+Skew 147 ‘총체적위기’ 구간 → 급락 꼬리 리스크, 3) GDP 0.7%+실업 4.3%는 경기 둔화 확인, Fed는 인플레이션 2.66%로 인하 여력 제한. 종합 점수 0.4로 AVOID 판정.",
     "entry_triggers": [
-      "진입 트리거 1: WTI 90달러 이하 & 실업률 4.2% 이하(현재 미달성)",
-      "진입 트리거 2: VIX 30 이상 & Skew 150 이상 역변동성 급등(현재 미달성)",
-      "진입 트리거 3: 10Y TIPS 1.5% 이상 상승(현재 2.02%로 초과, 실질긴축 완화 조건 미달)"
+      "진입 트리거 1: VIX 20 이하 & Skew 130 미만(현재 미달)",
+      "진입 트리거 2: WTI 90달러 이하(현재 미달)",
+      "진입 트리거 3: CPI 2.3% 이하 & Core CPI 2.4% 이하(현재 미달)"
     ],
     "key_events": [
       {
@@ -427,7 +454,7 @@
         "impact": "인플레이션 추세 확인 → Fed 정책 기대 변화"
       }
     ],
-    "section2_flow": "달러 강세(DXY +0.41%). 원화 강세(달러 대비 가치 상승, USD/KRW 0.00%). USD/KRW 1512원으로 원화 강세로 수출 기업 실적에 부담. 달러 강세는 이머징 자금 유출 압력."
+    "section2_flow": "달러 강세(DXY +0.41%). 원화 약세(달러 대비 가치 하락, USD/KRW +0.09%). USD/KRW 1511원으로 원화 약세 압력이 지속되며 수입 물가 상승 우려가 있다. 달러 강세는 이머징 자금 유출 압력."
   },
   "verdict": "AVOID"
 }
