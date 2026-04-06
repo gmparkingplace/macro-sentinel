@@ -1,119 +1,119 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-06",
   "indices": {
     "sp500": {
-      "close": 6582.69,
-      "prev_close": 6575.32,
-      "change_pct": 0.11,
-      "pct_52w": 80.6
+      "close": 6611.83,
+      "prev_close": 6582.69,
+      "change_pct": 0.44,
+      "pct_52w": 82.0
     },
     "nasdaq100": {
-      "close": 24045.53,
-      "prev_close": 24019.99,
-      "change_pct": 0.11,
-      "pct_52w": 77.8
+      "close": 24192.17,
+      "prev_close": 24045.53,
+      "change_pct": 0.61,
+      "pct_52w": 79.4
     },
     "russell": {
-      "close": 2530.04,
-      "prev_close": 2512.37,
-      "change_pct": 0.7,
-      "pct_52w": 79.5
+      "close": 2540.64,
+      "prev_close": 2530.04,
+      "change_pct": 0.42,
+      "pct_52w": 80.6
     },
     "vix": {
-      "close": 23.87,
-      "prev_close": 23.87,
+      "close": 24.17,
+      "prev_close": 24.17,
       "change_pct": 0.0,
-      "pct_52w": 22.4
+      "pct_52w": 23.1
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.79,
-      "date": "2026-04-02",
-      "change_pct": -0.52,
-      "prev_value": 3.81
+      "value": 3.84,
+      "date": "2026-04-03",
+      "change_pct": 1.32,
+      "prev_value": 3.79
     },
     "us10y": {
-      "value": 4.31,
-      "date": "2026-04-02",
-      "change_pct": -0.46,
-      "prev_value": 4.33
+      "value": 4.35,
+      "date": "2026-04-03",
+      "change_pct": 0.93,
+      "prev_value": 4.31
     },
     "tips10y": {
-      "value": 1.97,
-      "date": "2026-04-02",
-      "change_pct": -2.48,
-      "prev_value": 2.02
+      "value": 1.99,
+      "date": "2026-04-03",
+      "change_pct": 1.02,
+      "prev_value": 1.97
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.51,
-      "date": "2026-04-03",
-      "change_pct": -1.92,
-      "prev_value": 0.52
+      "value": 0.5,
+      "date": "2026-04-06",
+      "change_pct": -1.96,
+      "prev_value": 0.51
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.17,
-      "date": "2026-04-02",
-      "change_pct": 0.32,
-      "prev_value": 3.16
+      "value": 3.13,
+      "date": "2026-04-03",
+      "change_pct": -1.26,
+      "prev_value": 3.17
     },
     "fra_ois": {
       "value": 3.64,
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "change_pct": 0.0,
       "prev_value": 3.64
     }
   },
   "fx": {
     "dxy": {
-      "value": 120.8851,
-      "date": "2026-03-27",
-      "change_pct": 0.41,
-      "prev_value": 120.389
+      "value": 120.6565,
+      "date": "2026-04-03",
+      "change_pct": 0.13,
+      "prev_value": 120.503
     },
     "usdkrw": {
-      "close": 1510.54,
-      "prev_close": 1509.22,
-      "change_pct": 0.09,
-      "pct_52w": 87.7
+      "close": 1509.26,
+      "prev_close": 1509.26,
+      "change_pct": 0.0,
+      "pct_52w": 87.1
     },
     "usdjpy": {
-      "close": 159.63,
-      "prev_close": 158.69,
-      "change_pct": 0.59,
-      "pct_52w": 97.0
+      "close": 159.74,
+      "prev_close": 159.78,
+      "change_pct": -0.03,
+      "pct_52w": 97.6
     },
     "eurusd": {
       "close": 1.15,
-      "prev_close": 1.16,
-      "change_pct": -0.86,
-      "pct_52w": 54.1
+      "prev_close": 1.15,
+      "change_pct": 0.0,
+      "pct_52w": 53.7
     }
   },
   "commodities": {
     "wti": {
-      "close": 111.54,
-      "prev_close": 100.12,
-      "change_pct": 11.41,
-      "pct_52w": 87.7
+      "close": 113.49,
+      "prev_close": 113.49,
+      "change_pct": 0.0,
+      "pct_52w": 90.7
     },
     "gold": {
-      "close": 4651.5,
-      "prev_close": 4783.2,
-      "change_pct": -2.75,
-      "pct_52w": 64.5
+      "close": 4681.3,
+      "prev_close": 4681.3,
+      "change_pct": 0.0,
+      "pct_52w": 65.7
     },
     "copper": {
-      "close": 5.56,
-      "prev_close": 5.62,
-      "change_pct": -1.07,
-      "pct_52w": 60.7
+      "close": 5.61,
+      "prev_close": 5.61,
+      "change_pct": 0.0,
+      "pct_52w": 62.7
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6657161.0
     },
     "rrp": {
-      "value": 0.327,
-      "date": "2026-04-02",
-      "change_pct": -84.48,
-      "prev_value": 2.107
+      "value": 0.227,
+      "date": "2026-04-06",
+      "change_pct": -30.58,
+      "prev_value": 0.327
     },
     "m2": {
       "value": 22667.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 135.99,
-      "change_pct": 0.8,
-      "change_4w": -0.98,
-      "pct_52w": 75.2
+      "close": 136.78,
+      "change_pct": 0.58,
+      "change_4w": -2.01,
+      "pct_52w": 76.4
     },
     "financials": {
-      "close": 49.53,
-      "change_pct": 0.18,
-      "change_4w": -2.79,
-      "pct_52w": 54.3
+      "close": 49.88,
+      "change_pct": 0.71,
+      "change_4w": -0.38,
+      "pct_52w": 56.7
     },
     "energy": {
-      "close": 59.25,
-      "change_pct": 0.47,
-      "change_4w": 5.52,
-      "pct_52w": 84.6
+      "close": 59.68,
+      "change_pct": 0.73,
+      "change_4w": 6.67,
+      "pct_52w": 86.2
     },
     "utilities": {
-      "close": 46.34,
-      "change_pct": 0.5,
-      "change_4w": -0.86,
-      "pct_52w": 91.3
+      "close": 46.17,
+      "change_pct": -0.37,
+      "change_4w": -0.75,
+      "pct_52w": 90.0
     },
     "healthcare": {
-      "close": 146.81,
-      "change_pct": -0.62,
-      "change_4w": -5.95,
-      "pct_52w": 62.3
+      "close": 146.28,
+      "change_pct": -0.36,
+      "change_4w": -4.78,
+      "pct_52w": 60.8
     },
     "consumer_disc": {
-      "close": 108.15,
-      "change_pct": -1.5,
-      "change_4w": -5.24,
-      "pct_52w": 57.3
+      "close": 109.04,
+      "change_pct": 0.82,
+      "change_4w": -4.65,
+      "pct_52w": 59.6
     },
     "industrials": {
-      "close": 163.77,
-      "change_pct": -0.4,
-      "change_4w": -6.39,
-      "pct_52w": 77.7
+      "close": 164.61,
+      "change_pct": 0.51,
+      "change_4w": -3.43,
+      "pct_52w": 79.0
     },
     "materials": {
-      "close": 50.41,
-      "change_pct": -0.1,
-      "change_4w": -2.51,
-      "pct_52w": 80.7
+      "close": 50.22,
+      "change_pct": -0.38,
+      "change_4w": 0.9,
+      "pct_52w": 79.6
     }
   },
   "macro": {
@@ -233,20 +233,14 @@
       "rating": "Fear"
     },
     "skew": {
-      "close": 146.95,
-      "change_pct": 2.21,
+      "close": 147.6,
+      "change_pct": 0.44,
       "signal": "yellow",
       "combo_signal": "red",
       "combo_label": "총체적위기(VIX↑+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-04-03",
-      "event": "고용보고서 (3월)",
-      "category": "jobs",
-      "impact": "high"
-    },
     {
       "date": "2026-04-10",
       "event": "CPI 발표 (3월)",
@@ -292,81 +286,102 @@
   ],
   "news": [
     {
-      "title": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
-      "url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
+      "title": "Here’s the somewhat surprising stock that will soon join the S&P 500",
+      "url": "https://www.marketwatch.com/story/an-s-p-500-change-may-be-imminent-these-stocks-are-leading-contenders-to-join-the-index-497eb076?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 21:20:00 GMT",
-      "title_ko": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?"
+      "published": "Mon, 06 Apr 2026 22:02:00 GMT",
+      "title_ko": "S&P 500에 곧 합류할 놀라운 주식은 무엇일까"
     },
     {
-      "title": "‘I’d like to be a superhost’: Is it unethical to use AI in my Airbnb photos to market my property?",
-      "url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
+      "title": "As stocks approach a true comeback, here’s where investors can find the richest opportunities",
+      "url": "https://www.marketwatch.com/story/as-stocks-approach-a-true-comeback-heres-where-investors-can-find-the-richest-opportunities-71bbc2cf?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 20:18:00 GMT",
-      "title_ko": "‘슈퍼호스트가 되고 싶습니다’: 에어비앤비 사진에 인공지능을 사용하여 부동산을 마케팅하는 것이 비윤리적인가요?"
+      "published": "Mon, 06 Apr 2026 22:00:00 GMT",
+      "title_ko": "As stocks approach a true comeback, here’s where investors can find the richest opportunities"
     },
     {
-      "title": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it.",
-      "url": "https://www.marketwatch.com/story/buyers-finally-have-leverage-in-the-housing-market-here-are-3-smart-ways-to-use-it-49abcfa3?mod=mw_rss_topstories",
+      "title": "A top J.P. Morgan strategist tackles some of the biggest myths about the war in Iran",
+      "url": "https://www.marketwatch.com/story/a-top-j-p-morgan-strategist-tackles-some-of-the-biggest-myths-about-the-war-in-iran-ec30f625?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 19:34:00 GMT",
-      "title_ko": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it."
+      "published": "Mon, 06 Apr 2026 21:48:00 GMT",
+      "title_ko": "JP모간의 최고 전략가가 이란 전쟁에 대한 큰 오해를 풀어본다"
     },
     {
-      "title": "In today’s job market, it’s more ‘show me a desk’ than ‘show me the money’",
-      "url": "https://www.marketwatch.com/story/in-todays-job-market-its-more-show-me-a-desk-than-show-me-the-money-3b66754e?mod=mw_rss_topstories",
+      "title": "Strait of Hormuz sees increased ship traffic ahead of Trump’s deadline. Here’s why oil prices are not budging.",
+      "url": "https://www.marketwatch.com/story/strait-of-hormuz-sees-increased-ship-traffic-ahead-of-trumps-deadline-heres-why-oil-prices-are-not-budging-25a8c2f2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 19:18:00 GMT",
-      "title_ko": "-> 구매자가 주택시장에서 우위를 점했습니다. 여기에는 3가지 좋은 방법이 있습니다."
+      "published": "Mon, 06 Apr 2026 21:04:00 GMT",
+      "title_ko": "호르무즈 해협에서 선박 통행량이 증가하고 있는데 트럼프의 기한이 임박한 이유는 무엇일까 그리고 왜 유가가 변동하지 않는가"
     },
     {
-      "title": "Jobs data, Iran war add to inflation fears for retirees",
-      "url": "https://www.marketwatch.com/story/jobs-data-iran-war-add-to-inflation-fears-for-retirees-20175428?mod=mw_rss_topstories",
+      "title": "3 factors that could get software stocks going again after a brutal stretch",
+      "url": "https://www.marketwatch.com/story/3-factors-that-could-get-software-stocks-going-again-after-a-brutal-stretch-7fc5ae46?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 18:54:00 GMT",
-      "title_ko": "오늘날의 직장시장에서는 ‘내게 책상을 보여줘’가 ‘내게 돈을 보여줘’보다 더 중요합니다"
+      "published": "Mon, 06 Apr 2026 19:18:00 GMT",
+      "title_ko": "최근 어려움을 겪은 소프트웨어 주식이 다시 살아날 수 있는 3가지 요인은 무엇일까"
     },
     {
-      "title": "These little-known chip stocks could be winners as SpaceX and Amazon make big satellite pushes",
-      "url": "https://www.marketwatch.com/story/these-little-known-chip-stocks-could-be-winners-as-spacex-and-amazon-make-big-satellite-pushes-361000a3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Fri, 03 Apr 2026 18:33:00 GMT",
-      "title_ko": "고용 데이터와 이란 전쟁이 은퇴자들의 인플레이션 우려를 더합니다"
-    },
-    {
-      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
-      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
+      "title": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+      "url": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "source": "CNBC",
-      "published": "Fri, 03 Apr 2026 13:35:34 GMT",
-      "title_ko": "스페이스X와 아마존이 큰 인공위성 사업을 추진함에 따라 이 작은 알려지지 않은 칩 주가가 승리할 수 있습니다"
+      "published": "Mon, 06 Apr 2026 21:16:40 GMT",
+      "title_ko": "트럼프 행정부가 의료 보험료를 결정지음으로써 보험업계에 부담이 줄어든다"
     },
     {
-      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
-      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
+      "title": "India turns to Iran for oil and gas after 7-year hiatus, signaling limits to U.S. tilt",
+      "url": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "source": "CNBC",
-      "published": "Fri, 03 Apr 2026 11:30:01 GMT",
-      "title_ko": "3월 미국 고용은 17만8천명으로 예상보다 많았고 실업률은 4.3%"
+      "published": "Mon, 06 Apr 2026 07:43:06 GMT",
+      "title_ko": "India turns to Iran for oil and gas after 7-year hiatus, signaling limits to U.S. tilt"
     },
     {
-      "title": "'Chasing vibes' — OpenAI's M&A strategy gets more confusing with TBPN purchase",
-      "url": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
+      "title": "CNBC's The China Connection newsletter: Why AI isn't replacing jobs in China (yet)",
+      "url": "https://www.cnbc.com/2026/04/07/ai-jobs-layoffs-us-china-engineers-hiring.html",
       "source": "CNBC",
-      "published": "Fri, 03 Apr 2026 22:13:34 GMT",
-      "title_ko": "트럼프 관세의 여파: 일부 산업은 1년 후에도 여전히 영향을 받고 있습니다"
+      "published": "Mon, 06 Apr 2026 23:02:23 GMT",
+      "title_ko": "CNBC의 차이나 커넥션 뉴스레터에 따르면 중국에서 인공지능이 아직 일자리를 대체하지 않는 이유는 무엇일까"
     },
     {
-      "title": "These master's degrees lead to fast-growing, in-demand jobs—but offer low ROI",
-      "url": "https://www.cnbc.com/2026/04/03/masters-degrees-low-roi.html",
+      "title": "Jim Cramer says potential stock market bottom is tied to interest rates, not war headlines",
+      "url": "https://www.cnbc.com/2026/04/06/jim-cramer-stock-market-bottom-interest-rates-war.html",
       "source": "CNBC",
-      "published": "Fri, 03 Apr 2026 13:00:01 GMT",
-      "title_ko": "‘바이브를 쫓는 것’ — 오픈AI의 인수전략은 TBPN 매입으로 더 복잡해집니다"
+      "published": "Mon, 06 Apr 2026 22:25:46 GMT",
+      "title_ko": "짐 크레이머는 잠재적인 주식 시장의 바닥은 전쟁 뉴스보다는 금리와 관련이 있다고 말한다"
     },
     {
-      "title": "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening",
-      "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html",
+      "title": "Zohran Mamdani and the business exodus? New York's office real estate market is up under new mayor",
+      "url": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "source": "CNBC",
-      "published": "Fri, 03 Apr 2026 07:39:47 GMT",
-      "title_ko": "이 석사 학위는 빠르게 성장하고 수요가 많은 직업으로 이어지지만 ROI가 낮습니다"
+      "published": "Mon, 06 Apr 2026 15:31:45 GMT",
+      "title_ko": "조란 맘다니와 사업의 대이주 새로운 뉴욕시장의 오피스 부동산 시장은 상승세를 보인다"
+    },
+    {
+      "title": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+      "url": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
+      "source": "CNBC",
+      "published": "Mon, 06 Apr 2026 11:55:38 GMT",
+      "title_ko": "JP모간의 최고경영자 제이미 다이먼은 지구정치와 인공지능 그리고 사적 시장의 위험을 언급했다"
+    },
+    {
+      "title": "S&P 500 aims to extend win streak — plus, a CFO switch at one of our key names",
+      "url": "https://www.cnbc.com/2026/04/06/sp-500-aims-to-extend-win-streak-plus-a-cfo-switch-at-one-of-our-key-names.html",
+      "source": "CNBC",
+      "published": "Mon, 06 Apr 2026 18:24:54 GMT",
+      "title_ko": "S&P 500이 승리 행진을 이어갈 수 있을까 그리고 주요 기업의 재무담당자 교체는 어떨까"
+    },
+    {
+      "title": "New college graduates face a tough job market. Here’s why unemployment hits them harder",
+      "url": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
+      "source": "CNBC",
+      "published": "Mon, 06 Apr 2026 13:57:03 GMT",
+      "title_ko": "새로운 대학 졸업생들이 직장 시장에서 어려움을 겪고 있는데 왜 그들이 더 높은 실업률에 직면하는지 이유는 무엇일까"
+    },
+    {
+      "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+      "url": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
+      "source": "CNBC",
+      "published": "Sat, 04 Apr 2026 13:19:30 GMT",
+      "title_ko": "워시의 지명이 진행됨에 따라 트럼프의 대립하는 연방준비제도 계획이 충돌 코스로 접어들고 있다"
     }
   ]
 }
