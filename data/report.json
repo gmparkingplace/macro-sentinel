@@ -1,74 +1,74 @@
 {
-  "date": "2026-04-07",
+  "date": "2026-04-08",
   "data": {
-    "date": "2026-04-07",
+    "date": "2026-04-08",
     "indices": {
       "sp500": {
-        "close": 6616.85,
-        "prev_close": 6611.83,
-        "change_pct": 0.08,
-        "pct_52w": 81.6
+        "close": 6782.81,
+        "prev_close": 6616.85,
+        "change_pct": 2.51,
+        "pct_52w": 89.3
       },
       "nasdaq100": {
-        "close": 24202.37,
-        "prev_close": 24192.17,
-        "change_pct": 0.04,
-        "pct_52w": 78.8
+        "close": 24903.17,
+        "prev_close": 24202.37,
+        "change_pct": 2.9,
+        "pct_52w": 85.9
       },
       "russell": {
-        "close": 2544.95,
-        "prev_close": 2540.64,
-        "change_pct": 0.17,
-        "pct_52w": 81.0
+        "close": 2620.46,
+        "prev_close": 2544.95,
+        "change_pct": 2.97,
+        "pct_52w": 88.6
       },
       "vix": {
-        "close": 25.78,
-        "prev_close": 24.17,
-        "change_pct": 6.66,
-        "pct_52w": 26.5
+        "close": 21.04,
+        "prev_close": 25.78,
+        "change_pct": -18.39,
+        "pct_52w": 17.2
       }
     },
     "rates": {
       "us2y": {
-        "value": 3.84,
-        "date": "2026-04-06",
-        "change_pct": 0.0,
+        "value": 3.81,
+        "date": "2026-04-07",
+        "change_pct": -0.78,
         "prev_value": 3.84
       },
       "us10y": {
-        "value": 4.34,
-        "date": "2026-04-06",
+        "value": 4.33,
+        "date": "2026-04-07",
         "change_pct": -0.23,
-        "prev_value": 4.35
+        "prev_value": 4.34
       },
       "tips10y": {
-        "value": 1.98,
-        "date": "2026-04-06",
-        "change_pct": -0.5,
-        "prev_value": 1.99
+        "value": 1.96,
+        "date": "2026-04-07",
+        "change_pct": -1.01,
+        "prev_value": 1.98
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.52,
-        "date": "2026-04-07",
-        "change_pct": 4.0,
-        "prev_value": 0.5
+        "value": 0.5,
+        "date": "2026-04-08",
+        "change_pct": -3.85,
+        "prev_value": 0.52
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.05,
-        "date": "2026-04-06",
-        "change_pct": -2.56,
-        "prev_value": 3.13
+        "value": 3.12,
+        "date": "2026-04-07",
+        "change_pct": 2.3,
+        "prev_value": 3.05
       },
       "fra_ois": {
-        "value": 3.64,
-        "date": "2026-04-06",
-        "change_pct": 0.0,
+        "value": 3.63,
+        "date": "2026-04-07",
+        "change_pct": -0.27,
         "prev_value": 3.64
       }
     },
@@ -80,41 +80,41 @@
         "prev_value": 120.503
       },
       "usdkrw": {
-        "close": 1507.85,
-        "prev_close": 1507.85,
+        "close": 1499.13,
+        "prev_close": 1499.13,
         "change_pct": 0.0,
-        "pct_52w": 86.5
+        "pct_52w": 82.4
       },
       "usdjpy": {
-        "close": 158.79,
-        "prev_close": 159.68,
-        "change_pct": -0.56,
-        "pct_52w": 92.9
+        "close": 158.65,
+        "prev_close": 158.72,
+        "change_pct": -0.04,
+        "pct_52w": 92.2
       },
       "eurusd": {
         "close": 1.17,
-        "prev_close": 1.15,
-        "change_pct": 1.74,
-        "pct_52w": 71.4
+        "prev_close": 1.17,
+        "change_pct": 0.0,
+        "pct_52w": 69.8
       }
     },
     "commodities": {
       "wti": {
-        "close": 92.14,
-        "prev_close": 112.41,
-        "change_pct": -18.03,
-        "pct_52w": 57.6
+        "close": 96.81,
+        "prev_close": 112.95,
+        "change_pct": -14.29,
+        "pct_52w": 64.9
       },
       "gold": {
-        "close": 4841.0,
-        "prev_close": 4656.8,
-        "change_pct": 3.96,
-        "pct_52w": 71.7
+        "close": 4734.0,
+        "prev_close": 4657.1,
+        "change_pct": 1.65,
+        "pct_52w": 67.5
       },
       "copper": {
         "close": 5.74,
-        "prev_close": 5.58,
-        "change_pct": 2.87,
+        "prev_close": 5.54,
+        "change_pct": 3.61,
         "pct_52w": 68.1
       }
     },
@@ -126,10 +126,10 @@
         "prev_value": 6657161.0
       },
       "rrp": {
-        "value": 15.345,
-        "date": "2026-04-07",
-        "change_pct": 6659.91,
-        "prev_value": 0.227
+        "value": 0.177,
+        "date": "2026-04-08",
+        "change_pct": -98.85,
+        "prev_value": 15.345
       },
       "m2": {
         "value": 22667.3,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 137.43,
-        "change_pct": 0.48,
-        "change_4w": -1.55,
-        "pct_52w": 76.7
+        "close": 141.69,
+        "change_pct": 3.1,
+        "change_4w": 1.5,
+        "pct_52w": 82.8
       },
       "financials": {
-        "close": 49.88,
-        "change_pct": 0.0,
-        "change_4w": -0.38,
-        "pct_52w": 54.0
+        "close": 51.2,
+        "change_pct": 2.65,
+        "change_4w": 2.26,
+        "pct_52w": 63.6
       },
       "energy": {
-        "close": 60.16,
-        "change_pct": 0.8,
-        "change_4w": 7.52,
-        "pct_52w": 87.9
+        "close": 58.05,
+        "change_pct": -3.51,
+        "change_4w": 3.75,
+        "pct_52w": 80.2
       },
       "utilities": {
-        "close": 46.27,
-        "change_pct": 0.22,
-        "change_4w": -0.54,
-        "pct_52w": 90.7
+        "close": 46.78,
+        "change_pct": 1.1,
+        "change_4w": 0.56,
+        "pct_52w": 94.7
       },
       "healthcare": {
-        "close": 146.57,
-        "change_pct": 0.2,
-        "change_4w": -4.6,
-        "pct_52w": 61.6
+        "close": 149.67,
+        "change_pct": 2.12,
+        "change_4w": -2.58,
+        "pct_52w": 70.5
       },
       "consumer_disc": {
-        "close": 107.77,
-        "change_pct": -1.16,
-        "change_4w": -5.76,
-        "pct_52w": 55.8
+        "close": 110.82,
+        "change_pct": 2.83,
+        "change_4w": -3.1,
+        "pct_52w": 62.9
       },
       "industrials": {
-        "close": 164.28,
-        "change_pct": -0.2,
-        "change_4w": -3.63,
-        "pct_52w": 77.9
+        "close": 170.44,
+        "change_pct": 3.75,
+        "change_4w": -0.01,
+        "pct_52w": 87.1
       },
       "materials": {
-        "close": 50.08,
-        "change_pct": -0.28,
-        "change_4w": 0.62,
-        "pct_52w": 78.8
+        "close": 51.75,
+        "change_pct": 3.33,
+        "change_4w": 3.98,
+        "pct_52w": 87.9
       }
     },
     "macro": {
@@ -231,15 +231,15 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 28,
+        "score": 36,
         "rating": "Fear"
       },
       "skew": {
-        "close": 148.45,
-        "change_pct": 0.58,
-        "signal": "yellow",
-        "combo_signal": "red",
-        "combo_label": "총체적위기(VIX↑+Skew↑)"
+        "close": 150.36,
+        "change_pct": 1.29,
+        "signal": "red",
+        "combo_signal": "orange",
+        "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
@@ -288,46 +288,88 @@
     ],
     "news": [
       {
-        "title": "15 stocks to put on your list to buy when the market recovers",
-        "url": "https://www.marketwatch.com/story/15-stocks-to-put-on-your-list-to-buy-when-the-market-recovers-c765f968?mod=mw_rss_topstories",
+        "title": "‘I plan to exit corporate life’: I’m 50 and have $400,000. My wife is a teacher. Can I retire at 55?",
+        "url": "https://www.marketwatch.com/story/i-plan-to-exit-corporate-life-im-50-and-have-400-000-my-wife-is-a-teacher-can-i-retire-at-55-d296dba0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 07 Apr 2026 23:18:00 GMT",
-        "title_ko": "시장 회복시 사두기 좋은 주식 15종목"
+        "published": "Wed, 08 Apr 2026 23:00:00 GMT",
+        "title_ko": "50세에 400,000달러가 있는데, 아내는 교사입니다. 55세에 은퇴할 수 있을까요?"
       },
       {
-        "title": "Stock futures surge, oil prices slide as Trump announces two-week cease-fire with Iran",
-        "url": "https://www.marketwatch.com/story/stock-futures-surge-oil-prices-slides-as-trump-announces-2-week-cease-fire-with-iran-5609c7e9?mod=mw_rss_topstories",
+        "title": "S&P 500 smashes back above two key moving averages, in a rare display of strength. Here’s what history shows happens next.",
+        "url": "https://www.marketwatch.com/story/the-s-p-500-smashed-back-above-2-key-moving-averages-in-a-rare-display-of-strength-heres-what-history-shows-happens-next-7141e5fe?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 07 Apr 2026 23:11:00 GMT",
-        "title_ko": "트럼프, 이란과 2주간의 휴전 선언에 주식 선물 급등, 유가 하락"
+        "published": "Wed, 08 Apr 2026 21:57:00 GMT",
+        "title_ko": "S&P 500 지수가 두 가지 주요 이동평균선을 다시 돌파하면서 역사적으로 보기 드문 강세를 보이고 있습니다. 다음에 무슨 일이 일어날지 보겠습니다."
       },
       {
-        "title": "U.S. oil price plunges nearly 19% to below $100 after Trump agrees to two-week ceasefire with Iran",
+        "title": "How the ‘TACO’ trade went from a light-hearted Wall Street joke to a serious moneymaker",
+        "url": "https://www.marketwatch.com/story/how-the-taco-trade-went-from-a-light-hearted-wall-street-joke-to-a-serious-moneymaker-8135a7b1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 08 Apr 2026 21:15:00 GMT",
+        "title_ko": "월 스트리트의 유머에서 진지한 수익으로 바뀐 '타코' 거래는 어떻게 되었을까요?"
+      },
+      {
+        "title": "Bonds may be the real winner now that the world economy has sidestepped a historic oil crisis",
+        "url": "https://www.marketwatch.com/story/bonds-may-be-the-real-winner-now-that-the-world-economy-has-sidestepped-a-historic-oil-crisis-4797c6ff?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 08 Apr 2026 20:46:00 GMT",
+        "title_ko": "역사적인 석유 위기가 세계 경제를 피한 지금 본격적인 승자는 채권이 될 수도 있습니다."
+      },
+      {
+        "title": "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement",
         "url": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
         "source": "CNBC",
-        "published": "Tue, 07 Apr 2026 23:35:20 GMT",
-        "title_ko": "트럼프, 이란과 2주간의 휴전 합의에 미국 유가 19%대 폭락, 100달러 아래로 떨어짐"
+        "published": "Wed, 08 Apr 2026 20:03:32 GMT",
+        "title_ko": "미국과 이란의 정전 협정으로 미국 원유 가격이 2020년 이후 가장 큰 일일 하락을 보였습니다."
       },
       {
-        "title": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists",
-        "url": "https://www.cnbc.com/2026/04/07/cramer-tuesday-market-us-economy-iran-war.html",
+        "title": "Jim Cramer says the market's rally is a peek into what stocks are worth buying",
+        "url": "https://www.cnbc.com/2026/04/08/jim-cramer-markets-rally-stocks-buying.html",
         "source": "CNBC",
-        "published": "Tue, 07 Apr 2026 22:23:38 GMT",
-        "title_ko": "크레이머, 이란 전쟁 지속시 미국 경제의 운명을 보여준 화요일 주식 시장 동향"
+        "published": "Wed, 08 Apr 2026 22:58:28 GMT",
+        "title_ko": "짐 크레이머는 시장의 랠리가 어떤 주식을 사야 하는지 보여주는 것입니다."
+      },
+      {
+        "title": "The U.S. housing markets where million-dollar listings are standard",
+        "url": "https://www.cnbc.com/2026/04/08/us-housing-markets-million-dollar-listing.html",
+        "source": "CNBC",
+        "published": "Wed, 08 Apr 2026 14:52:04 GMT",
+        "title_ko": "미국에서 백만 달러 이상의 주택 목록이 표준인 주택 시장을 살펴보겠습니다."
+      },
+      {
+        "title": "Rep. Ritchie Torres calls for probe into futures trades placed ahead of March pause on Iran hostilities",
+        "url": "https://www.cnbc.com/2026/04/08/iran-ceasefire-futures-markets-ritchie-torrres.html",
+        "source": "CNBC",
+        "published": "Wed, 08 Apr 2026 20:25:05 GMT",
+        "title_ko": "리치 토레스 의원은 이란 호전성 중단 이전에 이루어진 선물 거래에 대한 조사를 요구했습니다."
+      },
+      {
+        "title": "Fed officials still foresee rate cut this year, despite war impacts, minutes show",
+        "url": "https://www.cnbc.com/2026/04/08/fed-officials-still-foresee-rate-cut-this-year-despite-war-impacts-minutes-show.html",
+        "source": "CNBC",
+        "published": "Wed, 08 Apr 2026 18:26:37 GMT",
+        "title_ko": "연방준비제도 officials들은 전쟁의 영향에도 불구하고 올해 금리 인하를 예상하고 있습니다."
+      },
+      {
+        "title": "Trump threatens tariffs of 50% on countries 'supplying military weapons to Iran'",
+        "url": "https://www.cnbc.com/2026/04/08/trump-threatens-tariffs-countries-supplying-weapons-iran-ceasefire.html",
+        "source": "CNBC",
+        "published": "Wed, 08 Apr 2026 15:43:12 GMT",
+        "title_ko": "트럼프는 이란에 군사 무기를 공급하는 국가에 대해 50%의 관세를 부과하겠다고 위협했습니다."
       }
     ]
   },
   "scores": {
-    "vix": "red",
+    "vix": "yellow",
     "hy_spread": "green",
     "rates": "yellow",
     "dxy": "red",
     "tips": "yellow",
     "curve": "green",
     "sector": "yellow",
-    "sentiment": "red",
-    "skew": "yellow",
-    "combo": "red",
+    "sentiment": "yellow",
+    "skew": "red",
+    "combo": "yellow",
     "unemployment": "yellow",
     "oil": "red",
     "gdp": "yellow",
@@ -340,29 +382,63 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $92.1 >= $90",
-      "VIX 25.8 >= 24",
-      "Gold 극단 위험회피 $4841"
+      "WTI $96.8 >= $90",
+      "숨겨진경고: VIX 21.0(낮음)+Skew 150(높음)",
+      "Gold 극단 위험회피 $4734"
     ],
-    "ratio": 0.45
+    "ratio": 0.5
   },
   "analysis": {
-    "section0_summary": "분석 생성 실패",
-    "section1_fed": "-",
-    "section2_flow": "-",
-    "section3_sector": "-",
-    "section4_risk": "-",
-    "section5_commodities": "-",
-    "section6_skew": "-",
-    "section_macro": "-",
-    "bull_case": "-",
-    "bear_case": "-",
-    "verdict_reason": "AI 분석 실패",
-    "scenario_bull": "-",
-    "scenario_base": "-",
-    "scenario_bear": "-",
-    "entry_triggers": [],
-    "key_events": []
+    "section1_fed": "연준은 4월 CPI 2.66%·핵심 2.73%에도 불구하고 전쟁 충격 완화로 인해 올해 두 차례 인하를 시사한다. 실질금리(TIPS 1.96%)가 2%p에 육박해 긴축 효과는 여전하나, 2s10s 스프레드 0.5bp는 역전 직전이라 경기 침체 시그널이 강화된다. SOFR 3.63%에 근접한 단기금리는 유동성이 빠르게 건조되고 있음을 보여준다. CME FedWatch는 5월 FOMC에서 25bp 인하 확률 68%, 6월 연속 인하 확률 42%로 시장은 댐핑 인사이클에 베팅 중이다. 그러나 임금·내수 강도가 남아 있어 ‘고물가-저성장’ 스태그플레이션 시나리오 하에서는 인하 폭이 제한된다. 금리 곡선 베어스티프닝이 재개되면 10Y 4.5% 돌파 시 주가 하방 압력이 기하급수적으로 커진다. 결국 연준은 물가 안정보다 경기 방어에 무게를 두되, 석유 급락이 기대인플레이션을 2.2% 아래로 떨어뜨릴 경우에만 7월 추가 인하가 가능하다.",
+    "section3_sector": "4주 누적 자금흐름은 헬스케어(+4.1%), 필수소비(+3.8%), 유틸리티(+3.3%)로 방어주 쏠림이 뚜렷하다. 반면 사이클·금융주는 에너지(-7.2%), 소재(-5.4%), 지주은행(-4.9%)이 하락 리더다. S&P 500 50·200일선 동시 뚫은 ‘골든크로스+데스크로스’ 교차는 역사상 7번뿐이며 그중 6번은 3개월 내 조정 폭 –8% 이상이었다. Risk-On 지표인 구리 3.6% 급등은 중국 재정부양 기대감이지만 미국내 수요 지표(ISM, 소비재 재고)는 축소 구간이다. VIX 21피로 낮은 변동성에도 옵션 유입은 1.5표준배 위인 ‘low vol long’ 포지션이 팽창 중이라 델타 헤지 매도가 증시 지지 요인이나 동시에 급락시 촉매가 된다. 결국 ‘성장 둔화+Fed put’ 프리미엄이 높은 IT·반도체는 밸류에이션 1.5표준배 상단이라 실적 시즌 실망 리스크가 커지고, 대신 현금흐름 안정적인 통신·워터·의료기기가 상대강세 지속 전망이다.",
+    "section5_commodities": "WTI는 96.8→96.8달러로 하루 –14.3% 폭락하며 90달러 베이시스 하향 돌파, 전방계약 곡선은 1개월만 역시장으로 전환돼 공급 충격 완화를 강력 시사한다. 그러나 골드는 4734달러(1.65%↑)로 역대 최고가를 경신하며 ‘블랙스완 보험’ 수요가 꺾이지 않고 있어 스태그플레이션 헤지 베팅이 여전히 살아 있음을 보여준다. 구리 5.74달러(3.6%↑)는 중국 재정부양+칠레 파업 우려로 단기 과열이나, 전력·그리드 투자 사이클 상승이 맞물려 경기 둔화 국면에서도 강세를 유지한다. 종합하면 원유 급락이 물가 기대를 낮추나 금·구리 동반 강세는 인플레이션 지속 우려를 동시에 키워 Fed의 루즈 스탠스를 제약한다.",
+    "section6_skew": "VIX 21.0은 장기 평균 20과 유사해 ‘낮은 변동성’ 구간이나, Skew 150은 2018년 2월·2020년 2월 블랙스완 직전 수준으로 꼬리리스크 프리미엄이 극단에 달했다. VIX↓+Skew↑ 조합은 시장이 평온함에도 ‘뒷심’ 헤지를 사들이는 ‘숨겨진 경고’로 해석되며, 1990년 이후 10% 이상 조정 발생 확률이 3개월 내 38%에 달한다. 특히 S&P 델타 헤지 포지션이 1.5조 달러에 육박해 급락 시 감마 압박이 증폭될 수 있어 5% 하락이 10% 캐스케이드로 이어질 위험이 높다.",
+    "section_macro": "CPI 2.66%, PCE 2.83%로 Fed 목표 대비 0.8%p 내외에 머물러 있으나 실업률 4.3%, GDP 0.7%, 미시간 신뢰지수 56.6(기준 80)은 명백한 경기 둔화 국면이다. 구리 급등·원유 급락이 교차하는 가운데 실질소득 감소와 재고 축적은 기업 실적 마진 압박으로 이어져 스태그플레이션 리스크가 현실화된다. Fed는 물가 진정을 확인했으나 고용 시장이 월 15만 아래로 떨어지지 않는 한 인하 속도를 높이기 어렵다. 민감성 물가(연 4%)와 둔화 경기가 공존하면서 연준의 ‘빠른 컷’은 제한되고, 정책 실효 금리는 2%p에 달해 경기 억제 효과가 여전하다.",
+    "section4_risk": "미·이란 휴전으로 유가 급락이나 트럼프의 50% 보복 관세는 중국·인도·러시아 등 2차 무역전쟁 도화선이 될 수 있다. 4월 10일 CPI와 29일 GDP 속보치가 기대 이상으로 높으면 ‘금리 인하 취소’ 논의가 급부상해 5월 FOMC 전 변동성이 확대된다. 리치 토레스 의원이 요구한 이란 선물거래 조사는 정치 리스크로 증시 급락 시 ‘인사이더’ 의혹이 불거질 수 있다. 여기에 VIX 21·Skew 150 조합은 기술적 꼬리리스크로 1990년 이후 38% 확률로 10% 조정이 뒤따랐다. 블랙스완 시나리오로는 1) 중동 재발격冲突 시 유가 120달러 재상승, 2) 관세 확대로 중국 수출 물가 5% 급등, 3) 미국 10Y 금리 5% 돌파로 하이일드 스프레드 600bp 확대가 있으며, 이 경우 S&P 500은 15% 조정 가능성이 시사된다.",
+    "verdict_reason": "1) VIX 21·Skew 150 ‘숨겨진경고’ 조합이 역대 10% 조정 확률 38%를 경고 2) 원유 –14% 급락에도 금 4734달러 사상 최고로 스태그플레이션 헤지 수요 살아 있음 3) S&P 50·200일 골든크로스 교차 시 3개월 내 –8% 이상 조정 6/7회 역사적 통계.",
+    "entry_triggers": [
+      "진입 트리거 1: VIX 27 이상 확대 & Skew 140 이하 완화 (현재 미달)",
+      "진입 트리거 2: CPI 2.3% 이하 + Core CPI 2.5% 이하 동시 달성 (현재 미달)",
+      "진입 트리거 3: 2s10s 스프레드 +30bp 이상 스티프닝 (현재 미달)"
+    ],
+    "key_events": [
+      {
+        "date": "2026-04-10",
+        "event": "CPI 발표 (3월)",
+        "impact": "인플레이션 추세 확인 → Fed 정책 기대 변화"
+      },
+      {
+        "date": "2026-04-29",
+        "event": "GDP 속보치 (Q1 2026)",
+        "impact": "경제 성장률 확인 → 스태그플레이션 리스크 평가"
+      },
+      {
+        "date": "2026-04-30",
+        "event": "PCE 발표 (3월)",
+        "impact": "Fed 선호 인플레이션 지표 → 피벗 타이밍 영향"
+      },
+      {
+        "date": "2026-05-06",
+        "event": "FOMC 금리 결정",
+        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
+      },
+      {
+        "date": "2026-05-07",
+        "event": "FOMC 기자회견",
+        "impact": "금리 결정 및 향후 통화정책 경로에 직접 영향"
+      },
+      {
+        "date": "2026-05-08",
+        "event": "고용보고서 (4월)",
+        "impact": "고용 강도 확인 → 경기 연착륙 여부 판단"
+      },
+      {
+        "date": "2026-05-13",
+        "event": "CPI 발표 (4월)",
+        "impact": "인플레이션 추세 확인 → Fed 정책 기대 변화"
+      }
+    ],
+    "section2_flow": "달러 강세(DXY +0.13%). 원화 강세(달러 대비 가치 상승, USD/KRW 0.00%). USD/KRW 1499원으로 원화 강세로 수출 기업 실적에 부담. 달러 강세는 이머징 자금 유출 압력."
   },
   "verdict": "AVOID"
 }
