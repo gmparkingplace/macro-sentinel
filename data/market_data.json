@@ -1,72 +1,72 @@
 {
-  "date": "2026-04-20",
+  "date": "2026-04-21",
   "indices": {
     "sp500": {
-      "close": 7109.14,
-      "prev_close": 7126.06,
-      "change_pct": -0.24,
-      "pct_52w": 98.1
+      "close": 7064.01,
+      "prev_close": 7109.14,
+      "change_pct": -0.63,
+      "pct_52w": 95.7
     },
     "nasdaq100": {
-      "close": 26590.34,
-      "prev_close": 26672.43,
-      "change_pct": -0.31,
-      "pct_52w": 98.6
+      "close": 26479.47,
+      "prev_close": 26590.34,
+      "change_pct": -0.42,
+      "pct_52w": 97.1
     },
     "russell": {
-      "close": 2792.96,
-      "prev_close": 2776.9,
-      "change_pct": 0.58,
-      "pct_52w": 99.7
+      "close": 2764.97,
+      "prev_close": 2792.96,
+      "change_pct": -1.0,
+      "pct_52w": 94.5
     },
     "vix": {
-      "close": 18.87,
-      "prev_close": 17.48,
-      "change_pct": 7.95,
-      "pct_52w": 24.5
+      "close": 19.5,
+      "prev_close": 18.87,
+      "change_pct": 3.34,
+      "pct_52w": 27.4
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.71,
-      "date": "2026-04-17",
-      "change_pct": -1.85,
-      "prev_value": 3.78
+      "value": 3.72,
+      "date": "2026-04-20",
+      "change_pct": 0.27,
+      "prev_value": 3.71
     },
     "us10y": {
       "value": 4.26,
-      "date": "2026-04-17",
-      "change_pct": -1.39,
-      "prev_value": 4.32
+      "date": "2026-04-20",
+      "change_pct": 0.0,
+      "prev_value": 4.26
     },
     "tips10y": {
-      "value": 1.9,
-      "date": "2026-04-17",
-      "change_pct": -1.55,
-      "prev_value": 1.93
+      "value": 1.91,
+      "date": "2026-04-20",
+      "change_pct": 0.53,
+      "prev_value": 1.9
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.54,
-      "date": "2026-04-20",
-      "change_pct": -1.82,
-      "prev_value": 0.55
+      "value": 0.52,
+      "date": "2026-04-21",
+      "change_pct": -3.7,
+      "prev_value": 0.54
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.83,
-      "date": "2026-04-17",
-      "change_pct": -1.05,
-      "prev_value": 2.86
+      "value": 2.87,
+      "date": "2026-04-20",
+      "change_pct": 1.41,
+      "prev_value": 2.83
     },
     "fra_ois": {
-      "value": 3.64,
-      "date": "2026-04-17",
-      "change_pct": 0.0,
+      "value": 3.63,
+      "date": "2026-04-20",
+      "change_pct": -0.27,
       "prev_value": 3.64
     }
   },
@@ -78,42 +78,42 @@
       "prev_value": 118.3616
     },
     "usdkrw": {
-      "close": 1465.15,
-      "prev_close": 1465.15,
-      "change_pct": 0.0,
-      "pct_52w": 66.6
+      "close": 1486.73,
+      "prev_close": 1469.26,
+      "change_pct": 1.19,
+      "pct_52w": 76.6
     },
     "usdjpy": {
-      "close": 158.84,
-      "prev_close": 159.16,
-      "change_pct": -0.2,
-      "pct_52w": 93.2
+      "close": 159.41,
+      "prev_close": 158.84,
+      "change_pct": 0.36,
+      "pct_52w": 96.0
     },
     "eurusd": {
-      "close": 1.18,
-      "prev_close": 1.17,
-      "change_pct": 0.85,
-      "pct_52w": 76.4
+      "close": 1.17,
+      "prev_close": 1.18,
+      "change_pct": -0.85,
+      "pct_52w": 65.9
     }
   },
   "commodities": {
     "wti": {
-      "close": 86.39,
-      "prev_close": 86.39,
-      "change_pct": 0.0,
-      "pct_52w": 48.7
+      "close": 90.43,
+      "prev_close": 89.61,
+      "change_pct": 0.92,
+      "pct_52w": 55.0
     },
     "gold": {
-      "close": 4845.7,
-      "prev_close": 4845.7,
-      "change_pct": 0.0,
-      "pct_52w": 69.9
+      "close": 4750.6,
+      "prev_close": 4806.6,
+      "change_pct": -1.17,
+      "pct_52w": 66.0
     },
     "copper": {
-      "close": 6.05,
-      "prev_close": 6.05,
-      "change_pct": 0.0,
-      "pct_52w": 79.0
+      "close": 6.01,
+      "prev_close": 6.04,
+      "change_pct": -0.5,
+      "pct_52w": 77.2
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6693871.0
     },
     "rrp": {
-      "value": 0.503,
-      "date": "2026-04-20",
-      "change_pct": 267.15,
-      "prev_value": 0.137
+      "value": 0.807,
+      "date": "2026-04-21",
+      "change_pct": 60.44,
+      "prev_value": 0.503
     },
     "m2": {
       "value": 22667.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 154.56,
-      "change_pct": 0.14,
-      "change_4w": 12.86,
-      "pct_52w": 99.6
+      "close": 154.69,
+      "change_pct": 0.08,
+      "change_4w": 12.95,
+      "pct_52w": 97.8
     },
     "financials": {
-      "close": 52.63,
-      "change_pct": 0.38,
-      "change_4w": 6.82,
-      "pct_52w": 69.4
+      "close": 52.3,
+      "change_pct": -0.63,
+      "change_4w": 6.15,
+      "pct_52w": 63.4
     },
     "energy": {
-      "close": 55.07,
-      "change_pct": 0.09,
-      "change_4w": -7.65,
-      "pct_52w": 67.0
+      "close": 55.87,
+      "change_pct": 1.45,
+      "change_4w": -6.31,
+      "pct_52w": 69.6
     },
     "utilities": {
-      "close": 45.75,
-      "change_pct": -0.89,
-      "change_4w": 2.17,
-      "pct_52w": 82.6
+      "close": 44.95,
+      "change_pct": -1.75,
+      "change_4w": 0.38,
+      "pct_52w": 73.5
     },
     "healthcare": {
-      "close": 147.42,
-      "change_pct": -0.93,
-      "change_4w": 1.83,
-      "pct_52w": 64.1
+      "close": 145.92,
+      "change_pct": -1.02,
+      "change_4w": 0.79,
+      "pct_52w": 59.8
     },
     "consumer_disc": {
-      "close": 119.87,
-      "change_pct": -0.45,
-      "change_4w": 8.85,
-      "pct_52w": 86.6
+      "close": 118.97,
+      "change_pct": -0.75,
+      "change_4w": 8.04,
+      "pct_52w": 83.1
     },
     "industrials": {
-      "close": 173.9,
-      "change_pct": 0.22,
-      "change_4w": 6.65,
-      "pct_52w": 91.7
+      "close": 171.44,
+      "change_pct": -1.41,
+      "change_4w": 5.15,
+      "pct_52w": 87.1
     },
     "materials": {
-      "close": 52.23,
-      "change_pct": 0.67,
-      "change_4w": 9.84,
-      "pct_52w": 89.1
+      "close": 51.77,
+      "change_pct": -0.88,
+      "change_4w": 8.87,
+      "pct_52w": 85.3
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 43,
+      "score": 41,
       "rating": "Fear"
     },
     "skew": {
-      "close": 141.9,
-      "change_pct": 0.06,
+      "close": 140.91,
+      "change_pct": -0.7,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -286,53 +286,74 @@
   ],
   "news": [
     {
-      "title": "Psychedelic stocks surge after Trump supports using drugs like LSD for mental health",
-      "url": "https://www.marketwatch.com/story/psychedelic-stocks-rally-with-trumps-support-addafa78?mod=mw_rss_topstories",
+      "title": "Airlines cut flights as fuel costs surge — an economic fallout from the Iran war that markets may be missing",
+      "url": "https://www.marketwatch.com/story/airlines-cut-flights-as-fuel-costs-surge-an-economic-fallout-from-the-iran-war-that-markets-may-be-missing-8b92f5ff?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 20 Apr 2026 20:51:00 GMT",
-      "title_ko": "트럼프가 LSD 같은 약물을 정신 건강에 사용하는 것을 지지한 후 사이키델릭 주가가 급등"
+      "published": "Tue, 21 Apr 2026 22:04:00 GMT",
+      "title_ko": "항공사, 연료비 상승으로 운항편 감축 — 시장은 놓치고 있는 이란 전쟁의 경제적 여파"
     },
     {
-      "title": "Tariff refunds begin on Monday. These retailers are due big paydays",
-      "url": "https://www.cnbc.com/2026/04/20/tariff-refunds-begin-on-monday-these-retailers-are-due-big-paydays.html",
-      "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 19:05:08 GMT",
-      "title_ko": "월요일에 관세 환급이 시작된다. 이 소매업체들은 큰 페이데이를 맞이할 것"
+      "title": "Bonds could lag stocks for the rest of 2026, according to this contrarian signal",
+      "url": "https://www.marketwatch.com/story/bonds-could-lag-stocks-for-the-rest-of-2026-according-to-this-contrarian-signal-6b6c55de?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Tue, 21 Apr 2026 21:56:00 GMT",
+      "title_ko": "반대되는 신호에 따르면 2026년 나머지 기간 동안 채권은 주식에 미치지 못할 수 있다"
     },
     {
-      "title": "Chair nominee Kevin Warsh says Fed must ‘stay in its lane’ to maintain independence",
-      "url": "https://www.cnbc.com/2026/04/20/kevin-warsh-fed-confirmation-senate.html",
-      "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 17:38:52 GMT",
-      "title_ko": "의장 후보 케빈 워시가 독립성을 유지하기 위해 연준은 자신의 역할을 지켜야 한다고 말함"
+      "title": "The meme-stock frenzy is a warning — these 7 high-quality stocks are better bets",
+      "url": "https://www.marketwatch.com/story/from-allbirds-to-ai-the-meme-stock-frenzy-is-warning-you-to-own-this-quality-antimeme-portfolio-instead-6714bb16?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Tue, 21 Apr 2026 21:10:00 GMT",
+      "title_ko": "메모 스톡 열풍은 경고이다 — 이 7개의 고품질 주식이 더 나은 선택이다"
     },
     {
-      "title": "Kevin Warsh would be the first tech bro Fed chair. How Silicon Valley shaped him",
-      "url": "https://www.cnbc.com/2026/04/20/fed-silicon-valley-kevin-warsh.html",
+      "title": "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
+      "url": "https://www.cnbc.com/2026/04/21/kevin-warsh-fed-regime-change-senate-confirmation-hearing.html",
       "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 15:13:00 GMT",
-      "title_ko": "케빈 워시는 첫 번째 테크 브로 연준 의장이 될 것임. 어떻게 실리콘 밸리가 그를 형성했는가"
+      "published": "Tue, 21 Apr 2026 19:57:56 GMT",
+      "title_ko": "분석: 워시, 어려운 청문회에서 연방준비제도 '체제 전환' 계획을 유지하며 나온다"
     },
     {
-      "title": "Investors are misreading news about the Iran war, analysts say as markets whipsaw",
-      "url": "https://www.cnbc.com/2026/04/20/market-optimism-iran-war-equities-markets.html",
+      "title": "Trump says 'I'll remember' companies that don’t seek tariff refunds",
+      "url": "https://www.cnbc.com/2026/04/21/trump-says-hell-remember-companies-that-dont-seek-tariff-refund.html",
       "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 16:20:46 GMT",
-      "title_ko": "분석가들은 시장의 호재가 나타나면서 투자자들이 이란 전쟁에 대한 뉴스를 잘못 판단하고 있다고 말함"
+      "published": "Tue, 21 Apr 2026 14:34:02 GMT",
+      "title_ko": "트럼프, 관세 환급을 요구하지 않는 기업들에게 '기억할 것'이라고 말한다"
     },
     {
-      "title": "Hormuz disruptions hit China’s Christmas capital — and holiday spending",
-      "url": "https://www.cnbc.com/2026/04/20/hormuz-china-christmas-capital-holiday-spending.html",
+      "title": "Polymarket launches trading of heavily leveraged 'perps' contracts",
+      "url": "https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html",
       "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 18:40:02 GMT",
-      "title_ko": "호르무즈의 혼란이 중국의 크리스마스 수도에 영향을 미치고 — 그리고 휴일 지출에도 영향을 미침"
+      "published": "Tue, 21 Apr 2026 20:35:24 GMT",
+      "title_ko": "폴리마켓, 높은 레버리지의 '퍼프스' 계약 거래를 시작한다"
     },
     {
-      "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-      "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html",
+      "title": "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
+      "url": "https://www.cnbc.com/2026/04/21/tim-cook-apple-steve-jobs-legacy.html",
       "source": "CNBC",
-      "published": "Mon, 20 Apr 2026 19:04:40 GMT",
-      "title_ko": "이란과 미국이 호르무즈 해협에 대한 긴장이 고조됨에 따라 상선에 공격을 가한 후 원유 가격이 급등함"
+      "published": "Tue, 21 Apr 2026 17:29:36 GMT",
+      "title_ko": "팀 쿡, 스티브 잡스를 따라 하려고 하지 않음으로써 애플을 4조 달러의 강자로 만들었다"
+    },
+    {
+      "title": "Apple incoming CEO John Ternus faces a defining challenge: Fixing the company's AI strategy",
+      "url": "https://www.cnbc.com/2026/04/20/apple-new-ceo-john-ternus-faces-defining-challenge-fixing-ai-strategy.html",
+      "source": "CNBC",
+      "published": "Tue, 21 Apr 2026 22:34:27 GMT",
+      "title_ko": "애플의 새로운 최고경영자 존 테르너스, 회사의 인공지능 전략을 고쳐야 하는 결정적인 도전을 직면한다"
+    },
+    {
+      "title": "How Warsh can give Trump rate cuts, keep Fed independent, and make the market happy",
+      "url": "https://www.cnbc.com/2026/04/21/how-warsh-can-give-trump-rate-cuts-keep-fed-independent-and-make-the-market-happy.html",
+      "source": "CNBC",
+      "published": "Tue, 21 Apr 2026 20:06:04 GMT",
+      "title_ko": "워시, 트럼프에게 금리 인하를 주고 연방준비제도를 독립적으로 유지하며 시장에 기쁨을 줄 수 있는 방법"
+    },
+    {
+      "title": "A timeline of how the Iran war shook oil prices — and what comes next",
+      "url": "https://www.cnbc.com/2026/04/21/oil-price-iran-war-middle-east.html",
+      "source": "CNBC",
+      "published": "Tue, 21 Apr 2026 15:46:33 GMT",
+      "title_ko": "A timeline of how the Iran war shook oil prices — and what comes next"
     }
   ]
 }
