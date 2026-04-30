@@ -1,71 +1,71 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "indices": {
     "sp500": {
-      "close": 7135.95,
-      "prev_close": 7138.8,
-      "change_pct": -0.04,
-      "pct_52w": 97.5
+      "close": 7209.01,
+      "prev_close": 7135.95,
+      "change_pct": 1.02,
+      "pct_52w": 99.3
     },
     "nasdaq100": {
-      "close": 27186.98,
-      "prev_close": 27029.01,
-      "change_pct": 0.58,
-      "pct_52w": 98.5
+      "close": 27452.12,
+      "prev_close": 27186.98,
+      "change_pct": 0.98,
+      "pct_52w": 99.5
     },
     "russell": {
-      "close": 2739.47,
-      "prev_close": 2756.05,
-      "change_pct": -0.6,
-      "pct_52w": 91.2
+      "close": 2799.91,
+      "prev_close": 2739.47,
+      "change_pct": 2.21,
+      "pct_52w": 97.9
     },
     "vix": {
-      "close": 18.81,
-      "prev_close": 17.83,
-      "change_pct": 5.5,
-      "pct_52w": 24.8
+      "close": 16.89,
+      "prev_close": 18.81,
+      "change_pct": -10.21,
+      "pct_52w": 16.0
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.84,
-      "date": "2026-04-28",
-      "change_pct": 1.59,
-      "prev_value": 3.78
+      "value": 3.92,
+      "date": "2026-04-29",
+      "change_pct": 2.08,
+      "prev_value": 3.84
     },
     "us10y": {
-      "value": 4.36,
-      "date": "2026-04-28",
-      "change_pct": 0.23,
-      "prev_value": 4.35
+      "value": 4.42,
+      "date": "2026-04-29",
+      "change_pct": 1.38,
+      "prev_value": 4.36
     },
     "tips10y": {
-      "value": 1.92,
-      "date": "2026-04-28",
-      "change_pct": 0.52,
-      "prev_value": 1.91
+      "value": 1.96,
+      "date": "2026-04-29",
+      "change_pct": 2.08,
+      "prev_value": 1.92
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.5,
-      "date": "2026-04-29",
-      "change_pct": -3.85,
-      "prev_value": 0.52
+      "value": 0.52,
+      "date": "2026-04-30",
+      "change_pct": 4.0,
+      "prev_value": 0.5
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.85,
-      "date": "2026-04-28",
-      "change_pct": 0.35,
-      "prev_value": 2.84
+      "value": 2.82,
+      "date": "2026-04-29",
+      "change_pct": -1.05,
+      "prev_value": 2.85
     },
     "fra_ois": {
       "value": 3.64,
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "change_pct": 0.0,
       "prev_value": 3.64
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.7155
     },
     "usdkrw": {
-      "close": 1471.99,
-      "prev_close": 1471.99,
-      "change_pct": 0.0,
-      "pct_52w": 69.8
+      "close": 1474.0,
+      "prev_close": 1487.38,
+      "change_pct": -0.9,
+      "pct_52w": 70.7
     },
     "usdjpy": {
-      "close": 160.17,
-      "prev_close": 159.55,
-      "change_pct": 0.39,
-      "pct_52w": 98.5
+      "close": 157.01,
+      "prev_close": 160.18,
+      "change_pct": -1.98,
+      "pct_52w": 80.1
     },
     "eurusd": {
       "close": 1.17,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 107.96,
-      "prev_close": 99.93,
-      "change_pct": 8.04,
-      "pct_52w": 82.1
+      "close": 105.75,
+      "prev_close": 106.88,
+      "change_pct": -1.06,
+      "pct_52w": 78.7
     },
     "gold": {
-      "close": 4566.4,
-      "prev_close": 4591.5,
-      "change_pct": -0.55,
-      "pct_52w": 58.6
+      "close": 4645.5,
+      "prev_close": 4545.2,
+      "change_pct": 2.21,
+      "pct_52w": 61.8
     },
     "copper": {
-      "close": 5.94,
-      "prev_close": 5.91,
-      "change_pct": 0.51,
-      "pct_52w": 74.0
+      "close": 6.03,
+      "prev_close": 5.88,
+      "change_pct": 2.55,
+      "pct_52w": 78.1
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6707419.0,
-      "date": "2026-04-22",
-      "change_pct": 0.03,
-      "prev_value": 6705696.0
+      "value": 6699950.0,
+      "date": "2026-04-29",
+      "change_pct": -0.11,
+      "prev_value": 6707419.0
     },
     "rrp": {
-      "value": 0.747,
-      "date": "2026-04-29",
-      "change_pct": 16.17,
-      "prev_value": 0.643
+      "value": 8.261,
+      "date": "2026-04-30",
+      "change_pct": 1005.89,
+      "prev_value": 0.747
     },
     "m2": {
       "value": 22686.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 159.11,
-      "change_pct": 0.8,
-      "change_4w": 24.79,
-      "pct_52w": 97.5
+      "close": 159.5,
+      "change_pct": 0.25,
+      "change_4w": 18.23,
+      "pct_52w": 98.0
     },
     "financials": {
-      "close": 51.92,
-      "change_pct": 0.14,
-      "change_4w": 7.36,
-      "pct_52w": 54.4
+      "close": 52.13,
+      "change_pct": 0.4,
+      "change_4w": 5.44,
+      "pct_52w": 52.1
     },
     "energy": {
-      "close": 59.03,
-      "change_pct": 2.29,
-      "change_4w": -4.73,
-      "pct_52w": 82.2
+      "close": 59.65,
+      "change_pct": 1.05,
+      "change_4w": 1.15,
+      "pct_52w": 84.6
     },
     "utilities": {
-      "close": 45.68,
-      "change_pct": -1.23,
-      "change_4w": -0.52,
-      "pct_52w": 79.7
+      "close": 46.85,
+      "change_pct": 2.56,
+      "change_4w": 1.6,
+      "pct_52w": 91.2
     },
     "healthcare": {
-      "close": 142.84,
-      "change_pct": -0.7,
-      "change_4w": -0.68,
-      "pct_52w": 50.9
+      "close": 145.99,
+      "change_pct": 2.21,
+      "change_4w": -1.18,
+      "pct_52w": 60.0
     },
     "consumer_disc": {
-      "close": 116.84,
-      "change_pct": -0.15,
-      "change_4w": 10.58,
-      "pct_52w": 73.3
+      "close": 118.35,
+      "change_pct": 1.29,
+      "change_4w": 7.79,
+      "pct_52w": 76.4
     },
     "industrials": {
-      "close": 169.93,
-      "change_pct": -0.61,
-      "change_4w": 8.51,
-      "pct_52w": 83.1
+      "close": 174.58,
+      "change_pct": 2.74,
+      "change_4w": 6.17,
+      "pct_52w": 91.4
     },
     "materials": {
-      "close": 50.96,
-      "change_pct": -0.86,
-      "change_4w": 3.81,
-      "pct_52w": 78.5
+      "close": 51.47,
+      "change_pct": 1.0,
+      "change_4w": 2.0,
+      "pct_52w": 81.7
     }
   },
   "macro": {
@@ -204,15 +204,15 @@
       "prev_value": 4.4
     },
     "pce": {
-      "value": 2.8,
-      "date": "2026-02-01",
+      "value": 3.5,
+      "date": "2026-03-01",
       "change_pct": null
     },
     "gdp_growth": {
-      "value": 0.5,
-      "date": "2025-10-01",
-      "change_pct": -88.64,
-      "prev_value": 4.4
+      "value": 2.0,
+      "date": "2026-01-01",
+      "change_pct": 300.0,
+      "prev_value": 0.5
     },
     "ism_mfg": {
       "value": 53.3,
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 43,
-      "rating": "Fear"
+      "score": 47,
+      "rating": "Neutral"
     },
     "skew": {
-      "close": 141.88,
-      "change_pct": 2.69,
+      "close": 143.33,
+      "change_pct": 1.02,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-04-29",
-      "event": "GDP 속보치 (Q1 2026)",
-      "category": "gdp",
-      "impact": "high"
-    },
     {
       "date": "2026-04-30",
       "event": "PCE 발표 (3월)",
@@ -298,67 +292,102 @@
   ],
   "news": [
     {
-      "title": "Powell won’t leave the Fed, pushing back further against Trump",
-      "url": "https://www.marketwatch.com/story/powell-says-hell-stay-at-fed-as-governor-after-his-term-as-chair-ends-in-mid-may-c906c044?mod=mw_rss_topstories",
+      "title": "The memory trade is faltering as Western Digital’s stock slides in the face of earnings beat",
+      "url": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 29 Apr 2026 23:13:00 GMT",
-      "title_ko": "파월, 트럼프에 반발하며 연준 잔류할 것"
+      "published": "Thu, 30 Apr 2026 22:40:00 GMT",
+      "title_ko": "웨스턴 디지털의 주가가 수익 실적을 앞서면서 메모리 거래가 부진해지고 있다"
     },
     {
-      "title": "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal",
-      "url": "https://www.cnbc.com/2026/04/29/oil-prices-brent-wti-trump-iran.html",
-      "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 19:01:01 GMT",
-      "title_ko": "트럼프의 이란 핵 협상 압박 발언에 브렌트 유가 118달러 돌파"
+      "title": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold",
+      "url": "https://www.marketwatch.com/story/spacex-may-face-an-easier-path-to-s-p-500-entry-if-these-newly-proposed-rules-take-hold-b3ba6bff?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 30 Apr 2026 22:22:00 GMT",
+      "title_ko": "스페이스X는 새로 제안된 규칙이 시행되면 S&P 500에 진입하기가 더 쉬울 수 있다"
     },
     {
-      "title": "Ford raises 2026 guidance as $1.3 billion tariff refund assists in offsetting higher costs",
-      "url": "https://www.cnbc.com/2026/04/29/ford-motor-f-earnings-q1-2026.html",
-      "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 21:44:59 GMT",
-      "title_ko": "포드, 2026년 실적 예측 상향 조정... 13억 달러의 관세 환급이 높은 비용 상쇄에 도움"
+      "title": "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
+      "url": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 30 Apr 2026 22:14:00 GMT",
+      "title_ko": "숫자는 거짓말하지 않는다: 사회 보장금을 S&P 500에 투자했다면 400만 달러를 가지게 되었을 것이다. 시스템이 고장난 것일까?"
     },
     {
-      "title": "Warsh hints at a new reading of the Fed's power over swap lines amid UAE discussion",
-      "url": "https://www.cnbc.com/2026/04/29/fed-warsh-bessent-uae-swap-lines.html",
-      "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 21:26:56 GMT",
-      "title_ko": "Warsh hints at a new reading of the Fed's power over swap lines amid UAE discussion"
+      "title": "Mortgage rates increase to 6.3% — but home buyers aren’t scared away",
+      "url": "https://www.marketwatch.com/story/mortgage-rates-increase-to-6-3-but-thats-not-stopping-home-buyers-8f24ecbb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 30 Apr 2026 22:01:00 GMT",
+      "title_ko": "모기지 금리가 6.3%로 상승했지만 집 구매자들이 두려워하지 않는다"
     },
     {
-      "title": "Jerome Powell says he will continue to serve as a Fed governor, calls Trump criticism 'unprecedented'",
-      "url": "https://www.cnbc.com/2026/04/29/jerome-powell-says-he-will-continue-to-serve-as-a-fed-governor-even-after-chairmanship-ends-.html",
-      "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 19:32:45 GMT",
-      "title_ko": "제롬 파월, 연준 총재로 계속 활동할 것... 트럼프의 비판은 \"전례 없는 것\"이라고 말함"
+      "title": "Could Powell’s decision to stay worsen relations between the Fed and the White House?",
+      "url": "https://www.marketwatch.com/story/could-powells-decision-to-stay-worsen-relations-between-the-fed-and-the-white-house-ba91a3f9?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 30 Apr 2026 21:27:00 GMT",
+      "title_ko": "파월의 잔류 결정이 연방준비제도와 백악관의 관계를 더 나쁘게 할 수 있을까?"
     },
     {
-      "title": "Fed holds rates steady but with highest level of dissent since 1992",
-      "url": "https://www.cnbc.com/2026/04/29/fed-interest-rate-decision-april-2026.html",
-      "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 19:25:28 GMT",
-      "title_ko": "Fed holds rates steady but with highest level of dissent since 1992"
+      "title": "‘We are old school’: I’ve been married for 40 years. Should I have kept my money separate?",
+      "url": "https://www.marketwatch.com/story/we-are-old-school-ive-been-married-for-40-years-should-i-have-kept-my-money-separate-d4bef3c2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 30 Apr 2026 21:15:00 GMT",
+      "title_ko": "우리는 옛날 방식이다: 40년 동안 결혼했다. 돈을 따로 두었어야 했을까?"
     },
     {
-      "title": "Jim Cramer reveals the secret to finding a winning tech stock in this market",
-      "url": "https://www.cnbc.com/2026/04/29/jim-cramer-secret-winning-tech-stock.html",
+      "title": "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq",
+      "url": "https://www.cnbc.com/2026/04/30/intel-has-best-month-ever-after-years-of-losing-to-tsmc-and-nvidia.html",
       "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 22:45:30 GMT",
-      "title_ko": "짐 크레이머, 현재 시장에서 승리하는 기술 주식을 찾는 비결 공개"
+      "published": "Thu, 30 Apr 2026 20:10:36 GMT",
+      "title_ko": "인텔의 주가가 4월에 두 배 이상 상승해 55년간 나스닥에서 최고의 달을 보냈다"
     },
     {
-      "title": "Qualcomm shares soar 16% on CEO comments about China orders, hyperscaler customer",
-      "url": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html",
+      "title": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+      "url": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html",
       "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 22:35:57 GMT",
-      "title_ko": "퀄컴, 중국 주문과 하이퍼스케일러 고객에 대한 최고 경영자의 발언에 주가 16% 상승"
+      "published": "Thu, 30 Apr 2026 19:25:06 GMT",
+      "title_ko": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid"
     },
     {
-      "title": "Shocking UAE exit rocks OPEC, but group will still hold significant sway over the oil market",
-      "url": "https://www.cnbc.com/2026/04/29/shocking-uae-exit-rocks-opec-but-group-will-still-hold-significant-sway-over-the-oil-market.html",
+      "title": "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen",
+      "url": "https://www.cnbc.com/2026/04/30/trump-blockade-iran-oil-strait-hormuz.html",
       "source": "CNBC",
-      "published": "Wed, 29 Apr 2026 20:27:07 GMT",
-      "title_ko": "Shocking UAE exit rocks OPEC, but group will still hold significant sway over the oil market"
+      "published": "Thu, 30 Apr 2026 16:36:21 GMT",
+      "title_ko": "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen"
+    },
+    {
+      "title": "Apple's stock has gone nowhere for 6 months. Traders expect a wild ride Thursday night",
+      "url": "https://www.cnbc.com/2026/04/30/apples-stock-has-gone-nowhere-for-6-months-traders-expect-a-wild-ride-thursday-night.html",
+      "source": "CNBC",
+      "published": "Thu, 30 Apr 2026 17:38:34 GMT",
+      "title_ko": "Apple's stock has gone nowhere for 6 months. Traders expect a wild ride Thursday night"
+    },
+    {
+      "title": "U.S. senators ban themselves from prediction markets trading",
+      "url": "https://www.cnbc.com/2026/04/30/senate-prediction-markets-trading-ban-kalshi-polymarket.html",
+      "source": "CNBC",
+      "published": "Thu, 30 Apr 2026 21:37:12 GMT",
+      "title_ko": "미국 상원의원들은 예측 시장 거래를 금지했다"
+    },
+    {
+      "title": "Trump administration finalizes federal student loan caps—what it means for borrowers",
+      "url": "https://www.cnbc.com/2026/04/30/grad-school-loan-caps-final-rule.html",
+      "source": "CNBC",
+      "published": "Thu, 30 Apr 2026 20:01:56 GMT",
+      "title_ko": "트럼프 행정부는 연방 학생 대출 상한을 최종 결정했다—대출자에게 무엇을 의미하는가?"
+    },
+    {
+      "title": "Inside Wealth: Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby",
+      "url": "https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html",
+      "source": "CNBC",
+      "published": "Thu, 30 Apr 2026 21:06:01 GMT",
+      "title_ko": "부의 내부: 시장은 중동의 인공지능 철수를위한 위험을 과소평가하고 있다고 기술 투자자 잭 셀비는 말했다"
+    },
+    {
+      "title": "Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone, per traders on Kalshi",
+      "url": "https://www.cnbc.com/2026/04/30/what-bettors-think-apple-will-talk-about-on-its-earnings-call.html",
+      "source": "CNBC",
+      "published": "Thu, 30 Apr 2026 17:56:28 GMT",
+      "title_ko": "애플 최고 경영진은 중국과 관세에 대해 이야기할 것이지만 폴더블 아이폰에 대해서는 논의하지 않을 것이라고 칼시의 거래자들은 말했다"
     }
   ]
 }
