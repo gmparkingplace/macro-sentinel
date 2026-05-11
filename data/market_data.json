@@ -1,119 +1,119 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-11",
   "indices": {
     "sp500": {
-      "close": 7398.93,
-      "prev_close": 7337.11,
-      "change_pct": 0.84,
-      "pct_52w": 99.9
+      "close": 7412.84,
+      "prev_close": 7398.93,
+      "change_pct": 0.19,
+      "pct_52w": 99.0
     },
     "nasdaq100": {
-      "close": 29234.99,
-      "prev_close": 28563.95,
-      "change_pct": 2.35,
-      "pct_52w": 100.0
+      "close": 29320.66,
+      "prev_close": 29234.99,
+      "change_pct": 0.29,
+      "pct_52w": 99.4
     },
     "russell": {
-      "close": 2861.21,
-      "prev_close": 2839.63,
-      "change_pct": 0.76,
-      "pct_52w": 96.9
+      "close": 2870.64,
+      "prev_close": 2861.21,
+      "change_pct": 0.33,
+      "pct_52w": 98.0
     },
     "vix": {
-      "close": 17.19,
-      "prev_close": 17.08,
-      "change_pct": 0.64,
-      "pct_52w": 17.4
+      "close": 18.38,
+      "prev_close": 17.19,
+      "change_pct": 6.92,
+      "pct_52w": 22.8
     }
   },
   "rates": {
     "us2y": {
-      "value": 3.92,
-      "date": "2026-05-07",
-      "change_pct": 1.29,
-      "prev_value": 3.87
+      "value": 3.9,
+      "date": "2026-05-08",
+      "change_pct": -0.51,
+      "prev_value": 3.92
     },
     "us10y": {
-      "value": 4.41,
-      "date": "2026-05-07",
-      "change_pct": 1.15,
-      "prev_value": 4.36
+      "value": 4.38,
+      "date": "2026-05-08",
+      "change_pct": -0.68,
+      "prev_value": 4.41
     },
     "tips10y": {
-      "value": 1.96,
-      "date": "2026-05-07",
-      "change_pct": 1.03,
-      "prev_value": 1.94
+      "value": 1.93,
+      "date": "2026-05-08",
+      "change_pct": -1.53,
+      "prev_value": 1.96
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.48,
-      "date": "2026-05-08",
-      "change_pct": -2.04,
-      "prev_value": 0.49
+      "value": 0.47,
+      "date": "2026-05-11",
+      "change_pct": -2.08,
+      "prev_value": 0.48
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.79,
-      "date": "2026-05-07",
-      "change_pct": 1.45,
-      "prev_value": 2.75
+      "value": 2.81,
+      "date": "2026-05-08",
+      "change_pct": 0.72,
+      "prev_value": 2.79
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
   },
   "fx": {
     "dxy": {
-      "value": 118.3926,
-      "date": "2026-05-01",
-      "change_pct": -0.23,
-      "prev_value": 118.671
+      "value": 118.0392,
+      "date": "2026-05-08",
+      "change_pct": 0.02,
+      "prev_value": 118.0116
     },
     "usdkrw": {
-      "close": 1461.48,
-      "prev_close": 1444.45,
-      "change_pct": 1.18,
-      "pct_52w": 64.9
+      "close": 1460.55,
+      "prev_close": 1460.55,
+      "change_pct": 0.0,
+      "pct_52w": 64.4
     },
     "usdjpy": {
-      "close": 156.62,
-      "prev_close": 156.51,
-      "change_pct": 0.07,
-      "pct_52w": 78.0
+      "close": 157.24,
+      "prev_close": 156.86,
+      "change_pct": 0.24,
+      "pct_52w": 81.4
     },
     "eurusd": {
       "close": 1.18,
-      "prev_close": 1.17,
-      "change_pct": 0.85,
+      "prev_close": 1.18,
+      "change_pct": 0.0,
       "pct_52w": 76.4
     }
   },
   "commodities": {
     "wti": {
-      "close": 94.68,
-      "prev_close": 94.81,
-      "change_pct": -0.14,
-      "pct_52w": 61.6
+      "close": 98.06,
+      "prev_close": 98.06,
+      "change_pct": 0.0,
+      "pct_52w": 66.8
     },
     "gold": {
-      "close": 4723.7,
-      "prev_close": 4699.8,
-      "change_pct": 0.51,
-      "pct_52w": 65.0
+      "close": 4769.1,
+      "prev_close": 4769.1,
+      "change_pct": 0.0,
+      "pct_52w": 66.8
     },
     "copper": {
-      "close": 6.28,
-      "prev_close": 6.13,
-      "change_pct": 2.45,
-      "pct_52w": 89.6
+      "close": 6.49,
+      "prev_close": 6.49,
+      "change_pct": 0.0,
+      "pct_52w": 99.2
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6699950.0
     },
     "rrp": {
-      "value": 0.787,
-      "date": "2026-05-08",
-      "change_pct": 1.81,
-      "prev_value": 0.773
+      "value": 1.133,
+      "date": "2026-05-11",
+      "change_pct": 43.96,
+      "prev_value": 0.787
     },
     "m2": {
       "value": 22686.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 175.52,
-      "change_pct": 3.44,
-      "change_4w": 23.54,
-      "pct_52w": 99.9
+      "close": 177.88,
+      "change_pct": 1.34,
+      "change_4w": 22.16,
+      "pct_52w": 99.4
     },
     "financials": {
-      "close": 51.24,
-      "change_pct": -0.6,
-      "change_4w": -0.18,
-      "pct_52w": 41.7
+      "close": 51.18,
+      "change_pct": -0.12,
+      "change_4w": -0.93,
+      "pct_52w": 41.0
     },
     "energy": {
-      "close": 55.7,
-      "change_pct": -0.45,
-      "change_4w": -2.84,
-      "pct_52w": 68.1
+      "close": 57.17,
+      "change_pct": 2.64,
+      "change_4w": 0.11,
+      "pct_52w": 74.2
     },
     "utilities": {
-      "close": 44.72,
-      "change_pct": -0.89,
-      "change_4w": -5.15,
-      "pct_52w": 69.3
+      "close": 45.14,
+      "change_pct": 0.94,
+      "change_4w": -2.69,
+      "pct_52w": 73.6
     },
     "healthcare": {
-      "close": 143.49,
-      "change_pct": -0.85,
-      "change_4w": -3.91,
-      "pct_52w": 52.8
+      "close": 143.04,
+      "change_pct": -0.31,
+      "change_4w": -3.33,
+      "pct_52w": 51.5
     },
     "consumer_disc": {
-      "close": 120.2,
-      "change_pct": 0.27,
-      "change_4w": 6.62,
-      "pct_52w": 81.6
+      "close": 119.37,
+      "change_pct": -0.69,
+      "change_4w": 4.78,
+      "pct_52w": 75.2
     },
     "industrials": {
-      "close": 173.2,
-      "change_pct": -0.46,
-      "change_4w": 0.59,
-      "pct_52w": 87.7
+      "close": 175.04,
+      "change_pct": 1.06,
+      "change_4w": 1.34,
+      "pct_52w": 91.0
     },
     "materials": {
-      "close": 51.59,
-      "change_pct": 0.37,
-      "change_4w": -0.15,
-      "pct_52w": 81.8
+      "close": 52.26,
+      "change_pct": 1.3,
+      "change_4w": 0.13,
+      "pct_52w": 86.7
     }
   },
   "macro": {
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 46,
-      "rating": "Neutral"
+      "score": 44,
+      "rating": "Fear"
     },
     "skew": {
-      "close": 138.21,
-      "change_pct": 1.54,
+      "close": 140.21,
+      "change_pct": 1.45,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-05-08",
-      "event": "고용보고서 (4월)",
-      "category": "jobs",
-      "impact": "high"
-    },
     {
       "date": "2026-05-13",
       "event": "CPI 발표 (4월)",
@@ -286,88 +280,102 @@
   ],
   "news": [
     {
-      "title": "Dunkin’ is making its return to the stock market — with a new twist",
-      "url": "https://www.marketwatch.com/story/dunkin-is-making-its-return-to-the-stock-market-with-a-new-twist-c89f1cc2?mod=mw_rss_topstories",
+      "title": "Meet the Nvidias of power — 5 stocks winning Big Tech’s $700 billion AI energy grab",
+      "url": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 08 May 2026 22:07:00 GMT",
-      "title_ko": "던킨이 새로운 전략으로 주식시장에 다시 등장하다"
+      "published": "Mon, 11 May 2026 23:49:00 GMT",
+      "title_ko": "7000억 달러의 인공지능 에너지 시장에서 승리하는 5개의 주식 — 엔비디아와 같은 회사들을 만나보세요"
     },
     {
-      "title": "No do-overs: How one extra dollar on your Roth conversion triggers a tax bill you won’t see coming",
-      "url": "https://www.marketwatch.com/story/no-do-overs-how-one-extra-dollar-on-your-roth-conversion-triggers-a-tax-bill-you-wont-see-coming-5b52c911?mod=mw_rss_topstories",
+      "title": "Oil price charts produced a pattern not seen in 36 years. What happened last time?",
+      "url": "https://www.marketwatch.com/story/oil-price-charts-produced-a-pattern-not-seen-in-36-years-what-happened-last-time-763cdc40?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 08 May 2026 21:29:00 GMT",
-      "title_ko": "로스 변환에 1달러가 더해지면 예상치 못한 세금 청구서가 날아온다"
+      "published": "Mon, 11 May 2026 22:29:00 GMT",
+      "title_ko": "36년 만에 나타난 원유 가격 차트의 패턴 — 이전에 이런 일이 발생했을 때는 어떤 일이 있었나요?"
     },
     {
-      "title": "Ageism is corporate self-sabotage — America’s ‘brain drain’ is costing shareholders billions",
-      "url": "https://www.marketwatch.com/story/ageism-is-still-an-acceptable-bias-among-employers-and-its-costing-shareholders-billions-aa308465?mod=mw_rss_topstories",
+      "title": "Stocks are hitting record highs even as Iran war drags on. How long can it last?",
+      "url": "https://www.marketwatch.com/story/stocks-are-hitting-record-highs-even-as-iran-war-drags-on-how-long-can-it-last-f65cf2d5?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 08 May 2026 20:39:00 GMT",
-      "title_ko": "연령 차별은 기업의 자멸이다 - 미국의 지적 유출은 주주에게 수십억 달러의 손실을 끼치고 있다"
+      "published": "Mon, 11 May 2026 21:32:00 GMT",
+      "title_ko": "이란 전쟁이 계속되는 동안 주식은 기록적인 최고치에 도달했습니다 — 이것이 얼마나 지속될 수 있을까요?"
     },
     {
-      "title": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+      "title": "Cash-strapped homeowners may soon have no choice but to repair their aging houses. These stocks can benefit.",
+      "url": "https://www.marketwatch.com/story/cash-strapped-homeowners-may-soon-have-no-choice-but-to-repair-their-aging-houses-0241bbdc?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 08 May 2026 20:31:00 GMT",
-      "title_ko": "66세인 내가 지금 주식시장에 10만 달러를 투자하는 것이 좋은 아이디어일까"
+      "published": "Mon, 11 May 2026 21:19:00 GMT",
+      "title_ko": "자금이 부족한 주택 소유자는 곧 노후한 집을 수리할 수밖에 없을 것입니다 — 이러한 주식은 이익을 얻을 수 있습니다"
     },
     {
-      "title": "Kevin Warsh is right about Fed reform — but his inflation solution is a trap",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Fri, 08 May 2026 19:47:00 GMT",
-      "title_ko": "케빈 워시의 연준 개혁에 대한 의견은 옳지만 그의 인플레이션 해결책은 함정이다"
-    },
-    {
-      "title": "U.S. payrolls jump more than expected, but the report had several red flags for the economy",
-      "url": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html",
+      "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+      "url": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 18:22:51 GMT",
-      "title_ko": "미국의 고용률이 예상보다 높게 증가했지만 경제에 대한 여러 경고 신호가 나타났다"
+      "published": "Mon, 11 May 2026 17:24:05 GMT",
+      "title_ko": "트럼프는 엘론 머스크, 팀 쿡, 래리 핀크 등 다른 최고경영자들을 중국 여행에 초대했습니다 — 시진핑 정상회담을 위한"
     },
     {
-      "title": "The Federal Reserve is quickly running out of reasons to cut interest rates",
-      "url": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html",
+      "title": "Parabolic AI rally has bulls eyeing a comeback for this one-time meme metal trade",
+      "url": "https://www.cnbc.com/2026/05/11/parabolic-ai-rally-has-bulls-eyeing-a-comeback-for-this-one-time-meme-metal-trade.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 21:44:14 GMT",
-      "title_ko": "연준은 금리 인하를 위한 이유를 빠르게 잃어가고 있다"
+      "published": "Mon, 11 May 2026 18:49:52 GMT",
+      "title_ko": "기하급수적으로 증가하는 인공지능 랠리는 한때의 밈 메탈 거래의 부활을 기대하고 있습니다"
     },
     {
-      "title": "Michael Burry says the market today feels like 'the last months of the 1999-2000 bubble'",
-      "url": "https://www.cnbc.com/2026/05/08/michael-burry-says-the-market-today-feels-like-the-last-months-of-the-1999-2000-bubble.html",
+      "title": "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
+      "url": "https://www.cnbc.com/2026/05/11/trump-congress-gop-gas-tax-iran-war.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 18:54:00 GMT",
-      "title_ko": "마이클 버리는 현재 시장 상황이 1999년에서 2000년까지의 버블과 비슷하다고 말한다"
+      "published": "Mon, 11 May 2026 18:45:07 GMT",
+      "title_ko": "트럼프와 의회 공화당은 이란 전쟁 중에 연방 가스세를 중단할 것을 제안했습니다"
     },
     {
-      "title": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock",
-      "url": "https://www.cnbc.com/2026/05/08/traders-nacho-trade-strait-hormuz-oil-markets-taco-trump-iran.html",
+      "title": "Michael Burry is not a believer: 'For any stocks going parabolic reduce positions almost entirely'",
+      "url": "https://www.cnbc.com/2026/05/11/michael-burry-is-not-a-believer-for-any-stocks-going-parabolic-reduce-positions-almost-entirely.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 13:26:37 GMT",
-      "title_ko": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock"
+      "published": "Mon, 11 May 2026 16:08:00 GMT",
+      "title_ko": "마이클 버리는 믿지 않는다 — '기하급수적으로 증가하는 주식들은 거의 모든 포지션을 줄여야 합니다'"
     },
     {
-      "title": "U.S. says it struck two Iran-flagged oil tankers trying to skirt blockade",
-      "url": "https://www.cnbc.com/2026/05/08/iran-war-oil-trump-blockade-ceasefire.html",
+      "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
+      "url": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 15:50:09 GMT",
-      "title_ko": "미국이 이란 국적의 유조선 2척을 공격했다"
+      "published": "Mon, 11 May 2026 18:17:02 GMT",
+      "title_ko": "사우디 아람코 최고경영자는 호르무즈 해협의 혼란이 지속된다면 2027년까지 원유 시장은 정상화되지 않을 것이라고 말했습니다"
     },
     {
-      "title": "Iran focus at Trump-Xi summit may delay progress on tariffs, rare earths",
-      "url": "https://www.cnbc.com/2026/05/08/iran-focus-at-trump-xi-summit-may-delay-progress-on-tariffs-rare-earths.html",
+      "title": "April home sales disappoint as higher mortgage rates weigh on buyers",
+      "url": "https://www.cnbc.com/2026/05/11/april-home-sales-disappoint-higher-mortgage-rates.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 18:44:26 GMT",
-      "title_ko": "이란 문제로 인해 트럼프와 시진핑의 정상회담에서 관세와 희토류에 대한 진전이 늦어질 수 있다"
+      "published": "Mon, 11 May 2026 20:04:33 GMT",
+      "title_ko": "높은 모기지 이율이 구매자를 압박하면서 4월 주택 판매는 예상에 못 미쳤습니다"
     },
     {
-      "title": "Trump threatens EU with ‘much higher’ tariffs if no trade deal signed by new deadline",
-      "url": "https://www.cnbc.com/2026/05/08/trump-tariffs-trade-eu-europe-deal.html",
+      "title": "A beat-and-raise is key for Qnity — plus, high stakes for CEOs on Trump China trip",
+      "url": "https://www.cnbc.com/2026/05/11/a-beat-and-raise-is-key-for-qnity-plus-ceos-on-trump-china-trip.html",
       "source": "CNBC",
-      "published": "Fri, 08 May 2026 17:01:34 GMT",
-      "title_ko": "트럼프, 새로운 기한까지 무역 협정을 체결하지 않으면 유럽연합에 더 높은 관세를 부과할 것이라고 위협하다"
+      "published": "Mon, 11 May 2026 18:22:50 GMT",
+      "title_ko": "승리와 상승은 Qnity에게 중요합니다 — 트럼프의 중국 여행에서 최고경영자들에게 높은 위험부담이 있습니다"
+    },
+    {
+      "title": "Chip stocks continue to surge. Here's how to buy one for less",
+      "url": "https://www.cnbc.com/2026/05/11/chip-stocks-continue-to-surge-heres-how-to-buy-one-for-less.html",
+      "source": "CNBC",
+      "published": "Mon, 11 May 2026 15:58:54 GMT",
+      "title_ko": "반도체 주식은 계속 상승하고 있습니다 — 저렴한 가격에 하나를 구매하는 방법은 무엇일까요?"
+    },
+    {
+      "title": "‘The haters will hate’: Dan Ives predicts Nasdaq 30,000 as AI rally expands",
+      "url": "https://www.cnbc.com/2026/05/11/the-haters-will-hate-dan-ives-predicts-nasdaq-rally.html",
+      "source": "CNBC",
+      "published": "Mon, 11 May 2026 12:53:03 GMT",
+      "title_ko": "'싫어하는 사람들은 계속 싫어할 것입니다' — 댄 아이브스는 인공지능 랠리가 확대됨에 따라 나스닥 3만을 예측했습니다"
+    },
+    {
+      "title": "Hantavirus cases spark brief surge in pharma and biotech stocks — here’s why trading is so volatile",
+      "url": "https://www.cnbc.com/2026/05/11/hantavirus-cases-pharma-stocks-surge-moderna-novavax.html",
+      "source": "CNBC",
+      "published": "Mon, 11 May 2026 16:29:52 GMT",
+      "title_ko": "한타바이러스 사례가 약물과 생명공학 주식의 일시적인 상승을 유발했습니다 — 왜 거래가 इतन한 불안정한가요"
     }
   ]
 }
