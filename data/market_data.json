@@ -1,49 +1,49 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "indices": {
     "sp500": {
-      "close": 7444.25,
-      "prev_close": 7400.96,
-      "change_pct": 0.58,
+      "close": 7501.24,
+      "prev_close": 7444.25,
+      "change_pct": 0.77,
       "pct_52w": 99.1
     },
     "nasdaq100": {
-      "close": 29366.94,
-      "prev_close": 29064.8,
-      "change_pct": 1.04,
-      "pct_52w": 99.0
+      "close": 29580.3,
+      "prev_close": 29366.94,
+      "change_pct": 0.73,
+      "pct_52w": 98.9
     },
     "russell": {
-      "close": 2843.93,
-      "prev_close": 2842.83,
-      "change_pct": 0.04,
-      "pct_52w": 94.9
+      "close": 2863.09,
+      "prev_close": 2843.93,
+      "change_pct": 0.67,
+      "pct_52w": 97.1
     },
     "vix": {
-      "close": 17.87,
-      "prev_close": 17.99,
-      "change_pct": -0.67,
-      "pct_52w": 20.5
+      "close": 17.26,
+      "prev_close": 17.87,
+      "change_pct": -3.41,
+      "pct_52w": 17.7
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.0,
-      "date": "2026-05-12",
-      "change_pct": 1.27,
-      "prev_value": 3.95
+      "value": 3.98,
+      "date": "2026-05-13",
+      "change_pct": -0.5,
+      "prev_value": 4.0
     },
     "us10y": {
       "value": 4.46,
-      "date": "2026-05-12",
-      "change_pct": 0.9,
-      "prev_value": 4.42
+      "date": "2026-05-13",
+      "change_pct": 0.0,
+      "prev_value": 4.46
     },
     "tips10y": {
       "value": 1.99,
-      "date": "2026-05-12",
-      "change_pct": 2.05,
-      "prev_value": 1.95
+      "date": "2026-05-13",
+      "change_pct": 0.0,
+      "prev_value": 1.99
     }
   },
   "spreads": {
@@ -59,13 +59,13 @@
     },
     "hy_spread": {
       "value": 2.82,
-      "date": "2026-05-12",
-      "change_pct": 1.08,
-      "prev_value": 2.79
+      "date": "2026-05-13",
+      "change_pct": 0.0,
+      "prev_value": 2.82
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.0116
     },
     "usdkrw": {
-      "close": 1492.99,
-      "prev_close": 1492.99,
-      "change_pct": 0.0,
-      "pct_52w": 79.6
+      "close": 1492.68,
+      "prev_close": 1489.84,
+      "change_pct": 0.19,
+      "pct_52w": 79.4
     },
     "usdjpy": {
-      "close": 157.83,
-      "prev_close": 157.67,
-      "change_pct": 0.1,
-      "pct_52w": 84.5
+      "close": 158.36,
+      "prev_close": 157.85,
+      "change_pct": 0.32,
+      "pct_52w": 87.4
     },
     "eurusd": {
       "close": 1.17,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 100.97,
-      "prev_close": 102.18,
-      "change_pct": -1.18,
-      "pct_52w": 71.3
+      "close": 101.98,
+      "prev_close": 101.02,
+      "change_pct": 0.95,
+      "pct_52w": 72.9
     },
     "gold": {
-      "close": 4700.9,
-      "prev_close": 4677.6,
-      "change_pct": 0.5,
-      "pct_52w": 64.0
+      "close": 4657.0,
+      "prev_close": 4697.7,
+      "change_pct": -0.87,
+      "pct_52w": 62.2
     },
     "copper": {
-      "close": 6.62,
-      "prev_close": 6.49,
-      "change_pct": 2.0,
-      "pct_52w": 99.5
+      "close": 6.58,
+      "prev_close": 6.64,
+      "change_pct": -0.9,
+      "pct_52w": 97.2
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6709505.0,
-      "date": "2026-05-06",
-      "change_pct": 0.14,
-      "prev_value": 6699950.0
+      "value": 6728502.0,
+      "date": "2026-05-13",
+      "change_pct": 0.28,
+      "prev_value": 6709505.0
     },
     "rrp": {
-      "value": 3.719,
-      "date": "2026-05-13",
-      "change_pct": 210.18,
-      "prev_value": 1.199
+      "value": 2.034,
+      "date": "2026-05-14",
+      "change_pct": -45.31,
+      "prev_value": 3.719
     },
     "m2": {
       "value": 22686.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 176.85,
-      "change_pct": 0.94,
-      "change_4w": 19.54,
-      "pct_52w": 97.8
+      "close": 179.5,
+      "change_pct": 1.5,
+      "change_4w": 19.43,
+      "pct_52w": 99.0
     },
     "financials": {
-      "close": 50.99,
-      "change_pct": -1.14,
-      "change_4w": -1.53,
-      "pct_52w": 38.8
+      "close": 51.29,
+      "change_pct": 0.59,
+      "change_4w": -1.69,
+      "pct_52w": 42.3
     },
     "energy": {
-      "close": 57.63,
-      "change_pct": 0.1,
-      "change_4w": 3.0,
-      "pct_52w": 76.1
+      "close": 58.07,
+      "change_pct": 0.76,
+      "change_4w": 4.14,
+      "pct_52w": 77.9
     },
     "utilities": {
-      "close": 44.67,
-      "change_pct": -1.15,
-      "change_4w": -3.87,
-      "pct_52w": 68.8
+      "close": 44.9,
+      "change_pct": 0.51,
+      "change_4w": -2.43,
+      "pct_52w": 69.5
     },
     "healthcare": {
-      "close": 146.71,
-      "change_pct": 0.59,
-      "change_4w": -1.42,
-      "pct_52w": 62.0
+      "close": 146.63,
+      "change_pct": -0.05,
+      "change_4w": -0.77,
+      "pct_52w": 61.8
     },
     "consumer_disc": {
-      "close": 118.72,
-      "change_pct": 0.36,
-      "change_4w": 1.96,
-      "pct_52w": 72.2
+      "close": 118.67,
+      "change_pct": -0.04,
+      "change_4w": 0.41,
+      "pct_52w": 72.0
     },
     "industrials": {
-      "close": 173.62,
-      "change_pct": -0.42,
-      "change_4w": 0.16,
-      "pct_52w": 87.4
+      "close": 174.51,
+      "change_pct": 0.51,
+      "change_4w": 1.95,
+      "pct_52w": 89.5
     },
     "materials": {
-      "close": 52.06,
-      "change_pct": -0.15,
-      "change_4w": 0.1,
-      "pct_52w": 85.0
+      "close": 51.67,
+      "change_pct": -0.75,
+      "change_4w": 0.56,
+      "pct_52w": 81.8
     }
   },
   "macro": {
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 45,
+      "score": 46,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 141.51,
-      "change_pct": 1.51,
+      "close": 139.32,
+      "change_pct": -1.55,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-05-13",
-      "event": "CPI 발표 (4월)",
-      "category": "cpi",
-      "impact": "high"
-    },
     {
       "date": "2026-05-29",
       "event": "PCE 발표 (4월)",
@@ -280,102 +274,81 @@
   ],
   "news": [
     {
-      "title": "Inflation will likely be higher for longer. Your retirement plan isn’t built for that.",
-      "url": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories",
+      "title": "The bond market is already hiking rates as Kevin Warsh takes over as Fed’s new chair",
+      "url": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 13 May 2026 23:34:00 GMT",
-      "title_ko": "인플레이션이 더 오래 높을 가능성이 크다. 당신의 은퇴 계획은 그에 대비하지 못했다."
+      "published": "Thu, 14 May 2026 22:11:00 GMT",
+      "title_ko": "케빈 워시가 연방준비제도 의장으로 취임함에 따라 채권 시장은 이미 금리 인상을 시작했다"
     },
     {
-      "title": "The Iran war could be a $300 billion shock — driving up mortgage rates and squeezing wages",
-      "url": "https://www.marketwatch.com/story/the-iran-war-could-be-a-300-billion-shock-driving-up-mortgage-rates-and-squeezing-wages-06afc027?mod=mw_rss_topstories",
+      "title": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal",
+      "url": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 13 May 2026 23:21:00 GMT",
-      "title_ko": "이란 전쟁은 3천억 달러의 충격을 줄 수 있다 — 모기지 금리를 높이고 임금을 줄일 수 있다"
+      "published": "Thu, 14 May 2026 19:58:00 GMT",
+      "title_ko": "엔비디아의 실적만으로는 S&P 500을 새로운 매도 신호로부터 구할 수 없다"
     },
     {
-      "title": "Cisco to cut jobs so it can invest more in AI, and the stock rockets toward a record",
-      "url": "https://www.marketwatch.com/story/cisco-to-cut-jobs-so-it-can-invest-more-in-ai-and-the-stock-rockets-toward-a-record-cf9d09a9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 13 May 2026 21:42:00 GMT",
-      "title_ko": "Cisco to cut jobs so it can invest more in AI, and the stock rockets toward a record"
-    },
-    {
-      "title": "The world lost nearly 1 billion barrels in oil supply over the past 75 days. Why investors aren’t worrying enough.",
-      "url": "https://www.marketwatch.com/story/the-world-lost-nearly-1-billion-barrels-in-oil-supply-over-the-past-75-days-why-investors-arent-worrying-enough-5a777ae0?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 13 May 2026 20:59:00 GMT",
-      "title_ko": "세계는 지난 75일 동안 거의 10억 배럴의 원유 공급을 잃었다. 투자자들이 충분히 우려하지 않는 이유"
-    },
-    {
-      "title": "April’s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "url": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 13 May 2026 20:58:00 GMT",
-      "title_ko": "4월의 인플레이션 급등으로 워시와 연방준비제도는 금리 인상을 않으면 안되는 상황이 되었다"
-    },
-    {
-      "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
-      "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+      "title": "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
+      "url": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 23:03:12 GMT",
-      "title_ko": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs"
+      "published": "Thu, 14 May 2026 20:07:17 GMT",
+      "title_ko": "세레브라스, 나스닥 데뷔 후 68% 상승하며 AI 칩 제조업체의 시가총액 9천500억 달러로 상승"
     },
     {
-      "title": "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
-      "url": "https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html",
+      "title": "Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'",
+      "url": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 23:21:35 GMT",
-      "title_ko": "케빈 워시가 다음 연방준비제도 의장으로 상원 확인을 받았다"
+      "published": "Thu, 14 May 2026 15:09:47 GMT",
+      "title_ko": "시진핑, 트럼프에게 대만을 잘못 다루면 미중 관계가 큰 위험에 빠질 것이라고 경고"
+    },
+    {
+      "title": "China will order 200 Boeing jets, Trump tells Fox News",
+      "url": "https://www.cnbc.com/2026/05/14/china-boeing-order-airplanes-737-max-trump-says.html",
+      "source": "CNBC",
+      "published": "Thu, 14 May 2026 18:05:25 GMT",
+      "title_ko": "중국, 보잉 항공기 200대 주문할 것이라고 트럼프가 폭스 뉴스에 밝혀"
+    },
+    {
+      "title": "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
+      "url": "https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html",
+      "source": "CNBC",
+      "published": "Thu, 14 May 2026 16:22:18 GMT",
+      "title_ko": "베센트, 워시가 연방준비제도에 취임함에 따라 앞으로 물가 하락이 크게 일어날 것이라고 전망"
     },
     {
       "title": "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?",
       "url": "https://www.cnbc.com/2026/05/13/warsh-trump-congress-senate-analysis.html",
       "source": "CNBC",
       "published": "Wed, 13 May 2026 23:22:51 GMT",
-      "title_ko": "Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?"
+      "title_ko": "분석: 트럼프가 드디어 연방준비제도에서 자신의 사람을 얻었다. 케빈 워시가 그를 실망시킬 것인가"
     },
     {
-      "title": "Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022",
-      "url": "https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html",
+      "title": "Bond market believes Fed behind the curve on inflation as Warsh takes over",
+      "url": "https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 13:21:15 GMT",
-      "title_ko": "도매 인플레이션이 4월에 6% 상승했다. 2022년 이후 가장 큰 증가"
+      "published": "Thu, 14 May 2026 19:26:20 GMT",
+      "title_ko": "채권 시장은 워시가 취임함에 따라 연방준비제도가 물가에 대해 뒤처지고 있다고 믿고 있다"
     },
     {
-      "title": "Bulls bet big on these three China-related stock trades during Trump visit",
-      "url": "https://www.cnbc.com/2026/05/13/bulls-bet-big-on-these-three-china-related-stock-trades-during-trump-visit.html",
+      "title": "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
+      "url": "https://www.cnbc.com/2026/05/14/fed-governor-miran-submits-resignation-throws-support-behind-warsh-as-new-chair.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 20:17:00 GMT",
-      "title_ko": "Bulls bet big on these three China-related stock trades during Trump visit"
+      "published": "Thu, 14 May 2026 21:47:36 GMT",
+      "title_ko": "연방준비제도 이사 미란, 사임서 제출하고 새로운 의장 워시를 지지"
     },
     {
-      "title": "Mortgage rates move to highest level in 5 weeks, but homebuyers shake it off",
-      "url": "https://www.cnbc.com/2026/05/13/mortgage-rates-move-to-highest-level-in-5-weeks.html",
+      "title": "What's good for Cisco is good for Broadcom. 3 reasons both stocks are soaring",
+      "url": "https://www.cnbc.com/2026/05/14/whats-good-for-cisco-is-good-for-broadcom-3-reasons-both-stocks-are-up.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 11:33:04 GMT",
-      "title_ko": "모기지 금리가 5주 만에 최고 수준으로 상승했지만 주택 구매자는 그 영향을 무시했다"
+      "published": "Thu, 14 May 2026 20:25:22 GMT",
+      "title_ko": "시스코에게 좋은 것은 브로드콤에게도 좋다. 두 종목이 상승하는 3가지 이유"
     },
     {
-      "title": "Mortgage rates jump to highest level since March on hotter inflation reports",
-      "url": "https://www.cnbc.com/2026/05/13/mortgage-rates-jump-to-highest-level-since-march.html",
+      "title": "Chinese parts are already in U.S. cars as lawmakers warn Trump against China auto deal",
+      "url": "https://www.cnbc.com/2026/05/14/trump-china-chinese-autos.html",
       "source": "CNBC",
-      "published": "Wed, 13 May 2026 18:25:30 GMT",
-      "title_ko": "모기지 금리가 3월 이후 최고 수준으로 상승했다. 인플레이션 보고서가 더 뜨거워진 때문이다"
-    },
-    {
-      "title": "This stock is our favorite way to hedge against the pickup in inflation",
-      "url": "https://www.cnbc.com/2026/05/13/this-stock-is-our-favorite-way-to-hedge-against-the-pickup-in-inflation.html",
-      "source": "CNBC",
-      "published": "Wed, 13 May 2026 18:13:20 GMT",
-      "title_ko": "이 주식은 인플레이션의 증가에 대비하는 우리의 가장 좋아하는 방법이다"
-    },
-    {
-      "title": "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases",
-      "url": "https://www.cnbc.com/2026/05/13/traders-predict-trump-will-make-major-announcements-during-china-trip.html",
-      "source": "CNBC",
-      "published": "Wed, 13 May 2026 18:13:49 GMT",
-      "title_ko": "Trump in China: Traders predict a tariff truce extension and Boeing aircraft purchases"
+      "published": "Thu, 14 May 2026 20:17:02 GMT",
+      "title_ko": "중국 부품이 이미 미국 자동차에 사용되고 있는 가운데 의원들은 중국 자동차 협상에 대해 트럼프에게 경고"
     }
   ]
 }
