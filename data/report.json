@@ -1,75 +1,75 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "data": {
-    "date": "2026-05-19",
+    "date": "2026-05-20",
     "indices": {
       "sp500": {
-        "close": 7403.05,
-        "prev_close": 7408.5,
-        "change_pct": -0.07,
-        "pct_52w": 93.5
+        "close": 7353.61,
+        "prev_close": 7403.05,
+        "change_pct": -0.67,
+        "pct_52w": 90.7
       },
       "nasdaq100": {
-        "close": 28994.37,
-        "prev_close": 29125.2,
-        "change_pct": -0.45,
-        "pct_52w": 92.3
+        "close": 28818.84,
+        "prev_close": 28994.37,
+        "change_pct": -0.61,
+        "pct_52w": 90.3
       },
       "russell": {
-        "close": 2775.1,
-        "prev_close": 2793.3,
-        "change_pct": -0.65,
-        "pct_52w": 87.1
+        "close": 2747.07,
+        "prev_close": 2775.1,
+        "change_pct": -1.01,
+        "pct_52w": 83.9
       },
       "vix": {
-        "close": 17.82,
-        "prev_close": 18.43,
-        "change_pct": -3.31,
-        "pct_52w": 20.3
+        "close": 18.06,
+        "prev_close": 17.82,
+        "change_pct": 1.35,
+        "pct_52w": 21.4
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.09,
-        "date": "2026-05-15",
-        "change_pct": 2.25,
-        "prev_value": 4.0
+        "value": 4.07,
+        "date": "2026-05-18",
+        "change_pct": -0.49,
+        "prev_value": 4.09
       },
       "us10y": {
-        "value": 4.59,
-        "date": "2026-05-15",
-        "change_pct": 2.68,
-        "prev_value": 4.47
+        "value": 4.61,
+        "date": "2026-05-18",
+        "change_pct": 0.44,
+        "prev_value": 4.59
       },
       "tips10y": {
-        "value": 2.1,
-        "date": "2026-05-15",
-        "change_pct": 5.0,
-        "prev_value": 2.0
+        "value": 2.13,
+        "date": "2026-05-18",
+        "change_pct": 1.43,
+        "prev_value": 2.1
       }
     },
     "spreads": {
       "us2s10s": {
         "value": 0.54,
-        "date": "2026-05-18",
-        "change_pct": 8.0,
-        "prev_value": 0.5
+        "date": "2026-05-19",
+        "change_pct": 0.0,
+        "prev_value": 0.54
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.8,
-        "date": "2026-05-15",
-        "change_pct": 1.45,
-        "prev_value": 2.76
+        "value": 2.83,
+        "date": "2026-05-18",
+        "change_pct": 1.07,
+        "prev_value": 2.8
       },
       "fra_ois": {
         "value": 3.62,
-        "date": "2026-05-15",
-        "change_pct": -0.28,
-        "prev_value": 3.63
+        "date": "2026-05-18",
+        "change_pct": 0.0,
+        "prev_value": 3.62
       }
     },
     "fx": {
@@ -80,42 +80,42 @@
         "prev_value": 118.6696
       },
       "usdkrw": {
-        "close": 1496.28,
-        "prev_close": 1497.15,
-        "change_pct": -0.06,
-        "pct_52w": 81.1
+        "close": 1512.48,
+        "prev_close": 1492.32,
+        "change_pct": 1.35,
+        "pct_52w": 88.6
       },
       "usdjpy": {
-        "close": 158.9,
-        "prev_close": 158.84,
-        "change_pct": 0.04,
-        "pct_52w": 90.3
+        "close": 159.07,
+        "prev_close": 158.86,
+        "change_pct": 0.13,
+        "pct_52w": 91.2
       },
       "eurusd": {
-        "close": 1.17,
-        "prev_close": 1.16,
-        "change_pct": 0.86,
-        "pct_52w": 61.9
+        "close": 1.16,
+        "prev_close": 1.17,
+        "change_pct": -0.85,
+        "pct_52w": 47.4
       }
     },
     "commodities": {
       "wti": {
-        "close": 102.48,
-        "prev_close": 102.48,
-        "change_pct": 0.0,
-        "pct_52w": 73.6
+        "close": 103.96,
+        "prev_close": 108.66,
+        "change_pct": -4.33,
+        "pct_52w": 75.9
       },
       "gold": {
-        "close": 4584.9,
-        "prev_close": 4584.9,
-        "change_pct": 0.0,
-        "pct_52w": 57.9
+        "close": 4495.5,
+        "prev_close": 4552.5,
+        "change_pct": -1.25,
+        "pct_52w": 54.1
       },
       "copper": {
-        "close": 6.33,
-        "prev_close": 6.33,
-        "change_pct": 0.0,
-        "pct_52w": 86.4
+        "close": 6.21,
+        "prev_close": 6.27,
+        "change_pct": -0.96,
+        "pct_52w": 81.3
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6709505.0
       },
       "rrp": {
-        "value": 7.193,
-        "date": "2026-05-18",
-        "change_pct": 1011.75,
-        "prev_value": 0.647
+        "value": 12.911,
+        "date": "2026-05-19",
+        "change_pct": 79.49,
+        "prev_value": 7.193
       },
       "m2": {
         "value": 22686.0,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 174.36,
-        "change_pct": -1.08,
-        "change_4w": 12.81,
-        "pct_52w": 91.4
+        "close": 173.24,
+        "change_pct": -0.64,
+        "change_4w": 12.09,
+        "pct_52w": 89.8
       },
       "financials": {
-        "close": 51.74,
-        "change_pct": 1.25,
-        "change_4w": -1.69,
-        "pct_52w": 47.5
+        "close": 51.1,
+        "change_pct": -1.24,
+        "change_4w": -2.91,
+        "pct_52w": 40.1
       },
       "energy": {
-        "close": 60.58,
-        "change_pct": 1.92,
-        "change_4w": 10.01,
-        "pct_52w": 88.2
+        "close": 61.29,
+        "change_pct": 1.17,
+        "change_4w": 11.29,
+        "pct_52w": 91.1
       },
       "utilities": {
-        "close": 43.94,
-        "change_pct": 0.16,
-        "change_4w": -3.96,
-        "pct_52w": 59.1
+        "close": 44.34,
+        "change_pct": 0.91,
+        "change_4w": -3.08,
+        "pct_52w": 63.5
       },
       "healthcare": {
-        "close": 145.72,
-        "change_pct": 0.43,
-        "change_4w": -1.15,
-        "pct_52w": 57.7
+        "close": 147.32,
+        "change_pct": 1.1,
+        "change_4w": -0.07,
+        "pct_52w": 62.5
       },
       "consumer_disc": {
-        "close": 116.32,
-        "change_pct": -0.18,
-        "change_4w": -2.96,
-        "pct_52w": 61.1
+        "close": 115.03,
+        "change_pct": -1.11,
+        "change_4w": -4.04,
+        "pct_52w": 55.2
       },
       "industrials": {
-        "close": 170.75,
-        "change_pct": -0.38,
-        "change_4w": -1.81,
-        "pct_52w": 80.4
+        "close": 168.74,
+        "change_pct": -1.18,
+        "change_4w": -2.97,
+        "pct_52w": 75.5
       },
       "materials": {
-        "close": 50.22,
-        "change_pct": -0.16,
-        "change_4w": -3.85,
-        "pct_52w": 70.0
+        "close": 49.04,
+        "change_pct": -2.35,
+        "change_4w": -6.11,
+        "pct_52w": 60.4
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 45,
-        "rating": "Neutral"
+        "score": 44,
+        "rating": "Fear"
       },
       "skew": {
-        "close": 138.4,
-        "change_pct": -5.06,
+        "close": 135.5,
+        "change_pct": -2.1,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -282,81 +282,88 @@
     ],
     "news": [
       {
-        "title": "Oil climbs as Trump warns the ‘clock is ticking’ on Iran, but there’s a bigger danger lurking on the horizon",
-        "url": "https://www.marketwatch.com/story/oil-climbs-as-trump-warns-the-clock-is-ticking-on-iran-but-theres-a-bigger-danger-lurking-on-the-horizon-9dfa8129?mod=mw_rss_topstories",
+        "title": "Are businesses passing on higher energy costs to their customers? Fed minutes may have the answer.",
+        "url": "https://www.marketwatch.com/story/are-businesses-passing-on-higher-energy-costs-to-their-customers-these-fed-minutes-have-the-answer-44df2ee4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 18 May 2026 22:23:00 GMT",
-        "title_ko": "트럼프가 이란에 경고하면 오일 가격이 오르지만 지평선에 더 큰 위험이 있다"
+        "published": "Tue, 19 May 2026 23:56:00 GMT",
+        "title_ko": "기업들이 높은 에너지 비용을 고객에게 전가하고 있는가? 연방준비제도 회의록에 답이 있을 수 있다."
       },
       {
-        "title": "Palo Alto Networks hits a big milestone. Why cybersecurity stocks are so hot right now.",
-        "url": "https://www.marketwatch.com/story/palo-alto-networks-hits-a-big-milestone-why-cybersecurity-stocks-are-so-hot-right-now-09e1c9bb?mod=mw_rss_topstories",
+        "title": "Buckle up for $120 oil changes. Why car care is about to get more expensive.",
+        "url": "https://www.marketwatch.com/story/buckle-up-for-120-oil-changes-why-car-care-is-about-to-get-more-expensive-c542615c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 18 May 2026 21:42:00 GMT",
-        "title_ko": "Palo Alto Networks hits a big milestone. Why cybersecurity stocks are so hot right now."
+        "published": "Tue, 19 May 2026 22:31:00 GMT",
+        "title_ko": "120달러의 오일 교환 비용을 준비하세요. 왜 자동차 관리가 더 비싸질 것인지 설명한다."
       },
       {
-        "title": "The S&P 500 and most of its stocks are heading in opposite directions at a record pace. What investors should know.",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-and-most-of-its-stocks-are-heading-in-opposite-directions-at-a-record-pace-what-investors-should-know-2a6c55a5?mod=mw_rss_topstories",
+        "title": "These charts offer a warning: A new era of higher Treasury yields may be coming",
+        "url": "https://www.marketwatch.com/story/these-charts-offer-a-warning-to-the-next-generation-a-new-era-of-higher-rates-may-be-coming-ee913d36?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 18 May 2026 21:25:00 GMT",
-        "title_ko": "S&P 500과 대부분의 주가가 역대 최다 속도로 반대 방향으로 움직이고 있다 투자자들이 알아야 할 것"
+        "published": "Tue, 19 May 2026 21:46:00 GMT",
+        "title_ko": "이러한 차트는 경고를 제공한다. 높은 국채 금리가 다가오는 새로운 시대가 될 수 있다."
       },
       {
-        "title": "The options market is flashing an ominous sign about Nvidia’s looming earnings",
-        "url": "https://www.marketwatch.com/story/the-options-market-is-flashing-an-ominous-sign-about-nvidias-looming-earnings-2b55b7f4?mod=mw_rss_topstories",
+        "title": "Trump says he’ll let Warsh ‘do what he wants to do’ with interest rates. It’s a remark that Fed watchers have been bracing for.",
+        "url": "https://www.marketwatch.com/story/trump-says-hell-let-warsh-do-what-he-wants-to-do-with-interest-rates-its-a-remark-that-fed-watchers-have-been-bracing-for-2b014504?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 18 May 2026 20:51:00 GMT",
-        "title_ko": "옵션 시장은 엔비디아의 임박한 실적에 대한 불길한 신호를 보내고 있다"
+        "published": "Tue, 19 May 2026 20:18:00 GMT",
+        "title_ko": "트럼프는 워시가 금리 문제에서 원하는 것을 하도록 허용할 것이라고 말했다. 이는 연방준비제도 관찰자들이 예상하고 있던 발언이다."
       },
       {
-        "title": "Japan's economy grows at an annualized 2.1% rate in the first quarter, beating expectations",
-        "url": "https://www.cnbc.com/2026/05/19/japan-first-quarter-gdp-economy-inflation-energy.html",
+        "title": "Asia markets poised for mixed open amid spike in Treasury yields, Iran tensions",
+        "url": "https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 23:58:27 GMT",
-        "title_ko": "일본 경제는 1분기에 연간화 2.1% 성장률을 기록해 기대치를 상회했다"
+        "published": "Tue, 19 May 2026 23:46:14 GMT",
+        "title_ko": "아시아 시장은 국채 금리 상승과 이란 긴장으로 혼조된 개장을 예상한다."
       },
       {
-        "title": "CNBC's The China Connection newsletter: Three major shifts from the Trump-Xi meeting",
-        "url": "https://www.cnbc.com/2026/05/18/three-major-shifts-from-the-trump-xi-meeting.html",
+        "title": "30-year Treasury yield tops 5.19%, highest since before the financial crisis",
+        "url": "https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 23:00:01 GMT",
-        "title_ko": "CNBC의 차이나 커넥션 뉴스레터 트럼프와 시진핑 회담에서 세 가지 주요 변화를 보라"
+        "published": "Tue, 19 May 2026 21:14:40 GMT",
+        "title_ko": "30-year Treasury yield tops 5.19%, highest since before the financial crisis"
       },
       {
-        "title": "Asia markets set to rise as oil eases after Trump delays planned Iran strike",
-        "url": "https://www.cnbc.com/2026/05/19/asia-markets-today-asx-sensex-nikkei-kospi-hang-seng-csi-300-nifty.html",
+        "title": "The AI economy is rewriting the American Dream — and blue-collar workers are poised to win",
+        "url": "https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 23:46:51 GMT",
-        "title_ko": "오일 가격이 하락하면서 아시아 시장은 트럼프가 이란 공격을 연기한 후 상승할 것으로 보인다"
+        "published": "Tue, 19 May 2026 20:22:54 GMT",
+        "title_ko": "The AI economy is rewriting the American Dream — and blue-collar workers are poised to win"
       },
       {
-        "title": "Trump pivots to midterms, affordability after China summit as Iran war persists",
-        "url": "https://www.cnbc.com/2026/05/18/trump-hegseth-economy-2026-election-midterms-iran-china.html",
+        "title": "Mortgage rates surge to highest level since July",
+        "url": "https://www.cnbc.com/2026/05/19/mortgage-rates-closing-in-on-7percent.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 20:43:07 GMT",
-        "title_ko": "중국 정상회담 후 트럼프는 중간 선거와 물가 상승에 집중하고 있다 이란 전쟁은 계속되고 있다"
+        "published": "Tue, 19 May 2026 20:06:10 GMT",
+        "title_ko": "모기지 금리가 7월 이후 최고 수준으로 상승했다."
       },
       {
-        "title": "We're raising price targets on 2 cyber stocks after their hard-fought recovery",
-        "url": "https://www.cnbc.com/2026/05/18/were-raising-price-targets-on-two-cyber-stocks-after-their-hard-fought-recovery.html",
+        "title": "Japan, China lead foreign government retreat from U.S. Treasurys as Iran war fallout stokes currency fears",
+        "url": "https://www.cnbc.com/2026/05/19/central-banks-offload-us-treasuries-china-holdings-at-18-year-low.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 19:55:18 GMT",
-        "title_ko": "우리는 2개의 사이버 보안 주에 대해 목표 가격을 올렸다 그들의 힘든 회복 이후"
+        "published": "Tue, 19 May 2026 14:51:00 GMT",
+        "title_ko": "일본과 중국이 이란 전쟁의 여파로 통화 우려가 높아지면서 미국 국채에서 외국 정부가 철수하는 것을 주도했다."
       },
       {
-        "title": "Kevin Warsh to be sworn in as Federal Reserve chair on Friday",
-        "url": "https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html",
+        "title": "Polymarket launches private company trading so investors can speculate on Anthropic, OpenAI",
+        "url": "https://www.cnbc.com/2026/05/19/polymarket-launches-private-company-trading-so-investors-can-speculate-on-anthropic-openai.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 17:03:42 GMT",
-        "title_ko": "케빈 워시가 금요일에 연방 준비 제도 의장으로 취임할 것"
+        "published": "Tue, 19 May 2026 19:56:27 GMT",
+        "title_ko": "폴리마켓은 투자자들이 앤트로픽과 오픈아이에 대해 투기할 수 있도록 사적 회사 거래를 시작했다."
       },
       {
-        "title": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says",
-        "url": "https://www.cnbc.com/2026/05/18/the-fed-will-have-to-raise-interest-rates-in-july-to-appease-bond-vigilantes-yardeni-says.html",
+        "title": "Fed to hike? When traders see a rate increase coming",
+        "url": "https://www.cnbc.com/2026/05/19/fed-to-hike-when-traders-see-a-rate-increase-coming.html",
         "source": "CNBC",
-        "published": "Mon, 18 May 2026 16:08:35 GMT",
-        "title_ko": "연방 준비 제도는 7월에 금리 인상을 해야 한다 '채권 비질란테'를 달래기 위해 야르데니가 말했다"
+        "published": "Tue, 19 May 2026 21:51:22 GMT",
+        "title_ko": "연방준비제도가 금리를 인상할 것인가? 거래자들이 금리 인상을 예상할 때"
+      },
+      {
+        "title": "What's the mortgage rate you'll be paying later this year? Probably higher",
+        "url": "https://www.cnbc.com/2026/05/19/the-rate-on-a-mortgage-you-will-be-paying-this-year-is-getting-higher.html",
+        "source": "CNBC",
+        "published": "Tue, 19 May 2026 19:45:30 GMT",
+        "title_ko": "What's the mortgage rate you'll be paying later this year? Probably higher"
       }
     ]
   },
@@ -383,8 +390,8 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $102.5 >= $90",
-      "숨겨진경고: VIX 17.8(낮음)+Skew 138(높음)"
+      "WTI $104.0 >= $90",
+      "숨겨진경고: VIX 18.1(낮음)+Skew 136(높음)"
     ],
     "ratio": 0.475
   },
