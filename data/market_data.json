@@ -1,93 +1,93 @@
 {
-  "date": "2026-05-26",
+  "date": "2026-05-27",
   "indices": {
     "sp500": {
-      "close": 7473.47,
-      "prev_close": 7445.72,
-      "change_pct": 0.37,
-      "pct_52w": 97.5
+      "close": 7519.12,
+      "prev_close": 7473.47,
+      "change_pct": 0.61,
+      "pct_52w": 98.8
     },
     "nasdaq100": {
-      "close": 29481.64,
-      "prev_close": 29357.27,
-      "change_pct": 0.42,
-      "pct_52w": 97.8
+      "close": 30001.32,
+      "prev_close": 29481.64,
+      "change_pct": 1.76,
+      "pct_52w": 99.5
     },
     "russell": {
-      "close": 2869.23,
-      "prev_close": 2843.45,
-      "change_pct": 0.91,
-      "pct_52w": 97.8
+      "close": 2920.54,
+      "prev_close": 2869.23,
+      "change_pct": 1.79,
+      "pct_52w": 99.7
     },
     "vix": {
-      "close": 16.59,
-      "prev_close": 16.7,
-      "change_pct": -0.66,
-      "pct_52w": 14.6
+      "close": 17.01,
+      "prev_close": 16.59,
+      "change_pct": 2.53,
+      "pct_52w": 16.6
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.08,
-      "date": "2026-05-21",
-      "change_pct": 0.99,
-      "prev_value": 4.04
+      "value": 4.13,
+      "date": "2026-05-22",
+      "change_pct": 1.23,
+      "prev_value": 4.08
     },
     "us10y": {
-      "value": 4.57,
-      "date": "2026-05-21",
-      "change_pct": 0.0,
+      "value": 4.56,
+      "date": "2026-05-22",
+      "change_pct": -0.22,
       "prev_value": 4.57
     },
     "tips10y": {
-      "value": 2.18,
-      "date": "2026-05-21",
-      "change_pct": 2.35,
-      "prev_value": 2.13
+      "value": 2.16,
+      "date": "2026-05-22",
+      "change_pct": -0.92,
+      "prev_value": 2.18
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.43,
-      "date": "2026-05-22",
-      "change_pct": -12.24,
-      "prev_value": 0.49
+      "value": 0.49,
+      "date": "2026-05-26",
+      "change_pct": 13.95,
+      "prev_value": 0.43
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.78,
-      "date": "2026-05-21",
-      "change_pct": -0.71,
-      "prev_value": 2.8
+      "value": 2.74,
+      "date": "2026-05-25",
+      "change_pct": 0.0,
+      "prev_value": 2.74
     },
     "fra_ois": {
       "value": 3.61,
-      "date": "2026-05-21",
-      "change_pct": -0.28,
-      "prev_value": 3.62
+      "date": "2026-05-22",
+      "change_pct": 0.0,
+      "prev_value": 3.61
     }
   },
   "fx": {
     "dxy": {
-      "value": 119.2825,
-      "date": "2026-05-15",
-      "change_pct": 0.52,
-      "prev_value": 118.6696
+      "value": 119.2868,
+      "date": "2026-05-22",
+      "change_pct": -0.07,
+      "prev_value": 119.369
     },
     "usdkrw": {
-      "close": 1512.78,
-      "prev_close": 1512.83,
-      "change_pct": -0.0,
-      "pct_52w": 88.8
+      "close": 1505.98,
+      "prev_close": 1514.79,
+      "change_pct": -0.58,
+      "pct_52w": 85.6
     },
     "usdjpy": {
-      "close": 158.93,
+      "close": 159.22,
       "prev_close": 158.95,
-      "change_pct": -0.01,
-      "pct_52w": 90.5
+      "change_pct": 0.17,
+      "pct_52w": 92.0
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 90.93,
-      "prev_close": 96.6,
-      "change_pct": -5.87,
-      "pct_52w": 55.7
+      "close": 93.21,
+      "prev_close": 93.21,
+      "change_pct": 0.0,
+      "pct_52w": 59.3
     },
     "gold": {
-      "close": 4563.5,
-      "prev_close": 4521.0,
-      "change_pct": 0.94,
-      "pct_52w": 56.4
+      "close": 4520.4,
+      "prev_close": 4520.4,
+      "change_pct": 0.0,
+      "pct_52w": 54.5
     },
     "copper": {
-      "close": 6.45,
-      "prev_close": 6.34,
-      "change_pct": 1.74,
-      "pct_52w": 91.6
+      "close": 6.43,
+      "prev_close": 6.43,
+      "change_pct": 0.0,
+      "pct_52w": 90.7
     }
   },
   "liquidity": {
@@ -124,66 +124,66 @@
       "prev_value": 6728502.0
     },
     "rrp": {
-      "value": 0.965,
-      "date": "2026-05-22",
-      "change_pct": -70.59,
-      "prev_value": 3.281
+      "value": 1.787,
+      "date": "2026-05-26",
+      "change_pct": 85.18,
+      "prev_value": 0.965
     },
     "m2": {
-      "value": 22686.0,
-      "date": "2026-03-01",
-      "change_pct": 0.26,
-      "prev_value": 22627.3
+      "value": 22804.5,
+      "date": "2026-04-01",
+      "change_pct": 0.52,
+      "prev_value": 22686.4
     }
   },
   "sectors": {
     "tech": {
-      "close": 180.39,
-      "change_pct": 1.0,
-      "change_4w": 15.75,
-      "pct_52w": 98.1
+      "close": 185.14,
+      "change_pct": 2.63,
+      "change_4w": 15.3,
+      "pct_52w": 98.8
     },
     "financials": {
-      "close": 51.94,
-      "change_pct": 0.41,
-      "change_4w": 0.27,
-      "pct_52w": 49.9
+      "close": 51.85,
+      "change_pct": -0.17,
+      "change_4w": 0.08,
+      "pct_52w": 48.8
     },
     "energy": {
-      "close": 59.49,
-      "change_pct": 0.61,
-      "change_4w": 4.41,
-      "pct_52w": 83.6
+      "close": 57.85,
+      "change_pct": -2.76,
+      "change_4w": 1.9,
+      "pct_52w": 76.9
     },
     "utilities": {
-      "close": 45.35,
-      "change_pct": 0.78,
-      "change_4w": -1.61,
-      "pct_52w": 73.7
+      "close": 45.33,
+      "change_pct": -0.04,
+      "change_4w": -1.86,
+      "pct_52w": 73.3
     },
     "healthcare": {
-      "close": 149.89,
-      "change_pct": 1.17,
-      "change_4w": 2.5,
-      "pct_52w": 70.1
+      "close": 148.51,
+      "change_pct": -0.92,
+      "change_4w": 3.52,
+      "pct_52w": 66.0
     },
     "consumer_disc": {
-      "close": 119.18,
-      "change_pct": 0.4,
-      "change_4w": 1.22,
-      "pct_52w": 74.3
+      "close": 119.45,
+      "change_pct": 0.23,
+      "change_4w": 1.37,
+      "pct_52w": 75.6
     },
     "industrials": {
-      "close": 171.77,
-      "change_pct": 0.73,
-      "change_4w": -1.32,
-      "pct_52w": 82.8
+      "close": 174.3,
+      "change_pct": 1.47,
+      "change_4w": 1.04,
+      "pct_52w": 88.7
     },
     "materials": {
-      "close": 50.29,
-      "change_pct": 0.54,
-      "change_4w": -2.93,
-      "pct_52w": 70.6
+      "close": 50.99,
+      "change_pct": 1.39,
+      "change_4w": -1.53,
+      "pct_52w": 76.3
     }
   },
   "macro": {
@@ -233,8 +233,8 @@
       "rating": "Neutral"
     },
     "skew": {
-      "close": 137.39,
-      "change_pct": 0.31,
+      "close": 139.04,
+      "change_pct": 1.2,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -280,102 +280,74 @@
   ],
   "news": [
     {
-      "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "title": "How a stock market ‘melt-up’ could carry the S&P 500 to 8,000 or beyond",
+      "url": "https://www.marketwatch.com/story/how-a-stock-market-melt-up-could-carry-the-s-p-500-to-8-000-or-beyond-b9b85619?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 25 May 2026 23:49:00 GMT",
-      "title_ko": "이란 전쟁 종식 합의가 임박한 가운데 원유 가격이 급락했지만 트럼프는 서두르지 말자고 말했다"
+      "published": "Tue, 26 May 2026 21:55:00 GMT",
+      "title_ko": "주식시장이 폭등하면 S&P 500 지수가 8,000까지 또는 그 이상으로 올라갈 수 있을 것"
     },
     {
-      "title": "These underdogs are a big reason why S&P 500 profit growth is the fastest in nearly 5 years",
-      "url": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
+      "title": "The bond market has been rocked by a violent selloff. Here’s how to play it.",
+      "url": "https://www.marketwatch.com/story/where-to-invest-in-bonds-right-now-after-the-markets-violent-selloff-ccad2a26?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 25 May 2026 19:50:00 GMT",
-      "title_ko": "These underdogs are a big reason why S&P 500 profit growth is the fastest in nearly 5 years"
+      "published": "Tue, 26 May 2026 21:04:00 GMT",
+      "title_ko": "국채시장이 격렬한 매도에 흔들리고 있다. 어떻게 대처하면 좋을까"
     },
     {
-      "title": "Is the stock market open today? Does the post office deliver mail on Memorial Day?",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "title": "Why double-digit earnings growth won’t stop the next bear market",
+      "url": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 25 May 2026 15:49:00 GMT",
-      "title_ko": "오늘 주식시장이 열리는가? 우체국이 기념일에는 우편을 배달하는가?"
+      "published": "Tue, 26 May 2026 21:01:00 GMT",
+      "title_ko": "두 자릿수 수익 증가율이 다음 베어 마켓을 막을 수 없다는 이유"
     },
     {
-      "title": "Stocks are riding an earnings hot streak — but investors are facing a summer that’s rife with risks",
-      "url": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Sun, 24 May 2026 22:23:00 GMT",
-      "title_ko": "주식은 실적 호황을 타고 있지만 투자자들은 위험으로 가득 찬 여름을 맞이하고 있다"
-    },
-    {
-      "title": "Oil prices fall 7% after Trump says Iran talks are 'proceeding nicely'",
-      "url": "https://www.cnbc.com/2026/05/24/oil-price-iran-war-strait-hormuz-trump-peace-talks.html",
+      "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company towards Nasdaq",
+      "url": "https://www.cnbc.com/2026/05/26/spacex-tesla-merger-chatter-reignites-as-musk-rocket-company-nears-ipo.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 20:53:21 GMT",
-      "title_ko": "트럼프가 이란 협상이 잘 진행되고 있다고 말한 후 원유 가격이 7% 하락했다"
+      "published": "Tue, 26 May 2026 22:32:58 GMT",
+      "title_ko": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company towards Nasdaq"
     },
     {
-      "title": "CNBC's The China Connection newsletter: Tariffs eased. Trust didn't.",
-      "url": "https://www.cnbc.com/2026/05/25/cnbcs-the-china-connection-newsletter-tariffs-eased-trust-didnt.html",
+      "title": "Piper Sandler says Strait of Hormuz to remain closed for months and oil to hit new highs",
+      "url": "https://www.cnbc.com/2026/05/26/piper-sandler-says-strait-of-hormuz-to-remain-closed-for-months-and-oil-to-hit-new-highs.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 23:01:25 GMT",
-      "title_ko": "CNBC의 차이나 커넥션 뉴스레터: 관세가 완화됐지만 신뢰는 회복되지 않았다"
+      "published": "Tue, 26 May 2026 19:43:54 GMT",
+      "title_ko": "파이퍼 샌들러는 호르무즈 해협이 몇 개월 동안 폐쇄될 것이라고 하며 기름 가격이 새로운 최고치에 도달할 것이라고 말했다"
     },
     {
-      "title": "Oil market at 'tank bottoms' in Asia, and Europe isn't far behind, warns market veteran Jeff Currie",
-      "url": "https://www.cnbc.com/2026/05/25/oil-prices-iran-war-carlyle-currie.html",
+      "title": "Barriers grow for international students seeking U.S. jobs: The 'American dream ... is collapsing'",
+      "url": "https://www.cnbc.com/2026/05/24/for-international-students-seeking-us-jobs-the-american-dream-is-collapsing.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 06:25:49 GMT",
-      "title_ko": "시장 베테랑 제프 커리가 경고한 아시아의 원유 시장은 바닥을 치고 있으며 유럽도 멀지 않았다"
+      "published": "Sun, 24 May 2026 14:15:01 GMT",
+      "title_ko": "미국에서 일하려는 국제 학생들에게 장벽이 높아지고 있다 미국의 꿈이 무너지고 있다"
     },
     {
-      "title": "When are prediction markets most helpful? Evercore ISI has a formula",
-      "url": "https://www.cnbc.com/2026/05/25/when-are-prediction-markets-most-helpful-evercore-isi-has-a-formula.html",
+      "title": "Federal judge had sex in chambers with high-ranking police officer, panel says",
+      "url": "https://www.cnbc.com/2026/05/26/us-judge-courts-sex-police-disciplinary.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 11:30:01 GMT",
-      "title_ko": "예측 시장은 언제 가장 유용한가? 에버코어 아이에스아이에는 공식이 있다"
+      "published": "Tue, 26 May 2026 23:11:15 GMT",
+      "title_ko": "Federal judge had sex in chambers with high-ranking police officer, panel says"
     },
     {
-      "title": "European stocks highest since March 2 as U.S.-Iran talks continue; euro zone bond yields drop on peace hopes",
-      "url": "https://www.cnbc.com/2026/05/25/european-stocks-us-iran-talks-continue-markets-oil.html",
+      "title": "Cybersecurity stocks are surging. One looks promising into earnings",
+      "url": "https://www.cnbc.com/2026/05/26/cybersecurity-stocks-are-surging-one-looks-promising-into-earnings.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 12:36:21 GMT",
-      "title_ko": "미국-이란 협상이 계속됨에 따라 유럽 주식이 3월 2일 이후 최고치에 도달했으며 유로존 국채 수익은 평화 기대로 하락했다"
+      "published": "Tue, 26 May 2026 17:25:56 GMT",
+      "title_ko": "사이버 보안 주가가 급등하고 있다. 하나의 주가가 수익 발표 전으로 미래가 촉망된다"
     },
     {
-      "title": "Singapore reports lower-than-expected inflation for April at 1.8%, revises economic growth higher",
-      "url": "https://www.cnbc.com/2026/05/25/singapore-inflation-gdp-iran-war-energy.html",
+      "title": "Pope Leo is concerned about AI replacing human work. Traders share his concern long term",
+      "url": "https://www.cnbc.com/2026/05/26/traders-share-pope-leos-worries-on-ais-job-market-impact.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 08:10:15 GMT",
-      "title_ko": "싱가포르가 4월에 예상보다 낮은 1.8%의 인플레이션을 보고하고 경제 성장률을 상향 조정했다"
+      "published": "Tue, 26 May 2026 19:31:51 GMT",
+      "title_ko": "레오 교황은 인공지능이 인간의 일을 대체하는 것을 우려한다. 트레이더들도 장기적으로 우려한다"
     },
     {
-      "title": "Beware the boom and bust cycle of memory stocks, investors warn amid AI excitement",
-      "url": "https://www.cnbc.com/2026/05/25/memory-stocks-cyclical-boom-bust-samsung-sk-hynix.html",
+      "title": "Brent oil jumps more than 3% after Iran vows to retaliate for U.S. strikes",
+      "url": "https://www.cnbc.com/2026/05/26/oil-prices-today-brent-wti-iran-trump-hormuz.html",
       "source": "CNBC",
-      "published": "Mon, 25 May 2026 11:09:08 GMT",
-      "title_ko": "Beware the boom and bust cycle of memory stocks, investors warn amid AI excitement"
-    },
-    {
-      "title": "Japan’s Nikkei 225 tops 65,000 for first time as oil falls on Hormuz reopening hopes",
-      "url": "https://www.cnbc.com/2026/05/25/asia-markets-today-live-updates-asx-nikkei-sensei-iran-us-trump-oil-hormuz.html",
-      "source": "CNBC",
-      "published": "Mon, 25 May 2026 07:49:13 GMT",
-      "title_ko": "일본의 닛케이 225 지수가 호르무즈 해협 재개 가능성에 원유 가격이 하락하면서 처음으로 6만을 돌파했다"
-    },
-    {
-      "title": "Americans are feeling inflation's pinch into the holiday weekend. Here's where prices are rising the most",
-      "url": "https://www.cnbc.com/2026/05/23/memorial-day-weekend-prices-inflation-war.html",
-      "source": "CNBC",
-      "published": "Sat, 23 May 2026 12:32:36 GMT",
-      "title_ko": "미국인들은 휴일 주말에도 인플레이션의 압박을 느끼고 있다. 여기서 가격이 가장 많이 오르는 곳이다"
-    },
-    {
-      "title": "Top Wall Street analysts like these dividend stocks for steady income",
-      "url": "https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
-      "source": "CNBC",
-      "published": "Sun, 24 May 2026 12:52:28 GMT",
-      "title_ko": "월 스트리트의 최고 분석가들이 안정적인 수입을 위한 이러한 배당 주식을 좋아한다"
+      "published": "Tue, 26 May 2026 19:09:45 GMT",
+      "title_ko": "이란이 미국의 공격에 보복하겠다고 위협한 후 브렌트 유가가 3% 이상 급등했다"
     }
   ]
 }
