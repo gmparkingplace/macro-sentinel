@@ -646,5 +646,17 @@
     "us10y": null,
     "wti": 90.19,
     "ratio": 0.55
+  },
+  {
+    "date": "2026-05-29",
+    "verdict": "WAIT",
+    "vix": 15.74,
+    "sp500": 7563.63,
+    "fg_score": 41,
+    "skew": 139.52,
+    "hy_spread": null,
+    "us10y": null,
+    "wti": 88.34,
+    "ratio": 0.525
   }
 ]
