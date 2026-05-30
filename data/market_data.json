@@ -1,95 +1,93 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "indices": {
     "sp500": {
-      "close": 7563.63,
-      "prev_close": 7520.36,
-      "change_pct": 0.58,
-      "pct_52w": 99.7
+      "close": 7580.06,
+      "prev_close": 7563.63,
+      "change_pct": 0.22,
+      "pct_52w": 98.9
     },
     "nasdaq100": {
-      "close": 30223.89,
-      "prev_close": 29973.57,
-      "change_pct": 0.84,
-      "pct_52w": 99.6
+      "close": 30333.18,
+      "prev_close": 30223.89,
+      "change_pct": 0.36,
+      "pct_52w": 98.5
     },
     "russell": {
-      "close": 2936.57,
-      "prev_close": 2919.94,
-      "change_pct": 0.57,
-      "pct_52w": 99.3
+      "close": 2919.34,
+      "prev_close": 2936.57,
+      "change_pct": -0.59,
+      "pct_52w": 97.4
     },
     "vix": {
-      "close": 15.74,
-      "prev_close": 16.29,
-      "change_pct": -3.38,
-      "pct_52w": 10.8
+      "close": 15.32,
+      "prev_close": 15.74,
+      "change_pct": -2.67,
+      "pct_52w": 8.9
     }
   },
   "rates": {
     "us2y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.99,
+      "date": "2026-05-28",
+      "change_pct": -0.25,
+      "prev_value": 4.0
     },
     "us10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 4.45,
+      "date": "2026-05-28",
+      "change_pct": -0.67,
+      "prev_value": 4.48
     },
     "tips10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.06,
+      "date": "2026-05-28",
+      "change_pct": -1.44,
+      "prev_value": 2.09
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 0.46,
+      "date": "2026-05-28",
+      "change_pct": -4.17,
+      "prev_value": 0.48
     },
     "us5s30s": {
       "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "date": null
     },
     "hy_spread": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.72,
+      "date": "2026-05-28",
+      "change_pct": 0.37,
+      "prev_value": 2.71
     },
     "fra_ois": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.62,
+      "date": "2026-05-28",
+      "change_pct": 0.0,
+      "prev_value": 3.62
     }
   },
   "fx": {
     "dxy": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 119.2868,
+      "date": "2026-05-22",
+      "change_pct": -0.07,
+      "prev_value": 119.369
     },
     "usdkrw": {
-      "close": 1497.88,
+      "close": 1507.13,
       "prev_close": 1503.11,
-      "change_pct": -0.35,
-      "pct_52w": 81.8
+      "change_pct": 0.27,
+      "pct_52w": 86.2
     },
     "usdjpy": {
-      "close": 159.29,
-      "prev_close": 159.57,
-      "change_pct": -0.18,
-      "pct_52w": 92.3
+      "close": 159.26,
+      "prev_close": 159.27,
+      "change_pct": -0.01,
+      "pct_52w": 92.1
     },
     "eurusd": {
       "close": 1.17,
@@ -100,103 +98,103 @@
   },
   "commodities": {
     "wti": {
-      "close": 88.34,
-      "prev_close": 88.68,
-      "change_pct": -0.38,
-      "pct_52w": 51.7
+      "close": 87.76,
+      "prev_close": 88.9,
+      "change_pct": -1.28,
+      "pct_52w": 50.8
     },
     "gold": {
-      "close": 4524.8,
-      "prev_close": 4447.5,
-      "change_pct": 1.74,
-      "pct_52w": 54.7
+      "close": 4569.9,
+      "prev_close": 4499.3,
+      "change_pct": 1.57,
+      "pct_52w": 56.6
     },
     "copper": {
-      "close": 6.42,
-      "prev_close": 6.3,
-      "change_pct": 1.9,
-      "pct_52w": 90.3
+      "close": 6.39,
+      "prev_close": 6.4,
+      "change_pct": -0.16,
+      "pct_52w": 89.0
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 6704383.0,
+      "date": "2026-05-27",
+      "change_pct": -0.14,
+      "prev_value": 6713643.0
     },
     "rrp": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 11.677,
+      "date": "2026-05-29",
+      "change_pct": 904.04,
+      "prev_value": 1.163
     },
     "m2": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 22804.5,
+      "date": "2026-04-01",
+      "change_pct": 0.52,
+      "prev_value": 22686.4
     }
   },
   "sectors": {
     "tech": {
-      "close": 186.85,
-      "change_pct": 1.31,
-      "change_4w": 17.43,
-      "pct_52w": 99.0
+      "close": 191.02,
+      "change_pct": 2.23,
+      "change_4w": 19.76,
+      "pct_52w": 99.2
     },
     "financials": {
-      "close": 51.27,
-      "change_pct": -0.29,
-      "change_4w": -1.25,
-      "pct_52w": 42.1
+      "close": 51.58,
+      "change_pct": 0.6,
+      "change_4w": -1.06,
+      "pct_52w": 45.7
     },
     "energy": {
-      "close": 56.95,
-      "change_pct": -0.07,
-      "change_4w": -3.52,
-      "pct_52w": 73.2
+      "close": 56.29,
+      "change_pct": -1.16,
+      "change_4w": -5.63,
+      "pct_52w": 70.5
     },
     "utilities": {
-      "close": 44.63,
-      "change_pct": -1.13,
-      "change_4w": -2.3,
-      "pct_52w": 65.5
+      "close": 44.42,
+      "change_pct": -0.47,
+      "change_4w": -5.19,
+      "pct_52w": 63.1
     },
     "healthcare": {
-      "close": 150.88,
-      "change_pct": 1.4,
-      "change_4w": 5.63,
-      "pct_52w": 73.1
+      "close": 149.47,
+      "change_pct": -0.93,
+      "change_4w": 2.38,
+      "pct_52w": 68.9
     },
     "consumer_disc": {
-      "close": 122.06,
-      "change_pct": 0.42,
-      "change_4w": 4.47,
-      "pct_52w": 87.6
+      "close": 120.87,
+      "change_pct": -0.97,
+      "change_4w": 2.13,
+      "pct_52w": 82.1
     },
     "industrials": {
-      "close": 173.8,
-      "change_pct": -0.29,
-      "change_4w": 2.28,
-      "pct_52w": 87.4
+      "close": 173.13,
+      "change_pct": -0.39,
+      "change_4w": -0.83,
+      "pct_52w": 85.7
     },
     "materials": {
-      "close": 51.36,
-      "change_pct": 0.35,
-      "change_4w": 0.78,
-      "pct_52w": 79.3
+      "close": 51.15,
+      "change_pct": -0.41,
+      "change_4w": -0.62,
+      "pct_52w": 77.6
     }
   },
   "macro": {
     "cpi_yoy": {
-      "value": null,
-      "date": null,
+      "value": 3.95,
+      "date": "2026-04-01",
       "change_pct": null
     },
     "core_cpi": {
-      "value": null,
-      "date": null,
+      "value": 2.99,
+      "date": "2026-04-01",
       "change_pct": null
     },
     "unemployment": {
@@ -206,15 +204,15 @@
       "prev_value": 4.3
     },
     "pce": {
-      "value": null,
-      "date": null,
+      "value": 3.77,
+      "date": "2026-04-01",
       "change_pct": null
     },
     "gdp_growth": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 1.6,
+      "date": "2026-01-01",
+      "change_pct": 220.0,
+      "prev_value": 0.5
     },
     "ism_mfg": {
       "value": 49.8,
@@ -223,32 +221,26 @@
       "prev_value": 53.3
     },
     "ism_svc": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 98.91297,
+      "date": "2024-01-01",
+      "change_pct": 0.82,
+      "prev_value": 98.1097
     }
   },
   "sentiment": {
     "fear_greed": {
-      "score": 41,
-      "rating": "Fear"
+      "score": 50,
+      "rating": "Neutral"
     },
     "skew": {
-      "close": 139.52,
-      "change_pct": 0.69,
+      "close": 144.18,
+      "change_pct": 3.34,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-05-29",
-      "event": "PCE 발표 (4월)",
-      "category": "pce",
-      "impact": "high"
-    },
     {
       "date": "2026-06-05",
       "event": "고용보고서 (5월)",
@@ -288,81 +280,81 @@
   ],
   "news": [
     {
-      "title": "Earnings season slows but these 7 stocks pack explosive ‘sawtooth’ volatility next week",
-      "url": "https://www.marketwatch.com/story/earnings-season-slows-but-these-7-stocks-pack-explosive-sawtooth-volatility-next-week-d519d174?mod=mw_rss_topstories",
+      "title": "Gap and American Eagle shares both get crushed — and neither retailer is blaming the economy",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 23:45:00 GMT",
-      "title_ko": "실적 시즌이 느려지지만 다음 주에 이 7가지 주식은 폭발적인 변동성을 보일 것"
+      "published": "Fri, 29 May 2026 21:49:00 GMT",
+      "title_ko": "갭과 아메리칸 이글의 주가가 동시에 급락했는데 두 소매업체 모두 경제를 비난하지 않는다"
     },
     {
-      "title": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
+      "title": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
+      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 21:58:00 GMT",
-      "title_ko": "이란 전쟁의 비용은 생각보다 더 많으며 인플레이션을 높이고 주식을 위협한다"
+      "published": "Fri, 29 May 2026 21:35:00 GMT",
+      "title_ko": "원유 가격이 하락하고 주가가 상승하며 트럼프가 이란 제안 결정에 대해 유보한다"
     },
     {
-      "title": "This overvalued stock market just flashed a rare buy signal",
-      "url": "https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories",
+      "title": "Here’s the real story behind the record drop in America’s oil reserves",
+      "url": "https://www.marketwatch.com/story/we-have-plenty-heres-the-real-story-behind-the-record-drop-in-americas-oil-reserves-9c8de9d5?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 21:58:00 GMT",
-      "title_ko": "과대평가된 주식 시장에서 드문 매수 신호가 나타났다"
+      "published": "Fri, 29 May 2026 20:55:00 GMT",
+      "title_ko": "미국의 원유 보유량이 사상 최대 폭으로 감소한 실제 이유"
     },
     {
-      "title": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
-      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
+      "title": "These S&P 500 stocks soared the most during the AI-driven May rally",
+      "url": "https://www.marketwatch.com/story/these-s-p-500-stocks-have-soared-the-most-during-the-ai-driven-may-rally-570ad48f?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 21:39:00 GMT",
-      "title_ko": "칩 주식의 대안을 원한다면 이 인공지능 관련 분야가 부상하고 있다"
+      "published": "Fri, 29 May 2026 20:43:00 GMT",
+      "title_ko": "인공지능 주도 5월 랠리 동안 가장 많이 상승한 S&P 500 주식"
     },
     {
-      "title": "The Iran war may be winding down, but the era of $60 oil could be over",
-      "url": "https://www.marketwatch.com/story/the-iran-war-may-be-winding-down-but-the-era-of-60-oil-could-be-over-a2ea7066?mod=mw_rss_topstories",
+      "title": "Space stocks tumble after a Blue Origin rocket explodes and SpaceX’s valuation gets a reality check",
+      "url": "https://www.marketwatch.com/story/space-stocks-are-falling-after-a-blue-origin-rocket-explodes-and-spacexs-valuation-gets-a-reality-check-230ae49f?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 21:20:00 GMT",
-      "title_ko": "이란 전쟁이 끝나가지만 60달러의 유가는 끝날 수도 있다"
+      "published": "Fri, 29 May 2026 20:28:00 GMT",
+      "title_ko": "블루 오리진의 로켓이 폭발하고 스페이스X의 평가가 현실로 돌아오면서 우주 주가가 급락"
     },
     {
-      "title": "An Iran deal could actually trigger a painful stock-market selloff, despite Wall Street’s optimism",
-      "url": "https://www.marketwatch.com/story/an-iran-deal-could-actually-trigger-a-painful-stock-market-selloff-despite-wall-streets-optimism-82758d41?mod=mw_rss_topstories",
+      "title": "Oil prices tumble nearly 20% in May — the biggest monthly drop since 2020. Here’s what’s next.",
+      "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 28 May 2026 21:00:00 GMT",
-      "title_ko": "이란 협상이 실제로 고통스러운 주식 시장의 매도세를 유발할 수 있다"
+      "published": "Fri, 29 May 2026 19:52:00 GMT",
+      "title_ko": "5월에 원유 가격이 거의 20% 하락했는데 2020년 이후 가장 큰 월간 하락이다 다음은 무엇일까"
     },
     {
-      "title": "Dell shares jump 39% after server maker reports fastest sales growth since return to public market in 2018",
-      "url": "https://www.cnbc.com/2026/05/28/dell-q1-earnings-report-2027.html",
+      "title": "Software stocks wrap up best month since 2001 as talk of 'SaaSpocalypse' subsides",
+      "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
       "source": "CNBC",
-      "published": "Thu, 28 May 2026 23:58:31 GMT",
-      "title_ko": "델의 주가가 39% 상승했다 서버 제조업체가 2018년 공공 시장에 재상장 이래 가장 빠른 매출 증가를 기록"
+      "published": "Fri, 29 May 2026 21:14:04 GMT",
+      "title_ko": "소프트웨어 주가가 2001년 이후 최고의 월을 마감하며 SaaS 종말론이 사그라든다"
     },
     {
-      "title": "Asia markets rise as investors weigh Iran military activity against signs of temporary U.S.-Iran deal",
-      "url": "https://www.cnbc.com/2026/05/29/asia-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50-csi-300.html",
+      "title": "Brent oil price posts biggest monthly loss in six years as market counts on a U.S.-Iran deal",
+      "url": "https://www.cnbc.com/2026/05/29/oil-price-iran-deal-war-ceasefire-trump.html",
       "source": "CNBC",
-      "published": "Fri, 29 May 2026 00:10:27 GMT",
-      "title_ko": "아시아 시장은 이란의 군사 활동과 임시 미국-이란 협상 징조를 고려해 상승했다"
+      "published": "Fri, 29 May 2026 20:13:49 GMT",
+      "title_ko": "브렌트 유가가 6년 만에 가장 큰 월간 손실을 기록하며 시장은 미-이란 협상을 기대한다"
     },
     {
-      "title": "Americans’ savings rate falls to lowest level since 2022 as inflation outpaces paychecks",
-      "url": "https://www.cnbc.com/2026/05/28/savings-inflation-americans-financial-stress.html",
+      "title": "Mercedes-Benz may be shut out of U.S. market under bill aimed at Chinese automaker ownership",
+      "url": "https://www.cnbc.com/2026/05/29/mercedes-benz-ban-congressional-bill-china-ownership.html",
       "source": "CNBC",
-      "published": "Thu, 28 May 2026 22:08:50 GMT",
-      "title_ko": "미국인의 저축률은 2022년 이후 최저치로 떨어졌다 인플레이션이 급여를 추월했다"
+      "published": "Fri, 29 May 2026 19:31:16 GMT",
+      "title_ko": "중화 자동차 소유에 대한 법안으로 메르세데스 벤츠가 미국 시장에서 제외될 수 있다"
     },
     {
-      "title": "The wealthiest investors are pulling money out of the U.S. in the 'de-dollarization' trade",
-      "url": "https://www.cnbc.com/2026/05/28/wealthiest-investors-de-dollarization-trade.html",
+      "title": "Jim Cramer says Dell’s blowout quarter sets up a crucial week for AI stocks",
+      "url": "https://www.cnbc.com/2026/05/29/jim-cramer-says-dells-blowout-quarter-sets-up-a-crucial-week-for-ai-stocks.html",
       "source": "CNBC",
-      "published": "Thu, 28 May 2026 19:01:32 GMT",
-      "title_ko": "The wealthiest investors are pulling money out of the U.S. in the 'de-dollarization' trade"
+      "published": "Fri, 29 May 2026 22:18:08 GMT",
+      "title_ko": "짐 크레이머는 델의 폭발적인 실적이 인공지능 주가에 결정적인 한 주를 마련했다고 말한다"
     },
     {
-      "title": "CFTC sues Rhode Island over actions against prediction markets",
-      "url": "https://www.cnbc.com/2026/05/28/cftc-sues-rhode-island-over-actions-against-prediction-markets.html",
+      "title": "Tokens or humans? The new corporate trade-off",
+      "url": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html",
       "source": "CNBC",
-      "published": "Thu, 28 May 2026 19:57:39 GMT",
-      "title_ko": "CFTC는 예측 시장에 대한 조치로 로드아일랜드를 고소했다"
+      "published": "Fri, 29 May 2026 18:41:14 GMT",
+      "title_ko": "토큰이나 인간? 새로운 기업의 트레이드 오프"
     }
   ]
 }
