@@ -670,5 +670,17 @@
     "us10y": 4.45,
     "wti": 87.76,
     "ratio": 0.55
+  },
+  {
+    "date": "2026-06-02",
+    "verdict": "AVOID",
+    "vix": 16.05,
+    "sp500": 7599.96,
+    "fg_score": 40,
+    "skew": 142.46,
+    "hy_spread": null,
+    "us10y": 4.45,
+    "wti": 92.01,
+    "ratio": 0.5
   }
 ]
