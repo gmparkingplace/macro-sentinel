@@ -1,29 +1,29 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "indices": {
     "sp500": {
-      "close": 7553.68,
-      "prev_close": 7609.78,
-      "change_pct": -0.74,
-      "pct_52w": 96.0
+      "close": 7584.31,
+      "prev_close": 7553.68,
+      "change_pct": 0.41,
+      "pct_52w": 97.8
     },
     "nasdaq100": {
-      "close": 30571.24,
-      "prev_close": 30660.6,
-      "change_pct": -0.29,
-      "pct_52w": 97.9
+      "close": 30407.81,
+      "prev_close": 30571.24,
+      "change_pct": -0.53,
+      "pct_52w": 96.2
     },
     "russell": {
-      "close": 2893.51,
-      "prev_close": 2931.96,
-      "change_pct": -1.31,
-      "pct_52w": 94.3
+      "close": 2935.33,
+      "prev_close": 2893.51,
+      "change_pct": 1.45,
+      "pct_52w": 99.0
     },
     "vix": {
-      "close": 16.06,
-      "prev_close": 15.77,
-      "change_pct": 1.84,
-      "pct_52w": 12.2
+      "close": 15.4,
+      "prev_close": 16.06,
+      "change_pct": -4.11,
+      "pct_52w": 9.2
     }
   },
   "rates": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 2.71,
-      "date": "2026-06-02",
-      "change_pct": -0.37,
-      "prev_value": 2.72
+      "value": 2.75,
+      "date": "2026-06-03",
+      "change_pct": 1.48,
+      "prev_value": 2.71
     },
     "fra_ois": {
       "value": 3.62,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "change_pct": 0.0,
       "prev_value": 3.62
     }
@@ -78,42 +78,42 @@
       "prev_value": 119.0318
     },
     "usdkrw": {
-      "close": 1529.68,
-      "prev_close": 1516.6,
-      "change_pct": 0.86,
-      "pct_52w": 96.7
+      "close": 1532.67,
+      "prev_close": 1530.11,
+      "change_pct": 0.17,
+      "pct_52w": 96.6
     },
     "usdjpy": {
-      "close": 159.97,
-      "prev_close": 159.97,
-      "change_pct": 0.0,
-      "pct_52w": 96.0
+      "close": 159.99,
+      "prev_close": 159.94,
+      "change_pct": 0.03,
+      "pct_52w": 96.1
     },
     "eurusd": {
       "close": 1.16,
       "prev_close": 1.16,
       "change_pct": 0.0,
-      "pct_52w": 36.2
+      "pct_52w": 35.0
     }
   },
   "commodities": {
     "wti": {
-      "close": 95.0,
-      "prev_close": 93.76,
-      "change_pct": 1.32,
-      "pct_52w": 62.0
+      "close": 93.01,
+      "prev_close": 96.02,
+      "change_pct": -3.13,
+      "pct_52w": 59.0
     },
     "gold": {
-      "close": 4493.1,
-      "prev_close": 4489.1,
-      "change_pct": 0.09,
-      "pct_52w": 53.1
+      "close": 4488.9,
+      "prev_close": 4436.7,
+      "change_pct": 1.18,
+      "pct_52w": 53.0
     },
     "copper": {
-      "close": 6.47,
-      "prev_close": 6.65,
-      "change_pct": -2.71,
-      "pct_52w": 92.2
+      "close": 6.51,
+      "prev_close": 6.48,
+      "change_pct": 0.46,
+      "pct_52w": 93.9
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6713643.0
     },
     "rrp": {
-      "value": 2.062,
-      "date": "2026-06-03",
-      "change_pct": -17.59,
-      "prev_value": 2.502
+      "value": 1.122,
+      "date": "2026-06-04",
+      "change_pct": -45.59,
+      "prev_value": 2.062
     },
     "m2": {
       "value": 22804.5,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 196.23,
-      "change_pct": -1.0,
-      "change_4w": 21.09,
-      "pct_52w": 96.9
+      "close": 193.17,
+      "change_pct": -1.56,
+      "change_4w": 16.63,
+      "pct_52w": 93.2
     },
     "financials": {
-      "close": 50.87,
-      "change_pct": -1.15,
-      "change_4w": -1.38,
-      "pct_52w": 37.4
+      "close": 52.19,
+      "change_pct": 2.59,
+      "change_4w": 1.16,
+      "pct_52w": 52.8
     },
     "energy": {
-      "close": 58.71,
-      "change_pct": 1.29,
-      "change_4w": -1.14,
-      "pct_52w": 80.1
+      "close": 58.75,
+      "change_pct": 0.07,
+      "change_4w": -1.18,
+      "pct_52w": 80.3
     },
     "utilities": {
-      "close": 43.71,
-      "change_pct": -0.43,
-      "change_4w": -5.74,
-      "pct_52w": 55.2
+      "close": 43.94,
+      "change_pct": 0.53,
+      "change_4w": -5.24,
+      "pct_52w": 57.8
     },
     "healthcare": {
-      "close": 147.55,
-      "change_pct": 0.79,
-      "change_4w": 1.95,
-      "pct_52w": 63.2
+      "close": 152.08,
+      "change_pct": 3.07,
+      "change_4w": 4.67,
+      "pct_52w": 76.6
     },
     "consumer_disc": {
-      "close": 116.73,
-      "change_pct": -0.73,
-      "change_4w": -0.84,
-      "pct_52w": 63.0
+      "close": 117.26,
+      "change_pct": 0.45,
+      "change_4w": -0.69,
+      "pct_52w": 65.5
     },
     "industrials": {
-      "close": 174.05,
-      "change_pct": -0.08,
-      "change_4w": 1.8,
-      "pct_52w": 87.8
+      "close": 176.16,
+      "change_pct": 1.21,
+      "change_4w": 2.18,
+      "pct_52w": 93.2
     },
     "materials": {
-      "close": 51.63,
-      "change_pct": 0.21,
-      "change_4w": 1.93,
-      "pct_52w": 81.5
+      "close": 51.62,
+      "change_pct": -0.02,
+      "change_4w": 0.17,
+      "pct_52w": 81.4
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 49,
+      "score": 50,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 136.86,
-      "change_pct": -4.45,
+      "close": 142.15,
+      "change_pct": 3.87,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -286,60 +286,67 @@
   ],
   "news": [
     {
-      "title": "How single-stock turbulence presents ‘asymmetric’ downside risk for a rather calm S&P 500",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "title": "This investing strategy digs deeper to find hidden stocks riding the AI wave",
+      "url": "https://www.marketwatch.com/story/this-investing-strategy-digs-deeper-to-find-hidden-stocks-riding-the-ai-wave-2cfcccd9?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 03 Jun 2026 22:26:00 GMT",
-      "title_ko": "단일 주식의 혼란이 비교적 평온한 S&P 500에 비대칭적인 하락 위험을 가져온다"
+      "published": "Thu, 04 Jun 2026 22:56:00 GMT",
+      "title_ko": "이 투자 전략은 인공지능 열풍을 타고 있는 숨은 주식을 찾아냅니다"
     },
     {
-      "title": "The Fed can’t protect consumers from supply shocks and price gouging — but Congress can",
-      "url": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories",
+      "title": "Marvell looks poised to finally get a spot in the S&P 500 after explosive stock surge",
+      "url": "https://www.marketwatch.com/story/marvell-looks-poised-to-finally-get-a-spot-in-the-s-p-500-after-explosive-stock-surge-02d952c6?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 03 Jun 2026 22:14:00 GMT",
-      "title_ko": "연방준비제도는 공급 충격과 가격 담합으로부터 소비자를 보호할 수 없지만 의회는 할 수 있다"
+      "published": "Thu, 04 Jun 2026 22:50:00 GMT",
+      "title_ko": "Marvell looks poised to finally get a spot in the S&P 500 after explosive stock surge"
     },
     {
-      "title": "Sellers are pulling homes off the market at the fastest pace since 2020",
-      "url": "https://www.cnbc.com/2026/06/03/sellers-delisting-homes-redfin.html",
+      "title": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
+      "url": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html",
       "source": "CNBC",
-      "published": "Wed, 03 Jun 2026 16:31:57 GMT",
-      "title_ko": "매도자들이 2020년 이후 가장 빠른 속도로 주택을 시장에서 철수시키고 있다"
+      "published": "Thu, 04 Jun 2026 20:22:22 GMT",
+      "title_ko": "쿼틴ียม은 증권 공개 후 상장 첫날 나스닥에서 평탄하게 마감했습니다"
     },
     {
-      "title": "Inside India newsletter: Why Taiwan and South Korea's stock markets have surged past India within a week",
-      "url": "https://www.cnbc.com/2026/06/04/why-taiwan-and-south-koreas-stock-markets-have-surged-past-india.html",
+      "title": "Asia-Pacific markets set to open subdued after Wall Street's AI-linked stocks slide",
+      "url": "https://www.cnbc.com/2026/06/05/asia-markets-today-nikkei-225-kospi-hang-seng-index-csi-300-nifty50.html",
       "source": "CNBC",
-      "published": "Thu, 04 Jun 2026 00:24:11 GMT",
-      "title_ko": "Inside India newsletter: Why Taiwan and South Korea's stock markets have surged past India within a week"
+      "published": "Thu, 04 Jun 2026 23:48:20 GMT",
+      "title_ko": "아시아태평양 시장은 월스트리트의 인공지능 관련 주가 하락 이후 부진한 개장을 예상합니다"
     },
     {
-      "title": "Asia-Pacific markets open lower on renewed Middle East tensions",
-      "url": "https://www.cnbc.com/2026/06/04/asia-markets-today-asx-nikkei-kospi-hang-seng-csi-300-sensex-oil.html",
+      "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
+      "url": "https://www.cnbc.com/2026/06/04/nvidia-ceo-jensen-huang-warren-senate-hearing-china-ai-chips.html",
       "source": "CNBC",
-      "published": "Thu, 04 Jun 2026 01:39:34 GMT",
-      "title_ko": "중동 긴장 재등장이후 아시아-태평양 시장은 하락했다"
+      "published": "Thu, 04 Jun 2026 21:43:57 GMT",
+      "title_ko": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales"
     },
     {
-      "title": "Jim Cramer warns excess supply could be the next biggest threat to the bull market",
-      "url": "https://www.cnbc.com/2026/06/03/jim-cramer-warns-excess-supply-could-be-the-next-biggest-threat-to-the-bull-market.html",
+      "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war",
+      "url": "https://www.cnbc.com/2026/06/04/oil-price-today-iran-war-hormuz-trump-israel-lebanon.html",
       "source": "CNBC",
-      "published": "Wed, 03 Jun 2026 22:38:50 GMT",
-      "title_ko": "짐 크레이머는 과잉 공급이 불황 시장에 대한 다음 큰 위협이 될 수 있다고 경고했다"
+      "published": "Thu, 04 Jun 2026 19:25:55 GMT",
+      "title_ko": "이란 전쟁 재개에 대한 트럼프의 부정적인 반응으로 유가가 3% 하락했습니다"
     },
     {
-      "title": "A classic strategy that could yield big dividends",
-      "url": "https://www.cnbc.com/2026/06/03/a-classic-strategy-that-could-yield-big-dividends.html",
+      "title": "Jim Cramer says Thursday's rally shows investors' 'huge appetite' for stocks",
+      "url": "https://www.cnbc.com/2026/06/04/jim-cramer-says-thursdays-rally-shows-investors-huge-appetite-for-stocks.html",
       "source": "CNBC",
-      "published": "Wed, 03 Jun 2026 17:41:30 GMT",
-      "title_ko": "큰 배당을 가져올 수 있는 고전적인 전략"
+      "published": "Thu, 04 Jun 2026 22:13:39 GMT",
+      "title_ko": "짐 크레이머는 목요일의 랠리가 투자자의 주식에 대한 거대한 수요를 보여준다고 말했습니다"
     },
     {
-      "title": "Khanna and China committee press Blanche for report on Chinese manufacturing in U.S.",
-      "url": "https://www.cnbc.com/2026/06/03/china-blanche-khanna-labor-manufacturing.html",
+      "title": "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy",
+      "url": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html",
       "source": "CNBC",
-      "published": "Wed, 03 Jun 2026 18:07:47 GMT",
-      "title_ko": "카나와 중국 위원회가 블랜치에게 미국의 중국 제조업에 대한 보고서를 요구하고 있다"
+      "published": "Thu, 04 Jun 2026 18:55:32 GMT",
+      "title_ko": "미국의 장기 실업률이 급증하고 있습니다 이에 따른 노동자와 경제의 숨은 비용이 있습니다"
+    },
+    {
+      "title": "Confirmed screwworm case in Texas sends two biotech stocks higher",
+      "url": "https://www.cnbc.com/2026/06/04/confirmed-screwworm-case-in-texas-sends-two-biotech-stocks-higher.html",
+      "source": "CNBC",
+      "published": "Thu, 04 Jun 2026 18:34:43 GMT",
+      "title_ko": "텍사스에서 확인된 스크류웜 사례로 두 개의 바이오기술 주가가 상승했습니다"
     }
   ]
 }
