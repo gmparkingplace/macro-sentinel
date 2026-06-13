@@ -1,71 +1,71 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "indices": {
     "sp500": {
-      "close": 7394.3,
-      "prev_close": 7266.99,
-      "change_pct": 1.75,
-      "pct_52w": 86.5
+      "close": 7431.46,
+      "prev_close": 7394.3,
+      "change_pct": 0.5,
+      "pct_52w": 88.7
     },
     "nasdaq100": {
-      "close": 29446.18,
-      "prev_close": 28508.03,
-      "change_pct": 3.29,
-      "pct_52w": 85.7
+      "close": 29635.95,
+      "prev_close": 29446.18,
+      "change_pct": 0.64,
+      "pct_52w": 87.8
     },
     "russell": {
-      "close": 2921.03,
-      "prev_close": 2835.46,
-      "change_pct": 3.02,
-      "pct_52w": 97.3
+      "close": 2943.99,
+      "prev_close": 2921.03,
+      "change_pct": 0.79,
+      "pct_52w": 97.1
     },
     "vix": {
-      "close": 19.44,
-      "prev_close": 22.22,
-      "change_pct": -12.51,
-      "pct_52w": 27.6
+      "close": 17.68,
+      "prev_close": 19.44,
+      "change_pct": -9.05,
+      "pct_52w": 19.6
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.13,
-      "date": "2026-06-10",
-      "change_pct": 0.0,
+      "value": 4.05,
+      "date": "2026-06-11",
+      "change_pct": -1.94,
       "prev_value": 4.13
     },
     "us10y": {
-      "value": 4.55,
-      "date": "2026-06-10",
-      "change_pct": 0.44,
-      "prev_value": 4.53
+      "value": 4.45,
+      "date": "2026-06-11",
+      "change_pct": -2.2,
+      "prev_value": 4.55
     },
     "tips10y": {
-      "value": 2.21,
-      "date": "2026-06-10",
-      "change_pct": 0.45,
-      "prev_value": 2.2
+      "value": 2.16,
+      "date": "2026-06-11",
+      "change_pct": -2.26,
+      "prev_value": 2.21
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.4,
-      "date": "2026-06-11",
-      "change_pct": -4.76,
-      "prev_value": 0.42
+      "value": 0.39,
+      "date": "2026-06-12",
+      "change_pct": -2.5,
+      "prev_value": 0.4
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.8,
-      "date": "2026-06-10",
-      "change_pct": 0.72,
-      "prev_value": 2.78
+      "value": 2.78,
+      "date": "2026-06-11",
+      "change_pct": -0.71,
+      "prev_value": 2.8
     },
     "fra_ois": {
       "value": 3.62,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "change_pct": 0.0,
       "prev_value": 3.62
     }
@@ -78,16 +78,16 @@
       "prev_value": 119.3615
     },
     "usdkrw": {
-      "close": 1520.67,
+      "close": 1517.89,
       "prev_close": 1525.05,
-      "change_pct": -0.29,
-      "pct_52w": 84.7
+      "change_pct": -0.47,
+      "pct_52w": 83.5
     },
     "usdjpy": {
-      "close": 160.16,
-      "prev_close": 160.53,
-      "change_pct": -0.23,
-      "pct_52w": 97.0
+      "close": 160.18,
+      "prev_close": 160.13,
+      "change_pct": 0.03,
+      "pct_52w": 97.1
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 86.28,
-      "prev_close": 90.03,
-      "change_pct": -4.17,
-      "pct_52w": 48.5
+      "close": 84.29,
+      "prev_close": 87.71,
+      "change_pct": -3.9,
+      "pct_52w": 45.4
     },
     "gold": {
-      "close": 4239.0,
-      "prev_close": 4108.2,
-      "change_pct": 3.18,
-      "pct_52w": 42.2
+      "close": 4239.9,
+      "prev_close": 4090.3,
+      "change_pct": 3.66,
+      "pct_52w": 42.3
     },
     "copper": {
-      "close": 6.4,
-      "prev_close": 6.25,
-      "change_pct": 2.4,
-      "pct_52w": 89.2
+      "close": 6.47,
+      "prev_close": 6.26,
+      "change_pct": 3.35,
+      "pct_52w": 92.2
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6711495.0
     },
     "rrp": {
-      "value": 0.46,
-      "date": "2026-06-11",
-      "change_pct": 18.86,
-      "prev_value": 0.387
+      "value": 0.454,
+      "date": "2026-06-12",
+      "change_pct": -1.3,
+      "prev_value": 0.46
     },
     "m2": {
       "value": 22804.5,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 183.21,
-      "change_pct": 3.73,
-      "change_4w": 4.57,
-      "pct_52w": 80.7
-    },
-    "financials": {
-      "close": 52.62,
-      "change_pct": 0.75,
-      "change_4w": 2.02,
-      "pct_52w": 57.8
-    },
-    "energy": {
-      "close": 57.12,
-      "change_pct": -1.94,
-      "change_4w": -0.78,
-      "pct_52w": 71.7
-    },
-    "utilities": {
-      "close": 44.05,
-      "change_pct": 0.11,
-      "change_4w": -2.52,
-      "pct_52w": 59.0
-    },
-    "healthcare": {
-      "close": 154.09,
-      "change_pct": 0.81,
-      "change_4w": 5.65,
+      "close": 184.8,
+      "change_pct": 0.87,
+      "change_4w": 4.5,
       "pct_52w": 82.6
     },
+    "financials": {
+      "close": 53.34,
+      "change_pct": 1.37,
+      "change_4w": 4.61,
+      "pct_52w": 66.2
+    },
+    "energy": {
+      "close": 57.55,
+      "change_pct": 0.75,
+      "change_4w": -0.14,
+      "pct_52w": 73.6
+    },
+    "utilities": {
+      "close": 44.53,
+      "change_pct": 1.09,
+      "change_4w": -0.31,
+      "pct_52w": 64.4
+    },
+    "healthcare": {
+      "close": 153.81,
+      "change_pct": -0.18,
+      "change_4w": 4.84,
+      "pct_52w": 81.8
+    },
     "consumer_disc": {
-      "close": 116.3,
-      "change_pct": 2.48,
-      "change_4w": -1.68,
-      "pct_52w": 59.3
+      "close": 116.6,
+      "change_pct": 0.26,
+      "change_4w": -1.79,
+      "pct_52w": 60.7
     },
     "industrials": {
-      "close": 175.15,
-      "change_pct": 3.24,
-      "change_4w": 0.46,
-      "pct_52w": 90.6
+      "close": 176.18,
+      "change_pct": 0.59,
+      "change_4w": 1.47,
+      "pct_52w": 93.3
     },
     "materials": {
-      "close": 51.22,
-      "change_pct": 3.27,
-      "change_4w": -1.76,
-      "pct_52w": 78.1
+      "close": 52.18,
+      "change_pct": 1.87,
+      "change_4w": 0.23,
+      "pct_52w": 86.0
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 42,
-      "rating": "Fear"
+      "score": 45,
+      "rating": "Neutral"
     },
     "skew": {
-      "close": 142.98,
-      "change_pct": -0.07,
+      "close": 142.6,
+      "change_pct": -0.27,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -274,67 +274,74 @@
   ],
   "news": [
     {
-      "title": "The SpaceX IPO is drawing historic demand from foreign investors. But don’t expect a dollar-buying frenzy.",
-      "url": "https://www.marketwatch.com/story/the-spacex-ipo-is-drawing-historic-demand-from-foreign-investors-but-dont-expect-a-dollar-buying-frenzy-ce66b056?mod=mw_rss_topstories",
+      "title": "There’s a 68% chance the stock market ends the year higher. Why the headlines shouldn’t disrupt your portfolio.",
+      "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 11 Jun 2026 21:59:00 GMT",
-      "title_ko": "스페이스X의 상장으로 외국인 투자자들로부터 역사적인 수요가 몰리고 있지만 달러 매수 열풍은 기대하기 어렵다."
+      "published": "Fri, 12 Jun 2026 22:58:00 GMT",
+      "title_ko": "There’s a 68% chance the stock market ends the year higher. Why the headlines shouldn’t disrupt your portfolio."
     },
     {
-      "title": "Missed the rally in optical stocks? Coherent and Lumentum just got more attractive, according to J.P. Morgan.",
-      "url": "https://www.marketwatch.com/story/missed-the-rally-in-optical-stocks-coherent-and-lumentum-just-got-more-attractive-according-to-j-p-morgan-ccee9f93?mod=mw_rss_topstories",
+      "title": "‘This is not a flash in the pan’: Why value stocks are beating growth by such a wide margin",
+      "url": "https://www.marketwatch.com/story/this-is-not-a-flash-in-the-pan-why-value-stocks-are-beating-growth-by-such-a-wide-margin-b2bddccc?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 11 Jun 2026 20:48:00 GMT",
-      "title_ko": "광학 주식의 상승을 놓친 경우 코어런트와 루멘텀은 지금 더 매력적으로 보인다고 JP모건은 말한다."
+      "published": "Fri, 12 Jun 2026 22:50:00 GMT",
+      "title_ko": "가치 주식이 성장 주식보다 훨씬 더 높은 폭으로 승리하는 이유"
     },
     {
-      "title": "SpaceX raising $75 billion in record-setting IPO as Nasdaq debut awaits",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html",
-      "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 23:35:43 GMT",
-      "title_ko": "스페이스X, 나스닥 상장 앞두고 750억 달러를 조달하며 역대 최고의 상장으로 기록될 전망"
+      "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
+      "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 12 Jun 2026 19:56:00 GMT",
+      "title_ko": "연금이 시장보다 더 잘할 수 있다는 것이 사실일까"
     },
     {
-      "title": "What energy insiders in DC are saying about oil prices and a possible Iran deal",
-      "url": "https://www.cnbc.com/2026/06/11/what-energy-insiders-in-dc-are-saying-about-oil-prices-and-a-possible-iran-deal.html",
+      "title": "SpaceX market cap tops $2 trillion after shares of Elon Musk's rocket company gain 19% on debut",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html",
       "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 21:29:14 GMT",
-      "title_ko": "워싱턴의 에너지 전문가들이 원유 가격과 이란 협상 가능성에 대해 말하는 것"
+      "published": "Fri, 12 Jun 2026 20:33:52 GMT",
+      "title_ko": "스페이스X의 시가총액이 2조 달러를 돌파했다"
     },
     {
-      "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-ipo-wont-break-the-bull-market-but-investors-are-worried-about-what-comes-next.html",
+      "title": "Call Kevin Warsh the Fed 'chairman'",
+      "url": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
       "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 18:26:15 GMT",
-      "title_ko": "스페이스X의 상장이 불황을 가져오지는 않겠지만 투자자들은 다음에 무엇이 올지에 대해 우려한다"
+      "published": "Fri, 12 Jun 2026 21:11:46 GMT",
+      "title_ko": "케빈 워시를 연준 의장이라고 불러라"
     },
     {
-      "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
-      "url": "https://www.cnbc.com/2026/06/11/gold-slumps-to-6-month-low-even-as-inflation-fears-rise-heres-why-bullion-is-out-of-favor.html",
+      "title": "As investors flock to SpaceX, one trader eyes a sleepy 'stealth' play",
+      "url": "https://www.cnbc.com/2026/06/12/as-investors-flock-to-spacex-one-trader-eyes-a-sleepy-stealth-play.html",
       "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 19:06:17 GMT",
-      "title_ko": "금 가격이 6개월 만에 최저치로 떨어지면서 물가 상승 우려가 높아지고 있다. 금이 인기를 잃는 이유는 무엇일까"
+      "published": "Fri, 12 Jun 2026 17:33:56 GMT",
+      "title_ko": "투자자들이 스페이스X로 몰려가면서 한 트레이더가 조용한 투자 기회를 주목한다"
     },
     {
-      "title": "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
-      "url": "https://www.cnbc.com/2026/06/11/iran-strait-hormuz-oil-tanker-traffic-frontline.html",
+      "title": "For Warsh as Fed chair, silence may be the point",
+      "url": "https://www.cnbc.com/2026/06/12/warsh-fed-chair-interest-rates.html",
       "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 19:00:47 GMT",
-      "title_ko": "유조선 CEO는 미국과 이란이 협상을 타결하면 호르무즈 해협의 선박 통행이 빠르게 증가할 것으로 본다"
+      "published": "Fri, 12 Jun 2026 10:00:01 GMT",
+      "title_ko": "워시 연준 의장에 대한 침묵이 중요한 점일 수 있다"
     },
     {
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "url": "https://www.cnbc.com/2026/06/11/pirro-fed-jerome-powell.html",
       "source": "CNBC",
-      "published": "Fri, 12 Jun 2026 00:15:41 GMT",
-      "title_ko": "판사, 피로의 연방 수사에서 손실은 계산서에 남겨야 한다고 판결했다"
+      "published": "Fri, 12 Jun 2026 00:19:38 GMT",
+      "title_ko": "판사, 피로의 연준 조사 손실은 기록에 남아 있어야 한다고 판결했다"
     },
     {
-      "title": "SpaceX to close above $2 trillion market cap on its debut, prediction market traders say",
-      "url": "https://www.cnbc.com/2026/06/11/spacex-to-close-above-2-trillion-market-cap-on-its-debut-traders-say.html",
+      "title": "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-proxies-crash-as-real-deal-arrives-heres-where-traders-are-buying-the-dip.html",
       "source": "CNBC",
-      "published": "Thu, 11 Jun 2026 21:44:43 GMT",
-      "title_ko": "스페이스X는 상장 첫날 2조 달러 이상의 시가 총액으로 마감할 것이라고 예측 시장 거래자들은 말한다"
+      "published": "Fri, 12 Jun 2026 20:43:50 GMT",
+      "title_ko": "스페이스X 대리 주식이 폭락하면서 실제 주식이 등장했다 트레이더들이 하락을 사는 곳은 어디인가"
+    },
+    {
+      "title": "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
+      "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
+      "source": "CNBC",
+      "published": "Fri, 12 Jun 2026 19:42:01 GMT",
+      "title_ko": "미국 원유 가격이 85달러 아래로 떨어지면서 미국과 이란이 호르무즈를 다시 열기 위해 협상을 진행 중이다"
     }
   ]
 }
