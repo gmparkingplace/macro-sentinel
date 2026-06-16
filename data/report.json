@@ -1,121 +1,121 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-16",
   "data": {
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "indices": {
       "sp500": {
-        "close": 7431.46,
-        "prev_close": 7394.3,
-        "change_pct": 0.5,
-        "pct_52w": 88.7
+        "close": 7554.29,
+        "prev_close": 7431.46,
+        "change_pct": 1.65,
+        "pct_52w": 96.0
       },
       "nasdaq100": {
-        "close": 29635.95,
-        "prev_close": 29446.18,
-        "change_pct": 0.64,
-        "pct_52w": 87.8
+        "close": 30543.92,
+        "prev_close": 29635.95,
+        "change_pct": 3.06,
+        "pct_52w": 97.6
       },
       "russell": {
-        "close": 2943.99,
-        "prev_close": 2921.03,
-        "change_pct": 0.79,
-        "pct_52w": 97.1
+        "close": 2965.09,
+        "prev_close": 2943.99,
+        "change_pct": 0.72,
+        "pct_52w": 96.6
       },
       "vix": {
-        "close": 17.68,
-        "prev_close": 19.44,
-        "change_pct": -9.05,
-        "pct_52w": 19.6
+        "close": 16.2,
+        "prev_close": 17.68,
+        "change_pct": -8.37,
+        "pct_52w": 12.9
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.05,
-        "date": "2026-06-11",
-        "change_pct": -1.94,
-        "prev_value": 4.13
+        "value": 4.09,
+        "date": "2026-06-12",
+        "change_pct": 0.99,
+        "prev_value": 4.05
       },
       "us10y": {
-        "value": 4.45,
-        "date": "2026-06-11",
-        "change_pct": -2.2,
-        "prev_value": 4.55
+        "value": 4.48,
+        "date": "2026-06-12",
+        "change_pct": 0.67,
+        "prev_value": 4.45
       },
       "tips10y": {
-        "value": 2.16,
-        "date": "2026-06-11",
-        "change_pct": -2.26,
-        "prev_value": 2.21
+        "value": 2.17,
+        "date": "2026-06-12",
+        "change_pct": 0.46,
+        "prev_value": 2.16
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.39,
-        "date": "2026-06-12",
-        "change_pct": -2.5,
-        "prev_value": 0.4
+        "value": 0.4,
+        "date": "2026-06-15",
+        "change_pct": 2.56,
+        "prev_value": 0.39
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.78,
-        "date": "2026-06-11",
-        "change_pct": -0.71,
-        "prev_value": 2.8
+        "value": 2.71,
+        "date": "2026-06-12",
+        "change_pct": -2.52,
+        "prev_value": 2.78
       },
       "fra_ois": {
         "value": 3.62,
-        "date": "2026-06-11",
+        "date": "2026-06-12",
         "change_pct": 0.0,
         "prev_value": 3.62
       }
     },
     "fx": {
       "dxy": {
-        "value": 120.0831,
-        "date": "2026-06-05",
-        "change_pct": 0.6,
-        "prev_value": 119.3615
+        "value": 119.5073,
+        "date": "2026-06-12",
+        "change_pct": -0.51,
+        "prev_value": 120.1174
       },
       "usdkrw": {
-        "close": 1517.89,
-        "prev_close": 1525.05,
-        "change_pct": -0.47,
-        "pct_52w": 83.5
+        "close": 1511.98,
+        "prev_close": 1509.5,
+        "change_pct": 0.16,
+        "pct_52w": 81.0
       },
       "usdjpy": {
-        "close": 160.18,
-        "prev_close": 160.13,
-        "change_pct": 0.03,
-        "pct_52w": 97.1
+        "close": 160.16,
+        "prev_close": 159.96,
+        "change_pct": 0.13,
+        "pct_52w": 97.0
       },
       "eurusd": {
         "close": 1.16,
-        "prev_close": 1.15,
-        "change_pct": 0.87,
+        "prev_close": 1.16,
+        "change_pct": 0.0,
         "pct_52w": 32.7
       }
     },
     "commodities": {
       "wti": {
-        "close": 84.29,
-        "prev_close": 87.71,
-        "change_pct": -3.9,
-        "pct_52w": 45.4
+        "close": 81.0,
+        "prev_close": 81.0,
+        "change_pct": 0.0,
+        "pct_52w": 40.3
       },
       "gold": {
-        "close": 4239.9,
-        "prev_close": 4090.3,
-        "change_pct": 3.66,
-        "pct_52w": 42.3
+        "close": 4339.6,
+        "prev_close": 4339.6,
+        "change_pct": 0.0,
+        "pct_52w": 46.6
       },
       "copper": {
-        "close": 6.47,
-        "prev_close": 6.26,
-        "change_pct": 3.35,
-        "pct_52w": 92.2
+        "close": 6.46,
+        "prev_close": 6.46,
+        "change_pct": 0.0,
+        "pct_52w": 91.7
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6711495.0
       },
       "rrp": {
-        "value": 0.454,
-        "date": "2026-06-12",
-        "change_pct": -1.3,
-        "prev_value": 0.46
+        "value": 0.581,
+        "date": "2026-06-15",
+        "change_pct": 27.97,
+        "prev_value": 0.454
       },
       "m2": {
         "value": 22804.5,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 184.8,
-        "change_pct": 0.87,
-        "change_4w": 4.5,
-        "pct_52w": 82.6
+        "close": 191.79,
+        "change_pct": 3.78,
+        "change_4w": 10.0,
+        "pct_52w": 91.3
       },
       "financials": {
-        "close": 53.34,
-        "change_pct": 1.37,
-        "change_4w": 4.61,
-        "pct_52w": 66.2
+        "close": 53.56,
+        "change_pct": 0.41,
+        "change_4w": 3.52,
+        "pct_52w": 68.8
       },
       "energy": {
-        "close": 57.55,
-        "change_pct": 0.75,
-        "change_4w": -0.14,
-        "pct_52w": 73.6
+        "close": 55.55,
+        "change_pct": -3.48,
+        "change_4w": -8.3,
+        "pct_52w": 64.7
       },
       "utilities": {
-        "close": 44.53,
-        "change_pct": 1.09,
-        "change_4w": -0.31,
-        "pct_52w": 64.4
+        "close": 44.74,
+        "change_pct": 0.47,
+        "change_4w": 1.82,
+        "pct_52w": 66.7
       },
       "healthcare": {
-        "close": 153.81,
-        "change_pct": -0.18,
-        "change_4w": 4.84,
-        "pct_52w": 81.8
+        "close": 152.89,
+        "change_pct": -0.6,
+        "change_4w": 4.92,
+        "pct_52w": 79.0
       },
       "consumer_disc": {
-        "close": 116.6,
-        "change_pct": 0.26,
-        "change_4w": -1.79,
-        "pct_52w": 60.7
+        "close": 118.57,
+        "change_pct": 1.69,
+        "change_4w": 1.93,
+        "pct_52w": 70.2
       },
       "industrials": {
-        "close": 176.18,
-        "change_pct": 0.59,
-        "change_4w": 1.47,
-        "pct_52w": 93.3
+        "close": 178.68,
+        "change_pct": 1.42,
+        "change_4w": 4.64,
+        "pct_52w": 96.8
       },
       "materials": {
-        "close": 52.18,
-        "change_pct": 1.87,
-        "change_4w": 0.23,
-        "pct_52w": 86.0
+        "close": 52.5,
+        "change_pct": 0.61,
+        "change_4w": 4.54,
+        "pct_52w": 88.6
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 45,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 142.6,
-        "change_pct": -0.27,
+        "close": 144.32,
+        "change_pct": 1.21,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -276,74 +276,81 @@
     ],
     "news": [
       {
-        "title": "There’s a 68% chance the stock market ends the year higher. Why the headlines shouldn’t disrupt your portfolio.",
-        "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
+        "title": "The biggest risk to your retirement isn’t a market crash — it’s a crisis you probably haven’t planned for",
+        "url": "https://www.marketwatch.com/story/the-biggest-risk-to-your-retirement-isnt-a-market-crash-its-a-crisis-you-probably-havent-planned-for-eff75a99?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 12 Jun 2026 22:58:00 GMT",
-        "title_ko": "There’s a 68% chance the stock market ends the year higher. Why the headlines shouldn’t disrupt your portfolio."
+        "published": "Tue, 16 Jun 2026 00:34:00 GMT",
+        "title_ko": "귀하의 은퇴를 위협하는 가장 큰 위험은 시장의 폭락이 아니라 계획하지 못한 위기일 수 있습니다"
       },
       {
-        "title": "‘This is not a flash in the pan’: Why value stocks are beating growth by such a wide margin",
-        "url": "https://www.marketwatch.com/story/this-is-not-a-flash-in-the-pan-why-value-stocks-are-beating-growth-by-such-a-wide-margin-b2bddccc?mod=mw_rss_topstories",
+        "title": "Options traders are bracing for a very busy week, with June ‘triple witching’ and launch of SpaceX contracts on deck",
+        "url": "https://www.marketwatch.com/story/options-traders-are-bracing-for-a-very-busy-week-with-june-triple-witching-and-launch-of-spacex-contracts-on-deck-b38fbf62?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 12 Jun 2026 22:50:00 GMT",
-        "title_ko": "가치 주식이 성장 주식보다 훨씬 더 높은 폭으로 승리하는 이유"
+        "published": "Mon, 15 Jun 2026 22:24:00 GMT",
+        "title_ko": "옵션 거래자들은 6월의 ‘트리플 위칭’과 스페이스X 계약의 출시로 매우 바쁜 주를 준비하고 있습니다"
       },
       {
-        "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
-        "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
+        "title": "Why Western Digital’s stock was the S&P 500’s biggest gainer on Monday",
+        "url": "https://www.marketwatch.com/story/why-western-digitals-stock-was-the-s-p-500s-biggest-gainer-on-monday-2aebd3e9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 12 Jun 2026 19:56:00 GMT",
-        "title_ko": "연금이 시장보다 더 잘할 수 있다는 것이 사실일까"
+        "published": "Mon, 15 Jun 2026 21:57:00 GMT",
+        "title_ko": "웨스턴 디지털의 주가가 월요일에 S&P 500에서 가장 큰 상승을 기록한 이유"
       },
       {
-        "title": "SpaceX market cap tops $2 trillion after shares of Elon Musk's rocket company gain 19% on debut",
-        "url": "https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html",
+        "title": "The Iran deal came just in time as Strategic Petroleum Reserve hits lowest level since 1983",
+        "url": "https://www.cnbc.com/2026/06/15/iran-deal-came-in-time-as-strategic-petroleum-reserve-hits-lowest-level-since-1983.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 20:33:52 GMT",
-        "title_ko": "스페이스X의 시가총액이 2조 달러를 돌파했다"
+        "published": "Mon, 15 Jun 2026 21:13:48 GMT",
+        "title_ko": "이란 협상이 стратег적 석유 예비 재고가 1983년 이후 최저 수준에 달한 때에 이루어졌습니다"
       },
       {
-        "title": "Call Kevin Warsh the Fed 'chairman'",
-        "url": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
+        "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
+        "url": "https://www.cnbc.com/2026/06/15/trump-warsh-fed-reshape.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 21:11:46 GMT",
-        "title_ko": "케빈 워시를 연준 의장이라고 불러라"
+        "published": "Mon, 15 Jun 2026 20:14:06 GMT",
+        "title_ko": "트럼프는 연방준비제도 의장 케빈 워시를 신뢰한다. 이는 금리보다 더 중요한 의미를 가지고 있습니다"
       },
       {
-        "title": "As investors flock to SpaceX, one trader eyes a sleepy 'stealth' play",
-        "url": "https://www.cnbc.com/2026/06/12/as-investors-flock-to-spacex-one-trader-eyes-a-sleepy-stealth-play.html",
+        "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
+        "url": "https://www.cnbc.com/2026/06/15/cnbcs-the-china-connection-newsletter-hoping-ai-lifts-all-boats.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 17:33:56 GMT",
-        "title_ko": "투자자들이 스페이스X로 몰려가면서 한 트레이더가 조용한 투자 기회를 주목한다"
+        "published": "Mon, 15 Jun 2026 23:00:01 GMT",
+        "title_ko": "CNBC의 차이나 커넥션 뉴스레터: 전체 시장에 영향을 미칠 인공지능을 기다리는 중"
       },
       {
-        "title": "For Warsh as Fed chair, silence may be the point",
-        "url": "https://www.cnbc.com/2026/06/12/warsh-fed-chair-interest-rates.html",
+        "title": "People in China are watching the World Cup differently this time",
+        "url": "https://www.cnbc.com/2026/06/16/people-in-china-are-watching-the-world-cup-differently-this-time.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 10:00:01 GMT",
-        "title_ko": "워시 연준 의장에 대한 침묵이 중요한 점일 수 있다"
+        "published": "Mon, 15 Jun 2026 23:25:29 GMT",
+        "title_ko": "중국 사람들은 이번에 월드컵을 다르게 보고 있습니다"
       },
       {
-        "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
-        "url": "https://www.cnbc.com/2026/06/11/pirro-fed-jerome-powell.html",
+        "title": "Warsh's Fed is likely to hold rates steady — what the leadership change could mean for your money",
+        "url": "https://www.cnbc.com/2026/06/15/warsh-fed-interest-rates.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 00:19:38 GMT",
-        "title_ko": "판사, 피로의 연준 조사 손실은 기록에 남아 있어야 한다고 판결했다"
+        "published": "Mon, 15 Jun 2026 16:37:28 GMT",
+        "title_ko": "워시의 연방준비제도는 금리를 유지할 가능성이 높습니다 - 금리 변동이 귀하의 돈에 미칠 수 있는 영향"
       },
       {
-        "title": "SpaceX 'proxies' plunge as real deal arrives: Here's where traders are buying the dip",
-        "url": "https://www.cnbc.com/2026/06/12/spacex-proxies-crash-as-real-deal-arrives-heres-where-traders-are-buying-the-dip.html",
+        "title": "Wall Street's fear gauge tumbles as traders bid up SpaceX shares",
+        "url": "https://www.cnbc.com/2026/06/15/wall-streets-fear-gauge-tumbles-as-traders-bid-up-spacex-shares.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 20:43:50 GMT",
-        "title_ko": "스페이스X 대리 주식이 폭락하면서 실제 주식이 등장했다 트레이더들이 하락을 사는 곳은 어디인가"
+        "published": "Mon, 15 Jun 2026 19:26:39 GMT",
+        "title_ko": "월 스트리트의 공포 지표가 스페이스X 주식을 매수하면서 하락했습니다"
       },
       {
-        "title": "U.S. crude oil falls below $85 as U.S. and Iran near a deal to reopen Hormuz",
-        "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
+        "title": "I want people to be millionaires — Jim Cramer's blueprint to make money in any market",
+        "url": "https://www.cnbc.com/2026/06/15/i-want-people-to-be-millionaires-cramer-blueprint-on-making-money-in-any-market.html",
         "source": "CNBC",
-        "published": "Fri, 12 Jun 2026 19:42:01 GMT",
-        "title_ko": "미국 원유 가격이 85달러 아래로 떨어지면서 미국과 이란이 호르무즈를 다시 열기 위해 협상을 진행 중이다"
+        "published": "Mon, 15 Jun 2026 20:09:04 GMT",
+        "title_ko": "나는 사람들이 백만장자가 되기를 원합니다 - 짐 크라머의 어떤 시장에서도 돈을 버는 청사진"
+      },
+      {
+        "title": "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
+        "url": "https://www.cnbc.com/2026/06/15/oil-tumbles-on-us-iran-deal-framework-how-one-trader-is-playing-the-move.html",
+        "source": "CNBC",
+        "published": "Mon, 15 Jun 2026 16:38:34 GMT",
+        "title_ko": "미국-이란 협상 기본 구조로 유가가 하락했다: 한 거래자가 이 움직임을 어떻게 활용하는지"
       }
     ]
   },
@@ -361,8 +368,8 @@
     "unemployment": "yellow",
     "oil": "yellow",
     "gdp": "yellow",
-    "gold_signal": "red",
-    "copper": "green",
+    "gold_signal": "yellow",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -370,10 +377,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 17.7(낮음)+Skew 143(높음)",
-      "Gold 극단 위험회피 $4240"
+      "숨겨진경고: VIX 16.2(낮음)+Skew 144(높음)"
     ],
-    "ratio": 0.575
+    "ratio": 0.55
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
