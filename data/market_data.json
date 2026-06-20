@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "indices": {
     "sp500": {
       "close": 7500.58,
@@ -20,10 +20,10 @@
       "pct_52w": 98.2
     },
     "vix": {
-      "close": 16.4,
-      "prev_close": 18.44,
-      "change_pct": -11.06,
-      "pct_52w": 13.8
+      "close": 16.78,
+      "prev_close": 16.4,
+      "change_pct": 2.32,
+      "pct_52w": 15.5
     }
   },
   "rates": {
@@ -78,15 +78,15 @@
       "prev_value": 120.1174
     },
     "usdkrw": {
-      "close": 1535.43,
+      "close": 1529.89,
       "prev_close": 1525.42,
-      "change_pct": 0.66,
-      "pct_52w": 91.0
+      "change_pct": 0.29,
+      "pct_52w": 88.7
     },
     "usdjpy": {
-      "close": 161.24,
+      "close": 161.28,
       "prev_close": 160.6,
-      "change_pct": 0.4,
+      "change_pct": 0.42,
       "pct_52w": 99.0
     },
     "eurusd": {
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 75.07,
-      "prev_close": 76.79,
-      "change_pct": -2.24,
-      "pct_52w": 31.1
+      "close": 76.54,
+      "prev_close": 76.6,
+      "change_pct": -0.08,
+      "pct_52w": 33.4
     },
     "gold": {
-      "close": 4203.7,
-      "prev_close": 4358.9,
-      "change_pct": -3.56,
-      "pct_52w": 40.7
+      "close": 4172.9,
+      "prev_close": 4224.1,
+      "change_pct": -1.21,
+      "pct_52w": 39.4
     },
     "copper": {
-      "close": 6.37,
-      "prev_close": 6.48,
-      "change_pct": -1.7,
-      "pct_52w": 87.9
+      "close": 6.34,
+      "prev_close": 6.37,
+      "change_pct": -0.47,
+      "pct_52w": 86.6
     }
   },
   "liquidity": {
@@ -177,7 +177,7 @@
       "close": 180.91,
       "change_pct": 0.73,
       "change_4w": 7.21,
-      "pct_52w": 95.4
+      "pct_52w": 95.3
     },
     "materials": {
       "close": 51.81,
@@ -229,7 +229,7 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 49,
+      "score": 48,
       "rating": "Neutral"
     },
     "skew": {
@@ -286,109 +286,88 @@
   ],
   "news": [
     {
-      "title": "Trump’s Iran agreement is a massive buy signal for stocks",
-      "url": "https://www.marketwatch.com/story/trumps-iran-agreement-changes-the-game-for-investors-these-are-the-two-sectors-to-buy-right-now-0705bc62?mod=mw_rss_topstories",
+      "title": "Warsh’s new task forces give the Fed wiggle room to put off changing rates until December",
+      "url": "https://www.marketwatch.com/story/warshs-task-forces-give-the-fed-wiggle-room-to-put-off-changing-rates-until-december-364fc1fc?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 18 Jun 2026 23:09:00 GMT",
-      "title_ko": "트럼프의 이란 협정은 주식에 대한 대규모 매수 신호이다"
+      "published": "Fri, 19 Jun 2026 17:25:00 GMT",
+      "title_ko": "워시의 새로운 태스크 포스가 연준에 금리 변경을 12월까지 미루는 유연성을 준다"
     },
     {
-      "title": "SpaceX is vastly more expensive than any stock in the S&P 500, fueled by ‘FOMO’ mentality",
-      "url": "https://www.marketwatch.com/story/spacex-is-vastly-more-expensive-than-any-stock-in-the-s-p-500-fueled-by-fomo-mentality-eb61cd69?mod=mw_rss_topstories",
+      "title": "Trump picked Kevin Warsh to cut rates. The new Fed chief just told us he has other plans.",
+      "url": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-cut-rates-the-new-fed-chief-just-told-us-he-has-other-plans-096bba56?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 18 Jun 2026 22:03:00 GMT",
-      "title_ko": "스페이스X는 S&P 500에 있는 어떤 주식보다도 훨씬 더 비싸며, 'Fear of Missing Out' 마음가짐에 의해 추동된다"
+      "published": "Fri, 19 Jun 2026 17:08:00 GMT",
+      "title_ko": "트럼프는 케빈 워시를 낮은 금리로 선택했다. 새로운 연준 총재는 우리에게 다른 계획이 있다고 말했다"
     },
     {
-      "title": "SpaceX options volume explodes as trading kicks off. Here is a low-risk strategy to play the massive surge.",
-      "url": "https://www.marketwatch.com/story/spacex-options-volume-explodes-as-trading-kicks-off-here-is-a-low-risk-strategy-to-play-the-massive-surge-425f9b51?mod=mw_rss_topstories",
+      "title": "Fed watching is looking very different now. Two charts can help you in the Warsh era.",
+      "url": "https://www.marketwatch.com/story/fed-watching-is-looking-very-different-now-two-charts-can-help-you-in-the-warsh-era-d2372c15?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 18 Jun 2026 21:36:00 GMT",
-      "title_ko": "스페이스X 옵션 거래량이 거래가 시작되면서 폭발적으로 증가한다. 여기에는 큰 급증을 이용하기 위한 저위험 전략이 있다"
+      "published": "Fri, 19 Jun 2026 16:59:00 GMT",
+      "title_ko": "현재의 연준 관찰은 매우 다르게 보인다. 두 개의 차트가 워시 시대에 도움이 될 수 있다"
     },
     {
-      "title": "These stocks are in trouble after Fed Chair Kevin Warsh removed the market’s guardrails",
-      "url": "https://www.marketwatch.com/story/these-stocks-are-in-trouble-now-that-kevin-warsh-removed-the-markets-guardrails-f7f1e51c?mod=mw_rss_topstories",
+      "title": "Is the stock market closed today for Juneteenth? Will the post office deliver mail?",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-juneteenth-will-the-post-office-deliver-mail-0569e453?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 18 Jun 2026 21:35:00 GMT",
-      "title_ko": "이러한 주식들은 연방준비제도 의장 케빈 워시가 시장의 가드레일을 제거한 후에 어려움에 빠졌다"
+      "published": "Fri, 19 Jun 2026 16:41:00 GMT",
+      "title_ko": "주식 시장은 오늘 주니틴스데이로 인해 폐쇄되나요? 우체국은 우편을 배달할까요"
     },
     {
-      "title": "Micron, other memory stocks are having their best year ever. Why do they still look so cheap?",
-      "url": "https://www.marketwatch.com/story/memory-stocks-are-having-their-best-year-ever-why-do-they-still-look-so-cheap-a506466d?mod=mw_rss_topstories",
+      "title": "Oil prices face fresh wave of volatility amid conflicting reports about Strait of Hormuz reopening and ongoing regional strife",
+      "url": "https://www.marketwatch.com/story/oil-prices-under-new-wave-of-pressure-amid-lingering-questions-over-a-strait-of-hormuz-reopening-c58fc9e8?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 18 Jun 2026 21:14:00 GMT",
-      "title_ko": "마이크론과 다른 메모리 주식들은 지금까지 최고의 연도를 보이고 있다. 그럼에도 불구하고 왜 그들이 아직도 इतन 저렴하게 보이는가?"
+      "published": "Fri, 19 Jun 2026 16:05:00 GMT",
+      "title_ko": "원유 가격은 호르무즈 해협 재개와 지역 분쟁에 대한 상반된 보고로 인해 새로운 변동성의 물결을 맞는다"
     },
     {
-      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns",
-      "url": "https://www.cnbc.com/2026/06/19/japan-core-inflation-holds-steady-in-may-matching-expectations-despite-energy-price-concerns.html",
+      "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+      "url": "https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc.html",
       "source": "CNBC",
-      "published": "Fri, 19 Jun 2026 00:02:03 GMT",
-      "title_ko": "일본의 핵심 인플레이션은 5월에 안정적인 상태를 유지하며, 에너지 가격 우려에도 불구하고 예상과 일치한다"
+      "published": "Fri, 19 Jun 2026 23:00:29 GMT",
+      "title_ko": "미국과 이란의 해로 개방 협약으로 호르무즈 해협의 유조선 교통이 증가한다"
     },
     {
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "url": "https://www.cnbc.com/2026/06/18/markets-are-set-for-a-much-more-hawkish-warsh-fed-than-expected.html",
+      "title": "The riskiest SpaceX stock trade of all had a big first week",
+      "url": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 18:04:41 GMT",
-      "title_ko": "시장은 예상보다 훨씬 더 강경한 워시 연방준비제도를 준비하고 있다"
-    },
-    {
-      "title": "Trump administration temporarily cuts student loan interest rates for borrowers on autopay",
-      "url": "https://www.cnbc.com/2026/06/18/trump-student-loan-autopay-interest-rate-discount.html",
-      "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 21:42:07 GMT",
-      "title_ko": "트럼프 행정부는 자동 결제 중인 대출자를 위한 학생 대출 금리를 일시적으로 절감했다"
+      "published": "Fri, 19 Jun 2026 15:53:11 GMT",
+      "title_ko": "모든 스페이스X 주식 거래 중 가장 위험한 것이 첫 주에 큰 영향을 받았다"
     },
     {
       "title": "In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication",
       "url": "https://www.cnbc.com/2026/06/18/obama-presidential-center-opening-chicago-photos-trump.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 20:51:33 GMT",
+      "published": "Fri, 19 Jun 2026 13:51:01 GMT",
       "title_ko": "사진: 스타들이 모여 오바마 대통령 센터 헌납식을 축하한다"
     },
     {
-      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-      "url": "https://www.cnbc.com/2026/06/18/trump-federal-reserve-lisa-cook-security-filing.html",
+      "title": "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+      "url": "https://www.cnbc.com/2026/06/19/fedspeak-vs-war-deal-here-are-the-things-that-drove-this-weeks-stock-market.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 17:24:11 GMT",
-      "title_ko": "트럼프의 연방준비제도 리사 쿡 해임 시도는 법적, 보안 비용으로 100만 달러 이상의 비용이 들었다"
+      "published": "Fri, 19 Jun 2026 17:24:10 GMT",
+      "title_ko": "연준의 말 대 전쟁 협상: 이번 주 주식 시장의 원동력이 된 것들"
     },
     {
-      "title": "Bears step up bets against high-yield sector, shaking up bond traders",
-      "url": "https://www.cnbc.com/2026/06/18/bears-step-up-bets-against-high-yield-sector-shaking-up-bond-traders.html",
+      "title": "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
+      "url": "https://www.cnbc.com/2026/06/19/japan-yen-intervention-boj-rate-hike.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 19:29:16 GMT",
-      "title_ko": "곰들이 높은 수익 부문에 대한 내기를 강화하며 채권 거래자를 흔들었다"
+      "published": "Fri, 19 Jun 2026 02:04:53 GMT",
+      "title_ko": "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more"
     },
     {
-      "title": "Three Saudi oil tankers carrying 6 million barrels cross Strait of Hormuz",
-      "url": "https://www.cnbc.com/2026/06/18/iran-deal-strait-hormuz-oil-tanker-saudi-arabia-traffic.html",
+      "title": "U.S. opens tariff probe targeting Germany’s drug pricing policies",
+      "url": "https://www.cnbc.com/2026/06/19/us-tariff-probe-germany-drug-pricing-policies-mfn.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 19:31:49 GMT",
-      "title_ko": "600만 배럴을 운반하는 3대의 사우디 아라비아 유조선이 호르무즈 해협을 건넌다"
+      "published": "Fri, 19 Jun 2026 14:44:37 GMT",
+      "title_ko": "U.S. opens tariff probe targeting Germany’s drug pricing policies"
     },
     {
-      "title": "Kalshi traders see greater than 50% odds the Fed will hike rates this year",
-      "url": "https://www.cnbc.com/2026/06/18/kalshi-traders-see-greater-than-50percent-odds-the-fed-will-hike-rates-this-year.html",
+      "title": "UK gilt yields jump as borrowing rises and PM Starmer faces leadership challenge",
+      "url": "https://www.cnbc.com/2026/06/19/andy-burnham-makerfield-by-election.html",
       "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 18:33:43 GMT",
-      "title_ko": "칼시 거래자들은 연방준비제도가 금리 인상을 할 가능성이 50% 이상이라고 본다"
-    },
-    {
-      "title": "Gas prices fall below $4 per gallon as oil supply fears ease after Iran deal",
-      "url": "https://www.cnbc.com/2026/06/18/iran-war-gasoline-price-strait-hormuz-oil.html",
-      "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 15:34:13 GMT",
-      "title_ko": "이란 협정 이후 유정품 공급 우려가 완화되면서 가스 가격이 1갤런당 4달러 미만으로 떨어진다"
-    },
-    {
-      "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
-      "url": "https://www.cnbc.com/2026/06/17/kevin-warsh-fed-interest-rates-risk-analysis.html",
-      "source": "CNBC",
-      "published": "Thu, 18 Jun 2026 13:45:45 GMT",
-      "title_ko": "분석: 케빈 워시 의장의 태스크 포스는 새로운 연방준비제도를 이해하는 열쇠이다"
+      "published": "Fri, 19 Jun 2026 10:51:36 GMT",
+      "title_ko": "영국 국채 수익률이 상승하고 총리 스타머가 지도부 도전을 맞는다"
     }
   ]
 }
