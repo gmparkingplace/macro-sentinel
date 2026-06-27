@@ -1,73 +1,73 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "indices": {
     "sp500": {
-      "close": 7357.49,
-      "prev_close": 7358.22,
-      "change_pct": -0.01,
-      "pct_52w": 82.6
+      "close": 7354.02,
+      "prev_close": 7357.49,
+      "change_pct": -0.05,
+      "pct_52w": 82.1
     },
     "nasdaq100": {
-      "close": 29440.32,
-      "prev_close": 29220.06,
-      "change_pct": 0.75,
-      "pct_52w": 84.5
+      "close": 29118.24,
+      "prev_close": 29440.32,
+      "change_pct": -1.09,
+      "pct_52w": 80.4
     },
     "russell": {
-      "close": 3007.86,
-      "prev_close": 2986.63,
-      "change_pct": 0.71,
-      "pct_52w": 97.1
+      "close": 3010.08,
+      "prev_close": 3007.86,
+      "change_pct": 0.07,
+      "pct_52w": 97.3
     },
     "vix": {
-      "close": 18.89,
-      "prev_close": 18.63,
-      "change_pct": 1.4,
-      "pct_52w": 25.1
+      "close": 18.41,
+      "prev_close": 18.89,
+      "change_pct": -2.54,
+      "pct_52w": 22.9
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.11,
-      "date": "2026-06-24",
-      "change_pct": -1.2,
-      "prev_value": 4.16
+      "value": 4.09,
+      "date": "2026-06-25",
+      "change_pct": -0.49,
+      "prev_value": 4.11
     },
     "us10y": {
-      "value": 4.41,
-      "date": "2026-06-24",
-      "change_pct": -2.0,
-      "prev_value": 4.5
+      "value": 4.4,
+      "date": "2026-06-25",
+      "change_pct": -0.23,
+      "prev_value": 4.41
     },
     "tips10y": {
-      "value": 2.23,
-      "date": "2026-06-24",
-      "change_pct": -2.62,
-      "prev_value": 2.29
+      "value": 2.19,
+      "date": "2026-06-25",
+      "change_pct": -1.79,
+      "prev_value": 2.23
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.31,
-      "date": "2026-06-25",
-      "change_pct": 3.33,
-      "prev_value": 0.3
+      "date": "2026-06-26",
+      "change_pct": 0.0,
+      "prev_value": 0.31
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.76,
-      "date": "2026-06-24",
-      "change_pct": 1.85,
-      "prev_value": 2.71
+      "value": 2.78,
+      "date": "2026-06-25",
+      "change_pct": 0.72,
+      "prev_value": 2.76
     },
     "fra_ois": {
-      "value": 3.63,
-      "date": "2026-06-24",
-      "change_pct": 0.28,
-      "prev_value": 3.62
+      "value": 3.62,
+      "date": "2026-06-25",
+      "change_pct": -0.28,
+      "prev_value": 3.63
     }
   },
   "fx": {
@@ -78,16 +78,16 @@
       "prev_value": 119.3871
     },
     "usdkrw": {
-      "close": 1545.38,
+      "close": 1535.0,
       "prev_close": 1542.76,
-      "change_pct": 0.17,
-      "pct_52w": 95.3
+      "change_pct": -0.5,
+      "pct_52w": 90.9
     },
     "usdjpy": {
-      "close": 161.82,
+      "close": 161.73,
       "prev_close": 161.76,
-      "change_pct": 0.04,
-      "pct_52w": 99.4
+      "change_pct": -0.02,
+      "pct_52w": 98.9
     },
     "eurusd": {
       "close": 1.14,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 71.54,
-      "prev_close": 70.34,
-      "change_pct": 1.71,
-      "pct_52w": 25.7
+      "close": 70.24,
+      "prev_close": 71.92,
+      "change_pct": -2.34,
+      "pct_52w": 23.7
     },
     "gold": {
-      "close": 4028.9,
-      "prev_close": 3990.3,
-      "change_pct": 0.97,
-      "pct_52w": 33.2
+      "close": 4103.0,
+      "prev_close": 4030.5,
+      "change_pct": 1.8,
+      "pct_52w": 36.4
     },
     "copper": {
-      "close": 6.12,
-      "prev_close": 5.94,
-      "change_pct": 3.03,
-      "pct_52w": 77.1
+      "close": 6.2,
+      "prev_close": 6.07,
+      "change_pct": 2.14,
+      "pct_52w": 80.6
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6736424.0
     },
     "rrp": {
-      "value": 5.718,
-      "date": "2026-06-25",
-      "change_pct": 26.11,
-      "prev_value": 4.534
+      "value": 6.426,
+      "date": "2026-06-26",
+      "change_pct": 12.38,
+      "prev_value": 5.718
     },
     "m2": {
       "value": 23052.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 184.57,
-      "change_pct": 0.83,
-      "change_4w": -0.19,
-      "pct_52w": 81.3
+      "close": 181.11,
+      "change_pct": -1.87,
+      "change_4w": -1.68,
+      "pct_52w": 76.7
     },
     "financials": {
-      "close": 53.45,
-      "change_pct": -0.5,
-      "change_4w": 3.44,
-      "pct_52w": 69.7
+      "close": 53.57,
+      "change_pct": 0.22,
+      "change_4w": 4.55,
+      "pct_52w": 71.1
     },
     "energy": {
-      "close": 54.09,
-      "change_pct": 0.97,
-      "change_4w": -5.83,
-      "pct_52w": 59.9
+      "close": 53.84,
+      "change_pct": -0.46,
+      "change_4w": -4.84,
+      "pct_52w": 58.8
     },
     "utilities": {
-      "close": 45.85,
-      "change_pct": 0.68,
-      "change_4w": 1.8,
-      "pct_52w": 81.3
+      "close": 46.2,
+      "change_pct": 0.76,
+      "change_4w": 3.01,
+      "pct_52w": 85.5
     },
     "healthcare": {
-      "close": 155.63,
-      "change_pct": 1.49,
-      "change_4w": 5.25,
-      "pct_52w": 89.2
+      "close": 160.34,
+      "change_pct": 3.03,
+      "change_4w": 8.24,
+      "pct_52w": 99.2
     },
     "consumer_disc": {
-      "close": 113.35,
-      "change_pct": -1.49,
-      "change_4w": -4.92,
-      "pct_52w": 42.9
+      "close": 114.37,
+      "change_pct": 0.9,
+      "change_4w": -5.72,
+      "pct_52w": 48.1
     },
     "industrials": {
-      "close": 184.12,
-      "change_pct": 2.17,
-      "change_4w": 5.9,
-      "pct_52w": 95.5
+      "close": 181.2,
+      "change_pct": -1.59,
+      "change_4w": 4.22,
+      "pct_52w": 88.5
     },
     "materials": {
-      "close": 51.84,
-      "change_pct": 1.33,
-      "change_4w": 2.05,
-      "pct_52w": 84.8
+      "close": 51.6,
+      "change_pct": -0.46,
+      "change_4w": 1.2,
+      "pct_52w": 82.8
     }
   },
   "macro": {
@@ -215,10 +215,10 @@
       "prev_value": 0.5
     },
     "ism_mfg": {
-      "value": 49.8,
-      "date": "2026-04-01",
-      "change_pct": -6.57,
-      "prev_value": 53.3
+      "value": 44.8,
+      "date": "2026-05-01",
+      "change_pct": -10.04,
+      "prev_value": 49.8
     },
     "ism_svc": {
       "value": 98.91297,
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 43,
+      "score": 44,
       "rating": "Fear"
     },
     "skew": {
-      "close": 139.89,
-      "change_pct": -3.72,
+      "close": 139.4,
+      "change_pct": -0.35,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-06-26",
-      "event": "PCE 발표 (5월)",
-      "category": "pce",
-      "impact": "high"
-    },
     {
       "date": "2026-07-10",
       "event": "고용보고서 (6월)",
@@ -295,71 +289,106 @@
       "title": "SpaceX stock is a terrible buy — what that actually means for the bull market",
       "url": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 25 Jun 2026 23:12:00 GMT",
-      "title_ko": "스페이스엑스 주식은 खर한 투자다 — 불황 시장에 대한 실제 의미는 무엇인가"
+      "published": "Fri, 26 Jun 2026 22:34:00 GMT",
+      "title_ko": "스페이스엑스 주식은 खर한 투자다 — 불황 시장에 미치는 영향은 무엇일까"
     },
     {
-      "title": "A world rejecting OPEC controls could usher in oil below $50 a barrel",
-      "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
+      "title": "ServiceNow, Salesforce and other software stocks surge as the OpenAI threat weakens",
+      "url": "https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 25 Jun 2026 22:29:00 GMT",
-      "title_ko": "오펙controls를 거부하는 세계는 50달러 미만의 유가를 가져올 수 있다"
+      "published": "Fri, 26 Jun 2026 22:09:00 GMT",
+      "title_ko": "ServiceNow, Salesforce and other software stocks surge as the OpenAI threat weakens"
     },
     {
-      "title": "The S&P 500 is at a critical crossroads. A break lower could signal more losses ahead.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-is-at-a-critical-crossroads-a-break-lower-could-signal-more-losses-ahead-f425063c?mod=mw_rss_topstories",
+      "title": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
+      "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 25 Jun 2026 21:33:00 GMT",
-      "title_ko": "S&P 500지수는 중요한 분기점에 있다. 하락하면 더 많은 손실이 예상된다."
+      "published": "Fri, 26 Jun 2026 21:50:00 GMT",
+      "title_ko": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading"
     },
     {
-      "title": "Japanese stocks are on fire. Here’s what’s driving the hot streak.",
-      "url": "https://www.marketwatch.com/story/japanese-stocks-are-on-fire-heres-whats-driving-the-hot-streak-526a6914?mod=mw_rss_topstories",
+      "title": "Tech stocks just had one of their worst weeks in a year. Here’s how AI momentum went off the rails.",
+      "url": "https://www.marketwatch.com/story/tech-stocks-just-had-one-of-their-worst-weeks-in-a-year-heres-how-ai-momentum-went-off-the-rails-d4596bae?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 25 Jun 2026 20:48:00 GMT",
-      "title_ko": "일본 주식은 불타고 있다. 뜨거운 전력의 원인은 무엇인가"
+      "published": "Fri, 26 Jun 2026 21:16:00 GMT",
+      "title_ko": "기술 주가가 1년 만에 가장 나쁜 주를 보냈다. 여기서 인공지능 모멘텀이 왜 실패했는지"
     },
     {
-      "title": "Micron has suddenly become one of the world’s most important stocks",
-      "url": "https://www.marketwatch.com/story/micron-has-suddenly-become-one-of-the-worlds-most-important-stocks-e6f4c517?mod=mw_rss_topstories",
+      "title": "Iran’s ship attack tests the shipping-insurance market just as war-risk premiums had plunged",
+      "url": "https://www.marketwatch.com/story/irans-ship-attack-tests-the-shipping-insurance-market-just-as-war-risk-premiums-had-plunged-8c4ef14d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 25 Jun 2026 20:39:00 GMT",
-      "title_ko": "마이크론은 갑자기 세계에서 가장 중요한 주식 중 하나가 되었다"
+      "published": "Fri, 26 Jun 2026 21:06:00 GMT",
+      "title_ko": "이란의 선박 공격이 해상 보험 시장에 시험을 가하는 순간 전쟁 위험 보험료가 폭락"
     },
     {
-      "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
-      "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
-      "source": "CNBC",
-      "published": "Thu, 25 Jun 2026 21:03:16 GMT",
-      "title_ko": "시카고 연방준비은행 총재 굴스비는 인플레이션이 너무 높다고 말했고 윌리엄스는 물가 압력이 완화될 것이라고 본다"
+      "title": "Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping.",
+      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 26 Jun 2026 20:38:00 GMT",
+      "title_ko": "물가가 상승하는 가운데 국채 금리가 하락하고 있다. 워시의 강경한 발언이 연준의 도움이 되고 있다"
     },
     {
-      "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
-      "url": "https://www.cnbc.com/2026/06/25/judge-blocks-trumps-rule-limiting-student-loans-for-grad-students-.html",
-      "source": "CNBC",
-      "published": "Thu, 25 Jun 2026 18:47:36 GMT",
-      "title_ko": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers"
+      "title": "Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
+      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 26 Jun 2026 20:27:00 GMT",
+      "title_ko": "연준의 카슈카리가 올해 금리 인상을 하나 예상한다. 그의 마음을 바꾼 것은 무엇일까"
     },
     {
-      "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
-      "url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
-      "source": "CNBC",
-      "published": "Thu, 25 Jun 2026 13:30:56 GMT",
-      "title_ko": "5월에 핵심 인플레이션율은 3.4%로 2023년 10월 이후 최고치를 기록했다"
+      "title": "Healthcare stocks have become a haven for investors ditching tech",
+      "url": "https://www.marketwatch.com/story/healthcare-stocks-have-become-a-haven-for-investors-ditching-tech-81c544d0?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 26 Jun 2026 20:25:00 GMT",
+      "title_ko": "의료 주가가 기술을 포기하는 투자자들에게 피난처가 되고 있다"
     },
     {
-      "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
-      "url": "https://www.cnbc.com/2026/06/25/inflation-fed-bond-etf-flows-surge-blackrock.html",
+      "title": "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
+      "url": "https://www.cnbc.com/2026/06/26/trump-warsh-fed-rate-cuts-inflation.html",
       "source": "CNBC",
-      "published": "Thu, 25 Jun 2026 17:29:00 GMT",
-      "title_ko": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec"
+      "published": "Fri, 26 Jun 2026 17:39:09 GMT",
+      "title_ko": "트럼프가 연준 의장 워시에게 압력을 완화시키며 물가가 4%를 돌파"
     },
     {
-      "title": "Chevron says no quick fix for gas prices as Trump takes on Big Oil: ‘It’s going to take time’",
-      "url": "https://www.cnbc.com/2026/06/25/chevron-gas-prices-trump-big-oil.html",
+      "title": "Jeremy Grantham says this is the most expensive market in 'American history'",
+      "url": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
       "source": "CNBC",
-      "published": "Thu, 25 Jun 2026 12:16:48 GMT",
-      "title_ko": "체번은 가스 가격에 대한 빠른 해결책이 없다고 말했다: 트럼프가 빅 오일을 맞서다 — '시간이 걸릴 것'"
+      "published": "Fri, 26 Jun 2026 15:34:09 GMT",
+      "title_ko": "제레미 그랜담은 이것이 미국 역사상 가장 비싼 시장이라고 말한다"
+    },
+    {
+      "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
+      "url": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html",
+      "source": "CNBC",
+      "published": "Fri, 26 Jun 2026 22:11:33 GMT",
+      "title_ko": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back"
+    },
+    {
+      "title": "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'",
+      "url": "https://www.cnbc.com/2026/06/26/trump-tariff-trade-tech-tax.html",
+      "source": "CNBC",
+      "published": "Fri, 26 Jun 2026 18:25:36 GMT",
+      "title_ko": "트럼프가 미국 기업에 디지털 서비스 세금을 부과하는 국가에 100% 관세를 위협"
+    },
+    {
+      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
+      "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
+      "source": "CNBC",
+      "published": "Fri, 26 Jun 2026 16:04:42 GMT",
+      "title_ko": "미네아폴리스 연준 총재 니얼 카슈카리가 올해 금리 인상을 예상한다"
+    },
+    {
+      "title": "Healthcare stocks have caught fire, sending all 3 of our names to record highs",
+      "url": "https://www.cnbc.com/2026/06/26/healthcare-stocks-have-caught-fire-sending-all-3-of-our-names-to-record-highs.html",
+      "source": "CNBC",
+      "published": "Fri, 26 Jun 2026 18:14:06 GMT",
+      "title_ko": "의료 주가가 불타오르며 우리의 모든 이름이 사상 최고치를 기록"
+    },
+    {
+      "title": "OpenAI is reportedly delaying its IPO. Here's when Kalshi traders think it will announce",
+      "url": "https://www.cnbc.com/2026/06/26/openai-ipo-timeline-delayed-kalshi-predictions.html",
+      "source": "CNBC",
+      "published": "Fri, 26 Jun 2026 17:45:05 GMT",
+      "title_ko": "OpenAI is reportedly delaying its IPO. Here's when Kalshi traders think it will announce"
     }
   ]
 }
