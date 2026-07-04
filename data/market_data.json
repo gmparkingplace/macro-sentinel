@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "indices": {
     "sp500": {
       "close": 7483.24,
@@ -20,10 +20,10 @@
       "pct_52w": 94.4
     },
     "vix": {
-      "close": 16.15,
-      "prev_close": 16.59,
-      "change_pct": -2.65,
-      "pct_52w": 12.6
+      "close": 15.81,
+      "prev_close": 16.15,
+      "change_pct": -2.11,
+      "pct_52w": 11.1
     }
   },
   "rates": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 2.74,
-      "date": "2026-07-01",
-      "change_pct": -0.36,
-      "prev_value": 2.75
+      "value": 2.75,
+      "date": "2026-07-02",
+      "change_pct": 0.36,
+      "prev_value": 2.74
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 121.0559
     },
     "usdkrw": {
-      "close": 1546.18,
+      "close": 1530.15,
       "prev_close": 1551.81,
-      "change_pct": -0.36,
-      "pct_52w": 94.6
+      "change_pct": -1.4,
+      "pct_52w": 87.8
     },
     "usdjpy": {
-      "close": 161.42,
+      "close": 161.34,
       "prev_close": 162.54,
-      "change_pct": -0.69,
-      "pct_52w": 92.7
+      "change_pct": -0.74,
+      "pct_52w": 92.3
     },
     "eurusd": {
       "close": 1.14,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 68.45,
-      "prev_close": 68.58,
-      "change_pct": -0.19,
-      "pct_52w": 20.9
+      "close": 68.78,
+      "prev_close": 68.69,
+      "change_pct": 0.13,
+      "pct_52w": 21.4
     },
     "gold": {
-      "close": 4141.1,
-      "prev_close": 4068.3,
-      "change_pct": 1.79,
-      "pct_52w": 37.8
+      "close": 4187.3,
+      "prev_close": 4112.7,
+      "change_pct": 1.81,
+      "pct_52w": 39.8
     },
     "copper": {
-      "close": 6.18,
-      "prev_close": 6.12,
-      "change_pct": 0.98,
-      "pct_52w": 79.7
+      "close": 6.22,
+      "prev_close": 6.11,
+      "change_pct": 1.8,
+      "pct_52w": 81.4
     }
   },
   "liquidity": {
@@ -292,60 +292,53 @@
   ],
   "news": [
     {
-      "title": "Dow scores fresh record despite tepid jobs report. Why the rest of 2026 is about workers.",
-      "url": "https://www.marketwatch.com/story/dow-scores-fresh-record-despite-tepid-jobs-report-why-the-rest-of-2026-is-about-workers-6247fbed?mod=mw_rss_topstories",
+      "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+      "url": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 02 Jul 2026 22:38:00 GMT",
-      "title_ko": "도우 지수가 새로운 기록을 세웠지만 고용 보고서가 부진했다. 2026년의 나머지 기간은 노동자에 관한 것이다."
+      "published": "Fri, 03 Jul 2026 18:52:00 GMT",
+      "title_ko": "엔비디아, 1조 달러 로봇공학 붐에 베팅한다. 이것이 그것을 거래하는 숨겨진 방법이다."
     },
     {
-      "title": "Trump blasts ‘hostile’ Fed and says Warsh ‘has to do what he has to do’ on interest rates",
-      "url": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 02 Jul 2026 22:30:00 GMT",
-      "title_ko": "트럼프는 적대적인 연준을 비난하고 워시가 금리에서 해야 할 일을 하겠다고 말했다"
-    },
-    {
-      "title": "Trump’s billion-dollar crypto haul triggers some everyday investors sitting on big losses",
-      "url": "https://www.marketwatch.com/story/trumps-billion-dollar-crypto-haul-triggers-some-everyday-investors-sitting-on-big-losses-9f045f00?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 02 Jul 2026 22:12:00 GMT",
-      "title_ko": "트럼프의 100억 달러 규모의 암호화폐 수익이 일부 일상 투자자들이 큰 손실을 보면서 발생했다"
-    },
-    {
-      "title": "Gamer trades in $1,000 of physical discs at GameStop, days after Sony announces end of disc era",
-      "url": "https://www.marketwatch.com/story/gamer-trades-in-1-000-of-physical-discs-at-gamestop-days-after-sony-announces-end-of-disc-era-bf8383b7?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 02 Jul 2026 21:57:00 GMT",
-      "title_ko": "게임기는 소니가 디스크 시대가 끝났음을 발표한 지 며칠 후 게임스톱에서 1,000달러 상당의 물리적 디스크를 교환했다"
-    },
-    {
-      "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
-      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+      "title": "Feds seek lower prison term for $100 million New Jersey deli fraudster — but some reasons why are hidden",
+      "url": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
       "source": "CNBC",
-      "published": "Thu, 02 Jul 2026 18:09:31 GMT",
-      "title_ko": "일자리를 찾는 사람들이 포기한다: 노동력 참여율이 50년 만에 최저치로 떨어졌고 코로나 시대 외에는"
+      "published": "Fri, 03 Jul 2026 19:33:26 GMT",
+      "title_ko": "연방정부, 1억 달러 뉴저지 델리 사기꾼에 대한 감형을 추구하지만 일부 이유는 숨겨져 있다"
+    },
+    {
+      "title": "Trump’s Freedom 250 draws corporate sponsors with business before his administration",
+      "url": "https://www.cnbc.com/2026/07/03/trump-freedom-250-america250-corporate-sponsors-access.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Jul 2026 12:00:01 GMT",
+      "title_ko": "트럼프의 자유 250, 그의 행정부 앞에서 사업을 하는 기업 후원자를 끌어들이고 있다"
+    },
+    {
+      "title": "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets",
+      "url": "https://www.cnbc.com/2026/07/03/oman-strait-hormuz-fees-iran-trump.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Jul 2026 07:59:34 GMT",
+      "title_ko": "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets"
+    },
+    {
+      "title": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
+      "url": "https://www.cnbc.com/2026/07/03/gold-silver-price-inflation-fed-rate-hike.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Jul 2026 08:58:19 GMT",
+      "title_ko": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
+    },
+    {
+      "title": "The hunt for AI's next winners defined the stock market's holiday-shortened week",
+      "url": "https://www.cnbc.com/2026/07/03/the-hunt-for-ais-next-winners-defined-the-stock-markets-holiday-shortened-week.html",
+      "source": "CNBC",
+      "published": "Fri, 03 Jul 2026 15:51:06 GMT",
+      "title_ko": "인공지능의 다음 승자 찾기가 주식시장의 휴일로 짧아진 주를 정의했다"
     },
     {
       "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
       "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
       "source": "CNBC",
       "published": "Thu, 02 Jul 2026 21:03:39 GMT",
-      "title_ko": "트럼프는 관세 반전으로 반등이 촉발된 후 애플, 엔비디아, 기타 기술 거물을 사들였다"
-    },
-    {
-      "title": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
-      "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Jul 2026 16:50:27 GMT",
-      "title_ko": "미국의 일자리 창출이 6월에 5만7000개의 급여 성장으로 둔화되었고 실업률은 4.2%로 유지되었다"
-    },
-    {
-      "title": "Saudi Arabia has ramped up oil shipments through the Strait of Hormuz since U.S.-Iran deal",
-      "url": "https://www.cnbc.com/2026/07/02/saudi-arabia-iran-strait-hormuz-persian-gulf-oil.html",
-      "source": "CNBC",
-      "published": "Thu, 02 Jul 2026 20:47:06 GMT",
-      "title_ko": "사우디아라비아는 미국-이란 협약 이후 호르무즈 해협을 통해 원유 수출을 강화했다"
+      "title_ko": "트럼프, 관세 반전으로 반등이 촉발되기 전에 애플, 엔비디아 등 기술 대기업을 매수했다"
     }
   ]
 }
