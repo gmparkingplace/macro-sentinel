@@ -1,95 +1,95 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-07",
   "data": {
-    "date": "2026-07-04",
+    "date": "2026-07-07",
     "indices": {
       "sp500": {
-        "close": 7483.24,
-        "prev_close": 7483.23,
-        "change_pct": 0.0,
-        "pct_52w": 90.3
+        "close": 7537.43,
+        "prev_close": 7483.24,
+        "change_pct": 0.72,
+        "pct_52w": 94.1
       },
       "nasdaq100": {
-        "close": 29329.21,
-        "prev_close": 29809.13,
-        "change_pct": -1.61,
-        "pct_52w": 82.5
+        "close": 29697.87,
+        "prev_close": 29329.21,
+        "change_pct": 1.26,
+        "pct_52w": 87.0
       },
       "russell": {
-        "close": 2996.11,
-        "prev_close": 3012.59,
-        "change_pct": -0.55,
-        "pct_52w": 94.4
+        "close": 3009.54,
+        "prev_close": 2996.11,
+        "change_pct": 0.45,
+        "pct_52w": 95.9
       },
       "vix": {
-        "close": 15.81,
-        "prev_close": 16.15,
-        "change_pct": -2.11,
-        "pct_52w": 11.1
+        "close": 15.57,
+        "prev_close": 15.57,
+        "change_pct": 0.0,
+        "pct_52w": 10.0
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.17,
-        "date": "2026-07-01",
-        "change_pct": 0.72,
-        "prev_value": 4.14
+        "value": 4.14,
+        "date": "2026-07-02",
+        "change_pct": -0.72,
+        "prev_value": 4.17
       },
       "us10y": {
-        "value": 4.48,
-        "date": "2026-07-01",
-        "change_pct": 0.9,
-        "prev_value": 4.44
+        "value": 4.49,
+        "date": "2026-07-02",
+        "change_pct": 0.22,
+        "prev_value": 4.48
       },
       "tips10y": {
-        "value": 2.25,
-        "date": "2026-07-01",
-        "change_pct": 2.27,
-        "prev_value": 2.2
+        "value": 2.26,
+        "date": "2026-07-02",
+        "change_pct": 0.44,
+        "prev_value": 2.25
       }
     },
     "spreads": {
       "us2s10s": {
         "value": 0.35,
-        "date": "2026-07-02",
-        "change_pct": 12.9,
-        "prev_value": 0.31
+        "date": "2026-07-06",
+        "change_pct": 0.0,
+        "prev_value": 0.35
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.75,
-        "date": "2026-07-02",
-        "change_pct": 0.36,
-        "prev_value": 2.74
+        "value": 2.74,
+        "date": "2026-07-03",
+        "change_pct": -0.36,
+        "prev_value": 2.75
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
     },
     "fx": {
       "dxy": {
-        "value": 120.8866,
-        "date": "2026-06-26",
-        "change_pct": -0.14,
-        "prev_value": 121.0559
+        "value": 120.6902,
+        "date": "2026-07-02",
+        "change_pct": -0.38,
+        "prev_value": 121.1455
       },
       "usdkrw": {
-        "close": 1530.15,
-        "prev_close": 1551.81,
-        "change_pct": -1.4,
-        "pct_52w": 87.8
+        "close": 1528.88,
+        "prev_close": 1531.0,
+        "change_pct": -0.14,
+        "pct_52w": 87.3
       },
       "usdjpy": {
-        "close": 161.34,
-        "prev_close": 162.54,
-        "change_pct": -0.74,
-        "pct_52w": 92.3
+        "close": 162.12,
+        "prev_close": 161.45,
+        "change_pct": 0.41,
+        "pct_52w": 96.2
       },
       "eurusd": {
         "close": 1.14,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 68.78,
-        "prev_close": 68.69,
-        "change_pct": 0.13,
-        "pct_52w": 21.4
+        "close": 68.75,
+        "prev_close": 68.75,
+        "change_pct": 0.0,
+        "pct_52w": 21.3
       },
       "gold": {
-        "close": 4187.3,
-        "prev_close": 4112.7,
-        "change_pct": 1.81,
-        "pct_52w": 39.8
+        "close": 4168.6,
+        "prev_close": 4168.6,
+        "change_pct": 0.0,
+        "pct_52w": 39.0
       },
       "copper": {
-        "close": 6.22,
-        "prev_close": 6.11,
-        "change_pct": 1.8,
-        "pct_52w": 81.4
+        "close": 6.24,
+        "prev_close": 6.24,
+        "change_pct": 0.0,
+        "pct_52w": 82.3
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6735645.0
       },
       "rrp": {
-        "value": 2.175,
-        "date": "2026-07-02",
-        "change_pct": 117.28,
-        "prev_value": 1.001
+        "value": 2.719,
+        "date": "2026-07-06",
+        "change_pct": 25.01,
+        "prev_value": 2.175
       },
       "m2": {
         "value": 23052.3,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 180.59,
-        "change_pct": -2.71,
-        "change_4w": -7.86,
-        "pct_52w": 75.3
+        "close": 183.57,
+        "change_pct": 1.65,
+        "change_4w": -0.21,
+        "pct_52w": 79.4
       },
       "financials": {
-        "close": 55.62,
-        "change_pct": 1.53,
-        "change_4w": 9.73,
-        "pct_52w": 95.1
+        "close": 56.14,
+        "change_pct": 0.93,
+        "change_4w": 8.4,
+        "pct_52w": 99.8
       },
       "energy": {
-        "close": 53.22,
-        "change_pct": 0.78,
-        "change_4w": -8.7,
-        "pct_52w": 56.0
+        "close": 53.13,
+        "change_pct": -0.17,
+        "change_4w": -8.25,
+        "pct_52w": 55.6
       },
       "utilities": {
-        "close": 45.76,
-        "change_pct": 2.21,
-        "change_4w": 5.36,
-        "pct_52w": 80.2
+        "close": 45.3,
+        "change_pct": -1.01,
+        "change_4w": 4.76,
+        "pct_52w": 74.7
       },
       "healthcare": {
-        "close": 163.74,
-        "change_pct": 2.63,
-        "change_4w": 11.46,
-        "pct_52w": 99.7
+        "close": 161.96,
+        "change_pct": -1.09,
+        "change_4w": 6.57,
+        "pct_52w": 95.0
       },
       "consumer_disc": {
-        "close": 117.12,
-        "change_pct": -0.82,
-        "change_4w": 0.53,
-        "pct_52w": 62.2
+        "close": 118.01,
+        "change_pct": 0.76,
+        "change_4w": 2.47,
+        "pct_52w": 66.7
       },
       "industrials": {
-        "close": 183.91,
-        "change_pct": 0.3,
-        "change_4w": 5.93,
-        "pct_52w": 94.6
+        "close": 185.56,
+        "change_pct": 0.9,
+        "change_4w": 7.14,
+        "pct_52w": 97.8
       },
       "materials": {
-        "close": 52.01,
-        "change_pct": 1.94,
-        "change_4w": 1.11,
-        "pct_52w": 86.2
+        "close": 51.98,
+        "change_pct": -0.06,
+        "change_4w": 4.44,
+        "pct_52w": 85.9
       }
     },
     "macro": {
@@ -231,13 +231,13 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 49,
+        "score": 50,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 150.02,
-        "change_pct": -3.1,
-        "signal": "red",
+        "close": 145.38,
+        "change_pct": -3.09,
+        "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
@@ -294,53 +294,74 @@
     ],
     "news": [
       {
-        "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
-        "url": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+        "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
+        "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 03 Jul 2026 18:52:00 GMT",
-        "title_ko": "엔비디아, 1조 달러 로봇공학 붐에 베팅한다. 이것이 그것을 거래하는 숨겨진 방법이다."
+        "published": "Mon, 06 Jul 2026 22:39:00 GMT",
+        "title_ko": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix."
       },
       {
-        "title": "Feds seek lower prison term for $100 million New Jersey deli fraudster — but some reasons why are hidden",
-        "url": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
-        "source": "CNBC",
-        "published": "Fri, 03 Jul 2026 19:33:26 GMT",
-        "title_ko": "연방정부, 1억 달러 뉴저지 델리 사기꾼에 대한 감형을 추구하지만 일부 이유는 숨겨져 있다"
+        "title": "Stocks rally when Congress goes on summer break. Here’s why.",
+        "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 06 Jul 2026 21:18:00 GMT",
+        "title_ko": "국회가 여름 휴가를 갈 때 주식이 상승한다. 이유는 다음과 같다."
       },
       {
-        "title": "Trump’s Freedom 250 draws corporate sponsors with business before his administration",
-        "url": "https://www.cnbc.com/2026/07/03/trump-freedom-250-america250-corporate-sponsors-access.html",
-        "source": "CNBC",
-        "published": "Fri, 03 Jul 2026 12:00:01 GMT",
-        "title_ko": "트럼프의 자유 250, 그의 행정부 앞에서 사업을 하는 기업 후원자를 끌어들이고 있다"
+        "title": "If the stock market’s double bubble bursts, it could usher in the next crash",
+        "url": "https://www.marketwatch.com/story/if-the-stock-markets-double-bubble-bursts-it-could-usher-in-the-next-crash-de54c1b2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 06 Jul 2026 21:11:00 GMT",
+        "title_ko": "주식시장의 이중 거품이 터지면 다음 충돌을 가져올 수 있다"
       },
       {
-        "title": "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets",
-        "url": "https://www.cnbc.com/2026/07/03/oman-strait-hormuz-fees-iran-trump.html",
+        "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+        "url": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html",
         "source": "CNBC",
-        "published": "Fri, 03 Jul 2026 07:59:34 GMT",
-        "title_ko": "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets"
+        "published": "Mon, 06 Jul 2026 21:37:58 GMT",
+        "title_ko": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios"
       },
       {
-        "title": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
-        "url": "https://www.cnbc.com/2026/07/03/gold-silver-price-inflation-fed-rate-hike.html",
+        "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+        "url": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
         "source": "CNBC",
-        "published": "Fri, 03 Jul 2026 08:58:19 GMT",
-        "title_ko": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
+        "published": "Mon, 06 Jul 2026 21:26:17 GMT",
+        "title_ko": "중국의 알리바바는 '추출 공격' 의혹으로 직원들에게 안트로픽 AI 사용을 금지했다"
       },
       {
-        "title": "The hunt for AI's next winners defined the stock market's holiday-shortened week",
-        "url": "https://www.cnbc.com/2026/07/03/the-hunt-for-ais-next-winners-defined-the-stock-markets-holiday-shortened-week.html",
+        "title": "Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing",
+        "url": "https://www.cnbc.com/2026/07/06/heres-how-spacexs-nasdaq-100-inclusion-might-affect-options-pricing.html",
         "source": "CNBC",
-        "published": "Fri, 03 Jul 2026 15:51:06 GMT",
-        "title_ko": "인공지능의 다음 승자 찾기가 주식시장의 휴일로 짧아진 주를 정의했다"
+        "published": "Mon, 06 Jul 2026 18:27:06 GMT",
+        "title_ko": "스페이스X의 나스닥 100 포함이 옵션 가격에 미칠 영향은 다음과 같다"
       },
       {
-        "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
-        "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
+        "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
+        "url": "https://www.cnbc.com/2026/07/06/jim-cramer-stocks-buy-during-market-rotation.html",
         "source": "CNBC",
-        "published": "Thu, 02 Jul 2026 21:03:39 GMT",
-        "title_ko": "트럼프, 관세 반전으로 반등이 촉발되기 전에 애플, 엔비디아 등 기술 대기업을 매수했다"
+        "published": "Mon, 06 Jul 2026 22:29:20 GMT",
+        "title_ko": "Jim Cramer says these are the 5 stocks to buy during this market rotation"
+      },
+      {
+        "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
+        "url": "https://www.cnbc.com/2026/07/06/rivian-tesla-and-the-holly-index-how-to-trade-the-new-ev-main-street-battle.html",
+        "source": "CNBC",
+        "published": "Mon, 06 Jul 2026 16:11:03 GMT",
+        "title_ko": "리비안, 테슬라 그리고 '홀리 인덱스': 새로운 전기차 메인 스트리트 전쟁을 거래하는 방법"
+      },
+      {
+        "title": "Here's our plan for both Honeywell stocks after a divergent first week of trading",
+        "url": "https://www.cnbc.com/2026/07/06/heres-our-plan-for-both-honeywell-stocks-after-a-divergent-first-week-of-trading.html",
+        "source": "CNBC",
+        "published": "Mon, 06 Jul 2026 19:11:07 GMT",
+        "title_ko": "Here's our plan for both Honeywell stocks after a divergent first week of trading"
+      },
+      {
+        "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+        "url": "https://www.cnbc.com/2026/07/06/ukraine-russia-kyiv-trump-putin-zelenskyy.html",
+        "source": "CNBC",
+        "published": "Mon, 06 Jul 2026 10:53:27 GMT",
+        "title_ko": "트럼프의 통화, 우크라이나의 공격과 러시아의 키이우에 대한 공격이 시장에 경고를 보내고 있다"
       }
     ]
   },
@@ -351,15 +372,15 @@
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "yellow",
+    "sector": "green",
     "sentiment": "yellow",
-    "skew": "red",
+    "skew": "yellow",
     "combo": "yellow",
     "unemployment": "yellow",
     "oil": "green",
     "gdp": "green",
-    "gold_signal": "red",
-    "copper": "green",
+    "gold_signal": "yellow",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -367,8 +388,7 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.8(낮음)+Skew 150(높음)",
-      "Gold 극단 위험회피 $4187"
+      "숨겨진경고: VIX 15.6(낮음)+Skew 145(높음)"
     ],
     "ratio": 0.6
   },
