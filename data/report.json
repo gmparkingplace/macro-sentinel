@@ -1,95 +1,95 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-13",
   "data": {
-    "date": "2026-07-10",
+    "date": "2026-07-13",
     "indices": {
       "sp500": {
-        "close": 7575.39,
-        "prev_close": 7543.64,
-        "change_pct": 0.42,
-        "pct_52w": 96.8
+        "close": 7515.34,
+        "prev_close": 7575.39,
+        "change_pct": -0.79,
+        "pct_52w": 92.6
       },
       "nasdaq100": {
-        "close": 29825.11,
-        "prev_close": 29727.1,
-        "change_pct": 0.33,
-        "pct_52w": 88.4
+        "close": 29264.1,
+        "prev_close": 29825.11,
+        "change_pct": -1.88,
+        "pct_52w": 81.5
       },
       "russell": {
-        "close": 2977.81,
-        "prev_close": 2992.54,
-        "change_pct": -0.49,
-        "pct_52w": 92.4
+        "close": 2953.17,
+        "prev_close": 2977.81,
+        "change_pct": -0.83,
+        "pct_52w": 89.7
       },
       "vix": {
-        "close": 15.03,
-        "prev_close": 15.84,
-        "change_pct": -5.11,
-        "pct_52w": 7.5
+        "close": 17.16,
+        "prev_close": 15.03,
+        "change_pct": 14.17,
+        "pct_52w": 17.2
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.16,
-        "date": "2026-07-09",
-        "change_pct": -1.19,
-        "prev_value": 4.21
+        "value": 4.21,
+        "date": "2026-07-10",
+        "change_pct": 1.2,
+        "prev_value": 4.16
       },
       "us10y": {
-        "value": 4.54,
-        "date": "2026-07-09",
-        "change_pct": -0.44,
-        "prev_value": 4.56
+        "value": 4.56,
+        "date": "2026-07-10",
+        "change_pct": 0.44,
+        "prev_value": 4.54
       },
       "tips10y": {
-        "value": 2.31,
-        "date": "2026-07-09",
-        "change_pct": 0.0,
+        "value": 2.32,
+        "date": "2026-07-10",
+        "change_pct": 0.43,
         "prev_value": 2.31
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.35,
-        "date": "2026-07-10",
-        "change_pct": -7.89,
-        "prev_value": 0.38
+        "value": 0.36,
+        "date": "2026-07-13",
+        "change_pct": 2.86,
+        "prev_value": 0.35
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.7,
-        "date": "2026-07-09",
-        "change_pct": 0.0,
+        "value": 2.69,
+        "date": "2026-07-10",
+        "change_pct": -0.37,
         "prev_value": 2.7
       },
       "fra_ois": {
         "value": 3.62,
-        "date": "2026-07-09",
+        "date": "2026-07-10",
         "change_pct": 0.0,
         "prev_value": 3.62
       }
     },
     "fx": {
       "dxy": {
-        "value": 120.6902,
-        "date": "2026-07-02",
-        "change_pct": -0.38,
-        "prev_value": 121.1455
+        "value": 120.5046,
+        "date": "2026-07-10",
+        "change_pct": -0.21,
+        "prev_value": 120.753
       },
       "usdkrw": {
-        "close": 1498.87,
-        "prev_close": 1503.35,
-        "change_pct": -0.3,
-        "pct_52w": 66.5
+        "close": 1498.23,
+        "prev_close": 1498.48,
+        "change_pct": -0.02,
+        "pct_52w": 66.3
       },
       "usdjpy": {
-        "close": 161.67,
-        "prev_close": 162.54,
-        "change_pct": -0.54,
-        "pct_52w": 93.2
+        "close": 162.41,
+        "prev_close": 161.88,
+        "change_pct": 0.33,
+        "pct_52w": 97.5
       },
       "eurusd": {
         "close": 1.14,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 71.51,
-        "prev_close": 72.08,
-        "change_pct": -0.79,
-        "pct_52w": 25.6
+        "close": 79.41,
+        "prev_close": 79.41,
+        "change_pct": 0.0,
+        "pct_52w": 37.9
       },
       "gold": {
-        "close": 4128.9,
-        "prev_close": 4130.6,
-        "change_pct": -0.04,
-        "pct_52w": 37.2
+        "close": 4004.0,
+        "prev_close": 4004.0,
+        "change_pct": 0.0,
+        "pct_52w": 31.9
       },
       "copper": {
-        "close": 6.28,
-        "prev_close": 6.22,
-        "change_pct": 0.96,
-        "pct_52w": 84.0
+        "close": 6.27,
+        "prev_close": 6.27,
+        "change_pct": 0.0,
+        "pct_52w": 83.6
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6724564.0
       },
       "rrp": {
-        "value": 0.545,
-        "date": "2026-07-10",
-        "change_pct": -90.56,
-        "prev_value": 5.772
+        "value": 0.795,
+        "date": "2026-07-13",
+        "change_pct": 45.87,
+        "prev_value": 0.545
       },
       "m2": {
         "value": 23052.3,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 185.78,
-        "change_pct": 0.23,
-        "change_4w": 1.52,
-        "pct_52w": 82.5
+        "close": 181.28,
+        "change_pct": -2.42,
+        "change_4w": -5.37,
+        "pct_52w": 76.3
       },
       "financials": {
-        "close": 55.71,
-        "change_pct": 0.31,
-        "change_4w": 6.24,
-        "pct_52w": 90.3
+        "close": 56.07,
+        "change_pct": 0.65,
+        "change_4w": 5.06,
+        "pct_52w": 94.3
       },
       "energy": {
-        "close": 55.08,
-        "change_pct": 0.47,
-        "change_4w": -2.87,
-        "pct_52w": 64.3
+        "close": 56.74,
+        "change_pct": 3.01,
+        "change_4w": 2.88,
+        "pct_52w": 71.8
       },
       "utilities": {
-        "close": 45.41,
-        "change_pct": 0.62,
-        "change_4w": 3.75,
-        "pct_52w": 74.4
+        "close": 45.72,
+        "change_pct": 0.68,
+        "change_4w": 2.83,
+        "pct_52w": 78.4
       },
       "healthcare": {
-        "close": 160.84,
-        "change_pct": -0.82,
-        "change_4w": 4.84,
-        "pct_52w": 88.0
+        "close": 161.41,
+        "change_pct": 0.35,
+        "change_4w": 6.04,
+        "pct_52w": 89.5
       },
       "consumer_disc": {
-        "close": 117.24,
-        "change_pct": 0.33,
-        "change_4w": 1.01,
-        "pct_52w": 62.8
+        "close": 116.04,
+        "change_pct": -1.02,
+        "change_4w": -1.94,
+        "pct_52w": 56.6
       },
       "industrials": {
-        "close": 181.92,
-        "change_pct": 0.45,
-        "change_4w": 4.12,
-        "pct_52w": 88.8
+        "close": 180.37,
+        "change_pct": -0.85,
+        "change_4w": 1.2,
+        "pct_52w": 85.0
       },
       "materials": {
-        "close": 50.89,
-        "change_pct": 1.25,
-        "change_4w": -0.27,
-        "pct_52w": 77.0
+        "close": 50.58,
+        "change_pct": -0.61,
+        "change_4w": -3.29,
+        "pct_52w": 74.5
       }
     },
     "macro": {
@@ -231,24 +231,18 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 51,
+        "score": 47,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 144.27,
-        "change_pct": -0.28,
+        "close": 145.69,
+        "change_pct": 0.98,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
-      {
-        "date": "2026-07-10",
-        "event": "고용보고서 (6월)",
-        "category": "jobs",
-        "impact": "high"
-      },
       {
         "date": "2026-07-14",
         "event": "CPI 발표 (6월)",
@@ -294,104 +288,90 @@
     ],
     "news": [
       {
-        "title": "SK Hynix’s stock sees double-digit pop in Nasdaq debut",
-        "url": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
+        "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
+        "url": "https://www.marketwatch.com/story/the-u-s-is-maxing-out-its-strategic-oil-reserves-as-trump-vows-to-control-the-strait-of-hormuz-b71f88a9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 10 Jul 2026 22:18:00 GMT",
-        "title_ko": "SK 하이닉스의 주가 나스닥 상장 첫날 두 자릿수 폭등"
+        "published": "Mon, 13 Jul 2026 22:50:00 GMT",
+        "title_ko": "미국이 호르무즈 해협을 장악하겠다고 트럼프가 공약함에 따라 전략적 유류 비축을 최대치로 늘리고 있다"
       },
       {
-        "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision?",
-        "url": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
+        "title": "Why a borrowing binge by investors is a warning sign for the stock market",
+        "url": "https://www.marketwatch.com/story/why-a-borrowing-binge-by-investors-is-a-warning-sign-for-the-stock-market-996ee446?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 10 Jul 2026 19:30:00 GMT",
-        "title_ko": "지금 현금을 어디에 둘 것인가: 4% 수익률로 잠그거나 다음 연방준비제도 금리 결정까지 기다릴 것인가"
+        "published": "Mon, 13 Jul 2026 22:19:00 GMT",
+        "title_ko": "투자자가 대출을 많이 할수록 주식 시장에 경고 신호가 나타나는 이유"
       },
       {
-        "title": "A hedge-fund trade blamed for a massive market blowup in 2024 has made a big comeback, Goldman Sachs says",
-        "url": "https://www.marketwatch.com/story/a-hedge-fund-trade-blamed-for-a-massive-market-blowup-in-2024-has-made-a-big-comeback-goldman-sachs-says-f2308a78?mod=mw_rss_topstories",
+        "title": "Stock pickers know they can’t outsmart the market. That doesn’t stop them from trying.",
+        "url": "https://www.marketwatch.com/story/stock-pickers-know-they-cant-outsmart-the-market-that-doesnt-stop-them-from-trying-b4fddc41?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 10 Jul 2026 19:04:00 GMT",
-        "title_ko": "2024년 거대한 시장 붕괴를 일으킨 헤지 펀드 거래가 골드만 삭스에 따르면 큰 부활을 했다"
+        "published": "Mon, 13 Jul 2026 20:35:00 GMT",
+        "title_ko": "주식 전문가들은 시장보다 똑똑해질 수 없다는 것을 알지만 그래도 시도한다"
       },
       {
-        "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
-        "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
+        "title": "Billionaires are loading up on these superior stocks. Why it pays to follow their money.",
+        "url": "https://www.marketwatch.com/story/billionaires-are-loading-up-on-these-superior-stocks-why-it-pays-to-follow-their-money-9120c242?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 10 Jul 2026 19:02:00 GMT",
-        "title_ko": "전문가가 경고하는 것처럼 경제를 안정화시킨 금리 인하를 연방준비제도가 취소할 준비를 하라"
+        "published": "Mon, 13 Jul 2026 20:32:00 GMT",
+        "title_ko": "Billionaires are loading up on these superior stocks. Why it pays to follow their money."
       },
       {
-        "title": "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
-        "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
+        "title": "Japan’s bond market is back in play after decades in the wilderness",
+        "url": "https://www.cnbc.com/2026/07/14/japan-bond-jgb-yields-.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 20:34:32 GMT",
-        "title_ko": "SK 하이닉스, 나스닥 상장 첫날 13% 상승, 회장 \"수요가 엄청나다\"고 CNBC에 말하다"
+        "published": "Mon, 13 Jul 2026 23:19:08 GMT",
+        "title_ko": "일본의 국채 시장은 수십 년간의 황무지 생활을 마치고 다시 주목을 받고 있다"
       },
       {
-        "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-        "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+        "title": "Jim Cramer says tech remains the market's best place to find big winners despite recent struggles",
+        "url": "https://www.cnbc.com/2026/07/13/jim-cramer-tech-best-place-find-big-winners.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 22:44:35 GMT",
-        "title_ko": "애플, 오픈AI를 상대로 영업비밀 도용으로 소송, \"모든 수준에서 계획되었다\"고 말하다"
+        "published": "Mon, 13 Jul 2026 22:20:00 GMT",
+        "title_ko": "Jim Cramer says tech remains the market's best place to find big winners despite recent struggles"
       },
       {
-        "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%",
-        "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
+        "title": "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
+        "url": "https://www.cnbc.com/2026/07/13/waller-says-fed-shouldnt-fight-the-last-war-on-inflation-but-warns-hikes-still-possible.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 20:01:29 GMT",
-        "title_ko": "스테이블코인 발행사 서클, 은행으로 운영할 수 있는 허가 받음, 주가 5% 상승"
+        "published": "Mon, 13 Jul 2026 19:15:25 GMT",
+        "title_ko": "월러는 연준이 인플레이션에 대해 과거의 전쟁을 싸우지 말아야 하지만 아직도 금리 인상을 할 가능성이 있다고 경고한다"
       },
       {
-        "title": "Traders fall back in love with Meta. Here's where bulls see it going",
-        "url": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html",
+        "title": "A toxic stew drags stocks lower as we look at what can get the AI trade back on track",
+        "url": "https://www.cnbc.com/2026/07/13/a-toxic-stew-drags-stocks-lower-as-we-look-at-what-can-get-the-ai-trade-back-on-track.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 17:40:29 GMT",
-        "title_ko": "거래자들이 메타에 다시 사랑에 빠지다, 여기서 불들이 어디로 갈지 보다"
+        "published": "Mon, 13 Jul 2026 19:08:02 GMT",
+        "title_ko": "유독한 상황이 주식을 내리게 하고 우리는 AI 거래가 다시 추적될 수 있는 방법을 살펴본다"
       },
       {
-        "title": "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
-        "url": "https://www.cnbc.com/2026/07/10/10-most-expensive-places-to-live-america-top-states-for-business.html",
+        "title": "A July rate hike from the Fed? The odds are rising",
+        "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 13:56:43 GMT",
-        "title_ko": "2026년 미국에서 가장 비싼 10개 주, 여기서 인플레이션이 주민들을 처벌하다"
+        "published": "Mon, 13 Jul 2026 17:07:51 GMT",
+        "title_ko": "7월에 연준이 금리를 올릴 가능성이 높아지고 있다"
       },
       {
-        "title": "These are America's 10 cheapest states for 2026, where you can still beat inflation",
-        "url": "https://www.cnbc.com/2026/07/10/americas-10-cheapest-places-to-live-top-states-for-business.html",
+        "title": "Traders are betting on a comeback quarter for Netflix",
+        "url": "https://www.cnbc.com/2026/07/13/traders-are-betting-on-a-comeback-quarter-for-netflix.html",
         "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 14:50:03 GMT",
-        "title_ko": "2026년 미국에서 가장 저렴한 10개 주, 여기서 인플레이션을 이길 수 있다"
-      },
-      {
-        "title": "The ETF market is pushing the limits of the leverage it can handle. SK Hynix is the latest example",
-        "url": "https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html",
-        "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 19:12:18 GMT",
-        "title_ko": "ETF 시장은 처리할 수 있는 레버리지의 한계를 밀고 있다, SK 하이닉스가 최신 예시다"
-      },
-      {
-        "title": "As bank earnings approach, a market anomaly emerges",
-        "url": "https://www.cnbc.com/2026/07/10/as-bank-earnings-approach-a-market-anomaly-emerges.html",
-        "source": "CNBC",
-        "published": "Fri, 10 Jul 2026 17:18:36 GMT",
-        "title_ko": "은행 실적이 다가오면서 시장 이상 현상이 나타나다"
+        "published": "Mon, 13 Jul 2026 16:46:51 GMT",
+        "title_ko": "거래자들은 넷플릭스의 부흥을 위한 분기에 베팅을 하고 있다"
       }
     ]
   },
   "scores": {
-    "vix": "green",
+    "vix": "yellow",
     "hy_spread": "green",
     "rates": "red",
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "green",
+    "sector": "yellow",
     "sentiment": "yellow",
     "skew": "yellow",
     "combo": "yellow",
     "unemployment": "yellow",
-    "oil": "green",
+    "oil": "yellow",
     "gdp": "green",
     "gold_signal": "yellow",
     "copper": "yellow",
@@ -402,9 +382,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.0(낮음)+Skew 144(높음)"
+      "숨겨진경고: VIX 17.2(낮음)+Skew 146(높음)"
     ],
-    "ratio": 0.625
+    "ratio": 0.5
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
