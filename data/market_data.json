@@ -1,73 +1,73 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "indices": {
     "sp500": {
-      "close": 7572.4,
-      "prev_close": 7543.59,
-      "change_pct": 0.38,
-      "pct_52w": 96.6
+      "close": 7533.77,
+      "prev_close": 7572.4,
+      "change_pct": -0.51,
+      "pct_52w": 93.8
     },
     "nasdaq100": {
-      "close": 29502.6,
-      "prev_close": 29586.29,
-      "change_pct": -0.28,
-      "pct_52w": 84.4
+      "close": 29025.77,
+      "prev_close": 29502.6,
+      "change_pct": -1.62,
+      "pct_52w": 78.5
     },
     "russell": {
-      "close": 2976.26,
-      "prev_close": 2964.76,
-      "change_pct": 0.39,
-      "pct_52w": 92.2
+      "close": 2974.57,
+      "prev_close": 2976.26,
+      "change_pct": -0.06,
+      "pct_52w": 92.0
     },
     "vix": {
-      "close": 15.67,
-      "prev_close": 16.5,
-      "change_pct": -5.03,
-      "pct_52w": 10.4
+      "close": 16.73,
+      "prev_close": 15.67,
+      "change_pct": 6.76,
+      "pct_52w": 15.3
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.18,
-      "date": "2026-07-14",
-      "change_pct": -1.88,
-      "prev_value": 4.26
+      "value": 4.13,
+      "date": "2026-07-15",
+      "change_pct": -1.2,
+      "prev_value": 4.18
     },
     "us10y": {
-      "value": 4.58,
-      "date": "2026-07-14",
-      "change_pct": -0.87,
-      "prev_value": 4.62
+      "value": 4.55,
+      "date": "2026-07-15",
+      "change_pct": -0.66,
+      "prev_value": 4.58
     },
     "tips10y": {
-      "value": 2.33,
-      "date": "2026-07-14",
-      "change_pct": -1.27,
-      "prev_value": 2.36
+      "value": 2.32,
+      "date": "2026-07-15",
+      "change_pct": -0.43,
+      "prev_value": 2.33
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.42,
-      "date": "2026-07-15",
-      "change_pct": 5.0,
-      "prev_value": 0.4
+      "value": 0.41,
+      "date": "2026-07-16",
+      "change_pct": -2.38,
+      "prev_value": 0.42
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.72,
-      "date": "2026-07-14",
-      "change_pct": 1.12,
-      "prev_value": 2.69
+      "value": 2.71,
+      "date": "2026-07-15",
+      "change_pct": -0.37,
+      "prev_value": 2.72
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-07-14",
-      "change_pct": 0.28,
-      "prev_value": 3.62
+      "date": "2026-07-15",
+      "change_pct": 0.0,
+      "prev_value": 3.63
     }
   },
   "fx": {
@@ -78,56 +78,56 @@
       "prev_value": 120.753
     },
     "usdkrw": {
-      "close": 1486.84,
-      "prev_close": 1487.88,
-      "change_pct": -0.07,
-      "pct_52w": 62.0
+      "close": 1479.03,
+      "prev_close": 1486.2,
+      "change_pct": -0.48,
+      "pct_52w": 59.0
     },
     "usdjpy": {
-      "close": 162.05,
-      "prev_close": 162.19,
-      "change_pct": -0.09,
-      "pct_52w": 95.4
+      "close": 162.38,
+      "prev_close": 162.07,
+      "change_pct": 0.19,
+      "pct_52w": 97.3
     },
     "eurusd": {
-      "close": 1.15,
-      "prev_close": 1.14,
-      "change_pct": 0.88,
-      "pct_52w": 25.0
+      "close": 1.14,
+      "prev_close": 1.15,
+      "change_pct": -0.87,
+      "pct_52w": 10.7
     }
   },
   "commodities": {
     "wti": {
-      "close": 80.17,
-      "prev_close": 79.34,
-      "change_pct": 1.05,
-      "pct_52w": 39.1
+      "close": 79.0,
+      "prev_close": 79.6,
+      "change_pct": -0.75,
+      "pct_52w": 37.2
     },
     "gold": {
-      "close": 4063.9,
-      "prev_close": 4061.1,
-      "change_pct": 0.07,
-      "pct_52w": 34.4
+      "close": 3980.7,
+      "prev_close": 4044.0,
+      "change_pct": -1.57,
+      "pct_52w": 30.9
     },
     "copper": {
-      "close": 6.38,
-      "prev_close": 6.33,
-      "change_pct": 0.79,
-      "pct_52w": 88.3
+      "close": 6.28,
+      "prev_close": 6.29,
+      "change_pct": -0.16,
+      "pct_52w": 84.0
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6735609.0,
-      "date": "2026-07-08",
-      "change_pct": 0.16,
-      "prev_value": 6724564.0
+      "value": 6743028.0,
+      "date": "2026-07-15",
+      "change_pct": 0.11,
+      "prev_value": 6735609.0
     },
     "rrp": {
-      "value": 0.151,
-      "date": "2026-07-15",
-      "change_pct": -45.68,
-      "prev_value": 0.278
+      "value": 0.125,
+      "date": "2026-07-16",
+      "change_pct": -17.22,
+      "prev_value": 0.151
     },
     "m2": {
       "value": 23052.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 181.58,
-      "change_pct": -1.11,
-      "change_4w": -2.49,
-      "pct_52w": 76.5
+      "close": 177.52,
+      "change_pct": -2.24,
+      "change_4w": -4.34,
+      "pct_52w": 70.9
     },
     "financials": {
-      "close": 56.56,
-      "change_pct": 0.68,
-      "change_4w": 4.43,
-      "pct_52w": 97.3
+      "close": 56.75,
+      "change_pct": 0.34,
+      "change_4w": 5.37,
+      "pct_52w": 99.0
     },
     "energy": {
-      "close": 56.5,
-      "change_pct": -0.79,
-      "change_4w": 2.8,
-      "pct_52w": 70.7
+      "close": 57.02,
+      "change_pct": 0.92,
+      "change_4w": 5.05,
+      "pct_52w": 73.1
     },
     "utilities": {
-      "close": 45.22,
-      "change_pct": -1.03,
-      "change_4w": 1.01,
-      "pct_52w": 72.0
+      "close": 45.47,
+      "change_pct": 0.55,
+      "change_4w": 2.92,
+      "pct_52w": 74.5
     },
     "healthcare": {
-      "close": 158.29,
-      "change_pct": 0.0,
-      "change_4w": 3.95,
-      "pct_52w": 81.6
+      "close": 161.8,
+      "change_pct": 2.22,
+      "change_4w": 7.83,
+      "pct_52w": 90.4
     },
     "consumer_disc": {
-      "close": 117.0,
-      "change_pct": 0.95,
-      "change_4w": -1.03,
-      "pct_52w": 61.5
+      "close": 117.34,
+      "change_pct": 0.29,
+      "change_4w": 1.8,
+      "pct_52w": 63.3
     },
     "industrials": {
-      "close": 180.06,
-      "change_pct": -0.22,
-      "change_4w": 0.36,
-      "pct_52w": 84.3
+      "close": 180.15,
+      "change_pct": 0.05,
+      "change_4w": 0.55,
+      "pct_52w": 84.5
     },
     "materials": {
-      "close": 50.5,
-      "change_pct": -0.28,
-      "change_4w": -3.85,
-      "pct_52w": 73.8
+      "close": 50.89,
+      "change_pct": 0.77,
+      "change_4w": -1.81,
+      "pct_52w": 77.0
     }
   },
   "macro": {
@@ -193,8 +193,8 @@
       "change_pct": null
     },
     "core_cpi": {
-      "value": null,
-      "date": null,
+      "value": 2.81,
+      "date": "2026-06-01",
       "change_pct": null
     },
     "unemployment": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 49,
+      "score": 48,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 148.51,
-      "change_pct": 2.33,
+      "close": 145.72,
+      "change_pct": -1.88,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -280,81 +280,39 @@
   ],
   "news": [
     {
-      "title": "The trucking market is tighter than it’s been in years — but investors are upbeat on J.B. Hunt",
-      "url": "https://www.marketwatch.com/story/the-trucking-market-is-tighter-than-its-been-in-years-but-investors-are-upbeat-on-j-b-hunt-af0f1587?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 15 Jul 2026 23:34:00 GMT",
-      "title_ko": "트럭 운송 시장은 몇 년 만에 가장 긴장된 상황이지만 투자자들은 J.B. 헌트에 대해 낙관적이다"
-    },
-    {
       "title": "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
       "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 15 Jul 2026 22:21:00 GMT",
-      "title_ko": "당신은 10년 만에 가장 좋은 채권 거래를 놓치고 있는데 그것은 인플레이션을 이길 것이 보장되어 있다"
+      "published": "Thu, 16 Jul 2026 21:17:00 GMT",
+      "title_ko": "10년간 가장 큰 채권 거래를 놓치고 있는데 그것은 인플레이션을 이길 것이라고 보장된다"
     },
     {
-      "title": "Small-cap outperformance is persisting — and these 15 quality stocks pay rich dividends",
-      "url": "https://www.marketwatch.com/story/small-cap-outperformance-is-persisting-and-these-15-quality-stocks-pay-rich-dividends-5a814386?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 15 Jul 2026 22:20:00 GMT",
-      "title_ko": "소형주가의 우세는 지속되고 있으며 이 15개의 고품질 주식은 풍부한 배당금을 제공한다"
-    },
-    {
-      "title": "This powerful stock-market momentum trade has hit a wall after seeing biggest unwind since 2001",
-      "url": "https://www.marketwatch.com/story/this-powerful-stock-market-momentum-trade-has-hit-a-wall-after-seeing-biggest-unwind-since-2001-52ad4151?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 15 Jul 2026 22:10:00 GMT",
-      "title_ko": "이 강력한 주식 시장 모멘텀 거래는 2001년 이후 가장 큰 역전을 보인 후 벽에 부딪혔다"
-    },
-    {
-      "title": "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence",
-      "url": "https://www.cnbc.com/2026/07/15/feds-warsh-says-he-meets-often-with-trump-administration.html",
+      "title": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+      "url": "https://www.cnbc.com/2026/07/16/oil-pipeline-iran-strait-hormuz-red-sea-iraq-uae-saudi.html",
       "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 22:48:57 GMT",
-      "title_ko": "연방준비제도 의장 워시는 트럼프 행정부와 자주 만나며 독립성을 옹호한다"
+      "published": "Thu, 16 Jul 2026 19:13:07 GMT",
+      "title_ko": "호르무즈 해협 주변의 원유 파이프라인은 중동 원유 수출에 대한 이란의 위협을 끝내지 않을 것이다"
     },
     {
-      "title": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
-      "url": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html",
+      "title": "Here's why the housing market is hurting so much this summer",
+      "url": "https://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
       "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 21:53:10 GMT",
-      "title_ko": "월드컵은 바와 음식점에 필요한 부스트를 주었고 소비자들은 경고 신호를 보내고 있는데 연방준비제도는 말한다"
+      "published": "Thu, 16 Jul 2026 20:06:13 GMT",
+      "title_ko": "주택 시장이 इतन게 힘들어하는 이유는 여름이기 때문이다"
     },
     {
-      "title": "Kalshi traders see gas prices crossing $4 by end of July",
-      "url": "https://www.cnbc.com/2026/07/15/kalshi-traders-see-gas-prices-crossing-4-by-end-of-july-.html",
+      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
+      "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
       "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 21:11:03 GMT",
-      "title_ko": "칼시 트레이더들은 7월 말까지 가스 가격이 4달러를 넘을 것으로 본다"
+      "published": "Thu, 16 Jul 2026 18:50:42 GMT",
+      "title_ko": "달라스 연방준비은행 총재 로건은 금리 인상을 주장했다"
     },
     {
-      "title": "Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'",
-      "url": "https://www.cnbc.com/2026/07/15/warren-buffett-on-the-market-today-its-tough-to-find-values-when-everybody-is-preferring-gambling.html",
+      "title": "As prediction markets boom, questions arise over who will be the watchdog",
+      "url": "https://www.cnbc.com/2026/07/16/the-sec-may-get-involved-as-prediction-market-bring-new-contracts.html",
       "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 15:08:40 GMT",
-      "title_ko": "워런 버핏은 현재의 시장에 대해 말한다: '모두가 도박을 선호할 때 가치를 찾는 것이 어렵다'"
-    },
-    {
-      "title": "Mortgage rates rise to highest level in nearly a year, causing homebuyers to pause",
-      "url": "https://www.cnbc.com/2026/07/15/mortgage-rates-rise-to-highest-level-in-nearly-a-year.html",
-      "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 12:13:32 GMT",
-      "title_ko": "Mortgage rates rise to highest level in nearly a year, causing homebuyers to pause"
-    },
-    {
-      "title": "Historic IBM stock crash sets up unique options strategy",
-      "url": "https://www.cnbc.com/2026/07/15/historic-ibm-stock-crash-sets-up-unique-options-strategy.html",
-      "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 17:17:38 GMT",
-      "title_ko": "역사적인 IBM 주식 폭락은 고유한 옵션 전략을 마련한다"
-    },
-    {
-      "title": "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
-      "url": "https://www.cnbc.com/2026/07/15/watch-fed-chairman-kevin-warsh-testify-live-before-senate-banking-committee.html",
-      "source": "CNBC",
-      "published": "Wed, 15 Jul 2026 22:05:14 GMT",
-      "title_ko": "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates"
+      "published": "Thu, 16 Jul 2026 16:57:33 GMT",
+      "title_ko": "예측 시장의 붐에 따라 감시할 사람이 누구인지에 대한 의문이 생긴다"
     }
   ]
 }
