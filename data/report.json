@@ -1,59 +1,59 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "data": {
-    "date": "2026-07-16",
+    "date": "2026-07-17",
     "indices": {
       "sp500": {
-        "close": 7533.77,
-        "prev_close": 7572.4,
-        "change_pct": -0.51,
-        "pct_52w": 93.8
+        "close": 7457.69,
+        "prev_close": 7533.77,
+        "change_pct": -1.01,
+        "pct_52w": 88.4
       },
       "nasdaq100": {
-        "close": 29025.77,
-        "prev_close": 29502.6,
-        "change_pct": -1.62,
-        "pct_52w": 78.5
+        "close": 28592.66,
+        "prev_close": 29025.77,
+        "change_pct": -1.49,
+        "pct_52w": 73.2
       },
       "russell": {
-        "close": 2974.57,
-        "prev_close": 2976.26,
-        "change_pct": -0.06,
-        "pct_52w": 92.0
+        "close": 2962.22,
+        "prev_close": 2974.57,
+        "change_pct": -0.42,
+        "pct_52w": 90.7
       },
       "vix": {
-        "close": 16.73,
-        "prev_close": 15.67,
-        "change_pct": 6.76,
-        "pct_52w": 15.3
+        "close": 18.77,
+        "prev_close": 16.73,
+        "change_pct": 12.19,
+        "pct_52w": 24.6
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.13,
-        "date": "2026-07-15",
-        "change_pct": -1.2,
-        "prev_value": 4.18
+        "value": 4.16,
+        "date": "2026-07-16",
+        "change_pct": 0.73,
+        "prev_value": 4.13
       },
       "us10y": {
-        "value": 4.55,
-        "date": "2026-07-15",
-        "change_pct": -0.66,
-        "prev_value": 4.58
+        "value": 4.57,
+        "date": "2026-07-16",
+        "change_pct": 0.44,
+        "prev_value": 4.55
       },
       "tips10y": {
-        "value": 2.32,
-        "date": "2026-07-15",
-        "change_pct": -0.43,
-        "prev_value": 2.33
+        "value": 2.35,
+        "date": "2026-07-16",
+        "change_pct": 1.29,
+        "prev_value": 2.32
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.41,
-        "date": "2026-07-16",
-        "change_pct": -2.38,
-        "prev_value": 0.42
+        "value": 0.37,
+        "date": "2026-07-17",
+        "change_pct": -9.76,
+        "prev_value": 0.41
       },
       "us5s30s": {
         "value": null,
@@ -61,14 +61,14 @@
       },
       "hy_spread": {
         "value": 2.71,
-        "date": "2026-07-15",
-        "change_pct": -0.37,
-        "prev_value": 2.72
+        "date": "2026-07-16",
+        "change_pct": 0.0,
+        "prev_value": 2.71
       },
       "fra_ois": {
-        "value": 3.63,
-        "date": "2026-07-15",
-        "change_pct": 0.0,
+        "value": 3.62,
+        "date": "2026-07-16",
+        "change_pct": -0.28,
         "prev_value": 3.63
       }
     },
@@ -80,16 +80,16 @@
         "prev_value": 120.753
       },
       "usdkrw": {
-        "close": 1479.03,
+        "close": 1487.46,
         "prev_close": 1486.2,
-        "change_pct": -0.48,
-        "pct_52w": 59.0
+        "change_pct": 0.08,
+        "pct_52w": 62.2
       },
       "usdjpy": {
-        "close": 162.38,
+        "close": 162.35,
         "prev_close": 162.07,
-        "change_pct": 0.19,
-        "pct_52w": 97.3
+        "change_pct": 0.17,
+        "pct_52w": 97.1
       },
       "eurusd": {
         "close": 1.14,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 79.0,
-        "prev_close": 79.6,
-        "change_pct": -0.75,
-        "pct_52w": 37.2
+        "close": 81.77,
+        "prev_close": 78.95,
+        "change_pct": 3.57,
+        "pct_52w": 41.5
       },
       "gold": {
-        "close": 3980.7,
-        "prev_close": 4044.0,
-        "change_pct": -1.57,
-        "pct_52w": 30.9
+        "close": 4023.0,
+        "prev_close": 3985.6,
+        "change_pct": 0.94,
+        "pct_52w": 32.7
       },
       "copper": {
-        "close": 6.28,
-        "prev_close": 6.29,
-        "change_pct": -0.16,
-        "pct_52w": 84.0
+        "close": 6.27,
+        "prev_close": 6.3,
+        "change_pct": -0.48,
+        "pct_52w": 83.6
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6735609.0
       },
       "rrp": {
-        "value": 0.125,
-        "date": "2026-07-16",
-        "change_pct": -17.22,
-        "prev_value": 0.151
+        "value": 0.1,
+        "date": "2026-07-17",
+        "change_pct": -20.0,
+        "prev_value": 0.125
       },
       "m2": {
         "value": 23052.3,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 177.52,
-        "change_pct": -2.24,
-        "change_4w": -4.34,
-        "pct_52w": 70.9
+        "close": 175.59,
+        "change_pct": -1.09,
+        "change_4w": -8.17,
+        "pct_52w": 68.2
       },
       "financials": {
-        "close": 56.75,
-        "change_pct": 0.34,
-        "change_4w": 5.37,
-        "pct_52w": 99.0
+        "close": 56.26,
+        "change_pct": -0.86,
+        "change_4w": 5.4,
+        "pct_52w": 92.8
       },
       "energy": {
-        "close": 57.02,
-        "change_pct": 0.92,
-        "change_4w": 5.05,
-        "pct_52w": 73.1
+        "close": 57.68,
+        "change_pct": 1.16,
+        "change_4w": 8.04,
+        "pct_52w": 76.0
       },
       "utilities": {
-        "close": 45.47,
-        "change_pct": 0.55,
-        "change_4w": 2.92,
-        "pct_52w": 74.5
+        "close": 45.17,
+        "change_pct": -0.66,
+        "change_4w": 1.55,
+        "pct_52w": 69.7
       },
       "healthcare": {
-        "close": 161.8,
-        "change_pct": 2.22,
-        "change_4w": 7.83,
-        "pct_52w": 90.4
+        "close": 161.09,
+        "change_pct": -0.44,
+        "change_4w": 8.3,
+        "pct_52w": 88.7
       },
       "consumer_disc": {
-        "close": 117.34,
-        "change_pct": 0.29,
-        "change_4w": 1.8,
-        "pct_52w": 63.3
+        "close": 115.44,
+        "change_pct": -1.62,
+        "change_4w": -1.27,
+        "pct_52w": 53.6
       },
       "industrials": {
-        "close": 180.15,
-        "change_pct": 0.05,
-        "change_4w": 0.55,
-        "pct_52w": 84.5
+        "close": 179.41,
+        "change_pct": -0.41,
+        "change_4w": -0.59,
+        "pct_52w": 82.7
       },
       "materials": {
-        "close": 50.89,
-        "change_pct": 0.77,
-        "change_4w": -1.81,
-        "pct_52w": 77.0
+        "close": 50.53,
+        "change_pct": -0.71,
+        "change_4w": -2.11,
+        "pct_52w": 74.1
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 48,
-        "rating": "Neutral"
+        "score": 43,
+        "rating": "Fear"
       },
       "skew": {
-        "close": 145.72,
-        "change_pct": -1.88,
+        "close": 147.28,
+        "change_pct": 1.07,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -278,43 +278,77 @@
         "event": "CPI 발표 (7월)",
         "category": "cpi",
         "impact": "high"
+      },
+      {
+        "date": "2026-08-28",
+        "event": "PCE 발표 (7월)",
+        "category": "pce",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
-        "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
+        "title": "The average stock is having a moment as semiconductors struggle. It’s a sign of a healthy market.",
+        "url": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 16 Jul 2026 21:17:00 GMT",
-        "title_ko": "10년간 가장 큰 채권 거래를 놓치고 있는데 그것은 인플레이션을 이길 것이라고 보장된다"
+        "published": "Fri, 17 Jul 2026 21:55:00 GMT",
+        "title_ko": "평균 주가는 반도체가 어려움을 겪는 가운데 한 순간을 맞고 있습니다. 이는 건강한 시장의 신호입니다."
       },
       {
-        "title": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
-        "url": "https://www.cnbc.com/2026/07/16/oil-pipeline-iran-strait-hormuz-red-sea-iraq-uae-saudi.html",
-        "source": "CNBC",
-        "published": "Thu, 16 Jul 2026 19:13:07 GMT",
-        "title_ko": "호르무즈 해협 주변의 원유 파이프라인은 중동 원유 수출에 대한 이란의 위협을 끝내지 않을 것이다"
+        "title": "19 (mostly) tech stocks that have fallen at least 25% in July",
+        "url": "https://www.marketwatch.com/story/18-tech-stocks-that-have-fallen-at-least-30-during-july-4c373d5e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 17 Jul 2026 21:45:00 GMT",
+        "title_ko": "7월에 최소 25% 이상 떨어진 19가지 주식 대부분은 기술 주식입니다"
       },
       {
-        "title": "Here's why the housing market is hurting so much this summer",
-        "url": "https://www.cnbc.com/2026/07/16/housing-market-mortgages-homebuilding.html",
-        "source": "CNBC",
-        "published": "Thu, 16 Jul 2026 20:06:13 GMT",
-        "title_ko": "주택 시장이 इतन게 힘들어하는 이유는 여름이기 때문이다"
+        "title": "Chip stocks have entered a bear market. A BofA analyst says not to panic.",
+        "url": "https://www.marketwatch.com/story/chip-stocks-enter-bear-market-territory-a-bofa-analyst-says-not-to-panic-4d34df17?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 17 Jul 2026 20:49:00 GMT",
+        "title_ko": "Chip stocks have entered a bear market. A BofA analyst says not to panic."
       },
       {
-        "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
-        "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+        "title": "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
+        "url": "https://www.cnbc.com/2026/07/17/trump-canada-wildfire-tariffs.html",
         "source": "CNBC",
-        "published": "Thu, 16 Jul 2026 18:50:42 GMT",
-        "title_ko": "달라스 연방준비은행 총재 로건은 금리 인상을 주장했다"
+        "published": "Fri, 17 Jul 2026 23:08:24 GMT",
+        "title_ko": "트럼프는 캐나다를 비난하며 산불 연기가 퍼지자 미국은 관세에 오염 비용을 추가할 것이라고 말합니다"
       },
       {
-        "title": "As prediction markets boom, questions arise over who will be the watchdog",
-        "url": "https://www.cnbc.com/2026/07/16/the-sec-may-get-involved-as-prediction-market-bring-new-contracts.html",
+        "title": "Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
+        "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
         "source": "CNBC",
-        "published": "Thu, 16 Jul 2026 16:57:33 GMT",
-        "title_ko": "예측 시장의 붐에 따라 감시할 사람이 누구인지에 대한 의문이 생긴다"
+        "published": "Fri, 17 Jul 2026 18:20:37 GMT",
+        "title_ko": "호르무즈에서 이란이 선박에 대한 공격을 강화함에 따라 유조선은 최악의 시나리오에 직면해 있습니다. 해양 위험 최고경영자는 così 말합니다"
+      },
+      {
+        "title": "California's billionaire tax: What's at risk for the biggest state economy in America",
+        "url": "https://www.cnbc.com/2026/07/17/california-billionaire-tax.html",
+        "source": "CNBC",
+        "published": "Fri, 17 Jul 2026 15:02:57 GMT",
+        "title_ko": "미국에서 가장 큰 주 경제를 가진 캘리포니아의 억만 장자 세금: 무엇이 위험에 처해 있는가"
+      },
+      {
+        "title": "Iraq and Syria sign agreement to restore oil pipeline that would provide alternative to Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/07/17/iran-war-iraq-syria-oil-pipeline-strait-hormuz.html",
+        "source": "CNBC",
+        "published": "Fri, 17 Jul 2026 20:33:01 GMT",
+        "title_ko": "Iraq and Syria sign agreement to restore oil pipeline that would provide alternative to Strait of Hormuz"
+      },
+      {
+        "title": "SpaceX stock has cratered nearly 23% since the company joined the Nasdaq-100",
+        "url": "https://www.cnbc.com/2026/07/17/spacex-stock-starship-test-flight-aborted.html",
+        "source": "CNBC",
+        "published": "Fri, 17 Jul 2026 20:33:34 GMT",
+        "title_ko": "스페이스엑스 주가는 나스닥 100에 합류한 이후 거의 23% 떨어졌습니다"
+      },
+      {
+        "title": "Meta's latest move in the AI talent war — plus Cramer's 4 quick hits on the market",
+        "url": "https://www.cnbc.com/2026/07/17/metas-latest-move-in-the-ai-talent-war-plus-cramers-4-quick-hits.html",
+        "source": "CNBC",
+        "published": "Fri, 17 Jul 2026 17:40:45 GMT",
+        "title_ko": "메타의 최신 인공지능 인재 전쟁 동향 — плю스 크라머의 시장에 대한 4가지 빠른 분석"
       }
     ]
   },
@@ -325,7 +359,7 @@
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "yellow",
+    "sector": "red",
     "sentiment": "yellow",
     "skew": "yellow",
     "combo": "yellow",
@@ -341,9 +375,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 16.7(낮음)+Skew 146(높음)"
+      "숨겨진경고: VIX 18.8(낮음)+Skew 147(높음)"
     ],
-    "ratio": 0.5
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
