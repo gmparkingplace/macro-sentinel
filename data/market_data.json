@@ -1,71 +1,71 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-25",
   "indices": {
     "sp500": {
-      "close": 7408.3,
-      "prev_close": 7498.96,
-      "change_pct": -1.21,
-      "pct_52w": 84.9
+      "close": 7411.98,
+      "prev_close": 7408.3,
+      "change_pct": 0.05,
+      "pct_52w": 85.2
     },
     "nasdaq100": {
-      "close": 28454.81,
-      "prev_close": 28998.1,
-      "change_pct": -1.87,
-      "pct_52w": 71.5
+      "close": 28128.34,
+      "prev_close": 28454.81,
+      "change_pct": -1.15,
+      "pct_52w": 67.4
     },
     "russell": {
-      "close": 2940.16,
-      "prev_close": 2959.94,
-      "change_pct": -0.67,
-      "pct_52w": 88.2
+      "close": 2930.0,
+      "prev_close": 2940.16,
+      "change_pct": -0.35,
+      "pct_52w": 87.1
     },
     "vix": {
-      "close": 18.7,
-      "prev_close": 16.64,
-      "change_pct": 12.38,
-      "pct_52w": 24.3
+      "close": 18.58,
+      "prev_close": 18.7,
+      "change_pct": -0.64,
+      "pct_52w": 23.7
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.31,
-      "date": "2026-07-22",
-      "change_pct": 1.17,
-      "prev_value": 4.26
+      "value": 4.37,
+      "date": "2026-07-23",
+      "change_pct": 1.39,
+      "prev_value": 4.31
     },
     "us10y": {
-      "value": 4.67,
-      "date": "2026-07-22",
+      "value": 4.71,
+      "date": "2026-07-23",
       "change_pct": 0.86,
-      "prev_value": 4.63
+      "prev_value": 4.67
     },
     "tips10y": {
-      "value": 2.39,
-      "date": "2026-07-22",
-      "change_pct": 0.84,
-      "prev_value": 2.37
+      "value": 2.43,
+      "date": "2026-07-23",
+      "change_pct": 1.67,
+      "prev_value": 2.39
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.34,
-      "date": "2026-07-23",
-      "change_pct": -5.56,
-      "prev_value": 0.36
+      "value": 0.36,
+      "date": "2026-07-24",
+      "change_pct": 5.88,
+      "prev_value": 0.34
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.68,
-      "date": "2026-07-22",
-      "change_pct": -0.37,
-      "prev_value": 2.69
+      "value": 2.77,
+      "date": "2026-07-23",
+      "change_pct": 3.36,
+      "prev_value": 2.68
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 120.331
     },
     "usdkrw": {
-      "close": 1474.75,
+      "close": 1459.42,
       "prev_close": 1475.63,
-      "change_pct": -0.06,
-      "pct_52w": 57.4
+      "change_pct": -1.1,
+      "pct_52w": 51.6
     },
     "usdjpy": {
-      "close": 163.84,
+      "close": 163.79,
       "prev_close": 163.08,
-      "change_pct": 0.47,
-      "pct_52w": 99.2
+      "change_pct": 0.44,
+      "pct_52w": 99.0
     },
     "eurusd": {
       "close": 1.14,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 92.15,
-      "prev_close": 86.83,
-      "change_pct": 6.13,
-      "pct_52w": 57.6
+      "close": 90.47,
+      "prev_close": 92.19,
+      "change_pct": -1.87,
+      "pct_52w": 55.0
     },
     "gold": {
-      "close": 4051.3,
-      "prev_close": 4146.9,
-      "change_pct": -2.31,
-      "pct_52w": 33.9
+      "close": 4055.7,
+      "prev_close": 4046.6,
+      "change_pct": 0.22,
+      "pct_52w": 34.1
     },
     "copper": {
-      "close": 6.33,
-      "prev_close": 6.45,
-      "change_pct": -1.86,
-      "pct_52w": 86.2
+      "close": 6.34,
+      "prev_close": 6.3,
+      "change_pct": 0.63,
+      "pct_52w": 86.6
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6743028.0
     },
     "rrp": {
-      "value": 0.904,
-      "date": "2026-07-23",
-      "change_pct": 140.43,
-      "prev_value": 0.376
+      "value": 0.675,
+      "date": "2026-07-24",
+      "change_pct": -25.33,
+      "prev_value": 0.904
     },
     "m2": {
       "value": 23052.3,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 178.45,
-      "change_pct": -1.01,
-      "change_4w": -2.51,
-      "pct_52w": 72.1
+      "close": 175.88,
+      "change_pct": -1.44,
+      "change_4w": -4.71,
+      "pct_52w": 68.6
     },
     "financials": {
-      "close": 55.83,
-      "change_pct": -0.39,
-      "change_4w": 3.93,
-      "pct_52w": 88.2
+      "close": 56.31,
+      "change_pct": 0.86,
+      "change_4w": 5.35,
+      "pct_52w": 93.3
     },
     "energy": {
-      "close": 59.38,
-      "change_pct": 0.3,
-      "change_4w": 10.85,
-      "pct_52w": 83.7
+      "close": 59.62,
+      "change_pct": 0.4,
+      "change_4w": 10.22,
+      "pct_52w": 84.8
     },
     "utilities": {
-      "close": 46.19,
-      "change_pct": 0.57,
-      "change_4w": 1.43,
-      "pct_52w": 83.5
+      "close": 46.29,
+      "change_pct": 0.22,
+      "change_4w": 0.96,
+      "pct_52w": 84.8
     },
     "healthcare": {
-      "close": 161.44,
-      "change_pct": 1.26,
-      "change_4w": 5.28,
-      "pct_52w": 89.5
+      "close": 162.57,
+      "change_pct": 0.7,
+      "change_4w": 4.46,
+      "pct_52w": 92.4
     },
     "consumer_disc": {
-      "close": 108.76,
-      "change_pct": -4.61,
-      "change_4w": -5.48,
-      "pct_52w": 19.4
+      "close": 109.41,
+      "change_pct": 0.6,
+      "change_4w": -3.48,
+      "pct_52w": 22.7
     },
     "industrials": {
-      "close": 181.94,
-      "change_pct": 1.73,
-      "change_4w": 0.96,
-      "pct_52w": 88.9
+      "close": 182.66,
+      "change_pct": 0.4,
+      "change_4w": -0.79,
+      "pct_52w": 90.7
     },
     "materials": {
-      "close": 50.29,
-      "change_pct": -1.04,
-      "change_4w": -1.7,
-      "pct_52w": 72.1
+      "close": 51.26,
+      "change_pct": 1.93,
+      "change_4w": -1.12,
+      "pct_52w": 80.0
     }
   },
   "macro": {
@@ -233,8 +233,8 @@
       "rating": "Fear"
     },
     "skew": {
-      "close": 145.95,
-      "change_pct": -2.82,
+      "close": 147.28,
+      "change_pct": 0.91,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -292,88 +292,60 @@
   ],
   "news": [
     {
-      "title": "The August stock-market slump is a myth — so why does Wall Street keep repeating it?",
-      "url": "https://www.marketwatch.com/story/the-august-stock-market-slump-is-a-myth-so-why-does-wall-street-keep-repeating-it-bc47db44?mod=mw_rss_topstories",
+      "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
+      "url": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 23 Jul 2026 22:12:00 GMT",
-      "title_ko": "8월 주식시장의 폭락은 신화다 — 월 스트리트는 왜 계속 반복하는가"
+      "published": "Fri, 24 Jul 2026 21:38:00 GMT",
+      "title_ko": "30년 만기 국채 수익률 6%에 대해 주식 시장은 완전히 준비가 안 됨"
     },
     {
-      "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "url": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 23 Jul 2026 22:03:00 GMT",
-      "title_ko": "S&P 500은 매도 신호를 보이고 있다 — 옵션 거래자들은 애플, 메타, 마이크로소프트의 거대한 변동에 대비하고 있다"
-    },
-    {
-      "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-      "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 23 Jul 2026 22:02:00 GMT",
-      "title_ko": "예, AI 주식 매도는 두려워 보이지만 실제로 황소 시장을 구할 수도 있다"
-    },
-    {
-      "title": "The stock market’s calm is cracking. Here’s how to prepare for an August shock.",
-      "url": "https://www.marketwatch.com/story/the-stock-markets-calm-surface-is-cracking-heres-how-to-prepare-for-an-august-shock-7d655813?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 23 Jul 2026 21:53:00 GMT",
-      "title_ko": "주식시장의 평온은 깨지고 있다. 8월 충격에 대비하는 방법은 다음과 같다"
-    },
-    {
-      "title": "Trump rolls out a new wave of global tariffs. Here are the latest rates.",
-      "url": "https://www.marketwatch.com/story/trump-rolls-out-a-new-wave-of-tariffs-here-are-the-latest-rates-449af1d3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 23 Jul 2026 21:50:00 GMT",
-      "title_ko": "트럼프는 새로운 세계적인 관세의 물결을 내놓았다. 최신 세율은 다음과 같다"
-    },
-    {
-      "title": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
-      "url": "https://www.cnbc.com/2026/07/23/trump-tariffs-trade-deadline.html",
+      "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+      "url": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 21:43:10 GMT",
-      "title_ko": "트럼프는 60개의 무역 파트너에 대한 새로운 관세를 부과할 것이다"
+      "published": "Fri, 24 Jul 2026 19:39:50 GMT",
+      "title_ko": "트럼프, 미국 기술 기업을 약탈하는 것에 대해 유럽 연합에 상당한 관세를 위협"
     },
     {
-      "title": "Japan core inflation rate in June creeps up from 4-year low as higher oil prices bite",
-      "url": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
+      "title": "Bond market anxiety is growing over AI capex budgets",
+      "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 23:48:04 GMT",
-      "title_ko": "일본의 6월 핵심 인플레이션율은 4년 만에 최고치에서 조금 상승했다"
+      "published": "Fri, 24 Jul 2026 20:07:36 GMT",
+      "title_ko": "인공지능 자본 지출 예산으로 인해 채권 시장의 불안이 증가하고 있음"
     },
     {
-      "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
-      "url": "https://www.cnbc.com/2026/07/23/short-sighted-stock-market-can-no-longer-brush-off-war-investors-say.html",
+      "title": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
+      "url": "https://www.cnbc.com/2026/07/24/oil-tanker-red-sea-hormuz-black-sea-iran-ukraine.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 19:19:01 GMT",
-      "title_ko": "앞을 못 보는 주식시장은 더 이상 전쟁을 무시할 수 없다"
+      "published": "Fri, 24 Jul 2026 18:47:41 GMT",
+      "title_ko": "홍해와 호르무즈 그리고 흑해에서 격렬한 전투가 확대됨에 따라 원유 수송이 여러 방면에서 공격을 받고 있음"
     },
     {
-      "title": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
-      "url": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
+      "title": "Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing",
+      "url": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 20:06:50 GMT",
-      "title_ko": "아마존과 마이크로소프트는 다른 사용자를 대상으로 클라우드 게임 전략을 전환했다"
+      "published": "Fri, 24 Jul 2026 19:12:09 GMT",
+      "title_ko": "중국의 지원을 받은 파키스탄이 미국과 이란 간의 새로운 협상을 추진하고 있다는 보도에 따라 원유 가격이 하락"
     },
     {
-      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
-      "url": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "title": "Why bond investors are pushing up some of your interest rates",
+      "url": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 20:30:50 GMT",
-      "title_ko": "10년 만기 미국 국채 금리는 2025년 1월 이후 최고치로 상승했다"
+      "published": "Fri, 24 Jul 2026 21:09:24 GMT",
+      "title_ko": "채권 투자자들이 일부 금리 올리기 이유"
     },
     {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "title": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer",
+      "url": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 20:25:28 GMT",
-      "title_ko": "연방 준비 제도 금리 인상의 가능성이 높아졌다"
+      "published": "Fri, 24 Jul 2026 17:28:15 GMT",
+      "title_ko": "테슬라 실적 전 단기 매도에 성공한 투자자가 이제 새로운 상승 주목표를 설정"
     },
     {
-      "title": "As the S&P 500 sells off, traders eye key 'risk pivot' level",
-      "url": "https://www.cnbc.com/2026/07/23/as-the-sp-500-sells-off-traders-eye-key-risk-pivot-level.html",
+      "title": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
+      "url": "https://www.cnbc.com/2026/07/24/odds-that-the-straits-traffic-returns-to-normal-drop-on-kalshi.html",
       "source": "CNBC",
-      "published": "Thu, 23 Jul 2026 20:22:32 GMT",
-      "title_ko": "S&P 500이 매도되면서 거래자들은 중요한 리스크 전환 수준을 주시하고 있다"
+      "published": "Fri, 24 Jul 2026 19:58:24 GMT",
+      "title_ko": "예측 시장에 따르면 호르무즈 해협의 교통이 12개월 이상 정상으로 돌아오지 않을 수 있음"
     }
   ]
 }
