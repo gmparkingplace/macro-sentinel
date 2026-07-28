@@ -710,13 +710,13 @@
   {
     "date": "2026-07-28",
     "verdict": "WAIT",
-    "vix": 18.67,
-    "sp500": 7413.18,
-    "fg_score": 43,
-    "skew": 146.6,
-    "hy_spread": 2.79,
-    "us10y": null,
-    "wti": 82.08,
-    "ratio": 0.55
+    "vix": 18.21,
+    "sp500": 7428.78,
+    "fg_score": 44,
+    "skew": 142.98,
+    "hy_spread": 2.81,
+    "us10y": 4.65,
+    "wti": 82.34,
+    "ratio": 0.5
   }
 ]
