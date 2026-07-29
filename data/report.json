@@ -1,73 +1,73 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "data": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "indices": {
       "sp500": {
-        "close": 7428.78,
-        "prev_close": 7413.18,
-        "change_pct": 0.21,
-        "pct_52w": 86.4
+        "close": 7316.15,
+        "prev_close": 7428.78,
+        "change_pct": -1.52,
+        "pct_52w": 78.4
       },
       "nasdaq100": {
-        "close": 27763.13,
-        "prev_close": 28039.21,
-        "change_pct": -0.98,
-        "pct_52w": 62.9
+        "close": 27192.31,
+        "prev_close": 27763.13,
+        "change_pct": -2.06,
+        "pct_52w": 55.9
       },
       "russell": {
-        "close": 2953.8,
-        "prev_close": 2948.04,
-        "change_pct": 0.2,
-        "pct_52w": 89.7
+        "close": 2906.31,
+        "prev_close": 2953.8,
+        "change_pct": -1.61,
+        "pct_52w": 84.5
       },
       "vix": {
-        "close": 18.21,
-        "prev_close": 18.67,
-        "change_pct": -2.46,
-        "pct_52w": 22.0
+        "close": 20.66,
+        "prev_close": 18.21,
+        "change_pct": 13.45,
+        "pct_52w": 33.2
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.31,
-        "date": "2026-07-27",
-        "change_pct": -0.46,
-        "prev_value": 4.33
+        "value": 4.26,
+        "date": "2026-07-28",
+        "change_pct": -1.16,
+        "prev_value": 4.31
       },
       "us10y": {
-        "value": 4.65,
-        "date": "2026-07-27",
-        "change_pct": -0.85,
-        "prev_value": 4.69
+        "value": 4.61,
+        "date": "2026-07-28",
+        "change_pct": -0.86,
+        "prev_value": 4.65
       },
       "tips10y": {
-        "value": 2.44,
-        "date": "2026-07-27",
-        "change_pct": 0.41,
-        "prev_value": 2.43
+        "value": 2.41,
+        "date": "2026-07-28",
+        "change_pct": -1.23,
+        "prev_value": 2.44
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.35,
-        "date": "2026-07-28",
-        "change_pct": 2.94,
-        "prev_value": 0.34
+        "value": 0.45,
+        "date": "2026-07-29",
+        "change_pct": 28.57,
+        "prev_value": 0.35
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.81,
-        "date": "2026-07-27",
-        "change_pct": 0.72,
-        "prev_value": 2.79
+        "value": 2.84,
+        "date": "2026-07-28",
+        "change_pct": 1.07,
+        "prev_value": 2.81
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-07-27",
+        "date": "2026-07-28",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,42 +80,42 @@
         "prev_value": 120.9075
       },
       "usdkrw": {
-        "close": 1453.98,
-        "prev_close": 1464.44,
-        "change_pct": -0.71,
-        "pct_52w": 49.6
+        "close": 1441.78,
+        "prev_close": 1453.16,
+        "change_pct": -0.78,
+        "pct_52w": 45.0
       },
       "usdjpy": {
-        "close": 163.86,
-        "prev_close": 163.77,
-        "change_pct": 0.05,
-        "pct_52w": 99.3
+        "close": 163.32,
+        "prev_close": 163.86,
+        "change_pct": -0.33,
+        "pct_52w": 96.3
       },
       "eurusd": {
-        "close": 1.14,
+        "close": 1.15,
         "prev_close": 1.14,
-        "change_pct": 0.0,
-        "pct_52w": 10.7
+        "change_pct": 0.88,
+        "pct_52w": 25.0
       }
     },
     "commodities": {
       "wti": {
-        "close": 82.34,
-        "prev_close": 82.61,
-        "change_pct": -0.33,
-        "pct_52w": 42.4
+        "close": 84.24,
+        "prev_close": 79.26,
+        "change_pct": 6.28,
+        "pct_52w": 45.4
       },
       "gold": {
-        "close": 4020.6,
-        "prev_close": 4074.5,
-        "change_pct": -1.32,
-        "pct_52w": 32.6
+        "close": 4149.3,
+        "prev_close": 4036.3,
+        "change_pct": 2.8,
+        "pct_52w": 38.1
       },
       "copper": {
-        "close": 6.34,
-        "prev_close": 6.34,
-        "change_pct": 0.0,
-        "pct_52w": 86.6
+        "close": 6.39,
+        "prev_close": 6.32,
+        "change_pct": 1.11,
+        "pct_52w": 88.7
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6743028.0
       },
       "rrp": {
-        "value": 1.126,
-        "date": "2026-07-28",
-        "change_pct": -18.41,
-        "prev_value": 1.38
+        "value": 2.576,
+        "date": "2026-07-29",
+        "change_pct": 128.77,
+        "prev_value": 1.126
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 171.09,
-        "change_pct": -1.84,
-        "change_4w": -7.72,
-        "pct_52w": 61.9
+        "close": 166.57,
+        "change_pct": -2.64,
+        "change_4w": -12.57,
+        "pct_52w": 55.6
       },
       "financials": {
-        "close": 57.6,
-        "change_pct": 1.27,
-        "change_4w": 7.22,
-        "pct_52w": 100.0
+        "close": 56.68,
+        "change_pct": -1.6,
+        "change_4w": 5.73,
+        "pct_52w": 90.9
       },
       "energy": {
-        "close": 57.57,
-        "change_pct": -1.35,
-        "change_4w": 7.45,
-        "pct_52w": 75.5
+        "close": 58.65,
+        "change_pct": 1.88,
+        "change_4w": 10.43,
+        "pct_52w": 80.4
       },
       "utilities": {
-        "close": 45.52,
-        "change_pct": -0.35,
-        "change_4w": -1.09,
-        "pct_52w": 74.4
+        "close": 44.91,
+        "change_pct": -1.34,
+        "change_4w": -0.95,
+        "pct_52w": 66.1
       },
       "healthcare": {
-        "close": 167.26,
-        "change_pct": 2.36,
-        "change_4w": 4.06,
-        "pct_52w": 97.0
+        "close": 166.24,
+        "change_pct": -0.61,
+        "change_4w": 4.78,
+        "pct_52w": 94.6
       },
       "consumer_disc": {
-        "close": 112.48,
-        "change_pct": 1.48,
-        "change_4w": -3.96,
-        "pct_52w": 38.4
+        "close": 111.61,
+        "change_pct": -0.77,
+        "change_4w": -4.83,
+        "pct_52w": 33.9
       },
       "industrials": {
-        "close": 182.49,
-        "change_pct": -0.39,
-        "change_4w": -0.15,
-        "pct_52w": 90.2
+        "close": 176.66,
+        "change_pct": -3.19,
+        "change_4w": -4.63,
+        "pct_52w": 75.9
       },
       "materials": {
-        "close": 52.34,
-        "change_pct": 1.85,
-        "change_4w": 3.32,
-        "pct_52w": 88.9
+        "close": 51.74,
+        "change_pct": -1.15,
+        "change_4w": 1.79,
+        "pct_52w": 84.0
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 44,
+        "score": 39,
         "rating": "Fear"
       },
       "skew": {
-        "close": 142.98,
-        "change_pct": -2.47,
+        "close": 139.55,
+        "change_pct": -2.4,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -294,88 +294,74 @@
     ],
     "news": [
       {
-        "title": "Seagate’s earnings are welcome news for the battered AI trade",
-        "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
+        "title": "Why the USO oil ETF is a better buy than crude futures as the Iran war rages",
+        "url": "https://www.marketwatch.com/story/why-the-uso-oil-etf-is-a-better-buy-than-crude-futures-as-the-iran-war-rages-85d1ebe0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 28 Jul 2026 22:17:00 GMT",
-        "title_ko": "시게이트의 실적은 구진 인공지능 거래에 좋은 소식이다"
+        "published": "Wed, 29 Jul 2026 22:44:00 GMT",
+        "title_ko": "이란 전쟁이 격화하면서 원유 선물보다 유에스오유 원유 ETF가 더 좋은 구매처인 이유"
       },
       {
-        "title": "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate",
-        "url": "https://www.marketwatch.com/story/microns-stock-sinks-toward-worst-monthly-drop-in-11-years-as-china-fears-escalate-3c956a67?mod=mw_rss_topstories",
+        "title": "Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates",
+        "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 28 Jul 2026 21:56:00 GMT",
-        "title_ko": "마이크론의 주가는 중국에 대한 우려가 고조됨에 따라 11년 만에 최악의 월간 하락을 향해 떨어지고 있다"
+        "published": "Wed, 29 Jul 2026 21:56:00 GMT",
+        "title_ko": "Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates"
       },
       {
-        "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
-        "url": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
+        "title": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
+        "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 28 Jul 2026 20:54:00 GMT",
-        "title_ko": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo."
+        "published": "Wed, 29 Jul 2026 21:43:00 GMT",
+        "title_ko": "채권 시장은 물가 상승 대응에서 워시의 위협을 믿지 않고 수익률이 급등"
       },
       {
-        "title": "Nasdaq-100 is on the edge of correction territory as semiconductor stocks take another beating",
-        "url": "https://www.marketwatch.com/story/nasdaq-100-is-on-the-edge-of-correction-territory-as-semiconductor-stocks-take-another-beating-580d3ee7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Tue, 28 Jul 2026 20:46:00 GMT",
-        "title_ko": "나스닥 100은 반도체 주가가 또 다시 곤경을 치르면서 조정 영역에 근접하고 있다"
-      },
-      {
-        "title": "Space stocks are falling hard — but SpaceX doesn’t deserve all of the blame",
-        "url": "https://www.marketwatch.com/story/space-stocks-are-falling-hard-but-spacex-doesnt-deserve-all-of-the-blame-e5c1c8d0?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Tue, 28 Jul 2026 20:43:00 GMT",
-        "title_ko": "우주 주가는 급격히 떨어지고 있지만 스페이스X는 모든 비난을 받을 자격이 없다"
-      },
-      {
-        "title": "Elon Musk stocks take $1.5 trillion hit with fresh test in SpaceX lockup ahead",
-        "url": "https://www.cnbc.com/2026/07/28/elon-musk-stocks-take-1point5-trillion-hit-with-fresh-test-in-spacex-lockup-ahead.html",
+        "title": "Divided Fed holds interest rates steady, but three members voted to hike",
+        "url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 18:56:34 GMT",
-        "title_ko": "일론 머스크의 주가는 스페이스X 잠금이 앞으로 다가오면서 1.5조 달러의 손실을 입었다"
+        "published": "Wed, 29 Jul 2026 18:58:16 GMT",
+        "title_ko": "의견이 분분한 연방준비제도는 금리 유지했지만 세 명의 위원은 인상에 투표"
       },
       {
-        "title": "U.S. Strategic Petroleum Reserve faces stress as emergency releases strain old infrastructure",
-        "url": "https://www.cnbc.com/2026/07/28/us-strategic-petroleum-reserve-spr-iran-oil-strait-hormuz.html",
+        "title": "What a divided Fed means for investors",
+        "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 18:49:34 GMT",
-        "title_ko": "미국 전략적 석유 예비 재원은 비상 방출로 인해 노후한 인프라에 스트레스를 받고 있다"
+        "published": "Wed, 29 Jul 2026 23:36:34 GMT",
+        "title_ko": "의견이 분분한 연방준비제도가 투자자에게 의미하는 바"
       },
       {
-        "title": "44 states are aligned on one thing in their fight against prediction markets. It's about sports wagering",
-        "url": "https://www.cnbc.com/2026/07/28/44-states-say-cftc-has-no-authority-over-sports-prediction-markets.html",
+        "title": "The U.S. wants Asia to use its AI — but China dominates cheaper models",
+        "url": "https://www.cnbc.com/2026/07/30/us-wants-asia-to-use-its-ai-but-china-dominates-cheaper-models.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 18:27:43 GMT",
-        "title_ko": "44개 주는 예측 시장에 대한 투쟁에서 하나에 대해 일치하고 있다 그것은 스포츠 도박에 관한 것이다"
+        "published": "Wed, 29 Jul 2026 23:10:46 GMT",
+        "title_ko": "미국은 아시아가 미국의 인공지능을 사용하길 원하지만 중국이 더 저렴한 모델을 지배"
       },
       {
-        "title": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
-        "url": "https://www.cnbc.com/2026/07/28/trump-usmca-canada-mexico-trade-deal.html",
+        "title": "Jeffrey Gundlach says the bond market is telling Warsh the Fed has to start acting on inflation",
+        "url": "https://www.cnbc.com/2026/07/29/gundlach-says-the-bond-market-is-signaling-the-fed-has-to-act-on-inflation.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 16:51:11 GMT",
-        "title_ko": "트럼프는 대법원에 의해 폐지된 것과 같은 것을 하는 새로운 관세를 부과했다"
+        "published": "Wed, 29 Jul 2026 22:20:18 GMT",
+        "title_ko": "제프리 건드라크는 채권 시장은 워시에게 연방준비제도에 물가 상승에 대응해야 한다고 말하고 있다"
       },
       {
-        "title": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
-        "url": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
+        "title": "Here are the five big takeaways from this week's Fed meeting",
+        "url": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 17:12:52 GMT",
-        "title_ko": "셰인은 홍콩 상장 준비 중에 연방 통상 위원회에 의해 조사되고 있다고 말했다"
+        "published": "Wed, 29 Jul 2026 22:54:09 GMT",
+        "title_ko": "이번 주 연방준비제도 회의에서 얻을 수 있는 다섯 가지 주요 사항"
       },
       {
-        "title": "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt",
-        "url": "https://www.cnbc.com/2026/07/28/the-dow-jumps-as-the-ai-trade-wobbles-plus-a-portfolio-name-goes-on-the-ma-hunt.html",
+        "title": "Fed keeps rates steady. The big question now: What will Microsoft and Meta say on AI capex?",
+        "url": "https://www.cnbc.com/2026/07/29/fed-keeps-rates-steady-the-big-question-now-what-will-microsoft-and-meta-say-on-ai-capex-.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 19:15:15 GMT",
-        "title_ko": "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt"
+        "published": "Wed, 29 Jul 2026 19:11:58 GMT",
+        "title_ko": "연방준비제도는 금리를 유지했다 이제 큰 질문은 마이크로소프트와 메타가 인공지능 자본 지출에 대해 무엇을 말할 것인가"
       },
       {
-        "title": "The future of Wall Street is here as startups and brokers build AI agents to trade 24/7",
-        "url": "https://www.cnbc.com/2026/07/28/ai-agents-build-to-trade-24/7-the-future-of-wall-street.html",
+        "title": "Brent oil jumps back above $90 after Trump threatens to hit Iran hard",
+        "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
         "source": "CNBC",
-        "published": "Tue, 28 Jul 2026 16:16:25 GMT",
-        "title_ko": "월 스트리트의 미래는 여기 있다 스타트업과 중개인이 24시간 거래할 수 있는 인공지능 에이전트를 구축하고 있다"
+        "published": "Wed, 29 Jul 2026 19:05:55 GMT",
+        "title_ko": "트럼프가 이란을 강타할 것이라고 위협하면서 브렌트 유가가 90달러 이상으로 회복"
       }
     ]
   },
@@ -386,15 +372,15 @@
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "yellow",
+    "sector": "red",
     "sentiment": "yellow",
     "skew": "yellow",
     "combo": "yellow",
     "unemployment": "yellow",
     "oil": "yellow",
     "gdp": "green",
-    "gold_signal": "yellow",
-    "copper": "yellow",
+    "gold_signal": "red",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -402,7 +388,8 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 18.2(낮음)+Skew 143(높음)"
+      "숨겨진경고: VIX 20.7(낮음)+Skew 140(높음)",
+      "Gold 극단 위험회피 $4149"
     ],
     "ratio": 0.5
   },
