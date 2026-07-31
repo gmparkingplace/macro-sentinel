@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-05-01",
-    "verdict": "AVOID",
-    "vix": 16.99,
-    "sp500": 7230.12,
-    "fg_score": 46,
-    "skew": 141.38,
-    "hy_spread": 2.83,
-    "us10y": 4.4,
-    "wti": 102.5,
-    "ratio": 0.55
-  },
-  {
     "date": "2026-05-04",
     "verdict": "AVOID",
     "vix": 18.29,
@@ -718,5 +706,17 @@
     "us10y": 4.61,
     "wti": 84.24,
     "ratio": 0.5
+  },
+  {
+    "date": "2026-07-31",
+    "verdict": "WAIT",
+    "vix": 17.09,
+    "sp500": 7437.63,
+    "fg_score": 39,
+    "skew": 139.9,
+    "hy_spread": null,
+    "us10y": null,
+    "wti": 83.99,
+    "ratio": 0.475
   }
 ]
