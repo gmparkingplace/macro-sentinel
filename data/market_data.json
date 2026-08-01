@@ -1,75 +1,73 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "indices": {
     "sp500": {
-      "close": 7437.63,
-      "prev_close": 7316.15,
-      "change_pct": 1.66,
-      "pct_52w": 87.0
+      "close": 7489.72,
+      "prev_close": 7437.63,
+      "change_pct": 0.7,
+      "pct_52w": 90.7
     },
     "nasdaq100": {
-      "close": 28106.35,
-      "prev_close": 27192.31,
-      "change_pct": 3.36,
-      "pct_52w": 67.2
+      "close": 28274.2,
+      "prev_close": 28106.35,
+      "change_pct": 0.6,
+      "pct_52w": 69.2
     },
     "russell": {
-      "close": 2946.1,
-      "prev_close": 2906.31,
-      "change_pct": 1.37,
-      "pct_52w": 88.9
+      "close": 2931.34,
+      "prev_close": 2946.1,
+      "change_pct": -0.5,
+      "pct_52w": 87.2
     },
     "vix": {
-      "close": 17.09,
-      "prev_close": 20.66,
-      "change_pct": -17.28,
-      "pct_52w": 16.9
+      "close": 15.99,
+      "prev_close": 17.09,
+      "change_pct": -6.44,
+      "pct_52w": 11.9
     }
   },
   "rates": {
     "us2y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 4.23,
+      "date": "2026-07-30",
+      "change_pct": 0.24,
+      "prev_value": 4.22
     },
     "us10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 4.68,
+      "date": "2026-07-30",
+      "change_pct": 0.21,
+      "prev_value": 4.67
     },
     "tips10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.41,
+      "date": "2026-07-30",
+      "change_pct": 0.0,
+      "prev_value": 2.41
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 0.47,
+      "date": "2026-07-31",
+      "change_pct": 4.44,
+      "prev_value": 0.45
     },
     "us5s30s": {
       "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "date": null
     },
     "hy_spread": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.84,
+      "date": "2026-07-30",
+      "change_pct": -1.05,
+      "prev_value": 2.87
     },
     "fra_ois": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.63,
+      "date": "2026-07-30",
+      "change_pct": 0.0,
+      "prev_value": 3.63
     }
   },
   "fx": {
@@ -80,16 +78,16 @@
       "prev_value": 120.9075
     },
     "usdkrw": {
-      "close": 1426.38,
+      "close": 1442.07,
       "prev_close": 1442.28,
-      "change_pct": -1.1,
-      "pct_52w": 39.2
+      "change_pct": -0.01,
+      "pct_52w": 45.1
     },
     "usdjpy": {
-      "close": 160.25,
-      "prev_close": 163.3,
-      "change_pct": -1.87,
-      "pct_52w": 79.0
+      "close": 157.4,
+      "prev_close": 160.18,
+      "change_pct": -1.74,
+      "pct_52w": 63.0
     },
     "eurusd": {
       "close": 1.15,
@@ -100,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 83.99,
-      "prev_close": 84.46,
-      "change_pct": -0.56,
-      "pct_52w": 45.0
+      "close": 86.8,
+      "prev_close": 83.59,
+      "change_pct": 3.84,
+      "pct_52w": 49.3
     },
     "gold": {
-      "close": 4167.2,
-      "prev_close": 4034.7,
-      "change_pct": 3.28,
-      "pct_52w": 38.9
+      "close": 4098.6,
+      "prev_close": 4100.1,
+      "change_pct": -0.04,
+      "pct_52w": 35.7
     },
     "copper": {
-      "close": 6.5,
-      "prev_close": 6.27,
-      "change_pct": 3.67,
-      "pct_52w": 93.5
+      "close": 6.51,
+      "prev_close": 6.44,
+      "change_pct": 1.09,
+      "pct_52w": 93.9
     }
   },
   "liquidity": {
@@ -126,10 +124,10 @@
       "prev_value": 6747378.0
     },
     "rrp": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.151,
+      "date": "2026-07-31",
+      "change_pct": 99.91,
+      "prev_value": 1.076
     },
     "m2": {
       "value": 23155.2,
@@ -140,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 175.73,
-      "change_pct": 5.5,
-      "change_4w": -7.76,
-      "pct_52w": 68.4
+      "close": 175.35,
+      "change_pct": -0.22,
+      "change_4w": -5.53,
+      "pct_52w": 67.8
     },
     "financials": {
-      "close": 57.0,
-      "change_pct": 0.56,
-      "change_4w": 6.32,
-      "pct_52w": 94.1
+      "close": 56.94,
+      "change_pct": -0.11,
+      "change_4w": 3.94,
+      "pct_52w": 93.5
     },
     "energy": {
-      "close": 58.96,
-      "change_pct": 0.53,
-      "change_4w": 11.01,
-      "pct_52w": 81.8
+      "close": 59.55,
+      "change_pct": 1.0,
+      "change_4w": 12.76,
+      "pct_52w": 84.5
     },
     "utilities": {
-      "close": 44.66,
-      "change_pct": -0.56,
-      "change_4w": -1.5,
-      "pct_52w": 62.7
+      "close": 44.35,
+      "change_pct": -0.69,
+      "change_4w": -0.94,
+      "pct_52w": 58.5
     },
     "healthcare": {
-      "close": 163.52,
-      "change_pct": -1.64,
-      "change_4w": 3.06,
-      "pct_52w": 88.3
+      "close": 162.55,
+      "change_pct": -0.59,
+      "change_4w": 1.89,
+      "pct_52w": 86.0
     },
     "consumer_disc": {
-      "close": 112.39,
-      "change_pct": 0.7,
-      "change_4w": -4.17,
-      "pct_52w": 37.9
+      "close": 116.09,
+      "change_pct": 3.29,
+      "change_4w": -1.69,
+      "pct_52w": 56.9
     },
     "industrials": {
-      "close": 178.39,
-      "change_pct": 0.98,
-      "change_4w": -3.69,
-      "pct_52w": 80.1
+      "close": 179.84,
+      "change_pct": 0.81,
+      "change_4w": -1.92,
+      "pct_52w": 83.7
     },
     "materials": {
-      "close": 51.64,
-      "change_pct": -0.19,
-      "change_4w": 1.59,
-      "pct_52w": 83.1
+      "close": 50.43,
+      "change_pct": -2.34,
+      "change_4w": -1.16,
+      "pct_52w": 73.2
     }
   },
   "macro": {
@@ -217,10 +215,10 @@
       "prev_value": 2.1
     },
     "ism_mfg": {
-      "value": 44.8,
-      "date": "2026-05-01",
-      "change_pct": -10.04,
-      "prev_value": 49.8
+      "value": 49.5,
+      "date": "2026-06-01",
+      "change_pct": 10.49,
+      "prev_value": 44.8
     },
     "ism_svc": {
       "value": 98.91297,
@@ -231,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 39,
-      "rating": "Fear"
+      "score": 48,
+      "rating": "Neutral"
     },
     "skew": {
-      "close": 139.9,
-      "change_pct": 0.25,
+      "close": 141.23,
+      "change_pct": 0.95,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-07-31",
-      "event": "PCE 발표 (6월)",
-      "category": "pce",
-      "impact": "high"
-    },
     {
       "date": "2026-08-07",
       "event": "고용보고서 (7월)",
@@ -282,88 +274,67 @@
   ],
   "news": [
     {
-      "title": "Jersey Mike’s spent almost ‘zero dollars’ on digital marketing. That’s now changing.",
-      "url": "https://www.marketwatch.com/story/jersey-mikes-spent-almost-zero-dollars-on-digital-marketing-thats-now-changing-9738485d?mod=mw_rss_topstories",
+      "title": "July ends on a hopeful note for stocks after momentum trade sees biggest wipeout since 2000",
+      "url": "https://www.marketwatch.com/story/july-ends-on-a-hopeful-note-for-stocks-after-momentum-trade-sees-biggest-wipeout-since-2000-4b90b6b2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 22:24:00 GMT",
-      "title_ko": "Jersey Mike’s spent almost ‘zero dollars’ on digital marketing. That’s now changing."
+      "published": "Fri, 31 Jul 2026 22:21:00 GMT",
+      "title_ko": "7월이 주식에 희망의 노트로 끝나며 모멘텀 거래가 2000년 이후 가장 큰 손실을 본다"
     },
     {
-      "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
-      "url": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
+      "title": "The S&P 500 is making a change by adding this little-known industrial stock",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-is-making-a-change-by-adding-this-little-known-industrial-stock-da648bd1?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 22:09:00 GMT",
-      "title_ko": "상황 인식 헤지 펀드의 붕괴로 월 스트리트는 AI 거래의 바닥이 된 것으로 판단한다."
+      "published": "Fri, 31 Jul 2026 21:53:00 GMT",
+      "title_ko": "S&P 500이 작은 산업 주식을 추가함으로써 변화를 만들어낸다"
     },
     {
-      "title": "Get ready to buy the dip in tech stocks. Why the recent selling won’t break the bull market.",
-      "url": "https://www.marketwatch.com/story/get-ready-to-buy-the-dip-in-tech-stocks-why-the-recent-selling-wont-break-the-bull-market-900699f5?mod=mw_rss_topstories",
+      "title": "S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.",
+      "url": "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 21:45:00 GMT",
-      "title_ko": "기술 주식의 하락 구매를 준비하라. 최근의 매도는 불황 시장을 깰 수 없다."
+      "published": "Fri, 31 Jul 2026 21:10:00 GMT",
+      "title_ko": "S&P 500은 2014년 이후 처음으로 7월에 하락했다. 판매가 이끈 주식들은 다음과 같다"
     },
     {
-      "title": "Software stocks are fading — but these 4 could shine through the rest of the year",
-      "url": "https://www.marketwatch.com/story/software-stocks-are-fading-but-these-4-could-shine-through-the-rest-of-the-year-2c4dbe22?mod=mw_rss_topstories",
+      "title": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
+      "url": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 21:24:00 GMT",
-      "title_ko": "Software stocks are fading — but these 4 could shine through the rest of the year"
+      "published": "Fri, 31 Jul 2026 20:23:00 GMT",
+      "title_ko": "중국이 최고의 AI 모델을 혼자 만들었는가? 새로운 보고서는 엔비디아 칩이 역할을 했다는 것을 시사한다"
     },
     {
-      "title": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
-      "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 20:26:00 GMT",
-      "title_ko": "마이크론, 샌디스크, 그리고 다른 칩 주식들이 마이크로소프트의 실적 발표로 큰 폭으로 상승했다."
-    },
-    {
-      "title": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
-      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 30 Jul 2026 19:02:00 GMT",
-      "title_ko": "워시의 월 스트리트 신뢰도가 떨어지며, 투자자들은 연준 의장의 인플레이션 대처 의지에 의문을 가진다."
-    },
-    {
-      "title": "Meta sinks 8%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
-      "url": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
+      "title": "As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years",
+      "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
       "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 22:28:58 GMT",
-      "title_ko": "메타가 8% 하락하며, 기록적인 연속 하락을 계속하는데 반해, 마이크로소프트는 15% 상승하며, AI 거래가 분열된다."
+      "published": "Fri, 31 Jul 2026 16:51:30 GMT",
+      "title_ko": "워시의 연준이 인플레이션에 대처하도록 압력을 받는 가운데 이러한 지표들은 수년 만에 가장 낮은 수준에 있다"
     },
     {
-      "title": "China’s U.S.-bound shipments fall in July after brief recovery, survey shows",
-      "url": "https://www.cnbc.com/2026/07/30/china-us-exports-drop.html",
+      "title": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+      "url": "https://www.cnbc.com/2026/07/31/kevin-warsh-fed-inflation-rate-hike-markets.html",
       "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 22:01:01 GMT",
-      "title_ko": "중국의 미국행 수출이 7월에 잠시 회복한 후에 다시 떨어졌다."
+      "published": "Fri, 31 Jul 2026 18:16:18 GMT",
+      "title_ko": "분석: 시장은 비둘기 같은 케빈 워시를 들었다. 연준 의장의 말은 금리 인상을 시사한다"
     },
     {
-      "title": "Jersey Mike's stock falls 6% in public market debut after pricing shares at $23",
-      "url": "https://www.cnbc.com/2026/07/30/jersey-mikes-ipo-jmke-starts-trading-on-the-new-york-stock-exchange.html",
+      "title": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market’s next move",
+      "url": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html",
       "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 20:13:00 GMT",
-      "title_ko": "저지 마이크스의 주식이 공공 시장 데뷔에서 6% 하락했다. 주식 가격은 23달러였다."
+      "published": "Fri, 31 Jul 2026 18:07:36 GMT",
+      "title_ko": "S&P 500은 중요한 전투의 수준에 고정되어 있다. 이 모르는 지수는 시장의 다음 움직임을 결정할 수 있다"
     },
     {
-      "title": "China’s open-weight model lead exposes America’s AI blind spot",
-      "url": "https://www.cnbc.com/2026/07/30/china-open-source-trump-ai.html",
+      "title": "Investors may want to focus on front end of yield curve — as Street anticipates next Fed meetings",
+      "url": "https://www.cnbc.com/2026/07/31/top-investment-ideas-as-interest-rate-uncertainty-grips-market-.html",
       "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 18:51:42 GMT",
-      "title_ko": "China’s open-weight model lead exposes America’s AI blind spot"
+      "published": "Fri, 31 Jul 2026 18:46:45 GMT",
+      "title_ko": "투자자들은 연준 회의를 예상하면서 수익 곡선의 전면에 집중하고 싶을 것이다"
     },
     {
-      "title": "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
-      "url": "https://www.cnbc.com/2026/07/30/trump-iran-tariffs-sanctions-bill.html",
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
+      "url": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html",
       "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 20:38:18 GMT",
-      "title_ko": "트럼프는 이란에 대한 제재 법안에는 미국과의 '사소한' 무역에도 불구하고, 관세를 포함시켜야 한다고 말했다."
-    },
-    {
-      "title": "AMD and Micron surge, Lam Research climbs 17% as chip stocks rip higher",
-      "url": "https://www.cnbc.com/2026/07/30/chip-stock-rally-lam-research-micron-amd.html",
-      "source": "CNBC",
-      "published": "Thu, 30 Jul 2026 20:04:13 GMT",
-      "title_ko": "AMD와 마이크론이 급등하고, 램 리서치가 17% 상승하며, 칩 주식들이 급등한다."
+      "published": "Fri, 31 Jul 2026 14:35:52 GMT",
+      "title_ko": "Fed officials who voted to hike rates say action is needed now against inflation"
     }
   ]
 }
