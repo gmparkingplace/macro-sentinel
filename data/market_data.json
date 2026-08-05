@@ -2,70 +2,70 @@
   "date": "2026-08-05",
   "indices": {
     "sp500": {
-      "close": 7736.52,
-      "prev_close": 7600.5,
-      "change_pct": 1.79,
-      "pct_52w": 98.5
+      "close": 7723.55,
+      "prev_close": 7736.52,
+      "change_pct": -0.17,
+      "pct_52w": 95.3
     },
     "nasdaq100": {
-      "close": 29733.16,
-      "prev_close": 28776.8,
-      "change_pct": 3.32,
-      "pct_52w": 87.0
+      "close": 29487.79,
+      "prev_close": 29733.16,
+      "change_pct": -0.83,
+      "pct_52w": 83.9
     },
     "russell": {
-      "close": 3036.98,
-      "prev_close": 2981.91,
-      "change_pct": 1.85,
-      "pct_52w": 98.9
+      "close": 3019.19,
+      "prev_close": 3036.98,
+      "change_pct": -0.59,
+      "pct_52w": 96.5
     },
     "vix": {
-      "close": 16.5,
-      "prev_close": 15.86,
-      "change_pct": 4.04,
-      "pct_52w": 14.2
+      "close": 15.81,
+      "prev_close": 16.5,
+      "change_pct": -4.18,
+      "pct_52w": 11.1
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.25,
-      "date": "2026-08-03",
-      "change_pct": -0.7,
-      "prev_value": 4.28
+      "value": 4.2,
+      "date": "2026-08-04",
+      "change_pct": -1.18,
+      "prev_value": 4.25
     },
     "us10y": {
-      "value": 4.7,
-      "date": "2026-08-03",
-      "change_pct": -1.05,
-      "prev_value": 4.75
+      "value": 4.63,
+      "date": "2026-08-04",
+      "change_pct": -1.49,
+      "prev_value": 4.7
     },
     "tips10y": {
-      "value": 2.43,
-      "date": "2026-08-03",
-      "change_pct": -1.62,
-      "prev_value": 2.47
+      "value": 2.4,
+      "date": "2026-08-04",
+      "change_pct": -1.23,
+      "prev_value": 2.43
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.43,
-      "date": "2026-08-04",
-      "change_pct": -4.44,
-      "prev_value": 0.45
+      "value": 0.45,
+      "date": "2026-08-05",
+      "change_pct": 4.65,
+      "prev_value": 0.43
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.78,
-      "date": "2026-08-03",
-      "change_pct": -2.46,
-      "prev_value": 2.85
+      "value": 2.73,
+      "date": "2026-08-04",
+      "change_pct": -1.8,
+      "prev_value": 2.78
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,42 +78,42 @@
       "prev_value": 119.6753
     },
     "usdkrw": {
-      "close": 1428.88,
-      "prev_close": 1428.5,
-      "change_pct": 0.03,
-      "pct_52w": 40.1
+      "close": 1422.01,
+      "prev_close": 1428.43,
+      "change_pct": -0.45,
+      "pct_52w": 37.5
     },
     "usdjpy": {
-      "close": 157.7,
-      "prev_close": 157.53,
-      "change_pct": 0.11,
-      "pct_52w": 64.6
+      "close": 157.6,
+      "prev_close": 157.69,
+      "change_pct": -0.06,
+      "pct_52w": 64.1
     },
     "eurusd": {
-      "close": 1.15,
+      "close": 1.16,
       "prev_close": 1.15,
-      "change_pct": 0.0,
-      "pct_52w": 25.0
+      "change_pct": 0.87,
+      "pct_52w": 39.3
     }
   },
   "commodities": {
     "wti": {
-      "close": 75.19,
-      "prev_close": 80.34,
-      "change_pct": -6.41,
-      "pct_52w": 31.3
+      "close": 75.02,
+      "prev_close": 75.77,
+      "change_pct": -0.99,
+      "pct_52w": 31.1
     },
     "gold": {
-      "close": 4128.1,
-      "prev_close": 4033.7,
-      "change_pct": 2.34,
-      "pct_52w": 35.9
+      "close": 4333.9,
+      "prev_close": 4095.4,
+      "change_pct": 5.82,
+      "pct_52w": 45.0
     },
     "copper": {
-      "close": 6.62,
-      "prev_close": 6.51,
-      "change_pct": 1.69,
-      "pct_52w": 98.6
+      "close": 6.75,
+      "prev_close": 6.62,
+      "change_pct": 1.96,
+      "pct_52w": 99.8
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6747378.0
     },
     "rrp": {
-      "value": 2.251,
-      "date": "2026-08-04",
-      "change_pct": 5.83,
-      "prev_value": 2.127
+      "value": 1.65,
+      "date": "2026-08-05",
+      "change_pct": -26.7,
+      "prev_value": 2.251
     },
     "m2": {
       "value": 23155.2,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 186.9,
-      "change_pct": 4.98,
-      "change_4w": 1.81,
-      "pct_52w": 83.9
+      "close": 185.91,
+      "change_pct": -0.53,
+      "change_4w": 1.27,
+      "pct_52w": 82.5
     },
     "financials": {
-      "close": 57.88,
-      "change_pct": 0.87,
-      "change_4w": 3.1,
-      "pct_52w": 98.7
+      "close": 58.0,
+      "change_pct": 0.21,
+      "change_4w": 3.31,
+      "pct_52w": 96.3
     },
     "energy": {
-      "close": 58.52,
-      "change_pct": -0.46,
-      "change_4w": 10.14,
-      "pct_52w": 79.8
+      "close": 57.31,
+      "change_pct": -2.07,
+      "change_4w": 7.87,
+      "pct_52w": 74.4
     },
     "utilities": {
-      "close": 44.11,
-      "change_pct": -0.56,
-      "change_4w": -2.63,
-      "pct_52w": 55.3
+      "close": 43.66,
+      "change_pct": -1.02,
+      "change_4w": -3.62,
+      "pct_52w": 49.2
     },
     "healthcare": {
-      "close": 162.1,
-      "change_pct": -0.09,
-      "change_4w": 0.09,
-      "pct_52w": 85.0
+      "close": 164.16,
+      "change_pct": 1.27,
+      "change_4w": 1.36,
+      "pct_52w": 89.8
     },
     "consumer_disc": {
-      "close": 118.29,
-      "change_pct": 0.07,
-      "change_4w": 0.24,
-      "pct_52w": 68.1
+      "close": 118.64,
+      "change_pct": 0.3,
+      "change_4w": 0.53,
+      "pct_52w": 69.9
     },
     "industrials": {
-      "close": 186.4,
-      "change_pct": 1.77,
-      "change_4w": 0.45,
-      "pct_52w": 98.9
+      "close": 186.35,
+      "change_pct": -0.03,
+      "change_4w": 0.43,
+      "pct_52w": 95.7
     },
     "materials": {
-      "close": 52.0,
-      "change_pct": 1.94,
-      "change_4w": 0.04,
-      "pct_52w": 86.1
+      "close": 52.64,
+      "change_pct": 1.23,
+      "change_4w": 1.27,
+      "pct_52w": 91.3
     }
   },
   "macro": {
@@ -229,15 +229,15 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 48,
+      "score": 49,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 126.41,
-      "change_pct": -9.68,
-      "signal": "green",
-      "combo_signal": "green",
-      "combo_label": "안정(VIX↓+Skew↓)"
+      "close": 133.32,
+      "change_pct": 5.47,
+      "signal": "yellow",
+      "combo_signal": "orange",
+      "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
@@ -280,60 +280,74 @@
   ],
   "news": [
     {
-      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
-      "url": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "title": "Retail investors are buying the dip on SpaceX’s stock before more shares flood the market",
+      "url": "https://www.marketwatch.com/story/retail-investors-are-buying-the-dip-on-spacexs-stock-before-more-shares-flood-the-market-9f83e00f?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 04 Aug 2026 22:40:00 GMT",
-      "title_ko": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded."
+      "published": "Wed, 05 Aug 2026 21:17:00 GMT",
+      "title_ko": "소매 투자자들이 더 많은 주식이 시장에 나올 때 스페이스엑스의 주식을 사들이고 있다"
     },
     {
-      "title": "Stocks face their weakest seasonal stretch. Why extreme investor pessimism could limit any selling.",
-      "url": "https://www.marketwatch.com/story/stocks-face-their-weakest-seasonal-stretch-why-extreme-investor-pessimism-could-limit-any-selling-768261e9?mod=mw_rss_topstories",
+      "title": "Aggressive options trading helped drive the S&P 500’s latest rally. What that means for investors.",
+      "url": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 04 Aug 2026 21:25:00 GMT",
-      "title_ko": "주식이 가장 약한 계절적 구간에 직면했다. 왜 극단적인 투자자 비관론이 매도 를 제한할 수 있는지"
+      "published": "Wed, 05 Aug 2026 20:51:00 GMT",
+      "title_ko": "공격적인 옵션 거래가 S&P 500의 최근 랠리를 주도했다. 투자자들에게 무슨 일이 일어날 수 있는지"
     },
     {
-      "title": "Traders are using options to chase a runaway rebound in stocks, pushing the market even higher",
-      "url": "https://www.marketwatch.com/story/traders-are-using-options-to-chase-a-runaway-rebound-in-stocks-pushing-the-market-even-higher-9b08d4ab?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 04 Aug 2026 21:00:00 GMT",
-      "title_ko": "거래자들이 옵션을 사용하여 주식의 돌격적인 반등을 추구하며 시장을 더 높이 밀고 있다"
-    },
-    {
-      "title": "So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
-      "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 04 Aug 2026 20:26:00 GMT",
-      "title_ko": "그러면 인플레이션을 낮추기 위한 계획은 무엇인가? 새로운 연방준비제도 이사회 의장과 그의 백악관 동맹국들은 묻지 말라고 한다"
-    },
-    {
-      "title": "The stock market soars. 5 reasons behind the big surge Tuesday",
-      "url": "https://www.cnbc.com/2026/08/04/the-stock-market-soars-5-reasons-behind-the-big-surge-tuesday.html",
+      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
       "source": "CNBC",
-      "published": "Tue, 04 Aug 2026 21:11:05 GMT",
-      "title_ko": "The stock market soars. 5 reasons behind the big surge Tuesday"
+      "published": "Wed, 05 Aug 2026 20:36:16 GMT",
+      "title_ko": "연방준비제도 이사 쿡은 인플레이션을 해결하기 위한 금리 인상을 위해 행동할 준비가 되었다고 말했다"
     },
     {
-      "title": "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
-      "url": "https://www.cnbc.com/2026/08/04/china-apple-india-tata-electronics.html",
+      "title": "Hollywood is cranking out billion-dollar movies again. 'Spider-Man' just joined the ranks",
+      "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
       "source": "CNBC",
-      "published": "Tue, 04 Aug 2026 22:47:43 GMT",
-      "title_ko": "'베이비 아이폰'과 애플 공급업체 유출이 중국의 최근 공급망 동향을 설명하는 방법"
+      "published": "Wed, 05 Aug 2026 21:55:46 GMT",
+      "title_ko": "할리우드는 다시 10억 달러짜리 영화를 제작하고 있다. 스파이더맨이 최근에 그 목록에 합류했다"
     },
     {
-      "title": "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-      "url": "https://www.cnbc.com/2026/08/04/oil-rises-after-selloff-as-talks-to-end-us-iran-war-remain-uncertain.html",
+      "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
+      "url": "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
       "source": "CNBC",
-      "published": "Tue, 04 Aug 2026 18:54:56 GMT",
-      "title_ko": "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week"
+      "published": "Wed, 05 Aug 2026 22:35:26 GMT",
+      "title_ko": "워시와 연방준비제도가 회의 횟수를 줄이는 것을 고민하는 동안 시장은 앞으로의 잠재적 불안정성에 대비하고 있다"
     },
     {
-      "title": "CNBC's The China Connection newsletter: AI wins come with an old investor risk",
-      "url": "https://www.cnbc.com/2026/08/03/cnbcs-the-china-connection-newsletter-ai-wins-create-investor-risks.html",
+      "title": "China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts",
+      "url": "https://www.cnbc.com/2026/08/05/wealthy-chinese-race-for-tax-advice-as-beijing-targets-offshore-trusts.html",
       "source": "CNBC",
-      "published": "Mon, 03 Aug 2026 23:00:01 GMT",
-      "title_ko": "CNBC의 차이나 커넥션 뉴스레터: AI의 승리에는 오래된 투자자 위험이 따른다"
+      "published": "Wed, 05 Aug 2026 06:33:47 GMT",
+      "title_ko": "China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts"
+    },
+    {
+      "title": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+      "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+      "source": "CNBC",
+      "published": "Wed, 05 Aug 2026 21:00:48 GMT",
+      "title_ko": "이엘에프 뷰티가 수입이 100% 증가하면서 관세 환급으로 5천만 달러의 수익을 얻었다"
+    },
+    {
+      "title": "Trump admin refunds $100 billion in 'liberation day' tariffs",
+      "url": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
+      "source": "CNBC",
+      "published": "Wed, 05 Aug 2026 19:31:26 GMT",
+      "title_ko": "트럼프 행정부가 '해방의 날' 관세로 1조 달러를 환급했다"
+    },
+    {
+      "title": "Wall Street's 'fear gauge' is doing something unusual as stocks hit record highs",
+      "url": "https://www.cnbc.com/2026/08/05/wall-streets-fear-gauge-is-doing-something-unusual-as-stocks-hit-record-highs.html",
+      "source": "CNBC",
+      "published": "Wed, 05 Aug 2026 19:18:31 GMT",
+      "title_ko": "월 스트리트의 '공포 지수'가 주식이 최고치에 달할 때 이상한 일을 하고 있다"
+    },
+    {
+      "title": "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
+      "url": "https://www.cnbc.com/2026/08/05/bofa-brian-moynihan-situational-awareness-meltdown-was-a-warning-shot.html",
+      "source": "CNBC",
+      "published": "Wed, 05 Aug 2026 15:55:01 GMT",
+      "title_ko": "상황 인식 헤지 펀드의 붕괴는 레버리지된 시장에 대한 경고였다고 뱅크 오브 아메리카의 최고 경영자가 말했다"
     }
   ]
 }
