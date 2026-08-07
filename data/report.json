@@ -4,70 +4,70 @@
     "date": "2026-08-07",
     "indices": {
       "sp500": {
-        "close": 7709.96,
-        "prev_close": 7723.55,
-        "change_pct": -0.18,
-        "pct_52w": 94.4
+        "close": 7757.64,
+        "prev_close": 7709.96,
+        "change_pct": 0.62,
+        "pct_52w": 97.6
       },
       "nasdaq100": {
-        "close": 29373.33,
-        "prev_close": 29487.79,
-        "change_pct": -0.39,
-        "pct_52w": 82.5
+        "close": 29722.3,
+        "prev_close": 29373.33,
+        "change_pct": 1.19,
+        "pct_52w": 86.9
       },
       "russell": {
-        "close": 3001.55,
-        "prev_close": 3019.19,
-        "change_pct": -0.58,
-        "pct_52w": 94.4
+        "close": 3034.49,
+        "prev_close": 3001.55,
+        "change_pct": 1.1,
+        "pct_52w": 98.3
       },
       "vix": {
-        "close": 15.15,
-        "prev_close": 15.81,
-        "change_pct": -4.17,
-        "pct_52w": 8.1
+        "close": 14.9,
+        "prev_close": 15.15,
+        "change_pct": -1.65,
+        "pct_52w": 6.9
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.18,
-        "date": "2026-08-05",
-        "change_pct": -0.48,
-        "prev_value": 4.2
+        "value": 4.25,
+        "date": "2026-08-06",
+        "change_pct": 1.67,
+        "prev_value": 4.18
       },
       "us10y": {
-        "value": 4.63,
-        "date": "2026-08-05",
-        "change_pct": 0.0,
+        "value": 4.69,
+        "date": "2026-08-06",
+        "change_pct": 1.3,
         "prev_value": 4.63
       },
       "tips10y": {
-        "value": 2.41,
-        "date": "2026-08-05",
-        "change_pct": 0.42,
-        "prev_value": 2.4
+        "value": 2.43,
+        "date": "2026-08-06",
+        "change_pct": 0.83,
+        "prev_value": 2.41
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.44,
-        "date": "2026-08-06",
-        "change_pct": -2.22,
-        "prev_value": 0.45
+        "value": 0.46,
+        "date": "2026-08-07",
+        "change_pct": 4.55,
+        "prev_value": 0.44
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.75,
-        "date": "2026-08-05",
-        "change_pct": 0.73,
-        "prev_value": 2.73
+        "value": 2.71,
+        "date": "2026-08-06",
+        "change_pct": -1.45,
+        "prev_value": 2.75
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,42 +80,42 @@
         "prev_value": 119.6753
       },
       "usdkrw": {
-        "close": 1418.28,
+        "close": 1407.45,
         "prev_close": 1421.16,
-        "change_pct": -0.2,
-        "pct_52w": 36.1
+        "change_pct": -0.96,
+        "pct_52w": 32.1
       },
       "usdjpy": {
-        "close": 158.27,
+        "close": 157.74,
         "prev_close": 157.6,
-        "change_pct": 0.43,
-        "pct_52w": 67.9
+        "change_pct": 0.09,
+        "pct_52w": 64.9
       },
       "eurusd": {
-        "close": 1.15,
+        "close": 1.16,
         "prev_close": 1.16,
-        "change_pct": -0.86,
-        "pct_52w": 25.0
+        "change_pct": 0.0,
+        "pct_52w": 39.3
       }
     },
     "commodities": {
       "wti": {
-        "close": 77.83,
-        "prev_close": 75.22,
-        "change_pct": 3.47,
-        "pct_52w": 35.4
+        "close": 77.08,
+        "prev_close": 77.29,
+        "change_pct": -0.27,
+        "pct_52w": 34.3
       },
       "gold": {
-        "close": 4300.5,
-        "prev_close": 4245.8,
-        "change_pct": 1.29,
-        "pct_52w": 43.5
+        "close": 4401.3,
+        "prev_close": 4242.0,
+        "change_pct": 3.76,
+        "pct_52w": 47.9
       },
       "copper": {
-        "close": 6.72,
-        "prev_close": 6.7,
-        "change_pct": 0.3,
-        "pct_52w": 99.6
+        "close": 6.59,
+        "prev_close": 6.69,
+        "change_pct": -1.49,
+        "pct_52w": 92.7
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6738190.0
       },
       "rrp": {
-        "value": 1.429,
-        "date": "2026-08-06",
-        "change_pct": -13.39,
-        "prev_value": 1.65
+        "value": 1.45,
+        "date": "2026-08-07",
+        "change_pct": 1.47,
+        "prev_value": 1.429
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 185.33,
-        "change_pct": -0.31,
-        "change_4w": 3.43,
-        "pct_52w": 81.7
+        "close": 187.97,
+        "change_pct": 1.42,
+        "change_4w": 3.62,
+        "pct_52w": 85.4
       },
       "financials": {
-        "close": 57.81,
-        "change_pct": -0.33,
-        "change_4w": 3.14,
-        "pct_52w": 94.5
+        "close": 57.6,
+        "change_pct": -0.36,
+        "change_4w": 4.78,
+        "pct_52w": 92.6
       },
       "energy": {
-        "close": 58.16,
-        "change_pct": 1.48,
-        "change_4w": 6.44,
-        "pct_52w": 78.2
+        "close": 57.5,
+        "change_pct": -1.13,
+        "change_4w": 3.42,
+        "pct_52w": 75.2
       },
       "utilities": {
-        "close": 43.38,
-        "change_pct": -0.64,
-        "change_4w": -5.08,
-        "pct_52w": 45.4
+        "close": 43.61,
+        "change_pct": 0.53,
+        "change_4w": -3.86,
+        "pct_52w": 48.5
       },
       "healthcare": {
-        "close": 164.45,
-        "change_pct": 0.18,
-        "change_4w": 0.01,
-        "pct_52w": 90.5
+        "close": 165.68,
+        "change_pct": 0.75,
+        "change_4w": 2.08,
+        "pct_52w": 93.1
       },
       "consumer_disc": {
-        "close": 118.1,
-        "change_pct": -0.46,
-        "change_4w": 0.6,
-        "pct_52w": 67.2
+        "close": 119.86,
+        "change_pct": 1.49,
+        "change_4w": 3.95,
+        "pct_52w": 76.2
       },
       "industrials": {
-        "close": 184.76,
-        "change_pct": -0.85,
-        "change_4w": 1.3,
-        "pct_52w": 91.9
+        "close": 185.18,
+        "change_pct": 0.23,
+        "change_4w": 2.64,
+        "pct_52w": 92.9
       },
       "materials": {
-        "close": 52.17,
-        "change_pct": -0.89,
-        "change_4w": 1.28,
-        "pct_52w": 87.5
+        "close": 52.86,
+        "change_pct": 1.32,
+        "change_4w": 5.38,
+        "pct_52w": 93.1
       }
     },
     "macro": {
@@ -200,10 +200,10 @@
         "change_pct": null
       },
       "unemployment": {
-        "value": 4.2,
-        "date": "2026-06-01",
-        "change_pct": -2.33,
-        "prev_value": 4.3
+        "value": 4.1,
+        "date": "2026-07-01",
+        "change_pct": -2.38,
+        "prev_value": 4.2
       },
       "pce": {
         "value": 3.67,
@@ -235,8 +235,8 @@
         "rating": "Neutral"
       },
       "skew": {
-        "close": 134.73,
-        "change_pct": 1.06,
+        "close": 132.57,
+        "change_pct": -1.6,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,74 +288,95 @@
     ],
     "news": [
       {
-        "title": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
-        "url": "https://www.marketwatch.com/story/as-alphabet-burns-through-cash-on-ai-its-turning-back-to-the-bond-market-04e85f31?mod=mw_rss_topstories",
+        "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+        "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 06 Aug 2026 23:14:00 GMT",
-        "title_ko": "알파벳이 인공지능에 현금을 태우면서 다시 채권시장으로 돌아가고 있다"
+        "published": "Fri, 07 Aug 2026 22:05:00 GMT",
+        "title_ko": "트럼프가 다시 리사 쿡을 해고하려고 한다. 그는 여전히 연준에 자신의 동맹을 배치하고 싶어한다."
       },
       {
-        "title": "Trade Desk shares tumble on earnings miss and weak outlook",
-        "url": "https://www.marketwatch.com/story/trade-desk-shares-tumble-on-earnings-miss-and-weak-outlook-9f4640e9?mod=mw_rss_topstories",
+        "title": "The smart way to invest in gold right now as the dollar slips",
+        "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 06 Aug 2026 22:59:00 GMT",
-        "title_ko": "트레이드 데스크의 실적 미달과 약한 전망에 주가가 급락했다"
+        "published": "Fri, 07 Aug 2026 21:58:00 GMT",
+        "title_ko": "달러가 떨어지면서 지금 금에 현명하게 투자하는 방법"
       },
       {
-        "title": "How to use options to trade stocks around an earnings announcement",
-        "url": "https://www.marketwatch.com/story/how-to-use-options-to-trade-stocks-around-an-earnings-announcement-e1ba7920?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 06 Aug 2026 20:37:00 GMT",
-        "title_ko": "실적 발표 주변 주식 거래를 위해 옵션을 어떻게 사용하는지"
-      },
-      {
-        "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
-        "url": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
+        "title": "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
+        "url": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
         "source": "CNBC",
-        "published": "Fri, 07 Aug 2026 01:00:40 GMT",
-        "title_ko": "이란의 호르무즈 해협에 대한 제한적 초안 계획에 따른 공급 중단 우려로 원유가가 상승했다"
+        "published": "Fri, 07 Aug 2026 17:50:12 GMT",
+        "title_ko": "트럼프는 이란 협상이 실패했지만 시장은 상승했다. 왜 이런 일이 계속 발생하는지"
       },
       {
-        "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
-        "url": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
+        "title": "Here are three key takeaways from the disappointing July jobs report",
+        "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
         "source": "CNBC",
-        "published": "Fri, 07 Aug 2026 00:05:26 GMT",
-        "title_ko": "무기화된 엔: 미국-일본 개입이 글로벌 통화 시장에 미치는 영향"
+        "published": "Fri, 07 Aug 2026 18:09:18 GMT",
+        "title_ko": "실망스러운 7월 고용 보고서에서 얻을 수 있는 세 가지 주요 사항"
       },
       {
-        "title": "The July jobs numbers are due out Friday. Here's what to expect",
-        "url": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+        "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+        "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
         "source": "CNBC",
-        "published": "Thu, 06 Aug 2026 20:15:22 GMT",
-        "title_ko": "금주의 고용률 숫자가 금요일에 발표된다. 무엇을 기대할 수 있는지"
+        "published": "Fri, 07 Aug 2026 20:22:17 GMT",
+        "title_ko": "소프트웨어 주가가 크게 변동하면서 ‘소프트웨어 종말’ 논쟁이 격화되고 있다"
       },
       {
-        "title": "Hollywood is cranking out billion-dollar movies again. 'Spider-Man' just joined the ranks",
-        "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
+        "title": "Trump revives effort to fire Fed's Lisa Cook",
+        "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html",
         "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 21:55:46 GMT",
-        "title_ko": "할리우드는 다시 10억 달러짜리 영화를 제작하고 있다. 스파이더맨이 그 목록에 합류했다"
+        "published": "Fri, 07 Aug 2026 18:38:17 GMT",
+        "title_ko": "트럼프, 연준의 리사 쿡 해고 시도 재개"
+      },
+      {
+        "title": "Falling long-term unemployment isn't good news, economists say — what it means for jobseekers",
+        "url": "https://www.cnbc.com/2026/08/07/long-term-unemployment-job-market-workers-labor-force.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 17:48:28 GMT",
+        "title_ko": "장기 실업률이 떨어지는 것이 좋은 소식은 아니라는 경제학자들의 말 — 구직자에게 의미"
+      },
+      {
+        "title": "Prediction markets take center stage in latest round of quarterly earnings reports",
+        "url": "https://www.cnbc.com/2026/08/07/prediction-markets-take-center-stage-in-latest-quarterly-earnings.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 21:38:57 GMT",
+        "title_ko": "예측 시장은 최근 분기 실적 보고서에서 중심 무대에 서 있다"
+      },
+      {
+        "title": "Top Democrat proposes killing tax breaks for overseas oil production",
+        "url": "https://www.cnbc.com/2026/08/07/martin-heinrich-tax-breaks-overseas-oil-production.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 16:00:01 GMT",
+        "title_ko": "최고의 민주당원이 해외 유정 생산에 대한 세제 혜택을 폐지할 것을 제안했다"
+      },
+      {
+        "title": "Gold bugs spend $180 million betting all's clear for metal as bond yields stall",
+        "url": "https://www.cnbc.com/2026/08/07/gold-bugs-spend-180-million-betting-alls-clear-for-metal-as-bond-yields-stall.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 18:22:56 GMT",
+        "title_ko": "금 투자자들이 금에 대한 전망이 좋다고 판단해 1억 8천만 달러를 투자했다"
+      },
+      {
+        "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+        "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 19:14:22 GMT",
+        "title_ko": "미국 경제는 7월에 예상치와 달리 2만3천개의 일자리를 잃었다"
+      },
+      {
+        "title": "The unwind of Situational Awareness isn't the only reason the AI trade is back",
+        "url": "https://www.cnbc.com/2026/08/07/the-situational-awareness-unwind-is-only-one-reason-the-ai-trade-is-back.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 18:51:29 GMT",
+        "title_ko": "상황 인식의 해체가 인공지능 거래가 다시 돌아오는 유일한 이유는 아니다"
       },
       {
         "title": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
         "url": "https://www.cnbc.com/2026/08/06/doge-elon-musk-gao-government-cost-cuts.html",
         "source": "CNBC",
         "published": "Thu, 06 Aug 2026 22:19:52 GMT",
-        "title_ko": "정부회계감사국은 엘론 머스크의 도지코인에 대한 1조1천억 달러의 연방정부 절감 주장이 과장되었다고 판결했다"
-      },
-      {
-        "title": "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
-        "url": "https://www.cnbc.com/2026/08/06/trump-fed-chairman-kevin-warsh-relationship.html",
-        "source": "CNBC",
-        "published": "Thu, 06 Aug 2026 19:38:44 GMT",
-        "title_ko": "트럼프는 연방준비제도 의장 케빈 워시를 동맹군으로 대우한다. 그것은 경제적 위험을 초래한다"
-      },
-      {
-        "title": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
-        "url": "https://www.cnbc.com/2026/08/06/jim-cramer-5-investing-themes-stocks-to-buy.html",
-        "source": "CNBC",
-        "published": "Thu, 06 Aug 2026 22:23:25 GMT",
-        "title_ko": "짐 크레이머는 5가지 투자 테마와 각 테마에 대한 매수 주식을 강조했다"
+        "title_ko": "정부 회계 사무소는 엘론 머스크의 도지코인에 대한 1천1백억 달러의 연방 정부 절약 주장이 과장되었다고 판결했다"
       }
     ]
   },
@@ -370,10 +391,10 @@
     "sentiment": "yellow",
     "skew": "yellow",
     "combo": "yellow",
-    "unemployment": "yellow",
+    "unemployment": "green",
     "oil": "yellow",
     "gdp": "yellow",
-    "gold_signal": "yellow",
+    "gold_signal": "red",
     "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
@@ -382,9 +403,10 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.2(낮음)+Skew 135(높음)"
+      "숨겨진경고: VIX 14.9(낮음)+Skew 133(높음)",
+      "Gold 극단 위험회피 $4401"
     ],
-    "ratio": 0.55
+    "ratio": 0.575
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
