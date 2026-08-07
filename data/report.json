@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-07",
   "data": {
-    "date": "2026-08-05",
+    "date": "2026-08-07",
     "indices": {
       "sp500": {
-        "close": 7723.55,
-        "prev_close": 7736.52,
-        "change_pct": -0.17,
-        "pct_52w": 95.3
+        "close": 7709.96,
+        "prev_close": 7723.55,
+        "change_pct": -0.18,
+        "pct_52w": 94.4
       },
       "nasdaq100": {
-        "close": 29487.79,
-        "prev_close": 29733.16,
-        "change_pct": -0.83,
-        "pct_52w": 83.9
+        "close": 29373.33,
+        "prev_close": 29487.79,
+        "change_pct": -0.39,
+        "pct_52w": 82.5
       },
       "russell": {
-        "close": 3019.19,
-        "prev_close": 3036.98,
-        "change_pct": -0.59,
-        "pct_52w": 96.5
+        "close": 3001.55,
+        "prev_close": 3019.19,
+        "change_pct": -0.58,
+        "pct_52w": 94.4
       },
       "vix": {
-        "close": 15.81,
-        "prev_close": 16.5,
-        "change_pct": -4.18,
-        "pct_52w": 11.1
+        "close": 15.15,
+        "prev_close": 15.81,
+        "change_pct": -4.17,
+        "pct_52w": 8.1
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.2,
-        "date": "2026-08-04",
-        "change_pct": -1.18,
-        "prev_value": 4.25
+        "value": 4.18,
+        "date": "2026-08-05",
+        "change_pct": -0.48,
+        "prev_value": 4.2
       },
       "us10y": {
         "value": 4.63,
-        "date": "2026-08-04",
-        "change_pct": -1.49,
-        "prev_value": 4.7
+        "date": "2026-08-05",
+        "change_pct": 0.0,
+        "prev_value": 4.63
       },
       "tips10y": {
-        "value": 2.4,
-        "date": "2026-08-04",
-        "change_pct": -1.23,
-        "prev_value": 2.43
+        "value": 2.41,
+        "date": "2026-08-05",
+        "change_pct": 0.42,
+        "prev_value": 2.4
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.45,
-        "date": "2026-08-05",
-        "change_pct": 4.65,
-        "prev_value": 0.43
+        "value": 0.44,
+        "date": "2026-08-06",
+        "change_pct": -2.22,
+        "prev_value": 0.45
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.73,
-        "date": "2026-08-04",
-        "change_pct": -1.8,
-        "prev_value": 2.78
+        "value": 2.75,
+        "date": "2026-08-05",
+        "change_pct": 0.73,
+        "prev_value": 2.73
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-04",
+        "date": "2026-08-05",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,56 +80,56 @@
         "prev_value": 119.6753
       },
       "usdkrw": {
-        "close": 1422.01,
-        "prev_close": 1428.43,
-        "change_pct": -0.45,
-        "pct_52w": 37.5
+        "close": 1418.28,
+        "prev_close": 1421.16,
+        "change_pct": -0.2,
+        "pct_52w": 36.1
       },
       "usdjpy": {
-        "close": 157.6,
-        "prev_close": 157.69,
-        "change_pct": -0.06,
-        "pct_52w": 64.1
+        "close": 158.27,
+        "prev_close": 157.6,
+        "change_pct": 0.43,
+        "pct_52w": 67.9
       },
       "eurusd": {
-        "close": 1.16,
-        "prev_close": 1.15,
-        "change_pct": 0.87,
-        "pct_52w": 39.3
+        "close": 1.15,
+        "prev_close": 1.16,
+        "change_pct": -0.86,
+        "pct_52w": 25.0
       }
     },
     "commodities": {
       "wti": {
-        "close": 75.02,
-        "prev_close": 75.77,
-        "change_pct": -0.99,
-        "pct_52w": 31.1
+        "close": 77.83,
+        "prev_close": 75.22,
+        "change_pct": 3.47,
+        "pct_52w": 35.4
       },
       "gold": {
-        "close": 4333.9,
-        "prev_close": 4095.4,
-        "change_pct": 5.82,
-        "pct_52w": 45.0
+        "close": 4300.5,
+        "prev_close": 4245.8,
+        "change_pct": 1.29,
+        "pct_52w": 43.5
       },
       "copper": {
-        "close": 6.75,
-        "prev_close": 6.62,
-        "change_pct": 1.96,
-        "pct_52w": 99.8
+        "close": 6.72,
+        "prev_close": 6.7,
+        "change_pct": 0.3,
+        "pct_52w": 99.6
       }
     },
     "liquidity": {
       "fed_bs": {
-        "value": 6738190.0,
-        "date": "2026-07-29",
-        "change_pct": -0.14,
-        "prev_value": 6747378.0
+        "value": 6748567.0,
+        "date": "2026-08-05",
+        "change_pct": 0.15,
+        "prev_value": 6738190.0
       },
       "rrp": {
-        "value": 1.65,
-        "date": "2026-08-05",
-        "change_pct": -26.7,
-        "prev_value": 2.251
+        "value": 1.429,
+        "date": "2026-08-06",
+        "change_pct": -13.39,
+        "prev_value": 1.65
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 185.91,
-        "change_pct": -0.53,
-        "change_4w": 1.27,
-        "pct_52w": 82.5
+        "close": 185.33,
+        "change_pct": -0.31,
+        "change_4w": 3.43,
+        "pct_52w": 81.7
       },
       "financials": {
-        "close": 58.0,
-        "change_pct": 0.21,
-        "change_4w": 3.31,
-        "pct_52w": 96.3
+        "close": 57.81,
+        "change_pct": -0.33,
+        "change_4w": 3.14,
+        "pct_52w": 94.5
       },
       "energy": {
-        "close": 57.31,
-        "change_pct": -2.07,
-        "change_4w": 7.87,
-        "pct_52w": 74.4
+        "close": 58.16,
+        "change_pct": 1.48,
+        "change_4w": 6.44,
+        "pct_52w": 78.2
       },
       "utilities": {
-        "close": 43.66,
-        "change_pct": -1.02,
-        "change_4w": -3.62,
-        "pct_52w": 49.2
+        "close": 43.38,
+        "change_pct": -0.64,
+        "change_4w": -5.08,
+        "pct_52w": 45.4
       },
       "healthcare": {
-        "close": 164.16,
-        "change_pct": 1.27,
-        "change_4w": 1.36,
-        "pct_52w": 89.8
+        "close": 164.45,
+        "change_pct": 0.18,
+        "change_4w": 0.01,
+        "pct_52w": 90.5
       },
       "consumer_disc": {
-        "close": 118.64,
-        "change_pct": 0.3,
-        "change_4w": 0.53,
-        "pct_52w": 69.9
+        "close": 118.1,
+        "change_pct": -0.46,
+        "change_4w": 0.6,
+        "pct_52w": 67.2
       },
       "industrials": {
-        "close": 186.35,
-        "change_pct": -0.03,
-        "change_4w": 0.43,
-        "pct_52w": 95.7
+        "close": 184.76,
+        "change_pct": -0.85,
+        "change_4w": 1.3,
+        "pct_52w": 91.9
       },
       "materials": {
-        "close": 52.64,
-        "change_pct": 1.23,
-        "change_4w": 1.27,
-        "pct_52w": 91.3
+        "close": 52.17,
+        "change_pct": -0.89,
+        "change_4w": 1.28,
+        "pct_52w": 87.5
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 49,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 133.32,
-        "change_pct": 5.47,
+        "close": 134.73,
+        "change_pct": 1.06,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -278,78 +278,84 @@
         "event": "FOMC 금리 결정",
         "category": "fed",
         "impact": "high"
+      },
+      {
+        "date": "2026-09-17",
+        "event": "FOMC 기자회견",
+        "category": "fed",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "Retail investors are buying the dip on SpaceX’s stock before more shares flood the market",
-        "url": "https://www.marketwatch.com/story/retail-investors-are-buying-the-dip-on-spacexs-stock-before-more-shares-flood-the-market-9f83e00f?mod=mw_rss_topstories",
+        "title": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
+        "url": "https://www.marketwatch.com/story/as-alphabet-burns-through-cash-on-ai-its-turning-back-to-the-bond-market-04e85f31?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 05 Aug 2026 21:17:00 GMT",
-        "title_ko": "소매 투자자들이 더 많은 주식이 시장에 나올 때 스페이스엑스의 주식을 사들이고 있다"
+        "published": "Thu, 06 Aug 2026 23:14:00 GMT",
+        "title_ko": "알파벳이 인공지능에 현금을 태우면서 다시 채권시장으로 돌아가고 있다"
       },
       {
-        "title": "Aggressive options trading helped drive the S&P 500’s latest rally. What that means for investors.",
-        "url": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
+        "title": "Trade Desk shares tumble on earnings miss and weak outlook",
+        "url": "https://www.marketwatch.com/story/trade-desk-shares-tumble-on-earnings-miss-and-weak-outlook-9f4640e9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 05 Aug 2026 20:51:00 GMT",
-        "title_ko": "공격적인 옵션 거래가 S&P 500의 최근 랠리를 주도했다. 투자자들에게 무슨 일이 일어날 수 있는지"
+        "published": "Thu, 06 Aug 2026 22:59:00 GMT",
+        "title_ko": "트레이드 데스크의 실적 미달과 약한 전망에 주가가 급락했다"
       },
       {
-        "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-        "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+        "title": "How to use options to trade stocks around an earnings announcement",
+        "url": "https://www.marketwatch.com/story/how-to-use-options-to-trade-stocks-around-an-earnings-announcement-e1ba7920?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Thu, 06 Aug 2026 20:37:00 GMT",
+        "title_ko": "실적 발표 주변 주식 거래를 위해 옵션을 어떻게 사용하는지"
+      },
+      {
+        "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
         "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 20:36:16 GMT",
-        "title_ko": "연방준비제도 이사 쿡은 인플레이션을 해결하기 위한 금리 인상을 위해 행동할 준비가 되었다고 말했다"
+        "published": "Fri, 07 Aug 2026 01:00:40 GMT",
+        "title_ko": "이란의 호르무즈 해협에 대한 제한적 초안 계획에 따른 공급 중단 우려로 원유가가 상승했다"
+      },
+      {
+        "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
+        "url": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
+        "source": "CNBC",
+        "published": "Fri, 07 Aug 2026 00:05:26 GMT",
+        "title_ko": "무기화된 엔: 미국-일본 개입이 글로벌 통화 시장에 미치는 영향"
+      },
+      {
+        "title": "The July jobs numbers are due out Friday. Here's what to expect",
+        "url": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+        "source": "CNBC",
+        "published": "Thu, 06 Aug 2026 20:15:22 GMT",
+        "title_ko": "금주의 고용률 숫자가 금요일에 발표된다. 무엇을 기대할 수 있는지"
       },
       {
         "title": "Hollywood is cranking out billion-dollar movies again. 'Spider-Man' just joined the ranks",
         "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
         "source": "CNBC",
         "published": "Wed, 05 Aug 2026 21:55:46 GMT",
-        "title_ko": "할리우드는 다시 10억 달러짜리 영화를 제작하고 있다. 스파이더맨이 최근에 그 목록에 합류했다"
+        "title_ko": "할리우드는 다시 10억 달러짜리 영화를 제작하고 있다. 스파이더맨이 그 목록에 합류했다"
       },
       {
-        "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-        "url": "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
+        "title": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
+        "url": "https://www.cnbc.com/2026/08/06/doge-elon-musk-gao-government-cost-cuts.html",
         "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 22:35:26 GMT",
-        "title_ko": "워시와 연방준비제도가 회의 횟수를 줄이는 것을 고민하는 동안 시장은 앞으로의 잠재적 불안정성에 대비하고 있다"
+        "published": "Thu, 06 Aug 2026 22:19:52 GMT",
+        "title_ko": "정부회계감사국은 엘론 머스크의 도지코인에 대한 1조1천억 달러의 연방정부 절감 주장이 과장되었다고 판결했다"
       },
       {
-        "title": "China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts",
-        "url": "https://www.cnbc.com/2026/08/05/wealthy-chinese-race-for-tax-advice-as-beijing-targets-offshore-trusts.html",
+        "title": "Analysis: Trump treats Fed Chairman Kevin Warsh as an ally. That creates economic risks",
+        "url": "https://www.cnbc.com/2026/08/06/trump-fed-chairman-kevin-warsh-relationship.html",
         "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 06:33:47 GMT",
-        "title_ko": "China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts"
+        "published": "Thu, 06 Aug 2026 19:38:44 GMT",
+        "title_ko": "트럼프는 연방준비제도 의장 케빈 워시를 동맹군으로 대우한다. 그것은 경제적 위험을 초래한다"
       },
       {
-        "title": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
-        "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+        "title": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
+        "url": "https://www.cnbc.com/2026/08/06/jim-cramer-5-investing-themes-stocks-to-buy.html",
         "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 21:00:48 GMT",
-        "title_ko": "이엘에프 뷰티가 수입이 100% 증가하면서 관세 환급으로 5천만 달러의 수익을 얻었다"
-      },
-      {
-        "title": "Trump admin refunds $100 billion in 'liberation day' tariffs",
-        "url": "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html",
-        "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 19:31:26 GMT",
-        "title_ko": "트럼프 행정부가 '해방의 날' 관세로 1조 달러를 환급했다"
-      },
-      {
-        "title": "Wall Street's 'fear gauge' is doing something unusual as stocks hit record highs",
-        "url": "https://www.cnbc.com/2026/08/05/wall-streets-fear-gauge-is-doing-something-unusual-as-stocks-hit-record-highs.html",
-        "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 19:18:31 GMT",
-        "title_ko": "월 스트리트의 '공포 지수'가 주식이 최고치에 달할 때 이상한 일을 하고 있다"
-      },
-      {
-        "title": "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
-        "url": "https://www.cnbc.com/2026/08/05/bofa-brian-moynihan-situational-awareness-meltdown-was-a-warning-shot.html",
-        "source": "CNBC",
-        "published": "Wed, 05 Aug 2026 15:55:01 GMT",
-        "title_ko": "상황 인식 헤지 펀드의 붕괴는 레버리지된 시장에 대한 경고였다고 뱅크 오브 아메리카의 최고 경영자가 말했다"
+        "published": "Thu, 06 Aug 2026 22:23:25 GMT",
+        "title_ko": "짐 크레이머는 5가지 투자 테마와 각 테마에 대한 매수 주식을 강조했다"
       }
     ]
   },
@@ -360,15 +366,15 @@
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "yellow",
+    "sector": "green",
     "sentiment": "yellow",
     "skew": "yellow",
     "combo": "yellow",
     "unemployment": "yellow",
     "oil": "yellow",
     "gdp": "yellow",
-    "gold_signal": "red",
-    "copper": "green",
+    "gold_signal": "yellow",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -376,8 +382,7 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.8(낮음)+Skew 133(높음)",
-      "Gold 극단 위험회피 $4334"
+      "숨겨진경고: VIX 15.2(낮음)+Skew 135(높음)"
     ],
     "ratio": 0.55
   },
