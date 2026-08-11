@@ -1,59 +1,59 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "data": {
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "indices": {
       "sp500": {
-        "close": 7753.11,
-        "prev_close": 7757.64,
-        "change_pct": -0.06,
-        "pct_52w": 97.3
+        "close": 7728.2,
+        "prev_close": 7753.11,
+        "change_pct": -0.32,
+        "pct_52w": 95.6
       },
       "nasdaq100": {
-        "close": 29621.8,
-        "prev_close": 29722.3,
-        "change_pct": -0.34,
-        "pct_52w": 85.6
+        "close": 29525.48,
+        "prev_close": 29621.8,
+        "change_pct": -0.33,
+        "pct_52w": 84.4
       },
       "russell": {
-        "close": 3017.4,
-        "prev_close": 3034.49,
-        "change_pct": -0.56,
-        "pct_52w": 96.2
+        "close": 3027.12,
+        "prev_close": 3017.4,
+        "change_pct": 0.32,
+        "pct_52w": 97.3
       },
       "vix": {
-        "close": 15.46,
-        "prev_close": 14.9,
-        "change_pct": 3.76,
-        "pct_52w": 9.5
+        "close": 15.28,
+        "prev_close": 15.46,
+        "change_pct": -1.16,
+        "pct_52w": 8.7
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.19,
-        "date": "2026-08-07",
-        "change_pct": -1.41,
-        "prev_value": 4.25
+        "value": 4.25,
+        "date": "2026-08-10",
+        "change_pct": 1.43,
+        "prev_value": 4.19
       },
       "us10y": {
-        "value": 4.65,
-        "date": "2026-08-07",
-        "change_pct": -0.85,
-        "prev_value": 4.69
+        "value": 4.72,
+        "date": "2026-08-10",
+        "change_pct": 1.51,
+        "prev_value": 4.65
       },
       "tips10y": {
-        "value": 2.4,
-        "date": "2026-08-07",
-        "change_pct": -1.23,
-        "prev_value": 2.43
+        "value": 2.43,
+        "date": "2026-08-10",
+        "change_pct": 1.25,
+        "prev_value": 2.4
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.47,
-        "date": "2026-08-10",
-        "change_pct": 2.17,
-        "prev_value": 0.46
+        "value": 0.48,
+        "date": "2026-08-11",
+        "change_pct": 2.13,
+        "prev_value": 0.47
       },
       "us5s30s": {
         "value": null,
@@ -61,13 +61,13 @@
       },
       "hy_spread": {
         "value": 2.7,
-        "date": "2026-08-07",
-        "change_pct": -0.37,
-        "prev_value": 2.71
+        "date": "2026-08-10",
+        "change_pct": 0.0,
+        "prev_value": 2.7
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-07",
+        "date": "2026-08-10",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,42 +80,42 @@
         "prev_value": 119.5113
       },
       "usdkrw": {
-        "close": 1418.12,
-        "prev_close": 1407.0,
-        "change_pct": 0.79,
-        "pct_52w": 36.1
+        "close": 1412.35,
+        "prev_close": 1417.31,
+        "change_pct": -0.35,
+        "pct_52w": 33.9
       },
       "usdjpy": {
         "close": 159.28,
-        "prev_close": 157.89,
-        "change_pct": 0.88,
+        "prev_close": 159.16,
+        "change_pct": 0.08,
         "pct_52w": 73.5
       },
       "eurusd": {
         "close": 1.15,
-        "prev_close": 1.16,
-        "change_pct": -0.86,
+        "prev_close": 1.15,
+        "change_pct": 0.0,
         "pct_52w": 25.0
       }
     },
     "commodities": {
       "wti": {
-        "close": 82.07,
-        "prev_close": 82.07,
-        "change_pct": 0.0,
-        "pct_52w": 42.0
+        "close": 83.51,
+        "prev_close": 82.13,
+        "change_pct": 1.68,
+        "pct_52w": 44.2
       },
       "gold": {
-        "close": 4454.5,
-        "prev_close": 4454.5,
-        "change_pct": 0.0,
-        "pct_52w": 50.3
+        "close": 4432.0,
+        "prev_close": 4361.8,
+        "change_pct": 1.61,
+        "pct_52w": 49.3
       },
       "copper": {
-        "close": 6.63,
-        "prev_close": 6.63,
-        "change_pct": 0.0,
-        "pct_52w": 95.8
+        "close": 6.64,
+        "prev_close": 6.59,
+        "change_pct": 0.76,
+        "pct_52w": 96.2
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6738190.0
       },
       "rrp": {
-        "value": 0.975,
-        "date": "2026-08-10",
-        "change_pct": -32.76,
-        "prev_value": 1.45
+        "value": 1.25,
+        "date": "2026-08-11",
+        "change_pct": 28.21,
+        "prev_value": 0.975
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 186.32,
-        "change_pct": -0.88,
-        "change_4w": 2.78,
-        "pct_52w": 83.1
+        "close": 186.09,
+        "change_pct": -0.12,
+        "change_4w": 2.65,
+        "pct_52w": 82.8
       },
       "financials": {
-        "close": 57.81,
-        "change_pct": 0.36,
-        "change_4w": 3.1,
-        "pct_52w": 94.5
+        "close": 57.8,
+        "change_pct": -0.02,
+        "change_4w": 3.09,
+        "pct_52w": 94.4
       },
       "energy": {
-        "close": 60.18,
-        "change_pct": 4.66,
-        "change_4w": 6.06,
-        "pct_52w": 87.3
+        "close": 60.93,
+        "change_pct": 1.25,
+        "change_4w": 7.38,
+        "pct_52w": 90.6
       },
       "utilities": {
-        "close": 43.13,
-        "change_pct": -1.1,
-        "change_4w": -5.66,
-        "pct_52w": 42.0
+        "close": 43.63,
+        "change_pct": 1.16,
+        "change_4w": -4.57,
+        "pct_52w": 48.8
       },
       "healthcare": {
-        "close": 168.44,
-        "change_pct": 1.67,
-        "change_4w": 4.36,
-        "pct_52w": 99.8
+        "close": 168.01,
+        "change_pct": -0.26,
+        "change_4w": 4.09,
+        "pct_52w": 96.0
       },
       "consumer_disc": {
-        "close": 119.67,
-        "change_pct": -0.16,
-        "change_4w": 3.13,
-        "pct_52w": 75.2
+        "close": 119.24,
+        "change_pct": -0.36,
+        "change_4w": 2.76,
+        "pct_52w": 73.0
       },
       "industrials": {
-        "close": 184.6,
-        "change_pct": -0.31,
-        "change_4w": 2.35,
-        "pct_52w": 91.5
+        "close": 185.7,
+        "change_pct": 0.6,
+        "change_4w": 2.96,
+        "pct_52w": 94.1
       },
       "materials": {
-        "close": 53.18,
-        "change_pct": 0.61,
-        "change_4w": 5.14,
-        "pct_52w": 95.7
+        "close": 53.24,
+        "change_pct": 0.11,
+        "change_4w": 5.26,
+        "pct_52w": 96.2
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 50,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 137.13,
-        "change_pct": 3.44,
+        "close": 135.59,
+        "change_pct": -1.12,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -282,67 +282,60 @@
     ],
     "news": [
       {
-        "title": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
-        "url": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
+        "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+        "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 10 Aug 2026 21:32:00 GMT",
-        "title_ko": "월 스트리트는 인플레이션이 통제되고 있다고 생각한다. 하지만 투자자들은 왜 그것을 믿지 말아야 하는지"
+        "published": "Tue, 11 Aug 2026 21:00:00 GMT",
+        "title_ko": "시장은 분명히 불타고 있는데 내 주식 계좌에서 1,000달러를 꺼내서 자동차 대출을 갚아야 할까"
       },
       {
-        "title": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
-        "url": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Mon, 10 Aug 2026 21:14:00 GMT",
-        "title_ko": "나는 투자 목적으로 싱가포르에서 집을 사는 것을 고려해 보았다. 하지만 2% 모기지 금리에도 불구하고 왜 사지 않았는지"
-      },
-      {
-        "title": "CNBC's The China Connection newsletter: 'Spider-Man' and 'The Odyssey' come courting the massive filmgoer market",
-        "url": "https://www.cnbc.com/2026/08/11/hollywood-returns-to-china-as-chinese-rivals-push-abroad.html",
+        "title": "Trump says NYC pied-à-terre tax 'must be stopped,' eyes federal block",
+        "url": "https://www.cnbc.com/2026/08/11/trump-nyc-pied-a-terre-tax-mamdani-lawsuit.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 23:00:14 GMT",
-        "title_ko": "CNBC의 차이나 커넥션 뉴스레터: 거대한 영화 시장에 접근하려는 스파이더맨과 오디세이"
+        "published": "Tue, 11 Aug 2026 18:10:10 GMT",
+        "title_ko": "트럼프, 뉴욕시 피에타지 세금을 중단해야 한다며 연방 차단을 고려"
       },
       {
-        "title": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
-        "url": "https://www.cnbc.com/2026/08/10/trump-spoke-to-fed-chair-kevin-warsh-denies-regular-calls.html",
+        "title": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
+        "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 21:23:04 GMT",
-        "title_ko": "트럼프는 최근 연준 의장 워시와 통화했다고 말하며 정기적인 통화를 부인했다"
+        "published": "Tue, 11 Aug 2026 21:01:13 GMT",
+        "title_ko": "젠슨 황의 5000억 달러 인공지능 자금 조달 계획이 중국으로부터 큰 위험에 직면한 이유"
       },
       {
-        "title": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
-        "url": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html",
+        "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+        "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 18:43:06 GMT",
-        "title_ko": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983"
+        "published": "Tue, 11 Aug 2026 18:34:41 GMT",
+        "title_ko": "수요일에 발표될 인플레이션 보고서는 연방준비제도에 큰 관심을 끌 것임. 여기서 기대할 수 있는 것"
       },
       {
-        "title": "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
-        "url": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+        "title": "Parents could put pretax paycheck money into Trump Accounts, with employers matching, Treasury says",
+        "url": "https://www.cnbc.com/2026/08/11/trump-accounts-employer-match-paycheck-contributions-treasury.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 19:26:30 GMT",
-        "title_ko": "미국의 원유 가격은 워싱턴과 테헤란이 호르무즈 협정을 체결할 것에 대한 의구심이 커지면서 다시 82달러 이상으로 상승했다"
+        "published": "Tue, 11 Aug 2026 15:29:22 GMT",
+        "title_ko": "부모들은 트럼프 계좌에 세전 급여 금액을 넣을 수 있으며, 고용주는 일치시킬 것이라고 재무부는 말함"
       },
       {
-        "title": "Three reasons Goldman's co-head of global banking and markets says to stay invested",
-        "url": "https://www.cnbc.com/2026/08/10/three-reasons-goldmans-co-head-of-global-banking-and-markets-says-to-stay-invested.html",
+        "title": "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
+        "url": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 18:36:26 GMT",
-        "title_ko": "골드만삭스의 글로벌 뱅킹 및 시장 공동 책임자가 투자 유지에 대한 세 가지 이유를 설명했다"
+        "published": "Tue, 11 Aug 2026 19:11:58 GMT",
+        "title_ko": "미국의 원유 가격은 이란의 호르무즈 해협 개방 조건을 충족할 때까지 열리지 않을 것이라는 발언에 83달러 이상으로 상승"
       },
       {
-        "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
-        "url": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
+        "title": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
+        "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
         "source": "CNBC",
-        "published": "Fri, 07 Aug 2026 14:18:00 GMT",
-        "title_ko": "무기화된 엔: 미일 간의 개입이 글로벌 통화 시장에 미치는 영향"
+        "published": "Tue, 11 Aug 2026 16:12:27 GMT",
+        "title_ko": "중국이 200억 달러의 거래를 풀어야 했던 메타와의 거래 이후 맨수는 독립 회사로 돌아옴"
       },
       {
-        "title": "Wednesday’s crucial CPI report will show tamer inflation, according to prediction markets",
-        "url": "https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html",
+        "title": "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
+        "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
         "source": "CNBC",
-        "published": "Mon, 10 Aug 2026 16:42:04 GMT",
-        "title_ko": "수요일에 발표될 중요 CPI 보고서는 예측 시장에 따르면 더 완만한 인플레이션을 보여줄 것"
+        "published": "Tue, 11 Aug 2026 14:56:43 GMT",
+        "title_ko": "워싱턴과 테헤란이 배상 요구를 교환함에 따라 파키스탄, 미이란 협상에서 진전을 보인 것으로 나타남"
       }
     ]
   },
@@ -360,7 +353,7 @@
     "unemployment": "green",
     "oil": "yellow",
     "gdp": "yellow",
-    "gold_signal": "yellow",
+    "gold_signal": "red",
     "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
@@ -369,7 +362,8 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.5(낮음)+Skew 137(높음)"
+      "숨겨진경고: VIX 15.3(낮음)+Skew 136(높음)",
+      "Gold 극단 위험회피 $4432"
     ],
     "ratio": 0.55
   },
