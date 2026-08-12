@@ -1,71 +1,71 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "indices": {
     "sp500": {
-      "close": 7728.2,
-      "prev_close": 7753.11,
-      "change_pct": -0.32,
-      "pct_52w": 95.6
+      "close": 7748.5,
+      "prev_close": 7728.2,
+      "change_pct": 0.26,
+      "pct_52w": 96.9
     },
     "nasdaq100": {
-      "close": 29525.48,
-      "prev_close": 29621.8,
-      "change_pct": -0.33,
-      "pct_52w": 84.4
+      "close": 29742.6,
+      "prev_close": 29525.48,
+      "change_pct": 0.74,
+      "pct_52w": 87.1
     },
     "russell": {
-      "close": 3027.12,
-      "prev_close": 3017.4,
-      "change_pct": 0.32,
-      "pct_52w": 97.3
+      "close": 3045.48,
+      "prev_close": 3027.12,
+      "change_pct": 0.61,
+      "pct_52w": 99.3
     },
     "vix": {
-      "close": 15.28,
-      "prev_close": 15.46,
-      "change_pct": -1.16,
-      "pct_52w": 8.7
+      "close": 14.55,
+      "prev_close": 15.28,
+      "change_pct": -4.78,
+      "pct_52w": 5.3
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.25,
-      "date": "2026-08-10",
-      "change_pct": 1.43,
-      "prev_value": 4.19
+      "value": 4.22,
+      "date": "2026-08-11",
+      "change_pct": -0.71,
+      "prev_value": 4.25
     },
     "us10y": {
-      "value": 4.72,
-      "date": "2026-08-10",
-      "change_pct": 1.51,
-      "prev_value": 4.65
+      "value": 4.7,
+      "date": "2026-08-11",
+      "change_pct": -0.42,
+      "prev_value": 4.72
     },
     "tips10y": {
       "value": 2.43,
-      "date": "2026-08-10",
-      "change_pct": 1.25,
-      "prev_value": 2.4
+      "date": "2026-08-11",
+      "change_pct": 0.0,
+      "prev_value": 2.43
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.48,
-      "date": "2026-08-11",
-      "change_pct": 2.13,
-      "prev_value": 0.47
+      "date": "2026-08-12",
+      "change_pct": 0.0,
+      "prev_value": 0.48
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.7,
-      "date": "2026-08-10",
-      "change_pct": 0.0,
+      "value": 2.72,
+      "date": "2026-08-11",
+      "change_pct": 0.74,
       "prev_value": 2.7
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 119.5113
     },
     "usdkrw": {
-      "close": 1412.35,
-      "prev_close": 1417.31,
-      "change_pct": -0.35,
-      "pct_52w": 33.9
+      "close": 1417.24,
+      "prev_close": 1412.18,
+      "change_pct": 0.36,
+      "pct_52w": 35.7
     },
     "usdjpy": {
-      "close": 159.28,
-      "prev_close": 159.16,
+      "close": 159.38,
+      "prev_close": 159.26,
       "change_pct": 0.08,
-      "pct_52w": 73.5
+      "pct_52w": 74.1
     },
     "eurusd": {
       "close": 1.15,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 83.51,
-      "prev_close": 82.13,
-      "change_pct": 1.68,
-      "pct_52w": 44.2
+      "close": 82.76,
+      "prev_close": 83.2,
+      "change_pct": -0.53,
+      "pct_52w": 43.1
     },
     "gold": {
-      "close": 4432.0,
-      "prev_close": 4361.8,
-      "change_pct": 1.61,
-      "pct_52w": 49.3
+      "close": 4467.4,
+      "prev_close": 4383.0,
+      "change_pct": 1.93,
+      "pct_52w": 50.8
     },
     "copper": {
-      "close": 6.64,
-      "prev_close": 6.59,
-      "change_pct": 0.76,
-      "pct_52w": 96.2
+      "close": 6.61,
+      "prev_close": 6.61,
+      "change_pct": 0.0,
+      "pct_52w": 94.9
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6738190.0
     },
     "rrp": {
-      "value": 1.25,
-      "date": "2026-08-11",
-      "change_pct": 28.21,
-      "prev_value": 0.975
+      "value": 0.725,
+      "date": "2026-08-12",
+      "change_pct": -42.0,
+      "prev_value": 1.25
     },
     "m2": {
       "value": 23155.2,
@@ -138,63 +138,63 @@
   },
   "sectors": {
     "tech": {
-      "close": 186.09,
-      "change_pct": -0.12,
-      "change_4w": 2.65,
-      "pct_52w": 82.8
+      "close": 188.86,
+      "change_pct": 1.49,
+      "change_4w": 4.18,
+      "pct_52w": 86.6
     },
     "financials": {
-      "close": 57.8,
-      "change_pct": -0.02,
-      "change_4w": 3.09,
-      "pct_52w": 94.4
+      "close": 57.92,
+      "change_pct": 0.21,
+      "change_4w": 3.3,
+      "pct_52w": 95.5
     },
     "energy": {
-      "close": 60.93,
-      "change_pct": 1.25,
-      "change_4w": 7.38,
-      "pct_52w": 90.6
+      "close": 61.03,
+      "change_pct": 0.16,
+      "change_4w": 7.56,
+      "pct_52w": 91.0
     },
     "utilities": {
-      "close": 43.63,
-      "change_pct": 1.16,
-      "change_4w": -4.57,
-      "pct_52w": 48.8
+      "close": 43.84,
+      "change_pct": 0.48,
+      "change_4w": -4.11,
+      "pct_52w": 51.6
     },
     "healthcare": {
-      "close": 168.01,
-      "change_pct": -0.26,
-      "change_4w": 4.09,
-      "pct_52w": 96.0
+      "close": 168.44,
+      "change_pct": 0.26,
+      "change_4w": 4.36,
+      "pct_52w": 97.0
     },
     "consumer_disc": {
-      "close": 119.24,
-      "change_pct": -0.36,
-      "change_4w": 2.76,
-      "pct_52w": 73.0
+      "close": 117.89,
+      "change_pct": -1.13,
+      "change_4w": 1.59,
+      "pct_52w": 66.1
     },
     "industrials": {
-      "close": 185.7,
-      "change_pct": 0.6,
-      "change_4w": 2.96,
-      "pct_52w": 94.1
+      "close": 185.88,
+      "change_pct": 0.1,
+      "change_4w": 3.05,
+      "pct_52w": 94.5
     },
     "materials": {
-      "close": 53.24,
-      "change_pct": 0.11,
-      "change_4w": 5.26,
-      "pct_52w": 96.2
+      "close": 52.58,
+      "change_pct": -1.24,
+      "change_4w": 3.95,
+      "pct_52w": 90.8
     }
   },
   "macro": {
     "cpi_yoy": {
-      "value": 3.73,
-      "date": "2026-06-01",
+      "value": 3.54,
+      "date": "2026-07-01",
       "change_pct": null
     },
     "core_cpi": {
-      "value": 2.81,
-      "date": "2026-06-01",
+      "value": 2.79,
+      "date": "2026-07-01",
       "change_pct": null
     },
     "unemployment": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 51,
+      "score": 52,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 135.59,
-      "change_pct": -1.12,
+      "close": 136.54,
+      "change_pct": 0.7,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -280,60 +280,95 @@
   ],
   "news": [
     {
-      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "title": "China’s next economic ambition: workshop for the Muslim world",
+      "url": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 11 Aug 2026 21:00:00 GMT",
-      "title_ko": "시장은 분명히 불타고 있는데 내 주식 계좌에서 1,000달러를 꺼내서 자동차 대출을 갚아야 할까"
+      "published": "Wed, 12 Aug 2026 22:35:00 GMT",
+      "title_ko": "중국의 다음 경제 야망은 이슬람 세계를 위한 공장입니다"
     },
     {
-      "title": "Trump says NYC pied-à-terre tax 'must be stopped,' eyes federal block",
-      "url": "https://www.cnbc.com/2026/08/11/trump-nyc-pied-a-terre-tax-mamdani-lawsuit.html",
-      "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 18:10:10 GMT",
-      "title_ko": "트럼프, 뉴욕시 피에타지 세금을 중단해야 한다며 연방 차단을 고려"
+      "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
+      "url": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Wed, 12 Aug 2026 22:34:00 GMT",
+      "title_ko": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own"
     },
     {
-      "title": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-      "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
-      "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 21:01:13 GMT",
-      "title_ko": "젠슨 황의 5000억 달러 인공지능 자금 조달 계획이 중국으로부터 큰 위험에 직면한 이유"
+      "title": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
+      "url": "https://www.marketwatch.com/story/lumentums-stock-surges-giving-a-further-boost-to-the-optical-networking-trade-0ee46339?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Wed, 12 Aug 2026 22:31:00 GMT",
+      "title_ko": "루멘텀의 주가가 급등하면서 광통신 거래에 더 큰 부스트를 줍니다"
     },
     {
-      "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
-      "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
-      "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 18:34:41 GMT",
-      "title_ko": "수요일에 발표될 인플레이션 보고서는 연방준비제도에 큰 관심을 끌 것임. 여기서 기대할 수 있는 것"
+      "title": "Chip stocks are closing in on a bull market. Here’s why some analysts are nervous.",
+      "url": "https://www.marketwatch.com/story/chip-stocks-are-closing-in-on-a-bull-market-heres-why-some-analysts-are-nervous-2a180b75?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Wed, 12 Aug 2026 21:08:00 GMT",
+      "title_ko": "반도체 주가가 황소 시장에 근접하고 있습니다. 일부 분석가들이 신경 쓰는 이유는 무엇입니까"
     },
     {
-      "title": "Parents could put pretax paycheck money into Trump Accounts, with employers matching, Treasury says",
-      "url": "https://www.cnbc.com/2026/08/11/trump-accounts-employer-match-paycheck-contributions-treasury.html",
+      "title": "Here are five key takeaways from the July CPI inflation report",
+      "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
       "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 15:29:22 GMT",
-      "title_ko": "부모들은 트럼프 계좌에 세전 급여 금액을 넣을 수 있으며, 고용주는 일치시킬 것이라고 재무부는 말함"
+      "published": "Wed, 12 Aug 2026 17:14:09 GMT",
+      "title_ko": "7월 소비자 물가 지수 보고서에서 얻을 수 있는 다섯 가지 주요 사항입니다"
     },
     {
-      "title": "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
-      "url": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
+      "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+      "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
       "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 19:11:58 GMT",
-      "title_ko": "미국의 원유 가격은 이란의 호르무즈 해협 개방 조건을 충족할 때까지 열리지 않을 것이라는 발언에 83달러 이상으로 상승"
+      "published": "Wed, 12 Aug 2026 14:27:35 GMT",
+      "title_ko": "7월 소비자 물가는 0.1% 상승했으며 예상대로 연간 물가 상승률은 3.4%입니다"
     },
     {
-      "title": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
-      "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
+      "title": "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
+      "url": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
       "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 16:12:27 GMT",
-      "title_ko": "중국이 200억 달러의 거래를 풀어야 했던 메타와의 거래 이후 맨수는 독립 회사로 돌아옴"
+      "published": "Wed, 12 Aug 2026 21:04:18 GMT",
+      "title_ko": "사우디아라비아는 홍해의 공격을 피하기 위해 지중해 파이프라인을 통해 원유 수출을 늘립니다"
     },
     {
-      "title": "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
-      "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
+      "title": "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
+      "url": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
       "source": "CNBC",
-      "published": "Tue, 11 Aug 2026 14:56:43 GMT",
-      "title_ko": "워싱턴과 테헤란이 배상 요구를 교환함에 따라 파키스탄, 미이란 협상에서 진전을 보인 것으로 나타남"
+      "published": "Wed, 12 Aug 2026 01:20:13 GMT",
+      "title_ko": "전기차가 중국 자동차 시장에서 지배적입니다. 국가의 최신 자동차 판매 데이터에서 얻을 수 있는 다섯 가지 사항입니다"
+    },
+    {
+      "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
+      "url": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html",
+      "source": "CNBC",
+      "published": "Wed, 12 Aug 2026 13:15:36 GMT",
+      "title_ko": "보잉과 에어버스의 중국 대응이 첫 국제 비행을 합니다. COMAC이 항공 양대 구도를 도전할 수 있을까요"
+    },
+    {
+      "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction",
+      "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+      "source": "CNBC",
+      "published": "Wed, 12 Aug 2026 23:38:02 GMT",
+      "title_ko": "Where gold price is headed next as Fed rate hike and inflation odds change direction"
+    },
+    {
+      "title": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
+      "url": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
+      "source": "CNBC",
+      "published": "Wed, 12 Aug 2026 20:16:05 GMT",
+      "title_ko": "코어웨이브가 인공지능 거래의 핵심 베어 케이스를 반박합니다. 데이터 센터 주식에 대한 의미는 무엇입니까"
+    },
+    {
+      "title": "Here's the inflation breakdown for July 2026 — in one chart",
+      "url": "https://www.cnbc.com/2026/08/12/inflation-breakdown-for-july-2026-cpi-in-one-chart.html",
+      "source": "CNBC",
+      "published": "Wed, 12 Aug 2026 17:51:16 GMT",
+      "title_ko": "2026년 7월 물가 상승률의 세부 사항입니다. 하나의 차트로"
+    },
+    {
+      "title": "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
+      "url": "https://www.cnbc.com/2026/08/12/amazon-shares-appear-stuck-in-a-rut-trader-mike-khouw-is-betting-things-will-stay-that-way.html",
+      "source": "CNBC",
+      "published": "Wed, 12 Aug 2026 15:53:24 GMT",
+      "title_ko": "아마존 주가는 정체된 것처럼 보입니다. 트레이더 마이크 코우는 상황이 그대로 유지될 것이라고 내다봅니다"
     }
   ]
 }
