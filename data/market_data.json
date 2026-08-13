@@ -1,55 +1,55 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "indices": {
     "sp500": {
-      "close": 7748.5,
-      "prev_close": 7728.2,
-      "change_pct": 0.26,
-      "pct_52w": 96.9
+      "close": 7798.99,
+      "prev_close": 7748.5,
+      "change_pct": 0.65,
+      "pct_52w": 98.8
     },
     "nasdaq100": {
-      "close": 29742.6,
-      "prev_close": 29525.48,
-      "change_pct": 0.74,
-      "pct_52w": 87.1
+      "close": 30084.5,
+      "prev_close": 29742.6,
+      "change_pct": 1.15,
+      "pct_52w": 91.4
     },
     "russell": {
-      "close": 3045.48,
-      "prev_close": 3027.12,
-      "change_pct": 0.61,
-      "pct_52w": 99.3
+      "close": 3052.85,
+      "prev_close": 3045.48,
+      "change_pct": 0.24,
+      "pct_52w": 98.4
     },
     "vix": {
-      "close": 14.55,
-      "prev_close": 15.28,
-      "change_pct": -4.78,
-      "pct_52w": 5.3
+      "close": 14.63,
+      "prev_close": 14.55,
+      "change_pct": 0.55,
+      "pct_52w": 5.7
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.22,
-      "date": "2026-08-11",
-      "change_pct": -0.71,
-      "prev_value": 4.25
+      "value": 4.2,
+      "date": "2026-08-12",
+      "change_pct": -0.47,
+      "prev_value": 4.22
     },
     "us10y": {
-      "value": 4.7,
-      "date": "2026-08-11",
-      "change_pct": -0.42,
-      "prev_value": 4.72
+      "value": 4.68,
+      "date": "2026-08-12",
+      "change_pct": -0.43,
+      "prev_value": 4.7
     },
     "tips10y": {
-      "value": 2.43,
-      "date": "2026-08-11",
-      "change_pct": 0.0,
+      "value": 2.42,
+      "date": "2026-08-12",
+      "change_pct": -0.41,
       "prev_value": 2.43
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.48,
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "change_pct": 0.0,
       "prev_value": 0.48
     },
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 2.72,
-      "date": "2026-08-11",
-      "change_pct": 0.74,
-      "prev_value": 2.7
+      "value": 2.71,
+      "date": "2026-08-12",
+      "change_pct": -0.37,
+      "prev_value": 2.72
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 119.5113
     },
     "usdkrw": {
-      "close": 1417.24,
-      "prev_close": 1412.18,
-      "change_pct": 0.36,
-      "pct_52w": 35.7
+      "close": 1418.15,
+      "prev_close": 1416.46,
+      "change_pct": 0.12,
+      "pct_52w": 36.1
     },
     "usdjpy": {
-      "close": 159.38,
-      "prev_close": 159.26,
-      "change_pct": 0.08,
-      "pct_52w": 74.1
+      "close": 159.47,
+      "prev_close": 159.33,
+      "change_pct": 0.09,
+      "pct_52w": 74.6
     },
     "eurusd": {
       "close": 1.15,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 82.76,
-      "prev_close": 83.2,
-      "change_pct": -0.53,
-      "pct_52w": 43.1
+      "close": 81.22,
+      "prev_close": 83.27,
+      "change_pct": -2.46,
+      "pct_52w": 40.7
     },
     "gold": {
-      "close": 4467.4,
-      "prev_close": 4383.0,
-      "change_pct": 1.93,
-      "pct_52w": 50.8
+      "close": 4417.9,
+      "prev_close": 4408.9,
+      "change_pct": 0.2,
+      "pct_52w": 48.7
     },
     "copper": {
-      "close": 6.61,
-      "prev_close": 6.61,
-      "change_pct": 0.0,
-      "pct_52w": 94.9
+      "close": 6.59,
+      "prev_close": 6.6,
+      "change_pct": -0.15,
+      "pct_52w": 94.1
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6748567.0,
-      "date": "2026-08-05",
-      "change_pct": 0.15,
-      "prev_value": 6738190.0
+      "value": 6759955.0,
+      "date": "2026-08-12",
+      "change_pct": 0.17,
+      "prev_value": 6748567.0
     },
     "rrp": {
-      "value": 0.725,
-      "date": "2026-08-12",
-      "change_pct": -42.0,
-      "prev_value": 1.25
+      "value": 0.45,
+      "date": "2026-08-13",
+      "change_pct": -37.93,
+      "prev_value": 0.725
     },
     "m2": {
       "value": 23155.2,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 188.86,
-      "change_pct": 1.49,
-      "change_4w": 4.18,
-      "pct_52w": 86.6
+      "close": 190.77,
+      "change_pct": 1.01,
+      "change_4w": 3.89,
+      "pct_52w": 89.3
     },
     "financials": {
-      "close": 57.92,
-      "change_pct": 0.21,
-      "change_4w": 3.3,
-      "pct_52w": 95.5
+      "close": 58.26,
+      "change_pct": 0.59,
+      "change_4w": 3.7,
+      "pct_52w": 98.6
     },
     "energy": {
-      "close": 61.03,
-      "change_pct": 0.16,
-      "change_4w": 7.56,
-      "pct_52w": 91.0
+      "close": 61.06,
+      "change_pct": 0.05,
+      "change_4w": 7.22,
+      "pct_52w": 91.2
     },
     "utilities": {
-      "close": 43.84,
-      "change_pct": 0.48,
-      "change_4w": -4.11,
-      "pct_52w": 51.6
+      "close": 44.04,
+      "change_pct": 0.46,
+      "change_4w": -3.61,
+      "pct_52w": 54.3
     },
     "healthcare": {
-      "close": 168.44,
-      "change_pct": 0.26,
-      "change_4w": 4.36,
-      "pct_52w": 97.0
+      "close": 168.38,
+      "change_pct": -0.04,
+      "change_4w": 6.37,
+      "pct_52w": 96.6
     },
     "consumer_disc": {
-      "close": 117.89,
-      "change_pct": -1.13,
-      "change_4w": 1.59,
-      "pct_52w": 66.1
+      "close": 118.45,
+      "change_pct": 0.48,
+      "change_4w": 2.2,
+      "pct_52w": 69.0
     },
     "industrials": {
-      "close": 185.88,
-      "change_pct": 0.1,
-      "change_4w": 3.05,
-      "pct_52w": 94.5
+      "close": 185.79,
+      "change_pct": -0.05,
+      "change_4w": 2.96,
+      "pct_52w": 94.3
     },
     "materials": {
-      "close": 52.58,
-      "change_pct": -1.24,
-      "change_4w": 3.95,
-      "pct_52w": 90.8
+      "close": 52.31,
+      "change_pct": -0.51,
+      "change_4w": 3.3,
+      "pct_52w": 88.6
     }
   },
   "macro": {
@@ -233,20 +233,14 @@
       "rating": "Neutral"
     },
     "skew": {
-      "close": 136.54,
-      "change_pct": 0.7,
+      "close": 134.37,
+      "change_pct": -1.59,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-08-12",
-      "event": "CPI 발표 (7월)",
-      "category": "cpi",
-      "impact": "high"
-    },
     {
       "date": "2026-08-28",
       "event": "PCE 발표 (7월)",
@@ -280,95 +274,60 @@
   ],
   "news": [
     {
-      "title": "China’s next economic ambition: workshop for the Muslim world",
-      "url": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
+      "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 12 Aug 2026 22:35:00 GMT",
-      "title_ko": "중국의 다음 경제 야망은 이슬람 세계를 위한 공장입니다"
+      "published": "Thu, 13 Aug 2026 22:40:00 GMT",
+      "title_ko": "레딧이 몇 개월 간의 추측 끝에 S&P 500에 합류했다. 분석가들은 이러한 우려를 가지고 있다."
     },
     {
-      "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
-      "url": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+      "title": "Markets are looking eerily calm as investors chase FOMO rally",
+      "url": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 12 Aug 2026 22:34:00 GMT",
-      "title_ko": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own"
+      "published": "Thu, 13 Aug 2026 22:05:00 GMT",
+      "title_ko": "투자자들이 Fear of Missing Out 랠리를 추구하면서 시장은 기이하게 평온해 보인다"
     },
     {
-      "title": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
-      "url": "https://www.marketwatch.com/story/lumentums-stock-surges-giving-a-further-boost-to-the-optical-networking-trade-0ee46339?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 12 Aug 2026 22:31:00 GMT",
-      "title_ko": "루멘텀의 주가가 급등하면서 광통신 거래에 더 큰 부스트를 줍니다"
-    },
-    {
-      "title": "Chip stocks are closing in on a bull market. Here’s why some analysts are nervous.",
-      "url": "https://www.marketwatch.com/story/chip-stocks-are-closing-in-on-a-bull-market-heres-why-some-analysts-are-nervous-2a180b75?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 12 Aug 2026 21:08:00 GMT",
-      "title_ko": "반도체 주가가 황소 시장에 근접하고 있습니다. 일부 분석가들이 신경 쓰는 이유는 무엇입니까"
-    },
-    {
-      "title": "Here are five key takeaways from the July CPI inflation report",
-      "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
+      "title": "Trade court upholds Trump's closure of 'de minimis' loophole",
+      "url": "https://www.cnbc.com/2026/08/13/trump-trade-court-de-minimis-tariffs-ieepa.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 17:14:09 GMT",
-      "title_ko": "7월 소비자 물가 지수 보고서에서 얻을 수 있는 다섯 가지 주요 사항입니다"
+      "published": "Thu, 13 Aug 2026 19:56:06 GMT",
+      "title_ko": "무역법원은 트럼프의 최소한의 규제 허용 폐지를 유지했다"
     },
     {
-      "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
-      "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+      "title": "Reddit stock jumps on inclusion in S&P 500",
+      "url": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 14:27:35 GMT",
-      "title_ko": "7월 소비자 물가는 0.1% 상승했으며 예상대로 연간 물가 상승률은 3.4%입니다"
+      "published": "Thu, 13 Aug 2026 23:04:21 GMT",
+      "title_ko": "S&P 500에 포함됨에 따라 레딧 주가가 상승했다"
     },
     {
-      "title": "Saudi Arabia ramps up oil exports through Mediterranean pipeline to avoid attacks in Red Sea",
-      "url": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html",
+      "title": "These charts show why stocks keep rallying. Profit margins are the highest on record",
+      "url": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 21:04:18 GMT",
-      "title_ko": "사우디아라비아는 홍해의 공격을 피하기 위해 지중해 파이프라인을 통해 원유 수출을 늘립니다"
+      "published": "Thu, 13 Aug 2026 20:21:51 GMT",
+      "title_ko": "이러한 차트는 왜 주가가 계속 상승하는지를 보여준다. 이익률은 역대 최고이다"
     },
     {
-      "title": "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
-      "url": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
+      "title": "South Korea’s Kospi has staged a stunning comeback. How long will the bull market last?",
+      "url": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-surge.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 01:20:13 GMT",
-      "title_ko": "전기차가 중국 자동차 시장에서 지배적입니다. 국가의 최신 자동차 판매 데이터에서 얻을 수 있는 다섯 가지 사항입니다"
+      "published": "Thu, 13 Aug 2026 05:22:03 GMT",
+      "title_ko": "한국의 코스피가 놀라운 반등을 이루었다. 불황 시장은 얼마나 지속될 것인가?"
     },
     {
-      "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
-      "url": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html",
+      "title": "Wisconsin, Michigan primaries expose limits of polls and prediction markets",
+      "url": "https://www.cnbc.com/2026/08/13/midterm-democrats-polling-primary-wisconsin-michigan-minnesota.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 13:15:36 GMT",
-      "title_ko": "보잉과 에어버스의 중국 대응이 첫 국제 비행을 합니다. COMAC이 항공 양대 구도를 도전할 수 있을까요"
+      "published": "Thu, 13 Aug 2026 12:30:01 GMT",
+      "title_ko": "위스콘신과 미시간의 예비선거는 여론조사와 예측 시장의 한계를 드러냈다"
     },
     {
-      "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction",
-      "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
+      "url": "https://www.cnbc.com/2026/08/13/greenland-energy-oil-drilling-trump.html",
       "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 23:38:02 GMT",
-      "title_ko": "Where gold price is headed next as Fed rate hike and inflation odds change direction"
-    },
-    {
-      "title": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
-      "url": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
-      "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 20:16:05 GMT",
-      "title_ko": "코어웨이브가 인공지능 거래의 핵심 베어 케이스를 반박합니다. 데이터 센터 주식에 대한 의미는 무엇입니까"
-    },
-    {
-      "title": "Here's the inflation breakdown for July 2026 — in one chart",
-      "url": "https://www.cnbc.com/2026/08/12/inflation-breakdown-for-july-2026-cpi-in-one-chart.html",
-      "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 17:51:16 GMT",
-      "title_ko": "2026년 7월 물가 상승률의 세부 사항입니다. 하나의 차트로"
-    },
-    {
-      "title": "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
-      "url": "https://www.cnbc.com/2026/08/12/amazon-shares-appear-stuck-in-a-rut-trader-mike-khouw-is-betting-things-will-stay-that-way.html",
-      "source": "CNBC",
-      "published": "Wed, 12 Aug 2026 15:53:24 GMT",
-      "title_ko": "아마존 주가는 정체된 것처럼 보입니다. 트레이더 마이크 코우는 상황이 그대로 유지될 것이라고 내다봅니다"
+      "published": "Thu, 13 Aug 2026 16:06:38 GMT",
+      "title_ko": "Trump-linked oil venture delays Greenland drilling plans after government warning"
     }
   ]
 }
