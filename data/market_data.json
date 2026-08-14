@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "indices": {
     "sp500": {
-      "close": 7798.99,
-      "prev_close": 7748.5,
-      "change_pct": 0.65,
-      "pct_52w": 98.8
+      "close": 7785.76,
+      "prev_close": 7798.99,
+      "change_pct": -0.17,
+      "pct_52w": 97.9
     },
     "nasdaq100": {
-      "close": 30084.5,
-      "prev_close": 29742.6,
-      "change_pct": 1.15,
-      "pct_52w": 91.4
+      "close": 30046.14,
+      "prev_close": 30084.5,
+      "change_pct": -0.13,
+      "pct_52w": 91.0
     },
     "russell": {
-      "close": 3052.85,
-      "prev_close": 3045.48,
-      "change_pct": 0.24,
-      "pct_52w": 98.4
+      "close": 3068.42,
+      "prev_close": 3052.85,
+      "change_pct": 0.51,
+      "pct_52w": 99.8
     },
     "vix": {
-      "close": 14.63,
-      "prev_close": 14.55,
-      "change_pct": 0.55,
-      "pct_52w": 5.7
+      "close": 14.25,
+      "prev_close": 14.63,
+      "change_pct": -2.6,
+      "pct_52w": 4.0
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.2,
-      "date": "2026-08-12",
-      "change_pct": -0.47,
-      "prev_value": 4.22
+      "value": 4.15,
+      "date": "2026-08-13",
+      "change_pct": -1.19,
+      "prev_value": 4.2
     },
     "us10y": {
-      "value": 4.68,
-      "date": "2026-08-12",
-      "change_pct": -0.43,
-      "prev_value": 4.7
+      "value": 4.63,
+      "date": "2026-08-13",
+      "change_pct": -1.07,
+      "prev_value": 4.68
     },
     "tips10y": {
-      "value": 2.42,
-      "date": "2026-08-12",
-      "change_pct": -0.41,
-      "prev_value": 2.43
+      "value": 2.39,
+      "date": "2026-08-13",
+      "change_pct": -1.24,
+      "prev_value": 2.42
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.48,
-      "date": "2026-08-13",
-      "change_pct": 0.0,
+      "value": 0.51,
+      "date": "2026-08-14",
+      "change_pct": 6.25,
       "prev_value": 0.48
     },
     "us5s30s": {
@@ -59,13 +59,13 @@
     },
     "hy_spread": {
       "value": 2.71,
-      "date": "2026-08-12",
-      "change_pct": -0.37,
-      "prev_value": 2.72
+      "date": "2026-08-13",
+      "change_pct": 0.0,
+      "prev_value": 2.71
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,42 +78,42 @@
       "prev_value": 119.5113
     },
     "usdkrw": {
-      "close": 1418.15,
+      "close": 1416.48,
       "prev_close": 1416.46,
-      "change_pct": 0.12,
-      "pct_52w": 36.1
+      "change_pct": 0.0,
+      "pct_52w": 35.5
     },
     "usdjpy": {
-      "close": 159.47,
+      "close": 159.3,
       "prev_close": 159.33,
-      "change_pct": 0.09,
-      "pct_52w": 74.6
+      "change_pct": -0.02,
+      "pct_52w": 73.7
     },
     "eurusd": {
-      "close": 1.15,
+      "close": 1.16,
       "prev_close": 1.15,
-      "change_pct": 0.0,
-      "pct_52w": 25.0
+      "change_pct": 0.87,
+      "pct_52w": 39.3
     }
   },
   "commodities": {
     "wti": {
-      "close": 81.22,
-      "prev_close": 83.27,
-      "change_pct": -2.46,
-      "pct_52w": 40.7
+      "close": 82.4,
+      "prev_close": 81.25,
+      "change_pct": 1.42,
+      "pct_52w": 42.5
     },
     "gold": {
-      "close": 4417.9,
-      "prev_close": 4408.9,
-      "change_pct": 0.2,
-      "pct_52w": 48.7
+      "close": 4432.0,
+      "prev_close": 4363.6,
+      "change_pct": 1.57,
+      "pct_52w": 49.3
     },
     "copper": {
-      "close": 6.59,
-      "prev_close": 6.6,
-      "change_pct": -0.15,
-      "pct_52w": 94.1
+      "close": 6.61,
+      "prev_close": 6.59,
+      "change_pct": 0.3,
+      "pct_52w": 94.9
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6748567.0
     },
     "rrp": {
-      "value": 0.45,
-      "date": "2026-08-13",
-      "change_pct": -37.93,
-      "prev_value": 0.725
+      "value": 0.25,
+      "date": "2026-08-14",
+      "change_pct": -44.44,
+      "prev_value": 0.45
     },
     "m2": {
       "value": 23155.2,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 190.77,
-      "change_pct": 1.01,
-      "change_4w": 3.89,
-      "pct_52w": 89.3
+      "close": 190.01,
+      "change_pct": -0.4,
+      "change_4w": 4.64,
+      "pct_52w": 88.2
     },
     "financials": {
-      "close": 58.26,
-      "change_pct": 0.59,
-      "change_4w": 3.7,
-      "pct_52w": 98.6
+      "close": 58.16,
+      "change_pct": -0.17,
+      "change_4w": 2.83,
+      "pct_52w": 97.7
     },
     "energy": {
-      "close": 61.06,
-      "change_pct": 0.05,
-      "change_4w": 7.22,
-      "pct_52w": 91.2
+      "close": 61.91,
+      "change_pct": 1.39,
+      "change_4w": 9.58,
+      "pct_52w": 95.0
     },
     "utilities": {
-      "close": 44.04,
-      "change_pct": 0.46,
-      "change_4w": -3.61,
-      "pct_52w": 54.3
+      "close": 44.31,
+      "change_pct": 0.61,
+      "change_4w": -2.01,
+      "pct_52w": 58.0
     },
     "healthcare": {
-      "close": 168.38,
-      "change_pct": -0.04,
-      "change_4w": 6.37,
-      "pct_52w": 96.6
+      "close": 167.37,
+      "change_pct": -0.6,
+      "change_4w": 5.74,
+      "pct_52w": 93.8
     },
     "consumer_disc": {
-      "close": 118.45,
-      "change_pct": 0.48,
-      "change_4w": 2.2,
-      "pct_52w": 69.0
+      "close": 118.2,
+      "change_pct": -0.21,
+      "change_4w": 1.03,
+      "pct_52w": 67.7
     },
     "industrials": {
-      "close": 185.79,
-      "change_pct": -0.05,
-      "change_4w": 2.96,
-      "pct_52w": 94.3
+      "close": 186.51,
+      "change_pct": 0.39,
+      "change_4w": 3.58,
+      "pct_52w": 96.0
     },
     "materials": {
-      "close": 52.31,
-      "change_pct": -0.51,
-      "change_4w": 3.3,
-      "pct_52w": 88.6
+      "close": 52.54,
+      "change_pct": 0.44,
+      "change_4w": 4.04,
+      "pct_52w": 90.5
     }
   },
   "macro": {
@@ -233,8 +233,8 @@
       "rating": "Neutral"
     },
     "skew": {
-      "close": 134.37,
-      "change_pct": -1.59,
+      "close": 138.36,
+      "change_pct": 2.97,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -270,64 +270,77 @@
       "event": "FOMC 기자회견",
       "category": "fed",
       "impact": "high"
+    },
+    {
+      "date": "2026-09-25",
+      "event": "PCE 발표 (8월)",
+      "category": "pce",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
-      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
+      "url": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 13 Aug 2026 22:40:00 GMT",
-      "title_ko": "레딧이 몇 개월 간의 추측 끝에 S&P 500에 합류했다. 분석가들은 이러한 우려를 가지고 있다."
+      "published": "Fri, 14 Aug 2026 21:34:00 GMT",
+      "title_ko": "버크셔 해서웨이, 미국 주택 시장에 새로운 투자로 베팅"
     },
     {
-      "title": "Markets are looking eerily calm as investors chase FOMO rally",
-      "url": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
+      "title": "16 beaten-down AI stocks that are beloved by BofA analysts",
+      "url": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 13 Aug 2026 22:05:00 GMT",
-      "title_ko": "투자자들이 Fear of Missing Out 랠리를 추구하면서 시장은 기이하게 평온해 보인다"
+      "published": "Fri, 14 Aug 2026 19:09:00 GMT",
+      "title_ko": "BofA 분석가들이 좋아하는 16개의 약세를 보이는 인공지능 주식"
     },
     {
-      "title": "Trade court upholds Trump's closure of 'de minimis' loophole",
-      "url": "https://www.cnbc.com/2026/08/13/trump-trade-court-de-minimis-tariffs-ieepa.html",
-      "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 19:56:06 GMT",
-      "title_ko": "무역법원은 트럼프의 최소한의 규제 허용 폐지를 유지했다"
+      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 14 Aug 2026 18:30:00 GMT",
+      "title_ko": "시장은 분명히 불타고 있다: 1,000달러를 인출해 자동차 대출을 상환해야 할까"
     },
     {
-      "title": "Reddit stock jumps on inclusion in S&P 500",
-      "url": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html",
-      "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 23:04:21 GMT",
-      "title_ko": "S&P 500에 포함됨에 따라 레딧 주가가 상승했다"
+      "title": "Think interest rates are high now? These charts offers a different perspective.",
+      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 14 Aug 2026 17:51:00 GMT",
+      "title_ko": "지금 금리들이 높은 것으로 생각한다면 차트는 다른 관점을 제공한다"
     },
     {
-      "title": "These charts show why stocks keep rallying. Profit margins are the highest on record",
-      "url": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
-      "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 20:21:51 GMT",
-      "title_ko": "이러한 차트는 왜 주가가 계속 상승하는지를 보여준다. 이익률은 역대 최고이다"
+      "title": "Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO",
+      "url": "https://www.marketwatch.com/story/luigi-mangione-pleads-guilty-to-stalking-health-insurance-ceo-in-federal-court-d941ce3f?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Fri, 14 Aug 2026 17:40:00 GMT",
+      "title_ko": "Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO"
     },
     {
-      "title": "South Korea’s Kospi has staged a stunning comeback. How long will the bull market last?",
-      "url": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-surge.html",
+      "title": "Regulators and banks step up scrutiny of prediction markets",
+      "url": "https://www.cnbc.com/2026/08/14/prediction-markets-scrutiny-mounts-from-regulators-and-banks.html",
       "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 05:22:03 GMT",
-      "title_ko": "한국의 코스피가 놀라운 반등을 이루었다. 불황 시장은 얼마나 지속될 것인가?"
+      "published": "Fri, 14 Aug 2026 19:21:49 GMT",
+      "title_ko": "규제 기관과 은행, 예측 시장에 대한 검토 강화"
     },
     {
-      "title": "Wisconsin, Michigan primaries expose limits of polls and prediction markets",
-      "url": "https://www.cnbc.com/2026/08/13/midterm-democrats-polling-primary-wisconsin-michigan-minnesota.html",
+      "title": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
+      "url": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html",
       "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 12:30:01 GMT",
-      "title_ko": "위스콘신과 미시간의 예비선거는 여론조사와 예측 시장의 한계를 드러냈다"
+      "published": "Fri, 14 Aug 2026 19:50:11 GMT",
+      "title_ko": "루이지 마니오네, 유나이티드 헬스케어 CEO 살인 관련 연방 사건에서 유죄 판결"
     },
     {
-      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
-      "url": "https://www.cnbc.com/2026/08/13/greenland-energy-oil-drilling-trump.html",
+      "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+      "url": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
       "source": "CNBC",
-      "published": "Thu, 13 Aug 2026 16:06:38 GMT",
-      "title_ko": "Trump-linked oil venture delays Greenland drilling plans after government warning"
+      "published": "Fri, 14 Aug 2026 13:24:54 GMT",
+      "title_ko": "구리 거래가 트럼프의 다음 관세 조치의 실시간 지표가 되는 방법"
+    },
+    {
+      "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
+      "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
+      "source": "CNBC",
+      "published": "Fri, 14 Aug 2026 01:02:39 GMT",
+      "title_ko": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe"
     }
   ]
 }
