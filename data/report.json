@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "data": {
-    "date": "2026-08-18",
+    "date": "2026-08-19",
     "indices": {
       "sp500": {
-        "close": 7691.76,
-        "prev_close": 7745.06,
-        "change_pct": -0.69,
-        "pct_52w": 91.7
+        "close": 7707.98,
+        "prev_close": 7691.76,
+        "change_pct": 0.21,
+        "pct_52w": 92.8
       },
       "nasdaq100": {
-        "close": 29490.96,
-        "prev_close": 29995.38,
-        "change_pct": -1.68,
-        "pct_52w": 84.0
+        "close": 29426.02,
+        "prev_close": 29490.96,
+        "change_pct": -0.22,
+        "pct_52w": 83.1
       },
       "russell": {
-        "close": 3017.89,
-        "prev_close": 3057.54,
-        "change_pct": -1.3,
-        "pct_52w": 93.7
+        "close": 3032.94,
+        "prev_close": 3017.89,
+        "change_pct": 0.5,
+        "pct_52w": 95.5
       },
       "vix": {
-        "close": 15.84,
-        "prev_close": 15.19,
-        "change_pct": 4.28,
-        "pct_52w": 11.2
+        "close": 14.89,
+        "prev_close": 15.84,
+        "change_pct": -6.0,
+        "pct_52w": 6.9
       }
     },
     "rates": {
       "us2y": {
         "value": 4.19,
-        "date": "2026-08-17",
-        "change_pct": 0.48,
-        "prev_value": 4.17
+        "date": "2026-08-18",
+        "change_pct": 0.0,
+        "prev_value": 4.19
       },
       "us10y": {
-        "value": 4.72,
-        "date": "2026-08-17",
-        "change_pct": 0.85,
-        "prev_value": 4.68
+        "value": 4.71,
+        "date": "2026-08-18",
+        "change_pct": -0.21,
+        "prev_value": 4.72
       },
       "tips10y": {
-        "value": 2.44,
-        "date": "2026-08-17",
-        "change_pct": 1.24,
-        "prev_value": 2.41
+        "value": 2.41,
+        "date": "2026-08-18",
+        "change_pct": -1.23,
+        "prev_value": 2.44
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.52,
-        "date": "2026-08-18",
-        "change_pct": -1.89,
-        "prev_value": 0.53
+        "value": 0.46,
+        "date": "2026-08-19",
+        "change_pct": -11.54,
+        "prev_value": 0.52
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.7,
-        "date": "2026-08-17",
-        "change_pct": 1.12,
-        "prev_value": 2.67
+        "value": 2.75,
+        "date": "2026-08-18",
+        "change_pct": 1.85,
+        "prev_value": 2.7
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-17",
+        "date": "2026-08-18",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,42 +80,42 @@
         "prev_value": 119.1848
       },
       "usdkrw": {
-        "close": 1412.32,
-        "prev_close": 1414.73,
-        "change_pct": -0.17,
-        "pct_52w": 33.9
+        "close": 1388.79,
+        "prev_close": 1413.58,
+        "change_pct": -1.75,
+        "pct_52w": 25.0
       },
       "usdjpy": {
-        "close": 159.57,
-        "prev_close": 159.34,
-        "change_pct": 0.14,
-        "pct_52w": 75.2
+        "close": 158.22,
+        "prev_close": 159.55,
+        "change_pct": -0.83,
+        "pct_52w": 67.6
       },
       "eurusd": {
-        "close": 1.16,
+        "close": 1.17,
         "prev_close": 1.16,
-        "change_pct": 0.0,
-        "pct_52w": 39.3
+        "change_pct": 0.86,
+        "pct_52w": 53.7
       }
     },
     "commodities": {
       "wti": {
-        "close": 84.49,
-        "prev_close": 84.5,
-        "change_pct": -0.01,
-        "pct_52w": 45.8
+        "close": 84.46,
+        "prev_close": 84.94,
+        "change_pct": -0.57,
+        "pct_52w": 45.7
       },
       "gold": {
-        "close": 4387.7,
-        "prev_close": 4417.8,
-        "change_pct": -0.68,
-        "pct_52w": 47.3
+        "close": 4577.5,
+        "prev_close": 4366.0,
+        "change_pct": 4.84,
+        "pct_52w": 55.7
       },
       "copper": {
-        "close": 6.45,
-        "prev_close": 6.6,
-        "change_pct": -2.27,
-        "pct_52w": 88.0
+        "close": 6.51,
+        "prev_close": 6.48,
+        "change_pct": 0.46,
+        "pct_52w": 90.6
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6748567.0
       },
       "rrp": {
-        "value": 0.155,
-        "date": "2026-08-18",
-        "change_pct": -39.22,
-        "prev_value": 0.255
+        "value": 0.317,
+        "date": "2026-08-19",
+        "change_pct": 104.52,
+        "prev_value": 0.155
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 185.62,
-        "change_pct": -2.47,
-        "change_4w": 5.64,
-        "pct_52w": 82.1
+        "close": 183.64,
+        "change_pct": -1.07,
+        "change_4w": 4.51,
+        "pct_52w": 79.4
       },
       "financials": {
-        "close": 57.84,
-        "change_pct": 0.45,
-        "change_4w": 3.21,
-        "pct_52w": 94.8
+        "close": 57.48,
+        "change_pct": -0.62,
+        "change_4w": 2.57,
+        "pct_52w": 91.5
       },
       "energy": {
-        "close": 63.68,
-        "change_pct": 1.76,
-        "change_4w": 9.91,
-        "pct_52w": 99.9
+        "close": 63.58,
+        "change_pct": -0.16,
+        "change_4w": 9.73,
+        "pct_52w": 97.1
       },
       "utilities": {
         "close": 44.02,
-        "change_pct": -0.36,
+        "change_pct": 0.0,
         "change_4w": -2.05,
         "pct_52w": 54.1
       },
       "healthcare": {
-        "close": 169.73,
-        "change_pct": 1.6,
-        "change_4w": 6.58,
-        "pct_52w": 98.5
+        "close": 175.68,
+        "change_pct": 3.51,
+        "change_4w": 10.32,
+        "pct_52w": 97.9
       },
       "consumer_disc": {
-        "close": 116.36,
-        "change_pct": -0.33,
-        "change_4w": 1.53,
-        "pct_52w": 58.3
+        "close": 118.59,
+        "change_pct": 1.92,
+        "change_4w": 3.47,
+        "pct_52w": 69.7
       },
       "industrials": {
-        "close": 183.57,
-        "change_pct": -1.48,
-        "change_4w": 3.06,
-        "pct_52w": 89.1
+        "close": 181.95,
+        "change_pct": -0.88,
+        "change_4w": 2.15,
+        "pct_52w": 85.3
       },
       "materials": {
-        "close": 51.78,
-        "change_pct": -0.88,
-        "change_4w": 3.5,
-        "pct_52w": 84.3
+        "close": 52.52,
+        "change_pct": 1.43,
+        "change_4w": 4.98,
+        "pct_52w": 90.3
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 49,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 143.6,
-        "change_pct": 0.48,
+        "close": 142.93,
+        "change_pct": -0.47,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -282,67 +282,102 @@
     ],
     "news": [
       {
-        "title": "AI chip stocks were riding high. Here’s why Micron and others are now pulling back.",
-        "url": "https://www.marketwatch.com/story/ai-chip-stocks-were-riding-high-heres-why-micron-and-others-are-now-pulling-back-cb4fd5af?mod=mw_rss_topstories",
+        "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
+        "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 18 Aug 2026 21:08:00 GMT",
-        "title_ko": "AI chip stocks were riding high. Here’s why Micron and others are now pulling back."
+        "published": "Wed, 19 Aug 2026 23:01:00 GMT",
+        "title_ko": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate"
       },
       {
-        "title": "Here’s a ‘ridiculously cheap’ way to protect yourself against a stock-market selloff",
-        "url": "https://www.marketwatch.com/story/heres-a-ridiculously-cheap-way-to-protect-yourself-against-a-stock-market-selloff-67d3b312?mod=mw_rss_topstories",
+        "title": "A $420 camera for $10: China’s young consumers would rather rent than buy. Beijing has a problem.",
+        "url": "https://www.marketwatch.com/story/test-driving-that-drone-or-just-renting-why-the-chinese-government-needs-to-know-07ca4d1b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 18 Aug 2026 20:07:00 GMT",
-        "title_ko": "Here’s a ‘ridiculously cheap’ way to protect yourself against a stock-market selloff"
+        "published": "Wed, 19 Aug 2026 21:44:00 GMT",
+        "title_ko": "A $420 camera for $10: China’s young consumers would rather rent than buy. Beijing has a problem."
       },
       {
-        "title": "Trump, Carney reportedly in talks ahead of new 50% tariffs on Canadian goods",
-        "url": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
-        "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 20:20:24 GMT",
-        "title_ko": "Trump, Carney reportedly in talks ahead of new 50% tariffs on Canadian goods"
+        "title": "Why the Treasury market’s newfound calm could break down in September",
+        "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 19 Aug 2026 21:10:00 GMT",
+        "title_ko": "Why the Treasury market’s newfound calm could break down in September"
       },
       {
-        "title": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
-        "url": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
+        "title": "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+        "url": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 20:55:42 GMT",
-        "title_ko": "U.S. government debt yields are surging at a bad time. Here's what's behind the move"
+        "published": "Wed, 19 Aug 2026 20:02:32 GMT",
+        "title_ko": "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed"
       },
       {
-        "title": "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
-        "url": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
+        "title": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
+        "url": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 20:33:38 GMT",
-        "title_ko": "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns"
+        "published": "Wed, 19 Aug 2026 22:39:40 GMT",
+        "title_ko": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades"
       },
       {
-        "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-        "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
+        "title": "Cancer vaccine from Moderna, Merck shows promise in late-stage trial; both stocks soar",
+        "url": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 16:48:00 GMT",
-        "title_ko": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh"
+        "published": "Wed, 19 Aug 2026 20:34:09 GMT",
+        "title_ko": "Cancer vaccine from Moderna, Merck shows promise in late-stage trial; both stocks soar"
       },
       {
-        "title": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
-        "url": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html",
+        "title": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
+        "url": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 13:43:28 GMT",
-        "title_ko": "Home Depot reaffirms guidance amid 'frozen housing market conditions'"
+        "published": "Wed, 19 Aug 2026 20:10:14 GMT",
+        "title_ko": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far"
       },
       {
-        "title": "Contrarian vs. the crowd: One trader made a massive bet against chip stocks",
-        "url": "https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html",
+        "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+        "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 13:13:13 GMT",
-        "title_ko": "Contrarian vs. the crowd: One trader made a massive bet against chip stocks"
+        "published": "Wed, 19 Aug 2026 21:29:38 GMT",
+        "title_ko": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less"
       },
       {
-        "title": "Cyclospora is changing the American workplace lunch: 'We switched our marketing immediately,' says Saladworks CEO",
-        "url": "https://www.cnbc.com/2026/08/18/cyclospora-outbreak-changing-american-workplace-salad-lunch.html",
+        "title": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
+        "url": "https://www.cnbc.com/2026/08/19/fed-minutes-july-2026-officials-saw-need-for-rate-hike-if-inflation-doesnt-cool.html",
         "source": "CNBC",
-        "published": "Tue, 18 Aug 2026 16:19:10 GMT",
-        "title_ko": "Cyclospora is changing the American workplace lunch: 'We switched our marketing immediately,' says Saladworks CEO"
+        "published": "Wed, 19 Aug 2026 18:54:50 GMT",
+        "title_ko": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show"
+      },
+      {
+        "title": "Treasury doubles debt buybacks as Bessent moves to steady bond market",
+        "url": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
+        "source": "CNBC",
+        "published": "Wed, 19 Aug 2026 19:49:28 GMT",
+        "title_ko": "Treasury doubles debt buybacks as Bessent moves to steady bond market"
+      },
+      {
+        "title": "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size",
+        "url": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html",
+        "source": "CNBC",
+        "published": "Wed, 19 Aug 2026 20:03:44 GMT",
+        "title_ko": "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size"
+      },
+      {
+        "title": "Treasury, IRS move to restrict refundable tax credits to certain immigrants",
+        "url": "https://www.cnbc.com/2026/08/19/treasury-irs-refundable-tax-credits-immigrants.html",
+        "source": "CNBC",
+        "published": "Wed, 19 Aug 2026 21:19:21 GMT",
+        "title_ko": "Treasury, IRS move to restrict refundable tax credits to certain immigrants"
+      },
+      {
+        "title": "Meta's legal troubles has options traders eyeing the 'jade lizard'",
+        "url": "https://www.cnbc.com/2026/08/19/metas-legal-troubles-has-options-traders-eyeing-the-jade-lizard.html",
+        "source": "CNBC",
+        "published": "Wed, 19 Aug 2026 17:25:05 GMT",
+        "title_ko": "Meta's legal troubles has options traders eyeing the 'jade lizard'"
+      },
+      {
+        "title": "Hedge funds are about to jump into prediction markets in a big way",
+        "url": "https://www.cnbc.com/2026/08/19/hedge-funds-are-about-to-jump-in-big-to-prediction-markets.html",
+        "source": "CNBC",
+        "published": "Wed, 19 Aug 2026 16:04:12 GMT",
+        "title_ko": "Hedge funds are about to jump into prediction markets in a big way"
       }
     ]
   },
@@ -360,7 +395,7 @@
     "unemployment": "green",
     "oil": "yellow",
     "gdp": "yellow",
-    "gold_signal": "yellow",
+    "gold_signal": "red",
     "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
@@ -369,7 +404,8 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.8(낮음)+Skew 144(높음)"
+      "숨겨진경고: VIX 14.9(낮음)+Skew 143(높음)",
+      "Gold 극단 위험회피 $4578"
     ],
     "ratio": 0.575
   },
