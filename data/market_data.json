@@ -1,71 +1,71 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "indices": {
     "sp500": {
-      "close": 7641.16,
-      "prev_close": 7707.98,
-      "change_pct": -0.87,
-      "pct_52w": 88.3
-    },
-    "nasdaq100": {
-      "close": 29213.16,
-      "prev_close": 29426.02,
-      "change_pct": -0.72,
-      "pct_52w": 80.4
-    },
-    "russell": {
-      "close": 2992.43,
-      "prev_close": 3032.94,
-      "change_pct": -1.34,
+      "close": 7674.37,
+      "prev_close": 7641.16,
+      "change_pct": 0.43,
       "pct_52w": 90.5
     },
+    "nasdaq100": {
+      "close": 29308.86,
+      "prev_close": 29213.16,
+      "change_pct": 0.33,
+      "pct_52w": 81.7
+    },
+    "russell": {
+      "close": 3017.87,
+      "prev_close": 2992.43,
+      "change_pct": 0.85,
+      "pct_52w": 93.4
+    },
     "vix": {
-      "close": 16.01,
-      "prev_close": 14.89,
-      "change_pct": 7.52,
-      "pct_52w": 12.0
+      "close": 15.13,
+      "prev_close": 16.01,
+      "change_pct": -5.5,
+      "pct_52w": 8.0
     }
   },
   "rates": {
     "us2y": {
       "value": 4.19,
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "change_pct": 0.0,
       "prev_value": 4.19
     },
     "us10y": {
-      "value": 4.65,
-      "date": "2026-08-19",
-      "change_pct": -1.27,
-      "prev_value": 4.71
+      "value": 4.69,
+      "date": "2026-08-20",
+      "change_pct": 0.86,
+      "prev_value": 4.65
     },
     "tips10y": {
       "value": 2.35,
-      "date": "2026-08-19",
-      "change_pct": -2.49,
-      "prev_value": 2.41
+      "date": "2026-08-20",
+      "change_pct": 0.0,
+      "prev_value": 2.35
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.5,
-      "date": "2026-08-20",
-      "change_pct": 8.7,
-      "prev_value": 0.46
+      "date": "2026-08-21",
+      "change_pct": 0.0,
+      "prev_value": 0.5
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.73,
-      "date": "2026-08-19",
-      "change_pct": -0.73,
-      "prev_value": 2.75
+      "value": 2.75,
+      "date": "2026-08-20",
+      "change_pct": 0.73,
+      "prev_value": 2.73
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 119.1848
     },
     "usdkrw": {
-      "close": 1393.84,
-      "prev_close": 1389.4,
-      "change_pct": 0.32,
-      "pct_52w": 26.9
+      "close": 1385.0,
+      "prev_close": 1390.79,
+      "change_pct": -0.42,
+      "pct_52w": 23.6
     },
     "usdjpy": {
-      "close": 158.88,
+      "close": 158.94,
       "prev_close": 158.28,
-      "change_pct": 0.38,
-      "pct_52w": 71.3
+      "change_pct": 0.42,
+      "pct_52w": 71.6
     },
     "eurusd": {
       "close": 1.17,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 86.34,
-      "prev_close": 85.83,
-      "change_pct": 0.59,
-      "pct_52w": 48.6
+      "close": 86.64,
+      "prev_close": 87.83,
+      "change_pct": -1.35,
+      "pct_52w": 49.1
     },
     "gold": {
-      "close": 4587.6,
-      "prev_close": 4489.4,
-      "change_pct": 2.19,
-      "pct_52w": 56.1
+      "close": 4661.6,
+      "prev_close": 4516.3,
+      "change_pct": 3.22,
+      "pct_52w": 59.1
     },
     "copper": {
-      "close": 6.49,
-      "prev_close": 6.49,
-      "change_pct": 0.0,
-      "pct_52w": 89.7
+      "close": 6.58,
+      "prev_close": 6.46,
+      "change_pct": 1.86,
+      "pct_52w": 93.6
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6759955.0
     },
     "rrp": {
-      "value": 0.225,
-      "date": "2026-08-20",
-      "change_pct": -29.02,
-      "prev_value": 0.317
+      "value": 0.2,
+      "date": "2026-08-21",
+      "change_pct": -11.11,
+      "prev_value": 0.225
     },
     "m2": {
       "value": 23155.2,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 183.1,
-      "change_pct": -0.29,
-      "change_4w": 1.28,
-      "pct_52w": 78.6
+      "close": 183.31,
+      "change_pct": 0.11,
+      "change_4w": 1.69,
+      "pct_52w": 78.9
     },
     "financials": {
-      "close": 56.95,
-      "change_pct": -0.92,
-      "change_4w": 1.5,
-      "pct_52w": 86.6
+      "close": 57.48,
+      "change_pct": 0.93,
+      "change_4w": 2.55,
+      "pct_52w": 91.5
     },
     "energy": {
-      "close": 63.75,
-      "change_pct": 0.27,
-      "change_4w": 8.97,
-      "pct_52w": 95.9
+      "close": 63.64,
+      "change_pct": -0.17,
+      "change_4w": 7.5,
+      "pct_52w": 95.4
     },
     "utilities": {
-      "close": 43.77,
-      "change_pct": -0.57,
-      "change_4w": -2.56,
-      "pct_52w": 50.7
+      "close": 42.77,
+      "change_pct": -2.28,
+      "change_4w": -6.88,
+      "pct_52w": 37.1
     },
     "healthcare": {
-      "close": 172.39,
-      "change_pct": -1.87,
-      "change_4w": 7.58,
-      "pct_52w": 90.6
+      "close": 174.62,
+      "change_pct": 1.29,
+      "change_4w": 9.53,
+      "pct_52w": 95.6
     },
     "consumer_disc": {
-      "close": 116.68,
-      "change_pct": -1.61,
-      "change_4w": 1.58,
-      "pct_52w": 59.9
+      "close": 118.02,
+      "change_pct": 1.15,
+      "change_4w": 3.51,
+      "pct_52w": 66.8
     },
     "industrials": {
-      "close": 179.77,
-      "change_pct": -1.2,
-      "change_4w": 0.62,
-      "pct_52w": 80.1
+      "close": 180.25,
+      "change_pct": 0.27,
+      "change_4w": 0.78,
+      "pct_52w": 81.2
     },
     "materials": {
-      "close": 52.42,
-      "change_pct": -0.19,
-      "change_4w": 4.63,
-      "pct_52w": 89.5
+      "close": 53.54,
+      "change_pct": 2.14,
+      "change_4w": 5.35,
+      "pct_52w": 98.6
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 49,
+      "score": 51,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 143.23,
-      "change_pct": 0.21,
+      "close": 143.9,
+      "change_pct": 0.47,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -276,64 +276,84 @@
       "event": "PCE 발표 (8월)",
       "category": "pce",
       "impact": "high"
+    },
+    {
+      "date": "2026-10-02",
+      "event": "고용보고서 (9월)",
+      "category": "jobs",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
-      "url": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
+      "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
+      "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 20 Aug 2026 22:00:00 GMT",
-      "title_ko": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?"
+      "published": "Fri, 21 Aug 2026 20:11:00 GMT",
+      "title_ko": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate"
     },
     {
-      "title": "Anxious bond market sends troubling message to investors: There’s no easy fix for U.S. debt",
-      "url": "https://www.marketwatch.com/story/treasury-rout-restarts-one-day-after-bessents-beefed-up-buyback-plan-972766a1?mod=mw_rss_topstories",
+      "title": "Here’s how Bessent’s newly activist Treasury Department is undercutting the Fed’s Warsh",
+      "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 20 Aug 2026 19:40:00 GMT",
-      "title_ko": "Anxious bond market sends troubling message to investors: There’s no easy fix for U.S. debt"
+      "published": "Fri, 21 Aug 2026 20:11:00 GMT",
+      "title_ko": "Here’s how Bessent’s newly activist Treasury Department is undercutting the Fed’s Warsh"
     },
     {
-      "title": "The bond market is going to burst the stock-market bubble",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
+      "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
+      "url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 20 Aug 2026 19:06:00 GMT",
-      "title_ko": "The bond market is going to burst the stock-market bubble"
+      "published": "Fri, 21 Aug 2026 18:29:00 GMT",
+      "title_ko": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’"
     },
     {
-      "title": "Neocloud stocks like CoreWeave are having a moment — and time’s running out to cash in",
-      "url": "https://www.marketwatch.com/story/neocloud-stocks-like-coreweave-are-having-a-moment-and-times-running-out-to-cash-in-8aca34c8?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 20 Aug 2026 18:20:00 GMT",
-      "title_ko": "Neocloud stocks like CoreWeave are having a moment — and time’s running out to cash in"
-    },
-    {
-      "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
-      "url": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
+      "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
+      "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
       "source": "CNBC",
-      "published": "Thu, 20 Aug 2026 21:13:14 GMT",
-      "title_ko": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try"
+      "published": "Fri, 21 Aug 2026 17:51:10 GMT",
+      "title_ko": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries"
     },
     {
-      "title": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
-      "url": "https://www.cnbc.com/2026/08/20/bessent-warsh-fed-bond-market-treasury-yields.html",
+      "title": "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring",
+      "url": "https://www.cnbc.com/2026/08/21/tesla-recalls-cars-in-china-over-doorhandle-safety-driver-monitoring.html",
       "source": "CNBC",
-      "published": "Thu, 20 Aug 2026 21:53:44 GMT",
-      "title_ko": "Warsh faces Fed independence test as Bessent moves in on central bank's turf"
+      "published": "Fri, 21 Aug 2026 19:29:48 GMT",
+      "title_ko": "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring"
     },
     {
-      "title": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
-      "url": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html",
+      "title": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms",
+      "url": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
       "source": "CNBC",
-      "published": "Thu, 20 Aug 2026 15:48:34 GMT",
-      "title_ko": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades"
+      "published": "Fri, 21 Aug 2026 21:31:24 GMT",
+      "title_ko": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms"
     },
     {
-      "title": "Treasury proposes low-cost investment rules for Trump Accounts",
-      "url": "https://www.cnbc.com/2026/08/20/trump-accounts-investment-rules-treasury.html",
+      "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
+      "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html",
       "source": "CNBC",
-      "published": "Thu, 20 Aug 2026 13:00:28 GMT",
-      "title_ko": "Treasury proposes low-cost investment rules for Trump Accounts"
+      "published": "Fri, 21 Aug 2026 22:35:17 GMT",
+      "title_ko": "Trump to allow import of 300,000 metric tons of ground beef without tariff"
+    },
+    {
+      "title": "Kalshi traders think the bitcoin rally could end the year near current levels",
+      "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
+      "source": "CNBC",
+      "published": "Fri, 21 Aug 2026 17:43:25 GMT",
+      "title_ko": "Kalshi traders think the bitcoin rally could end the year near current levels"
+    },
+    {
+      "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
+      "url": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html",
+      "source": "CNBC",
+      "published": "Fri, 21 Aug 2026 18:11:41 GMT",
+      "title_ko": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May"
+    },
+    {
+      "title": "Why some of America's biggest brands are losing ground in China",
+      "url": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
+      "source": "CNBC",
+      "published": "Fri, 21 Aug 2026 18:31:41 GMT",
+      "title_ko": "Why some of America's biggest brands are losing ground in China"
     }
   ]
 }
