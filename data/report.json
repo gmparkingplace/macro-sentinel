@@ -1,58 +1,58 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "data": {
-    "date": "2026-08-21",
+    "date": "2026-08-24",
     "indices": {
       "sp500": {
-        "close": 7674.37,
-        "prev_close": 7641.16,
-        "change_pct": 0.43,
-        "pct_52w": 90.5
+        "close": 7652.86,
+        "prev_close": 7674.37,
+        "change_pct": -0.28,
+        "pct_52w": 89.1
       },
       "nasdaq100": {
-        "close": 29308.86,
-        "prev_close": 29213.16,
-        "change_pct": 0.33,
-        "pct_52w": 81.7
+        "close": 29023.18,
+        "prev_close": 29308.86,
+        "change_pct": -0.97,
+        "pct_52w": 78.0
       },
       "russell": {
-        "close": 3017.87,
-        "prev_close": 2992.43,
-        "change_pct": 0.85,
-        "pct_52w": 93.4
+        "close": 2995.08,
+        "prev_close": 3017.87,
+        "change_pct": -0.76,
+        "pct_52w": 90.3
       },
       "vix": {
-        "close": 15.13,
-        "prev_close": 16.01,
-        "change_pct": -5.5,
-        "pct_52w": 8.0
+        "close": 15.85,
+        "prev_close": 15.13,
+        "change_pct": 4.76,
+        "pct_52w": 11.3
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.19,
-        "date": "2026-08-20",
-        "change_pct": 0.0,
+        "value": 4.24,
+        "date": "2026-08-21",
+        "change_pct": 1.19,
         "prev_value": 4.19
       },
       "us10y": {
-        "value": 4.69,
-        "date": "2026-08-20",
-        "change_pct": 0.86,
-        "prev_value": 4.65
+        "value": 4.74,
+        "date": "2026-08-21",
+        "change_pct": 1.07,
+        "prev_value": 4.69
       },
       "tips10y": {
-        "value": 2.35,
-        "date": "2026-08-20",
-        "change_pct": 0.0,
+        "value": 2.4,
+        "date": "2026-08-21",
+        "change_pct": 2.13,
         "prev_value": 2.35
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.5,
-        "date": "2026-08-21",
-        "change_pct": 0.0,
+        "value": 0.46,
+        "date": "2026-08-24",
+        "change_pct": -8.0,
         "prev_value": 0.5
       },
       "us5s30s": {
@@ -60,36 +60,36 @@
         "date": null
       },
       "hy_spread": {
-        "value": 2.75,
-        "date": "2026-08-20",
-        "change_pct": 0.73,
-        "prev_value": 2.73
+        "value": 2.7,
+        "date": "2026-08-21",
+        "change_pct": -1.82,
+        "prev_value": 2.75
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
     },
     "fx": {
       "dxy": {
-        "value": 118.9028,
-        "date": "2026-08-14",
-        "change_pct": -0.24,
-        "prev_value": 119.1848
+        "value": 118.0628,
+        "date": "2026-08-21",
+        "change_pct": -0.16,
+        "prev_value": 118.2548
       },
       "usdkrw": {
-        "close": 1385.0,
-        "prev_close": 1390.79,
-        "change_pct": -0.42,
-        "pct_52w": 23.6
+        "close": 1382.25,
+        "prev_close": 1384.98,
+        "change_pct": -0.2,
+        "pct_52w": 22.6
       },
       "usdjpy": {
-        "close": 158.94,
-        "prev_close": 158.28,
-        "change_pct": 0.42,
-        "pct_52w": 71.6
+        "close": 159.09,
+        "prev_close": 158.9,
+        "change_pct": 0.12,
+        "pct_52w": 72.5
       },
       "eurusd": {
         "close": 1.17,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 86.64,
-        "prev_close": 87.83,
-        "change_pct": -1.35,
-        "pct_52w": 49.1
+        "close": 85.11,
+        "prev_close": 85.11,
+        "change_pct": 0.0,
+        "pct_52w": 46.7
       },
       "gold": {
-        "close": 4661.6,
-        "prev_close": 4516.3,
-        "change_pct": 3.22,
-        "pct_52w": 59.1
+        "close": 4728.9,
+        "prev_close": 4728.9,
+        "change_pct": 0.0,
+        "pct_52w": 61.4
       },
       "copper": {
-        "close": 6.58,
-        "prev_close": 6.46,
-        "change_pct": 1.86,
-        "pct_52w": 93.6
+        "close": 6.61,
+        "prev_close": 6.61,
+        "change_pct": 0.0,
+        "pct_52w": 94.9
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6759955.0
       },
       "rrp": {
-        "value": 0.2,
-        "date": "2026-08-21",
-        "change_pct": -11.11,
-        "prev_value": 0.225
+        "value": 0.38,
+        "date": "2026-08-24",
+        "change_pct": 90.0,
+        "prev_value": 0.2
       },
       "m2": {
         "value": 23155.2,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 183.31,
-        "change_pct": 0.11,
-        "change_4w": 1.69,
-        "pct_52w": 78.9
+        "close": 180.05,
+        "change_pct": -1.78,
+        "change_4w": 3.3,
+        "pct_52w": 74.4
       },
       "financials": {
-        "close": 57.48,
-        "change_pct": 0.93,
-        "change_4w": 2.55,
-        "pct_52w": 91.5
+        "close": 58.22,
+        "change_pct": 1.29,
+        "change_4w": 2.36,
+        "pct_52w": 98.3
       },
       "energy": {
-        "close": 63.64,
-        "change_pct": -0.17,
-        "change_4w": 7.5,
-        "pct_52w": 95.4
+        "close": 63.11,
+        "change_pct": -0.83,
+        "change_4w": 8.14,
+        "pct_52w": 93.2
       },
       "utilities": {
-        "close": 42.77,
-        "change_pct": -2.28,
-        "change_4w": -6.88,
-        "pct_52w": 37.1
+        "close": 43.22,
+        "change_pct": 1.05,
+        "change_4w": -5.39,
+        "pct_52w": 43.2
       },
       "healthcare": {
-        "close": 174.62,
-        "change_pct": 1.29,
-        "change_4w": 9.53,
-        "pct_52w": 95.6
+        "close": 174.7,
+        "change_pct": 0.05,
+        "change_4w": 6.92,
+        "pct_52w": 95.7
       },
       "consumer_disc": {
-        "close": 118.02,
-        "change_pct": 1.15,
-        "change_4w": 3.51,
-        "pct_52w": 66.8
+        "close": 118.3,
+        "change_pct": 0.24,
+        "change_4w": 6.73,
+        "pct_52w": 68.2
       },
       "industrials": {
-        "close": 180.25,
-        "change_pct": 0.27,
-        "change_4w": 0.78,
-        "pct_52w": 81.2
+        "close": 179.0,
+        "change_pct": -0.69,
+        "change_4w": -2.29,
+        "pct_52w": 78.3
       },
       "materials": {
-        "close": 53.54,
-        "change_pct": 2.14,
-        "change_4w": 5.35,
-        "pct_52w": 98.6
+        "close": 53.58,
+        "change_pct": 0.07,
+        "change_4w": 4.26,
+        "pct_52w": 95.2
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 51,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 143.9,
-        "change_pct": 0.47,
+        "close": 145.64,
+        "change_pct": 1.21,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,74 +288,109 @@
     ],
     "news": [
       {
-        "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
-        "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
+        "title": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer",
+        "url": "https://www.marketwatch.com/story/visa-and-mastercard-shares-hit-fresh-records-underscoring-a-resilient-u-s-consumer-ef328548?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 21 Aug 2026 20:11:00 GMT",
-        "title_ko": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate"
+        "published": "Mon, 24 Aug 2026 21:55:00 GMT",
+        "title_ko": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer"
       },
       {
-        "title": "Here’s how Bessent’s newly activist Treasury Department is undercutting the Fed’s Warsh",
-        "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+        "title": "Here’s how overvalued the stock market really is",
+        "url": "https://www.marketwatch.com/story/heres-how-overvalued-the-stock-market-really-is-f26540c5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 21 Aug 2026 20:11:00 GMT",
-        "title_ko": "Here’s how Bessent’s newly activist Treasury Department is undercutting the Fed’s Warsh"
+        "published": "Mon, 24 Aug 2026 20:54:00 GMT",
+        "title_ko": "Here’s how overvalued the stock market really is"
       },
       {
-        "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
-        "url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+        "title": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
+        "url": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 21 Aug 2026 18:29:00 GMT",
-        "title_ko": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’"
+        "published": "Mon, 24 Aug 2026 20:53:00 GMT",
+        "title_ko": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000."
       },
       {
-        "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-        "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-        "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 17:51:10 GMT",
-        "title_ko": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries"
+        "title": "It’s time to bet big on Nvidia’s stock, says this analyst who thinks the market has it all wrong",
+        "url": "https://www.marketwatch.com/story/its-time-to-bet-big-on-nvidias-stock-says-this-analyst-who-thinks-the-market-has-it-all-wrong-4388d3a6?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 24 Aug 2026 20:50:00 GMT",
+        "title_ko": "It’s time to bet big on Nvidia’s stock, says this analyst who thinks the market has it all wrong"
       },
       {
-        "title": "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring",
-        "url": "https://www.cnbc.com/2026/08/21/tesla-recalls-cars-in-china-over-doorhandle-safety-driver-monitoring.html",
-        "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 19:29:48 GMT",
-        "title_ko": "Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring"
+        "title": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs",
+        "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 24 Aug 2026 20:22:00 GMT",
+        "title_ko": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs"
       },
       {
-        "title": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms",
-        "url": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
-        "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 21:31:24 GMT",
-        "title_ko": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms"
+        "title": "Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+        "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 24 Aug 2026 19:40:00 GMT",
+        "title_ko": "Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation"
       },
       {
-        "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
-        "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html",
-        "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 22:35:17 GMT",
-        "title_ko": "Trump to allow import of 300,000 metric tons of ground beef without tariff"
+        "title": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
+        "url": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 24 Aug 2026 19:03:00 GMT",
+        "title_ko": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing"
       },
       {
-        "title": "Kalshi traders think the bitcoin rally could end the year near current levels",
-        "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
+        "title": "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
+        "url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html",
         "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 17:43:25 GMT",
-        "title_ko": "Kalshi traders think the bitcoin rally could end the year near current levels"
+        "published": "Mon, 24 Aug 2026 18:32:36 GMT",
+        "title_ko": "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt"
       },
       {
-        "title": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May",
-        "url": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html",
+        "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+        "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
         "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 18:11:41 GMT",
-        "title_ko": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May"
+        "published": "Mon, 24 Aug 2026 19:08:56 GMT",
+        "title_ko": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates"
       },
       {
-        "title": "Why some of America's biggest brands are losing ground in China",
-        "url": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
+        "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+        "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
         "source": "CNBC",
-        "published": "Fri, 21 Aug 2026 18:31:41 GMT",
-        "title_ko": "Why some of America's biggest brands are losing ground in China"
+        "published": "Mon, 24 Aug 2026 13:17:35 GMT",
+        "title_ko": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said"
+      },
+      {
+        "title": "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'",
+        "url": "https://www.cnbc.com/2026/08/24/trump-canada-trade-tariffs-greer.html",
+        "source": "CNBC",
+        "published": "Mon, 24 Aug 2026 15:45:27 GMT",
+        "title_ko": "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'"
+      },
+      {
+        "title": "Here's what Jim Cramer says stock investors need to know about the bond market",
+        "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
+        "source": "CNBC",
+        "published": "Mon, 24 Aug 2026 22:40:01 GMT",
+        "title_ko": "Here's what Jim Cramer says stock investors need to know about the bond market"
+      },
+      {
+        "title": "CNBC's The China Connection newsletter: Robots need help learning human skills. These AI companies are rushing to meet the demand",
+        "url": "https://www.cnbc.com/2026/08/24/cnbcs-the-china-connection-newsletter-piling-into-human-skills-ai.html",
+        "source": "CNBC",
+        "published": "Mon, 24 Aug 2026 23:00:01 GMT",
+        "title_ko": "CNBC's The China Connection newsletter: Robots need help learning human skills. These AI companies are rushing to meet the demand"
+      },
+      {
+        "title": "Trump’s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
+        "url": "https://www.cnbc.com/2026/08/24/trump-oil-gas-stocks-iran-war-investments-democrats.html",
+        "source": "CNBC",
+        "published": "Mon, 24 Aug 2026 21:25:32 GMT",
+        "title_ko": "Trump’s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say"
+      },
+      {
+        "title": "A massive trade just happened in gold. The options market is buzzing",
+        "url": "https://www.cnbc.com/2026/08/24/a-massive-trade-just-happened-in-gold-the-options-market-is-buzzing.html",
+        "source": "CNBC",
+        "published": "Mon, 24 Aug 2026 18:41:44 GMT",
+        "title_ko": "A massive trade just happened in gold. The options market is buzzing"
       }
     ]
   },
@@ -373,8 +408,8 @@
     "unemployment": "green",
     "oil": "red",
     "gdp": "yellow",
-    "gold_signal": "red",
-    "copper": "green",
+    "gold_signal": "yellow",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -382,10 +417,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.1(낮음)+Skew 144(높음)",
-      "Gold 극단 위험회피 $4662"
+      "숨겨진경고: VIX 15.8(낮음)+Skew 146(높음)"
     ],
-    "ratio": 0.525
+    "ratio": 0.5
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
