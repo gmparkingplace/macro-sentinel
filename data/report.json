@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-27",
   "data": {
-    "date": "2026-08-25",
+    "date": "2026-08-27",
     "indices": {
       "sp500": {
-        "close": 7677.28,
-        "prev_close": 7652.86,
-        "change_pct": 0.32,
-        "pct_52w": 90.7
+        "close": 7675.7,
+        "prev_close": 7677.28,
+        "change_pct": -0.02,
+        "pct_52w": 90.6
       },
       "nasdaq100": {
-        "close": 29209.23,
-        "prev_close": 29023.18,
-        "change_pct": 0.64,
-        "pct_52w": 80.4
+        "close": 29224.52,
+        "prev_close": 29209.23,
+        "change_pct": 0.05,
+        "pct_52w": 80.6
       },
       "russell": {
-        "close": 3010.02,
-        "prev_close": 2995.08,
-        "change_pct": 0.5,
-        "pct_52w": 92.2
+        "close": 3005.9,
+        "prev_close": 3010.02,
+        "change_pct": -0.14,
+        "pct_52w": 91.7
       },
       "vix": {
-        "close": 15.45,
-        "prev_close": 15.85,
-        "change_pct": -2.52,
-        "pct_52w": 9.4
+        "close": 15.21,
+        "prev_close": 15.45,
+        "change_pct": -1.55,
+        "pct_52w": 8.3
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.24,
-        "date": "2026-08-24",
-        "change_pct": 0.0,
+        "value": 4.17,
+        "date": "2026-08-25",
+        "change_pct": -1.65,
         "prev_value": 4.24
       },
       "us10y": {
-        "value": 4.7,
-        "date": "2026-08-24",
-        "change_pct": -0.84,
-        "prev_value": 4.74
+        "value": 4.64,
+        "date": "2026-08-25",
+        "change_pct": -1.28,
+        "prev_value": 4.7
       },
       "tips10y": {
-        "value": 2.38,
-        "date": "2026-08-24",
-        "change_pct": -0.83,
-        "prev_value": 2.4
+        "value": 2.32,
+        "date": "2026-08-25",
+        "change_pct": -2.52,
+        "prev_value": 2.38
       }
     },
     "spreads": {
       "us2s10s": {
         "value": 0.47,
-        "date": "2026-08-25",
-        "change_pct": 2.17,
-        "prev_value": 0.46
+        "date": "2026-08-26",
+        "change_pct": 0.0,
+        "prev_value": 0.47
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.69,
-        "date": "2026-08-24",
-        "change_pct": -0.37,
-        "prev_value": 2.7
+        "value": 2.7,
+        "date": "2026-08-25",
+        "change_pct": 0.37,
+        "prev_value": 2.69
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-08-24",
+        "date": "2026-08-25",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,16 +80,16 @@
         "prev_value": 118.2548
       },
       "usdkrw": {
-        "close": 1381.96,
-        "prev_close": 1380.76,
-        "change_pct": 0.09,
-        "pct_52w": 22.4
+        "close": 1379.09,
+        "prev_close": 1381.49,
+        "change_pct": -0.17,
+        "pct_52w": 21.4
       },
       "usdjpy": {
-        "close": 159.22,
-        "prev_close": 159.14,
-        "change_pct": 0.05,
-        "pct_52w": 73.2
+        "close": 159.35,
+        "prev_close": 159.22,
+        "change_pct": 0.08,
+        "pct_52w": 73.9
       },
       "eurusd": {
         "close": 1.17,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 80.99,
-        "prev_close": 85.01,
-        "change_pct": -4.73,
-        "pct_52w": 40.3
+        "close": 81.84,
+        "prev_close": 82.23,
+        "change_pct": -0.47,
+        "pct_52w": 41.6
       },
       "gold": {
-        "close": 4724.8,
-        "prev_close": 4640.8,
+        "close": 4681.5,
+        "prev_close": 4598.2,
         "change_pct": 1.81,
-        "pct_52w": 61.2
+        "pct_52w": 59.0
       },
       "copper": {
         "close": 6.71,
-        "prev_close": 6.6,
-        "change_pct": 1.67,
-        "pct_52w": 99.2
+        "prev_close": 6.59,
+        "change_pct": 1.82,
+        "pct_52w": 98.3
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6759955.0
       },
       "rrp": {
-        "value": 0.405,
-        "date": "2026-08-25",
-        "change_pct": 6.58,
-        "prev_value": 0.38
+        "value": 0.702,
+        "date": "2026-08-26",
+        "change_pct": 73.33,
+        "prev_value": 0.405
       },
       "m2": {
         "value": 23218.0,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 181.74,
-        "change_pct": 0.94,
-        "change_4w": 4.27,
-        "pct_52w": 76.7
+        "close": 182.84,
+        "change_pct": 0.61,
+        "change_4w": 4.9,
+        "pct_52w": 78.2
       },
       "financials": {
-        "close": 58.31,
-        "change_pct": 0.15,
-        "change_4w": 2.51,
-        "pct_52w": 99.1
+        "close": 58.26,
+        "change_pct": -0.09,
+        "change_4w": 2.43,
+        "pct_52w": 98.6
       },
       "energy": {
-        "close": 62.06,
-        "change_pct": -1.66,
-        "change_4w": 6.34,
-        "pct_52w": 88.7
+        "close": 62.43,
+        "change_pct": 0.6,
+        "change_4w": 6.97,
+        "pct_52w": 90.2
       },
       "utilities": {
-        "close": 43.31,
-        "change_pct": 0.21,
-        "change_4w": -5.19,
-        "pct_52w": 44.4
+        "close": 43.51,
+        "change_pct": 0.46,
+        "change_4w": -4.75,
+        "pct_52w": 47.1
       },
       "healthcare": {
-        "close": 175.29,
-        "change_pct": 0.34,
-        "change_4w": 7.28,
-        "pct_52w": 97.1
+        "close": 173.54,
+        "change_pct": -1.0,
+        "change_4w": 6.21,
+        "pct_52w": 93.1
       },
       "consumer_disc": {
-        "close": 117.95,
-        "change_pct": -0.3,
-        "change_4w": 6.41,
-        "pct_52w": 66.4
+        "close": 117.16,
+        "change_pct": -0.67,
+        "change_4w": 5.7,
+        "pct_52w": 62.4
       },
       "industrials": {
-        "close": 178.4,
-        "change_pct": -0.34,
-        "change_4w": -2.62,
-        "pct_52w": 76.9
+        "close": 180.34,
+        "change_pct": 1.09,
+        "change_4w": -1.56,
+        "pct_52w": 81.5
       },
       "materials": {
-        "close": 53.58,
-        "change_pct": 0.0,
-        "change_4w": 4.26,
-        "pct_52w": 95.2
+        "close": 53.67,
+        "change_pct": 0.17,
+        "change_4w": 4.44,
+        "pct_52w": 95.9
       }
     },
     "macro": {
@@ -206,8 +206,8 @@
         "prev_value": 4.2
       },
       "pce": {
-        "value": 3.67,
-        "date": "2026-06-01",
+        "value": 3.7,
+        "date": "2026-07-01",
         "change_pct": null
       },
       "gdp_growth": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 50,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 143.27,
-        "change_pct": -1.63,
+        "close": 142.96,
+        "change_pct": -0.22,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,95 +288,53 @@
     ],
     "news": [
       {
-        "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
-        "url": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
+        "title": "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
+        "url": "https://www.marketwatch.com/story/feds-lisa-cook-denies-committing-mortgage-fraud-says-trump-has-no-grounds-to-remove-her-from-office-4ea60c9d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 25 Aug 2026 20:59:00 GMT",
-        "title_ko": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs"
+        "published": "Thu, 27 Aug 2026 00:14:00 GMT",
+        "title_ko": "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office"
       },
       {
-        "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
-        "url": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Tue, 25 Aug 2026 20:56:00 GMT",
-        "title_ko": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon"
-      },
-      {
-        "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.",
-        "url": "https://www.marketwatch.com/story/options-traders-are-betting-on-the-quietest-nvidia-earnings-reaction-in-years-it-could-be-an-opportunity-for-ai-bulls-91955793?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Tue, 25 Aug 2026 20:07:00 GMT",
-        "title_ko": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls."
-      },
-      {
-        "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
-        "url": "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html",
+        "title": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens",
+        "url": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 19:00:07 GMT",
-        "title_ko": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war"
+        "published": "Thu, 27 Aug 2026 03:22:14 GMT",
+        "title_ko": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens"
       },
       {
-        "title": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
-        "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+        "title": "Fed Gov Lisa Cook’s lawyer fires back at Trump's renewed threat to oust her",
+        "url": "https://www.cnbc.com/2026/08/26/trump-lisa-cook-federal-reserve.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 21:26:01 GMT",
-        "title_ko": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods"
+        "published": "Thu, 27 Aug 2026 00:15:35 GMT",
+        "title_ko": "Fed Gov Lisa Cook’s lawyer fires back at Trump's renewed threat to oust her"
       },
       {
-        "title": "Is the K-shaped economy ending? Finance pros weigh in",
-        "url": "https://www.cnbc.com/2026/08/25/k-shaped-economy-c-shaped-economy-may-be-changing.html",
+        "title": "Japanese startups, IPOs set for boost with platform to trade unlisted companies",
+        "url": "https://www.cnbc.com/2026/08/27/japan-startups-ipos-trading-platform-unlisted-companies-.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 21:05:27 GMT",
-        "title_ko": "Is the K-shaped economy ending? Finance pros weigh in"
+        "published": "Thu, 27 Aug 2026 03:41:00 GMT",
+        "title_ko": "Japanese startups, IPOs set for boost with platform to trade unlisted companies"
       },
       {
-        "title": "Here's why markets are starting to care about the 2026 election 10 weeks out",
-        "url": "https://www.cnbc.com/2026/08/25/trump-debt-ceiling-markets-midterm-election.html",
+        "title": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+        "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 22:43:08 GMT",
-        "title_ko": "Here's why markets are starting to care about the 2026 election 10 weeks out"
+        "published": "Thu, 27 Aug 2026 03:02:31 GMT",
+        "title_ko": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated"
       },
       {
-        "title": "Bond rout ending? Massive bets on bond rally dominate options market",
-        "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
+        "title": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market",
+        "url": "https://www.cnbc.com/2026/08/27/india-us-russia-energy-oil-market.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 19:42:17 GMT",
-        "title_ko": "Bond rout ending? Massive bets on bond rally dominate options market"
+        "published": "Thu, 27 Aug 2026 00:21:44 GMT",
+        "title_ko": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market"
       },
       {
-        "title": "Kalshi traders see low likelihood of major crypto bill becoming law this year",
-        "url": "https://www.cnbc.com/2026/08/25/kalshi-traders-see-low-likelihood-of-major-crypto-bill-becoming-law-this-year.html",
+        "title": "Federal judge lifts final block on Trump mail-in voting order, clearing way for midterm restrictions",
+        "url": "https://www.cnbc.com/2026/08/26/trump-usps-mail-voting-rule-lawsuit-states-supreme-court.html",
         "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 19:52:43 GMT",
-        "title_ko": "Kalshi traders see low likelihood of major crypto bill becoming law this year"
-      },
-      {
-        "title": "Waymo to launch driverless rides in Germany in 2027, entering third market outside U.S.",
-        "url": "https://www.cnbc.com/2026/08/25/waymo-robotaxi-germany-2027.html",
-        "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 21:47:29 GMT",
-        "title_ko": "Waymo to launch driverless rides in Germany in 2027, entering third market outside U.S."
-      },
-      {
-        "title": "2 of our software stocks face major tests of whether their rallies are for real",
-        "url": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
-        "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 20:27:12 GMT",
-        "title_ko": "2 of our software stocks face major tests of whether their rallies are for real"
-      },
-      {
-        "title": "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
-        "url": "https://www.cnbc.com/2026/08/25/debasement-trade-debt-gold-bitcoin-dollar.html",
-        "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 15:16:02 GMT",
-        "title_ko": "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style"
-      },
-      {
-        "title": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market",
-        "url": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html",
-        "source": "CNBC",
-        "published": "Tue, 25 Aug 2026 20:38:59 GMT",
-        "title_ko": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market"
+        "published": "Wed, 26 Aug 2026 19:15:45 GMT",
+        "title_ko": "Federal judge lifts final block on Trump mail-in voting order, clearing way for midterm restrictions"
       }
     ]
   },
@@ -403,8 +361,8 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 15.4(낮음)+Skew 143(높음)",
-      "Gold 극단 위험회피 $4725"
+      "숨겨진경고: VIX 15.2(낮음)+Skew 143(높음)",
+      "Gold 극단 위험회피 $4682"
     ],
     "ratio": 0.6
   },
