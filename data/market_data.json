@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "indices": {
     "sp500": {
-      "close": 7730.99,
-      "prev_close": 7675.7,
-      "change_pct": 0.72,
-      "pct_52w": 94.3
+      "close": NaN,
+      "prev_close": 7730.99,
+      "change_pct": NaN,
+      "pct_52w": NaN
     },
     "nasdaq100": {
-      "close": 29641.56,
-      "prev_close": 29224.52,
-      "change_pct": 1.43,
-      "pct_52w": 85.9
+      "close": NaN,
+      "prev_close": 29641.56,
+      "change_pct": NaN,
+      "pct_52w": NaN
     },
     "russell": {
       "close": 3014.34,
-      "prev_close": 3005.9,
-      "change_pct": 0.28,
+      "prev_close": 3014.34,
+      "change_pct": 0.0,
       "pct_52w": 92.8
     },
     "vix": {
-      "close": 14.51,
-      "prev_close": 15.21,
-      "change_pct": -4.6,
-      "pct_52w": 5.2
+      "close": 14.43,
+      "prev_close": 14.51,
+      "change_pct": -0.55,
+      "pct_52w": 4.8
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.19,
-      "date": "2026-08-26",
-      "change_pct": 0.48,
-      "prev_value": 4.17
+      "value": 4.2,
+      "date": "2026-08-27",
+      "change_pct": 0.24,
+      "prev_value": 4.19
     },
     "us10y": {
-      "value": 4.66,
-      "date": "2026-08-26",
-      "change_pct": 0.43,
-      "prev_value": 4.64
+      "value": 4.67,
+      "date": "2026-08-27",
+      "change_pct": 0.21,
+      "prev_value": 4.66
     },
     "tips10y": {
       "value": 2.34,
-      "date": "2026-08-26",
-      "change_pct": 0.86,
-      "prev_value": 2.32
+      "date": "2026-08-27",
+      "change_pct": 0.0,
+      "prev_value": 2.34
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.47,
-      "date": "2026-08-27",
-      "change_pct": 0.0,
+      "value": 0.39,
+      "date": "2026-08-28",
+      "change_pct": -17.02,
       "prev_value": 0.47
     },
     "us5s30s": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 2.67,
-      "date": "2026-08-26",
-      "change_pct": -1.11,
-      "prev_value": 2.7
+      "value": 2.63,
+      "date": "2026-08-27",
+      "change_pct": -1.5,
+      "prev_value": 2.67
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,42 +78,42 @@
       "prev_value": 118.2548
     },
     "usdkrw": {
-      "close": 1373.25,
-      "prev_close": 1383.49,
-      "change_pct": -0.74,
-      "pct_52w": 19.2
+      "close": 1371.5,
+      "prev_close": 1380.45,
+      "change_pct": -0.65,
+      "pct_52w": 18.5
     },
     "usdjpy": {
-      "close": 159.43,
+      "close": 160.04,
       "prev_close": 159.26,
-      "change_pct": 0.11,
-      "pct_52w": 74.4
+      "change_pct": 0.49,
+      "pct_52w": 77.8
     },
     "eurusd": {
-      "close": 1.17,
+      "close": 1.16,
       "prev_close": 1.17,
-      "change_pct": 0.0,
-      "pct_52w": 53.7
+      "change_pct": -0.85,
+      "pct_52w": 39.3
     }
   },
   "commodities": {
     "wti": {
-      "close": 82.92,
+      "close": NaN,
       "prev_close": 83.53,
-      "change_pct": -0.73,
-      "pct_52w": 43.3
+      "change_pct": NaN,
+      "pct_52w": NaN
     },
     "gold": {
-      "close": 4638.3,
+      "close": NaN,
       "prev_close": 4609.7,
-      "change_pct": 0.62,
-      "pct_52w": 56.6
+      "change_pct": NaN,
+      "pct_52w": NaN
     },
     "copper": {
-      "close": 6.7,
+      "close": NaN,
       "prev_close": 6.59,
-      "change_pct": 1.67,
-      "pct_52w": 97.9
+      "change_pct": NaN,
+      "pct_52w": NaN
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6745699.0
     },
     "rrp": {
-      "value": 0.456,
-      "date": "2026-08-27",
-      "change_pct": -35.04,
-      "prev_value": 0.702
+      "value": 0.175,
+      "date": "2026-08-28",
+      "change_pct": -61.62,
+      "prev_value": 0.456
     },
     "m2": {
       "value": 23218.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 188.61,
-      "change_pct": 3.16,
-      "change_4w": 10.24,
-      "pct_52w": 86.3
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "financials": {
-      "close": 57.88,
-      "change_pct": -0.65,
-      "change_4w": 0.49,
-      "pct_52w": 95.1
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "energy": {
-      "close": 62.29,
-      "change_pct": -0.22,
-      "change_4w": 8.2,
-      "pct_52w": 89.6
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "utilities": {
-      "close": 43.18,
-      "change_pct": -0.76,
-      "change_4w": -5.14,
-      "pct_52w": 42.7
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "healthcare": {
-      "close": 171.58,
-      "change_pct": -1.13,
-      "change_4w": 2.58,
-      "pct_52w": 88.7
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "consumer_disc": {
-      "close": 115.88,
-      "change_pct": -1.09,
-      "change_4w": 3.02,
-      "pct_52w": 55.8
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "industrials": {
-      "close": 178.8,
-      "change_pct": -0.85,
-      "change_4w": -2.02,
-      "pct_52w": 77.8
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "materials": {
-      "close": 53.23,
-      "change_pct": -0.82,
-      "change_4w": 1.7,
-      "pct_52w": 92.4
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     }
   },
   "macro": {
@@ -215,10 +215,10 @@
       "prev_value": 2.1
     },
     "ism_mfg": {
-      "value": 49.5,
-      "date": "2026-06-01",
-      "change_pct": 10.49,
-      "prev_value": 44.8
+      "value": 55.2,
+      "date": "2026-07-01",
+      "change_pct": 11.52,
+      "prev_value": 49.5
     },
     "ism_svc": {
       "value": 98.91297,
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 52,
+      "score": 53,
       "rating": "Neutral"
     },
     "skew": {
       "close": 144.05,
-      "change_pct": 0.76,
+      "change_pct": 0.0,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-08-28",
-      "event": "PCE 발표 (7월)",
-      "category": "pce",
-      "impact": "high"
-    },
     {
       "date": "2026-09-04",
       "event": "고용보고서 (8월)",
@@ -286,88 +280,74 @@
   ],
   "news": [
     {
-      "title": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories",
+      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+      "url": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 27 Aug 2026 22:12:00 GMT",
-      "title_ko": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning"
+      "published": "Fri, 28 Aug 2026 20:10:00 GMT",
+      "title_ko": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word"
     },
     {
-      "title": "20 stocks likely to lose money even if the bull market continues",
-      "url": "https://www.marketwatch.com/story/20-stocks-likely-to-lose-money-even-if-the-bull-market-continues-3f931608?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 27 Aug 2026 20:48:00 GMT",
-      "title_ko": "20 stocks likely to lose money even if the bull market continues"
-    },
-    {
-      "title": "Six months into the Iran war: Markets become accustomed to stalemate with no end in sight",
-      "url": "https://www.cnbc.com/2026/08/28/us-iran-war-six-months-trump.html",
+      "title": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
+      "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
       "source": "CNBC",
-      "published": "Fri, 28 Aug 2026 05:02:16 GMT",
-      "title_ko": "Six months into the Iran war: Markets become accustomed to stalemate with no end in sight"
+      "published": "Fri, 28 Aug 2026 23:42:26 GMT",
+      "title_ko": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves"
     },
     {
-      "title": "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit",
-      "url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html",
+      "title": "Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
       "source": "CNBC",
-      "published": "Fri, 28 Aug 2026 01:35:13 GMT",
-      "title_ko": "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit"
+      "published": "Fri, 28 Aug 2026 17:44:02 GMT",
+      "title_ko": "Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike"
     },
     {
-      "title": "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
-      "url": "https://www.cnbc.com/2026/08/27/trump-canada-lake-america-ontario.html",
+      "title": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+      "url": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 21:16:40 GMT",
-      "title_ko": "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war"
+      "published": "Fri, 28 Aug 2026 19:35:09 GMT",
+      "title_ko": "Stock traders warm up to Warsh as volatility index touches year-to-date low"
     },
     {
-      "title": "Donald Trump Jr. told Republican state attorneys not to fight prediction markets, NY Times reports",
-      "url": "https://www.cnbc.com/2026/08/27/trump-jr-told-gop-state-attorneys-general-dont-fight-prediction-markets-nyt-reports.html",
+      "title": "Trump loses bid to transfer New York hush money case to federal court",
+      "url": "https://www.cnbc.com/2026/08/28/trump-hush-money-federal-court.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 19:51:45 GMT",
-      "title_ko": "Donald Trump Jr. told Republican state attorneys not to fight prediction markets, NY Times reports"
+      "published": "Fri, 28 Aug 2026 20:56:24 GMT",
+      "title_ko": "Trump loses bid to transfer New York hush money case to federal court"
     },
     {
-      "title": "What Warsh will say and how the market will react, according to prediction markets",
-      "url": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html",
+      "title": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
+      "url": "https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 21:17:34 GMT",
-      "title_ko": "What Warsh will say and how the market will react, according to prediction markets"
+      "published": "Sat, 29 Aug 2026 02:23:52 GMT",
+      "title_ko": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court"
     },
     {
-      "title": "China’s super-rich fled Singapore. Now they want to come back",
-      "url": "https://www.cnbc.com/2026/08/28/chinas-super-rich-fled-singapore-now-they-want-to-come-back.html",
+      "title": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+      "url": "https://www.cnbc.com/2026/08/28/treasury-uae-banque-misr-sanctions-iran.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 23:51:49 GMT",
-      "title_ko": "China’s super-rich fled Singapore. Now they want to come back"
+      "published": "Fri, 28 Aug 2026 18:13:13 GMT",
+      "title_ko": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties"
     },
     {
-      "title": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
-      "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
+      "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 22:58:01 GMT",
-      "title_ko": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect"
+      "published": "Fri, 28 Aug 2026 16:11:51 GMT",
+      "title_ko": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank"
     },
     {
-      "title": "DeepSeek looks for fresh capital as founder’s quant empire navigates China’s choppy IPO market",
-      "url": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html",
+      "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+      "url": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
       "source": "CNBC",
-      "published": "Fri, 28 Aug 2026 02:17:01 GMT",
-      "title_ko": "DeepSeek looks for fresh capital as founder’s quant empire navigates China’s choppy IPO market"
+      "published": "Fri, 28 Aug 2026 20:08:18 GMT",
+      "title_ko": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'"
     },
     {
-      "title": "What's expected at Apple's September event — plus, an uneven rally in AI stocks",
-      "url": "https://www.cnbc.com/2026/08/27/what-to-expect-from-apples-september-event-and-whats-driving-rally.html",
+      "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+      "url": "https://www.cnbc.com/2026/08/28/navy-blockade-iran-oil-exports-sanctions-trump.html",
       "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 18:48:33 GMT",
-      "title_ko": "What's expected at Apple's September event — plus, an uneven rally in AI stocks"
-    },
-    {
-      "title": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market",
-      "url": "https://www.cnbc.com/2026/08/27/india-us-russia-energy-oil-market.html",
-      "source": "CNBC",
-      "published": "Thu, 27 Aug 2026 00:21:44 GMT",
-      "title_ko": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market"
+      "published": "Fri, 28 Aug 2026 11:50:45 GMT",
+      "title_ko": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare"
     }
   ]
 }
