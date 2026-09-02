@@ -1,71 +1,71 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "indices": {
     "sp500": {
-      "close": 7686.14,
-      "prev_close": 7711.76,
-      "change_pct": -0.33,
-      "pct_52w": 91.3
+      "close": 7631.47,
+      "prev_close": 7686.14,
+      "change_pct": -0.71,
+      "pct_52w": 87.6
     },
     "nasdaq100": {
-      "close": 29456.97,
-      "prev_close": 29433.43,
-      "change_pct": 0.08,
-      "pct_52w": 83.5
+      "close": 29077.22,
+      "prev_close": 29456.97,
+      "change_pct": -1.29,
+      "pct_52w": 78.7
     },
     "russell": {
-      "close": 2956.45,
-      "prev_close": 2972.37,
-      "change_pct": -0.54,
-      "pct_52w": 85.2
+      "close": 2920.13,
+      "prev_close": 2956.45,
+      "change_pct": -1.23,
+      "pct_52w": 80.5
     },
     "vix": {
-      "close": 14.92,
-      "prev_close": 14.43,
-      "change_pct": 3.4,
-      "pct_52w": 7.0
+      "close": 16.34,
+      "prev_close": 14.92,
+      "change_pct": 9.52,
+      "pct_52w": 13.5
     }
   },
   "rates": {
     "us2y": {
       "value": 4.34,
-      "date": "2026-08-28",
-      "change_pct": 3.33,
-      "prev_value": 4.2
+      "date": "2026-08-31",
+      "change_pct": 0.0,
+      "prev_value": 4.34
     },
     "us10y": {
-      "value": 4.73,
-      "date": "2026-08-28",
-      "change_pct": 1.28,
-      "prev_value": 4.67
+      "value": 4.75,
+      "date": "2026-08-31",
+      "change_pct": 0.42,
+      "prev_value": 4.73
     },
     "tips10y": {
-      "value": 2.42,
-      "date": "2026-08-28",
-      "change_pct": 3.42,
-      "prev_value": 2.34
+      "value": 2.44,
+      "date": "2026-08-31",
+      "change_pct": 0.83,
+      "prev_value": 2.42
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.41,
-      "date": "2026-08-31",
-      "change_pct": 5.13,
-      "prev_value": 0.39
+      "value": 0.4,
+      "date": "2026-09-01",
+      "change_pct": -2.44,
+      "prev_value": 0.41
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.6,
-      "date": "2026-08-28",
-      "change_pct": -1.14,
-      "prev_value": 2.63
+      "value": 2.63,
+      "date": "2026-08-31",
+      "change_pct": 1.15,
+      "prev_value": 2.6
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.3583
     },
     "usdkrw": {
-      "close": 1371.48,
-      "prev_close": 1377.11,
-      "change_pct": -0.41,
-      "pct_52w": 18.5
+      "close": 1370.18,
+      "prev_close": 1366.62,
+      "change_pct": 0.26,
+      "pct_52w": 18.0
     },
     "usdjpy": {
-      "close": 159.8,
-      "prev_close": 160.12,
-      "change_pct": -0.2,
-      "pct_52w": 76.5
+      "close": 160.23,
+      "prev_close": 159.75,
+      "change_pct": 0.3,
+      "pct_52w": 78.9
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 86.54,
-      "prev_close": 86.54,
-      "change_pct": 0.0,
-      "pct_52w": 48.9
+      "close": 91.5,
+      "prev_close": 85.76,
+      "change_pct": 6.69,
+      "pct_52w": 56.6
     },
     "gold": {
-      "close": 4487.2,
-      "prev_close": 4487.2,
-      "change_pct": 0.0,
-      "pct_52w": 47.7
+      "close": 4373.1,
+      "prev_close": 4431.1,
+      "change_pct": -1.31,
+      "pct_52w": 42.2
     },
     "copper": {
-      "close": 6.74,
-      "prev_close": 6.74,
-      "change_pct": 0.0,
-      "pct_52w": 99.6
+      "close": 6.55,
+      "prev_close": 6.59,
+      "change_pct": -0.61,
+      "pct_52w": 91.2
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6745699.0
     },
     "rrp": {
-      "value": 6.726,
-      "date": "2026-08-31",
-      "change_pct": 3743.43,
-      "prev_value": 0.175
+      "value": 0.725,
+      "date": "2026-09-01",
+      "change_pct": -89.22,
+      "prev_value": 6.726
     },
     "m2": {
       "value": 23218.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 186.5,
-      "change_pct": 0.44,
-      "change_4w": 4.75,
-      "pct_52w": 83.3
+      "close": 183.64,
+      "change_pct": -1.53,
+      "change_4w": 3.15,
+      "pct_52w": 79.4
     },
     "financials": {
-      "close": 57.71,
-      "change_pct": -0.67,
-      "change_4w": 0.58,
-      "pct_52w": 93.6
+      "close": 57.2,
+      "change_pct": -0.88,
+      "change_4w": -0.31,
+      "pct_52w": 88.9
     },
     "energy": {
-      "close": 63.96,
-      "change_pct": 2.04,
-      "change_4w": 8.79,
-      "pct_52w": 96.8
+      "close": 64.77,
+      "change_pct": 1.27,
+      "change_4w": 10.17,
+      "pct_52w": 99.2
     },
     "utilities": {
-      "close": 42.23,
-      "change_pct": -1.17,
-      "change_4w": -4.8,
-      "pct_52w": 29.8
+      "close": 42.56,
+      "change_pct": 0.78,
+      "change_4w": -4.06,
+      "pct_52w": 34.3
     },
     "healthcare": {
-      "close": 170.54,
-      "change_pct": -0.36,
-      "change_4w": 5.12,
-      "pct_52w": 86.4
+      "close": 171.67,
+      "change_pct": 0.66,
+      "change_4w": 5.81,
+      "pct_52w": 88.9
     },
     "consumer_disc": {
-      "close": 116.59,
-      "change_pct": -0.53,
-      "change_4w": -1.37,
-      "pct_52w": 59.4
+      "close": 114.59,
+      "change_pct": -1.72,
+      "change_4w": -3.06,
+      "pct_52w": 49.2
     },
     "industrials": {
-      "close": 175.13,
-      "change_pct": -1.13,
-      "change_4w": -4.38,
-      "pct_52w": 69.1
+      "close": 172.73,
+      "change_pct": -1.37,
+      "change_4w": -5.69,
+      "pct_52w": 63.5
     },
     "materials": {
-      "close": 52.69,
-      "change_pct": -0.92,
-      "change_4w": 3.29,
-      "pct_52w": 88.2
+      "close": 52.07,
+      "change_pct": -1.18,
+      "change_4w": 2.08,
+      "pct_52w": 83.3
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 52,
+      "score": 49,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 148.53,
-      "change_pct": -0.83,
+      "close": 149.23,
+      "change_pct": 0.47,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -286,102 +286,53 @@
   ],
   "news": [
     {
-      "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
-      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "title": "This could be the 10-year Treasury’s tipping point into the danger zone",
+      "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 22:24:00 GMT",
-      "title_ko": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees"
+      "published": "Tue, 01 Sep 2026 20:36:00 GMT",
+      "title_ko": "This could be the 10-year Treasury’s tipping point into the danger zone"
     },
     {
-      "title": "The S&P 500 usually falls in September. Why this year should be different.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+      "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+      "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 21:36:00 GMT",
-      "title_ko": "The S&P 500 usually falls in September. Why this year should be different."
+      "published": "Tue, 01 Sep 2026 20:13:00 GMT",
+      "title_ko": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz"
     },
     {
-      "title": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market",
-      "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 21:33:00 GMT",
-      "title_ko": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market"
-    },
-    {
-      "title": "23 best-performing stocks of August, as the software industry continues its recovery",
-      "url": "https://www.marketwatch.com/story/22-best-performing-stocks-of-august-as-the-software-industry-continues-its-recovery-88e432bf?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 21:16:00 GMT",
-      "title_ko": "23 best-performing stocks of August, as the software industry continues its recovery"
-    },
-    {
-      "title": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
-      "url": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 21:01:00 GMT",
-      "title_ko": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch"
-    },
-    {
-      "title": "This maneuver is boosting oil shipments through the Strait of Hormuz",
-      "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 20:56:00 GMT",
-      "title_ko": "This maneuver is boosting oil shipments through the Strait of Hormuz"
-    },
-    {
-      "title": "With Warsh running the Fed, should bond investors be worried?",
-      "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 31 Aug 2026 20:55:00 GMT",
-      "title_ko": "With Warsh running the Fed, should bond investors be worried?"
-    },
-    {
-      "title": "Venezuela grants U.S.-backed oil firm NABEP 100-year concessions for 17 oil fields, White House says",
-      "url": "https://www.cnbc.com/2026/08/31/venezuela-grants-north-american-blue-energy-partners-100-year-concessions-for-17-oil-fields-white-house-says.html",
+      "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
+      "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
       "source": "CNBC",
-      "published": "Tue, 01 Sep 2026 01:20:08 GMT",
-      "title_ko": "Venezuela grants U.S.-backed oil firm NABEP 100-year concessions for 17 oil fields, White House says"
+      "published": "Tue, 01 Sep 2026 23:52:21 GMT",
+      "title_ko": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says"
     },
     {
-      "title": "Fast-fashion giant Shein's shares drop 7% in Hong Kong market debut",
-      "url": "https://www.cnbc.com/2026/09/01/shein-ipo-market-debut-hong-kong.html",
+      "title": "Used cars under $20,000 tend to sell quickly — but there are trade-offs for buyers",
+      "url": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html",
       "source": "CNBC",
-      "published": "Tue, 01 Sep 2026 01:34:01 GMT",
-      "title_ko": "Fast-fashion giant Shein's shares drop 7% in Hong Kong market debut"
+      "published": "Tue, 01 Sep 2026 15:49:08 GMT",
+      "title_ko": "Used cars under $20,000 tend to sell quickly — but there are trade-offs for buyers"
     },
     {
-      "title": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
-      "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+      "title": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+      "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
       "source": "CNBC",
-      "published": "Mon, 31 Aug 2026 18:53:36 GMT",
-      "title_ko": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up"
+      "published": "Tue, 01 Sep 2026 20:40:30 GMT",
+      "title_ko": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries"
     },
     {
-      "title": "Manhattan's luxury rental market is booming, with units reaching $100,000 a month",
-      "url": "https://www.cnbc.com/2026/08/31/manhattan-luxury-rentals-100000-month.html",
+      "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+      "url": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html",
       "source": "CNBC",
-      "published": "Mon, 31 Aug 2026 11:27:20 GMT",
-      "title_ko": "Manhattan's luxury rental market is booming, with units reaching $100,000 a month"
+      "published": "Tue, 01 Sep 2026 12:39:23 GMT",
+      "title_ko": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears"
     },
     {
-      "title": "CNBC's The China Connection newsletter: McKinsey's contrarian economic view",
-      "url": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html",
+      "title": "Prediction market traders think job creation rebounded in August",
+      "url": "https://www.cnbc.com/2026/09/01/prediction-market-traders-think-job-creation-rebounded-in-august.html",
       "source": "CNBC",
-      "published": "Mon, 31 Aug 2026 23:00:01 GMT",
-      "title_ko": "CNBC's The China Connection newsletter: McKinsey's contrarian economic view"
-    },
-    {
-      "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-      "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
-      "source": "CNBC",
-      "published": "Mon, 31 Aug 2026 19:38:38 GMT",
-      "title_ko": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced"
-    },
-    {
-      "title": "India’s economy expands 7.8% in fiscal first quarter, beating estimates",
-      "url": "https://www.cnbc.com/2026/08/31/india-economy-gdp-energy-el-nino.html",
-      "source": "CNBC",
-      "published": "Mon, 31 Aug 2026 11:23:42 GMT",
-      "title_ko": "India’s economy expands 7.8% in fiscal first quarter, beating estimates"
+      "published": "Tue, 01 Sep 2026 18:57:14 GMT",
+      "title_ko": "Prediction market traders think job creation rebounded in August"
     }
   ]
 }
