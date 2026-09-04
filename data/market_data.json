@@ -1,56 +1,56 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "indices": {
     "sp500": {
-      "close": 7666.6,
-      "prev_close": 7631.47,
-      "change_pct": 0.46,
-      "pct_52w": 90.0
+      "close": 7747.71,
+      "prev_close": 7666.6,
+      "change_pct": 1.06,
+      "pct_52w": 95.4
     },
     "nasdaq100": {
-      "close": 29143.33,
-      "prev_close": 29077.22,
-      "change_pct": 0.23,
-      "pct_52w": 79.6
+      "close": 29482.32,
+      "prev_close": 29143.33,
+      "change_pct": 1.16,
+      "pct_52w": 83.8
     },
     "russell": {
-      "close": 2953.17,
-      "prev_close": 2920.13,
-      "change_pct": 1.13,
-      "pct_52w": 84.8
+      "close": 2968.27,
+      "prev_close": 2953.17,
+      "change_pct": 0.51,
+      "pct_52w": 86.8
     },
     "vix": {
-      "close": 15.2,
-      "prev_close": 16.34,
-      "change_pct": -6.98,
-      "pct_52w": 8.3
+      "close": 14.32,
+      "prev_close": 15.2,
+      "change_pct": -5.79,
+      "pct_52w": 4.3
     }
   },
   "rates": {
     "us2y": {
       "value": 4.39,
-      "date": "2026-09-01",
-      "change_pct": 1.15,
-      "prev_value": 4.34
+      "date": "2026-09-02",
+      "change_pct": 0.0,
+      "prev_value": 4.39
     },
     "us10y": {
       "value": 4.79,
-      "date": "2026-09-01",
-      "change_pct": 0.84,
-      "prev_value": 4.75
+      "date": "2026-09-02",
+      "change_pct": 0.0,
+      "prev_value": 4.79
     },
     "tips10y": {
-      "value": 2.44,
-      "date": "2026-09-01",
-      "change_pct": 0.0,
+      "value": 2.45,
+      "date": "2026-09-02",
+      "change_pct": 0.41,
       "prev_value": 2.44
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.4,
-      "date": "2026-09-02",
-      "change_pct": 0.0,
+      "value": 0.43,
+      "date": "2026-09-03",
+      "change_pct": 7.5,
       "prev_value": 0.4
     },
     "us5s30s": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 2.65,
-      "date": "2026-09-01",
-      "change_pct": 0.76,
-      "prev_value": 2.63
+      "value": 2.66,
+      "date": "2026-09-02",
+      "change_pct": 0.38,
+      "prev_value": 2.65
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.3583
     },
     "usdkrw": {
-      "close": 1359.18,
-      "prev_close": 1372.86,
-      "change_pct": -1.0,
-      "pct_52w": 13.9
+      "close": 1356.94,
+      "prev_close": 1358.39,
+      "change_pct": -0.11,
+      "pct_52w": 13.0
     },
     "usdjpy": {
-      "close": 158.69,
-      "prev_close": 160.2,
-      "change_pct": -0.94,
-      "pct_52w": 70.2
+      "close": 155.65,
+      "prev_close": 158.92,
+      "change_pct": -2.06,
+      "pct_52w": 53.1
     },
     "eurusd": {
       "close": 1.16,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 90.75,
-      "prev_close": 90.22,
-      "change_pct": 0.59,
-      "pct_52w": 55.5
+      "close": 91.53,
+      "prev_close": 91.01,
+      "change_pct": 0.57,
+      "pct_52w": 56.7
     },
     "gold": {
-      "close": 4432.8,
-      "prev_close": 4348.0,
-      "change_pct": 1.95,
-      "pct_52w": 45.1
+      "close": 4523.5,
+      "prev_close": 4366.3,
+      "change_pct": 3.6,
+      "pct_52w": 47.8
     },
     "copper": {
-      "close": 6.6,
-      "prev_close": 6.51,
-      "change_pct": 1.38,
-      "pct_52w": 93.4
+      "close": 6.68,
+      "prev_close": 6.5,
+      "change_pct": 2.77,
+      "pct_52w": 96.9
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6730912.0,
-      "date": "2026-08-26",
-      "change_pct": -0.22,
-      "prev_value": 6745699.0
+      "value": 6737204.0,
+      "date": "2026-09-02",
+      "change_pct": 0.09,
+      "prev_value": 6730912.0
     },
     "rrp": {
-      "value": 0.525,
-      "date": "2026-09-02",
-      "change_pct": -27.59,
-      "prev_value": 0.725
+      "value": 0.702,
+      "date": "2026-09-03",
+      "change_pct": 33.71,
+      "prev_value": 0.525
     },
     "m2": {
       "value": 23218.0,
@@ -229,13 +229,13 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 51,
+      "score": 53,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 144.12,
-      "change_pct": -3.42,
-      "signal": "yellow",
+      "close": 150.63,
+      "change_pct": 4.52,
+      "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
@@ -286,88 +286,39 @@
   ],
   "news": [
     {
-      "title": "Palantir’s stock is slumping. Why bond yields and Google may be to blame.",
-      "url": "https://www.marketwatch.com/story/why-palantirs-stock-is-suffering-its-worst-slump-since-february-7fb3b289?mod=mw_rss_topstories",
+      "title": "Oura files for IPO amid Americans’ obsession with tracking their sleep, steps and heart rates",
+      "url": "https://www.marketwatch.com/story/oura-files-for-ipo-amid-americans-obsession-with-tracking-their-sleep-steps-and-heart-rates-093f85c4?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 02 Sep 2026 21:12:00 GMT",
-      "title_ko": "Palantir’s stock is slumping. Why bond yields and Google may be to blame."
+      "published": "Thu, 03 Sep 2026 21:49:00 GMT",
+      "title_ko": "Oura files for IPO amid Americans’ obsession with tracking their sleep, steps and heart rates"
     },
     {
-      "title": "USTR's Greer huddles with House Republicans amid Trump trade spats",
-      "url": "https://www.cnbc.com/2026/09/02/greer-trade-house-republicans-trump.html",
+      "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+      "url": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
       "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 20:50:51 GMT",
-      "title_ko": "USTR's Greer huddles with House Republicans amid Trump trade spats"
+      "published": "Thu, 03 Sep 2026 19:18:59 GMT",
+      "title_ko": "Vance says Fed should lower interest rates: 'Would be nice to have some help'"
     },
     {
-      "title": "States now must report undocumented immigrants to DHS or risk federal funding, DOJ says",
-      "url": "https://www.cnbc.com/2026/09/02/doj-states-undocumented-immigrants-dhs-funds.html",
+      "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+      "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
       "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 18:25:42 GMT",
-      "title_ko": "States now must report undocumented immigrants to DHS or risk federal funding, DOJ says"
+      "published": "Thu, 03 Sep 2026 19:38:09 GMT",
+      "title_ko": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer"
     },
     {
-      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
-      "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
+      "title": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'",
+      "url": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html",
       "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 20:05:39 GMT",
-      "title_ko": "10-year U.S. Treasury yield hits highest level since November 2023"
+      "published": "Thu, 03 Sep 2026 20:42:29 GMT",
+      "title_ko": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'"
     },
     {
-      "title": "New Jersey asks the Supreme Court to take on prediction markets",
-      "url": "https://www.cnbc.com/2026/09/02/new-jersey-asks-the-supreme-court-to-take-on-prediction-markets-.html",
+      "title": "The world appears to be entering a higher-rate era. Here’s who will pay the price",
+      "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
       "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 21:15:30 GMT",
-      "title_ko": "New Jersey asks the Supreme Court to take on prediction markets"
-    },
-    {
-      "title": "How Equinix has found a niche in the multitrillion-dollar AI data center boom",
-      "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 22:49:01 GMT",
-      "title_ko": "How Equinix has found a niche in the multitrillion-dollar AI data center boom"
-    },
-    {
-      "title": "Jim Cramer says investors aren't ditching tech — they just want cheaper stocks",
-      "url": "https://www.cnbc.com/2026/09/02/cramer-says-investors-arent-ditching-tech-they-want-cheaper-stocks.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 23:09:09 GMT",
-      "title_ko": "Jim Cramer says investors aren't ditching tech — they just want cheaper stocks"
-    },
-    {
-      "title": "Inside India newsletter: India’s economic growth is smashing forecasts, but its biggest stocks aren't feeling the love",
-      "url": "https://www.cnbc.com/2026/09/03/india-nifty-sensex-manufacturing-economy-gdp.html",
-      "source": "CNBC",
-      "published": "Thu, 03 Sep 2026 00:08:50 GMT",
-      "title_ko": "Inside India newsletter: India’s economic growth is smashing forecasts, but its biggest stocks aren't feeling the love"
-    },
-    {
-      "title": "Traders are piling into this international stock market that just pulled ahead of the Nasdaq",
-      "url": "https://www.cnbc.com/2026/09/02/traders-pile-into-this-international-stock-market-thats-beating-the-nasdaq.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 19:11:07 GMT",
-      "title_ko": "Traders are piling into this international stock market that just pulled ahead of the Nasdaq"
-    },
-    {
-      "title": "New York Fed's Williams says yield surge due to strong economic prospects",
-      "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 17:21:59 GMT",
-      "title_ko": "New York Fed's Williams says yield surge due to strong economic prospects"
-    },
-    {
-      "title": "AI trade faces test with next week's Oracle earnings",
-      "url": "https://www.cnbc.com/2026/09/02/ai-trade-faces-test-with-next-weeks-oracle-earnings.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 17:57:04 GMT",
-      "title_ko": "AI trade faces test with next week's Oracle earnings"
-    },
-    {
-      "title": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
-      "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html",
-      "source": "CNBC",
-      "published": "Wed, 02 Sep 2026 15:57:08 GMT",
-      "title_ko": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday"
+      "published": "Thu, 03 Sep 2026 04:20:20 GMT",
+      "title_ko": "The world appears to be entering a higher-rate era. Here’s who will pay the price"
     }
   ]
 }
