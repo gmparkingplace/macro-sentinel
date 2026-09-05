@@ -1,71 +1,71 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "indices": {
     "sp500": {
-      "close": 7747.71,
-      "prev_close": 7666.6,
-      "change_pct": 1.06,
-      "pct_52w": 95.4
+      "close": 7718.6,
+      "prev_close": 7747.71,
+      "change_pct": -0.38,
+      "pct_52w": 93.5
     },
     "nasdaq100": {
-      "close": 29482.32,
-      "prev_close": 29143.33,
-      "change_pct": 1.16,
-      "pct_52w": 83.8
+      "close": 29544.15,
+      "prev_close": 29482.32,
+      "change_pct": 0.21,
+      "pct_52w": 84.6
     },
     "russell": {
-      "close": 2968.27,
-      "prev_close": 2953.17,
-      "change_pct": 0.51,
-      "pct_52w": 86.8
+      "close": 2975.65,
+      "prev_close": 2968.27,
+      "change_pct": 0.25,
+      "pct_52w": 87.7
     },
     "vix": {
-      "close": 14.32,
-      "prev_close": 15.2,
-      "change_pct": -5.79,
-      "pct_52w": 4.3
+      "close": 14.53,
+      "prev_close": 14.32,
+      "change_pct": 1.47,
+      "pct_52w": 5.2
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.39,
-      "date": "2026-09-02",
-      "change_pct": 0.0,
+      "value": 4.34,
+      "date": "2026-09-03",
+      "change_pct": -1.14,
       "prev_value": 4.39
     },
     "us10y": {
-      "value": 4.79,
-      "date": "2026-09-02",
-      "change_pct": 0.0,
+      "value": 4.77,
+      "date": "2026-09-03",
+      "change_pct": -0.42,
       "prev_value": 4.79
     },
     "tips10y": {
-      "value": 2.45,
-      "date": "2026-09-02",
-      "change_pct": 0.41,
-      "prev_value": 2.44
+      "value": 2.42,
+      "date": "2026-09-03",
+      "change_pct": -1.22,
+      "prev_value": 2.45
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.43,
-      "date": "2026-09-03",
-      "change_pct": 7.5,
-      "prev_value": 0.4
+      "value": 0.41,
+      "date": "2026-09-04",
+      "change_pct": -4.65,
+      "prev_value": 0.43
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.66,
-      "date": "2026-09-02",
-      "change_pct": 0.38,
-      "prev_value": 2.65
+      "value": 2.65,
+      "date": "2026-09-03",
+      "change_pct": -0.38,
+      "prev_value": 2.66
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.3583
     },
     "usdkrw": {
-      "close": 1356.94,
-      "prev_close": 1358.39,
-      "change_pct": -0.11,
-      "pct_52w": 13.0
+      "close": 1345.99,
+      "prev_close": 1355.41,
+      "change_pct": -0.69,
+      "pct_52w": 8.9
     },
     "usdjpy": {
-      "close": 155.65,
+      "close": 156.22,
       "prev_close": 158.92,
-      "change_pct": -2.06,
-      "pct_52w": 53.1
+      "change_pct": -1.7,
+      "pct_52w": 56.3
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 91.53,
-      "prev_close": 91.01,
-      "change_pct": 0.57,
-      "pct_52w": 56.7
+      "close": 91.22,
+      "prev_close": 91.3,
+      "change_pct": -0.09,
+      "pct_52w": 56.2
     },
     "gold": {
-      "close": 4523.5,
-      "prev_close": 4366.3,
-      "change_pct": 3.6,
-      "pct_52w": 47.8
+      "close": 4477.2,
+      "prev_close": 4491.7,
+      "change_pct": -0.32,
+      "pct_52w": 45.5
     },
     "copper": {
-      "close": 6.68,
-      "prev_close": 6.5,
-      "change_pct": 2.77,
-      "pct_52w": 96.9
+      "close": 6.67,
+      "prev_close": 6.58,
+      "change_pct": 1.37,
+      "pct_52w": 96.5
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6730912.0
     },
     "rrp": {
-      "value": 0.702,
-      "date": "2026-09-03",
-      "change_pct": 33.71,
-      "prev_value": 0.525
+      "value": 0.675,
+      "date": "2026-09-04",
+      "change_pct": -3.85,
+      "prev_value": 0.702
     },
     "m2": {
       "value": 23218.0,
@@ -199,9 +199,9 @@
     },
     "unemployment": {
       "value": 4.1,
-      "date": "2026-07-01",
-      "change_pct": -2.38,
-      "prev_value": 4.2
+      "date": "2026-08-01",
+      "change_pct": 0.0,
+      "prev_value": 4.1
     },
     "pce": {
       "value": 3.7,
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 53,
+      "score": 52,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 150.63,
-      "change_pct": 4.52,
+      "close": 151.58,
+      "change_pct": 0.63,
       "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-09-04",
-      "event": "고용보고서 (8월)",
-      "category": "jobs",
-      "impact": "high"
-    },
     {
       "date": "2026-09-11",
       "event": "CPI 발표 (8월)",
@@ -286,39 +280,46 @@
   ],
   "news": [
     {
-      "title": "Oura files for IPO amid Americans’ obsession with tracking their sleep, steps and heart rates",
-      "url": "https://www.marketwatch.com/story/oura-files-for-ipo-amid-americans-obsession-with-tracking-their-sleep-steps-and-heart-rates-093f85c4?mod=mw_rss_topstories",
+      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
+      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Thu, 03 Sep 2026 21:49:00 GMT",
-      "title_ko": "Oura files for IPO amid Americans’ obsession with tracking their sleep, steps and heart rates"
+      "published": "Fri, 04 Sep 2026 21:46:00 GMT",
+      "title_ko": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well."
     },
     {
-      "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
-      "url": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
+      "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
+      "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
       "source": "CNBC",
-      "published": "Thu, 03 Sep 2026 19:18:59 GMT",
-      "title_ko": "Vance says Fed should lower interest rates: 'Would be nice to have some help'"
+      "published": "Fri, 04 Sep 2026 19:48:08 GMT",
+      "title_ko": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates"
     },
     {
-      "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
-      "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+      "title": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+      "url": "https://www.cnbc.com/2026/09/04/worlds-biggest-sovereign-wealth-fund-plans-to-cut-treasury-holdings.html",
       "source": "CNBC",
-      "published": "Thu, 03 Sep 2026 19:38:09 GMT",
-      "title_ko": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer"
+      "published": "Fri, 04 Sep 2026 12:22:09 GMT",
+      "title_ko": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings"
     },
     {
-      "title": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'",
-      "url": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html",
+      "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
+      "url": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html",
       "source": "CNBC",
-      "published": "Thu, 03 Sep 2026 20:42:29 GMT",
-      "title_ko": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'"
+      "published": "Fri, 04 Sep 2026 15:10:20 GMT",
+      "title_ko": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries"
     },
     {
-      "title": "The world appears to be entering a higher-rate era. Here’s who will pay the price",
-      "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
+      "title": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+      "url": "https://www.cnbc.com/2026/09/04/treasury-bonds-yield-trump-ai-mortgage-rates-analysis.html",
       "source": "CNBC",
-      "published": "Thu, 03 Sep 2026 04:20:20 GMT",
-      "title_ko": "The world appears to be entering a higher-rate era. Here’s who will pay the price"
+      "published": "Fri, 04 Sep 2026 18:08:16 GMT",
+      "title_ko": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them"
+    },
+    {
+      "title": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
+      "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
+      "source": "CNBC",
+      "published": "Fri, 04 Sep 2026 18:51:01 GMT",
+      "title_ko": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week"
     }
   ]
 }
