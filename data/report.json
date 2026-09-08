@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-08",
   "data": {
-    "date": "2026-09-05",
+    "date": "2026-09-08",
     "indices": {
       "sp500": {
         "close": 7718.6,
@@ -22,10 +22,10 @@
         "pct_52w": 87.7
       },
       "vix": {
-        "close": 14.53,
-        "prev_close": 14.32,
-        "change_pct": 1.47,
-        "pct_52w": 5.2
+        "close": 15.3,
+        "prev_close": 14.53,
+        "change_pct": 5.3,
+        "pct_52w": 8.8
       }
     },
     "rates": {
@@ -80,16 +80,16 @@
         "prev_value": 118.3583
       },
       "usdkrw": {
-        "close": 1345.99,
-        "prev_close": 1355.41,
-        "change_pct": -0.69,
-        "pct_52w": 8.9
+        "close": 1340.73,
+        "prev_close": 1345.06,
+        "change_pct": -0.32,
+        "pct_52w": 6.9
       },
       "usdjpy": {
-        "close": 156.22,
-        "prev_close": 158.92,
-        "change_pct": -1.7,
-        "pct_52w": 56.3
+        "close": 153.72,
+        "prev_close": 156.2,
+        "change_pct": -1.59,
+        "pct_52w": 42.2
       },
       "eurusd": {
         "close": 1.16,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 91.22,
-        "prev_close": 91.3,
-        "change_pct": -0.09,
-        "pct_52w": 56.2
+        "close": 92.39,
+        "prev_close": 91.48,
+        "change_pct": 0.99,
+        "pct_52w": 58.0
       },
       "gold": {
-        "close": 4477.2,
-        "prev_close": 4491.7,
-        "change_pct": -0.32,
-        "pct_52w": 45.5
+        "close": 4466.6,
+        "prev_close": 4429.8,
+        "change_pct": 0.83,
+        "pct_52w": 43.9
       },
       "copper": {
-        "close": 6.67,
-        "prev_close": 6.58,
-        "change_pct": 1.37,
-        "pct_52w": 96.5
+        "close": 6.75,
+        "prev_close": 6.6,
+        "change_pct": 2.27,
+        "pct_52w": 99.5
       }
     },
     "liquidity": {
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 187.28,
+        "change_pct": 0.7,
+        "change_4w": 0.74,
+        "pct_52w": 84.4
       },
       "financials": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 58.1,
+        "change_pct": -0.79,
+        "change_4w": 0.17,
+        "pct_52w": 95.5
       },
       "energy": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 64.06,
+        "change_pct": -0.87,
+        "change_4w": 11.78,
+        "pct_52w": 93.9
       },
       "utilities": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 43.08,
+        "change_pct": 0.12,
+        "change_4w": -1.33,
+        "pct_52w": 41.3
       },
       "healthcare": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 171.45,
+        "change_pct": -1.04,
+        "change_4w": 4.44,
+        "pct_52w": 88.4
       },
       "consumer_disc": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 114.91,
+        "change_pct": -1.33,
+        "change_4w": -3.14,
+        "pct_52w": 50.8
       },
       "industrials": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 175.27,
+        "change_pct": 0.41,
+        "change_4w": -5.95,
+        "pct_52w": 69.5
       },
       "materials": {
-        "close": NaN,
-        "change_pct": NaN,
-        "change_4w": NaN,
-        "pct_52w": NaN
+        "close": 52.44,
+        "change_pct": -0.34,
+        "change_4w": -0.38,
+        "pct_52w": 86.2
       }
     },
     "macro": {
@@ -231,7 +231,7 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 52,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
@@ -282,46 +282,95 @@
     ],
     "news": [
       {
-        "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
-        "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
+        "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+        "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 04 Sep 2026 21:46:00 GMT",
-        "title_ko": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well."
+        "published": "Tue, 08 Sep 2026 00:23:00 GMT",
+        "title_ko": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels"
       },
       {
-        "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-        "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
-        "source": "CNBC",
-        "published": "Fri, 04 Sep 2026 19:48:08 GMT",
-        "title_ko": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates"
+        "title": "Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade",
+        "url": "https://www.marketwatch.com/story/why-the-launch-of-openais-latest-astra-model-reignited-the-memory-chip-trade-809e2edb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 07 Sep 2026 11:36:00 GMT",
+        "title_ko": "Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade"
       },
       {
-        "title": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
-        "url": "https://www.cnbc.com/2026/09/04/worlds-biggest-sovereign-wealth-fund-plans-to-cut-treasury-holdings.html",
-        "source": "CNBC",
-        "published": "Fri, 04 Sep 2026 12:22:09 GMT",
-        "title_ko": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings"
+        "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
+        "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 07 Sep 2026 11:16:00 GMT",
+        "title_ko": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?"
       },
       {
-        "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-        "url": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html",
+        "title": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts",
+        "url": "https://www.cnbc.com/2026/09/07/trump-truth-social-ai-images-posting-spree.html",
         "source": "CNBC",
-        "published": "Fri, 04 Sep 2026 15:10:20 GMT",
-        "title_ko": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries"
+        "published": "Mon, 07 Sep 2026 12:09:41 GMT",
+        "title_ko": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
       },
       {
-        "title": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "url": "https://www.cnbc.com/2026/09/04/treasury-bonds-yield-trump-ai-mortgage-rates-analysis.html",
+        "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more",
+        "url": "https://www.cnbc.com/2026/09/07/isar-aerospace-spacex-rival-rocket-launch.html",
         "source": "CNBC",
-        "published": "Fri, 04 Sep 2026 18:08:16 GMT",
-        "title_ko": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them"
+        "published": "Mon, 07 Sep 2026 12:26:40 GMT",
+        "title_ko": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more"
       },
       {
-        "title": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
-        "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
+        "title": "CNBC's The China Connection newsletter: China's weak consumer becomes the world's problem",
+        "url": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html",
         "source": "CNBC",
-        "published": "Fri, 04 Sep 2026 18:51:01 GMT",
-        "title_ko": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week"
+        "published": "Mon, 07 Sep 2026 23:00:01 GMT",
+        "title_ko": "CNBC's The China Connection newsletter: China's weak consumer becomes the world's problem"
+      },
+      {
+        "title": "Far-right AfD landslide in German state piles pressure on federal government",
+        "url": "https://www.cnbc.com/2026/09/07/afd-germany-economy-merz.html",
+        "source": "CNBC",
+        "published": "Mon, 07 Sep 2026 17:04:21 GMT",
+        "title_ko": "Far-right AfD landslide in German state piles pressure on federal government"
+      },
+      {
+        "title": "Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive",
+        "url": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html",
+        "source": "CNBC",
+        "published": "Mon, 07 Sep 2026 11:50:43 GMT",
+        "title_ko": "Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive"
+      },
+      {
+        "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
+        "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
+        "source": "CNBC",
+        "published": "Mon, 07 Sep 2026 02:01:52 GMT",
+        "title_ko": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets"
+      },
+      {
+        "title": "AI data centers are transforming rural land markets — and fueling a backlash",
+        "url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
+        "source": "CNBC",
+        "published": "Sun, 06 Sep 2026 12:00:01 GMT",
+        "title_ko": "AI data centers are transforming rural land markets — and fueling a backlash"
+      },
+      {
+        "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
+        "url": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
+        "source": "CNBC",
+        "published": "Mon, 07 Sep 2026 23:23:10 GMT",
+        "title_ko": "China says it will pump $54 billion into banks and insurers — but their stocks still fell"
+      },
+      {
+        "title": "Top Wall Street analysts like these 3 stocks for the long haul",
+        "url": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
+        "source": "CNBC",
+        "published": "Mon, 07 Sep 2026 10:37:16 GMT",
+        "title_ko": "Top Wall Street analysts like these 3 stocks for the long haul"
+      },
+      {
+        "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
+        "url": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html",
+        "source": "CNBC",
+        "published": "Sun, 06 Sep 2026 13:19:01 GMT",
+        "title_ko": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here"
       }
     ]
   },
@@ -332,7 +381,7 @@
     "dxy": "red",
     "tips": "red",
     "curve": "green",
-    "sector": "red",
+    "sector": "yellow",
     "sentiment": "yellow",
     "skew": "red",
     "combo": "yellow",
@@ -348,10 +397,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $91.2 >= $90",
-      "숨겨진경고: VIX 14.5(낮음)+Skew 152(높음)"
+      "WTI $92.4 >= $90",
+      "숨겨진경고: VIX 15.3(낮음)+Skew 152(높음)"
     ],
-    "ratio": 0.475
+    "ratio": 0.5
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
