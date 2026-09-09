@@ -1,93 +1,93 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "indices": {
     "sp500": {
-      "close": 7718.6,
-      "prev_close": 7747.71,
-      "change_pct": -0.38,
-      "pct_52w": 93.5
+      "close": 7673.52,
+      "prev_close": 7718.6,
+      "change_pct": -0.58,
+      "pct_52w": 90.5
     },
     "nasdaq100": {
-      "close": 29544.15,
-      "prev_close": 29482.32,
-      "change_pct": 0.21,
-      "pct_52w": 84.6
+      "close": 29507.7,
+      "prev_close": 29544.15,
+      "change_pct": -0.12,
+      "pct_52w": 84.2
     },
     "russell": {
-      "close": 2975.65,
-      "prev_close": 2968.27,
-      "change_pct": 0.25,
-      "pct_52w": 87.7
+      "close": 2960.2,
+      "prev_close": 2975.65,
+      "change_pct": -0.52,
+      "pct_52w": 85.7
     },
     "vix": {
-      "close": 15.3,
-      "prev_close": 14.53,
-      "change_pct": 5.3,
-      "pct_52w": 8.8
+      "close": 15.72,
+      "prev_close": 15.3,
+      "change_pct": 2.75,
+      "pct_52w": 10.7
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.34,
-      "date": "2026-09-03",
-      "change_pct": -1.14,
-      "prev_value": 4.39
+      "value": 4.37,
+      "date": "2026-09-04",
+      "change_pct": 0.69,
+      "prev_value": 4.34
     },
     "us10y": {
-      "value": 4.77,
-      "date": "2026-09-03",
-      "change_pct": -0.42,
-      "prev_value": 4.79
+      "value": 4.78,
+      "date": "2026-09-04",
+      "change_pct": 0.21,
+      "prev_value": 4.77
     },
     "tips10y": {
-      "value": 2.42,
-      "date": "2026-09-03",
-      "change_pct": -1.22,
-      "prev_value": 2.45
+      "value": 2.43,
+      "date": "2026-09-04",
+      "change_pct": 0.41,
+      "prev_value": 2.42
     }
   },
   "spreads": {
     "us2s10s": {
       "value": 0.41,
-      "date": "2026-09-04",
-      "change_pct": -4.65,
-      "prev_value": 0.43
+      "date": "2026-09-08",
+      "change_pct": 0.0,
+      "prev_value": 0.41
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.65,
-      "date": "2026-09-03",
-      "change_pct": -0.38,
-      "prev_value": 2.66
+      "value": 2.68,
+      "date": "2026-09-07",
+      "change_pct": 0.0,
+      "prev_value": 2.68
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
   },
   "fx": {
     "dxy": {
-      "value": 118.7479,
-      "date": "2026-08-28",
-      "change_pct": 0.33,
-      "prev_value": 118.3583
+      "value": 118.0732,
+      "date": "2026-09-04",
+      "change_pct": -0.05,
+      "prev_value": 118.127
     },
     "usdkrw": {
-      "close": 1340.73,
-      "prev_close": 1345.06,
-      "change_pct": -0.32,
-      "pct_52w": 6.9
+      "close": 1343.57,
+      "prev_close": 1343.57,
+      "change_pct": 0.0,
+      "pct_52w": 8.0
     },
     "usdjpy": {
-      "close": 153.72,
-      "prev_close": 156.2,
-      "change_pct": -1.59,
-      "pct_52w": 42.2
+      "close": 153.65,
+      "prev_close": 153.85,
+      "change_pct": -0.13,
+      "pct_52w": 41.8
     },
     "eurusd": {
       "close": 1.16,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 92.39,
-      "prev_close": 91.48,
-      "change_pct": 0.99,
-      "pct_52w": 58.0
+      "close": 94.57,
+      "prev_close": 94.57,
+      "change_pct": 0.0,
+      "pct_52w": 61.4
     },
     "gold": {
-      "close": 4466.6,
-      "prev_close": 4429.8,
-      "change_pct": 0.83,
-      "pct_52w": 43.9
+      "close": 4404.9,
+      "prev_close": 4404.9,
+      "change_pct": 0.0,
+      "pct_52w": 40.8
     },
     "copper": {
-      "close": 6.75,
-      "prev_close": 6.6,
-      "change_pct": 2.27,
-      "pct_52w": 99.5
+      "close": 6.8,
+      "prev_close": 6.8,
+      "change_pct": 0.0,
+      "pct_52w": 100.0
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6730912.0
     },
     "rrp": {
-      "value": 0.675,
-      "date": "2026-09-04",
-      "change_pct": -3.85,
-      "prev_value": 0.702
+      "value": 0.626,
+      "date": "2026-09-08",
+      "change_pct": -7.26,
+      "prev_value": 0.675
     },
     "m2": {
       "value": 23218.0,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 187.28,
-      "change_pct": 0.7,
-      "change_4w": 0.74,
-      "pct_52w": 84.4
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "financials": {
-      "close": 58.1,
-      "change_pct": -0.79,
-      "change_4w": 0.17,
-      "pct_52w": 95.5
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "energy": {
-      "close": 64.06,
-      "change_pct": -0.87,
-      "change_4w": 11.78,
-      "pct_52w": 93.9
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "utilities": {
-      "close": 43.08,
-      "change_pct": 0.12,
-      "change_4w": -1.33,
-      "pct_52w": 41.3
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "healthcare": {
-      "close": 171.45,
-      "change_pct": -1.04,
-      "change_4w": 4.44,
-      "pct_52w": 88.4
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "consumer_disc": {
-      "close": 114.91,
-      "change_pct": -1.33,
-      "change_4w": -3.14,
-      "pct_52w": 50.8
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "industrials": {
-      "close": 175.27,
-      "change_pct": 0.41,
-      "change_4w": -5.95,
-      "pct_52w": 69.5
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     },
     "materials": {
-      "close": 52.44,
-      "change_pct": -0.34,
-      "change_4w": -0.38,
-      "pct_52w": 86.2
+      "close": NaN,
+      "change_pct": NaN,
+      "change_4w": NaN,
+      "pct_52w": NaN
     }
   },
   "macro": {
@@ -229,13 +229,13 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 51,
+      "score": 50,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 151.58,
-      "change_pct": 0.63,
-      "signal": "red",
+      "close": 148.86,
+      "change_pct": -1.79,
+      "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
@@ -280,95 +280,81 @@
   ],
   "news": [
     {
-      "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-      "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+      "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
+      "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 08 Sep 2026 00:23:00 GMT",
-      "title_ko": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels"
+      "published": "Wed, 09 Sep 2026 00:17:00 GMT",
+      "title_ko": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next."
     },
     {
-      "title": "Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade",
-      "url": "https://www.marketwatch.com/story/why-the-launch-of-openais-latest-astra-model-reignited-the-memory-chip-trade-809e2edb?mod=mw_rss_topstories",
+      "title": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
+      "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 07 Sep 2026 11:36:00 GMT",
-      "title_ko": "Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade"
+      "published": "Tue, 08 Sep 2026 22:50:00 GMT",
+      "title_ko": "How to invest in a booming stock market that’s way cheaper than the S&P 500"
     },
     {
-      "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 07 Sep 2026 11:16:00 GMT",
-      "title_ko": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?"
-    },
-    {
-      "title": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts",
-      "url": "https://www.cnbc.com/2026/09/07/trump-truth-social-ai-images-posting-spree.html",
+      "title": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+      "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 12:09:41 GMT",
-      "title_ko": "Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts"
+      "published": "Wed, 09 Sep 2026 00:56:01 GMT",
+      "title_ko": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says"
     },
     {
-      "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more",
-      "url": "https://www.cnbc.com/2026/09/07/isar-aerospace-spacex-rival-rocket-launch.html",
+      "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
+      "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 12:26:40 GMT",
-      "title_ko": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more"
+      "published": "Tue, 08 Sep 2026 17:11:11 GMT",
+      "title_ko": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens"
     },
     {
-      "title": "CNBC's The China Connection newsletter: China's weak consumer becomes the world's problem",
-      "url": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html",
+      "title": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
+      "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 23:00:01 GMT",
-      "title_ko": "CNBC's The China Connection newsletter: China's weak consumer becomes the world's problem"
+      "published": "Tue, 08 Sep 2026 22:02:53 GMT",
+      "title_ko": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning"
     },
     {
-      "title": "Far-right AfD landslide in German state piles pressure on federal government",
-      "url": "https://www.cnbc.com/2026/09/07/afd-germany-economy-merz.html",
+      "title": "Trump administration expresses 'profound concern' over Ford's ties to China",
+      "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 17:04:21 GMT",
-      "title_ko": "Far-right AfD landslide in German state piles pressure on federal government"
+      "published": "Tue, 08 Sep 2026 21:37:12 GMT",
+      "title_ko": "Trump administration expresses 'profound concern' over Ford's ties to China"
     },
     {
-      "title": "Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive",
-      "url": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html",
+      "title": "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
+      "url": "https://www.cnbc.com/2026/09/08/pharma-tariffs-trump-generic-drugs-sandoz-cmd-stock.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 11:50:43 GMT",
-      "title_ko": "Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive"
+      "published": "Tue, 08 Sep 2026 14:04:15 GMT",
+      "title_ko": "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat"
     },
     {
-      "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
-      "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
+      "title": "Cholesterol drug setback casts doubt over multibillion-dollar race",
+      "url": "https://www.cnbc.com/2026/09/08/novartis-cholesterol-setback-drug-race-eli-lilly-amgen.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 02:01:52 GMT",
-      "title_ko": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets"
+      "published": "Tue, 08 Sep 2026 05:00:01 GMT",
+      "title_ko": "Cholesterol drug setback casts doubt over multibillion-dollar race"
     },
     {
-      "title": "AI data centers are transforming rural land markets — and fueling a backlash",
-      "url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
+      "title": "These dividend stocks could catch a tailwind from data center pushback",
+      "url": "https://www.cnbc.com/2026/09/08/these-dividend-stocks-could-catch-a-tailwind-from-data-center-pushback.html",
       "source": "CNBC",
-      "published": "Sun, 06 Sep 2026 12:00:01 GMT",
-      "title_ko": "AI data centers are transforming rural land markets — and fueling a backlash"
+      "published": "Tue, 08 Sep 2026 19:29:41 GMT",
+      "title_ko": "These dividend stocks could catch a tailwind from data center pushback"
     },
     {
-      "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
-      "url": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
+      "title": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains",
+      "url": "https://www.cnbc.com/2026/09/08/this-data-center-stock-is-up-over-1000percent-in-the-last-five-years-trader-mike-khouw-sees-more-gains.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 23:23:10 GMT",
-      "title_ko": "China says it will pump $54 billion into banks and insurers — but their stocks still fell"
+      "published": "Tue, 08 Sep 2026 17:06:39 GMT",
+      "title_ko": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains"
     },
     {
-      "title": "Top Wall Street analysts like these 3 stocks for the long haul",
-      "url": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
+      "title": "Lilly perseveres in a bad day for drug stocks — plus, Boeing's mixed deliveries",
+      "url": "https://www.cnbc.com/2026/09/08/lilly-perseveres-in-a-bad-day-for-drug-stocks-plus-boeings-mixed-deliveries.html",
       "source": "CNBC",
-      "published": "Mon, 07 Sep 2026 10:37:16 GMT",
-      "title_ko": "Top Wall Street analysts like these 3 stocks for the long haul"
-    },
-    {
-      "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-      "url": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html",
-      "source": "CNBC",
-      "published": "Sun, 06 Sep 2026 13:19:01 GMT",
-      "title_ko": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here"
+      "published": "Tue, 08 Sep 2026 19:03:06 GMT",
+      "title_ko": "Lilly perseveres in a bad day for drug stocks — plus, Boeing's mixed deliveries"
     }
   ]
 }
