@@ -1,58 +1,58 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "data": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "indices": {
       "sp500": {
-        "close": 7673.52,
-        "prev_close": 7718.6,
-        "change_pct": -0.58,
-        "pct_52w": 90.5
+        "close": 7636.36,
+        "prev_close": 7673.52,
+        "change_pct": -0.48,
+        "pct_52w": 88.0
       },
       "nasdaq100": {
-        "close": 29507.7,
-        "prev_close": 29544.15,
-        "change_pct": -0.12,
-        "pct_52w": 84.2
+        "close": 29421.55,
+        "prev_close": 29507.7,
+        "change_pct": -0.29,
+        "pct_52w": 83.1
       },
       "russell": {
-        "close": 2960.2,
-        "prev_close": 2975.65,
-        "change_pct": -0.52,
-        "pct_52w": 85.7
+        "close": 2921.23,
+        "prev_close": 2960.2,
+        "change_pct": -1.32,
+        "pct_52w": 80.6
       },
       "vix": {
-        "close": 15.72,
-        "prev_close": 15.3,
-        "change_pct": 2.75,
-        "pct_52w": 10.7
+        "close": 16.46,
+        "prev_close": 15.72,
+        "change_pct": 4.71,
+        "pct_52w": 14.1
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.37,
-        "date": "2026-09-04",
-        "change_pct": 0.69,
-        "prev_value": 4.34
+        "value": 4.39,
+        "date": "2026-09-08",
+        "change_pct": 0.46,
+        "prev_value": 4.37
       },
       "us10y": {
-        "value": 4.78,
-        "date": "2026-09-04",
-        "change_pct": 0.21,
-        "prev_value": 4.77
+        "value": 4.8,
+        "date": "2026-09-08",
+        "change_pct": 0.42,
+        "prev_value": 4.78
       },
       "tips10y": {
         "value": 2.43,
-        "date": "2026-09-04",
-        "change_pct": 0.41,
-        "prev_value": 2.42
+        "date": "2026-09-08",
+        "change_pct": 0.0,
+        "prev_value": 2.43
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.41,
-        "date": "2026-09-08",
-        "change_pct": 0.0,
+        "value": 0.4,
+        "date": "2026-09-09",
+        "change_pct": -2.44,
         "prev_value": 0.41
       },
       "us5s30s": {
@@ -60,14 +60,14 @@
         "date": null
       },
       "hy_spread": {
-        "value": 2.68,
-        "date": "2026-09-07",
-        "change_pct": 0.0,
+        "value": 2.67,
+        "date": "2026-09-08",
+        "change_pct": -0.37,
         "prev_value": 2.68
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-09-04",
+        "date": "2026-09-08",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,15 +80,15 @@
         "prev_value": 118.127
       },
       "usdkrw": {
-        "close": 1343.57,
-        "prev_close": 1343.57,
-        "change_pct": 0.0,
-        "pct_52w": 8.0
+        "close": 1337.78,
+        "prev_close": 1339.21,
+        "change_pct": -0.11,
+        "pct_52w": 5.8
       },
       "usdjpy": {
-        "close": 153.65,
-        "prev_close": 153.85,
-        "change_pct": -0.13,
+        "close": 153.64,
+        "prev_close": 153.48,
+        "change_pct": 0.1,
         "pct_52w": 41.8
       },
       "eurusd": {
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 94.57,
-        "prev_close": 94.57,
-        "change_pct": 0.0,
-        "pct_52w": 61.4
+        "close": 96.6,
+        "prev_close": 93.03,
+        "change_pct": 3.84,
+        "pct_52w": 64.5
       },
       "gold": {
-        "close": 4404.9,
-        "prev_close": 4404.9,
-        "change_pct": 0.0,
-        "pct_52w": 40.8
+        "close": 4441.8,
+        "prev_close": 4393.9,
+        "change_pct": 1.09,
+        "pct_52w": 41.8
       },
       "copper": {
-        "close": 6.8,
-        "prev_close": 6.8,
-        "change_pct": 0.0,
-        "pct_52w": 100.0
+        "close": 6.86,
+        "prev_close": 6.74,
+        "change_pct": 1.78,
+        "pct_52w": 99.6
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6730912.0
       },
       "rrp": {
-        "value": 0.626,
-        "date": "2026-09-08",
-        "change_pct": -7.26,
-        "prev_value": 0.675
+        "value": 0.432,
+        "date": "2026-09-09",
+        "change_pct": -30.99,
+        "prev_value": 0.626
       },
       "m2": {
         "value": 23218.0,
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 50,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 148.86,
-        "change_pct": -1.79,
+        "close": 149.25,
+        "change_pct": 0.26,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -282,86 +282,86 @@
     ],
     "news": [
       {
-        "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
-        "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
+        "title": "The bull market’s biggest enemy right now could be Bessent’s interventions",
+        "url": "https://www.marketwatch.com/story/the-bull-markets-biggest-enemy-right-now-could-be-bessents-interventions-134bbe78?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 09 Sep 2026 00:17:00 GMT",
-        "title_ko": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next."
+        "published": "Wed, 09 Sep 2026 21:17:00 GMT",
+        "title_ko": "The bull market’s biggest enemy right now could be Bessent’s interventions"
       },
       {
-        "title": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
-        "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
+        "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+        "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 08 Sep 2026 22:50:00 GMT",
-        "title_ko": "How to invest in a booming stock market that’s way cheaper than the S&P 500"
+        "published": "Wed, 09 Sep 2026 20:36:00 GMT",
+        "title_ko": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates"
       },
       {
-        "title": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
-        "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
-        "source": "CNBC",
-        "published": "Wed, 09 Sep 2026 00:56:01 GMT",
-        "title_ko": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says"
+        "title": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
+        "url": "https://www.marketwatch.com/story/oil-at-100-why-you-should-always-have-energy-stocks-in-your-401-k-b82798f1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 09 Sep 2026 20:27:00 GMT",
+        "title_ko": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100."
       },
       {
-        "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
-        "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+        "title": "Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 17:11:11 GMT",
-        "title_ko": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens"
+        "published": "Wed, 09 Sep 2026 19:52:11 GMT",
+        "title_ko": "Trump says oil and gas prices won't fall until 'right after' midterm election"
       },
       {
-        "title": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
-        "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
+        "title": "Bessent’s political turn in GOP speech tests his bond-market credibility",
+        "url": "https://www.cnbc.com/2026/09/09/bessent-treasury-yields-buybacks-republican-convention.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 22:02:53 GMT",
-        "title_ko": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning"
+        "published": "Wed, 09 Sep 2026 22:20:16 GMT",
+        "title_ko": "Bessent’s political turn in GOP speech tests his bond-market credibility"
       },
       {
-        "title": "Trump administration expresses 'profound concern' over Ford's ties to China",
-        "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html",
+        "title": "Republicans to tout congressional stock-trading ban at midterm convention as Trump trades",
+        "url": "https://www.cnbc.com/2026/09/09/trump-republicans-congress-stock-trading-ban-midterm-convention.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 21:37:12 GMT",
-        "title_ko": "Trump administration expresses 'profound concern' over Ford's ties to China"
+        "published": "Wed, 09 Sep 2026 20:16:44 GMT",
+        "title_ko": "Republicans to tout congressional stock-trading ban at midterm convention as Trump trades"
       },
       {
-        "title": "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
-        "url": "https://www.cnbc.com/2026/09/08/pharma-tariffs-trump-generic-drugs-sandoz-cmd-stock.html",
+        "title": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
+        "url": "https://www.cnbc.com/2026/09/09/bond-selloff-stock-boom-rebalancing.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 14:04:15 GMT",
-        "title_ko": "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat"
+        "published": "Wed, 09 Sep 2026 21:14:49 GMT",
+        "title_ko": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now"
       },
       {
-        "title": "Cholesterol drug setback casts doubt over multibillion-dollar race",
-        "url": "https://www.cnbc.com/2026/09/08/novartis-cholesterol-setback-drug-race-eli-lilly-amgen.html",
+        "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
+        "url": "https://www.cnbc.com/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 05:00:01 GMT",
-        "title_ko": "Cholesterol drug setback casts doubt over multibillion-dollar race"
+        "published": "Wed, 09 Sep 2026 16:11:20 GMT",
+        "title_ko": "Why Cramer still recommends being 'a little more reserved' about data center stocks"
       },
       {
-        "title": "These dividend stocks could catch a tailwind from data center pushback",
-        "url": "https://www.cnbc.com/2026/09/08/these-dividend-stocks-could-catch-a-tailwind-from-data-center-pushback.html",
+        "title": "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 19:29:41 GMT",
-        "title_ko": "These dividend stocks could catch a tailwind from data center pushback"
+        "published": "Wed, 09 Sep 2026 10:30:01 GMT",
+        "title_ko": "Trump's oil investments have gained millions during Iran war as his accounts keep trading"
       },
       {
-        "title": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains",
-        "url": "https://www.cnbc.com/2026/09/08/this-data-center-stock-is-up-over-1000percent-in-the-last-five-years-trader-mike-khouw-sees-more-gains.html",
+        "title": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
+        "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 17:06:39 GMT",
-        "title_ko": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains"
+        "published": "Wed, 09 Sep 2026 16:17:46 GMT",
+        "title_ko": "U.S. reveals import ban on slew of Canadian goods as trade war escalates"
       },
       {
-        "title": "Lilly perseveres in a bad day for drug stocks — plus, Boeing's mixed deliveries",
-        "url": "https://www.cnbc.com/2026/09/08/lilly-perseveres-in-a-bad-day-for-drug-stocks-plus-boeings-mixed-deliveries.html",
+        "title": "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html",
         "source": "CNBC",
-        "published": "Tue, 08 Sep 2026 19:03:06 GMT",
-        "title_ko": "Lilly perseveres in a bad day for drug stocks — plus, Boeing's mixed deliveries"
+        "published": "Wed, 09 Sep 2026 18:29:51 GMT",
+        "title_ko": "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say"
       }
     ]
   },
   "scores": {
-    "vix": "green",
+    "vix": "yellow",
     "hy_spread": "green",
     "rates": "red",
     "dxy": "red",
@@ -375,7 +375,7 @@
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -383,10 +383,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $94.6 >= $90",
-      "숨겨진경고: VIX 15.7(낮음)+Skew 149(높음)"
+      "WTI $96.6 >= $90",
+      "숨겨진경고: VIX 16.5(낮음)+Skew 149(높음)"
     ],
-    "ratio": 0.475
+    "ratio": 0.45
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
