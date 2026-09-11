@@ -1,71 +1,71 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "indices": {
     "sp500": {
-      "close": 7636.36,
-      "prev_close": 7673.52,
-      "change_pct": -0.48,
-      "pct_52w": 88.0
+      "close": 7591.7,
+      "prev_close": 7636.36,
+      "change_pct": -0.58,
+      "pct_52w": 85.0
     },
     "nasdaq100": {
-      "close": 29421.55,
-      "prev_close": 29507.7,
-      "change_pct": -0.29,
-      "pct_52w": 83.1
+      "close": 29103.51,
+      "prev_close": 29421.55,
+      "change_pct": -1.08,
+      "pct_52w": 79.1
     },
     "russell": {
-      "close": 2921.23,
-      "prev_close": 2960.2,
-      "change_pct": -1.32,
-      "pct_52w": 80.6
+      "close": 2890.95,
+      "prev_close": 2921.24,
+      "change_pct": -1.04,
+      "pct_52w": 76.7
     },
     "vix": {
-      "close": 16.46,
-      "prev_close": 15.72,
-      "change_pct": 4.71,
-      "pct_52w": 14.1
+      "close": 17.84,
+      "prev_close": 16.46,
+      "change_pct": 8.38,
+      "pct_52w": 20.3
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.39,
-      "date": "2026-09-08",
-      "change_pct": 0.46,
-      "prev_value": 4.37
+      "value": 4.43,
+      "date": "2026-09-09",
+      "change_pct": 0.91,
+      "prev_value": 4.39
     },
     "us10y": {
-      "value": 4.8,
-      "date": "2026-09-08",
-      "change_pct": 0.42,
-      "prev_value": 4.78
+      "value": 4.83,
+      "date": "2026-09-09",
+      "change_pct": 0.63,
+      "prev_value": 4.8
     },
     "tips10y": {
-      "value": 2.43,
-      "date": "2026-09-08",
-      "change_pct": 0.0,
+      "value": 2.46,
+      "date": "2026-09-09",
+      "change_pct": 1.23,
       "prev_value": 2.43
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.4,
-      "date": "2026-09-09",
-      "change_pct": -2.44,
-      "prev_value": 0.41
+      "value": 0.39,
+      "date": "2026-09-10",
+      "change_pct": -2.5,
+      "prev_value": 0.4
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.67,
-      "date": "2026-09-08",
-      "change_pct": -0.37,
-      "prev_value": 2.68
+      "value": 2.71,
+      "date": "2026-09-09",
+      "change_pct": 1.5,
+      "prev_value": 2.67
     },
     "fra_ois": {
       "value": 3.63,
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "change_pct": 0.0,
       "prev_value": 3.63
     }
@@ -78,16 +78,16 @@
       "prev_value": 118.127
     },
     "usdkrw": {
-      "close": 1337.78,
-      "prev_close": 1339.21,
-      "change_pct": -0.11,
-      "pct_52w": 5.8
+      "close": 1346.55,
+      "prev_close": 1339.17,
+      "change_pct": 0.55,
+      "pct_52w": 9.1
     },
     "usdjpy": {
-      "close": 153.64,
-      "prev_close": 153.48,
-      "change_pct": 0.1,
-      "pct_52w": 41.8
+      "close": 154.53,
+      "prev_close": 153.57,
+      "change_pct": 0.63,
+      "pct_52w": 46.8
     },
     "eurusd": {
       "close": 1.16,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 96.6,
-      "prev_close": 93.03,
-      "change_pct": 3.84,
-      "pct_52w": 64.5
+      "close": 103.05,
+      "prev_close": 96.05,
+      "change_pct": 7.29,
+      "pct_52w": 74.5
     },
     "gold": {
-      "close": 4441.8,
-      "prev_close": 4393.9,
-      "change_pct": 1.09,
-      "pct_52w": 41.8
+      "close": 4364.1,
+      "prev_close": 4416.0,
+      "change_pct": -1.18,
+      "pct_52w": 37.9
     },
     "copper": {
-      "close": 6.86,
-      "prev_close": 6.74,
-      "change_pct": 1.78,
-      "pct_52w": 99.6
+      "close": 6.53,
+      "prev_close": 6.8,
+      "change_pct": -3.97,
+      "pct_52w": 88.0
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6737204.0,
-      "date": "2026-09-02",
-      "change_pct": 0.09,
-      "prev_value": 6730912.0
+      "value": 6740619.0,
+      "date": "2026-09-09",
+      "change_pct": 0.05,
+      "prev_value": 6737204.0
     },
     "rrp": {
-      "value": 0.432,
-      "date": "2026-09-09",
-      "change_pct": -30.99,
-      "prev_value": 0.626
+      "value": 4.736,
+      "date": "2026-09-10",
+      "change_pct": 996.3,
+      "prev_value": 0.432
     },
     "m2": {
       "value": 23218.0,
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 49,
+      "score": 45,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 149.25,
-      "change_pct": 0.26,
+      "close": 147.02,
+      "change_pct": -1.49,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -280,46 +280,39 @@
   ],
   "news": [
     {
-      "title": "The bull market’s biggest enemy right now could be Bessent’s interventions",
-      "url": "https://www.marketwatch.com/story/the-bull-markets-biggest-enemy-right-now-could-be-bessents-interventions-134bbe78?mod=mw_rss_topstories",
+      "title": "Here are the stocks to favor in the fourth quarter — and those you should avoid",
+      "url": "https://www.marketwatch.com/story/here-are-the-stocks-to-favor-in-the-fourth-quarter-and-those-you-should-avoid-cf2dd10b?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 09 Sep 2026 21:17:00 GMT",
-      "title_ko": "The bull market’s biggest enemy right now could be Bessent’s interventions"
+      "published": "Thu, 10 Sep 2026 22:02:00 GMT",
+      "title_ko": "Here are the stocks to favor in the fourth quarter — and those you should avoid"
     },
     {
-      "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-      "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+      "title": "Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market",
+      "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 09 Sep 2026 20:36:00 GMT",
-      "title_ko": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates"
+      "published": "Thu, 10 Sep 2026 20:24:00 GMT",
+      "title_ko": "Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market"
     },
     {
-      "title": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
-      "url": "https://www.marketwatch.com/story/oil-at-100-why-you-should-always-have-energy-stocks-in-your-401-k-b82798f1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Wed, 09 Sep 2026 20:27:00 GMT",
-      "title_ko": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100."
-    },
-    {
-      "title": "Trump says oil and gas prices won't fall until 'right after' midterm election",
-      "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html",
+      "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+      "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 19:52:11 GMT",
-      "title_ko": "Trump says oil and gas prices won't fall until 'right after' midterm election"
+      "published": "Thu, 10 Sep 2026 19:18:05 GMT",
+      "title_ko": "Friday's CPI inflation report is even more important than usual. Here's what to expect"
     },
     {
-      "title": "Bessent’s political turn in GOP speech tests his bond-market credibility",
-      "url": "https://www.cnbc.com/2026/09/09/bessent-treasury-yields-buybacks-republican-convention.html",
+      "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+      "url": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 22:20:16 GMT",
-      "title_ko": "Bessent’s political turn in GOP speech tests his bond-market credibility"
+      "published": "Fri, 11 Sep 2026 00:19:54 GMT",
+      "title_ko": "The iPhone Duo enters China’s crowded foldable market — and faces a price test"
     },
     {
-      "title": "Republicans to tout congressional stock-trading ban at midterm convention as Trump trades",
-      "url": "https://www.cnbc.com/2026/09/09/trump-republicans-congress-stock-trading-ban-midterm-convention.html",
+      "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 20:16:44 GMT",
-      "title_ko": "Republicans to tout congressional stock-trading ban at midterm convention as Trump trades"
+      "published": "Thu, 10 Sep 2026 16:55:17 GMT",
+      "title_ko": "The likelihood of a Fed interest rate hike next week just got a lot higher"
     },
     {
       "title": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
@@ -329,32 +322,32 @@
       "title_ko": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now"
     },
     {
-      "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
-      "url": "https://www.cnbc.com/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
+      "title": "Jim Cramer says this is the key force driving stocks right now",
+      "url": "https://www.cnbc.com/2026/09/10/jim-cramer-key-force-driving-stocks-right-now.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 16:11:20 GMT",
-      "title_ko": "Why Cramer still recommends being 'a little more reserved' about data center stocks"
+      "published": "Thu, 10 Sep 2026 22:46:54 GMT",
+      "title_ko": "Jim Cramer says this is the key force driving stocks right now"
     },
     {
-      "title": "Trump's oil investments have gained millions during Iran war as his accounts keep trading",
-      "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
+      "title": "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China",
+      "url": "https://www.cnbc.com/2026/09/10/ford-1-billion-investment-kentucky-plant.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 10:30:01 GMT",
-      "title_ko": "Trump's oil investments have gained millions during Iran war as his accounts keep trading"
+      "published": "Thu, 10 Sep 2026 20:48:14 GMT",
+      "title_ko": "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China"
     },
     {
-      "title": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
-      "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html",
+      "title": "30-year fixed mortgage rate tops 7% for the first time in over a year",
+      "url": "https://www.cnbc.com/2026/09/10/30-year-fixed-mortgage-rate-crosses.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 16:17:46 GMT",
-      "title_ko": "U.S. reveals import ban on slew of Canadian goods as trade war escalates"
+      "published": "Thu, 10 Sep 2026 18:30:08 GMT",
+      "title_ko": "30-year fixed mortgage rate tops 7% for the first time in over a year"
     },
     {
-      "title": "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
-      "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html",
+      "title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
+      "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
       "source": "CNBC",
-      "published": "Wed, 09 Sep 2026 18:29:51 GMT",
-      "title_ko": "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say"
+      "published": "Thu, 10 Sep 2026 19:23:21 GMT",
+      "title_ko": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war"
     }
   ]
 }
