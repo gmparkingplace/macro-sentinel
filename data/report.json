@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "data": {
-    "date": "2026-09-11",
+    "date": "2026-09-12",
     "indices": {
       "sp500": {
-        "close": 7591.7,
-        "prev_close": 7636.36,
-        "change_pct": -0.58,
-        "pct_52w": 85.0
+        "close": 7656.98,
+        "prev_close": 7591.7,
+        "change_pct": 0.86,
+        "pct_52w": 89.4
       },
       "nasdaq100": {
-        "close": 29103.51,
-        "prev_close": 29421.55,
-        "change_pct": -1.08,
-        "pct_52w": 79.1
+        "close": 29368.44,
+        "prev_close": 29103.51,
+        "change_pct": 0.91,
+        "pct_52w": 82.4
       },
       "russell": {
-        "close": 2890.95,
-        "prev_close": 2921.24,
-        "change_pct": -1.04,
-        "pct_52w": 76.7
+        "close": 2903.94,
+        "prev_close": 2890.95,
+        "change_pct": 0.45,
+        "pct_52w": 78.4
       },
       "vix": {
-        "close": 17.84,
-        "prev_close": 16.46,
-        "change_pct": 8.38,
-        "pct_52w": 20.3
+        "close": 15.84,
+        "prev_close": 17.84,
+        "change_pct": -11.21,
+        "pct_52w": 11.2
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.43,
-        "date": "2026-09-09",
-        "change_pct": 0.91,
-        "prev_value": 4.39
+        "value": 4.56,
+        "date": "2026-09-10",
+        "change_pct": 2.93,
+        "prev_value": 4.43
       },
       "us10y": {
-        "value": 4.83,
-        "date": "2026-09-09",
-        "change_pct": 0.63,
-        "prev_value": 4.8
+        "value": 4.95,
+        "date": "2026-09-10",
+        "change_pct": 2.48,
+        "prev_value": 4.83
       },
       "tips10y": {
-        "value": 2.46,
-        "date": "2026-09-09",
-        "change_pct": 1.23,
-        "prev_value": 2.43
+        "value": 2.55,
+        "date": "2026-09-10",
+        "change_pct": 3.66,
+        "prev_value": 2.46
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.39,
-        "date": "2026-09-10",
-        "change_pct": -2.5,
-        "prev_value": 0.4
+        "value": 0.33,
+        "date": "2026-09-11",
+        "change_pct": -15.38,
+        "prev_value": 0.39
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.71,
-        "date": "2026-09-09",
-        "change_pct": 1.5,
-        "prev_value": 2.67
+        "value": 2.7,
+        "date": "2026-09-10",
+        "change_pct": -0.37,
+        "prev_value": 2.71
       },
       "fra_ois": {
         "value": 3.63,
-        "date": "2026-09-09",
+        "date": "2026-09-10",
         "change_pct": 0.0,
         "prev_value": 3.63
       }
@@ -80,16 +80,16 @@
         "prev_value": 118.127
       },
       "usdkrw": {
-        "close": 1346.55,
+        "close": 1341.05,
         "prev_close": 1339.17,
-        "change_pct": 0.55,
-        "pct_52w": 9.1
+        "change_pct": 0.14,
+        "pct_52w": 7.0
       },
       "usdjpy": {
-        "close": 154.53,
+        "close": 153.55,
         "prev_close": 153.57,
-        "change_pct": 0.63,
-        "pct_52w": 46.8
+        "change_pct": -0.01,
+        "pct_52w": 41.3
       },
       "eurusd": {
         "close": 1.16,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 103.05,
-        "prev_close": 96.05,
-        "change_pct": 7.29,
-        "pct_52w": 74.5
+        "close": 99.99,
+        "prev_close": 102.48,
+        "change_pct": -2.43,
+        "pct_52w": 69.8
       },
       "gold": {
-        "close": 4364.1,
-        "prev_close": 4416.0,
-        "change_pct": -1.18,
-        "pct_52w": 37.9
+        "close": 4390.0,
+        "prev_close": 4364.5,
+        "change_pct": 0.58,
+        "pct_52w": 39.2
       },
       "copper": {
-        "close": 6.53,
-        "prev_close": 6.8,
-        "change_pct": -3.97,
-        "pct_52w": 88.0
+        "close": 6.56,
+        "prev_close": 6.47,
+        "change_pct": 1.39,
+        "pct_52w": 89.3
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6737204.0
       },
       "rrp": {
-        "value": 4.736,
-        "date": "2026-09-10",
-        "change_pct": 996.3,
-        "prev_value": 0.432
+        "value": 5.255,
+        "date": "2026-09-11",
+        "change_pct": 10.96,
+        "prev_value": 4.736
       },
       "m2": {
         "value": 23218.0,
@@ -190,13 +190,13 @@
     },
     "macro": {
       "cpi_yoy": {
-        "value": 3.54,
-        "date": "2026-07-01",
+        "value": 3.71,
+        "date": "2026-08-01",
         "change_pct": null
       },
       "core_cpi": {
-        "value": 2.79,
-        "date": "2026-07-01",
+        "value": 2.76,
+        "date": "2026-08-01",
         "change_pct": null
       },
       "unemployment": {
@@ -231,24 +231,18 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 45,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 147.02,
-        "change_pct": -1.49,
-        "signal": "yellow",
+        "close": 154.49,
+        "change_pct": 5.08,
+        "signal": "red",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
-      {
-        "date": "2026-09-11",
-        "event": "CPI 발표 (8월)",
-        "category": "cpi",
-        "impact": "high"
-      },
       {
         "date": "2026-09-16",
         "event": "FOMC 금리 결정",
@@ -282,79 +276,100 @@
     ],
     "news": [
       {
-        "title": "Here are the stocks to favor in the fourth quarter — and those you should avoid",
-        "url": "https://www.marketwatch.com/story/here-are-the-stocks-to-favor-in-the-fourth-quarter-and-those-you-should-avoid-cf2dd10b?mod=mw_rss_topstories",
+        "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+        "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 10 Sep 2026 22:02:00 GMT",
-        "title_ko": "Here are the stocks to favor in the fourth quarter — and those you should avoid"
+        "published": "Fri, 11 Sep 2026 23:54:00 GMT",
+        "title_ko": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test."
       },
       {
-        "title": "Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market",
-        "url": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+        "title": "Why Dell and HPE were the S&P 500’s top-performing stocks today",
+        "url": "https://www.marketwatch.com/story/why-dell-and-hpe-were-the-s-p-500s-top-performing-stocks-today-13d1dd14?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 10 Sep 2026 20:24:00 GMT",
-        "title_ko": "Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market"
+        "published": "Fri, 11 Sep 2026 20:30:00 GMT",
+        "title_ko": "Why Dell and HPE were the S&P 500’s top-performing stocks today"
       },
       {
-        "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-        "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+        "title": "Here’s the inflation breakdown for August 2026 — in one chart",
+        "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 19:18:05 GMT",
-        "title_ko": "Friday's CPI inflation report is even more important than usual. Here's what to expect"
+        "published": "Fri, 11 Sep 2026 17:14:27 GMT",
+        "title_ko": "Here’s the inflation breakdown for August 2026 — in one chart"
       },
       {
-        "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
-        "url": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
+        "title": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq",
+        "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
         "source": "CNBC",
-        "published": "Fri, 11 Sep 2026 00:19:54 GMT",
-        "title_ko": "The iPhone Duo enters China’s crowded foldable market — and faces a price test"
+        "published": "Fri, 11 Sep 2026 21:35:14 GMT",
+        "title_ko": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq"
       },
       {
-        "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-        "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+        "title": "I went to Caracas for Venezuela’s new oil deals. Here’s what stood out",
+        "url": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 16:55:17 GMT",
-        "title_ko": "The likelihood of a Fed interest rate hike next week just got a lot higher"
+        "published": "Fri, 11 Sep 2026 16:59:05 GMT",
+        "title_ko": "I went to Caracas for Venezuela’s new oil deals. Here’s what stood out"
       },
       {
-        "title": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now",
-        "url": "https://www.cnbc.com/2026/09/09/bond-selloff-stock-boom-rebalancing.html",
+        "title": "Dan Chung rebuilt a decimated Alger Management after 9/11. He's still finding the market's winners",
+        "url": "https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html",
         "source": "CNBC",
-        "published": "Wed, 09 Sep 2026 21:14:49 GMT",
-        "title_ko": "Bond sell-off, stock boom: Why rebalancing is a good strategy right now"
+        "published": "Fri, 11 Sep 2026 20:21:01 GMT",
+        "title_ko": "Dan Chung rebuilt a decimated Alger Management after 9/11. He's still finding the market's winners"
       },
       {
-        "title": "Jim Cramer says this is the key force driving stocks right now",
-        "url": "https://www.cnbc.com/2026/09/10/jim-cramer-key-force-driving-stocks-right-now.html",
+        "title": "Election officials ban certain public workers from trading on prediction markets ahead of midterms",
+        "url": "https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 22:46:54 GMT",
-        "title_ko": "Jim Cramer says this is the key force driving stocks right now"
+        "published": "Fri, 11 Sep 2026 17:00:48 GMT",
+        "title_ko": "Election officials ban certain public workers from trading on prediction markets ahead of midterms"
       },
       {
-        "title": "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China",
-        "url": "https://www.cnbc.com/2026/09/10/ford-1-billion-investment-kentucky-plant.html",
+        "title": "In pictures: The U.S. commemorates the 25th anniversary of 9/11",
+        "url": "https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 20:48:14 GMT",
-        "title_ko": "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China"
+        "published": "Fri, 11 Sep 2026 22:42:14 GMT",
+        "title_ko": "In pictures: The U.S. commemorates the 25th anniversary of 9/11"
       },
       {
-        "title": "30-year fixed mortgage rate tops 7% for the first time in over a year",
-        "url": "https://www.cnbc.com/2026/09/10/30-year-fixed-mortgage-rate-crosses.html",
+        "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
+        "url": "https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 18:30:08 GMT",
-        "title_ko": "30-year fixed mortgage rate tops 7% for the first time in over a year"
+        "published": "Fri, 11 Sep 2026 22:35:09 GMT",
+        "title_ko": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test"
       },
       {
-        "title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
-        "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+        "title": "Wealthy investors are pouring billions into this new tax strategy despite risks",
+        "url": "https://www.cnbc.com/2026/09/11/wealthy-investors-tax-aware-long-short-strategies.html",
         "source": "CNBC",
-        "published": "Thu, 10 Sep 2026 19:23:21 GMT",
-        "title_ko": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war"
+        "published": "Fri, 11 Sep 2026 15:54:22 GMT",
+        "title_ko": "Wealthy investors are pouring billions into this new tax strategy despite risks"
+      },
+      {
+        "title": "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
+        "url": "https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html",
+        "source": "CNBC",
+        "published": "Fri, 11 Sep 2026 14:02:38 GMT",
+        "title_ko": "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say"
+      },
+      {
+        "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+        "url": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html",
+        "source": "CNBC",
+        "published": "Fri, 11 Sep 2026 17:40:46 GMT",
+        "title_ko": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point"
+      },
+      {
+        "title": "Treasury yields remain near multiyear highs as August CPI shows sticky inflation",
+        "url": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html",
+        "source": "CNBC",
+        "published": "Fri, 11 Sep 2026 20:37:09 GMT",
+        "title_ko": "Treasury yields remain near multiyear highs as August CPI shows sticky inflation"
       }
     ]
   },
   "scores": {
-    "vix": "yellow",
+    "vix": "green",
     "hy_spread": "green",
     "rates": "red",
     "dxy": "red",
@@ -362,13 +377,13 @@
     "curve": "green",
     "sector": "red",
     "sentiment": "yellow",
-    "skew": "yellow",
+    "skew": "red",
     "combo": "yellow",
     "unemployment": "green",
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "red",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -376,10 +391,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $103.0 >= $90",
-      "숨겨진경고: VIX 17.8(낮음)+Skew 147(높음)"
+      "WTI $100.0 >= $90",
+      "숨겨진경고: VIX 15.8(낮음)+Skew 154(높음)"
     ],
-    "ratio": 0.4
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
