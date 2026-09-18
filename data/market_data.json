@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "indices": {
     "sp500": {
-      "close": 7551.81,
-      "prev_close": 7585.73,
-      "change_pct": -0.45,
-      "pct_52w": 82.3
+      "close": 7637.76,
+      "prev_close": 7551.81,
+      "change_pct": 1.14,
+      "pct_52w": 88.1
     },
     "nasdaq100": {
-      "close": 28945.06,
-      "prev_close": 28937.84,
-      "change_pct": 0.02,
-      "pct_52w": 77.1
+      "close": 29446.98,
+      "prev_close": 28945.06,
+      "change_pct": 1.73,
+      "pct_52w": 83.4
     },
     "russell": {
-      "close": 2858.81,
-      "prev_close": 2870.29,
-      "change_pct": -0.4,
-      "pct_52w": 72.5
+      "close": 2874.63,
+      "prev_close": 2858.81,
+      "change_pct": 0.55,
+      "pct_52w": 74.5
     },
     "vix": {
-      "close": 17.71,
-      "prev_close": 17.2,
-      "change_pct": 2.97,
-      "pct_52w": 19.8
+      "close": 15.44,
+      "prev_close": 17.71,
+      "change_pct": -12.82,
+      "pct_52w": 9.4
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.67,
-      "date": "2026-09-15",
-      "change_pct": 0.43,
-      "prev_value": 4.65
+      "value": 4.74,
+      "date": "2026-09-16",
+      "change_pct": 1.5,
+      "prev_value": 4.67
     },
     "us10y": {
-      "value": 5.0,
-      "date": "2026-09-15",
-      "change_pct": 0.6,
-      "prev_value": 4.97
+      "value": 5.01,
+      "date": "2026-09-16",
+      "change_pct": 0.2,
+      "prev_value": 5.0
     },
     "tips10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.68,
+      "date": "2026-09-16",
+      "change_pct": 2.29,
+      "prev_value": 2.62
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 0.27,
+      "date": "2026-09-17",
+      "change_pct": 0.0,
+      "prev_value": 0.27
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.76,
-      "date": "2026-09-15",
-      "change_pct": 1.85,
-      "prev_value": 2.71
+      "value": 2.7,
+      "date": "2026-09-16",
+      "change_pct": -2.17,
+      "prev_value": 2.76
     },
     "fra_ois": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.63,
+      "date": "2026-09-16",
+      "change_pct": 0.0,
+      "prev_value": 3.63
     }
   },
   "fx": {
@@ -78,16 +78,16 @@
       "prev_value": 118.0787
     },
     "usdkrw": {
-      "close": 1379.48,
-      "prev_close": 1363.57,
-      "change_pct": 1.17,
-      "pct_52w": 21.5
+      "close": 1382.18,
+      "prev_close": 1376.6,
+      "change_pct": 0.41,
+      "pct_52w": 22.5
     },
     "usdjpy": {
-      "close": 156.16,
-      "prev_close": 155.27,
-      "change_pct": 0.57,
-      "pct_52w": 56.0
+      "close": 156.19,
+      "prev_close": 156.01,
+      "change_pct": 0.12,
+      "pct_52w": 55.2
     },
     "eurusd": {
       "close": 1.15,
@@ -98,36 +98,36 @@
   },
   "commodities": {
     "wti": {
-      "close": 101.25,
-      "prev_close": 105.83,
-      "change_pct": -4.33,
-      "pct_52w": 71.7
+      "close": 101.02,
+      "prev_close": 102.43,
+      "change_pct": -1.38,
+      "pct_52w": 71.4
     },
     "gold": {
-      "close": 4318.2,
-      "prev_close": 4332.8,
-      "change_pct": -0.34,
-      "pct_52w": 34.2
+      "close": 4392.4,
+      "prev_close": 4387.5,
+      "change_pct": 0.11,
+      "pct_52w": 38.0
     },
     "copper": {
-      "close": 6.45,
-      "prev_close": 6.37,
-      "change_pct": 1.26,
-      "pct_52w": 84.4
+      "close": 6.63,
+      "prev_close": 6.43,
+      "change_pct": 3.11,
+      "pct_52w": 92.3
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": 6740619.0,
-      "date": "2026-09-09",
-      "change_pct": 0.05,
-      "prev_value": 6737204.0
+      "value": 6746548.0,
+      "date": "2026-09-16",
+      "change_pct": 0.09,
+      "prev_value": 6740619.0
     },
     "rrp": {
-      "value": 5.375,
-      "date": "2026-09-16",
-      "change_pct": 667.86,
-      "prev_value": 0.7
+      "value": 0.276,
+      "date": "2026-09-17",
+      "change_pct": -94.87,
+      "prev_value": 5.375
     },
     "m2": {
       "value": 23218.0,
@@ -204,8 +204,8 @@
       "prev_value": 4.1
     },
     "pce": {
-      "value": null,
-      "date": null,
+      "value": 3.7,
+      "date": "2026-07-01",
       "change_pct": null
     },
     "gdp_growth": {
@@ -221,32 +221,26 @@
       "prev_value": 49.5
     },
     "ism_svc": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 98.91297,
+      "date": "2024-01-01",
+      "change_pct": 0.82,
+      "prev_value": 98.1097
     }
   },
   "sentiment": {
     "fear_greed": {
-      "score": 45,
+      "score": 50,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 145.95,
-      "change_pct": -0.45,
+      "close": 145.7,
+      "change_pct": -0.17,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-09-17",
-      "event": "FOMC 기자회견",
-      "category": "fed",
-      "impact": "high"
-    },
     {
       "date": "2026-09-25",
       "event": "PCE 발표 (8월)",
@@ -270,99 +264,84 @@
       "event": "GDP 속보치 (Q3 2026)",
       "category": "gdp",
       "impact": "high"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "PCE 발표 (9월)",
+      "category": "pce",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
-      "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
+      "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+      "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 16 Sep 2026 22:25:00 GMT",
-      "title_ko": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases"
+      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
+      "title_ko": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway."
     },
     {
-      "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
-      "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
+      "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
+      "url": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 16 Sep 2026 21:40:00 GMT",
-      "title_ko": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds."
+      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
+      "title_ko": "Micron, Intel and other chip stocks are furthering their strong comebacks"
     },
     {
-      "title": "Why optical stocks Lumentum and Coherent were the day’s biggest S&P 500 gainers",
-      "url": "https://www.marketwatch.com/story/why-optical-stocks-lumentum-and-coherent-were-the-days-biggest-gainers-051af440?mod=mw_rss_topstories",
+      "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
+      "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 16 Sep 2026 20:52:00 GMT",
-      "title_ko": "Why optical stocks Lumentum and Coherent were the day’s biggest S&P 500 gainers"
+      "published": "Thu, 17 Sep 2026 21:09:00 GMT",
+      "title_ko": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?"
     },
     {
-      "title": "Here’s a sneaky way to play the Fed’s rate increase",
-      "url": "https://www.marketwatch.com/story/heres-a-sneaky-way-to-play-the-feds-rate-increase-6deb072f?mod=mw_rss_topstories",
+      "title": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
+      "url": "https://www.marketwatch.com/story/saudi-arabia-is-now-pushing-to-export-more-oil-through-the-strait-of-hormuz-bcce044b?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 16 Sep 2026 20:38:00 GMT",
-      "title_ko": "Here’s a sneaky way to play the Fed’s rate increase"
+      "published": "Thu, 17 Sep 2026 19:52:00 GMT",
+      "title_ko": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz"
     },
     {
-      "title": "'Hostile act': Trump threatens EU with tariffs over Canada associate-membership proposal",
+      "title": "Lawmakers must 'keep their options open' on Social Security reform, former Treasury Secretary Jack Lew says",
+      "url": "https://www.cnbc.com/2026/09/17/social-security-reform-cant-wait-former-treasury-secretary-jack-lew.html",
+      "source": "CNBC",
+      "published": "Thu, 17 Sep 2026 19:57:41 GMT",
+      "title_ko": "Lawmakers must 'keep their options open' on Social Security reform, former Treasury Secretary Jack Lew says"
+    },
+    {
+      "title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
+      "url": "https://www.cnbc.com/2026/09/17/diesel-gas-prices-oil-us-economy.html",
+      "source": "CNBC",
+      "published": "Thu, 17 Sep 2026 23:15:35 GMT",
+      "title_ko": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start"
+    },
+    {
+      "title": "SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading",
+      "url": "https://www.cnbc.com/2026/09/17/sec-clears-path-for-tokenized-stocks-bringing-24/7-trading-closer.html",
+      "source": "CNBC",
+      "published": "Thu, 17 Sep 2026 13:00:28 GMT",
+      "title_ko": "SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading"
+    },
+    {
+      "title": "'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal",
       "url": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html",
       "source": "CNBC",
-      "published": "Thu, 17 Sep 2026 00:55:35 GMT",
-      "title_ko": "'Hostile act': Trump threatens EU with tariffs over Canada associate-membership proposal"
+      "published": "Thu, 17 Sep 2026 14:28:39 GMT",
+      "title_ko": "'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal"
     },
     {
-      "title": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
-      "url": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html",
+      "title": "Trump says U.S. ‘hopefully’ nearing end of Iran war as Saudi Arabia, Houthis trade strikes",
+      "url": "https://www.cnbc.com/2026/09/17/us-iran-war-trump-hormuz.html",
       "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 23:45:02 GMT",
-      "title_ko": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates"
+      "published": "Thu, 17 Sep 2026 13:46:14 GMT",
+      "title_ko": "Trump says U.S. ‘hopefully’ nearing end of Iran war as Saudi Arabia, Houthis trade strikes"
     },
     {
-      "title": "'Science fiction': Transport companies — the backbone of economy — are sounding alarm on fuel prices",
-      "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html",
+      "title": "Oil prices fall as Saudi Arabia reportedly offers more crude via Hormuz after pipeline attack",
+      "url": "https://www.cnbc.com/2026/09/17/oil-prices-today-wti-brent-hormuz-iran-war.html",
       "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 20:22:24 GMT",
-      "title_ko": "'Science fiction': Transport companies — the backbone of economy — are sounding alarm on fuel prices"
-    },
-    {
-      "title": "Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation",
-      "url": "https://www.cnbc.com/2026/09/16/gundlach-bonds-fed-rate-hike.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 19:38:41 GMT",
-      "title_ko": "Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation"
-    },
-    {
-      "title": "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
-      "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 20:10:01 GMT",
-      "title_ko": "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks"
-    },
-    {
-      "title": "Here is what changed in the new Fed statement under Warsh",
-      "url": "https://www.cnbc.com/2026/09/16/september-fed-statement-redline.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 18:18:54 GMT",
-      "title_ko": "Here is what changed in the new Fed statement under Warsh"
-    },
-    {
-      "title": "Fed delivers its first hike in 3 years. Plus, what's moving Starbucks and GE Vernova",
-      "url": "https://www.cnbc.com/2026/09/16/fed-delivers-its-first-hike-in-3-years-plus-whats-moving-starbucks-and-ge-vernova.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 19:00:14 GMT",
-      "title_ko": "Fed delivers its first hike in 3 years. Plus, what's moving Starbucks and GE Vernova"
-    },
-    {
-      "title": "Analysis: How Trump could reignite the Fed independence fight after Warsh's rate hike",
-      "url": "https://www.cnbc.com/2026/09/16/fed-interest-rates-kevin-warsh-trump.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 21:50:48 GMT",
-      "title_ko": "Analysis: How Trump could reignite the Fed independence fight after Warsh's rate hike"
-    },
-    {
-      "title": "Fed raises rates: What it means for your credit cards, mortgages, savings accounts and auto loans",
-      "url": "https://www.cnbc.com/2026/09/16/fed-rate-hike-consumer-borrowing-and-savings-rates.html",
-      "source": "CNBC",
-      "published": "Wed, 16 Sep 2026 19:17:38 GMT",
-      "title_ko": "Fed raises rates: What it means for your credit cards, mortgages, savings accounts and auto loans"
+      "published": "Thu, 17 Sep 2026 18:52:00 GMT",
+      "title_ko": "Oil prices fall as Saudi Arabia reportedly offers more crude via Hormuz after pipeline attack"
     }
   ]
 }
