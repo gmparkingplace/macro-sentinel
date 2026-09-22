@@ -1,93 +1,93 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-22",
   "indices": {
     "sp500": {
-      "close": 7650.5,
-      "prev_close": 7637.76,
-      "change_pct": 0.17,
-      "pct_52w": 88.9
+      "close": 7764.7,
+      "prev_close": 7650.5,
+      "change_pct": 1.49,
+      "pct_52w": 96.5
     },
     "nasdaq100": {
-      "close": 29644.17,
-      "prev_close": 29446.98,
-      "change_pct": 0.67,
-      "pct_52w": 85.9
+      "close": 30482.35,
+      "prev_close": 29644.17,
+      "change_pct": 2.83,
+      "pct_52w": 96.5
     },
     "russell": {
-      "close": 2860.4,
-      "prev_close": 2874.63,
-      "change_pct": -0.5,
-      "pct_52w": 72.7
+      "close": 2875.36,
+      "prev_close": 2860.4,
+      "change_pct": 0.52,
+      "pct_52w": 74.6
     },
     "vix": {
-      "close": 14.81,
-      "prev_close": 15.44,
-      "change_pct": -4.08,
-      "pct_52w": 6.5
+      "close": 14.87,
+      "prev_close": 14.81,
+      "change_pct": 0.41,
+      "pct_52w": 6.8
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.67,
-      "date": "2026-09-17",
-      "change_pct": -1.48,
-      "prev_value": 4.74
+      "value": 4.76,
+      "date": "2026-09-18",
+      "change_pct": 1.93,
+      "prev_value": 4.67
     },
     "us10y": {
-      "value": 4.94,
-      "date": "2026-09-17",
-      "change_pct": -1.4,
-      "prev_value": 5.01
+      "value": 5.01,
+      "date": "2026-09-18",
+      "change_pct": 1.42,
+      "prev_value": 4.94
     },
     "tips10y": {
-      "value": 2.61,
-      "date": "2026-09-17",
-      "change_pct": -2.61,
-      "prev_value": 2.68
+      "value": 2.68,
+      "date": "2026-09-18",
+      "change_pct": 2.68,
+      "prev_value": 2.61
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.25,
-      "date": "2026-09-18",
-      "change_pct": -7.41,
-      "prev_value": 0.27
+      "value": 0.2,
+      "date": "2026-09-21",
+      "change_pct": -20.0,
+      "prev_value": 0.25
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.7,
-      "date": "2026-09-17",
-      "change_pct": 0.0,
+      "value": 2.68,
+      "date": "2026-09-18",
+      "change_pct": -0.74,
       "prev_value": 2.7
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-09-17",
-      "change_pct": 6.89,
-      "prev_value": 3.63
+      "date": "2026-09-18",
+      "change_pct": 0.0,
+      "prev_value": 3.88
     }
   },
   "fx": {
     "dxy": {
-      "value": 118.2126,
-      "date": "2026-09-11",
-      "change_pct": 0.11,
-      "prev_value": 118.0787
+      "value": 119.5133,
+      "date": "2026-09-18",
+      "change_pct": 0.14,
+      "prev_value": 119.3489
     },
     "usdkrw": {
-      "close": 1385.95,
-      "prev_close": 1376.6,
-      "change_pct": 0.68,
-      "pct_52w": 23.9
+      "close": 1384.86,
+      "prev_close": 1384.86,
+      "change_pct": 0.0,
+      "pct_52w": 23.5
     },
     "usdjpy": {
-      "close": 156.85,
-      "prev_close": 156.01,
-      "change_pct": 0.54,
-      "pct_52w": 59.0
+      "close": 157.45,
+      "prev_close": 157.05,
+      "change_pct": 0.25,
+      "pct_52w": 62.4
     },
     "eurusd": {
       "close": 1.15,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 95.47,
-      "prev_close": 101.91,
-      "change_pct": -6.32,
-      "pct_52w": 62.8
+      "close": 92.76,
+      "prev_close": 92.76,
+      "change_pct": 0.0,
+      "pct_52w": 58.6
     },
     "gold": {
-      "close": 4415.9,
-      "prev_close": 4399.7,
-      "change_pct": 0.37,
-      "pct_52w": 39.2
+      "close": 4387.6,
+      "prev_close": 4387.6,
+      "change_pct": 0.0,
+      "pct_52w": 35.8
     },
     "copper": {
-      "close": 6.72,
-      "prev_close": 6.59,
-      "change_pct": 1.97,
-      "pct_52w": 96.3
+      "close": 6.79,
+      "prev_close": 6.79,
+      "change_pct": 0.0,
+      "pct_52w": 99.0
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6740619.0
     },
     "rrp": {
-      "value": 0.576,
-      "date": "2026-09-18",
-      "change_pct": 108.7,
-      "prev_value": 0.276
+      "value": 0.582,
+      "date": "2026-09-21",
+      "change_pct": 1.04,
+      "prev_value": 0.576
     },
     "m2": {
       "value": 23218.0,
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 51,
+      "score": 52,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 148.1,
-      "change_pct": 1.65,
+      "close": 142.19,
+      "change_pct": -3.99,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -274,53 +274,67 @@
   ],
   "news": [
     {
-      "title": "Why investors shouldn’t be spooked by fears of an October stock-market crash",
-      "url": "https://www.marketwatch.com/story/why-investors-shouldnt-be-spooked-by-fears-of-an-october-stock-market-crash-ac0eb2e1?mod=mw_rss_topstories",
+      "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
+      "url": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 18 Sep 2026 22:41:00 GMT",
-      "title_ko": "Why investors shouldn’t be spooked by fears of an October stock-market crash"
+      "published": "Mon, 21 Sep 2026 21:17:00 GMT",
+      "title_ko": "As the S&P 500 nears a new record high, there are signs of weakness below the surface"
     },
     {
-      "title": "Stocks are failing the ‘breadth’ test, but options traders still see reason to buy",
-      "url": "https://www.marketwatch.com/story/stocks-are-failing-the-breadth-test-but-options-traders-still-see-reason-to-buy-ef78ef14?mod=mw_rss_topstories",
+      "title": "These beaten-down stocks could bounce back in January, if history is any guide",
+      "url": "https://www.marketwatch.com/story/these-beaten-down-stocks-could-bounce-back-in-january-if-history-is-any-guide-865a3f6b?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 18 Sep 2026 20:48:00 GMT",
-      "title_ko": "Stocks are failing the ‘breadth’ test, but options traders still see reason to buy"
+      "published": "Mon, 21 Sep 2026 21:06:00 GMT",
+      "title_ko": "These beaten-down stocks could bounce back in January, if history is any guide"
     },
     {
-      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
-      "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-      "source": "CNBC",
-      "published": "Fri, 18 Sep 2026 18:28:31 GMT",
-      "title_ko": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes"
+      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+      "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 21 Sep 2026 21:00:00 GMT",
+      "title_ko": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore."
     },
     {
-      "title": "JPMorgan, Citigroup CEOs attending Trump's state dinner for China's Xi: Sources",
-      "url": "https://www.cnbc.com/2026/09/18/trump-xi-state-dinner-jpmorgan-jamie-dimon.html",
-      "source": "CNBC",
-      "published": "Fri, 18 Sep 2026 17:34:49 GMT",
-      "title_ko": "JPMorgan, Citigroup CEOs attending Trump's state dinner for China's Xi: Sources"
+      "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy",
+      "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 21 Sep 2026 20:23:00 GMT",
+      "title_ko": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy"
     },
     {
-      "title": "McDonald's is the new 'Value Meal,' says trader Mike Khouw",
-      "url": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html",
-      "source": "CNBC",
-      "published": "Fri, 18 Sep 2026 18:11:47 GMT",
-      "title_ko": "McDonald's is the new 'Value Meal,' says trader Mike Khouw"
+      "title": "AMD hits a major milestone as AI stocks blaze higher",
+      "url": "https://www.marketwatch.com/story/amd-hits-with-a-major-milestone-as-ai-stocks-blaze-higher-7bb366df?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Mon, 21 Sep 2026 20:19:00 GMT",
+      "title_ko": "AMD hits a major milestone as AI stocks blaze higher"
     },
     {
-      "title": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
-      "url": "https://www.cnbc.com/2026/09/18/what-it-will-take-for-us-to-buy-the-dip-in-dupont-plus-profit-taking-hits-cyber-stocks.html",
+      "title": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
+      "url": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
       "source": "CNBC",
-      "published": "Fri, 18 Sep 2026 18:32:55 GMT",
-      "title_ko": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks"
+      "published": "Mon, 21 Sep 2026 21:20:41 GMT",
+      "title_ko": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999"
     },
     {
-      "title": "Fed staff should have known Silicon Valley Bank was vulnerable, new report finds",
-      "url": "https://www.cnbc.com/2026/09/18/fed-silicon-valley-bank.html",
+      "title": "CNBC's The China Connection newsletter: Five things to watch for the Trump-Xi summit",
+      "url": "https://www.cnbc.com/2026/09/22/cnbcs-the-china-connection-newsletter-watch-this-at-trump-xi-summit.html",
       "source": "CNBC",
-      "published": "Fri, 18 Sep 2026 18:30:23 GMT",
-      "title_ko": "Fed staff should have known Silicon Valley Bank was vulnerable, new report finds"
+      "published": "Mon, 21 Sep 2026 23:18:30 GMT",
+      "title_ko": "CNBC's The China Connection newsletter: Five things to watch for the Trump-Xi summit"
+    },
+    {
+      "title": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
+      "url": "https://www.cnbc.com/2026/09/21/intel-surges-12percent-as-cpu-stocks-rally-heres-whats-driving-the-move.html",
+      "source": "CNBC",
+      "published": "Mon, 21 Sep 2026 19:11:22 GMT",
+      "title_ko": "Intel surges 12% as CPU stocks rally. Here's what's driving the move"
+    },
+    {
+      "title": "Bitcoin hits highest level since January at $86,000, as the market debates whether the 'crypto winter' is over",
+      "url": "https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html",
+      "source": "CNBC",
+      "published": "Mon, 21 Sep 2026 17:38:59 GMT",
+      "title_ko": "Bitcoin hits highest level since January at $86,000, as the market debates whether the 'crypto winter' is over"
     }
   ]
 }
