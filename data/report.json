@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "data": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "indices": {
       "sp500": {
-        "close": 7764.7,
-        "prev_close": 7650.5,
-        "change_pct": 1.49,
+        "close": 7764.64,
+        "prev_close": 7764.7,
+        "change_pct": -0.0,
         "pct_52w": 96.5
       },
       "nasdaq100": {
-        "close": 30482.35,
-        "prev_close": 29644.17,
-        "change_pct": 2.83,
-        "pct_52w": 96.5
+        "close": 30732.4,
+        "prev_close": 30482.35,
+        "change_pct": 0.82,
+        "pct_52w": 99.5
       },
       "russell": {
-        "close": 2875.36,
-        "prev_close": 2860.4,
-        "change_pct": 0.52,
-        "pct_52w": 74.6
+        "close": 2889.92,
+        "prev_close": 2875.36,
+        "change_pct": 0.51,
+        "pct_52w": 76.5
       },
       "vix": {
-        "close": 14.87,
-        "prev_close": 14.81,
-        "change_pct": 0.41,
-        "pct_52w": 6.8
+        "close": 14.21,
+        "prev_close": 14.87,
+        "change_pct": -4.44,
+        "pct_52w": 3.8
       }
     },
     "rates": {
       "us2y": {
         "value": 4.76,
-        "date": "2026-09-18",
-        "change_pct": 1.93,
-        "prev_value": 4.67
+        "date": "2026-09-21",
+        "change_pct": 0.0,
+        "prev_value": 4.76
       },
       "us10y": {
-        "value": 5.01,
-        "date": "2026-09-18",
-        "change_pct": 1.42,
-        "prev_value": 4.94
+        "value": 4.96,
+        "date": "2026-09-21",
+        "change_pct": -1.0,
+        "prev_value": 5.01
       },
       "tips10y": {
-        "value": 2.68,
-        "date": "2026-09-18",
-        "change_pct": 2.68,
-        "prev_value": 2.61
+        "value": 2.62,
+        "date": "2026-09-21",
+        "change_pct": -2.24,
+        "prev_value": 2.68
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.2,
-        "date": "2026-09-21",
-        "change_pct": -20.0,
-        "prev_value": 0.25
+        "value": 0.25,
+        "date": "2026-09-22",
+        "change_pct": 25.0,
+        "prev_value": 0.2
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.68,
-        "date": "2026-09-18",
-        "change_pct": -0.74,
-        "prev_value": 2.7
+        "value": 2.66,
+        "date": "2026-09-21",
+        "change_pct": -0.75,
+        "prev_value": 2.68
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-09-18",
+        "date": "2026-09-21",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 119.3489
       },
       "usdkrw": {
-        "close": 1384.86,
-        "prev_close": 1384.86,
+        "close": 1373.68,
+        "prev_close": 1373.68,
         "change_pct": 0.0,
-        "pct_52w": 23.5
+        "pct_52w": 19.3
       },
       "usdjpy": {
-        "close": 157.45,
-        "prev_close": 157.05,
-        "change_pct": 0.25,
-        "pct_52w": 62.4
+        "close": 157.58,
+        "prev_close": 157.37,
+        "change_pct": 0.13,
+        "pct_52w": 63.2
       },
       "eurusd": {
-        "close": 1.15,
+        "close": 1.14,
         "prev_close": 1.15,
-        "change_pct": 0.0,
-        "pct_52w": 25.0
+        "change_pct": -0.87,
+        "pct_52w": 10.7
       }
     },
     "commodities": {
       "wti": {
-        "close": 92.76,
-        "prev_close": 92.76,
-        "change_pct": 0.0,
-        "pct_52w": 58.6
+        "close": 90.29,
+        "prev_close": 95.78,
+        "change_pct": -5.73,
+        "pct_52w": 54.7
       },
       "gold": {
-        "close": 4387.6,
-        "prev_close": 4387.6,
-        "change_pct": 0.0,
-        "pct_52w": 35.8
+        "close": 4389.4,
+        "prev_close": 4383.9,
+        "change_pct": 0.13,
+        "pct_52w": 35.9
       },
       "copper": {
-        "close": 6.79,
-        "prev_close": 6.79,
-        "change_pct": 0.0,
-        "pct_52w": 99.0
+        "close": 6.88,
+        "prev_close": 6.69,
+        "change_pct": 2.84,
+        "pct_52w": 98.6
       }
     },
     "liquidity": {
@@ -126,16 +126,16 @@
         "prev_value": 6740619.0
       },
       "rrp": {
-        "value": 0.582,
-        "date": "2026-09-21",
-        "change_pct": 1.04,
-        "prev_value": 0.576
+        "value": 0.453,
+        "date": "2026-09-22",
+        "change_pct": -22.16,
+        "prev_value": 0.582
       },
       "m2": {
-        "value": 23218.0,
-        "date": "2026-07-01",
-        "change_pct": 0.44,
-        "prev_value": 23115.2
+        "value": 23342.8,
+        "date": "2026-08-01",
+        "change_pct": 0.54,
+        "prev_value": 23217.9
       }
     },
     "sectors": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 52,
+        "score": 53,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 142.19,
-        "change_pct": -3.99,
+        "close": 144.8,
+        "change_pct": 1.84,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -272,71 +272,70 @@
         "event": "PCE 발표 (9월)",
         "category": "pce",
         "impact": "high"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "FOMC 금리 결정",
+        "category": "fed",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
-        "url": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
+        "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
+        "url": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 21 Sep 2026 21:17:00 GMT",
-        "title_ko": "As the S&P 500 nears a new record high, there are signs of weakness below the surface"
+        "published": "Tue, 22 Sep 2026 21:44:00 GMT",
+        "title_ko": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy"
       },
       {
-        "title": "These beaten-down stocks could bounce back in January, if history is any guide",
-        "url": "https://www.marketwatch.com/story/these-beaten-down-stocks-could-bounce-back-in-january-if-history-is-any-guide-865a3f6b?mod=mw_rss_topstories",
+        "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
+        "url": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 21 Sep 2026 21:06:00 GMT",
-        "title_ko": "These beaten-down stocks could bounce back in January, if history is any guide"
+        "published": "Tue, 22 Sep 2026 21:27:00 GMT",
+        "title_ko": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October."
       },
       {
-        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-        "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Mon, 21 Sep 2026 21:00:00 GMT",
-        "title_ko": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore."
-      },
-      {
-        "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy",
-        "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Mon, 21 Sep 2026 20:23:00 GMT",
-        "title_ko": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy"
-      },
-      {
-        "title": "AMD hits a major milestone as AI stocks blaze higher",
-        "url": "https://www.marketwatch.com/story/amd-hits-with-a-major-milestone-as-ai-stocks-blaze-higher-7bb366df?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Mon, 21 Sep 2026 20:19:00 GMT",
-        "title_ko": "AMD hits a major milestone as AI stocks blaze higher"
-      },
-      {
-        "title": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
-        "url": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
+        "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+        "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
         "source": "CNBC",
-        "published": "Mon, 21 Sep 2026 21:20:41 GMT",
-        "title_ko": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999"
+        "published": "Tue, 22 Sep 2026 23:43:48 GMT",
+        "title_ko": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
       },
       {
-        "title": "CNBC's The China Connection newsletter: Five things to watch for the Trump-Xi summit",
-        "url": "https://www.cnbc.com/2026/09/22/cnbcs-the-china-connection-newsletter-watch-this-at-trump-xi-summit.html",
+        "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+        "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
         "source": "CNBC",
-        "published": "Mon, 21 Sep 2026 23:18:30 GMT",
-        "title_ko": "CNBC's The China Connection newsletter: Five things to watch for the Trump-Xi summit"
+        "published": "Tue, 22 Sep 2026 22:03:33 GMT",
+        "title_ko": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon"
       },
       {
-        "title": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
-        "url": "https://www.cnbc.com/2026/09/21/intel-surges-12percent-as-cpu-stocks-rally-heres-whats-driving-the-move.html",
+        "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
+        "url": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
         "source": "CNBC",
-        "published": "Mon, 21 Sep 2026 19:11:22 GMT",
-        "title_ko": "Intel surges 12% as CPU stocks rally. Here's what's driving the move"
+        "published": "Tue, 22 Sep 2026 17:57:36 GMT",
+        "title_ko": "Autonomous trucking company Aurora looks to accelerate toward profitability"
       },
       {
-        "title": "Bitcoin hits highest level since January at $86,000, as the market debates whether the 'crypto winter' is over",
-        "url": "https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html",
+        "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+        "url": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html",
         "source": "CNBC",
-        "published": "Mon, 21 Sep 2026 17:38:59 GMT",
-        "title_ko": "Bitcoin hits highest level since January at $86,000, as the market debates whether the 'crypto winter' is over"
+        "published": "Tue, 22 Sep 2026 16:05:57 GMT",
+        "title_ko": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on"
+      },
+      {
+        "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
+        "url": "https://www.cnbc.com/2026/09/22/no-new-stock-highs-no-problem-options-traders-bet-theyre-coming-in-these-names.html",
+        "source": "CNBC",
+        "published": "Tue, 22 Sep 2026 18:09:32 GMT",
+        "title_ko": "No new stock highs, no problem: Options traders bet they're coming in these names"
+      },
+      {
+        "title": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
+        "url": "https://www.cnbc.com/2026/09/22/nvidia-options-are-doing-something-unusual-ahead-of-two-catalysts-heres-how-one-trader-is-playing-it.html",
+        "source": "CNBC",
+        "published": "Tue, 22 Sep 2026 17:36:28 GMT",
+        "title_ko": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it"
       }
     ]
   },
@@ -355,7 +354,7 @@
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -363,10 +362,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $92.8 >= $90",
-      "숨겨진경고: VIX 14.9(낮음)+Skew 142(높음)"
+      "WTI $90.3 >= $90",
+      "숨겨진경고: VIX 14.2(낮음)+Skew 145(높음)"
     ],
-    "ratio": 0.475
+    "ratio": 0.5
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
