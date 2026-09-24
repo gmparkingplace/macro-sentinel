@@ -1,71 +1,71 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "indices": {
     "sp500": {
-      "close": 7764.64,
-      "prev_close": 7764.7,
-      "change_pct": -0.0,
-      "pct_52w": 96.5
+      "close": 7706.03,
+      "prev_close": 7706.03,
+      "change_pct": 0.0,
+      "pct_52w": 92.6
     },
     "nasdaq100": {
-      "close": 30732.4,
-      "prev_close": 30482.35,
-      "change_pct": 0.82,
-      "pct_52w": 99.5
+      "close": 30470.29,
+      "prev_close": 30470.29,
+      "change_pct": 0.0,
+      "pct_52w": 96.3
     },
     "russell": {
-      "close": 2889.92,
-      "prev_close": 2875.36,
-      "change_pct": 0.51,
-      "pct_52w": 76.5
+      "close": 2838.66,
+      "prev_close": 2838.66,
+      "change_pct": 0.0,
+      "pct_52w": 69.8
     },
     "vix": {
-      "close": 14.21,
-      "prev_close": 14.87,
-      "change_pct": -4.44,
-      "pct_52w": 3.8
+      "close": 15.18,
+      "prev_close": 15.18,
+      "change_pct": 0.0,
+      "pct_52w": 8.2
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.76,
-      "date": "2026-09-21",
-      "change_pct": 0.0,
+      "value": 4.71,
+      "date": "2026-09-22",
+      "change_pct": -1.05,
       "prev_value": 4.76
     },
     "us10y": {
       "value": 4.96,
-      "date": "2026-09-21",
-      "change_pct": -1.0,
-      "prev_value": 5.01
+      "date": "2026-09-22",
+      "change_pct": 0.0,
+      "prev_value": 4.96
     },
     "tips10y": {
-      "value": 2.62,
-      "date": "2026-09-21",
-      "change_pct": -2.24,
-      "prev_value": 2.68
+      "value": 2.63,
+      "date": "2026-09-22",
+      "change_pct": 0.38,
+      "prev_value": 2.62
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.25,
-      "date": "2026-09-22",
-      "change_pct": 25.0,
-      "prev_value": 0.2
+      "value": 0.26,
+      "date": "2026-09-23",
+      "change_pct": 4.0,
+      "prev_value": 0.25
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 2.66,
-      "date": "2026-09-21",
-      "change_pct": -0.75,
-      "prev_value": 2.68
+      "value": 2.68,
+      "date": "2026-09-22",
+      "change_pct": 0.75,
+      "prev_value": 2.66
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
@@ -78,42 +78,42 @@
       "prev_value": 119.3489
     },
     "usdkrw": {
-      "close": 1373.68,
-      "prev_close": 1373.68,
-      "change_pct": 0.0,
-      "pct_52w": 19.3
+      "close": 1368.98,
+      "prev_close": 1350.36,
+      "change_pct": 1.38,
+      "pct_52w": 17.6
     },
     "usdjpy": {
-      "close": 157.58,
-      "prev_close": 157.37,
-      "change_pct": 0.13,
-      "pct_52w": 63.2
+      "close": 157.98,
+      "prev_close": 157.46,
+      "change_pct": 0.33,
+      "pct_52w": 65.5
     },
     "eurusd": {
       "close": 1.14,
-      "prev_close": 1.15,
-      "change_pct": -0.87,
+      "prev_close": 1.14,
+      "change_pct": 0.0,
       "pct_52w": 10.7
     }
   },
   "commodities": {
     "wti": {
-      "close": 90.29,
-      "prev_close": 95.78,
-      "change_pct": -5.73,
-      "pct_52w": 54.7
+      "close": 91.64,
+      "prev_close": 94.59,
+      "change_pct": -3.12,
+      "pct_52w": 56.8
     },
     "gold": {
-      "close": 4389.4,
-      "prev_close": 4383.9,
-      "change_pct": 0.13,
-      "pct_52w": 35.9
+      "close": 4334.2,
+      "prev_close": 4376.4,
+      "change_pct": -0.96,
+      "pct_52w": 31.8
     },
     "copper": {
-      "close": 6.88,
-      "prev_close": 6.69,
-      "change_pct": 2.84,
-      "pct_52w": 98.6
+      "close": 6.77,
+      "prev_close": 6.76,
+      "change_pct": 0.15,
+      "pct_52w": 97.4
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6740619.0
     },
     "rrp": {
-      "value": 0.453,
-      "date": "2026-09-22",
-      "change_pct": -22.16,
-      "prev_value": 0.582
+      "value": 0.461,
+      "date": "2026-09-23",
+      "change_pct": 1.77,
+      "prev_value": 0.453
     },
     "m2": {
       "value": 23342.8,
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 53,
+      "score": 51,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 144.8,
-      "change_pct": 1.84,
+      "close": 146.15,
+      "change_pct": 0.0,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -276,64 +276,98 @@
       "event": "FOMC 금리 결정",
       "category": "fed",
       "impact": "high"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "FOMC 기자회견",
+      "category": "fed",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
-      "url": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+      "title": "Is gridlock in Washington actually good for stocks? Here’s what historical market data says.",
+      "url": "https://www.marketwatch.com/story/is-gridlock-in-washington-actually-good-for-stocks-heres-what-historical-market-data-says-ea20746d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 22 Sep 2026 21:44:00 GMT",
-      "title_ko": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy"
+      "published": "Wed, 23 Sep 2026 21:44:00 GMT",
+      "title_ko": "Is gridlock in Washington actually good for stocks? Here’s what historical market data says."
     },
     {
-      "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
-      "url": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
+      "title": "Inflation could cost Republicans the Senate — this chart shows how",
+      "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 22 Sep 2026 21:27:00 GMT",
-      "title_ko": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October."
+      "published": "Wed, 23 Sep 2026 21:13:00 GMT",
+      "title_ko": "Inflation could cost Republicans the Senate — this chart shows how"
     },
     {
-      "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
-      "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
-      "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 23:43:48 GMT",
-      "title_ko": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
+      "title": "Fewer stocks are carrying the market than at any time since the dot-com peak",
+      "url": "https://www.marketwatch.com/story/fewer-stocks-are-carrying-the-market-than-at-any-time-since-the-dot-com-peak-4033c4bb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Wed, 23 Sep 2026 20:45:00 GMT",
+      "title_ko": "Fewer stocks are carrying the market than at any time since the dot-com peak"
     },
     {
-      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-      "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+      "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
       "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 22:03:33 GMT",
-      "title_ko": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon"
+      "published": "Wed, 23 Sep 2026 23:59:39 GMT",
+      "title_ko": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit"
     },
     {
-      "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
-      "url": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
+      "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+      "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
       "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 17:57:36 GMT",
-      "title_ko": "Autonomous trucking company Aurora looks to accelerate toward profitability"
+      "published": "Wed, 23 Sep 2026 20:07:50 GMT",
+      "title_ko": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike"
     },
     {
-      "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
-      "url": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html",
+      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+      "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
       "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 16:05:57 GMT",
-      "title_ko": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on"
+      "published": "Wed, 23 Sep 2026 21:11:28 GMT",
+      "title_ko": "Here's what happens to the economy when Treasury yields soar like they are now"
     },
     {
-      "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
-      "url": "https://www.cnbc.com/2026/09/22/no-new-stock-highs-no-problem-options-traders-bet-theyre-coming-in-these-names.html",
+      "title": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market",
+      "url": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html",
       "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 18:09:32 GMT",
-      "title_ko": "No new stock highs, no problem: Options traders bet they're coming in these names"
+      "published": "Thu, 24 Sep 2026 00:01:54 GMT",
+      "title_ko": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market"
     },
     {
-      "title": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
-      "url": "https://www.cnbc.com/2026/09/22/nvidia-options-are-doing-something-unusual-ahead-of-two-catalysts-heres-how-one-trader-is-playing-it.html",
+      "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+      "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
       "source": "CNBC",
-      "published": "Tue, 22 Sep 2026 17:36:28 GMT",
-      "title_ko": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it"
+      "published": "Wed, 23 Sep 2026 19:30:54 GMT",
+      "title_ko": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions"
+    },
+    {
+      "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+      "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
+      "source": "CNBC",
+      "published": "Wed, 23 Sep 2026 18:12:18 GMT",
+      "title_ko": "Market sees next Fed hike in October, following Barr comments and hot inflation reading"
+    },
+    {
+      "title": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
+      "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
+      "source": "CNBC",
+      "published": "Wed, 23 Sep 2026 19:31:08 GMT",
+      "title_ko": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert"
+    },
+    {
+      "title": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
+      "url": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html",
+      "source": "CNBC",
+      "published": "Wed, 23 Sep 2026 18:41:23 GMT",
+      "title_ko": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports"
+    },
+    {
+      "title": "McDonald's CEO expects high inflation, lackluster traffic are here to stay",
+      "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html",
+      "source": "CNBC",
+      "published": "Wed, 23 Sep 2026 20:23:52 GMT",
+      "title_ko": "McDonald's CEO expects high inflation, lackluster traffic are here to stay"
     }
   ]
 }
