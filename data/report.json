@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "data": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "indices": {
       "sp500": {
-        "close": 7706.03,
+        "close": 7704.13,
         "prev_close": 7706.03,
-        "change_pct": 0.0,
-        "pct_52w": 92.6
+        "change_pct": -0.02,
+        "pct_52w": 92.5
       },
       "nasdaq100": {
-        "close": 30470.29,
+        "close": 30478.86,
         "prev_close": 30470.29,
-        "change_pct": 0.0,
-        "pct_52w": 96.3
+        "change_pct": 0.03,
+        "pct_52w": 96.4
       },
       "russell": {
-        "close": 2838.66,
+        "close": 2835.57,
         "prev_close": 2838.66,
-        "change_pct": 0.0,
-        "pct_52w": 69.8
+        "change_pct": -0.11,
+        "pct_52w": 69.4
       },
       "vix": {
-        "close": 15.18,
+        "close": 15.67,
         "prev_close": 15.18,
-        "change_pct": 0.0,
-        "pct_52w": 8.2
+        "change_pct": 3.23,
+        "pct_52w": 10.4
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.71,
-        "date": "2026-09-22",
-        "change_pct": -1.05,
-        "prev_value": 4.76
+        "value": 4.85,
+        "date": "2026-09-23",
+        "change_pct": 2.97,
+        "prev_value": 4.71
       },
       "us10y": {
-        "value": 4.96,
-        "date": "2026-09-22",
-        "change_pct": 0.0,
+        "value": 5.11,
+        "date": "2026-09-23",
+        "change_pct": 3.02,
         "prev_value": 4.96
       },
       "tips10y": {
-        "value": 2.63,
-        "date": "2026-09-22",
-        "change_pct": 0.38,
-        "prev_value": 2.62
+        "value": 2.76,
+        "date": "2026-09-23",
+        "change_pct": 4.94,
+        "prev_value": 2.63
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.26,
-        "date": "2026-09-23",
-        "change_pct": 4.0,
-        "prev_value": 0.25
+        "value": 0.31,
+        "date": "2026-09-24",
+        "change_pct": 19.23,
+        "prev_value": 0.26
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.68,
-        "date": "2026-09-22",
-        "change_pct": 0.75,
-        "prev_value": 2.66
+        "value": 2.73,
+        "date": "2026-09-23",
+        "change_pct": 1.87,
+        "prev_value": 2.68
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-09-22",
+        "date": "2026-09-23",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,16 +80,16 @@
         "prev_value": 119.3489
       },
       "usdkrw": {
-        "close": 1368.98,
-        "prev_close": 1350.36,
-        "change_pct": 1.38,
-        "pct_52w": 17.6
+        "close": 1364.58,
+        "prev_close": 1362.5,
+        "change_pct": 0.15,
+        "pct_52w": 15.9
       },
       "usdjpy": {
-        "close": 157.98,
-        "prev_close": 157.46,
-        "change_pct": 0.33,
-        "pct_52w": 65.5
+        "close": 158.26,
+        "prev_close": 158.26,
+        "change_pct": 0.0,
+        "pct_52w": 67.1
       },
       "eurusd": {
         "close": 1.14,
@@ -100,36 +100,36 @@
     },
     "commodities": {
       "wti": {
-        "close": 91.64,
-        "prev_close": 94.59,
-        "change_pct": -3.12,
-        "pct_52w": 56.8
+        "close": 93.57,
+        "prev_close": 92.16,
+        "change_pct": 1.53,
+        "pct_52w": 59.8
       },
       "gold": {
-        "close": 4334.2,
-        "prev_close": 4376.4,
-        "change_pct": -0.96,
-        "pct_52w": 31.8
+        "close": 4313.9,
+        "prev_close": 4318.4,
+        "change_pct": -0.1,
+        "pct_52w": 30.7
       },
       "copper": {
-        "close": 6.77,
-        "prev_close": 6.76,
-        "change_pct": 0.15,
-        "pct_52w": 97.4
+        "close": 6.75,
+        "prev_close": 6.68,
+        "change_pct": 1.05,
+        "pct_52w": 96.5
       }
     },
     "liquidity": {
       "fed_bs": {
-        "value": 6746548.0,
-        "date": "2026-09-16",
-        "change_pct": 0.09,
-        "prev_value": 6740619.0
+        "value": 6747704.0,
+        "date": "2026-09-23",
+        "change_pct": 0.02,
+        "prev_value": 6746548.0
       },
       "rrp": {
-        "value": 0.461,
-        "date": "2026-09-23",
-        "change_pct": 1.77,
-        "prev_value": 0.453
+        "value": 0.63,
+        "date": "2026-09-24",
+        "change_pct": 36.66,
+        "prev_value": 0.461
       },
       "m2": {
         "value": 23342.8,
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 51,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 146.15,
-        "change_pct": 0.0,
+        "close": 146.04,
+        "change_pct": -0.08,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -284,92 +284,112 @@
         "event": "FOMC 기자회견",
         "category": "fed",
         "impact": "high"
+      },
+      {
+        "date": "2026-11-06",
+        "event": "고용보고서 (10월)",
+        "category": "jobs",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "Is gridlock in Washington actually good for stocks? Here’s what historical market data says.",
-        "url": "https://www.marketwatch.com/story/is-gridlock-in-washington-actually-good-for-stocks-heres-what-historical-market-data-says-ea20746d?mod=mw_rss_topstories",
+        "title": "The S&P 500’s newest tech stock is now its best performer",
+        "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 23 Sep 2026 21:44:00 GMT",
-        "title_ko": "Is gridlock in Washington actually good for stocks? Here’s what historical market data says."
+        "published": "Thu, 24 Sep 2026 23:26:00 GMT",
+        "title_ko": "The S&P 500’s newest tech stock is now its best performer"
       },
       {
-        "title": "Inflation could cost Republicans the Senate — this chart shows how",
-        "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
+        "title": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges",
+        "url": "https://www.marketwatch.com/story/8-mortgage-rates-are-not-an-impossibility-as-the-30-year-fixed-rate-surges-aa202464?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 23 Sep 2026 21:13:00 GMT",
-        "title_ko": "Inflation could cost Republicans the Senate — this chart shows how"
+        "published": "Thu, 24 Sep 2026 22:03:00 GMT",
+        "title_ko": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges"
       },
       {
-        "title": "Fewer stocks are carrying the market than at any time since the dot-com peak",
-        "url": "https://www.marketwatch.com/story/fewer-stocks-are-carrying-the-market-than-at-any-time-since-the-dot-com-peak-4033c4bb?mod=mw_rss_topstories",
+        "title": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market",
+        "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 23 Sep 2026 20:45:00 GMT",
-        "title_ko": "Fewer stocks are carrying the market than at any time since the dot-com peak"
+        "published": "Thu, 24 Sep 2026 21:23:00 GMT",
+        "title_ko": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market"
       },
       {
-        "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
-        "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
-        "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 23:59:39 GMT",
-        "title_ko": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit"
+        "title": "Stop trying to beat the market: Even the richest Americans can’t do it consistently",
+        "url": "https://www.marketwatch.com/story/stop-trying-to-beat-the-market-even-the-richest-americans-cant-do-it-consistently-4560e275?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Thu, 24 Sep 2026 20:20:00 GMT",
+        "title_ko": "Stop trying to beat the market: Even the richest Americans can’t do it consistently"
       },
       {
-        "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
-        "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+        "title": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
+        "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 20:07:50 GMT",
-        "title_ko": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike"
+        "published": "Thu, 24 Sep 2026 23:08:16 GMT",
+        "title_ko": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%"
       },
       {
-        "title": "Here's what happens to the economy when Treasury yields soar like they are now",
-        "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+        "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+        "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 21:11:28 GMT",
-        "title_ko": "Here's what happens to the economy when Treasury yields soar like they are now"
+        "published": "Thu, 24 Sep 2026 21:40:19 GMT",
+        "title_ko": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed"
       },
       {
-        "title": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market",
-        "url": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html",
+        "title": "Polymarket countersues New York state over ‘unregulated gambling’ allegation",
+        "url": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 00:01:54 GMT",
-        "title_ko": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market"
+        "published": "Fri, 25 Sep 2026 00:17:00 GMT",
+        "title_ko": "Polymarket countersues New York state over ‘unregulated gambling’ allegation"
       },
       {
-        "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
-        "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+        "title": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
+        "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 19:30:54 GMT",
-        "title_ko": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions"
+        "published": "Thu, 24 Sep 2026 20:57:11 GMT",
+        "title_ko": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'"
       },
       {
-        "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
-        "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
+        "title": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
+        "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 18:12:18 GMT",
-        "title_ko": "Market sees next Fed hike in October, following Barr comments and hot inflation reading"
+        "published": "Thu, 24 Sep 2026 23:07:54 GMT",
+        "title_ko": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven"
       },
       {
-        "title": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
-        "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
+        "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
+        "url": "https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 19:31:08 GMT",
-        "title_ko": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert"
+        "published": "Thu, 24 Sep 2026 17:45:53 GMT",
+        "title_ko": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know"
       },
       {
-        "title": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
-        "url": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html",
+        "title": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting",
+        "url": "https://www.cnbc.com/2026/09/24/bond-liquidation-wrecks-small-caps-heres-how-bad-some-traders-see-it-getting.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 18:41:23 GMT",
-        "title_ko": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports"
+        "published": "Thu, 24 Sep 2026 18:22:51 GMT",
+        "title_ko": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting"
       },
       {
-        "title": "McDonald's CEO expects high inflation, lackluster traffic are here to stay",
-        "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html",
+        "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
+        "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
         "source": "CNBC",
-        "published": "Wed, 23 Sep 2026 20:23:52 GMT",
-        "title_ko": "McDonald's CEO expects high inflation, lackluster traffic are here to stay"
+        "published": "Thu, 24 Sep 2026 20:25:07 GMT",
+        "title_ko": "30-year Treasury yield hits highest level since 2004 as bond market rout continues"
+      },
+      {
+        "title": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
+        "url": "https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html",
+        "source": "CNBC",
+        "published": "Thu, 24 Sep 2026 18:38:44 GMT",
+        "title_ko": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy"
+      },
+      {
+        "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
+        "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+        "source": "CNBC",
+        "published": "Thu, 24 Sep 2026 17:12:04 GMT",
+        "title_ko": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation"
       }
     ]
   },
@@ -388,7 +408,7 @@
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -396,10 +416,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $91.6 >= $90",
-      "숨겨진경고: VIX 15.2(낮음)+Skew 146(높음)"
+      "WTI $93.6 >= $90",
+      "숨겨진경고: VIX 15.7(낮음)+Skew 146(높음)"
     ],
-    "ratio": 0.475
+    "ratio": 0.5
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
