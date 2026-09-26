@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "data": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "indices": {
       "sp500": {
-        "close": 7704.13,
-        "prev_close": 7706.03,
-        "change_pct": -0.02,
-        "pct_52w": 92.5
+        "close": 7743.41,
+        "prev_close": 7704.13,
+        "change_pct": 0.51,
+        "pct_52w": 95.1
       },
       "nasdaq100": {
-        "close": 30478.86,
-        "prev_close": 30470.29,
-        "change_pct": 0.03,
-        "pct_52w": 96.4
+        "close": 30608.13,
+        "prev_close": 30478.86,
+        "change_pct": 0.42,
+        "pct_52w": 98.0
       },
       "russell": {
-        "close": 2835.57,
-        "prev_close": 2838.66,
-        "change_pct": -0.11,
-        "pct_52w": 69.4
+        "close": 2837.55,
+        "prev_close": 2835.57,
+        "change_pct": 0.07,
+        "pct_52w": 69.7
       },
       "vix": {
-        "close": 15.67,
-        "prev_close": 15.18,
-        "change_pct": 3.23,
-        "pct_52w": 10.4
+        "close": 14.87,
+        "prev_close": 15.67,
+        "change_pct": -5.11,
+        "pct_52w": 6.8
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.85,
-        "date": "2026-09-23",
-        "change_pct": 2.97,
-        "prev_value": 4.71
+        "value": 4.87,
+        "date": "2026-09-24",
+        "change_pct": 0.41,
+        "prev_value": 4.85
       },
       "us10y": {
-        "value": 5.11,
-        "date": "2026-09-23",
-        "change_pct": 3.02,
-        "prev_value": 4.96
+        "value": 5.18,
+        "date": "2026-09-24",
+        "change_pct": 1.37,
+        "prev_value": 5.11
       },
       "tips10y": {
-        "value": 2.76,
-        "date": "2026-09-23",
-        "change_pct": 4.94,
-        "prev_value": 2.63
+        "value": 2.85,
+        "date": "2026-09-24",
+        "change_pct": 3.26,
+        "prev_value": 2.76
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.31,
-        "date": "2026-09-24",
-        "change_pct": 19.23,
-        "prev_value": 0.26
+        "value": 0.36,
+        "date": "2026-09-25",
+        "change_pct": 16.13,
+        "prev_value": 0.31
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 2.73,
-        "date": "2026-09-23",
-        "change_pct": 1.87,
-        "prev_value": 2.68
+        "value": 2.8,
+        "date": "2026-09-24",
+        "change_pct": 2.56,
+        "prev_value": 2.73
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-09-23",
+        "date": "2026-09-24",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,16 +80,16 @@
         "prev_value": 119.3489
       },
       "usdkrw": {
-        "close": 1364.58,
+        "close": 1355.28,
         "prev_close": 1362.5,
-        "change_pct": 0.15,
-        "pct_52w": 15.9
+        "change_pct": -0.53,
+        "pct_52w": 12.4
       },
       "usdjpy": {
-        "close": 158.26,
+        "close": 157.18,
         "prev_close": 158.26,
-        "change_pct": 0.0,
-        "pct_52w": 67.1
+        "change_pct": -0.68,
+        "pct_52w": 60.9
       },
       "eurusd": {
         "close": 1.14,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 93.57,
-        "prev_close": 92.16,
-        "change_pct": 1.53,
-        "pct_52w": 59.8
+        "close": 92.44,
+        "prev_close": 94.61,
+        "change_pct": -2.29,
+        "pct_52w": 58.1
       },
       "gold": {
-        "close": 4313.9,
-        "prev_close": 4318.4,
-        "change_pct": -0.1,
-        "pct_52w": 30.7
+        "close": 4320.5,
+        "prev_close": 4298.0,
+        "change_pct": 0.52,
+        "pct_52w": 31.0
       },
       "copper": {
-        "close": 6.75,
-        "prev_close": 6.68,
-        "change_pct": 1.05,
-        "pct_52w": 96.5
+        "close": 6.78,
+        "prev_close": 6.72,
+        "change_pct": 0.89,
+        "pct_52w": 97.7
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6746548.0
       },
       "rrp": {
-        "value": 0.63,
-        "date": "2026-09-24",
-        "change_pct": 36.66,
-        "prev_value": 0.461
+        "value": 0.576,
+        "date": "2026-09-25",
+        "change_pct": -8.57,
+        "prev_value": 0.63
       },
       "m2": {
         "value": 23342.8,
@@ -217,10 +217,10 @@
         "prev_value": 2.1
       },
       "ism_mfg": {
-        "value": 55.2,
-        "date": "2026-07-01",
-        "change_pct": 11.52,
-        "prev_value": 49.5
+        "value": 51.7,
+        "date": "2026-08-01",
+        "change_pct": -6.34,
+        "prev_value": 55.2
       },
       "ism_svc": {
         "value": 98.91297,
@@ -231,24 +231,18 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 49,
+        "score": 51,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 146.04,
-        "change_pct": -0.08,
+        "close": 144.91,
+        "change_pct": -0.77,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
-      {
-        "date": "2026-09-25",
-        "event": "PCE 발표 (8월)",
-        "category": "pce",
-        "impact": "high"
-      },
       {
         "date": "2026-10-02",
         "event": "고용보고서 (9월)",
@@ -294,53 +288,39 @@
     ],
     "news": [
       {
-        "title": "The S&P 500’s newest tech stock is now its best performer",
-        "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
+        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+        "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 24 Sep 2026 23:26:00 GMT",
-        "title_ko": "The S&P 500’s newest tech stock is now its best performer"
+        "published": "Fri, 25 Sep 2026 22:00:00 GMT",
+        "title_ko": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore."
       },
       {
-        "title": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges",
-        "url": "https://www.marketwatch.com/story/8-mortgage-rates-are-not-an-impossibility-as-the-30-year-fixed-rate-surges-aa202464?mod=mw_rss_topstories",
+        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
+        "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 24 Sep 2026 22:03:00 GMT",
-        "title_ko": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges"
+        "published": "Fri, 25 Sep 2026 21:57:00 GMT",
+        "title_ko": "A ‘death cross’ is coming for the dollar. Why Trump will be happy."
       },
       {
-        "title": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market",
-        "url": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
+        "title": "A 10% risk-free yield? For some, yes.",
+        "url": "https://www.marketwatch.com/story/a-10-risk-free-yield-for-some-yes-0d1fa51a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 24 Sep 2026 21:23:00 GMT",
-        "title_ko": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market"
+        "published": "Fri, 25 Sep 2026 20:32:00 GMT",
+        "title_ko": "A 10% risk-free yield? For some, yes."
       },
       {
-        "title": "Stop trying to beat the market: Even the richest Americans can’t do it consistently",
-        "url": "https://www.marketwatch.com/story/stop-trying-to-beat-the-market-even-the-richest-americans-cant-do-it-consistently-4560e275?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 24 Sep 2026 20:20:00 GMT",
-        "title_ko": "Stop trying to beat the market: Even the richest Americans can’t do it consistently"
-      },
-      {
-        "title": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
-        "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
+        "title": "Appeals court rules that states can regulate Kalshi’s sports prediction markets, dealing another legal blow to platforms",
+        "url": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 23:08:16 GMT",
-        "title_ko": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%"
+        "published": "Fri, 25 Sep 2026 23:28:42 GMT",
+        "title_ko": "Appeals court rules that states can regulate Kalshi’s sports prediction markets, dealing another legal blow to platforms"
       },
       {
-        "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-        "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+        "title": "How recent grads and college students should be thinking about AI, the CV, and the job market",
+        "url": "https://www.cnbc.com/2026/09/25/ai-jobs-recent-graduates-college-degrees.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 21:40:19 GMT",
-        "title_ko": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed"
-      },
-      {
-        "title": "Polymarket countersues New York state over ‘unregulated gambling’ allegation",
-        "url": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html",
-        "source": "CNBC",
-        "published": "Fri, 25 Sep 2026 00:17:00 GMT",
-        "title_ko": "Polymarket countersues New York state over ‘unregulated gambling’ allegation"
+        "published": "Fri, 25 Sep 2026 20:52:09 GMT",
+        "title_ko": "How recent grads and college students should be thinking about AI, the CV, and the job market"
       },
       {
         "title": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
@@ -350,46 +330,46 @@
         "title_ko": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'"
       },
       {
-        "title": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
-        "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html",
+        "title": "Meta's 'powerful breakout' sets up a unique trading strategy, says Mike Khouw",
+        "url": "https://www.cnbc.com/2026/09/25/-metas-powerful-breakout-sets-up-a-unique-trading-strategy-says-mike-khouw.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 23:07:54 GMT",
-        "title_ko": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven"
+        "published": "Fri, 25 Sep 2026 17:57:14 GMT",
+        "title_ko": "Meta's 'powerful breakout' sets up a unique trading strategy, says Mike Khouw"
       },
       {
-        "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
-        "url": "https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html",
+        "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+        "url": "https://www.cnbc.com/2026/09/25/saudi-arabia-oil-iran-war-pipeline-strait-hormuz-red-sea-houthis.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 17:45:53 GMT",
-        "title_ko": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know"
+        "published": "Fri, 25 Sep 2026 18:46:23 GMT",
+        "title_ko": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage"
       },
       {
-        "title": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting",
-        "url": "https://www.cnbc.com/2026/09/24/bond-liquidation-wrecks-small-caps-heres-how-bad-some-traders-see-it-getting.html",
+        "title": "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
+        "url": "https://www.cnbc.com/2026/09/25/oil-falls-as-potential-diplomatic-solution-to-iran-conflict-arises.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 18:22:51 GMT",
-        "title_ko": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting"
+        "published": "Fri, 25 Sep 2026 19:38:31 GMT",
+        "title_ko": "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N."
       },
       {
-        "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
-        "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+        "title": "Warsh's regime change at the Fed pushes ahead – and meets resistance",
+        "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 20:25:07 GMT",
-        "title_ko": "30-year Treasury yield hits highest level since 2004 as bond market rout continues"
+        "published": "Fri, 25 Sep 2026 10:30:01 GMT",
+        "title_ko": "Warsh's regime change at the Fed pushes ahead – and meets resistance"
       },
       {
-        "title": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
-        "url": "https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html",
+        "title": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
+        "url": "https://www.cnbc.com/2026/09/25/what-we-want-to-see-next-week-from-one-of-jim-cramers-6-stocks-to-buy.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 18:38:44 GMT",
-        "title_ko": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy"
+        "published": "Fri, 25 Sep 2026 19:40:44 GMT",
+        "title_ko": "What we want to see next week from one of Jim Cramer's 6 stocks to buy"
       },
       {
-        "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-        "url": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html",
+        "title": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
+        "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html",
         "source": "CNBC",
-        "published": "Thu, 24 Sep 2026 17:12:04 GMT",
-        "title_ko": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation"
+        "published": "Fri, 25 Sep 2026 01:12:19 GMT",
+        "title_ko": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S."
       }
     ]
   },
@@ -408,7 +388,7 @@
     "oil": "red",
     "gdp": "yellow",
     "gold_signal": "yellow",
-    "copper": "green",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -416,10 +396,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $93.6 >= $90",
-      "숨겨진경고: VIX 15.7(낮음)+Skew 146(높음)"
+      "WTI $92.4 >= $90",
+      "숨겨진경고: VIX 14.9(낮음)+Skew 145(높음)"
     ],
-    "ratio": 0.5
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
