@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "data": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "indices": {
       "sp500": {
-        "close": 7651.54,
-        "prev_close": 7670.84,
-        "change_pct": -0.25,
-        "pct_52w": 89.0
+        "close": 7666.45,
+        "prev_close": 7651.54,
+        "change_pct": 0.19,
+        "pct_52w": 90.0
       },
       "nasdaq100": {
-        "close": 30408.5,
-        "prev_close": 30339.33,
-        "change_pct": 0.23,
-        "pct_52w": 95.4
+        "close": 30501.56,
+        "prev_close": 30408.5,
+        "change_pct": 0.31,
+        "pct_52w": 96.6
       },
       "russell": {
-        "close": 2796.86,
-        "prev_close": 2807.92,
-        "change_pct": -0.39,
-        "pct_52w": 64.4
+        "close": 2806.62,
+        "prev_close": 2796.86,
+        "change_pct": 0.35,
+        "pct_52w": 65.7
       },
       "vix": {
-        "close": 16.34,
-        "prev_close": 16.04,
-        "change_pct": 1.87,
-        "pct_52w": 13.5
+        "close": 16.39,
+        "prev_close": 16.34,
+        "change_pct": 0.31,
+        "pct_52w": 13.7
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.89,
-        "date": "2026-09-29",
-        "change_pct": -0.61,
-        "prev_value": 4.92
+        "value": 4.88,
+        "date": "2026-09-30",
+        "change_pct": -0.2,
+        "prev_value": 4.89
       },
       "us10y": {
-        "value": 5.26,
-        "date": "2026-09-29",
-        "change_pct": 0.38,
-        "prev_value": 5.24
+        "value": 5.29,
+        "date": "2026-09-30",
+        "change_pct": 0.57,
+        "prev_value": 5.26
       },
       "tips10y": {
-        "value": 2.91,
-        "date": "2026-09-29",
-        "change_pct": 0.34,
-        "prev_value": 2.9
+        "value": 2.93,
+        "date": "2026-09-30",
+        "change_pct": 0.69,
+        "prev_value": 2.91
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.41,
-        "date": "2026-09-30",
-        "change_pct": 10.81,
-        "prev_value": 0.37
+        "value": 0.46,
+        "date": "2026-10-01",
+        "change_pct": 12.2,
+        "prev_value": 0.41
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.08,
-        "date": "2026-09-29",
-        "change_pct": 1.99,
-        "prev_value": 3.02
+        "value": 3.12,
+        "date": "2026-09-30",
+        "change_pct": 1.3,
+        "prev_value": 3.08
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,56 +80,56 @@
         "prev_value": 120.5521
       },
       "usdkrw": {
-        "close": 1360.9,
-        "prev_close": 1350.5,
-        "change_pct": 0.77,
-        "pct_52w": 14.5
+        "close": 1359.88,
+        "prev_close": 1356.84,
+        "change_pct": 0.22,
+        "pct_52w": 14.1
       },
       "usdjpy": {
-        "close": 158.11,
-        "prev_close": 157.4,
-        "change_pct": 0.45,
-        "pct_52w": 66.2
+        "close": 158.07,
+        "prev_close": 157.56,
+        "change_pct": 0.32,
+        "pct_52w": 66.0
       },
       "eurusd": {
-        "close": 1.13,
+        "close": 1.12,
         "prev_close": 1.13,
-        "change_pct": 0.0,
-        "pct_52w": -3.6
+        "change_pct": -0.88,
+        "pct_52w": -2.4
       }
     },
     "commodities": {
       "wti": {
-        "close": 90.16,
-        "prev_close": 89.38,
-        "change_pct": 0.87,
-        "pct_52w": 54.5
+        "close": 92.94,
+        "prev_close": 90.42,
+        "change_pct": 2.79,
+        "pct_52w": 58.9
       },
       "gold": {
-        "close": 4191.3,
-        "prev_close": 4179.7,
-        "change_pct": 0.28,
-        "pct_52w": 21.0
+        "close": 4176.1,
+        "prev_close": 4186.7,
+        "change_pct": -0.25,
+        "pct_52w": 19.1
       },
       "copper": {
-        "close": 6.62,
-        "prev_close": 6.54,
-        "change_pct": 1.22,
-        "pct_52w": 89.8
+        "close": 6.53,
+        "prev_close": 6.56,
+        "change_pct": -0.46,
+        "pct_52w": 85.4
       }
     },
     "liquidity": {
       "fed_bs": {
-        "value": 6747704.0,
-        "date": "2026-09-23",
-        "change_pct": 0.02,
-        "prev_value": 6746548.0
+        "value": 6743031.0,
+        "date": "2026-09-30",
+        "change_pct": -0.07,
+        "prev_value": 6747704.0
       },
       "rrp": {
-        "value": 11.539,
-        "date": "2026-09-30",
-        "change_pct": 0.81,
-        "prev_value": 11.446
+        "value": 0.35,
+        "date": "2026-10-01",
+        "change_pct": -96.97,
+        "prev_value": 11.539
       },
       "m2": {
         "value": 23342.8,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 195.75,
-        "change_pct": 0.64,
-        "change_4w": 6.72,
-        "pct_52w": 96.5
+        "close": 197.81,
+        "change_pct": 1.05,
+        "change_4w": 7.86,
+        "pct_52w": 99.0
       },
       "financials": {
-        "close": 53.4,
-        "change_pct": -1.13,
-        "change_4w": -6.32,
-        "pct_52w": 54.8
+        "close": 53.46,
+        "change_pct": 0.11,
+        "change_4w": -6.96,
+        "pct_52w": 55.4
       },
       "energy": {
-        "close": 61.5,
-        "change_pct": -0.06,
-        "change_4w": -4.49,
-        "pct_52w": 82.6
+        "close": 62.7,
+        "change_pct": 1.95,
+        "change_4w": -3.12,
+        "pct_52w": 87.5
       },
       "utilities": {
-        "close": 39.44,
-        "change_pct": -0.68,
-        "change_4w": -6.65,
-        "pct_52w": 5.1
+        "close": 39.68,
+        "change_pct": 0.61,
+        "change_4w": -6.33,
+        "pct_52w": 8.1
       },
       "healthcare": {
-        "close": 168.42,
-        "change_pct": -1.35,
-        "change_4w": -1.52,
-        "pct_52w": 80.6
+        "close": 166.2,
+        "change_pct": -1.32,
+        "change_4w": -3.53,
+        "pct_52w": 73.8
       },
       "consumer_disc": {
-        "close": 108.84,
-        "change_pct": -0.28,
-        "change_4w": -4.81,
-        "pct_52w": 21.0
+        "close": 108.81,
+        "change_pct": -0.03,
+        "change_4w": -5.06,
+        "pct_52w": 20.8
       },
       "industrials": {
-        "close": 166.98,
-        "change_pct": -1.27,
-        "change_4w": -3.07,
-        "pct_52w": 50.9
+        "close": 168.64,
+        "change_pct": 0.99,
+        "change_4w": -2.14,
+        "pct_52w": 54.9
       },
       "materials": {
-        "close": 48.7,
-        "change_pct": -0.81,
-        "change_4w": -6.04,
-        "pct_52w": 58.6
+        "close": 48.54,
+        "change_pct": -0.33,
+        "change_4w": -7.91,
+        "pct_52w": 57.3
       }
     },
     "macro": {
@@ -235,8 +235,8 @@
         "rating": "Neutral"
       },
       "skew": {
-        "close": 141.92,
-        "change_pct": -1.84,
+        "close": 142.77,
+        "change_pct": 0.6,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -294,81 +294,95 @@
     ],
     "news": [
       {
-        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-        "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+        "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
+        "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 01 Oct 2026 00:45:00 GMT",
-        "title_ko": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?"
+        "published": "Fri, 02 Oct 2026 00:14:00 GMT",
+        "title_ko": "Here’s who’s joining the S&P 500 in the index’s latest shakeup"
       },
       {
-        "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-        "url": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
+        "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
+        "url": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 30 Sep 2026 21:22:00 GMT",
-        "title_ko": "The 15 worst-performing S&P 500 stocks during a dismal September"
+        "published": "Thu, 01 Oct 2026 21:27:00 GMT",
+        "title_ko": "The hidden silver lining of high interest rates: safer, cheaper retirement income"
       },
       {
-        "title": "How the ‘AI put’ has become the only thing that matters for stocks",
-        "url": "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories",
+        "title": "The stock market is anything but normal right now — and these charts show it",
+        "url": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 30 Sep 2026 20:59:00 GMT",
-        "title_ko": "How the ‘AI put’ has become the only thing that matters for stocks"
+        "published": "Thu, 01 Oct 2026 21:01:00 GMT",
+        "title_ko": "The stock market is anything but normal right now — and these charts show it"
       },
       {
-        "title": "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
-        "url": "https://www.marketwatch.com/story/u-s-bond-yields-head-for-biggest-jump-in-a-generation-as-global-rout-rattles-investors-7dede2f2?mod=mw_rss_topstories",
+        "title": "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?",
+        "url": "https://www.marketwatch.com/story/republicans-sabotaged-their-own-bill-to-prevent-people-in-congress-from-trading-stocks-why-828ef40d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 30 Sep 2026 20:32:00 GMT",
-        "title_ko": "U.S. bond yields post biggest jump in a generation as global rout rattles investors"
+        "published": "Thu, 01 Oct 2026 20:58:00 GMT",
+        "title_ko": "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?"
       },
       {
-        "title": "Paramount’s mega debt sale reveals how higher bond yields are squeezing corporate America",
-        "url": "https://www.marketwatch.com/story/paramounts-mega-debt-sale-reveals-how-higher-bond-yields-are-squeezing-corporate-america-e9694ec3?mod=mw_rss_topstories",
+        "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+        "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 30 Sep 2026 19:42:00 GMT",
-        "title_ko": "Paramount’s mega debt sale reveals how higher bond yields are squeezing corporate America"
+        "published": "Thu, 01 Oct 2026 20:28:00 GMT",
+        "title_ko": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market"
       },
       {
-        "title": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
-        "url": "https://www.cnbc.com/2026/10/01/dubai-israel-flight-pilot-crash-indian.html",
+        "title": "Trump could target three Fed governors. Removing them may be harder than it looks",
+        "url": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html",
         "source": "CNBC",
-        "published": "Thu, 01 Oct 2026 01:09:18 GMT",
-        "title_ko": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel"
+        "published": "Thu, 01 Oct 2026 21:14:49 GMT",
+        "title_ko": "Trump could target three Fed governors. Removing them may be harder than it looks"
       },
       {
-        "title": "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
-        "url": "https://www.cnbc.com/2026/09/30/student-loan-default-support-center.html",
+        "title": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
+        "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
         "source": "CNBC",
-        "published": "Wed, 30 Sep 2026 22:15:29 GMT",
-        "title_ko": "Treasury launches student loan support center as new data show 9.3 million borrowers in default"
+        "published": "Thu, 01 Oct 2026 19:29:26 GMT",
+        "title_ko": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East"
       },
       {
-        "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
-        "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+        "title": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
+        "url": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
         "source": "CNBC",
-        "published": "Wed, 30 Sep 2026 23:00:52 GMT",
-        "title_ko": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that"
+        "published": "Thu, 01 Oct 2026 20:41:38 GMT",
+        "title_ko": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit"
       },
       {
-        "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
-        "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+        "title": "Trump Accounts have auto-enrolled more than 60 million children, Treasury says",
+        "url": "https://www.cnbc.com/2026/10/01/treasury-trump-accounts-auto-enroll-more-than-60-million-children.html",
         "source": "CNBC",
-        "published": "Wed, 30 Sep 2026 23:44:28 GMT",
-        "title_ko": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'"
+        "published": "Thu, 01 Oct 2026 16:52:22 GMT",
+        "title_ko": "Trump Accounts have auto-enrolled more than 60 million children, Treasury says"
       },
       {
-        "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
-        "url": "https://www.cnbc.com/2026/09/30/john-rogers-fed-china-espionage-case.html",
+        "title": "Treasury yields fall from multiyear highs",
+        "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
         "source": "CNBC",
-        "published": "Wed, 30 Sep 2026 17:21:23 GMT",
-        "title_ko": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve"
+        "published": "Thu, 01 Oct 2026 21:17:31 GMT",
+        "title_ko": "Treasury yields fall from multiyear highs"
       },
       {
-        "title": "Fed watchdog finds renovation failures, but no grounds for criminal referral",
-        "url": "https://www.cnbc.com/2026/09/30/fed-inspector-general-report-powell-trump.html",
+        "title": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
+        "url": "https://www.cnbc.com/2026/10/01/treasury-sanctions-iran-auto-rail.html",
         "source": "CNBC",
-        "published": "Wed, 30 Sep 2026 20:17:49 GMT",
-        "title_ko": "Fed watchdog finds renovation failures, but no grounds for criminal referral"
+        "published": "Thu, 01 Oct 2026 18:37:16 GMT",
+        "title_ko": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack"
+      },
+      {
+        "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
+        "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
+        "source": "CNBC",
+        "published": "Thu, 01 Oct 2026 22:18:01 GMT",
+        "title_ko": "Software roared back last quarter. Cramer says these stocks can keep climbing"
+      },
+      {
+        "title": "The September jobs report will be released Friday. Here's what to expect",
+        "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+        "source": "CNBC",
+        "published": "Thu, 01 Oct 2026 18:55:02 GMT",
+        "title_ko": "The September jobs report will be released Friday. Here's what to expect"
       }
     ]
   },
@@ -387,7 +401,7 @@
     "oil": "red",
     "gdp": "green",
     "gold_signal": "yellow",
-    "copper": "green",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -395,10 +409,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $90.2 >= $90",
-      "숨겨진경고: VIX 16.3(낮음)+Skew 142(높음)"
+      "WTI $92.9 >= $90",
+      "숨겨진경고: VIX 16.4(낮음)+Skew 143(높음)"
     ],
-    "ratio": 0.5
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
