@@ -1,71 +1,71 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "indices": {
     "sp500": {
-      "close": 7666.45,
-      "prev_close": 7651.54,
-      "change_pct": 0.19,
-      "pct_52w": 90.0
+      "close": 7722.72,
+      "prev_close": 7666.45,
+      "change_pct": 0.73,
+      "pct_52w": 93.7
     },
     "nasdaq100": {
-      "close": 30501.56,
-      "prev_close": 30408.5,
-      "change_pct": 0.31,
-      "pct_52w": 96.6
+      "close": 30807.93,
+      "prev_close": 30501.56,
+      "change_pct": 1.0,
+      "pct_52w": 97.4
     },
     "russell": {
-      "close": 2806.62,
-      "prev_close": 2796.86,
-      "change_pct": 0.35,
-      "pct_52w": 65.7
+      "close": 2832.89,
+      "prev_close": 2806.63,
+      "change_pct": 0.94,
+      "pct_52w": 69.1
     },
     "vix": {
-      "close": 16.39,
-      "prev_close": 16.34,
-      "change_pct": 0.31,
-      "pct_52w": 13.7
+      "close": 15.31,
+      "prev_close": 16.39,
+      "change_pct": -6.59,
+      "pct_52w": 8.8
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.88,
-      "date": "2026-09-30",
-      "change_pct": -0.2,
-      "prev_value": 4.89
+      "value": 4.78,
+      "date": "2026-10-01",
+      "change_pct": -2.05,
+      "prev_value": 4.88
     },
     "us10y": {
-      "value": 5.29,
-      "date": "2026-09-30",
-      "change_pct": 0.57,
-      "prev_value": 5.26
+      "value": 5.24,
+      "date": "2026-10-01",
+      "change_pct": -0.95,
+      "prev_value": 5.29
     },
     "tips10y": {
-      "value": 2.93,
-      "date": "2026-09-30",
-      "change_pct": 0.69,
-      "prev_value": 2.91
+      "value": 2.88,
+      "date": "2026-10-01",
+      "change_pct": -1.71,
+      "prev_value": 2.93
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.46,
-      "date": "2026-10-01",
-      "change_pct": 12.2,
-      "prev_value": 0.41
+      "value": 0.45,
+      "date": "2026-10-02",
+      "change_pct": -2.17,
+      "prev_value": 0.46
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.12,
-      "date": "2026-09-30",
-      "change_pct": 1.3,
-      "prev_value": 3.08
+      "value": 3.24,
+      "date": "2026-10-01",
+      "change_pct": 3.85,
+      "prev_value": 3.12
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
@@ -78,42 +78,42 @@
       "prev_value": 120.5521
     },
     "usdkrw": {
-      "close": 1359.88,
+      "close": 1342.51,
       "prev_close": 1356.84,
-      "change_pct": 0.22,
-      "pct_52w": 14.1
+      "change_pct": -1.06,
+      "pct_52w": 7.6
     },
     "usdjpy": {
-      "close": 158.07,
-      "prev_close": 157.56,
-      "change_pct": 0.32,
-      "pct_52w": 66.0
+      "close": 157.83,
+      "prev_close": 157.93,
+      "change_pct": -0.06,
+      "pct_52w": 64.6
     },
     "eurusd": {
-      "close": 1.12,
+      "close": 1.13,
       "prev_close": 1.13,
-      "change_pct": -0.88,
-      "pct_52w": -2.4
+      "change_pct": 0.0,
+      "pct_52w": 10.0
     }
   },
   "commodities": {
     "wti": {
-      "close": 92.94,
-      "prev_close": 90.42,
-      "change_pct": 2.79,
-      "pct_52w": 58.9
+      "close": 91.26,
+      "prev_close": 92.87,
+      "change_pct": -1.73,
+      "pct_52w": 56.2
     },
     "gold": {
-      "close": 4176.1,
-      "prev_close": 4186.7,
-      "change_pct": -0.25,
-      "pct_52w": 19.1
+      "close": 4172.1,
+      "prev_close": 4202.3,
+      "change_pct": -0.72,
+      "pct_52w": 18.9
     },
     "copper": {
-      "close": 6.53,
-      "prev_close": 6.56,
-      "change_pct": -0.46,
-      "pct_52w": 85.4
+      "close": 6.58,
+      "prev_close": 6.48,
+      "change_pct": 1.54,
+      "pct_52w": 87.5
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6747704.0
     },
     "rrp": {
-      "value": 0.35,
-      "date": "2026-10-01",
-      "change_pct": -96.97,
-      "prev_value": 11.539
+      "value": 1.501,
+      "date": "2026-10-02",
+      "change_pct": 328.86,
+      "prev_value": 0.35
     },
     "m2": {
       "value": 23342.8,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 197.81,
-      "change_pct": 1.05,
-      "change_4w": 7.86,
-      "pct_52w": 99.0
+      "close": 199.81,
+      "change_pct": 1.01,
+      "change_4w": 7.57,
+      "pct_52w": 97.9
     },
     "financials": {
-      "close": 53.46,
-      "change_pct": 0.11,
-      "change_4w": -6.96,
-      "pct_52w": 55.4
+      "close": 53.49,
+      "change_pct": 0.06,
+      "change_4w": -8.33,
+      "pct_52w": 55.7
     },
     "energy": {
-      "close": 62.7,
-      "change_pct": 1.95,
-      "change_4w": -3.12,
-      "pct_52w": 87.5
+      "close": 62.82,
+      "change_pct": 0.19,
+      "change_4w": -2.21,
+      "pct_52w": 88.0
     },
     "utilities": {
-      "close": 39.68,
-      "change_pct": 0.61,
-      "change_4w": -6.33,
-      "pct_52w": 8.1
+      "close": 39.83,
+      "change_pct": 0.38,
+      "change_4w": -6.76,
+      "pct_52w": 10.0
     },
     "healthcare": {
-      "close": 166.2,
-      "change_pct": -1.32,
-      "change_4w": -3.53,
+      "close": 166.18,
+      "change_pct": -0.01,
+      "change_4w": -3.72,
       "pct_52w": 73.8
     },
     "consumer_disc": {
-      "close": 108.81,
-      "change_pct": -0.03,
-      "change_4w": -5.06,
-      "pct_52w": 20.8
+      "close": 110.04,
+      "change_pct": 1.13,
+      "change_4w": -5.3,
+      "pct_52w": 27.1
     },
     "industrials": {
-      "close": 168.64,
-      "change_pct": 0.99,
-      "change_4w": -2.14,
-      "pct_52w": 54.9
+      "close": 169.95,
+      "change_pct": 0.78,
+      "change_4w": -2.38,
+      "pct_52w": 58.0
     },
     "materials": {
-      "close": 48.54,
-      "change_pct": -0.33,
-      "change_4w": -7.91,
-      "pct_52w": 57.3
+      "close": 48.86,
+      "change_pct": 0.66,
+      "change_4w": -6.72,
+      "pct_52w": 59.8
     }
   },
   "macro": {
@@ -198,9 +198,9 @@
       "change_pct": null
     },
     "unemployment": {
-      "value": 4.1,
-      "date": "2026-08-01",
-      "change_pct": 0.0,
+      "value": 4.2,
+      "date": "2026-09-01",
+      "change_pct": 2.44,
       "prev_value": 4.1
     },
     "pce": {
@@ -229,24 +229,18 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 46,
+      "score": 47,
       "rating": "Neutral"
     },
     "skew": {
-      "close": 142.77,
-      "change_pct": 0.6,
+      "close": 144.88,
+      "change_pct": 1.48,
       "signal": "yellow",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-10-02",
-      "event": "고용보고서 (9월)",
-      "category": "jobs",
-      "impact": "high"
-    },
     {
       "date": "2026-10-13",
       "event": "CPI 발표 (9월)",
@@ -292,95 +286,81 @@
   ],
   "news": [
     {
-      "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
-      "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 02 Oct 2026 00:14:00 GMT",
-      "title_ko": "Here’s who’s joining the S&P 500 in the index’s latest shakeup"
+      "published": "Fri, 02 Oct 2026 21:54:00 GMT",
+      "title_ko": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s"
     },
     {
-      "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
-      "url": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 01 Oct 2026 21:27:00 GMT",
-      "title_ko": "The hidden silver lining of high interest rates: safer, cheaper retirement income"
-    },
-    {
-      "title": "The stock market is anything but normal right now — and these charts show it",
-      "url": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 01 Oct 2026 21:01:00 GMT",
-      "title_ko": "The stock market is anything but normal right now — and these charts show it"
-    },
-    {
-      "title": "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?",
-      "url": "https://www.marketwatch.com/story/republicans-sabotaged-their-own-bill-to-prevent-people-in-congress-from-trading-stocks-why-828ef40d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 01 Oct 2026 20:58:00 GMT",
-      "title_ko": "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?"
-    },
-    {
-      "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
-      "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 01 Oct 2026 20:28:00 GMT",
-      "title_ko": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market"
-    },
-    {
-      "title": "Trump could target three Fed governors. Removing them may be harder than it looks",
-      "url": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html",
+      "title": "Men are losing ground in the labor market. Here's why",
+      "url": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 21:14:49 GMT",
-      "title_ko": "Trump could target three Fed governors. Removing them may be harder than it looks"
+      "published": "Fri, 02 Oct 2026 17:38:59 GMT",
+      "title_ko": "Men are losing ground in the labor market. Here's why"
     },
     {
-      "title": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
-      "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
+      "title": "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+      "url": "https://www.cnbc.com/2026/10/02/doj-says-it-will-not-reopen-criminal-probe-into-former-fed-chair-powell.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 19:29:26 GMT",
-      "title_ko": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East"
+      "published": "Fri, 02 Oct 2026 22:01:17 GMT",
+      "title_ko": "DOJ says it will not reopen criminal probe into former Fed Chair Powell"
     },
     {
-      "title": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit",
-      "url": "https://www.cnbc.com/2026/10/01/europes-winter-energy-crunch-may-already-be-underway-two-us-stocks-that-may-benefit.html",
+      "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+      "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 20:41:38 GMT",
-      "title_ko": "Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit"
+      "published": "Fri, 02 Oct 2026 19:25:36 GMT",
+      "title_ko": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies"
     },
     {
-      "title": "Trump Accounts have auto-enrolled more than 60 million children, Treasury says",
-      "url": "https://www.cnbc.com/2026/10/01/treasury-trump-accounts-auto-enroll-more-than-60-million-children.html",
+      "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 16:52:22 GMT",
-      "title_ko": "Trump Accounts have auto-enrolled more than 60 million children, Treasury says"
+      "published": "Fri, 02 Oct 2026 13:45:58 GMT",
+      "title_ko": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%"
     },
     {
-      "title": "Treasury yields fall from multiyear highs",
-      "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+      "title": "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
+      "url": "https://www.cnbc.com/2026/10/02/treasury-irs-capital-gains-income-tax-section-351-warning.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 21:17:31 GMT",
-      "title_ko": "Treasury yields fall from multiyear highs"
+      "published": "Fri, 02 Oct 2026 13:48:40 GMT",
+      "title_ko": "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes"
     },
     {
-      "title": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack",
-      "url": "https://www.cnbc.com/2026/10/01/treasury-sanctions-iran-auto-rail.html",
+      "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+      "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 18:37:16 GMT",
-      "title_ko": "Treasury sanctions operation targets Iran's auto, rail industries in latest economic attack"
+      "published": "Fri, 02 Oct 2026 20:03:56 GMT",
+      "title_ko": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report"
     },
     {
-      "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
-      "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
+      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 22:18:01 GMT",
-      "title_ko": "Software roared back last quarter. Cramer says these stocks can keep climbing"
+      "published": "Fri, 02 Oct 2026 13:29:27 GMT",
+      "title_ko": "Traders now see little chance of a Fed rate hike in October after weak jobs report"
     },
     {
-      "title": "The September jobs report will be released Friday. Here's what to expect",
-      "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+      "title": "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis",
+      "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
       "source": "CNBC",
-      "published": "Thu, 01 Oct 2026 18:55:02 GMT",
-      "title_ko": "The September jobs report will be released Friday. Here's what to expect"
+      "published": "Fri, 02 Oct 2026 20:04:42 GMT",
+      "title_ko": "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis"
+    },
+    {
+      "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+      "url": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+      "source": "CNBC",
+      "published": "Fri, 02 Oct 2026 18:49:03 GMT",
+      "title_ko": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%"
+    },
+    {
+      "title": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them",
+      "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
+      "source": "CNBC",
+      "published": "Fri, 02 Oct 2026 16:15:01 GMT",
+      "title_ko": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them"
     }
   ]
 }
