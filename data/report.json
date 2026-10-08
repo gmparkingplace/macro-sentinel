@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "data": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "indices": {
       "sp500": {
-        "close": 7818.93,
-        "prev_close": 7773.95,
-        "change_pct": 0.58,
-        "pct_52w": 98.3
+        "close": 7801.77,
+        "prev_close": 7818.93,
+        "change_pct": -0.22,
+        "pct_52w": 97.2
       },
       "nasdaq100": {
-        "close": 31224.69,
-        "prev_close": 31076.44,
-        "change_pct": 0.48,
-        "pct_52w": 98.4
+        "close": 31160.08,
+        "prev_close": 31224.47,
+        "change_pct": -0.21,
+        "pct_52w": 97.6
       },
       "russell": {
-        "close": 2830.3,
-        "prev_close": 2847.14,
-        "change_pct": -0.59,
-        "pct_52w": 68.8
+        "close": 2793.2,
+        "prev_close": 2830.3,
+        "change_pct": -1.31,
+        "pct_52w": 63.9
       },
       "vix": {
-        "close": 15.01,
-        "prev_close": 15.52,
-        "change_pct": -3.29,
-        "pct_52w": 7.4
+        "close": 15.08,
+        "prev_close": 15.01,
+        "change_pct": 0.47,
+        "pct_52w": 7.8
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.84,
-        "date": "2026-10-05",
-        "change_pct": 0.21,
-        "prev_value": 4.83
+        "value": 4.79,
+        "date": "2026-10-06",
+        "change_pct": -1.03,
+        "prev_value": 4.84
       },
       "us10y": {
-        "value": 5.31,
-        "date": "2026-10-05",
-        "change_pct": 0.57,
-        "prev_value": 5.28
+        "value": 5.27,
+        "date": "2026-10-06",
+        "change_pct": -0.75,
+        "prev_value": 5.31
       },
       "tips10y": {
-        "value": 2.95,
-        "date": "2026-10-05",
-        "change_pct": 1.03,
-        "prev_value": 2.92
+        "value": 2.91,
+        "date": "2026-10-06",
+        "change_pct": -1.36,
+        "prev_value": 2.95
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.48,
-        "date": "2026-10-06",
-        "change_pct": 2.13,
-        "prev_value": 0.47
+        "value": 0.51,
+        "date": "2026-10-07",
+        "change_pct": 6.25,
+        "prev_value": 0.48
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.12,
-        "date": "2026-10-05",
-        "change_pct": 0.65,
-        "prev_value": 3.1
+        "value": 3.03,
+        "date": "2026-10-06",
+        "change_pct": -2.88,
+        "prev_value": 3.12
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-10-05",
+        "date": "2026-10-06",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 121.7882
       },
       "usdkrw": {
-        "close": 1339.41,
-        "prev_close": 1343.75,
-        "change_pct": -0.32,
-        "pct_52w": 6.4
+        "close": 1337.38,
+        "prev_close": 1339.74,
+        "change_pct": -0.18,
+        "pct_52w": 5.6
       },
       "usdjpy": {
-        "close": 158.35,
-        "prev_close": 157.96,
-        "change_pct": 0.25,
-        "pct_52w": 61.4
+        "close": 158.01,
+        "prev_close": 158.3,
+        "change_pct": -0.18,
+        "pct_52w": 59.0
       },
       "eurusd": {
         "close": 1.12,
-        "prev_close": 1.12,
-        "change_pct": 0.0,
+        "prev_close": 1.13,
+        "change_pct": -0.88,
         "pct_52w": 4.4
       }
     },
     "commodities": {
       "wti": {
-        "close": 90.29,
-        "prev_close": 89.43,
-        "change_pct": 0.96,
-        "pct_52w": 54.7
+        "close": 89.6,
+        "prev_close": 89.44,
+        "change_pct": 0.18,
+        "pct_52w": 53.7
       },
       "gold": {
-        "close": 4175.0,
-        "prev_close": 4156.8,
-        "change_pct": 0.44,
-        "pct_52w": 16.2
+        "close": 4161.4,
+        "prev_close": 4187.1,
+        "change_pct": -0.61,
+        "pct_52w": 15.4
       },
       "copper": {
-        "close": 6.65,
+        "close": 6.75,
         "prev_close": 6.59,
-        "change_pct": 0.91,
-        "pct_52w": 91.0
+        "change_pct": 2.43,
+        "pct_52w": 96.0
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6747704.0
       },
       "rrp": {
-        "value": 0.414,
-        "date": "2026-10-06",
-        "change_pct": -58.76,
-        "prev_value": 1.004
+        "value": 2.338,
+        "date": "2026-10-07",
+        "change_pct": 464.73,
+        "prev_value": 0.414
       },
       "m2": {
         "value": 23342.8,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 202.0,
-        "change_pct": 0.53,
-        "change_4w": 7.65,
-        "pct_52w": 98.4
+        "close": 201.39,
+        "change_pct": -0.3,
+        "change_4w": 7.32,
+        "pct_52w": 97.6
       },
       "financials": {
-        "close": 54.01,
-        "change_pct": 0.24,
-        "change_4w": -5.41,
-        "pct_52w": 60.4
+        "close": 53.75,
+        "change_pct": -0.48,
+        "change_4w": -5.87,
+        "pct_52w": 58.0
       },
       "energy": {
-        "close": 63.75,
-        "change_pct": 0.47,
-        "change_4w": -0.99,
-        "pct_52w": 91.8
+        "close": 63.36,
+        "change_pct": -0.61,
+        "change_4w": -1.6,
+        "pct_52w": 90.2
       },
       "utilities": {
-        "close": 41.16,
-        "change_pct": 2.98,
-        "change_4w": -4.57,
-        "pct_52w": 26.5
+        "close": 41.15,
+        "change_pct": -0.02,
+        "change_4w": -4.59,
+        "pct_52w": 26.4
       },
       "healthcare": {
-        "close": 167.09,
-        "change_pct": -0.17,
-        "change_4w": 0.36,
-        "pct_52w": 76.2
+        "close": 168.81,
+        "change_pct": 1.03,
+        "change_4w": 1.39,
+        "pct_52w": 80.9
       },
       "consumer_disc": {
-        "close": 111.72,
-        "change_pct": 1.18,
-        "change_4w": -1.78,
-        "pct_52w": 35.8
+        "close": 111.36,
+        "change_pct": -0.32,
+        "change_4w": -2.09,
+        "pct_52w": 33.9
       },
       "industrials": {
-        "close": 171.58,
-        "change_pct": 0.87,
-        "change_4w": -1.36,
-        "pct_52w": 61.8
+        "close": 167.84,
+        "change_pct": -2.18,
+        "change_4w": -3.51,
+        "pct_52w": 53.0
       },
       "materials": {
-        "close": 49.73,
-        "change_pct": 0.46,
-        "change_4w": -3.81,
-        "pct_52w": 66.7
+        "close": 48.98,
+        "change_pct": -1.51,
+        "change_4w": -5.26,
+        "pct_52w": 60.8
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 48,
+        "score": 49,
         "rating": "Neutral"
       },
       "skew": {
-        "close": 141.21,
-        "change_pct": -1.28,
+        "close": 141.84,
+        "change_pct": 0.45,
         "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,53 +288,109 @@
     ],
     "news": [
       {
-        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+        "url": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 06 Oct 2026 21:52:00 GMT",
-        "title_ko": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue"
+        "published": "Wed, 07 Oct 2026 22:32:00 GMT",
+        "title_ko": "Rising yields are quietly crashing the stock market’s earlier winners of 2026"
       },
       {
-        "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
-        "url": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
+        "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+        "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 06 Oct 2026 20:37:00 GMT",
-        "title_ko": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx."
+        "published": "Wed, 07 Oct 2026 20:58:00 GMT",
+        "title_ko": "Higher yields are taking their toll on all areas of the stock market, except the one that matters"
       },
       {
-        "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-        "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-        "source": "CNBC",
-        "published": "Tue, 06 Oct 2026 22:23:01 GMT",
-        "title_ko": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record"
+        "title": "Options traders are betting on a dramatic drop in interest rates",
+        "url": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 07 Oct 2026 20:36:00 GMT",
+        "title_ko": "Options traders are betting on a dramatic drop in interest rates"
       },
       {
-        "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-        "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
-        "source": "CNBC",
-        "published": "Tue, 06 Oct 2026 16:19:10 GMT",
-        "title_ko": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks"
+        "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
+        "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 07 Oct 2026 19:35:00 GMT",
+        "title_ko": "Fed’s minutes show no appetite for a series of interest-rate hikes"
       },
       {
-        "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
-        "url": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
-        "source": "CNBC",
-        "published": "Tue, 06 Oct 2026 17:22:20 GMT",
-        "title_ko": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it"
+        "title": "Stocks are increasingly their own best hedge. This chart shows why.",
+        "url": "https://www.marketwatch.com/story/stocks-are-increasingly-their-own-best-hedge-this-chart-shows-why-19a79b68?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 07 Oct 2026 18:31:00 GMT",
+        "title_ko": "Stocks are increasingly their own best hedge. This chart shows why."
       },
       {
-        "title": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom",
-        "url": "https://www.cnbc.com/2026/10/06/jim-cramer-ai-stocks.html",
+        "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+        "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
         "source": "CNBC",
-        "published": "Tue, 06 Oct 2026 22:13:04 GMT",
-        "title_ko": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom"
+        "published": "Wed, 07 Oct 2026 18:42:36 GMT",
+        "title_ko": "Fed officials see another hike coming, but no sign as to when, minutes show"
       },
       {
-        "title": "How event contract bundles are boosting volume on prediction markets",
-        "url": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
+        "title": "Oil gains as Middle East hostilities stoke supply worries",
+        "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
         "source": "CNBC",
-        "published": "Tue, 06 Oct 2026 18:46:16 GMT",
-        "title_ko": "How event contract bundles are boosting volume on prediction markets"
+        "published": "Thu, 08 Oct 2026 01:46:56 GMT",
+        "title_ko": "Oil gains as Middle East hostilities stoke supply worries"
+      },
+      {
+        "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+        "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 21:31:40 GMT",
+        "title_ko": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic"
+      },
+      {
+        "title": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+        "url": "https://www.cnbc.com/2026/10/07/supertanker-from-us-to-china-chartered-for-76-million-source.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 20:33:34 GMT",
+        "title_ko": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level"
+      },
+      {
+        "title": "Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%",
+        "url": "https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 13:46:28 GMT",
+        "title_ko": "Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%"
+      },
+      {
+        "title": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead",
+        "url": "https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 19:40:31 GMT",
+        "title_ko": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead"
+      },
+      {
+        "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
+        "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 23:10:54 GMT",
+        "title_ko": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K"
+      },
+      {
+        "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
+        "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 22:22:32 GMT",
+        "title_ko": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage"
+      },
+      {
+        "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+        "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 20:09:59 GMT",
+        "title_ko": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears"
+      },
+      {
+        "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+        "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+        "source": "CNBC",
+        "published": "Wed, 07 Oct 2026 18:19:53 GMT",
+        "title_ko": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights"
       }
     ]
   },
@@ -353,18 +409,17 @@
     "oil": "red",
     "gdp": "green",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
-    "overall": "red",
-    "verdict": "AVOID",
+    "overall": "yellow",
+    "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $90.3 >= $90",
-      "숨겨진경고: VIX 15.0(낮음)+Skew 141(높음)"
+      "숨겨진경고: VIX 15.1(낮음)+Skew 142(높음)"
     ],
-    "ratio": 0.5
+    "ratio": 0.525
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
@@ -384,5 +439,5 @@
     "entry_triggers": [],
     "key_events": []
   },
-  "verdict": "AVOID"
+  "verdict": "WAIT"
 }
