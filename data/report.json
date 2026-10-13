@@ -1,31 +1,31 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-13",
   "data": {
-    "date": "2026-10-10",
+    "date": "2026-10-13",
     "indices": {
       "sp500": {
-        "close": 7811.54,
-        "prev_close": 7765.36,
-        "change_pct": 0.59,
-        "pct_52w": 97.8
+        "close": 7807.24,
+        "prev_close": 7811.54,
+        "change_pct": -0.06,
+        "pct_52w": 97.6
       },
       "nasdaq100": {
-        "close": 30883.15,
-        "prev_close": 30725.81,
-        "change_pct": 0.51,
-        "pct_52w": 94.4
+        "close": 30664.7,
+        "prev_close": 30883.15,
+        "change_pct": -0.71,
+        "pct_52w": 91.8
       },
       "russell": {
-        "close": 2806.98,
-        "prev_close": 2794.13,
-        "change_pct": 0.46,
-        "pct_52w": 65.7
+        "close": 2794.48,
+        "prev_close": 2806.98,
+        "change_pct": -0.45,
+        "pct_52w": 64.1
       },
       "vix": {
-        "close": 14.84,
-        "prev_close": 15.41,
-        "change_pct": -3.7,
-        "pct_52w": 6.7
+        "close": 15.21,
+        "prev_close": 14.84,
+        "change_pct": 2.49,
+        "pct_52w": 8.3
       }
     },
     "rates": {
@@ -80,42 +80,42 @@
         "prev_value": 121.7882
       },
       "usdkrw": {
-        "close": 1340.02,
-        "prev_close": 1339.08,
-        "change_pct": 0.07,
-        "pct_52w": 6.6
+        "close": 1343.98,
+        "prev_close": 1343.98,
+        "change_pct": 0.0,
+        "pct_52w": 8.1
       },
       "usdjpy": {
-        "close": 158.25,
-        "prev_close": 158.06,
-        "change_pct": 0.12,
-        "pct_52w": 60.7
+        "close": 158.27,
+        "prev_close": 158.27,
+        "change_pct": 0.0,
+        "pct_52w": 60.8
       },
       "eurusd": {
         "close": 1.12,
         "prev_close": 1.12,
         "change_pct": 0.0,
-        "pct_52w": 4.4
+        "pct_52w": 5.0
       }
     },
     "commodities": {
       "wti": {
-        "close": 91.66,
-        "prev_close": 91.49,
-        "change_pct": 0.19,
-        "pct_52w": 56.9
+        "close": 92.33,
+        "prev_close": 92.33,
+        "change_pct": 0.0,
+        "pct_52w": 57.9
       },
       "gold": {
-        "close": 4220.3,
-        "prev_close": 4157.0,
-        "change_pct": 1.52,
-        "pct_52w": 18.9
+        "close": 4203.4,
+        "prev_close": 4203.4,
+        "change_pct": 0.0,
+        "pct_52w": 17.9
       },
       "copper": {
         "close": 6.71,
-        "prev_close": 6.52,
-        "change_pct": 2.91,
-        "pct_52w": 94.0
+        "prev_close": 6.71,
+        "change_pct": 0.0,
+        "pct_52w": 93.8
       }
     },
     "liquidity": {
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 198.78,
-        "change_pct": 0.51,
-        "change_4w": 7.45,
-        "pct_52w": 94.2
+        "close": 196.36,
+        "change_pct": -1.22,
+        "change_4w": 6.68,
+        "pct_52w": 91.0
       },
       "financials": {
-        "close": 54.73,
-        "change_pct": 0.92,
-        "change_4w": -3.42,
-        "pct_52w": 66.9
+        "close": 55.05,
+        "change_pct": 0.58,
+        "change_4w": -3.13,
+        "pct_52w": 69.8
       },
       "energy": {
-        "close": 65.08,
-        "change_pct": -0.25,
-        "change_4w": 0.82,
-        "pct_52w": 96.8
+        "close": 66.01,
+        "change_pct": 1.43,
+        "change_4w": 2.9,
+        "pct_52w": 98.4
       },
       "utilities": {
-        "close": 41.41,
-        "change_pct": 0.83,
-        "change_4w": -1.9,
-        "pct_52w": 29.6
+        "close": 41.63,
+        "change_pct": 0.53,
+        "change_4w": 0.29,
+        "pct_52w": 32.4
       },
       "healthcare": {
-        "close": 170.81,
-        "change_pct": 1.58,
-        "change_4w": 3.5,
-        "pct_52w": 86.2
+        "close": 171.99,
+        "change_pct": 0.69,
+        "change_4w": 2.92,
+        "pct_52w": 89.4
       },
       "consumer_disc": {
-        "close": 112.85,
-        "change_pct": 1.02,
-        "change_4w": 1.02,
-        "pct_52w": 41.6
+        "close": 112.27,
+        "change_pct": -0.51,
+        "change_4w": -0.29,
+        "pct_52w": 38.6
       },
       "industrials": {
-        "close": 169.25,
-        "change_pct": 0.5,
-        "change_4w": -0.49,
-        "pct_52w": 56.3
+        "close": 169.15,
+        "change_pct": -0.06,
+        "change_4w": -0.19,
+        "pct_52w": 56.1
       },
       "materials": {
-        "close": 49.43,
-        "change_pct": 0.32,
-        "change_4w": -2.18,
-        "pct_52w": 64.3
+        "close": 49.44,
+        "change_pct": 0.02,
+        "change_4w": -1.63,
+        "pct_52w": 64.4
       }
     },
     "macro": {
@@ -235,8 +235,8 @@
         "rating": "Neutral"
       },
       "skew": {
-        "close": 154.34,
-        "change_pct": 3.45,
+        "close": 155.06,
+        "change_pct": 0.47,
         "signal": "red",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,95 +288,88 @@
     ],
     "news": [
       {
-        "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be ‘too little, too late,’ says strategist.",
-        "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
+        "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
+        "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 09 Oct 2026 22:00:00 GMT",
-        "title_ko": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be ‘too little, too late,’ says strategist."
+        "published": "Tue, 13 Oct 2026 02:00:00 GMT",
+        "title_ko": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits."
       },
       {
-        "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
-        "url": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+        "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
+        "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 09 Oct 2026 21:27:00 GMT",
-        "title_ko": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue"
+        "published": "Mon, 12 Oct 2026 22:27:00 GMT",
+        "title_ko": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully."
       },
       {
-        "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-        "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
-        "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 19:18:24 GMT",
-        "title_ko": "Americans' debt problems are flashing a warning not seen since the Great Recession"
+        "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
+        "url": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 12 Oct 2026 22:00:00 GMT",
+        "title_ko": "Brazilian stocks are breaking out as investors look for opportunities beyond tech"
       },
       {
-        "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
-        "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
-        "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 18:50:21 GMT",
-        "title_ko": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips"
+        "title": "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday",
+        "url": "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Mon, 12 Oct 2026 20:46:00 GMT",
+        "title_ko": "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday"
       },
       {
-        "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
-        "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+        "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+        "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 19:19:00 GMT",
-        "title_ko": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?"
+        "published": "Tue, 13 Oct 2026 02:49:17 GMT",
+        "title_ko": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off"
       },
       {
-        "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
-        "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html",
+        "title": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+        "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 17:12:17 GMT",
-        "title_ko": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries"
+        "published": "Mon, 12 Oct 2026 18:29:28 GMT",
+        "title_ko": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'"
       },
       {
-        "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
-        "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+        "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+        "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 20:16:58 GMT",
-        "title_ko": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks"
+        "published": "Tue, 13 Oct 2026 01:26:41 GMT",
+        "title_ko": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil"
       },
       {
-        "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-        "url": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
+        "title": "CNBC's The China Connection newsletter: How a gold-buying spree helps the yuan go global",
+        "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 17:56:24 GMT",
-        "title_ko": "Trump appoints committee to investigate statements by the Fed's Lisa Cook"
+        "published": "Mon, 12 Oct 2026 23:00:01 GMT",
+        "title_ko": "CNBC's The China Connection newsletter: How a gold-buying spree helps the yuan go global"
       },
       {
-        "title": "The used car market is stagnant. Here's how to profit anyway",
-        "url": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html",
+        "title": "Earnings beats are now the norm. What the stock market needs to keep rallying",
+        "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 17:37:31 GMT",
-        "title_ko": "The used car market is stagnant. Here's how to profit anyway"
+        "published": "Mon, 12 Oct 2026 20:35:51 GMT",
+        "title_ko": "Earnings beats are now the norm. What the stock market needs to keep rallying"
       },
       {
-        "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-        "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
+        "title": "A massive trade just happened in surging shares of Snap",
+        "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 13:09:19 GMT",
-        "title_ko": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor"
+        "published": "Mon, 12 Oct 2026 18:43:44 GMT",
+        "title_ko": "A massive trade just happened in surging shares of Snap"
       },
       {
-        "title": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
-        "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+        "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+        "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 19:02:29 GMT",
-        "title_ko": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week"
+        "published": "Tue, 13 Oct 2026 02:58:11 GMT",
+        "title_ko": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
       },
       {
-        "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
-        "url": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
+        "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+        "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
         "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 13:07:30 GMT",
-        "title_ko": "Tech stocks' resilience has puzzled investors. The options market could hold some clues"
-      },
-      {
-        "title": "China and Europe agree to cut Chinese hybrid vehicle exports by half",
-        "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
-        "source": "CNBC",
-        "published": "Fri, 09 Oct 2026 15:03:10 GMT",
-        "title_ko": "China and Europe agree to cut Chinese hybrid vehicle exports by half"
+        "published": "Mon, 12 Oct 2026 08:58:54 GMT",
+        "title_ko": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’"
       }
     ]
   },
@@ -394,8 +387,8 @@
     "unemployment": "yellow",
     "oil": "red",
     "gdp": "green",
-    "gold_signal": "red",
-    "copper": "green",
+    "gold_signal": "yellow",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -403,11 +396,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $91.7 >= $90",
-      "숨겨진경고: VIX 14.8(낮음)+Skew 154(높음)",
-      "Gold 극단 위험회피 $4220"
+      "WTI $92.3 >= $90",
+      "숨겨진경고: VIX 15.2(낮음)+Skew 155(높음)"
     ],
-    "ratio": 0.5
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
