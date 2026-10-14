@@ -1,119 +1,119 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "indices": {
     "sp500": {
-      "close": 7807.24,
-      "prev_close": 7811.54,
-      "change_pct": -0.06,
-      "pct_52w": 97.6
+      "close": 7805.45,
+      "prev_close": 7807.24,
+      "change_pct": -0.02,
+      "pct_52w": 97.4
     },
     "nasdaq100": {
-      "close": 30664.7,
-      "prev_close": 30883.15,
-      "change_pct": -0.71,
-      "pct_52w": 91.8
+      "close": 30569.48,
+      "prev_close": 30664.7,
+      "change_pct": -0.31,
+      "pct_52w": 90.7
     },
     "russell": {
-      "close": 2794.48,
-      "prev_close": 2806.98,
-      "change_pct": -0.45,
-      "pct_52w": 64.1
+      "close": 2783.37,
+      "prev_close": 2794.48,
+      "change_pct": -0.4,
+      "pct_52w": 62.6
     },
     "vix": {
-      "close": 15.21,
-      "prev_close": 14.84,
-      "change_pct": 2.49,
-      "pct_52w": 8.3
+      "close": 15.27,
+      "prev_close": 15.21,
+      "change_pct": 0.39,
+      "pct_52w": 8.6
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.75,
-      "date": "2026-10-08",
-      "change_pct": -0.42,
-      "prev_value": 4.77
+      "value": 4.8,
+      "date": "2026-10-09",
+      "change_pct": 1.05,
+      "prev_value": 4.75
     },
     "us10y": {
-      "value": 5.22,
-      "date": "2026-10-08",
-      "change_pct": -1.14,
-      "prev_value": 5.28
+      "value": 5.24,
+      "date": "2026-10-09",
+      "change_pct": 0.38,
+      "prev_value": 5.22
     },
     "tips10y": {
-      "value": 2.87,
-      "date": "2026-10-08",
-      "change_pct": -1.71,
-      "prev_value": 2.92
+      "value": 2.91,
+      "date": "2026-10-09",
+      "change_pct": 1.39,
+      "prev_value": 2.87
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.44,
-      "date": "2026-10-09",
-      "change_pct": -6.38,
-      "prev_value": 0.47
+      "value": 0.42,
+      "date": "2026-10-13",
+      "change_pct": -4.55,
+      "prev_value": 0.44
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.15,
-      "date": "2026-10-08",
-      "change_pct": 1.94,
-      "prev_value": 3.09
+      "value": 3.11,
+      "date": "2026-10-12",
+      "change_pct": 0.0,
+      "prev_value": 3.11
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
   },
   "fx": {
     "dxy": {
-      "value": 121.3848,
-      "date": "2026-10-02",
-      "change_pct": -0.33,
-      "prev_value": 121.7882
+      "value": 121.6023,
+      "date": "2026-10-09",
+      "change_pct": 0.13,
+      "prev_value": 121.4469
     },
     "usdkrw": {
-      "close": 1343.98,
-      "prev_close": 1343.98,
-      "change_pct": 0.0,
-      "pct_52w": 8.1
+      "close": 1339.68,
+      "prev_close": 1334.13,
+      "change_pct": 0.42,
+      "pct_52w": 6.5
     },
     "usdjpy": {
-      "close": 158.27,
-      "prev_close": 158.27,
-      "change_pct": 0.0,
-      "pct_52w": 60.8
+      "close": 158.43,
+      "prev_close": 158.52,
+      "change_pct": -0.06,
+      "pct_52w": 61.9
     },
     "eurusd": {
       "close": 1.12,
       "prev_close": 1.12,
       "change_pct": 0.0,
-      "pct_52w": 5.0
+      "pct_52w": 5.2
     }
   },
   "commodities": {
     "wti": {
-      "close": 92.33,
-      "prev_close": 92.33,
-      "change_pct": 0.0,
-      "pct_52w": 57.9
+      "close": 95.27,
+      "prev_close": 93.74,
+      "change_pct": 1.63,
+      "pct_52w": 62.5
     },
     "gold": {
-      "close": 4203.4,
-      "prev_close": 4203.4,
-      "change_pct": 0.0,
-      "pct_52w": 17.9
+      "close": 4183.8,
+      "prev_close": 4190.6,
+      "change_pct": -0.16,
+      "pct_52w": 16.8
     },
     "copper": {
-      "close": 6.71,
-      "prev_close": 6.71,
-      "change_pct": 0.0,
-      "pct_52w": 93.8
+      "close": 6.72,
+      "prev_close": 6.7,
+      "change_pct": 0.3,
+      "pct_52w": 94.3
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6743031.0
     },
     "rrp": {
-      "value": 0.3,
-      "date": "2026-10-09",
-      "change_pct": -10.45,
-      "prev_value": 0.335
+      "value": 0.275,
+      "date": "2026-10-13",
+      "change_pct": -8.33,
+      "prev_value": 0.3
     },
     "m2": {
       "value": 23342.8,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 196.36,
-      "change_pct": -1.22,
-      "change_4w": 6.68,
-      "pct_52w": 91.0
+      "close": 196.28,
+      "change_pct": -0.04,
+      "change_4w": 6.63,
+      "pct_52w": 90.9
     },
     "financials": {
-      "close": 55.05,
-      "change_pct": 0.58,
-      "change_4w": -3.13,
-      "pct_52w": 69.8
+      "close": 54.82,
+      "change_pct": -0.42,
+      "change_4w": -3.54,
+      "pct_52w": 67.7
     },
     "energy": {
-      "close": 66.01,
-      "change_pct": 1.43,
-      "change_4w": 2.9,
-      "pct_52w": 98.4
+      "close": 67.2,
+      "change_pct": 1.8,
+      "change_4w": 4.75,
+      "pct_52w": 99.8
     },
     "utilities": {
-      "close": 41.63,
-      "change_pct": 0.53,
-      "change_4w": 0.29,
-      "pct_52w": 32.4
+      "close": 41.87,
+      "change_pct": 0.58,
+      "change_4w": 0.87,
+      "pct_52w": 35.4
     },
     "healthcare": {
-      "close": 171.99,
-      "change_pct": 0.69,
-      "change_4w": 2.92,
-      "pct_52w": 89.4
+      "close": 169.66,
+      "change_pct": -1.35,
+      "change_4w": 1.53,
+      "pct_52w": 83.2
     },
     "consumer_disc": {
-      "close": 112.27,
-      "change_pct": -0.51,
-      "change_4w": -0.29,
-      "pct_52w": 38.6
+      "close": 112.36,
+      "change_pct": 0.08,
+      "change_4w": -0.21,
+      "pct_52w": 39.1
     },
     "industrials": {
-      "close": 169.15,
-      "change_pct": -0.06,
-      "change_4w": -0.19,
-      "pct_52w": 56.1
+      "close": 168.67,
+      "change_pct": -0.28,
+      "change_4w": -0.47,
+      "pct_52w": 54.9
     },
     "materials": {
-      "close": 49.44,
-      "change_pct": 0.02,
-      "change_4w": -1.63,
-      "pct_52w": 64.4
+      "close": 49.72,
+      "change_pct": 0.57,
+      "change_4w": -1.07,
+      "pct_52w": 66.6
     }
   },
   "macro": {
@@ -233,20 +233,14 @@
       "rating": "Neutral"
     },
     "skew": {
-      "close": 155.06,
-      "change_pct": 0.47,
+      "close": 154.74,
+      "change_pct": -0.21,
       "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
-    {
-      "date": "2026-10-13",
-      "event": "CPI 발표 (9월)",
-      "category": "cpi",
-      "impact": "high"
-    },
     {
       "date": "2026-10-29",
       "event": "GDP 속보치 (Q3 2026)",
@@ -282,92 +276,77 @@
       "event": "CPI 발표 (10월)",
       "category": "cpi",
       "impact": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "PCE 발표 (10월)",
+      "category": "pce",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-      "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+      "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 13 Oct 2026 02:00:00 GMT",
-      "title_ko": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits."
+      "published": "Tue, 13 Oct 2026 21:02:00 GMT",
+      "title_ko": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market"
     },
     {
-      "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
-      "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
+      "title": "Micron’s stock extends declines as China competition heats up",
+      "url": "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 12 Oct 2026 22:27:00 GMT",
-      "title_ko": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully."
+      "published": "Tue, 13 Oct 2026 20:25:00 GMT",
+      "title_ko": "Micron’s stock extends declines as China competition heats up"
     },
     {
-      "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
-      "url": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 12 Oct 2026 22:00:00 GMT",
-      "title_ko": "Brazilian stocks are breaking out as investors look for opportunities beyond tech"
-    },
-    {
-      "title": "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday",
-      "url": "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 12 Oct 2026 20:46:00 GMT",
-      "title_ko": "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday"
-    },
-    {
-      "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
-      "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+      "title": "China's exports likely grew by double-digits in September",
+      "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
       "source": "CNBC",
-      "published": "Tue, 13 Oct 2026 02:49:17 GMT",
-      "title_ko": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off"
+      "published": "Wed, 14 Oct 2026 01:16:02 GMT",
+      "title_ko": "China's exports likely grew by double-digits in September"
     },
     {
-      "title": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
-      "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
+      "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
+      "url": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
       "source": "CNBC",
-      "published": "Mon, 12 Oct 2026 18:29:28 GMT",
-      "title_ko": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'"
+      "published": "Wed, 14 Oct 2026 00:28:34 GMT",
+      "title_ko": "Singapore third-quarter GDP growth softens from four-year high but beats estimates"
     },
     {
-      "title": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
-      "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
       "source": "CNBC",
-      "published": "Tue, 13 Oct 2026 01:26:41 GMT",
-      "title_ko": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil"
+      "published": "Tue, 13 Oct 2026 18:05:57 GMT",
+      "title_ko": "The latest inflation data is expected to show price increases are accelerating"
     },
     {
-      "title": "CNBC's The China Connection newsletter: How a gold-buying spree helps the yuan go global",
-      "url": "https://www.cnbc.com/2026/10/12/cnbc-china-connection-newsletter-gold-purchases-yuan-globalization.html",
+      "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+      "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
       "source": "CNBC",
-      "published": "Mon, 12 Oct 2026 23:00:01 GMT",
-      "title_ko": "CNBC's The China Connection newsletter: How a gold-buying spree helps the yuan go global"
+      "published": "Tue, 13 Oct 2026 12:22:59 GMT",
+      "title_ko": "French supermarket fridges get hacked, heating to 122°F and sparking fires"
     },
     {
-      "title": "Earnings beats are now the norm. What the stock market needs to keep rallying",
-      "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+      "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+      "url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
       "source": "CNBC",
-      "published": "Mon, 12 Oct 2026 20:35:51 GMT",
-      "title_ko": "Earnings beats are now the norm. What the stock market needs to keep rallying"
+      "published": "Tue, 13 Oct 2026 20:52:22 GMT",
+      "title_ko": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds"
     },
     {
-      "title": "A massive trade just happened in surging shares of Snap",
-      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+      "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+      "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
       "source": "CNBC",
-      "published": "Mon, 12 Oct 2026 18:43:44 GMT",
-      "title_ko": "A massive trade just happened in surging shares of Snap"
+      "published": "Tue, 13 Oct 2026 19:46:12 GMT",
+      "title_ko": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
     },
     {
-      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
       "source": "CNBC",
-      "published": "Tue, 13 Oct 2026 02:58:11 GMT",
-      "title_ko": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack"
-    },
-    {
-      "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-      "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
-      "source": "CNBC",
-      "published": "Mon, 12 Oct 2026 08:58:54 GMT",
-      "title_ko": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’"
+      "published": "Tue, 13 Oct 2026 19:21:27 GMT",
+      "title_ko": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market"
     }
   ]
 }
