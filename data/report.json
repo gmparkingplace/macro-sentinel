@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "data": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "indices": {
       "sp500": {
-        "close": 7805.45,
-        "prev_close": 7807.24,
-        "change_pct": -0.02,
-        "pct_52w": 97.4
+        "close": 7718.94,
+        "prev_close": 7805.45,
+        "change_pct": -1.11,
+        "pct_52w": 91.8
       },
       "nasdaq100": {
-        "close": 30569.48,
-        "prev_close": 30664.7,
-        "change_pct": -0.31,
-        "pct_52w": 90.7
+        "close": 29950.82,
+        "prev_close": 30569.48,
+        "change_pct": -2.02,
+        "pct_52w": 83.4
       },
       "russell": {
-        "close": 2783.37,
-        "prev_close": 2794.48,
-        "change_pct": -0.4,
-        "pct_52w": 62.6
+        "close": 2729.53,
+        "prev_close": 2783.37,
+        "change_pct": -1.93,
+        "pct_52w": 55.6
       },
       "vix": {
-        "close": 15.27,
-        "prev_close": 15.21,
-        "change_pct": 0.39,
-        "pct_52w": 8.6
+        "close": 16.87,
+        "prev_close": 15.27,
+        "change_pct": 10.48,
+        "pct_52w": 15.9
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.8,
-        "date": "2026-10-09",
-        "change_pct": 1.05,
-        "prev_value": 4.75
+        "value": 4.79,
+        "date": "2026-10-13",
+        "change_pct": -0.21,
+        "prev_value": 4.8
       },
       "us10y": {
-        "value": 5.24,
-        "date": "2026-10-09",
-        "change_pct": 0.38,
-        "prev_value": 5.22
+        "value": 5.21,
+        "date": "2026-10-13",
+        "change_pct": -0.57,
+        "prev_value": 5.24
       },
       "tips10y": {
-        "value": 2.91,
-        "date": "2026-10-09",
-        "change_pct": 1.39,
-        "prev_value": 2.87
+        "value": 2.88,
+        "date": "2026-10-13",
+        "change_pct": -1.03,
+        "prev_value": 2.91
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.42,
-        "date": "2026-10-13",
-        "change_pct": -4.55,
-        "prev_value": 0.44
+        "value": 0.37,
+        "date": "2026-10-14",
+        "change_pct": -11.9,
+        "prev_value": 0.42
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.11,
-        "date": "2026-10-12",
-        "change_pct": 0.0,
+        "value": 3.16,
+        "date": "2026-10-13",
+        "change_pct": 1.61,
         "prev_value": 3.11
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-10-09",
+        "date": "2026-10-13",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 121.4469
       },
       "usdkrw": {
-        "close": 1339.68,
-        "prev_close": 1334.13,
-        "change_pct": 0.42,
-        "pct_52w": 6.5
+        "close": 1349.38,
+        "prev_close": 1340.31,
+        "change_pct": 0.68,
+        "pct_52w": 10.2
       },
       "usdjpy": {
-        "close": 158.43,
-        "prev_close": 158.52,
-        "change_pct": -0.06,
-        "pct_52w": 61.9
+        "close": 157.67,
+        "prev_close": 158.32,
+        "change_pct": -0.41,
+        "pct_52w": 56.7
       },
       "eurusd": {
         "close": 1.12,
         "prev_close": 1.12,
         "change_pct": 0.0,
-        "pct_52w": 5.2
+        "pct_52w": 9.4
       }
     },
     "commodities": {
       "wti": {
-        "close": 95.27,
-        "prev_close": 93.74,
-        "change_pct": 1.63,
-        "pct_52w": 62.5
+        "close": 94.17,
+        "prev_close": 94.14,
+        "change_pct": 0.03,
+        "pct_52w": 60.8
       },
       "gold": {
-        "close": 4183.8,
-        "prev_close": 4190.6,
-        "change_pct": -0.16,
-        "pct_52w": 16.8
+        "close": 4171.8,
+        "prev_close": 4177.3,
+        "change_pct": -0.13,
+        "pct_52w": 16.1
       },
       "copper": {
-        "close": 6.72,
-        "prev_close": 6.7,
-        "change_pct": 0.3,
-        "pct_52w": 94.3
+        "close": 6.63,
+        "prev_close": 6.68,
+        "change_pct": -0.75,
+        "pct_52w": 89.6
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6743031.0
       },
       "rrp": {
-        "value": 0.275,
-        "date": "2026-10-13",
-        "change_pct": -8.33,
-        "prev_value": 0.3
+        "value": 0.201,
+        "date": "2026-10-14",
+        "change_pct": -26.91,
+        "prev_value": 0.275
       },
       "m2": {
         "value": 23342.8,
@@ -140,63 +140,63 @@
     },
     "sectors": {
       "tech": {
-        "close": 196.28,
-        "change_pct": -0.04,
-        "change_4w": 6.63,
-        "pct_52w": 90.9
+        "close": 190.43,
+        "change_pct": -2.98,
+        "change_4w": 3.76,
+        "pct_52w": 83.3
       },
       "financials": {
-        "close": 54.82,
-        "change_pct": -0.42,
-        "change_4w": -3.54,
-        "pct_52w": 67.7
+        "close": 54.52,
+        "change_pct": -0.55,
+        "change_4w": -3.76,
+        "pct_52w": 65.0
       },
       "energy": {
-        "close": 67.2,
-        "change_pct": 1.8,
-        "change_4w": 4.75,
-        "pct_52w": 99.8
+        "close": 67.63,
+        "change_pct": 0.64,
+        "change_4w": 3.19,
+        "pct_52w": 99.7
       },
       "utilities": {
-        "close": 41.87,
-        "change_pct": 0.58,
-        "change_4w": 0.87,
-        "pct_52w": 35.4
+        "close": 41.72,
+        "change_pct": -0.36,
+        "change_4w": 1.71,
+        "pct_52w": 33.5
       },
       "healthcare": {
-        "close": 169.66,
-        "change_pct": -1.35,
-        "change_4w": 1.53,
-        "pct_52w": 83.2
+        "close": 173.96,
+        "change_pct": 2.53,
+        "change_4w": 4.16,
+        "pct_52w": 94.7
       },
       "consumer_disc": {
-        "close": 112.36,
-        "change_pct": 0.08,
-        "change_4w": -0.21,
-        "pct_52w": 39.1
+        "close": 111.5,
+        "change_pct": -0.77,
+        "change_4w": 0.78,
+        "pct_52w": 34.6
       },
       "industrials": {
-        "close": 168.67,
-        "change_pct": -0.28,
-        "change_4w": -0.47,
-        "pct_52w": 54.9
+        "close": 167.04,
+        "change_pct": -0.97,
+        "change_4w": -0.81,
+        "pct_52w": 51.1
       },
       "materials": {
-        "close": 49.72,
-        "change_pct": 0.57,
-        "change_4w": -1.07,
-        "pct_52w": 66.6
+        "close": 49.67,
+        "change_pct": -0.1,
+        "change_4w": -1.64,
+        "pct_52w": 66.2
       }
     },
     "macro": {
       "cpi_yoy": {
-        "value": 3.71,
-        "date": "2026-08-01",
+        "value": 4.02,
+        "date": "2026-09-01",
         "change_pct": null
       },
       "core_cpi": {
-        "value": 2.76,
-        "date": "2026-08-01",
+        "value": 2.79,
+        "date": "2026-09-01",
         "change_pct": null
       },
       "unemployment": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 48,
-        "rating": "Neutral"
+        "score": 44,
+        "rating": "Fear"
       },
       "skew": {
-        "close": 154.74,
-        "change_pct": -0.21,
+        "close": 157.3,
+        "change_pct": 1.65,
         "signal": "red",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -288,72 +288,114 @@
     ],
     "news": [
       {
-        "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-        "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+        "title": "Anthropic’s slowing growth could be the AI trade’s latest red flag",
+        "url": "https://www.marketwatch.com/story/anthropics-slowing-growth-could-be-the-ai-trades-latest-red-flag-292d0169?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 13 Oct 2026 21:02:00 GMT",
-        "title_ko": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market"
+        "published": "Thu, 15 Oct 2026 01:07:00 GMT",
+        "title_ko": "Anthropic’s slowing growth could be the AI trade’s latest red flag"
       },
       {
-        "title": "Micron’s stock extends declines as China competition heats up",
-        "url": "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0?mod=mw_rss_topstories",
+        "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+        "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 13 Oct 2026 20:25:00 GMT",
-        "title_ko": "Micron’s stock extends declines as China competition heats up"
+        "published": "Wed, 14 Oct 2026 23:36:00 GMT",
+        "title_ko": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks"
       },
       {
-        "title": "China's exports likely grew by double-digits in September",
-        "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
-        "source": "CNBC",
-        "published": "Wed, 14 Oct 2026 01:16:02 GMT",
-        "title_ko": "China's exports likely grew by double-digits in September"
+        "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+        "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 14 Oct 2026 22:30:00 GMT",
+        "title_ko": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?"
       },
       {
-        "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
-        "url": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
-        "source": "CNBC",
-        "published": "Wed, 14 Oct 2026 00:28:34 GMT",
-        "title_ko": "Singapore third-quarter GDP growth softens from four-year high but beats estimates"
+        "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+        "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 14 Oct 2026 22:24:00 GMT",
+        "title_ko": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?"
       },
       {
-        "title": "The latest inflation data is expected to show price increases are accelerating",
-        "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-        "source": "CNBC",
-        "published": "Tue, 13 Oct 2026 18:05:57 GMT",
-        "title_ko": "The latest inflation data is expected to show price increases are accelerating"
+        "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+        "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 14 Oct 2026 22:03:00 GMT",
+        "title_ko": "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
       },
       {
-        "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
-        "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
-        "source": "CNBC",
-        "published": "Tue, 13 Oct 2026 12:22:59 GMT",
-        "title_ko": "French supermarket fridges get hacked, heating to 122°F and sparking fires"
+        "title": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
+        "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 14 Oct 2026 21:54:00 GMT",
+        "title_ko": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast"
       },
       {
-        "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
-        "url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+        "title": "How high inflation became a 'fact of life' in the U.S.",
+        "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
         "source": "CNBC",
-        "published": "Tue, 13 Oct 2026 20:52:22 GMT",
-        "title_ko": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds"
+        "published": "Wed, 14 Oct 2026 17:20:23 GMT",
+        "title_ko": "How high inflation became a 'fact of life' in the U.S."
       },
       {
-        "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-        "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+        "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+        "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
         "source": "CNBC",
-        "published": "Tue, 13 Oct 2026 19:46:12 GMT",
-        "title_ko": "Williams says Fed may not have to hike rates in 2027, at odds with traders"
+        "published": "Thu, 15 Oct 2026 01:07:01 GMT",
+        "title_ko": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount"
       },
       {
-        "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
-        "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+        "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+        "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
         "source": "CNBC",
-        "published": "Tue, 13 Oct 2026 19:21:27 GMT",
-        "title_ko": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market"
+        "published": "Wed, 14 Oct 2026 20:46:32 GMT",
+        "title_ko": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge"
+      },
+      {
+        "title": "Here's the inflation breakdown for September 2026 — in one chart",
+        "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 14:56:25 GMT",
+        "title_ko": "Here's the inflation breakdown for September 2026 — in one chart"
+      },
+      {
+        "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+        "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 17:08:07 GMT",
+        "title_ko": "Fannie Mae sharply raises mortgage rate forecast for 2027"
+      },
+      {
+        "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+        "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 21:19:09 GMT",
+        "title_ko": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge"
+      },
+      {
+        "title": "Treasury says largest U.S. banks let politics influence who received banking services",
+        "url": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 18:51:42 GMT",
+        "title_ko": "Treasury says largest U.S. banks let politics influence who received banking services"
+      },
+      {
+        "title": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
+        "url": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 18:41:11 GMT",
+        "title_ko": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off"
+      },
+      {
+        "title": "Jim Cramer says don't give up on this unpredictable market. Here's why",
+        "url": "https://www.cnbc.com/2026/10/14/cramer-stock-market-selloff-inflation.html",
+        "source": "CNBC",
+        "published": "Wed, 14 Oct 2026 22:19:32 GMT",
+        "title_ko": "Jim Cramer says don't give up on this unpredictable market. Here's why"
       }
     ]
   },
   "scores": {
-    "vix": "green",
+    "vix": "yellow",
     "hy_spread": "green",
     "rates": "red",
     "dxy": "red",
@@ -375,10 +417,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $95.3 >= $90",
-      "숨겨진경고: VIX 15.3(낮음)+Skew 155(높음)"
+      "WTI $94.2 >= $90",
+      "숨겨진경고: VIX 16.9(낮음)+Skew 157(높음)"
     ],
-    "ratio": 0.475
+    "ratio": 0.425
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
