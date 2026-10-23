@@ -1,95 +1,93 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "indices": {
     "sp500": {
-      "close": 7757.17,
-      "prev_close": 7712.57,
-      "change_pct": 0.58,
-      "pct_52w": 94.3
+      "close": 7663.43,
+      "prev_close": 7757.17,
+      "change_pct": -1.21,
+      "pct_52w": 88.1
     },
     "nasdaq100": {
-      "close": 29822.52,
-      "prev_close": 29490.28,
-      "change_pct": 1.13,
-      "pct_52w": 81.9
+      "close": 28958.69,
+      "prev_close": 29822.52,
+      "change_pct": -2.9,
+      "pct_52w": 71.8
     },
     "russell": {
-      "close": 2781.02,
-      "prev_close": 2773.42,
-      "change_pct": 0.27,
-      "pct_52w": 62.3
+      "close": 2784.03,
+      "prev_close": 2781.02,
+      "change_pct": 0.11,
+      "pct_52w": 62.7
     },
     "vix": {
-      "close": 16.68,
-      "prev_close": 17.31,
-      "change_pct": -3.64,
-      "pct_52w": 15.1
+      "close": 19.03,
+      "prev_close": 16.68,
+      "change_pct": 14.09,
+      "pct_52w": 25.8
     }
   },
   "rates": {
     "us2y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 4.81,
+      "date": "2026-10-21",
+      "change_pct": 0.42,
+      "prev_value": 4.79
     },
     "us10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 5.13,
+      "date": "2026-10-21",
+      "change_pct": 0.2,
+      "prev_value": 5.12
     },
     "tips10y": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.76,
+      "date": "2026-10-21",
+      "change_pct": -0.36,
+      "prev_value": 2.77
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 0.31,
+      "date": "2026-10-22",
+      "change_pct": -3.13,
+      "prev_value": 0.32
     },
     "us5s30s": {
       "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "date": null
     },
     "hy_spread": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.27,
+      "date": "2026-10-21",
+      "change_pct": -1.8,
+      "prev_value": 3.33
     },
     "fra_ois": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 3.88,
+      "date": "2026-10-21",
+      "change_pct": 0.0,
+      "prev_value": 3.88
     }
   },
   "fx": {
     "dxy": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 121.4048,
+      "date": "2026-10-16",
+      "change_pct": -0.14,
+      "prev_value": 121.5693
     },
     "usdkrw": {
-      "close": 1325.98,
-      "prev_close": 1323.94,
-      "change_pct": 0.15,
-      "pct_52w": 1.6
+      "close": 1322.78,
+      "prev_close": 1325.59,
+      "change_pct": -0.21,
+      "pct_52w": 1.2
     },
     "usdjpy": {
-      "close": 158.14,
-      "prev_close": 158.27,
-      "change_pct": -0.08,
-      "pct_52w": 53.2
+      "close": 156.25,
+      "prev_close": 158.13,
+      "change_pct": -1.19,
+      "pct_52w": 37.8
     },
     "eurusd": {
       "close": 1.12,
@@ -100,42 +98,42 @@
   },
   "commodities": {
     "wti": {
-      "close": 98.19,
-      "prev_close": 101.79,
-      "change_pct": -3.54,
-      "pct_52w": 67.0
+      "close": 99.75,
+      "prev_close": 97.15,
+      "change_pct": 2.68,
+      "pct_52w": 69.4
     },
     "gold": {
-      "close": 4130.7,
-      "prev_close": 4142.6,
-      "change_pct": -0.29,
-      "pct_52w": 13.6
+      "close": 4032.5,
+      "prev_close": 4150.0,
+      "change_pct": -2.83,
+      "pct_52w": 7.8
     },
     "copper": {
-      "close": 6.55,
-      "prev_close": 6.57,
-      "change_pct": -0.3,
-      "pct_52w": 85.5
+      "close": 6.4,
+      "prev_close": 6.54,
+      "change_pct": -2.14,
+      "pct_52w": 77.7
     }
   },
   "liquidity": {
     "fed_bs": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 6753604.0,
+      "date": "2026-10-21",
+      "change_pct": -0.03,
+      "prev_value": 6755639.0
     },
     "rrp": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 0.351,
+      "date": "2026-10-22",
+      "change_pct": 48.1,
+      "prev_value": 0.237
     },
     "m2": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 23342.8,
+      "date": "2026-08-01",
+      "change_pct": 0.54,
+      "prev_value": 23217.9
     }
   },
   "sectors": {
@@ -190,43 +188,43 @@
   },
   "macro": {
     "cpi_yoy": {
-      "value": null,
-      "date": null,
+      "value": 4.02,
+      "date": "2026-09-01",
       "change_pct": null
     },
     "core_cpi": {
-      "value": null,
-      "date": null,
+      "value": 2.79,
+      "date": "2026-09-01",
       "change_pct": null
     },
     "unemployment": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 4.2,
+      "date": "2026-09-01",
+      "change_pct": 2.44,
+      "prev_value": 4.1
     },
     "pce": {
-      "value": null,
-      "date": null,
+      "value": 3.42,
+      "date": "2026-08-01",
       "change_pct": null
     },
     "gdp_growth": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 2.2,
+      "date": "2026-04-01",
+      "change_pct": -12.0,
+      "prev_value": 2.5
     },
     "ism_mfg": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 51.7,
+      "date": "2026-08-01",
+      "change_pct": -6.34,
+      "prev_value": 55.2
     },
     "ism_svc": {
-      "value": null,
-      "date": null,
-      "change_pct": null,
-      "prev_value": null
+      "value": 98.91297,
+      "date": "2024-01-01",
+      "change_pct": 0.82,
+      "prev_value": 98.1097
     }
   },
   "sentiment": {
@@ -235,8 +233,8 @@
       "rating": "Fear"
     },
     "skew": {
-      "close": 150.36,
-      "change_pct": -6.26,
+      "close": 152.39,
+      "change_pct": 1.35,
       "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -284,78 +282,91 @@
       "event": "PCE 발표 (10월)",
       "category": "pce",
       "impact": "high"
+    },
+    {
+      "date": "2026-12-04",
+      "event": "고용보고서 (11월)",
+      "category": "jobs",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-      "url": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
+      "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
+      "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 21 Oct 2026 21:31:00 GMT",
-      "title_ko": "Trump says data centers should generate their own electricity — but experts say only states can mandate that"
+      "published": "Thu, 22 Oct 2026 22:17:00 GMT",
+      "title_ko": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash"
     },
     {
-      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-      "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+      "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
+      "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 21 Oct 2026 21:14:00 GMT",
-      "title_ko": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon."
+      "published": "Thu, 22 Oct 2026 22:07:00 GMT",
+      "title_ko": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on."
     },
     {
-      "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-      "url": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+      "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+      "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 21 Oct 2026 20:59:00 GMT",
-      "title_ko": "7 healthcare stocks that stand out as investors pay up for the sector"
+      "published": "Thu, 22 Oct 2026 21:19:00 GMT",
+      "title_ko": "3 big reasons Micron and other chip stocks fell hard on Thursday"
     },
     {
-      "title": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
-      "url": "https://www.cnbc.com/2026/10/22/sovereign-wealth-funds-china-hong-kong.html",
-      "source": "CNBC",
-      "published": "Thu, 22 Oct 2026 00:47:38 GMT",
-      "title_ko": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump"
+      "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 22 Oct 2026 20:46:00 GMT",
+      "title_ko": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze"
     },
     {
-      "title": "Bank of Korea holds rates after President Lee calls for boosting housing supply",
-      "url": "https://www.cnbc.com/2026/10/22/bok-rate-decision-seoul-property.html",
+      "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+      "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
       "source": "CNBC",
-      "published": "Thu, 22 Oct 2026 00:52:13 GMT",
-      "title_ko": "Bank of Korea holds rates after President Lee calls for boosting housing supply"
+      "published": "Thu, 22 Oct 2026 20:05:13 GMT",
+      "title_ko": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month"
     },
     {
-      "title": "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use",
-      "url": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
+      "title": "Etsy bans AI-generated recipes and patterns from its online marketplace",
+      "url": "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html",
       "source": "CNBC",
-      "published": "Thu, 22 Oct 2026 00:07:48 GMT",
-      "title_ko": "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use"
+      "published": "Thu, 22 Oct 2026 23:45:50 GMT",
+      "title_ko": "Etsy bans AI-generated recipes and patterns from its online marketplace"
     },
     {
-      "title": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
-      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
       "source": "CNBC",
-      "published": "Wed, 21 Oct 2026 22:50:35 GMT",
-      "title_ko": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks"
+      "published": "Thu, 22 Oct 2026 13:18:36 GMT",
+      "title_ko": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey"
     },
     {
-      "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
-      "url": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
+      "title": "Disney’s multiplatform Super Bowl plan frustrates ABC affiliates",
+      "url": "https://www.cnbc.com/2026/10/22/disneys-multiplatform-super-bowl-plan-frustrates-abc-affiliates.html",
       "source": "CNBC",
-      "published": "Wed, 21 Oct 2026 13:13:48 GMT",
-      "title_ko": "Mortgage rates drop for the first time in 2 months, but demand still falls further"
+      "published": "Thu, 22 Oct 2026 20:44:26 GMT",
+      "title_ko": "Disney’s multiplatform Super Bowl plan frustrates ABC affiliates"
     },
     {
-      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "title": "Japan core inflation in September surges to its highest this year at 2.1%",
+      "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
       "source": "CNBC",
-      "published": "Wed, 21 Oct 2026 11:20:58 GMT",
-      "title_ko": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
+      "published": "Fri, 23 Oct 2026 00:55:11 GMT",
+      "title_ko": "Japan core inflation in September surges to its highest this year at 2.1%"
     },
     {
-      "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
-      "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
       "source": "CNBC",
-      "published": "Wed, 21 Oct 2026 19:47:38 GMT",
-      "title_ko": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound"
+      "published": "Thu, 22 Oct 2026 17:53:08 GMT",
+      "title_ko": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease"
+    },
+    {
+      "title": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+      "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
+      "source": "CNBC",
+      "published": "Thu, 22 Oct 2026 18:55:38 GMT",
+      "title_ko": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist"
     }
   ]
 }
