@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "data": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "indices": {
       "sp500": {
-        "close": 7676.77,
-        "prev_close": 7623.68,
-        "change_pct": 0.7,
-        "pct_52w": 89.0
+        "close": 7722.6,
+        "prev_close": 7676.77,
+        "change_pct": 0.6,
+        "pct_52w": 92.0
       },
       "nasdaq100": {
-        "close": 29273.4,
-        "prev_close": 28957.53,
-        "change_pct": 1.09,
-        "pct_52w": 75.5
+        "close": 29651.44,
+        "prev_close": 29273.4,
+        "change_pct": 1.29,
+        "pct_52w": 79.9
       },
       "russell": {
-        "close": 2786.42,
-        "prev_close": 2775.9,
-        "change_pct": 0.38,
-        "pct_52w": 63.0
+        "close": 2818.87,
+        "prev_close": 2786.42,
+        "change_pct": 1.16,
+        "pct_52w": 67.3
       },
       "vix": {
-        "close": 18.39,
-        "prev_close": 19.45,
-        "change_pct": -5.45,
-        "pct_52w": 22.9
+        "close": 17.52,
+        "prev_close": 18.39,
+        "change_pct": -4.73,
+        "pct_52w": 18.9
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.69,
-        "date": "2026-10-23",
-        "change_pct": 0.86,
-        "prev_value": 4.65
+        "value": 4.68,
+        "date": "2026-10-26",
+        "change_pct": -0.21,
+        "prev_value": 4.69
       },
       "us10y": {
         "value": 5.0,
-        "date": "2026-10-23",
-        "change_pct": 0.81,
-        "prev_value": 4.96
+        "date": "2026-10-26",
+        "change_pct": 0.0,
+        "prev_value": 5.0
       },
       "tips10y": {
         "value": 2.66,
-        "date": "2026-10-23",
-        "change_pct": 0.76,
-        "prev_value": 2.64
+        "date": "2026-10-26",
+        "change_pct": 0.0,
+        "prev_value": 2.66
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.32,
-        "date": "2026-10-26",
-        "change_pct": 3.23,
-        "prev_value": 0.31
+        "value": 0.29,
+        "date": "2026-10-27",
+        "change_pct": -9.38,
+        "prev_value": 0.32
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.38,
-        "date": "2026-10-23",
-        "change_pct": -0.59,
-        "prev_value": 3.4
+        "value": 3.3,
+        "date": "2026-10-26",
+        "change_pct": -2.37,
+        "prev_value": 3.38
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-10-23",
+        "date": "2026-10-26",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 121.3531
       },
       "usdkrw": {
-        "close": 1323.18,
-        "prev_close": 1321.76,
-        "change_pct": 0.11,
-        "pct_52w": 1.4
+        "close": 1335.48,
+        "prev_close": 1324.77,
+        "change_pct": 0.81,
+        "pct_52w": 6.0
       },
       "usdjpy": {
-        "close": 157.71,
-        "prev_close": 156.83,
-        "change_pct": 0.56,
-        "pct_52w": 49.6
+        "close": 157.95,
+        "prev_close": 157.53,
+        "change_pct": 0.27,
+        "pct_52w": 51.5
       },
       "eurusd": {
-        "close": 1.12,
+        "close": 1.11,
         "prev_close": 1.12,
-        "change_pct": 0.0,
-        "pct_52w": 9.4
+        "change_pct": -0.89,
+        "pct_52w": -1.5
       }
     },
     "commodities": {
       "wti": {
-        "close": 100.92,
-        "prev_close": 100.92,
-        "change_pct": 0.0,
-        "pct_52w": 71.2
+        "close": 101.12,
+        "prev_close": 101.76,
+        "change_pct": -0.63,
+        "pct_52w": 71.5
       },
       "gold": {
-        "close": 4028.8,
-        "prev_close": 4028.8,
-        "change_pct": 0.0,
-        "pct_52w": 7.6
+        "close": 4063.5,
+        "prev_close": 4038.4,
+        "change_pct": 0.62,
+        "pct_52w": 9.6
       },
       "copper": {
-        "close": 6.58,
-        "prev_close": 6.58,
-        "change_pct": 0.0,
-        "pct_52w": 86.9
+        "close": 6.65,
+        "prev_close": 6.51,
+        "change_pct": 2.15,
+        "pct_52w": 90.6
       }
     },
     "liquidity": {
@@ -126,66 +126,66 @@
         "prev_value": 6755639.0
       },
       "rrp": {
-        "value": 0.2,
-        "date": "2026-10-26",
-        "change_pct": 0.0,
+        "value": 0.226,
+        "date": "2026-10-27",
+        "change_pct": 13.0,
         "prev_value": 0.2
       },
       "m2": {
-        "value": 23342.8,
-        "date": "2026-08-01",
-        "change_pct": 0.54,
-        "prev_value": 23217.9
+        "value": 23413.9,
+        "date": "2026-09-01",
+        "change_pct": 0.48,
+        "prev_value": 23300.9
       }
     },
     "sectors": {
       "tech": {
-        "close": 186.32,
-        "change_pct": 1.69,
-        "change_4w": -4.22,
-        "pct_52w": 78.0
+        "close": 189.49,
+        "change_pct": 1.7,
+        "change_4w": -2.59,
+        "pct_52w": 82.1
       },
       "financials": {
-        "close": 56.02,
-        "change_pct": 0.21,
-        "change_4w": 3.38,
-        "pct_52w": 78.5
+        "close": 55.88,
+        "change_pct": -0.25,
+        "change_4w": 3.12,
+        "pct_52w": 77.3
       },
       "energy": {
-        "close": 69.64,
-        "change_pct": 0.45,
-        "change_4w": 12.14,
-        "pct_52w": 99.2
+        "close": 68.21,
+        "change_pct": -2.05,
+        "change_4w": 9.84,
+        "pct_52w": 94.1
       },
       "utilities": {
-        "close": 42.55,
-        "change_pct": -0.02,
-        "change_4w": 8.41,
-        "pct_52w": 43.8
+        "close": 42.85,
+        "change_pct": 0.71,
+        "change_4w": 9.17,
+        "pct_52w": 47.6
       },
       "healthcare": {
-        "close": 179.28,
-        "change_pct": 0.0,
-        "change_4w": 4.68,
-        "pct_52w": 92.9
+        "close": 179.18,
+        "change_pct": -0.06,
+        "change_4w": 4.62,
+        "pct_52w": 92.7
       },
       "consumer_disc": {
-        "close": 114.26,
-        "change_pct": 1.03,
-        "change_4w": 4.83,
-        "pct_52w": 48.8
+        "close": 115.45,
+        "change_pct": 1.04,
+        "change_4w": 5.92,
+        "pct_52w": 54.9
       },
       "industrials": {
-        "close": 166.96,
-        "change_pct": 1.42,
-        "change_4w": -1.08,
-        "pct_52w": 50.9
+        "close": 167.92,
+        "change_pct": 0.57,
+        "change_4w": -0.51,
+        "pct_52w": 53.2
       },
       "materials": {
-        "close": 51.38,
-        "change_pct": 0.14,
-        "change_4w": 3.86,
-        "pct_52w": 79.8
+        "close": 51.78,
+        "change_pct": 0.78,
+        "change_4w": 4.67,
+        "pct_52w": 82.9
       }
     },
     "macro": {
@@ -231,13 +231,13 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 40,
+        "score": 42,
         "rating": "Fear"
       },
       "skew": {
-        "close": 150.97,
-        "change_pct": -0.55,
-        "signal": "red",
+        "close": 149.22,
+        "change_pct": -1.16,
+        "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
@@ -294,53 +294,46 @@
     ],
     "news": [
       {
-        "title": "Dividend stocks are having an excellent October as tech sector struggles",
-        "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+        "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+        "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 26 Oct 2026 22:10:00 GMT",
-        "title_ko": "Dividend stocks are having an excellent October as tech sector struggles"
+        "published": "Tue, 27 Oct 2026 22:51:00 GMT",
+        "title_ko": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market"
       },
       {
-        "title": "Options traders are seizing control of the S&P 500",
-        "url": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
+        "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+        "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 26 Oct 2026 22:03:00 GMT",
-        "title_ko": "Options traders are seizing control of the S&P 500"
+        "published": "Tue, 27 Oct 2026 21:41:00 GMT",
+        "title_ko": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending"
       },
       {
-        "title": "Why Lumentum’s stock led the S&P 500 higher on Monday",
-        "url": "https://www.marketwatch.com/story/why-lumentums-stock-led-the-s-p-500-higher-on-monday-0dff125b?mod=mw_rss_topstories",
+        "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
+        "url": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 26 Oct 2026 21:04:00 GMT",
-        "title_ko": "Why Lumentum’s stock led the S&P 500 higher on Monday"
+        "published": "Tue, 27 Oct 2026 21:28:00 GMT",
+        "title_ko": "The rest of the market is leaving Big Tech behind after a historic comeback"
       },
       {
-        "title": "China industrial profits post strongest growth in three months, rising 14.4%",
-        "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
-        "source": "CNBC",
-        "published": "Tue, 27 Oct 2026 01:45:58 GMT",
-        "title_ko": "China industrial profits post strongest growth in three months, rising 14.4%"
+        "title": "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’",
+        "url": "https://www.marketwatch.com/story/how-broadcoms-stock-can-surge-and-overcome-the-biggest-dislocation-in-the-market-9719e2a8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Tue, 27 Oct 2026 20:40:00 GMT",
+        "title_ko": "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’"
       },
       {
-        "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
-        "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+        "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+        "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
         "source": "CNBC",
-        "published": "Tue, 27 Oct 2026 00:17:44 GMT",
-        "title_ko": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey"
+        "published": "Wed, 28 Oct 2026 00:14:24 GMT",
+        "title_ko": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks"
       },
       {
-        "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
-        "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+        "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+        "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
         "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 18:51:23 GMT",
-        "title_ko": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers"
-      },
-      {
-        "title": "Jim Cramer warns this overlooked danger could threaten the market rally",
-        "url": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
-        "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 22:09:35 GMT",
-        "title_ko": "Jim Cramer warns this overlooked danger could threaten the market rally"
+        "published": "Tue, 27 Oct 2026 22:18:59 GMT",
+        "title_ko": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC"
       },
       {
         "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
@@ -350,39 +343,25 @@
         "title_ko": "China and Russia are redrawing Arctic trade. Can Europe fight back?"
       },
       {
-        "title": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
-        "url": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
+        "title": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform",
+        "url": "https://www.cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html",
         "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 15:39:55 GMT",
-        "title_ko": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling"
+        "published": "Tue, 27 Oct 2026 21:24:06 GMT",
+        "title_ko": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform"
       },
       {
-        "title": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
-        "url": "https://www.cnbc.com/2026/10/27/china-fiscal-debt-gdp-imf-real-estate-.html",
+        "title": "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+        "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
         "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 23:10:16 GMT",
-        "title_ko": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities"
+        "published": "Tue, 27 Oct 2026 17:53:47 GMT",
+        "title_ko": "Honda warns 50% Canada auto tariffs would be catastrophic for industry"
       },
       {
-        "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
-        "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+        "title": "Margin debt growth slows sharply as stock market warning signs build",
+        "url": "https://www.cnbc.com/2026/10/27/margin-debt-growth-cools-after-2026-surge-may-signal-market-top.html",
         "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 20:08:57 GMT",
-        "title_ko": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC"
-      },
-      {
-        "title": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
-        "url": "https://www.cnbc.com/investingclub/2026/10/26/meta-spacex-anthropic-stoke-the-ai-funding-frenzy-what-it-means-for-our-stocks.html",
-        "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 20:26:26 GMT",
-        "title_ko": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks"
-      },
-      {
-        "title": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
-        "url": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html",
-        "source": "CNBC",
-        "published": "Mon, 26 Oct 2026 18:37:01 GMT",
-        "title_ko": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers"
+        "published": "Tue, 27 Oct 2026 18:53:18 GMT",
+        "title_ko": "Margin debt growth slows sharply as stock market warning signs build"
       }
     ]
   },
@@ -395,13 +374,13 @@
     "curve": "green",
     "sector": "yellow",
     "sentiment": "yellow",
-    "skew": "red",
+    "skew": "yellow",
     "combo": "yellow",
     "unemployment": "yellow",
     "oil": "red",
     "gdp": "green",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "green",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -409,10 +388,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $100.9 >= $90",
-      "숨겨진경고: VIX 18.4(낮음)+Skew 151(높음)"
+      "WTI $101.1 >= $90",
+      "숨겨진경고: VIX 17.5(낮음)+Skew 149(높음)"
     ],
-    "ratio": 0.425
+    "ratio": 0.475
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
