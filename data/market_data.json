@@ -1,93 +1,93 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-03",
   "indices": {
     "sp500": {
-      "close": 7580.07,
-      "prev_close": 7720.39,
-      "change_pct": -1.82,
-      "pct_52w": 82.7
+      "close": 7541.4,
+      "prev_close": 7580.07,
+      "change_pct": -0.51,
+      "pct_52w": 80.2
     },
     "nasdaq100": {
-      "close": 28384.85,
-      "prev_close": 29402.51,
-      "change_pct": -3.46,
-      "pct_52w": 65.1
+      "close": 27989.82,
+      "prev_close": 28384.85,
+      "change_pct": -1.39,
+      "pct_52w": 60.4
     },
     "russell": {
-      "close": 2811.84,
-      "prev_close": 2859.22,
-      "change_pct": -1.66,
-      "pct_52w": 66.3
+      "close": 2805.88,
+      "prev_close": 2811.84,
+      "change_pct": -0.21,
+      "pct_52w": 65.6
     },
     "vix": {
-      "close": 19.42,
-      "prev_close": 17.2,
-      "change_pct": 12.91,
-      "pct_52w": 27.6
+      "close": 21.15,
+      "prev_close": 19.42,
+      "change_pct": 8.91,
+      "pct_52w": 35.4
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.61,
-      "date": "2026-10-29",
-      "change_pct": -1.28,
-      "prev_value": 4.67
+      "value": 4.56,
+      "date": "2026-10-30",
+      "change_pct": -1.08,
+      "prev_value": 4.61
     },
     "us10y": {
-      "value": 4.98,
-      "date": "2026-10-29",
-      "change_pct": -1.39,
-      "prev_value": 5.05
+      "value": 4.94,
+      "date": "2026-10-30",
+      "change_pct": -0.8,
+      "prev_value": 4.98
     },
     "tips10y": {
-      "value": 2.63,
-      "date": "2026-10-29",
-      "change_pct": -1.5,
-      "prev_value": 2.67
+      "value": 2.6,
+      "date": "2026-10-30",
+      "change_pct": -1.14,
+      "prev_value": 2.63
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.38,
-      "date": "2026-10-30",
-      "change_pct": 2.7,
-      "prev_value": 0.37
+      "value": 0.32,
+      "date": "2026-11-02",
+      "change_pct": -15.79,
+      "prev_value": 0.38
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.26,
-      "date": "2026-10-29",
-      "change_pct": 3.82,
-      "prev_value": 3.14
+      "value": 3.44,
+      "date": "2026-10-30",
+      "change_pct": 5.52,
+      "prev_value": 3.26
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
   },
   "fx": {
     "dxy": {
-      "value": 121.3202,
-      "date": "2026-10-23",
-      "change_pct": -0.03,
-      "prev_value": 121.3531
+      "value": 121.6656,
+      "date": "2026-10-30",
+      "change_pct": -0.06,
+      "prev_value": 121.7361
     },
     "usdkrw": {
-      "close": 1337.98,
-      "prev_close": 1340.34,
-      "change_pct": -0.18,
-      "pct_52w": 6.9
+      "close": 1339.68,
+      "prev_close": 1325.52,
+      "change_pct": 1.07,
+      "pct_52w": 7.5
     },
     "usdjpy": {
-      "close": 157.8,
-      "prev_close": 157.83,
-      "change_pct": -0.02,
-      "pct_52w": 47.6
+      "close": 157.88,
+      "prev_close": 157.68,
+      "change_pct": 0.13,
+      "pct_52w": 47.9
     },
     "eurusd": {
       "close": 1.12,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 102.95,
-      "prev_close": 102.0,
-      "change_pct": 0.93,
-      "pct_52w": 74.4
+      "close": 96.58,
+      "prev_close": 96.58,
+      "change_pct": 0.0,
+      "pct_52w": 64.5
     },
     "gold": {
-      "close": 3884.9,
-      "prev_close": 4031.4,
-      "change_pct": -3.63,
-      "pct_52w": 0.3
+      "close": 3936.3,
+      "prev_close": 3936.3,
+      "change_pct": 0.0,
+      "pct_52w": 3.3
     },
     "copper": {
-      "close": 6.51,
-      "prev_close": 6.58,
-      "change_pct": -1.06,
-      "pct_52w": 83.3
+      "close": 6.45,
+      "prev_close": 6.45,
+      "change_pct": 0.0,
+      "pct_52w": 80.1
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6753604.0
     },
     "rrp": {
-      "value": 4.375,
-      "date": "2026-10-30",
-      "change_pct": 1139.38,
-      "prev_value": 0.353
+      "value": 5.087,
+      "date": "2026-11-02",
+      "change_pct": 16.27,
+      "prev_value": 4.375
     },
     "m2": {
       "value": 23413.9,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 179.51,
-      "change_pct": -4.89,
-      "change_4w": -8.3,
-      "pct_52w": 69.1
+      "close": 174.22,
+      "change_pct": -2.95,
+      "change_4w": -13.29,
+      "pct_52w": 62.2
     },
     "financials": {
-      "close": 56.51,
-      "change_pct": -0.76,
-      "change_4w": 5.82,
-      "pct_52w": 83.0
+      "close": 57.56,
+      "change_pct": 1.86,
+      "change_4w": 6.83,
+      "pct_52w": 92.5
     },
     "energy": {
-      "close": 70.02,
-      "change_pct": 1.91,
-      "change_4w": 13.85,
-      "pct_52w": 99.5
+      "close": 67.25,
+      "change_pct": -3.96,
+      "change_4w": 5.99,
+      "pct_52w": 89.7
     },
     "utilities": {
-      "close": 43.43,
-      "change_pct": 0.67,
-      "change_4w": 10.12,
-      "pct_52w": 54.8
+      "close": 43.67,
+      "change_pct": 0.55,
+      "change_4w": 9.26,
+      "pct_52w": 57.8
     },
     "healthcare": {
-      "close": 184.87,
-      "change_pct": 0.45,
-      "change_4w": 9.77,
-      "pct_52w": 93.5
+      "close": 184.6,
+      "change_pct": -0.15,
+      "change_4w": 10.29,
+      "pct_52w": 92.9
     },
     "consumer_disc": {
-      "close": 115.38,
-      "change_pct": -0.71,
-      "change_4w": 6.01,
-      "pct_52w": 54.5
+      "close": 118.16,
+      "change_pct": 2.41,
+      "change_4w": 7.01,
+      "pct_52w": 68.8
     },
     "industrials": {
-      "close": 167.4,
-      "change_pct": -1.6,
-      "change_4w": 0.25,
-      "pct_52w": 51.9
+      "close": 169.71,
+      "change_pct": 1.38,
+      "change_4w": -0.23,
+      "pct_52w": 57.4
     },
     "materials": {
-      "close": 52.74,
-      "change_pct": 0.4,
-      "change_4w": 8.3,
-      "pct_52w": 90.5
+      "close": 53.67,
+      "change_pct": 1.76,
+      "change_4w": 8.42,
+      "pct_52w": 97.2
     }
   },
   "macro": {
@@ -229,13 +229,13 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 39,
+      "score": 34,
       "rating": "Fear"
     },
     "skew": {
-      "close": 149.76,
-      "change_pct": -0.84,
-      "signal": "yellow",
+      "close": 152.78,
+      "change_pct": 2.02,
+      "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
@@ -286,88 +286,95 @@
   ],
   "news": [
     {
-      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+      "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 30 Oct 2026 23:14:00 GMT",
-      "title_ko": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000."
+      "published": "Tue, 03 Nov 2026 00:03:00 GMT",
+      "title_ko": "Nasdaq-100 tumbles into its third correction this year as AI worries mount"
     },
     {
-      "title": "This cybersecurity stock will be the next to join the S&P 500",
-      "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 30 Oct 2026 22:20:00 GMT",
-      "title_ko": "This cybersecurity stock will be the next to join the S&P 500"
+      "published": "Mon, 02 Nov 2026 22:03:00 GMT",
+      "title_ko": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned"
     },
     {
-      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+      "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 30 Oct 2026 21:23:00 GMT",
-      "title_ko": "Warsh wants the Fed to say less. Two officials are pushing for more transparency."
+      "published": "Mon, 02 Nov 2026 21:45:00 GMT",
+      "title_ko": "Wall Street’s most hated stocks are faring far better than its favorites"
     },
     {
-      "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-      "url": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+      "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 30 Oct 2026 20:52:00 GMT",
-      "title_ko": "In a wild October for markets, these stocks were the biggest winners and losers"
+      "published": "Mon, 02 Nov 2026 21:29:00 GMT",
+      "title_ko": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain."
     },
     {
-      "title": "The selloff in tech stocks is shifting into overdrive",
-      "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Fri, 30 Oct 2026 20:26:00 GMT",
-      "title_ko": "The selloff in tech stocks is shifting into overdrive"
-    },
-    {
-      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 17:15:53 GMT",
-      "title_ko": "Treasury Department announces new Series I bond rate of 5.51% for the next six months"
+      "published": "Tue, 03 Nov 2026 03:46:20 GMT",
+      "title_ko": "Australia hikes rates to 18-year high to fight inflation"
     },
     {
-      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
-      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 22:42:26 GMT",
-      "title_ko": "Meta outlook revised downward by S&P on cash flow and capex concerns"
+      "published": "Mon, 02 Nov 2026 20:19:25 GMT",
+      "title_ko": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms"
     },
     {
-      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 22:52:04 GMT",
-      "title_ko": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes"
+      "published": "Mon, 02 Nov 2026 23:13:34 GMT",
+      "title_ko": "Stock market after midterm elections: What S&P 500 history shows"
     },
     {
-      "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
-      "url": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
+      "title": "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands",
+      "url": "https://www.cnbc.com/2026/11/02/cnbcs-the-china-connection-newsletter-nvidias-humanoid-push-relies-on-china-made-robot-hands.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 22:00:53 GMT",
-      "title_ko": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets"
+      "published": "Mon, 02 Nov 2026 23:00:01 GMT",
+      "title_ko": "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands"
     },
     {
-      "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
-      "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+      "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
+      "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 18:28:09 GMT",
-      "title_ko": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz"
+      "published": "Mon, 02 Nov 2026 23:54:27 GMT",
+      "title_ko": "Jim Cramer says these six fashion stocks are buys beyond the AI trade"
     },
     {
-      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
-      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
+      "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 18:55:44 GMT",
-      "title_ko": "Tech gets crushed, defensive stocks shine. How we're making sense of it all"
+      "published": "Mon, 02 Nov 2026 20:57:50 GMT",
+      "title_ko": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying"
     },
     {
-      "title": "Fed officials are already saying they’ll need to get back to hiking rates",
-      "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+      "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+      "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
       "source": "CNBC",
-      "published": "Fri, 30 Oct 2026 21:53:10 GMT",
-      "title_ko": "Fed officials are already saying they’ll need to get back to hiking rates"
+      "published": "Mon, 02 Nov 2026 20:48:21 GMT",
+      "title_ko": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate"
+    },
+    {
+      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+      "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+      "source": "CNBC",
+      "published": "Mon, 02 Nov 2026 21:13:43 GMT",
+      "title_ko": "Texas governor race tightens in prediction markets, but Abbott remains favored"
+    },
+    {
+      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "source": "CNBC",
+      "published": "Mon, 02 Nov 2026 15:30:41 GMT",
+      "title_ko": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks"
     }
   ]
 }
