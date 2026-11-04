@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "data": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "indices": {
       "sp500": {
-        "close": 7541.4,
-        "prev_close": 7580.07,
-        "change_pct": -0.51,
-        "pct_52w": 80.2
+        "close": 7568.92,
+        "prev_close": 7541.4,
+        "change_pct": 0.36,
+        "pct_52w": 82.0
       },
       "nasdaq100": {
-        "close": 27989.82,
-        "prev_close": 28384.85,
-        "change_pct": -1.39,
-        "pct_52w": 60.4
+        "close": 28180.26,
+        "prev_close": 27989.82,
+        "change_pct": 0.68,
+        "pct_52w": 62.7
       },
       "russell": {
-        "close": 2805.88,
-        "prev_close": 2811.84,
-        "change_pct": -0.21,
-        "pct_52w": 65.6
+        "close": 2812.45,
+        "prev_close": 2805.88,
+        "change_pct": 0.23,
+        "pct_52w": 66.4
       },
       "vix": {
-        "close": 21.15,
-        "prev_close": 19.42,
-        "change_pct": 8.91,
-        "pct_52w": 35.4
+        "close": 20.83,
+        "prev_close": 21.15,
+        "change_pct": -1.51,
+        "pct_52w": 34.0
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.56,
-        "date": "2026-10-30",
-        "change_pct": -1.08,
-        "prev_value": 4.61
+        "value": 4.59,
+        "date": "2026-11-02",
+        "change_pct": 0.66,
+        "prev_value": 4.56
       },
       "us10y": {
-        "value": 4.94,
-        "date": "2026-10-30",
-        "change_pct": -0.8,
-        "prev_value": 4.98
+        "value": 4.91,
+        "date": "2026-11-02",
+        "change_pct": -0.61,
+        "prev_value": 4.94
       },
       "tips10y": {
-        "value": 2.6,
-        "date": "2026-10-30",
-        "change_pct": -1.14,
-        "prev_value": 2.63
+        "value": 2.62,
+        "date": "2026-11-02",
+        "change_pct": 0.77,
+        "prev_value": 2.6
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.32,
-        "date": "2026-11-02",
-        "change_pct": -15.79,
-        "prev_value": 0.38
+        "value": 0.34,
+        "date": "2026-11-03",
+        "change_pct": 6.25,
+        "prev_value": 0.32
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.44,
-        "date": "2026-10-30",
-        "change_pct": 5.52,
-        "prev_value": 3.26
+        "value": 3.43,
+        "date": "2026-11-02",
+        "change_pct": -0.29,
+        "prev_value": 3.44
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-10-30",
+        "date": "2026-11-02",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 121.7361
       },
       "usdkrw": {
-        "close": 1339.68,
-        "prev_close": 1325.52,
-        "change_pct": 1.07,
-        "pct_52w": 7.5
+        "close": 1337.78,
+        "prev_close": 1344.81,
+        "change_pct": -0.52,
+        "pct_52w": 6.8
       },
       "usdjpy": {
-        "close": 157.88,
-        "prev_close": 157.68,
-        "change_pct": 0.13,
-        "pct_52w": 47.9
+        "close": 157.68,
+        "prev_close": 157.91,
+        "change_pct": -0.15,
+        "pct_52w": 46.2
       },
       "eurusd": {
-        "close": 1.12,
+        "close": 1.13,
         "prev_close": 1.12,
-        "change_pct": 0.0,
-        "pct_52w": 9.9
+        "change_pct": 0.89,
+        "pct_52w": 20.8
       }
     },
     "commodities": {
       "wti": {
-        "close": 96.58,
-        "prev_close": 96.58,
-        "change_pct": 0.0,
-        "pct_52w": 64.5
+        "close": 95.1,
+        "prev_close": 96.46,
+        "change_pct": -1.41,
+        "pct_52w": 62.2
       },
       "gold": {
-        "close": 3936.3,
-        "prev_close": 3936.3,
-        "change_pct": 0.0,
-        "pct_52w": 3.3
+        "close": 3948.3,
+        "prev_close": 3969.6,
+        "change_pct": -0.54,
+        "pct_52w": 4.0
       },
       "copper": {
-        "close": 6.45,
-        "prev_close": 6.45,
-        "change_pct": 0.0,
-        "pct_52w": 80.1
+        "close": 6.33,
+        "prev_close": 6.54,
+        "change_pct": -3.21,
+        "pct_52w": 73.8
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6753604.0
       },
       "rrp": {
-        "value": 5.087,
-        "date": "2026-11-02",
-        "change_pct": 16.27,
-        "prev_value": 4.375
+        "value": 0.427,
+        "date": "2026-11-03",
+        "change_pct": -91.61,
+        "prev_value": 5.087
       },
       "m2": {
         "value": 23413.9,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 174.22,
-        "change_pct": -2.95,
-        "change_4w": -13.29,
-        "pct_52w": 62.2
+        "close": 176.51,
+        "change_pct": 1.31,
+        "change_4w": -12.15,
+        "pct_52w": 65.2
       },
       "financials": {
-        "close": 57.56,
-        "change_pct": 1.86,
-        "change_4w": 6.83,
-        "pct_52w": 92.5
+        "close": 57.19,
+        "change_pct": -0.64,
+        "change_4w": 6.14,
+        "pct_52w": 89.1
       },
       "energy": {
-        "close": 67.25,
-        "change_pct": -3.96,
-        "change_4w": 5.99,
-        "pct_52w": 89.7
+        "close": 66.68,
+        "change_pct": -0.85,
+        "change_4w": 5.09,
+        "pct_52w": 87.7
       },
       "utilities": {
-        "close": 43.67,
-        "change_pct": 0.55,
-        "change_4w": 9.26,
-        "pct_52w": 57.8
+        "close": 43.42,
+        "change_pct": -0.57,
+        "change_4w": 8.63,
+        "pct_52w": 54.7
       },
       "healthcare": {
-        "close": 184.6,
-        "change_pct": -0.15,
-        "change_4w": 10.29,
-        "pct_52w": 92.9
+        "close": 184.02,
+        "change_pct": -0.31,
+        "change_4w": 9.95,
+        "pct_52w": 91.6
       },
       "consumer_disc": {
-        "close": 118.16,
-        "change_pct": 2.41,
-        "change_4w": 7.01,
-        "pct_52w": 68.8
+        "close": 117.33,
+        "change_pct": -0.7,
+        "change_4w": 6.26,
+        "pct_52w": 64.6
       },
       "industrials": {
-        "close": 169.71,
-        "change_pct": 1.38,
-        "change_4w": -0.23,
-        "pct_52w": 57.4
+        "close": 171.32,
+        "change_pct": 0.95,
+        "change_4w": 0.72,
+        "pct_52w": 61.2
       },
       "materials": {
-        "close": 53.67,
-        "change_pct": 1.76,
-        "change_4w": 8.42,
-        "pct_52w": 97.2
+        "close": 52.59,
+        "change_pct": -2.01,
+        "change_4w": 6.24,
+        "pct_52w": 88.7
       }
     },
     "macro": {
@@ -235,8 +235,8 @@
         "rating": "Fear"
       },
       "skew": {
-        "close": 152.78,
-        "change_pct": 2.02,
+        "close": 150.01,
+        "change_pct": -1.81,
         "signal": "red",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -284,99 +284,70 @@
         "event": "CPI 발표 (11월)",
         "category": "cpi",
         "impact": "high"
+      },
+      {
+        "date": "2026-12-16",
+        "event": "FOMC 금리 결정",
+        "category": "fed",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-        "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+        "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+        "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 03 Nov 2026 00:03:00 GMT",
-        "title_ko": "Nasdaq-100 tumbles into its third correction this year as AI worries mount"
+        "published": "Wed, 04 Nov 2026 01:16:00 GMT",
+        "title_ko": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade"
       },
       {
-        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-        "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+        "title": "AI’s control over the bond market is growing — even rivaling war and elections",
+        "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 02 Nov 2026 22:03:00 GMT",
-        "title_ko": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned"
+        "published": "Tue, 03 Nov 2026 22:06:00 GMT",
+        "title_ko": "AI’s control over the bond market is growing — even rivaling war and elections"
       },
       {
-        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-        "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+        "title": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
+        "url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Mon, 02 Nov 2026 21:45:00 GMT",
-        "title_ko": "Wall Street’s most hated stocks are faring far better than its favorites"
+        "published": "Tue, 03 Nov 2026 21:30:00 GMT",
+        "title_ko": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?"
       },
       {
-        "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
-        "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Mon, 02 Nov 2026 21:29:00 GMT",
-        "title_ko": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain."
-      },
-      {
-        "title": "Australia hikes rates to 18-year high to fight inflation",
-        "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+        "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+        "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
         "source": "CNBC",
-        "published": "Tue, 03 Nov 2026 03:46:20 GMT",
-        "title_ko": "Australia hikes rates to 18-year high to fight inflation"
-      },
-      {
-        "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-        "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-        "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 20:19:25 GMT",
-        "title_ko": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms"
+        "published": "Wed, 04 Nov 2026 01:49:58 GMT",
+        "title_ko": "Midterm elections could jolt stocks if Democrats sweep Congress"
       },
       {
         "title": "Stock market after midterm elections: What S&P 500 history shows",
         "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
         "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 23:13:34 GMT",
+        "published": "Tue, 03 Nov 2026 18:21:05 GMT",
         "title_ko": "Stock market after midterm elections: What S&P 500 history shows"
       },
       {
-        "title": "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands",
-        "url": "https://www.cnbc.com/2026/11/02/cnbcs-the-china-connection-newsletter-nvidias-humanoid-push-relies-on-china-made-robot-hands.html",
+        "title": "Binance breach puts custody at center of crypto infrastructure trade",
+        "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
         "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 23:00:01 GMT",
-        "title_ko": "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands"
+        "published": "Tue, 03 Nov 2026 20:13:37 GMT",
+        "title_ko": "Binance breach puts custody at center of crypto infrastructure trade"
       },
       {
-        "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
-        "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
+        "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+        "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
         "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 23:54:27 GMT",
-        "title_ko": "Jim Cramer says these six fashion stocks are buys beyond the AI trade"
+        "published": "Tue, 03 Nov 2026 23:58:09 GMT",
+        "title_ko": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners"
       },
       {
-        "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
-        "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
+        "title": "AMD has been crushed into earnings. Here’s one way to trade it",
+        "url": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html",
         "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 20:57:50 GMT",
-        "title_ko": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying"
-      },
-      {
-        "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
-        "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
-        "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 20:48:21 GMT",
-        "title_ko": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate"
-      },
-      {
-        "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
-        "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
-        "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 21:13:43 GMT",
-        "title_ko": "Texas governor race tightens in prediction markets, but Abbott remains favored"
-      },
-      {
-        "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-        "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
-        "source": "CNBC",
-        "published": "Mon, 02 Nov 2026 15:30:41 GMT",
-        "title_ko": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks"
+        "published": "Tue, 03 Nov 2026 20:40:51 GMT",
+        "title_ko": "AMD has been crushed into earnings. Here’s one way to trade it"
       }
     ]
   },
@@ -395,7 +366,7 @@
     "oil": "red",
     "gdp": "green",
     "gold_signal": "yellow",
-    "copper": "yellow",
+    "copper": "red",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
@@ -403,10 +374,10 @@
     "verdict": "AVOID",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $96.6 >= $90",
-      "숨겨진경고: VIX 21.1(낮음)+Skew 153(높음)"
+      "WTI $95.1 >= $90",
+      "숨겨진경고: VIX 20.8(낮음)+Skew 150(높음)"
     ],
-    "ratio": 0.375
+    "ratio": 0.35
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
