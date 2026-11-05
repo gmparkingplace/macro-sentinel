@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "data": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "indices": {
       "sp500": {
-        "close": 7568.92,
-        "prev_close": 7541.4,
-        "change_pct": 0.36,
-        "pct_52w": 82.0
+        "close": 7688.62,
+        "prev_close": 7568.92,
+        "change_pct": 1.58,
+        "pct_52w": 89.8
       },
       "nasdaq100": {
-        "close": 28180.26,
-        "prev_close": 27989.82,
-        "change_pct": 0.68,
-        "pct_52w": 62.7
+        "close": 28437.17,
+        "prev_close": 28180.26,
+        "change_pct": 0.91,
+        "pct_52w": 65.7
       },
       "russell": {
-        "close": 2812.45,
-        "prev_close": 2805.88,
-        "change_pct": 0.23,
-        "pct_52w": 66.4
+        "close": 2856.95,
+        "prev_close": 2812.45,
+        "change_pct": 1.58,
+        "pct_52w": 72.2
       },
       "vix": {
-        "close": 20.83,
-        "prev_close": 21.15,
-        "change_pct": -1.51,
-        "pct_52w": 34.0
+        "close": 16.61,
+        "prev_close": 20.83,
+        "change_pct": -20.26,
+        "pct_52w": 14.7
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.59,
-        "date": "2026-11-02",
-        "change_pct": 0.66,
-        "prev_value": 4.56
+        "value": 4.61,
+        "date": "2026-11-03",
+        "change_pct": 0.44,
+        "prev_value": 4.59
       },
       "us10y": {
-        "value": 4.91,
-        "date": "2026-11-02",
-        "change_pct": -0.61,
-        "prev_value": 4.94
+        "value": 4.95,
+        "date": "2026-11-03",
+        "change_pct": 0.81,
+        "prev_value": 4.91
       },
       "tips10y": {
-        "value": 2.62,
-        "date": "2026-11-02",
-        "change_pct": 0.77,
-        "prev_value": 2.6
+        "value": 2.65,
+        "date": "2026-11-03",
+        "change_pct": 1.15,
+        "prev_value": 2.62
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.34,
-        "date": "2026-11-03",
-        "change_pct": 6.25,
-        "prev_value": 0.32
+        "value": 0.32,
+        "date": "2026-11-04",
+        "change_pct": -5.88,
+        "prev_value": 0.34
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.43,
-        "date": "2026-11-02",
-        "change_pct": -0.29,
-        "prev_value": 3.44
+        "value": 3.4,
+        "date": "2026-11-03",
+        "change_pct": -0.87,
+        "prev_value": 3.43
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,16 +80,16 @@
         "prev_value": 121.7361
       },
       "usdkrw": {
-        "close": 1337.78,
-        "prev_close": 1344.81,
-        "change_pct": -0.52,
-        "pct_52w": 6.8
+        "close": 1343.84,
+        "prev_close": 1342.9,
+        "change_pct": 0.07,
+        "pct_52w": 9.1
       },
       "usdjpy": {
-        "close": 157.68,
-        "prev_close": 157.91,
-        "change_pct": -0.15,
-        "pct_52w": 46.2
+        "close": 157.91,
+        "prev_close": 158.47,
+        "change_pct": -0.35,
+        "pct_52w": 48.1
       },
       "eurusd": {
         "close": 1.13,
@@ -100,22 +100,22 @@
     },
     "commodities": {
       "wti": {
-        "close": 95.1,
-        "prev_close": 96.46,
-        "change_pct": -1.41,
-        "pct_52w": 62.2
+        "close": 87.26,
+        "prev_close": 96.09,
+        "change_pct": -9.19,
+        "pct_52w": 50.0
       },
       "gold": {
-        "close": 3948.3,
-        "prev_close": 3969.6,
-        "change_pct": -0.54,
-        "pct_52w": 4.0
+        "close": 4137.2,
+        "prev_close": 3940.4,
+        "change_pct": 4.99,
+        "pct_52w": 15.1
       },
       "copper": {
-        "close": 6.33,
-        "prev_close": 6.54,
-        "change_pct": -3.21,
-        "pct_52w": 73.8
+        "close": 6.43,
+        "prev_close": 6.38,
+        "change_pct": 0.78,
+        "pct_52w": 79.1
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6753604.0
       },
       "rrp": {
-        "value": 0.427,
-        "date": "2026-11-03",
-        "change_pct": -91.61,
-        "prev_value": 5.087
+        "value": 0.225,
+        "date": "2026-11-04",
+        "change_pct": -47.31,
+        "prev_value": 0.427
       },
       "m2": {
         "value": 23413.9,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 176.51,
-        "change_pct": 1.31,
-        "change_4w": -12.15,
+        "close": 176.5,
+        "change_pct": -0.01,
+        "change_4w": -12.16,
         "pct_52w": 65.2
       },
       "financials": {
-        "close": 57.19,
-        "change_pct": -0.64,
-        "change_4w": 6.14,
-        "pct_52w": 89.1
+        "close": 59.2,
+        "change_pct": 3.51,
+        "change_4w": 9.87,
+        "pct_52w": 100.0
       },
       "energy": {
-        "close": 66.68,
-        "change_pct": -0.85,
-        "change_4w": 5.09,
-        "pct_52w": 87.7
+        "close": 63.52,
+        "change_pct": -4.74,
+        "change_4w": 0.11,
+        "pct_52w": 76.2
       },
       "utilities": {
-        "close": 43.42,
-        "change_pct": -0.57,
-        "change_4w": 8.63,
-        "pct_52w": 54.7
+        "close": 43.61,
+        "change_pct": 0.44,
+        "change_4w": 9.11,
+        "pct_52w": 57.0
       },
       "healthcare": {
-        "close": 184.02,
-        "change_pct": -0.31,
-        "change_4w": 9.95,
-        "pct_52w": 91.6
+        "close": 189.66,
+        "change_pct": 3.06,
+        "change_4w": 13.32,
+        "pct_52w": 98.9
       },
       "consumer_disc": {
-        "close": 117.33,
-        "change_pct": -0.7,
-        "change_4w": 6.26,
-        "pct_52w": 64.6
+        "close": 122.33,
+        "change_pct": 4.26,
+        "change_4w": 10.79,
+        "pct_52w": 90.2
       },
       "industrials": {
-        "close": 171.32,
-        "change_pct": 0.95,
-        "change_4w": 0.72,
-        "pct_52w": 61.2
+        "close": 169.46,
+        "change_pct": -1.09,
+        "change_4w": -0.38,
+        "pct_52w": 56.8
       },
       "materials": {
-        "close": 52.59,
-        "change_pct": -2.01,
-        "change_4w": 6.24,
-        "pct_52w": 88.7
+        "close": 53.9,
+        "change_pct": 2.49,
+        "change_4w": 8.89,
+        "pct_52w": 99.0
       }
     },
     "macro": {
@@ -231,24 +231,18 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 34,
+        "score": 43,
         "rating": "Fear"
       },
       "skew": {
-        "close": 150.01,
-        "change_pct": -1.81,
+        "close": 150.9,
+        "change_pct": 0.59,
         "signal": "red",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
     },
     "calendar": [
-      {
-        "date": "2026-11-04",
-        "event": "FOMC 금리 결정",
-        "category": "fed",
-        "impact": "high"
-      },
       {
         "date": "2026-11-05",
         "event": "FOMC 기자회견",
@@ -290,64 +284,70 @@
         "event": "FOMC 금리 결정",
         "category": "fed",
         "impact": "high"
+      },
+      {
+        "date": "2026-12-17",
+        "event": "FOMC 기자회견",
+        "category": "fed",
+        "impact": "high"
       }
     ],
     "news": [
       {
-        "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
-        "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+        "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+        "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Wed, 04 Nov 2026 01:16:00 GMT",
-        "title_ko": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade"
+        "published": "Thu, 05 Nov 2026 01:05:00 GMT",
+        "title_ko": "This year’s worst-performing S&P 500 stock is finally seeing some major relief"
       },
       {
-        "title": "AI’s control over the bond market is growing — even rivaling war and elections",
-        "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+        "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
+        "url": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 03 Nov 2026 22:06:00 GMT",
-        "title_ko": "AI’s control over the bond market is growing — even rivaling war and elections"
+        "published": "Thu, 05 Nov 2026 00:38:00 GMT",
+        "title_ko": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction"
       },
       {
-        "title": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
-        "url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+        "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+        "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Tue, 03 Nov 2026 21:30:00 GMT",
-        "title_ko": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?"
+        "published": "Wed, 04 Nov 2026 21:55:00 GMT",
+        "title_ko": "Micron and other chip stocks slip as election results strike at the core of data-center optimism"
       },
       {
-        "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-        "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-        "source": "CNBC",
-        "published": "Wed, 04 Nov 2026 01:49:58 GMT",
-        "title_ko": "Midterm elections could jolt stocks if Democrats sweep Congress"
+        "title": "These stocks soared the most today after the Democrats trounced Trump",
+        "url": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Wed, 04 Nov 2026 21:55:00 GMT",
+        "title_ko": "These stocks soared the most today after the Democrats trounced Trump"
       },
       {
-        "title": "Stock market after midterm elections: What S&P 500 history shows",
-        "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+        "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
+        "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
         "source": "CNBC",
-        "published": "Tue, 03 Nov 2026 18:21:05 GMT",
-        "title_ko": "Stock market after midterm elections: What S&P 500 history shows"
+        "published": "Thu, 05 Nov 2026 01:11:26 GMT",
+        "title_ko": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14"
       },
       {
-        "title": "Binance breach puts custody at center of crypto infrastructure trade",
-        "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+        "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
         "source": "CNBC",
-        "published": "Tue, 03 Nov 2026 20:13:37 GMT",
-        "title_ko": "Binance breach puts custody at center of crypto infrastructure trade"
+        "published": "Wed, 04 Nov 2026 22:46:43 GMT",
+        "title_ko": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it"
       },
       {
-        "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
-        "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+        "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
         "source": "CNBC",
-        "published": "Tue, 03 Nov 2026 23:58:09 GMT",
-        "title_ko": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners"
+        "published": "Wed, 04 Nov 2026 20:14:52 GMT",
+        "title_ko": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war"
       },
       {
-        "title": "AMD has been crushed into earnings. Here’s one way to trade it",
-        "url": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html",
+        "title": "Prediction markets cement their status after forecasting Democratic sweep of Congress",
+        "url": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html",
         "source": "CNBC",
-        "published": "Tue, 03 Nov 2026 20:40:51 GMT",
-        "title_ko": "AMD has been crushed into earnings. Here’s one way to trade it"
+        "published": "Thu, 05 Nov 2026 02:07:35 GMT",
+        "title_ko": "Prediction markets cement their status after forecasting Democratic sweep of Congress"
       }
     ]
   },
@@ -359,25 +359,25 @@
     "tips": "red",
     "curve": "green",
     "sector": "red",
-    "sentiment": "red",
+    "sentiment": "yellow",
     "skew": "red",
     "combo": "yellow",
     "unemployment": "yellow",
     "oil": "red",
     "gdp": "green",
-    "gold_signal": "yellow",
-    "copper": "red",
+    "gold_signal": "red",
+    "copper": "yellow",
     "ism_mfg": "red",
     "ism_svc": "yellow",
     "contrarian_signal": null,
-    "overall": "red",
-    "verdict": "AVOID",
+    "overall": "yellow",
+    "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "WTI $95.1 >= $90",
-      "숨겨진경고: VIX 20.8(낮음)+Skew 150(높음)"
+      "숨겨진경고: VIX 16.6(낮음)+Skew 151(높음)",
+      "Gold 극단 위험회피 $4137"
     ],
-    "ratio": 0.35
+    "ratio": 0.4
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
@@ -397,5 +397,5 @@
     "entry_triggers": [],
     "key_events": []
   },
-  "verdict": "AVOID"
+  "verdict": "WAIT"
 }
