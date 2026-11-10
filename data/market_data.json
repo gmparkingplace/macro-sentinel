@@ -1,119 +1,119 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "indices": {
     "sp500": {
-      "close": 7376.86,
-      "prev_close": 7353.73,
-      "change_pct": 0.31,
-      "pct_52w": 69.4
+      "close": 7549.94,
+      "prev_close": 7376.86,
+      "change_pct": 2.35,
+      "pct_52w": 80.7
     },
     "nasdaq100": {
-      "close": 26989.99,
-      "prev_close": 26629.81,
-      "change_pct": 1.35,
-      "pct_52w": 48.7
+      "close": 27907.62,
+      "prev_close": 26989.99,
+      "change_pct": 3.4,
+      "pct_52w": 59.5
     },
     "russell": {
-      "close": 2754.11,
-      "prev_close": 2729.89,
-      "change_pct": 0.89,
-      "pct_52w": 58.8
+      "close": 2840.81,
+      "prev_close": 2754.11,
+      "change_pct": 3.15,
+      "pct_52w": 70.1
     },
     "vix": {
-      "close": 25.64,
-      "prev_close": 28.18,
-      "change_pct": -9.01,
-      "pct_52w": 55.9
+      "close": 19.92,
+      "prev_close": 25.64,
+      "change_pct": -22.31,
+      "pct_52w": 29.8
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.46,
-      "date": "2026-11-05",
-      "change_pct": -2.62,
-      "prev_value": 4.58
+      "value": 4.51,
+      "date": "2026-11-06",
+      "change_pct": 1.12,
+      "prev_value": 4.46
     },
     "us10y": {
-      "value": 4.84,
-      "date": "2026-11-05",
-      "change_pct": -1.22,
-      "prev_value": 4.9
+      "value": 4.86,
+      "date": "2026-11-06",
+      "change_pct": 0.41,
+      "prev_value": 4.84
     },
     "tips10y": {
-      "value": 2.6,
-      "date": "2026-11-05",
-      "change_pct": -1.52,
-      "prev_value": 2.64
+      "value": 2.63,
+      "date": "2026-11-06",
+      "change_pct": 1.15,
+      "prev_value": 2.6
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.35,
-      "date": "2026-11-06",
-      "change_pct": -7.89,
-      "prev_value": 0.38
+      "value": 0.32,
+      "date": "2026-11-09",
+      "change_pct": -8.57,
+      "prev_value": 0.35
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.48,
-      "date": "2026-11-05",
-      "change_pct": 4.82,
-      "prev_value": 3.32
+      "value": 3.42,
+      "date": "2026-11-06",
+      "change_pct": -1.72,
+      "prev_value": 3.48
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
   },
   "fx": {
     "dxy": {
-      "value": 121.6656,
-      "date": "2026-10-30",
-      "change_pct": -0.06,
-      "prev_value": 121.7361
+      "value": 121.8803,
+      "date": "2026-11-06",
+      "change_pct": 0.31,
+      "prev_value": 121.5061
     },
     "usdkrw": {
-      "close": 1356.34,
-      "prev_close": 1340.07,
-      "change_pct": 1.21,
-      "pct_52w": 13.7
+      "close": 1344.13,
+      "prev_close": 1362.7,
+      "change_pct": -1.36,
+      "pct_52w": 9.2
     },
     "usdjpy": {
-      "close": 157.5,
-      "prev_close": 158.36,
-      "change_pct": -0.54,
-      "pct_52w": 44.6
+      "close": 157.99,
+      "prev_close": 158.29,
+      "change_pct": -0.19,
+      "pct_52w": 48.8
     },
     "eurusd": {
       "close": 1.12,
-      "prev_close": 1.12,
-      "change_pct": 0.0,
+      "prev_close": 1.11,
+      "change_pct": 0.9,
       "pct_52w": 9.9
     }
   },
   "commodities": {
     "wti": {
-      "close": 90.34,
-      "prev_close": 90.52,
-      "change_pct": -0.2,
-      "pct_52w": 54.8
+      "close": 85.94,
+      "prev_close": 85.94,
+      "change_pct": 0.0,
+      "pct_52w": 48.0
     },
     "gold": {
-      "close": 4079.5,
-      "prev_close": 4113.5,
-      "change_pct": -0.83,
-      "pct_52w": 11.7
+      "close": 4122.6,
+      "prev_close": 4122.6,
+      "change_pct": 0.0,
+      "pct_52w": 14.3
     },
     "copper": {
-      "close": 6.26,
-      "prev_close": 6.25,
-      "change_pct": 0.16,
-      "pct_52w": 70.2
+      "close": 6.34,
+      "prev_close": 6.34,
+      "change_pct": 0.0,
+      "pct_52w": 74.3
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6745635.0
     },
     "rrp": {
-      "value": 0.15,
-      "date": "2026-11-06",
-      "change_pct": 20.0,
-      "prev_value": 0.125
+      "value": 0.252,
+      "date": "2026-11-09",
+      "change_pct": 68.0,
+      "prev_value": 0.15
     },
     "m2": {
       "value": 23413.9,
@@ -138,52 +138,52 @@
   },
   "sectors": {
     "tech": {
-      "close": 164.74,
-      "change_pct": 1.45,
-      "change_4w": -18.2,
-      "pct_52w": 49.9
+      "close": 170.88,
+      "change_pct": 3.73,
+      "change_4w": -12.98,
+      "pct_52w": 57.9
     },
     "financials": {
-      "close": 57.16,
-      "change_pct": -0.59,
-      "change_4w": 6.34,
-      "pct_52w": 77.3
+      "close": 57.99,
+      "change_pct": 1.45,
+      "change_4w": 5.34,
+      "pct_52w": 83.9
     },
     "energy": {
-      "close": 61.62,
-      "change_pct": -0.02,
-      "change_4w": -2.75,
-      "pct_52w": 69.1
+      "close": 61.94,
+      "change_pct": 0.52,
+      "change_4w": -6.17,
+      "pct_52w": 70.2
     },
     "utilities": {
-      "close": 43.13,
-      "change_pct": -0.39,
-      "change_4w": 4.81,
-      "pct_52w": 51.1
+      "close": 43.79,
+      "change_pct": 1.53,
+      "change_4w": 5.19,
+      "pct_52w": 59.3
     },
     "healthcare": {
-      "close": 184.8,
-      "change_pct": -0.06,
-      "change_4w": 9.47,
-      "pct_52w": 85.4
+      "close": 188.33,
+      "change_pct": 1.91,
+      "change_4w": 9.5,
+      "pct_52w": 92.3
     },
     "consumer_disc": {
-      "close": 117.58,
-      "change_pct": -0.05,
-      "change_4w": 5.59,
-      "pct_52w": 65.8
+      "close": 121.01,
+      "change_pct": 2.92,
+      "change_4w": 7.78,
+      "pct_52w": 83.4
     },
     "industrials": {
-      "close": 162.67,
-      "change_pct": 0.12,
-      "change_4w": -3.08,
-      "pct_52w": 40.7
+      "close": 168.89,
+      "change_pct": 3.82,
+      "change_4w": -0.15,
+      "pct_52w": 55.5
     },
     "materials": {
-      "close": 51.95,
-      "change_pct": -0.73,
-      "change_4w": 6.06,
-      "pct_52w": 79.6
+      "close": 52.94,
+      "change_pct": 1.91,
+      "change_4w": 7.08,
+      "pct_52w": 87.2
     }
   },
   "macro": {
@@ -229,15 +229,15 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 25,
+      "score": 37,
       "rating": "Fear"
     },
     "skew": {
-      "close": 153.55,
-      "change_pct": 2.8,
+      "close": 150.34,
+      "change_pct": -2.09,
       "signal": "red",
-      "combo_signal": "red",
-      "combo_label": "총체적위기(VIX↑+Skew↑)"
+      "combo_signal": "orange",
+      "combo_label": "숨겨진경고(VIX↓+Skew↑)"
     }
   },
   "calendar": [
@@ -280,67 +280,88 @@
   ],
   "news": [
     {
-      "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-      "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+      "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 06 Nov 2026 21:24:00 GMT",
-      "title_ko": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?"
+      "published": "Tue, 10 Nov 2026 00:48:00 GMT",
+      "title_ko": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips"
     },
     {
-      "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
-      "url": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Fri, 06 Nov 2026 21:15:00 GMT",
-      "title_ko": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home"
+      "published": "Mon, 09 Nov 2026 21:24:00 GMT",
+      "title_ko": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test."
     },
     {
-      "title": "My adviser recommended an annuity. Is it the right move in this market environment?",
-      "url": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Fri, 06 Nov 2026 18:53:00 GMT",
-      "title_ko": "My adviser recommended an annuity. Is it the right move in this market environment?"
-    },
-    {
-      "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-      "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
+      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 19:44:33 GMT",
-      "title_ko": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote"
+      "published": "Tue, 10 Nov 2026 03:56:15 GMT",
+      "title_ko": "China exports, imports soar past expectations in October — surplus narrows sharply"
     },
     {
-      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+      "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 17:09:53 GMT",
-      "title_ko": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%"
+      "published": "Tue, 10 Nov 2026 03:58:46 GMT",
+      "title_ko": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound"
     },
     {
-      "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 19:36:12 GMT",
-      "title_ko": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now"
+      "published": "Mon, 09 Nov 2026 21:03:55 GMT",
+      "title_ko": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
     },
     {
-      "title": "Democratic sweep gives markets a reason to rethink path of interest rates",
-      "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+      "title": "3 unexpected reasons the October jobs report was so strong",
+      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 12:30:40 GMT",
-      "title_ko": "Democratic sweep gives markets a reason to rethink path of interest rates"
+      "published": "Mon, 09 Nov 2026 22:23:56 GMT",
+      "title_ko": "3 unexpected reasons the October jobs report was so strong"
     },
     {
-      "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
+      "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 20:36:03 GMT",
-      "title_ko": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now"
+      "published": "Mon, 09 Nov 2026 20:29:36 GMT",
+      "title_ko": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight"
     },
     {
-      "title": "Nasdaq drops into correction territory — here’s what typically happens next",
-      "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+      "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
+      "url": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
       "source": "CNBC",
-      "published": "Fri, 06 Nov 2026 20:42:28 GMT",
-      "title_ko": "Nasdaq drops into correction territory — here’s what typically happens next"
+      "published": "Mon, 09 Nov 2026 23:31:17 GMT",
+      "title_ko": "PepsiCo to cut about 1,000 jobs as North American business struggles"
+    },
+    {
+      "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
+      "url": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
+      "source": "CNBC",
+      "published": "Mon, 09 Nov 2026 23:00:02 GMT",
+      "title_ko": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right"
+    },
+    {
+      "title": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+      "url": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+      "source": "CNBC",
+      "published": "Mon, 09 Nov 2026 21:24:13 GMT",
+      "title_ko": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance"
+    },
+    {
+      "title": "A massive trade in Nvidia just went off – here are the details",
+      "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+      "source": "CNBC",
+      "published": "Mon, 09 Nov 2026 18:37:59 GMT",
+      "title_ko": "A massive trade in Nvidia just went off – here are the details"
+    },
+    {
+      "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
+      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+      "source": "CNBC",
+      "published": "Mon, 09 Nov 2026 19:59:55 GMT",
+      "title_ko": "Trump administration proposes stricter work-search rules for unemployment benefits"
     }
   ]
 }
