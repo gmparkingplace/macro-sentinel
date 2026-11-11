@@ -1,71 +1,71 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "indices": {
     "sp500": {
-      "close": 7549.94,
-      "prev_close": 7376.86,
-      "change_pct": 2.35,
-      "pct_52w": 80.7
+      "close": 7520.93,
+      "prev_close": 7549.94,
+      "change_pct": -0.38,
+      "pct_52w": 78.8
     },
     "nasdaq100": {
-      "close": 27907.62,
-      "prev_close": 26989.99,
-      "change_pct": 3.4,
-      "pct_52w": 59.5
+      "close": 27740.79,
+      "prev_close": 27907.63,
+      "change_pct": -0.6,
+      "pct_52w": 57.5
     },
     "russell": {
-      "close": 2840.81,
-      "prev_close": 2754.11,
-      "change_pct": 3.15,
-      "pct_52w": 70.1
+      "close": 2821.38,
+      "prev_close": 2840.81,
+      "change_pct": -0.68,
+      "pct_52w": 67.6
     },
     "vix": {
-      "close": 19.92,
-      "prev_close": 25.64,
-      "change_pct": -22.31,
-      "pct_52w": 29.8
+      "close": 19.46,
+      "prev_close": 19.92,
+      "change_pct": -2.31,
+      "pct_52w": 27.7
     }
   },
   "rates": {
     "us2y": {
-      "value": 4.51,
-      "date": "2026-11-06",
-      "change_pct": 1.12,
-      "prev_value": 4.46
+      "value": 4.56,
+      "date": "2026-11-09",
+      "change_pct": 1.11,
+      "prev_value": 4.51
     },
     "us10y": {
-      "value": 4.86,
-      "date": "2026-11-06",
+      "value": 4.88,
+      "date": "2026-11-09",
       "change_pct": 0.41,
-      "prev_value": 4.84
+      "prev_value": 4.86
     },
     "tips10y": {
-      "value": 2.63,
-      "date": "2026-11-06",
-      "change_pct": 1.15,
-      "prev_value": 2.6
+      "value": 2.66,
+      "date": "2026-11-09",
+      "change_pct": 1.14,
+      "prev_value": 2.63
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.32,
-      "date": "2026-11-09",
-      "change_pct": -8.57,
-      "prev_value": 0.35
+      "value": 0.25,
+      "date": "2026-11-10",
+      "change_pct": -21.88,
+      "prev_value": 0.32
     },
     "us5s30s": {
       "value": null,
       "date": null
     },
     "hy_spread": {
-      "value": 3.42,
-      "date": "2026-11-06",
-      "change_pct": -1.72,
-      "prev_value": 3.48
+      "value": 3.34,
+      "date": "2026-11-09",
+      "change_pct": -2.34,
+      "prev_value": 3.42
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
@@ -78,42 +78,42 @@
       "prev_value": 121.5061
     },
     "usdkrw": {
-      "close": 1344.13,
-      "prev_close": 1362.7,
-      "change_pct": -1.36,
-      "pct_52w": 9.2
+      "close": 1337.38,
+      "prev_close": 1343.84,
+      "change_pct": -0.48,
+      "pct_52w": 6.7
     },
     "usdjpy": {
-      "close": 157.99,
-      "prev_close": 158.29,
-      "change_pct": -0.19,
-      "pct_52w": 48.8
+      "close": 158.82,
+      "prev_close": 157.98,
+      "change_pct": 0.53,
+      "pct_52w": 55.9
     },
     "eurusd": {
       "close": 1.12,
-      "prev_close": 1.11,
-      "change_pct": 0.9,
+      "prev_close": 1.12,
+      "change_pct": 0.0,
       "pct_52w": 9.9
     }
   },
   "commodities": {
     "wti": {
-      "close": 85.94,
-      "prev_close": 85.94,
-      "change_pct": 0.0,
-      "pct_52w": 48.0
+      "close": 86.54,
+      "prev_close": 86.85,
+      "change_pct": -0.36,
+      "pct_52w": 48.9
     },
     "gold": {
-      "close": 4122.6,
-      "prev_close": 4122.6,
-      "change_pct": 0.0,
-      "pct_52w": 14.3
+      "close": 4047.6,
+      "prev_close": 4114.5,
+      "change_pct": -1.63,
+      "pct_52w": 9.9
     },
     "copper": {
-      "close": 6.34,
-      "prev_close": 6.34,
-      "change_pct": 0.0,
-      "pct_52w": 74.3
+      "close": 6.29,
+      "prev_close": 6.33,
+      "change_pct": -0.63,
+      "pct_52w": 71.7
     }
   },
   "liquidity": {
@@ -124,10 +124,10 @@
       "prev_value": 6745635.0
     },
     "rrp": {
-      "value": 0.252,
-      "date": "2026-11-09",
-      "change_pct": 68.0,
-      "prev_value": 0.15
+      "value": 0.152,
+      "date": "2026-11-10",
+      "change_pct": -39.68,
+      "prev_value": 0.252
     },
     "m2": {
       "value": 23413.9,
@@ -138,63 +138,63 @@
   },
   "sectors": {
     "tech": {
-      "close": 170.88,
-      "change_pct": 3.73,
-      "change_4w": -12.98,
-      "pct_52w": 57.9
+      "close": 168.91,
+      "change_pct": -1.15,
+      "change_4w": -13.98,
+      "pct_52w": 55.3
     },
     "financials": {
-      "close": 57.99,
-      "change_pct": 1.45,
-      "change_4w": 5.34,
-      "pct_52w": 83.9
+      "close": 58.29,
+      "change_pct": 0.52,
+      "change_4w": 5.89,
+      "pct_52w": 86.2
     },
     "energy": {
-      "close": 61.94,
-      "change_pct": 0.52,
-      "change_4w": -6.17,
-      "pct_52w": 70.2
+      "close": 62.21,
+      "change_pct": 0.44,
+      "change_4w": -5.76,
+      "pct_52w": 71.2
     },
     "utilities": {
-      "close": 43.79,
-      "change_pct": 1.53,
-      "change_4w": 5.19,
-      "pct_52w": 59.3
+      "close": 43.73,
+      "change_pct": -0.14,
+      "change_4w": 5.04,
+      "pct_52w": 58.5
     },
     "healthcare": {
-      "close": 188.33,
-      "change_pct": 1.91,
-      "change_4w": 9.5,
-      "pct_52w": 92.3
+      "close": 188.88,
+      "change_pct": 0.29,
+      "change_4w": 9.82,
+      "pct_52w": 93.3
     },
     "consumer_disc": {
-      "close": 121.01,
-      "change_pct": 2.92,
-      "change_4w": 7.78,
-      "pct_52w": 83.4
+      "close": 121.05,
+      "change_pct": 0.03,
+      "change_4w": 7.82,
+      "pct_52w": 83.6
     },
     "industrials": {
-      "close": 168.89,
-      "change_pct": 3.82,
-      "change_4w": -0.15,
-      "pct_52w": 55.5
+      "close": 168.73,
+      "change_pct": -0.09,
+      "change_4w": -0.25,
+      "pct_52w": 55.1
     },
     "materials": {
-      "close": 52.94,
-      "change_pct": 1.91,
-      "change_4w": 7.08,
-      "pct_52w": 87.2
+      "close": 52.85,
+      "change_pct": -0.17,
+      "change_4w": 6.9,
+      "pct_52w": 86.5
     }
   },
   "macro": {
     "cpi_yoy": {
-      "value": 4.02,
-      "date": "2026-09-01",
+      "value": 4.08,
+      "date": "2026-10-01",
       "change_pct": null
     },
     "core_cpi": {
-      "value": 2.79,
-      "date": "2026-09-01",
+      "value": 2.87,
+      "date": "2026-10-01",
       "change_pct": null
     },
     "unemployment": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 37,
+      "score": 38,
       "rating": "Fear"
     },
     "skew": {
-      "close": 150.34,
-      "change_pct": -2.09,
+      "close": 151.12,
+      "change_pct": 0.52,
       "signal": "red",
       "combo_signal": "orange",
       "combo_label": "숨겨진경고(VIX↓+Skew↑)"
@@ -276,92 +276,98 @@
       "event": "FOMC 기자회견",
       "category": "fed",
       "impact": "high"
+    },
+    {
+      "date": "2026-12-23",
+      "event": "PCE 발표 (11월)",
+      "category": "pce",
+      "impact": "high"
     }
   ],
   "news": [
     {
-      "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
-      "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+      "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+      "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Tue, 10 Nov 2026 00:48:00 GMT",
-      "title_ko": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips"
+      "published": "Tue, 10 Nov 2026 22:37:00 GMT",
+      "title_ko": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins"
     },
     {
-      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-      "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+      "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
+      "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Mon, 09 Nov 2026 21:24:00 GMT",
-      "title_ko": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test."
+      "published": "Tue, 10 Nov 2026 22:30:00 GMT",
+      "title_ko": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon."
     },
     {
-      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
-      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
-      "source": "CNBC",
-      "published": "Tue, 10 Nov 2026 03:56:15 GMT",
-      "title_ko": "China exports, imports soar past expectations in October — surplus narrows sharply"
+      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Tue, 10 Nov 2026 21:42:00 GMT",
+      "title_ko": "Stocks fall as the 10-year Treasury yield nears 5% mark"
     },
     {
-      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
-      "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
       "source": "CNBC",
-      "published": "Tue, 10 Nov 2026 03:58:46 GMT",
-      "title_ko": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound"
+      "published": "Tue, 10 Nov 2026 21:45:46 GMT",
+      "title_ko": "White House vows to press ahead with tariffs despite midterm backlash over rising prices"
     },
     {
-      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "title": "Here's the inflation breakdown for October 2026 — in one chart",
+      "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 21:03:55 GMT",
-      "title_ko": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
+      "published": "Tue, 10 Nov 2026 16:36:40 GMT",
+      "title_ko": "Here's the inflation breakdown for October 2026 — in one chart"
     },
     {
-      "title": "3 unexpected reasons the October jobs report was so strong",
-      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+      "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 22:23:56 GMT",
-      "title_ko": "3 unexpected reasons the October jobs report was so strong"
+      "published": "Tue, 10 Nov 2026 21:06:07 GMT",
+      "title_ko": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations"
     },
     {
-      "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
-      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+      "title": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 20:29:36 GMT",
-      "title_ko": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight"
+      "published": "Tue, 10 Nov 2026 19:40:41 GMT",
+      "title_ko": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around"
     },
     {
-      "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
-      "url": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
+      "title": "Traders bet on a pop for Anthropic's historic IPO",
+      "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 23:31:17 GMT",
-      "title_ko": "PepsiCo to cut about 1,000 jobs as North American business struggles"
+      "published": "Tue, 10 Nov 2026 19:51:18 GMT",
+      "title_ko": "Traders bet on a pop for Anthropic's historic IPO"
     },
     {
-      "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
-      "url": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
+      "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+      "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 23:00:02 GMT",
-      "title_ko": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right"
+      "published": "Tue, 10 Nov 2026 21:37:43 GMT",
+      "title_ko": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report"
     },
     {
-      "title": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
-      "url": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+      "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+      "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 21:24:13 GMT",
-      "title_ko": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance"
+      "published": "Tue, 10 Nov 2026 15:04:23 GMT",
+      "title_ko": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem"
     },
     {
-      "title": "A massive trade in Nvidia just went off – here are the details",
-      "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+      "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+      "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 18:37:59 GMT",
-      "title_ko": "A massive trade in Nvidia just went off – here are the details"
+      "published": "Tue, 10 Nov 2026 21:36:13 GMT",
+      "title_ko": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring"
     },
     {
-      "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
-      "url": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+      "title": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
+      "url": "https://www.cnbc.com/2026/11/10/credit-card-debt-record.html",
       "source": "CNBC",
-      "published": "Mon, 09 Nov 2026 19:59:55 GMT",
-      "title_ko": "Trump administration proposes stricter work-search rules for unemployment benefits"
+      "published": "Tue, 10 Nov 2026 18:08:40 GMT",
+      "title_ko": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds"
     }
   ]
 }
