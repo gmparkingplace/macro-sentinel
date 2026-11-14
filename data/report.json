@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "data": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "indices": {
       "sp500": {
-        "close": 7592.4,
-        "prev_close": 7619.38,
-        "change_pct": -0.35,
-        "pct_52w": 83.5
+        "close": 7561.67,
+        "prev_close": 7592.4,
+        "change_pct": -0.4,
+        "pct_52w": 81.5
       },
       "nasdaq100": {
-        "close": 28289.19,
-        "prev_close": 28374.25,
-        "change_pct": -0.3,
-        "pct_52w": 63.9
+        "close": 27943.74,
+        "prev_close": 28289.19,
+        "change_pct": -1.22,
+        "pct_52w": 59.9
       },
       "russell": {
-        "close": 2799.06,
-        "prev_close": 2846.26,
-        "change_pct": -1.66,
-        "pct_52w": 64.7
+        "close": 2790.49,
+        "prev_close": 2799.06,
+        "change_pct": -0.31,
+        "pct_52w": 63.6
       },
       "vix": {
-        "close": 18.7,
-        "prev_close": 17.49,
-        "change_pct": 6.92,
-        "pct_52w": 24.3
+        "close": 19.3,
+        "prev_close": 18.7,
+        "change_pct": 3.21,
+        "pct_52w": 27.0
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.73,
-        "date": "2026-11-10",
-        "change_pct": 3.73,
-        "prev_value": 4.56
+        "value": 4.86,
+        "date": "2026-11-12",
+        "change_pct": 2.75,
+        "prev_value": 4.73
       },
       "us10y": {
-        "value": 4.98,
-        "date": "2026-11-10",
-        "change_pct": 2.05,
-        "prev_value": 4.88
+        "value": 5.1,
+        "date": "2026-11-12",
+        "change_pct": 2.41,
+        "prev_value": 4.98
       },
       "tips10y": {
-        "value": 2.78,
-        "date": "2026-11-10",
-        "change_pct": 4.51,
-        "prev_value": 2.66
+        "value": 2.86,
+        "date": "2026-11-12",
+        "change_pct": 2.88,
+        "prev_value": 2.78
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.24,
-        "date": "2026-11-12",
-        "change_pct": -4.0,
-        "prev_value": 0.25
+        "value": 0.27,
+        "date": "2026-11-13",
+        "change_pct": 12.5,
+        "prev_value": 0.24
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.3,
-        "date": "2026-11-11",
-        "change_pct": -1.2,
-        "prev_value": 3.34
+        "value": 3.2,
+        "date": "2026-11-12",
+        "change_pct": -3.03,
+        "prev_value": 3.3
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-11-10",
+        "date": "2026-11-12",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,42 +80,42 @@
         "prev_value": 121.5061
       },
       "usdkrw": {
-        "close": 1332.09,
+        "close": 1333.78,
         "prev_close": 1336.26,
-        "change_pct": -0.31,
-        "pct_52w": 4.7
+        "change_pct": -0.19,
+        "pct_52w": 5.3
       },
       "usdjpy": {
-        "close": 159.95,
+        "close": 159.88,
         "prev_close": 159.73,
-        "change_pct": 0.14,
-        "pct_52w": 65.6
+        "change_pct": 0.09,
+        "pct_52w": 65.0
       },
       "eurusd": {
         "close": 1.11,
         "prev_close": 1.11,
         "change_pct": 0.0,
-        "pct_52w": 5.0
+        "pct_52w": 7.4
       }
     },
     "commodities": {
       "wti": {
-        "close": 88.16,
-        "prev_close": 86.53,
-        "change_pct": 1.88,
-        "pct_52w": 51.4
+        "close": 88.92,
+        "prev_close": 88.74,
+        "change_pct": 0.2,
+        "pct_52w": 52.6
       },
       "gold": {
-        "close": 3920.0,
-        "prev_close": 4000.5,
-        "change_pct": -2.01,
-        "pct_52w": 2.4
+        "close": 3887.6,
+        "prev_close": 3885.3,
+        "change_pct": 0.06,
+        "pct_52w": 1.8
       },
       "copper": {
-        "close": 6.21,
-        "prev_close": 6.27,
-        "change_pct": -0.96,
-        "pct_52w": 67.5
+        "close": 6.06,
+        "prev_close": 6.18,
+        "change_pct": -1.94,
+        "pct_52w": 59.7
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6748145.0
       },
       "rrp": {
-        "value": 0.25,
-        "date": "2026-11-12",
-        "change_pct": 64.47,
-        "prev_value": 0.152
+        "value": 0.325,
+        "date": "2026-11-13",
+        "change_pct": 30.0,
+        "prev_value": 0.25
       },
       "m2": {
         "value": 23413.9,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 173.77,
-        "change_pct": -0.34,
-        "change_4w": -11.47,
-        "pct_52w": 61.6
+        "close": 170.28,
+        "change_pct": -2.01,
+        "change_4w": -10.58,
+        "pct_52w": 57.1
       },
       "financials": {
-        "close": 58.21,
-        "change_pct": -0.72,
-        "change_4w": 6.18,
-        "pct_52w": 85.6
+        "close": 58.68,
+        "change_pct": 0.81,
+        "change_4w": 7.63,
+        "pct_52w": 89.3
       },
       "energy": {
-        "close": 64.33,
-        "change_pct": 1.51,
-        "change_4w": -4.27,
-        "pct_52w": 78.9
+        "close": 64.96,
+        "change_pct": 0.98,
+        "change_4w": -3.95,
+        "pct_52w": 81.2
       },
       "utilities": {
-        "close": 43.81,
-        "change_pct": -0.02,
-        "change_4w": 4.63,
-        "pct_52w": 59.5
+        "close": 44.04,
+        "change_pct": 0.52,
+        "change_4w": 5.56,
+        "pct_52w": 62.4
       },
       "healthcare": {
-        "close": 187.83,
-        "change_pct": -0.59,
-        "change_4w": 10.71,
-        "pct_52w": 91.3
+        "close": 188.85,
+        "change_pct": 0.54,
+        "change_4w": 8.56,
+        "pct_52w": 93.3
       },
       "consumer_disc": {
-        "close": 120.46,
-        "change_pct": -0.44,
-        "change_4w": 7.21,
-        "pct_52w": 80.6
+        "close": 119.98,
+        "change_pct": -0.4,
+        "change_4w": 7.61,
+        "pct_52w": 78.2
       },
       "industrials": {
-        "close": 169.44,
-        "change_pct": -0.89,
-        "change_4w": 0.46,
-        "pct_52w": 56.8
+        "close": 168.78,
+        "change_pct": -0.39,
+        "change_4w": 1.04,
+        "pct_52w": 55.2
       },
       "materials": {
-        "close": 52.34,
-        "change_pct": -1.28,
-        "change_4w": 5.27,
-        "pct_52w": 82.6
+        "close": 52.23,
+        "change_pct": -0.21,
+        "change_4w": 5.15,
+        "pct_52w": 81.8
       }
     },
     "macro": {
@@ -231,13 +231,13 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 40,
+        "score": 39,
         "rating": "Fear"
       },
       "skew": {
-        "close": 150.16,
-        "change_pct": 0.72,
-        "signal": "red",
+        "close": 147.14,
+        "change_pct": -2.01,
+        "signal": "yellow",
         "combo_signal": "orange",
         "combo_label": "숨겨진경고(VIX↓+Skew↑)"
       }
@@ -282,67 +282,74 @@
     ],
     "news": [
       {
-        "title": "Opening trading-card packs has become a $2 billion market",
-        "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+        "title": "14 dividend stocks selected for long-term growth",
+        "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Nov 2026 22:38:00 GMT",
-        "title_ko": "Opening trading-card packs has become a $2 billion market"
+        "published": "Sat, 14 Nov 2026 01:58:00 GMT",
+        "title_ko": "14 dividend stocks selected for long-term growth"
       },
       {
-        "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-        "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+        "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+        "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Nov 2026 22:16:00 GMT",
-        "title_ko": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes"
+        "published": "Fri, 13 Nov 2026 22:04:00 GMT",
+        "title_ko": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel."
       },
       {
-        "title": "The 10 best stocks for a year-end momentum trade",
-        "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+        "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+        "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Thu, 12 Nov 2026 21:50:00 GMT",
-        "title_ko": "The 10 best stocks for a year-end momentum trade"
+        "published": "Fri, 13 Nov 2026 21:10:00 GMT",
+        "title_ko": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang"
       },
       {
-        "title": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 12 Nov 2026 21:08:00 GMT",
-        "title_ko": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat."
-      },
-      {
-        "title": "The bond market now has an even bigger fear than AI fallout",
-        "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 12 Nov 2026 20:44:00 GMT",
-        "title_ko": "The bond market now has an even bigger fear than AI fallout"
-      },
-      {
-        "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
-        "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+        "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
         "source": "CNBC",
-        "published": "Thu, 12 Nov 2026 20:01:29 GMT",
-        "title_ko": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips"
+        "published": "Sat, 14 Nov 2026 01:34:11 GMT",
+        "title_ko": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials"
       },
       {
-        "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
-        "url": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+        "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
         "source": "CNBC",
-        "published": "Wed, 11 Nov 2026 23:57:38 GMT",
-        "title_ko": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end"
+        "published": "Fri, 13 Nov 2026 22:18:43 GMT",
+        "title_ko": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion"
       },
       {
-        "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
-        "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+        "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+        "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
         "source": "CNBC",
-        "published": "Thu, 12 Nov 2026 20:03:57 GMT",
-        "title_ko": "Donald Trump Jr. exits advisory role at Kalshi prediction market"
+        "published": "Fri, 13 Nov 2026 21:18:30 GMT",
+        "title_ko": "AI risks are the biggest threat to the financial system, Fed survey finds"
       },
       {
-        "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-        "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+        "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+        "url": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
         "source": "CNBC",
-        "published": "Thu, 12 Nov 2026 19:05:25 GMT",
-        "title_ko": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates"
+        "published": "Fri, 13 Nov 2026 19:30:36 GMT",
+        "title_ko": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process"
+      },
+      {
+        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+        "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Nov 2026 15:44:16 GMT",
+        "title_ko": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years"
+      },
+      {
+        "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
+        "url": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Nov 2026 18:00:01 GMT",
+        "title_ko": "Is a bottom in for the Nasdaq-100? Charts to watch"
+      },
+      {
+        "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+        "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+        "source": "CNBC",
+        "published": "Fri, 13 Nov 2026 14:22:07 GMT",
+        "title_ko": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation"
       }
     ]
   },
@@ -355,7 +362,7 @@
     "curve": "green",
     "sector": "red",
     "sentiment": "yellow",
-    "skew": "red",
+    "skew": "yellow",
     "combo": "yellow",
     "unemployment": "green",
     "oil": "red",
@@ -369,9 +376,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "숨겨진경고: VIX 18.7(낮음)+Skew 150(높음)"
+      "숨겨진경고: VIX 19.3(낮음)+Skew 147(높음)"
     ],
-    "ratio": 0.425
+    "ratio": 0.45
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
