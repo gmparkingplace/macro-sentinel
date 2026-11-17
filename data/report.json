@@ -1,121 +1,121 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-17",
   "data": {
-    "date": "2026-11-14",
+    "date": "2026-11-17",
     "indices": {
       "sp500": {
-        "close": 7561.67,
-        "prev_close": 7592.4,
-        "change_pct": -0.4,
-        "pct_52w": 81.5
+        "close": 7416.59,
+        "prev_close": 7561.67,
+        "change_pct": -1.92,
+        "pct_52w": 72.0
       },
       "nasdaq100": {
-        "close": 27943.74,
-        "prev_close": 28289.19,
-        "change_pct": -1.22,
-        "pct_52w": 59.9
+        "close": 27197.15,
+        "prev_close": 27943.74,
+        "change_pct": -2.67,
+        "pct_52w": 51.1
       },
       "russell": {
-        "close": 2790.49,
-        "prev_close": 2799.06,
-        "change_pct": -0.31,
-        "pct_52w": 63.6
+        "close": 2742.94,
+        "prev_close": 2790.49,
+        "change_pct": -1.7,
+        "pct_52w": 57.4
       },
       "vix": {
-        "close": 19.3,
-        "prev_close": 18.7,
-        "change_pct": 3.21,
-        "pct_52w": 27.0
+        "close": 22.91,
+        "prev_close": 19.3,
+        "change_pct": 18.7,
+        "pct_52w": 43.5
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.86,
-        "date": "2026-11-12",
-        "change_pct": 2.75,
-        "prev_value": 4.73
+        "value": 4.88,
+        "date": "2026-11-13",
+        "change_pct": 0.41,
+        "prev_value": 4.86
       },
       "us10y": {
-        "value": 5.1,
-        "date": "2026-11-12",
-        "change_pct": 2.41,
-        "prev_value": 4.98
+        "value": 5.15,
+        "date": "2026-11-13",
+        "change_pct": 0.98,
+        "prev_value": 5.1
       },
       "tips10y": {
-        "value": 2.86,
-        "date": "2026-11-12",
-        "change_pct": 2.88,
-        "prev_value": 2.78
+        "value": 2.91,
+        "date": "2026-11-13",
+        "change_pct": 1.75,
+        "prev_value": 2.86
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.27,
-        "date": "2026-11-13",
-        "change_pct": 12.5,
-        "prev_value": 0.24
+        "value": 0.29,
+        "date": "2026-11-16",
+        "change_pct": 7.41,
+        "prev_value": 0.27
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.2,
-        "date": "2026-11-12",
-        "change_pct": -3.03,
-        "prev_value": 3.3
+        "value": 3.23,
+        "date": "2026-11-13",
+        "change_pct": 0.94,
+        "prev_value": 3.2
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-11-12",
+        "date": "2026-11-13",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
     },
     "fx": {
       "dxy": {
-        "value": 121.8803,
-        "date": "2026-11-06",
-        "change_pct": 0.31,
-        "prev_value": 121.5061
+        "value": 122.6503,
+        "date": "2026-11-13",
+        "change_pct": 0.09,
+        "prev_value": 122.5433
       },
       "usdkrw": {
-        "close": 1333.78,
-        "prev_close": 1336.26,
-        "change_pct": -0.19,
-        "pct_52w": 5.3
+        "close": 1336.78,
+        "prev_close": 1333.25,
+        "change_pct": 0.26,
+        "pct_52w": 6.4
       },
       "usdjpy": {
-        "close": 159.88,
-        "prev_close": 159.73,
-        "change_pct": 0.09,
-        "pct_52w": 65.0
+        "close": 159.24,
+        "prev_close": 159.78,
+        "change_pct": -0.34,
+        "pct_52w": 59.5
       },
       "eurusd": {
-        "close": 1.11,
-        "prev_close": 1.11,
+        "close": 1.1,
+        "prev_close": 1.1,
         "change_pct": 0.0,
-        "pct_52w": 7.4
+        "pct_52w": 1.2
       }
     },
     "commodities": {
       "wti": {
-        "close": 88.92,
-        "prev_close": 88.74,
-        "change_pct": 0.2,
-        "pct_52w": 52.6
+        "close": 85.03,
+        "prev_close": 85.03,
+        "change_pct": 0.0,
+        "pct_52w": 46.6
       },
       "gold": {
-        "close": 3887.6,
-        "prev_close": 3885.3,
-        "change_pct": 0.06,
-        "pct_52w": 1.8
+        "close": 3874.5,
+        "prev_close": 3874.5,
+        "change_pct": 0.0,
+        "pct_52w": 1.6
       },
       "copper": {
-        "close": 6.06,
-        "prev_close": 6.18,
-        "change_pct": -1.94,
-        "pct_52w": 59.7
+        "close": 5.98,
+        "prev_close": 5.98,
+        "change_pct": 0.0,
+        "pct_52w": 55.5
       }
     },
     "liquidity": {
@@ -126,10 +126,10 @@
         "prev_value": 6748145.0
       },
       "rrp": {
-        "value": 0.325,
-        "date": "2026-11-13",
-        "change_pct": 30.0,
-        "prev_value": 0.25
+        "value": 0.182,
+        "date": "2026-11-16",
+        "change_pct": -44.0,
+        "prev_value": 0.325
       },
       "m2": {
         "value": 23413.9,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 170.28,
-        "change_pct": -2.01,
-        "change_4w": -10.58,
-        "pct_52w": 57.1
+        "close": 164.76,
+        "change_pct": -3.24,
+        "change_4w": -11.4,
+        "pct_52w": 49.9
       },
       "financials": {
-        "close": 58.68,
-        "change_pct": 0.81,
-        "change_4w": 7.63,
-        "pct_52w": 89.3
+        "close": 58.18,
+        "change_pct": -0.85,
+        "change_4w": 5.67,
+        "pct_52w": 85.4
       },
       "energy": {
-        "close": 64.96,
-        "change_pct": 0.98,
-        "change_4w": -3.95,
-        "pct_52w": 81.2
+        "close": 63.69,
+        "change_pct": -1.96,
+        "change_4w": -6.06,
+        "pct_52w": 76.6
       },
       "utilities": {
-        "close": 44.04,
-        "change_pct": 0.52,
-        "change_4w": 5.56,
-        "pct_52w": 62.4
+        "close": 44.12,
+        "change_pct": 0.18,
+        "change_4w": 6.67,
+        "pct_52w": 63.4
       },
       "healthcare": {
-        "close": 188.85,
-        "change_pct": 0.54,
-        "change_4w": 8.56,
-        "pct_52w": 93.3
+        "close": 187.88,
+        "change_pct": -0.51,
+        "change_4w": 6.96,
+        "pct_52w": 91.4
       },
       "consumer_disc": {
-        "close": 119.98,
-        "change_pct": -0.4,
-        "change_4w": 7.61,
-        "pct_52w": 78.2
+        "close": 118.15,
+        "change_pct": -1.53,
+        "change_4w": 3.22,
+        "pct_52w": 68.8
       },
       "industrials": {
-        "close": 168.78,
-        "change_pct": -0.39,
-        "change_4w": 1.04,
-        "pct_52w": 55.2
+        "close": 165.66,
+        "change_pct": -1.85,
+        "change_4w": -0.61,
+        "pct_52w": 47.8
       },
       "materials": {
-        "close": 52.23,
-        "change_pct": -0.21,
-        "change_4w": 5.15,
-        "pct_52w": 81.8
+        "close": 51.47,
+        "change_pct": -1.46,
+        "change_4w": 1.02,
+        "pct_52w": 76.0
       }
     },
     "macro": {
@@ -231,15 +231,15 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 39,
+        "score": 32,
         "rating": "Fear"
       },
       "skew": {
-        "close": 147.14,
-        "change_pct": -2.01,
+        "close": 146.33,
+        "change_pct": -0.55,
         "signal": "yellow",
-        "combo_signal": "orange",
-        "combo_label": "숨겨진경고(VIX↓+Skew↑)"
+        "combo_signal": "red",
+        "combo_label": "총체적위기(VIX↑+Skew↑)"
       }
     },
     "calendar": [
@@ -282,88 +282,95 @@
     ],
     "news": [
       {
-        "title": "14 dividend stocks selected for long-term growth",
-        "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+        "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+        "url": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Sat, 14 Nov 2026 01:58:00 GMT",
-        "title_ko": "14 dividend stocks selected for long-term growth"
+        "published": "Mon, 16 Nov 2026 23:28:00 GMT",
+        "title_ko": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir"
       },
       {
-        "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
-        "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+        "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
+        "url": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 13 Nov 2026 22:04:00 GMT",
-        "title_ko": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel."
+        "published": "Mon, 16 Nov 2026 22:46:00 GMT",
+        "title_ko": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball"
       },
       {
-        "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-        "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+        "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+        "url": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 13 Nov 2026 21:10:00 GMT",
-        "title_ko": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang"
+        "published": "Mon, 16 Nov 2026 22:33:00 GMT",
+        "title_ko": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks"
       },
       {
-        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+        "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
         "source": "CNBC",
-        "published": "Sat, 14 Nov 2026 01:34:11 GMT",
-        "title_ko": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials"
+        "published": "Mon, 16 Nov 2026 22:37:45 GMT",
+        "title_ko": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access"
       },
       {
-        "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-        "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+        "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+        "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 22:18:43 GMT",
-        "title_ko": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion"
+        "published": "Tue, 17 Nov 2026 00:42:33 GMT",
+        "title_ko": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means"
       },
       {
-        "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
-        "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
+        "url": "https://www.cnbc.com/2026/11/16/as-nike-lululemon-struggle-in-china-xiaohongshu-helps-local-brands.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 21:18:30 GMT",
-        "title_ko": "AI risks are the biggest threat to the financial system, Fed survey finds"
+        "published": "Mon, 16 Nov 2026 23:00:01 GMT",
+        "title_ko": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off"
       },
       {
-        "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
-        "url": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
+        "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+        "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 19:30:36 GMT",
-        "title_ko": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process"
+        "published": "Mon, 16 Nov 2026 23:23:47 GMT",
+        "title_ko": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade"
       },
       {
-        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-        "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 15:44:16 GMT",
-        "title_ko": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years"
+        "published": "Mon, 16 Nov 2026 22:19:02 GMT",
+        "title_ko": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports"
       },
       {
-        "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
-        "url": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
+        "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+        "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 18:00:01 GMT",
-        "title_ko": "Is a bottom in for the Nasdaq-100? Charts to watch"
+        "published": "Mon, 16 Nov 2026 18:46:07 GMT",
+        "title_ko": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’"
       },
       {
-        "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-        "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+        "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+        "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
         "source": "CNBC",
-        "published": "Fri, 13 Nov 2026 14:22:07 GMT",
-        "title_ko": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation"
+        "published": "Mon, 16 Nov 2026 18:56:49 GMT",
+        "title_ko": "Market's Nvidia obsession obscuring an opportunity in this name"
+      },
+      {
+        "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
+        "url": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html",
+        "source": "CNBC",
+        "published": "Mon, 16 Nov 2026 19:06:11 GMT",
+        "title_ko": "This Anthropic proxy play is getting traders' attention – here's where they see it going"
       }
     ]
   },
   "scores": {
-    "vix": "yellow",
+    "vix": "red",
     "hy_spread": "green",
     "rates": "red",
     "dxy": "red",
     "tips": "red",
     "curve": "green",
     "sector": "red",
-    "sentiment": "yellow",
+    "sentiment": "red",
     "skew": "yellow",
-    "combo": "yellow",
+    "combo": "red",
     "unemployment": "green",
     "oil": "red",
     "gdp": "green",
@@ -375,10 +382,8 @@
     "overall": "yellow",
     "verdict": "WAIT",
     "stagflation_risk": false,
-    "override_reason": [
-      "숨겨진경고: VIX 19.3(낮음)+Skew 147(높음)"
-    ],
-    "ratio": 0.45
+    "override_reason": [],
+    "ratio": 0.375
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
