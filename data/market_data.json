@@ -1,56 +1,56 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "indices": {
     "sp500": {
-      "close": 7237.17,
-      "prev_close": 6910.39,
-      "change_pct": 4.73,
-      "pct_52w": 60.2
+      "close": 7201.09,
+      "prev_close": 7237.17,
+      "change_pct": -0.5,
+      "pct_52w": 57.9
     },
     "nasdaq100": {
-      "close": 26746.1,
-      "prev_close": 25028.98,
-      "change_pct": 6.86,
-      "pct_52w": 45.8
+      "close": 26214.17,
+      "prev_close": 26746.1,
+      "change_pct": -1.99,
+      "pct_52w": 39.6
     },
     "russell": {
-      "close": 2669.66,
-      "prev_close": 2581.79,
-      "change_pct": 3.4,
-      "pct_52w": 42.6
+      "close": 2684.94,
+      "prev_close": 2669.66,
+      "change_pct": 0.57,
+      "pct_52w": 42.1
     },
     "vix": {
-      "close": 26.62,
-      "prev_close": 35.89,
-      "change_pct": -25.83,
-      "pct_52w": 49.7
+      "close": 26.36,
+      "prev_close": 26.62,
+      "change_pct": -0.98,
+      "pct_52w": 48.7
     }
   },
   "rates": {
     "us2y": {
       "value": 4.63,
-      "date": "2026-11-20",
-      "change_pct": -2.73,
-      "prev_value": 4.76
+      "date": "2026-11-23",
+      "change_pct": 0.0,
+      "prev_value": 4.63
     },
     "us10y": {
       "value": 4.92,
-      "date": "2026-11-20",
-      "change_pct": -2.38,
-      "prev_value": 5.04
+      "date": "2026-11-23",
+      "change_pct": 0.0,
+      "prev_value": 4.92
     },
     "tips10y": {
-      "value": 2.77,
-      "date": "2026-11-20",
-      "change_pct": -3.82,
-      "prev_value": 2.88
+      "value": 2.79,
+      "date": "2026-11-23",
+      "change_pct": 0.72,
+      "prev_value": 2.77
     }
   },
   "spreads": {
     "us2s10s": {
-      "value": 0.29,
-      "date": "2026-11-23",
-      "change_pct": 0.0,
+      "value": 0.28,
+      "date": "2026-11-24",
+      "change_pct": -3.45,
       "prev_value": 0.29
     },
     "us5s30s": {
@@ -58,14 +58,14 @@
       "date": null
     },
     "hy_spread": {
-      "value": 3.76,
-      "date": "2026-11-20",
-      "change_pct": 6.82,
-      "prev_value": 3.52
+      "value": 3.63,
+      "date": "2026-11-23",
+      "change_pct": -3.46,
+      "prev_value": 3.76
     },
     "fra_ois": {
       "value": 3.88,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "change_pct": 0.0,
       "prev_value": 3.88
     }
@@ -78,42 +78,42 @@
       "prev_value": 123.5253
     },
     "usdkrw": {
-      "close": 1343.85,
-      "prev_close": 1344.31,
-      "change_pct": -0.03,
-      "pct_52w": 9.1
+      "close": 1341.8,
+      "prev_close": 1341.02,
+      "change_pct": 0.06,
+      "pct_52w": 8.3
     },
     "usdjpy": {
-      "close": 159.29,
-      "prev_close": 158.93,
-      "change_pct": 0.23,
-      "pct_52w": 59.9
+      "close": 159.41,
+      "prev_close": 159.01,
+      "change_pct": 0.25,
+      "pct_52w": 61.0
     },
     "eurusd": {
       "close": 1.09,
-      "prev_close": 1.1,
-      "change_pct": -0.91,
+      "prev_close": 1.09,
+      "change_pct": 0.0,
       "pct_52w": 1.4
     }
   },
   "commodities": {
     "wti": {
-      "close": 79.63,
-      "prev_close": 80.17,
-      "change_pct": -0.67,
-      "pct_52w": 38.2
+      "close": 80.69,
+      "prev_close": 82.05,
+      "change_pct": -1.66,
+      "pct_52w": 39.9
     },
     "gold": {
-      "close": 3616.0,
-      "prev_close": 3651.4,
-      "change_pct": -0.97,
-      "pct_52w": 5.4
+      "close": 3546.5,
+      "prev_close": 3561.9,
+      "change_pct": -0.43,
+      "pct_52w": 2.1
     },
     "copper": {
-      "close": 5.5,
-      "prev_close": 5.63,
-      "change_pct": -2.31,
-      "pct_52w": 29.0
+      "close": 5.45,
+      "prev_close": 5.36,
+      "change_pct": 1.68,
+      "pct_52w": 24.8
     }
   },
   "liquidity": {
@@ -124,66 +124,66 @@
       "prev_value": 6758867.0
     },
     "rrp": {
-      "value": 0.35,
-      "date": "2026-11-23",
-      "change_pct": -12.72,
-      "prev_value": 0.401
+      "value": 0.301,
+      "date": "2026-11-24",
+      "change_pct": -14.0,
+      "prev_value": 0.35
     },
     "m2": {
-      "value": 23413.9,
-      "date": "2026-09-01",
-      "change_pct": 0.48,
-      "prev_value": 23300.9
+      "value": 23532.8,
+      "date": "2026-10-01",
+      "change_pct": 0.51,
+      "prev_value": 23414.3
     }
   },
   "sectors": {
     "tech": {
-      "close": 162.38,
-      "change_pct": 8.97,
-      "change_4w": -12.85,
-      "pct_52w": 46.8
+      "close": 157.09,
+      "change_pct": -3.26,
+      "change_4w": -15.69,
+      "pct_52w": 39.9
     },
     "financials": {
-      "close": 55.65,
-      "change_pct": 1.98,
-      "change_4w": -0.66,
-      "pct_52w": 65.4
+      "close": 56.11,
+      "change_pct": 0.83,
+      "change_4w": 0.16,
+      "pct_52w": 69.1
     },
     "energy": {
-      "close": 59.87,
-      "change_pct": -1.06,
-      "change_4w": -14.03,
-      "pct_52w": 62.7
+      "close": 60.45,
+      "change_pct": 0.97,
+      "change_4w": -13.2,
+      "pct_52w": 64.8
     },
     "utilities": {
-      "close": 43.32,
-      "change_pct": 1.48,
-      "change_4w": 1.81,
-      "pct_52w": 53.4
+      "close": 43.4,
+      "change_pct": 0.18,
+      "change_4w": 2.0,
+      "pct_52w": 54.4
     },
     "healthcare": {
-      "close": 179.42,
-      "change_pct": 1.23,
-      "change_4w": 0.08,
-      "pct_52w": 75.0
+      "close": 184.72,
+      "change_pct": 2.95,
+      "change_4w": 3.03,
+      "pct_52w": 85.2
     },
     "consumer_disc": {
-      "close": 116.93,
-      "change_pct": 3.97,
-      "change_4w": 2.34,
-      "pct_52w": 62.5
+      "close": 117.72,
+      "change_pct": 0.68,
+      "change_4w": 3.03,
+      "pct_52w": 66.6
     },
     "industrials": {
-      "close": 162.47,
-      "change_pct": 3.9,
-      "change_4w": -2.69,
-      "pct_52w": 37.6
+      "close": 161.61,
+      "change_pct": -0.53,
+      "change_4w": -3.2,
+      "pct_52w": 34.9
     },
     "materials": {
-      "close": 49.9,
-      "change_pct": 3.23,
-      "change_4w": -2.88,
-      "pct_52w": 62.0
+      "close": 50.17,
+      "change_pct": 0.54,
+      "change_4w": -2.36,
+      "pct_52w": 63.0
     }
   },
   "macro": {
@@ -229,12 +229,12 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 21,
+      "score": 22,
       "rating": "Extreme Fear"
     },
     "skew": {
-      "close": 140.37,
-      "change_pct": 1.1,
+      "close": 139.16,
+      "change_pct": -0.86,
       "signal": "yellow",
       "combo_signal": "red",
       "combo_label": "총체적위기(VIX↑+Skew↑)"
@@ -280,67 +280,39 @@
   ],
   "news": [
     {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Tue, 24 Nov 2026 01:01:00 GMT",
-      "title_ko": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?"
-    },
-    {
-      "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
-      "url": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 23:18:00 GMT",
-      "title_ko": "The newest addition to the S&P 500 is a maker of viral ice-cream machines"
-    },
-    {
-      "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
-      "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 21:51:00 GMT",
-      "title_ko": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm"
-    },
-    {
-      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
-      "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 21:45:00 GMT",
-      "title_ko": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday"
-    },
-    {
-      "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-      "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 21:36:00 GMT",
-      "title_ko": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia"
-    },
-    {
-      "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-      "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 21:24:00 GMT",
-      "title_ko": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing"
-    },
-    {
-      "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-      "url": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Mon, 23 Nov 2026 21:19:00 GMT",
-      "title_ko": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history"
-    },
-    {
-      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
+      "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
       "source": "CNBC",
-      "published": "Mon, 23 Nov 2026 22:43:38 GMT",
-      "title_ko": "Nvidia surge: What investors should do with the stock and the AI trade now"
+      "published": "Wed, 25 Nov 2026 04:06:01 GMT",
+      "title_ko": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast"
     },
     {
-      "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
-      "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+      "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+      "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
       "source": "CNBC",
-      "published": "Tue, 24 Nov 2026 05:05:08 GMT",
-      "title_ko": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions"
+      "published": "Wed, 25 Nov 2026 02:43:33 GMT",
+      "title_ko": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets"
+    },
+    {
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Nov 2026 01:13:56 GMT",
+      "title_ko": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips"
+    },
+    {
+      "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+      "url": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html",
+      "source": "CNBC",
+      "published": "Tue, 24 Nov 2026 22:18:47 GMT",
+      "title_ko": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says"
+    },
+    {
+      "title": "China’s Xiamen Airlines to buy 50 Boeing jets in $7.4 billion deal",
+      "url": "https://www.cnbc.com/2026/11/25/china-xiamen-boeing-deal.html",
+      "source": "CNBC",
+      "published": "Wed, 25 Nov 2026 03:58:32 GMT",
+      "title_ko": "China’s Xiamen Airlines to buy 50 Boeing jets in $7.4 billion deal"
     },
     {
       "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
@@ -350,20 +322,6 @@
       "title_ko": "China has changed tactics but is still thwarting India's rise, a U.S. panel says"
     },
     {
-      "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
-      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
-      "source": "CNBC",
-      "published": "Tue, 24 Nov 2026 02:37:39 GMT",
-      "title_ko": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy"
-    },
-    {
-      "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html",
-      "source": "CNBC",
-      "published": "Mon, 23 Nov 2026 21:00:59 GMT",
-      "title_ko": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China"
-    },
-    {
       "title": "CNBC's The China Connection newsletter: AI race spreads from robots to smartphones",
       "url": "https://www.cnbc.com/2026/11/23/cnbcs-the-china-connection-newsletter-ai-race-spreads-to-smartphones.html",
       "source": "CNBC",
@@ -371,18 +329,11 @@
       "title_ko": "CNBC's The China Connection newsletter: AI race spreads from robots to smartphones"
     },
     {
-      "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
-      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
       "source": "CNBC",
-      "published": "Tue, 24 Nov 2026 02:20:36 GMT",
-      "title_ko": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits"
-    },
-    {
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "source": "CNBC",
-      "published": "Mon, 23 Nov 2026 21:02:17 GMT",
-      "title_ko": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation"
+      "published": "Tue, 24 Nov 2026 18:34:43 GMT",
+      "title_ko": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist"
     }
   ]
 }
