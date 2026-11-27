@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "indices": {
     "sp500": {
       "close": 7182.78,
@@ -20,10 +20,10 @@
       "pct_52w": 45.0
     },
     "vix": {
-      "close": 28.29,
-      "prev_close": 26.36,
-      "change_pct": 7.32,
-      "pct_52w": 55.9
+      "close": 26.8,
+      "prev_close": 28.29,
+      "change_pct": -5.27,
+      "pct_52w": 50.4
     }
   },
   "rates": {
@@ -78,16 +78,16 @@
       "prev_value": 123.5253
     },
     "usdkrw": {
-      "close": 1342.95,
-      "prev_close": 1342.65,
-      "change_pct": 0.02,
-      "pct_52w": 8.7
+      "close": 1340.08,
+      "prev_close": 1342.97,
+      "change_pct": -0.22,
+      "pct_52w": 7.7
     },
     "usdjpy": {
-      "close": 159.11,
-      "prev_close": 159.26,
-      "change_pct": -0.09,
-      "pct_52w": 58.4
+      "close": 159.25,
+      "prev_close": 159.21,
+      "change_pct": 0.03,
+      "pct_52w": 59.6
     },
     "eurusd": {
       "close": 1.1,
@@ -98,22 +98,22 @@
   },
   "commodities": {
     "wti": {
-      "close": 84.39,
-      "prev_close": 82.05,
-      "change_pct": 2.85,
-      "pct_52w": 45.6
+      "close": 85.79,
+      "prev_close": 83.68,
+      "change_pct": 2.52,
+      "pct_52w": 47.8
     },
     "gold": {
-      "close": 3620.7,
-      "prev_close": 3561.9,
-      "change_pct": 1.65,
-      "pct_52w": 5.7
+      "close": 3662.4,
+      "prev_close": 3535.8,
+      "change_pct": 3.58,
+      "pct_52w": 11.0
     },
     "copper": {
-      "close": 5.51,
-      "prev_close": 5.36,
-      "change_pct": 2.8,
-      "pct_52w": 28.1
+      "close": 5.64,
+      "prev_close": 5.33,
+      "change_pct": 5.82,
+      "pct_52w": 34.4
     }
   },
   "liquidity": {
@@ -229,7 +229,7 @@
   },
   "sentiment": {
     "fear_greed": {
-      "score": 17,
+      "score": 20,
       "rating": "Extreme Fear"
     },
     "skew": {
@@ -274,39 +274,46 @@
   ],
   "news": [
     {
-      "title": "Why this stock-market selloff is probably going to get worse before it gets better",
-      "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "published": "Thu, 26 Nov 2026 00:33:00 GMT",
-      "title_ko": "Why this stock-market selloff is probably going to get worse before it gets better"
-    },
-    {
       "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
       "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 25 Nov 2026 23:00:00 GMT",
+      "published": "Fri, 27 Nov 2026 01:00:00 GMT",
       "title_ko": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?"
     },
     {
-      "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
-      "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+      "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
       "source": "MarketWatch",
-      "published": "Wed, 25 Nov 2026 22:16:00 GMT",
-      "title_ko": "Oracle, CoreWeave and other tech stocks bounce back after selloff"
+      "published": "Thu, 26 Nov 2026 21:45:00 GMT",
+      "title_ko": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?"
     },
     {
-      "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-      "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
-      "source": "CNBC",
-      "published": "Thu, 26 Nov 2026 03:19:44 GMT",
-      "title_ko": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk"
+      "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
+      "url": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "published": "Thu, 26 Nov 2026 14:00:00 GMT",
+      "title_ko": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot"
     },
     {
-      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+      "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
       "source": "CNBC",
-      "published": "Wed, 25 Nov 2026 16:02:52 GMT",
-      "title_ko": "U.S. proposes new tariffs on 14 trading partners, including China and the EU"
+      "published": "Thu, 26 Nov 2026 21:13:17 GMT",
+      "title_ko": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher"
+    },
+    {
+      "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "source": "CNBC",
+      "published": "Thu, 26 Nov 2026 12:46:55 GMT",
+      "title_ko": "U.S. tariff-hike threats pile pressure on partners to sign trade deals"
+    },
+    {
+      "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+      "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "source": "CNBC",
+      "published": "Fri, 27 Nov 2026 02:04:09 GMT",
+      "title_ko": "China industrial profits growth surges to a 5-month high of 20.1% in October"
     },
     {
       "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
@@ -316,18 +323,11 @@
       "title_ko": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters"
     },
     {
-      "title": "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
-      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
       "source": "CNBC",
-      "published": "Thu, 26 Nov 2026 01:45:52 GMT",
-      "title_ko": "South Korea's Kospi leads gains as tech rebound lifts Asia markets"
-    },
-    {
-      "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
-      "url": "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html",
-      "source": "CNBC",
-      "published": "Thu, 26 Nov 2026 03:09:47 GMT",
-      "title_ko": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday"
+      "published": "Thu, 26 Nov 2026 17:52:15 GMT",
+      "title_ko": "Semiconductor chips are the new oil. Here's why"
     },
     {
       "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
@@ -335,20 +335,6 @@
       "source": "CNBC",
       "published": "Thu, 26 Nov 2026 00:12:16 GMT",
       "title_ko": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales"
-    },
-    {
-      "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
-      "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
-      "source": "CNBC",
-      "published": "Thu, 26 Nov 2026 03:32:53 GMT",
-      "title_ko": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years"
-    },
-    {
-      "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
-      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
-      "source": "CNBC",
-      "published": "Thu, 26 Nov 2026 01:34:58 GMT",
-      "title_ko": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds"
     },
     {
       "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
