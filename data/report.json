@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "data": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "indices": {
       "sp500": {
-        "close": 7182.78,
-        "prev_close": 7201.09,
-        "change_pct": -0.25,
-        "pct_52w": 56.7
+        "close": 7297.49,
+        "prev_close": 7182.78,
+        "change_pct": 1.6,
+        "pct_52w": 64.2
       },
       "nasdaq100": {
-        "close": 26046.9,
-        "prev_close": 26214.17,
-        "change_pct": -0.64,
-        "pct_52w": 37.6
+        "close": 26726.39,
+        "prev_close": 26046.9,
+        "change_pct": 2.61,
+        "pct_52w": 45.6
       },
       "russell": {
-        "close": 2704.06,
-        "prev_close": 2684.94,
-        "change_pct": 0.71,
-        "pct_52w": 45.0
+        "close": 2750.3,
+        "prev_close": 2704.06,
+        "change_pct": 1.71,
+        "pct_52w": 51.9
       },
       "vix": {
-        "close": 26.8,
-        "prev_close": 28.29,
-        "change_pct": -5.27,
-        "pct_52w": 50.4
+        "close": 23.81,
+        "prev_close": 26.8,
+        "change_pct": -11.16,
+        "pct_52w": 39.1
       }
     },
     "rates": {
       "us2y": {
-        "value": 4.63,
-        "date": "2026-11-24",
-        "change_pct": 0.0,
+        "value": 4.61,
+        "date": "2026-11-25",
+        "change_pct": -0.43,
         "prev_value": 4.63
       },
       "us10y": {
-        "value": 4.91,
-        "date": "2026-11-24",
-        "change_pct": -0.2,
-        "prev_value": 4.92
+        "value": 4.85,
+        "date": "2026-11-25",
+        "change_pct": -1.22,
+        "prev_value": 4.91
       },
       "tips10y": {
-        "value": 2.79,
-        "date": "2026-11-24",
-        "change_pct": 0.0,
+        "value": 2.73,
+        "date": "2026-11-25",
+        "change_pct": -2.15,
         "prev_value": 2.79
       }
     },
     "spreads": {
       "us2s10s": {
-        "value": 0.24,
-        "date": "2026-11-25",
-        "change_pct": -14.29,
-        "prev_value": 0.28
+        "value": 0.25,
+        "date": "2026-11-27",
+        "change_pct": 4.17,
+        "prev_value": 0.24
       },
       "us5s30s": {
         "value": null,
         "date": null
       },
       "hy_spread": {
-        "value": 3.72,
-        "date": "2026-11-24",
-        "change_pct": 2.48,
-        "prev_value": 3.63
+        "value": 3.77,
+        "date": "2026-11-26",
+        "change_pct": 0.0,
+        "prev_value": 3.77
       },
       "fra_ois": {
         "value": 3.88,
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "change_pct": 0.0,
         "prev_value": 3.88
       }
@@ -80,16 +80,16 @@
         "prev_value": 123.5253
       },
       "usdkrw": {
-        "close": 1340.08,
-        "prev_close": 1342.97,
-        "change_pct": -0.22,
-        "pct_52w": 7.7
+        "close": 1333.9,
+        "prev_close": 1343.53,
+        "change_pct": -0.72,
+        "pct_52w": 5.4
       },
       "usdjpy": {
-        "close": 159.25,
+        "close": 159.28,
         "prev_close": 159.21,
-        "change_pct": 0.03,
-        "pct_52w": 59.6
+        "change_pct": 0.04,
+        "pct_52w": 59.8
       },
       "eurusd": {
         "close": 1.1,
@@ -100,36 +100,36 @@
     },
     "commodities": {
       "wti": {
-        "close": 85.79,
+        "close": 83.08,
         "prev_close": 83.68,
-        "change_pct": 2.52,
-        "pct_52w": 47.8
+        "change_pct": -0.72,
+        "pct_52w": 43.6
       },
       "gold": {
-        "close": 3662.4,
+        "close": 3668.5,
         "prev_close": 3535.8,
-        "change_pct": 3.58,
-        "pct_52w": 11.0
+        "change_pct": 3.75,
+        "pct_52w": 11.3
       },
       "copper": {
-        "close": 5.64,
+        "close": 5.6,
         "prev_close": 5.33,
-        "change_pct": 5.82,
-        "pct_52w": 34.4
+        "change_pct": 5.07,
+        "pct_52w": 30.7
       }
     },
     "liquidity": {
       "fed_bs": {
-        "value": 6741452.0,
-        "date": "2026-11-18",
-        "change_pct": -0.26,
-        "prev_value": 6758867.0
+        "value": 6732044.0,
+        "date": "2026-11-25",
+        "change_pct": -0.14,
+        "prev_value": 6741452.0
       },
       "rrp": {
-        "value": 0.3,
-        "date": "2026-11-25",
-        "change_pct": -0.33,
-        "prev_value": 0.301
+        "value": 0.35,
+        "date": "2026-11-27",
+        "change_pct": 16.67,
+        "prev_value": 0.3
       },
       "m2": {
         "value": 23532.8,
@@ -140,52 +140,52 @@
     },
     "sectors": {
       "tech": {
-        "close": 155.79,
-        "change_pct": -0.83,
-        "change_4w": -16.39,
-        "pct_52w": 38.3
+        "close": 160.15,
+        "change_pct": 2.8,
+        "change_4w": -16.15,
+        "pct_52w": 43.9
       },
       "financials": {
-        "close": 56.51,
-        "change_pct": 0.71,
-        "change_4w": 0.87,
-        "pct_52w": 72.2
+        "close": 57.16,
+        "change_pct": 1.15,
+        "change_4w": 1.84,
+        "pct_52w": 77.3
       },
       "energy": {
-        "close": 60.9,
-        "change_pct": 0.74,
-        "change_4w": -12.55,
-        "pct_52w": 66.5
+        "close": 61.67,
+        "change_pct": 1.26,
+        "change_4w": -9.91,
+        "pct_52w": 69.3
       },
       "utilities": {
-        "close": 43.61,
-        "change_pct": 0.48,
-        "change_4w": 2.49,
-        "pct_52w": 57.0
+        "close": 43.73,
+        "change_pct": 0.28,
+        "change_4w": 2.92,
+        "pct_52w": 58.5
       },
       "healthcare": {
-        "close": 183.68,
-        "change_pct": -0.56,
-        "change_4w": 2.45,
-        "pct_52w": 83.2
+        "close": 184.2,
+        "change_pct": 0.28,
+        "change_4w": 2.49,
+        "pct_52w": 84.2
       },
       "consumer_disc": {
-        "close": 117.49,
-        "change_pct": -0.2,
-        "change_4w": 2.83,
-        "pct_52w": 65.4
+        "close": 119.97,
+        "change_pct": 2.11,
+        "change_4w": 4.02,
+        "pct_52w": 78.1
       },
       "industrials": {
-        "close": 162.95,
-        "change_pct": 0.83,
-        "change_4w": -2.4,
-        "pct_52w": 35.0
+        "close": 165.56,
+        "change_pct": 1.6,
+        "change_4w": -1.74,
+        "pct_52w": 41.8
       },
       "materials": {
-        "close": 51.21,
-        "change_pct": 2.07,
-        "change_4w": -0.33,
-        "pct_52w": 71.6
+        "close": 52.15,
+        "change_pct": 1.84,
+        "change_4w": 0.56,
+        "pct_52w": 79.4
       }
     },
     "macro": {
@@ -231,12 +231,12 @@
     },
     "sentiment": {
       "fear_greed": {
-        "score": 20,
-        "rating": "Extreme Fear"
+        "score": 26,
+        "rating": "Fear"
       },
       "skew": {
-        "close": 142.06,
-        "change_pct": 2.08,
+        "close": 145.9,
+        "change_pct": 2.7,
         "signal": "yellow",
         "combo_signal": "red",
         "combo_label": "총체적위기(VIX↑+Skew↑)"
@@ -276,74 +276,74 @@
     ],
     "news": [
       {
+        "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+        "url": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 27 Nov 2026 20:16:00 GMT",
+        "title_ko": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia"
+      },
+      {
+        "title": "The warnings behind this week’s stock-market rally",
+        "url": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "Fri, 27 Nov 2026 18:40:00 GMT",
+        "title_ko": "The warnings behind this week’s stock-market rally"
+      },
+      {
         "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
         "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "Fri, 27 Nov 2026 01:00:00 GMT",
+        "published": "Fri, 27 Nov 2026 15:45:00 GMT",
         "title_ko": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?"
       },
       {
-        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-        "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 26 Nov 2026 21:45:00 GMT",
-        "title_ko": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?"
+        "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+        "source": "CNBC",
+        "published": "Fri, 27 Nov 2026 22:00:57 GMT",
+        "title_ko": "Inflation has shoppers hunting for value. That bodes well for Black Friday"
       },
       {
-        "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
-        "url": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "Thu, 26 Nov 2026 14:00:00 GMT",
-        "title_ko": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot"
-      },
-      {
-        "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+        "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
         "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
         "source": "CNBC",
-        "published": "Thu, 26 Nov 2026 21:13:17 GMT",
-        "title_ko": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher"
+        "published": "Fri, 27 Nov 2026 15:52:00 GMT",
+        "title_ko": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher"
       },
       {
-        "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-        "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+        "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+        "url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
         "source": "CNBC",
-        "published": "Thu, 26 Nov 2026 12:46:55 GMT",
-        "title_ko": "U.S. tariff-hike threats pile pressure on partners to sign trade deals"
+        "published": "Fri, 27 Nov 2026 13:21:56 GMT",
+        "title_ko": "The S&P 500 is in a correction. Bear markets and recessions don't always follow"
       },
       {
-        "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
-        "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+        "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+        "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
         "source": "CNBC",
-        "published": "Fri, 27 Nov 2026 02:04:09 GMT",
-        "title_ko": "China industrial profits growth surges to a 5-month high of 20.1% in October"
+        "published": "Fri, 27 Nov 2026 10:13:44 GMT",
+        "title_ko": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support"
       },
       {
-        "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
-        "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
+        "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+        "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
         "source": "CNBC",
-        "published": "Thu, 26 Nov 2026 04:12:18 GMT",
-        "title_ko": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters"
+        "published": "Fri, 27 Nov 2026 12:00:22 GMT",
+        "title_ko": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?"
       },
       {
-        "title": "Semiconductor chips are the new oil. Here's why",
-        "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+        "title": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+        "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
         "source": "CNBC",
-        "published": "Thu, 26 Nov 2026 17:52:15 GMT",
-        "title_ko": "Semiconductor chips are the new oil. Here's why"
+        "published": "Fri, 27 Nov 2026 14:52:40 GMT",
+        "title_ko": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push"
       },
       {
-        "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
-        "url": "https://www.cnbc.com/2026/11/26/india-auto-slaes-economy-suzuki-hyundai-toyota.html",
+        "title": "Private markets are more accessible than ever for investors. Getting out is another matter",
+        "url": "https://www.cnbc.com/2026/11/27/private-markets-retail-investors-liquidity.html",
         "source": "CNBC",
-        "published": "Thu, 26 Nov 2026 00:12:16 GMT",
-        "title_ko": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales"
-      },
-      {
-        "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
-        "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
-        "source": "CNBC",
-        "published": "Wed, 25 Nov 2026 16:05:25 GMT",
-        "title_ko": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade"
+        "published": "Fri, 27 Nov 2026 08:05:09 GMT",
+        "title_ko": "Private markets are more accessible than ever for investors. Getting out is another matter"
       }
     ]
   },
@@ -359,7 +359,7 @@
     "skew": "yellow",
     "combo": "red",
     "unemployment": "green",
-    "oil": "red",
+    "oil": "yellow",
     "gdp": "green",
     "gold_signal": "red",
     "copper": "green",
@@ -370,10 +370,9 @@
     "verdict": "WAIT",
     "stagflation_risk": false,
     "override_reason": [
-      "VIX 26.8 >= 24",
-      "Gold 극단 위험회피 $3662"
+      "Gold 극단 위험회피 $3668"
     ],
-    "ratio": 0.35
+    "ratio": 0.4
   },
   "analysis": {
     "section0_summary": "분석 생성 실패",
